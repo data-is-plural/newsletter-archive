@@ -43,7 +43,7 @@ def create_item(path):
     )
 
     html = pypandoc.convert_text(
-        text,
+        "\n".join(text.strip().split("\n")[3:]),
         "html",
         format = "markdown_strict",
     )
