@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://tinyletter.com/data-is-plural</id>
   <title>Data Is Plural</title>
-  <updated>2019-12-27T15:48:53.779874+00:00</updated>
+  <updated>2020-01-01T13:09:08.586719+00:00</updated>
   <author>
     <name>Jeremy Singer-Vine</name>
     <email>jsvine@gmail.com</email>
@@ -11,9 +11,33 @@
   <generator>https://github.com/data-is-plural/newsletter-archive</generator>
   <subtitle>A weekly newsletter of useful/curious datasets.</subtitle>
   <entry>
+    <id>dip-2020-01-01</id>
+    <title>Data Is Plural — 2020.01.01 edition</title>
+    <updated>2020-01-01T13:09:09.214007+00:00</updated>
+    <content type="CDATA"><![CDATA[<p><em>Water quality, legislator ideology, Google copyright complaints, California university history, and game show risk-taking.</em></p>
+<p> </p>
+<p><em>But first ... a small New Year’s gift for DIP readers: <a href="https://github.com/data-is-plural/newsletter-archive/blob/master/README.md">You can now receive the newsletter via RSS</a>.</em></p>
+<p> </p>
+<p><strong>Global water quality.</strong> The UN’s <a href="https://gemstat.org">GEMStat project</a> provides “scientifically-sound data” on freshwater quality around the world. The <a href="https://gemstat.org/data/data-portal/">data portal</a> lets visitors <a href="https://gemstat.bafg.de/applications/public.html?publicuser=PublicUser">explore</a> and <a href="https://gemstat.org/custom-data-request/">download</a> water-sample results from thousands of stations in more than 80 countries. The information available for each sample varies, but it can include chemical, biological, and physical properties. <strong>Note</strong>: Not all locations have been sampled recently, and data downloads are limited to 500 stations at a time and for noncommercial purposes only. <strong>Related</strong>: “<a href="https://openknowledge.worldbank.org/handle/10986/32245">The Invisible Water Crisis</a>,” a World Bank report from last year that used the GEMStat data. [h/t <a href="https://twitter.com/rylan_dobson/status/1165142955243515904">Rylan Dobson</a>]</p>
+<p> </p>
+<p><strong>State legislator ideologies.</strong> Political scientists <a href="https://research.bshor.com">Boris Shor</a> and <a href="https://www.princeton.edu/~nmccarty/">Nolan McCarty</a>’s have <a href="https://americanlegislatures.com/faq/">assigned ideology scores</a>, on a conservative-to-liberal scale, to every US lawmaker in all 50 state legislatures. The <a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/6QWX7Q">most recent update</a>, published May 2018, covers more than 22,000 legislators from 1993 through 2016. Shor and McCarty derived the numeric scores from a combination of legislative voting records and responses to Vote Smart’s “<a href="https://justfacts.votesmart.org/about/political-courage-test/">Political Courage Test</a>.”</p>
+<p> </p>
+<p><strong>Copyright complaints.</strong> Google has received millions of requests from copyright holders to delist billions of URLs from its search results. The company’s <a href="https://transparencyreport.google.com">transparency reports</a> include a section where you can <a href="https://transparencyreport.google.com/copyright/overview">explore and download data</a> about these requests. One of the datasets describes 8.5 million delisting requests, with their dates, copyright holders, numbers of URLs targeted, and links to more details in <a href="https://www.lumendatabase.org">the Lumen archive</a>. Another contains every web domain targeted, while another lists the URLs for which Google says it took no action. [h/t <a href="https://www.reddit.com/r/datasets/comments/54kv4e/database_of_copyright_removal_requests_made_to/">Dan Nguyen</a>]</p>
+<p> </p>
+<p><strong>California university history.</strong> The <a href="https://uccliometric.org">UC ClioMetric History Project</a> is digitizing decades of administrative records from the University of California and other schools in the state (such as USC and Stanford). So far, they’ve uploaded data on more than <a href="https://uccliometric.org/students/">750,000 student enrollments</a>, <a href="https://uccliometric.org/faculty/">tens of thousands of faculty members</a>, and <a href="https://uccliometric.org/courses/">800,000 courses</a>.</p>
+<p> </p>
+<p><strong>Game show gambles.</strong> To study how people make decisions in risky situations, a team of academics <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=636508">analyzed contestants’ choices</a> in 100+ episodes of <a href="https://en.wikipedia.org/wiki/Deal_or_No_Deal">Deal or No Deal</a> that aired in the Netherlands, Germany, and the US. Their dataset is available <a href="https://www.openicpsr.org/openicpsr/project/113232/version/V1/view">through ICPSR</a> (registration required) and <a href="http://web.archive.org/web/2018*/https://www.aeaweb.org/articles?id=10.1257/aer.98.1.38">the Wayback Machine</a>.</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send risky feedback to jsvine@gmail.com, or just reply to this email. Looking for past datasets? <a href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk">This spreadsheet contains them all</a>. Did a friend forward you this email? <a href="https://tinyletter.com/data-is-plural">Click here to subscribe</a>.</em></p>
+]]></content>
+    <link href="http://tinyletter.com/data-is-plural/letters/data-is-plural-2020-01-01-edition" rel="alternate"/>
+    <summary>Water quality, legislator ideology, Google copyright complaints, California university history, and game show risk-taking.</summary>
+    <published>2020-01-01T08:00:00-05:00</published>
+  </entry>
+  <entry>
     <id>dip-2019-12-18</id>
     <title>Data Is Plural — 2019.12.18 edition</title>
-    <updated>2019-12-27T15:48:53.970710+00:00</updated>
+    <updated>2020-01-01T13:09:09.145537+00:00</updated>
     <content type="CDATA"><![CDATA[<p><em>Emissions, the Arab Barometer, Duterte’s drug war deaths, think tank citations, and jump scares.</em></p>
 <p> </p>
 <p><strong>Emissions indicators.</strong> The <a href="https://climateactiontracker.org">Climate Action Tracker</a> is “an independent scientific analysis” that keeps tabs on 32 countries’ progress on tackling climate change. Through its <a href="https://climateactiontracker.org/data-portal/">data portal</a>, you can explore the project’s dozens of indicators — such as emissions per capita and renewable energy capacity — and also download the data in bulk. The countries covered include “the biggest emitters and a representative sample of smaller emitters,” and account for “about 80% of global emissions and approximately 70% of global population.” [h/t <a href="https://github.com/erikgahner/PolData">Erik Gahner Larsen</a>]</p>
@@ -35,7 +59,7 @@
   <entry>
     <id>dip-2019-12-11</id>
     <title>Data Is Plural — 2019.12.11 edition</title>
-    <updated>2019-12-27T15:48:53.948723+00:00</updated>
+    <updated>2020-01-01T13:09:09.077070+00:00</updated>
     <content type="CDATA"><![CDATA[<p><em>Death row, environmental treaties, spelling fixes, book ratings, and yearbook photos.</em></p>
 <p> </p>
 <p><strong>Death row.</strong> “Forty-three years after the Supreme Court reversed course and reinstated the death penalty, reliable data on the individuals sent to death row is maddeningly difficult to obtain.” <a href="https://theintercept.com/series/the-condemned/">So reporters at The Intercept</a> “set out to compile a comprehensive dataset on everyone sentenced to die in active death penalty jurisdictions since 1976.” <a href="https://github.com/firstlookmedia/the-condemned-data">The resulting database</a> contains more than 7,300 entries; for each person, it contains demographics, sentencing information, whether the person is still on death row, whether they’ve been exonerated, and more. <strong>Previously:</strong> <a href="https://endofitsrope.com/using-the-database/">Death sentences</a> (<a href="https://tinyletter.com/data-is-plural/letters/data-is-plural-2018-08-01-edition">DIP 2018.08.01</a>), <a href="https://deathpenaltyinfo.org/executions/execution-database">executions</a> (<a href="https://tinyletter.com/data-is-plural/letters/data-is-plural-2019-05-15-edition">DIP 2019.05.15</a>), and <a href="https://selectstarsql.com/frontmatter.html#dataset">last words</a> (<a href="https://tinyletter.com/data-is-plural/letters/data-is-plural-2019-03-06-edition">DIP 2019.03.06</a>).</p>
@@ -57,7 +81,7 @@
   <entry>
     <id>dip-2019-12-04</id>
     <title>Data Is Plural — 2019.12.04 edition</title>
-    <updated>2019-12-27T15:48:53.927657+00:00</updated>
+    <updated>2020-01-01T13:09:09.009751+00:00</updated>
     <content type="CDATA"><![CDATA[<p><em>Income inequality, ambassadorial qualifications, Samoa’s measles outbreak, science PhD candidates, and the Database of British and Irish Hills.</em></p>
 <p> </p>
 <p><strong>Income inequality around the world, over time.</strong> Political scientist <a href="https://fsolt.org/">Frederick Solt</a>’s <a href="https://fsolt.org/swiid/">Standardized World Income Inequality Database</a> provides annual <a href="https://en.wikipedia.org/wiki/Gini_coefficient">Gini coefficients</a> for 196 countries and territories. For many, the calculations go back to the 1960s. The database draws on <a href="https://fsolt.org/swiid/swiid_source/">hundreds of sources</a>, including international organizations, national statistical offices, and academic studies. In an <a href="https://osf.io/preprints/socarxiv/mwnje/">accompanying paper</a>, Solt argues that the SWIID represents an improvement over other similar efforts, such as the United Nations University’s <a href="https://www.wider.unu.edu/project/wiid-world-income-inequality-database">World Income Inequality Database</a> (<a href="https://tinyletter.com/data-is-plural/letters/data-is-plural-2016-06-01-edition">DIP 2016.06.01</a>). [h/t <a href="https://twitter.com/YJuliaJung/status/1200986856881610753">Y. Julia Jung</a>]</p>
@@ -79,7 +103,7 @@
   <entry>
     <id>dip-2019-11-27</id>
     <title>Data Is Plural — 2019.11.27 edition</title>
-    <updated>2019-12-27T15:48:53.907336+00:00</updated>
+    <updated>2020-01-01T13:09:08.941537+00:00</updated>
     <content type="CDATA"><![CDATA[<p><em>Blue helmets, earthquakes in Mexico, seized Greek real estate, Bollywood, and medieval monasteries.</em></p>
 <p> </p>
 <p><strong>UN blue helmets.</strong> The United Nations <a href="https://peacekeeping.un.org/en/open-data-portal">publishes data</a> describing its <a href="https://peacekeeping.un.org/en/peacekeeping-master-open-datasets">active peacekeeping missions</a> and <a href="https://peacekeeping.un.org/en/data-troop-and-police-contributions">police and military personnel</a>, plus <a href="https://peacekeeping.un.org/en/peacekeeper-fatalities">all peacekeeping fatalities since 1948</a>. <strong>Also:</strong> The International Peace Institute’s <a href="http://www.providingforpeacekeeping.org/contributions/">Peacekeeping Database</a> tracks member-countries’ historical contributions of personnel going back to 1990. <strong>Plus:</strong> Last month, researchers at Uppsala University’s Department of Peace and Conflict Research <a href="https://journals.sagepub.com/doi/abs/10.1177/0022343319871978?journalCode=jpra">introduced</a> a <a href="https://www.pcr.uu.se/data/geo-pko/">Geocoded Peacekeeping Operations dataset</a>, which provides detailed information about the location and troops for all UN peacekeeping deployments in Africa from 1994 to 2014, with stated plans to extend coverage through 2018 soon. [h/t <a href="https://www.reddit.com/r/IRstudies/comments/dmhn38/dataset_the_geocoded_peacekeeping_operations/">u/smurfyjenkins</a>]</p>
@@ -101,7 +125,7 @@
   <entry>
     <id>dip-2019-11-20</id>
     <title>Data Is Plural — 2019.11.20 edition</title>
-    <updated>2019-12-27T15:48:53.884619+00:00</updated>
+    <updated>2020-01-01T13:09:08.866483+00:00</updated>
     <content type="CDATA"><![CDATA[<p><em>Chicago prosecutions, electricity prices, financial well-being, soccer play-by-play, and Central Park squirrels.</em></p>
 <p> </p>
 <p><strong>Chicago prosecutions.</strong> Since early 2018, the <a href="https://www.cookcountystatesattorney.org/">Cook County State's Attorney's Office</a> has been publishing <a href="https://www.cookcountystatesattorney.org/about/case-level-data">detailed data</a> on every felony case it has handled since 2010. (The office, whose jurisdiction includes Chicago, is the second-largest local prosecutorial agency in the country.) <a href="https://datacatalog.cookcountyil.gov/browse?tags=state%27s+attorney+case-level&amp;sortBy=most_accessed">The datasets</a> cover four main stages: <a href="https://datacatalog.cookcountyil.gov/Courts/Intake/3k7z-hchi">intake</a>, <a href="https://datacatalog.cookcountyil.gov/Courts/Initiation/7mck-ehwz">initiation</a>, <a href="https://datacatalog.cookcountyil.gov/Courts/Dispositions/apwk-dzx8">charging</a>, and <a href="https://datacatalog.cookcountyil.gov/Courts/Sentencing/tg8v-tm6u">sentencing</a>. <strong>Related:</strong> In a <a href="https://pudding.cool/2019/10/prosecutors/">recent Pudding article</a> copublished with <a href="https://www.themarshallproject.org/2019/10/24/the-kim-foxx-effect-how-prosecutions-have-changed-in-cook-county">The Marshall Project</a> and <a href="https://projects.chicagoreporter.com/kim-foxx-prosecutions-20191024/">Chicago Reporter</a>, <a href="https://twitter.com/matthew_daniels">Matt Daniels</a> used the data to examine how prosecutions have changed under State’s Attorney Kim Foxx, who promised reforms.</p>
@@ -123,7 +147,7 @@
   <entry>
     <id>dip-2019-11-13</id>
     <title>Data Is Plural — 2019.11.13 edition</title>
-    <updated>2019-12-27T15:48:53.863888+00:00</updated>
+    <updated>2020-01-01T13:09:08.798299+00:00</updated>
     <content type="CDATA"><![CDATA[<p><em>Millions of violent crimes, online news language, interwar debt, food flows, and perceived vs. real ages.</em></p>
 <p> </p>
 <p><strong>Millions of violent crimes.</strong> <a href="https://www.thetrace.org/">The Trace</a> has <a href="https://www.thetrace.org/violent-crime-data/">posted raw data</a> on 4.3 million murders, nonfatal shootings, assaults, robberies, and rapes, obtained from 56 police and sheriff’s departments in the United States. <strong>Related:</strong> <a href="https://twitter.com/missryley/status/1190361721526992896">Sarah Ryley's introductory Twitter thread</a>. <strong>Also related:</strong> The Trace and BuzzFeed News’ <a href="https://www.buzzfeednews.com/article/sarahryley/police-unsolved-shootings">investigative reporting</a> on <a href="https://www.buzzfeednews.com/article/sarahryley/5-things-to-know-about-cities-failure-to-arrest-shooters">cities’ failure to arrest shooters</a>, for which Sarah, Sean Campbell, and I <a href="https://github.com/the-trace-and-buzzfeed-news/introduction">used many of these datasets</a>.</p>
@@ -145,7 +169,7 @@
   <entry>
     <id>dip-2019-10-23</id>
     <title>Data Is Plural — 2019.10.23 edition</title>
-    <updated>2019-12-27T15:48:53.844227+00:00</updated>
+    <updated>2020-01-01T13:09:08.732621+00:00</updated>
     <content type="CDATA"><![CDATA[<p><em>Autocracies, ECB speeches, biomedical citations, adoptable dogs, and data-visualization professionals.</em></p>
 <p> </p>
 <p><strong>Autocracies.</strong> The Autocratic Ruling Parties Dataset <a href="https://journals.sagepub.com/doi/full/10.1177/0022002719876000">bills itself</a> as “the first comprehensive data set on the founding origins, modes of gaining and losing power, ruling tenures, and other characteristics of autocratic ruling parties.” <a href="https://sites.google.com/site/mkmtwo/data">The dataset</a>, created by political science professor <a href="https://sites.google.com/site/mkmtwo/home">Michael K. Miller</a>, covers nearly 500 parties in more than 150 countries between 1940 and 2015. [h/t <a href="https://www.reddit.com/r/datasets/comments/dgve6r/new_dataset_on_all_autocratic_ruling_parties/">u/smurfyjenkins</a>]</p>
@@ -167,7 +191,7 @@
   <entry>
     <id>dip-2019-10-16</id>
     <title>Data Is Plural — 2019.10.16 edition</title>
-    <updated>2019-12-27T15:48:53.825370+00:00</updated>
+    <updated>2020-01-01T13:09:08.666527+00:00</updated>
     <content type="CDATA"><![CDATA[<p><em>Presidential popularity, California power outages, mobile broadband prices, the ways couples meet, and palm trees.</em></p>
 <p> </p>
 <p><strong>Presidential popularity.</strong> The <a href="http://www.executiveapproval.org/">Executive Approval Project</a> uses international polling data measure public support for presidents, prime ministers, and other political executives in 50 countries. For most of the countries, the database goes back to the 1990s; for some, it goes even further. Access requires providing a name, affiliation, and email address — plus agreeing to receive updates. [h/t <a href="https://github.com/erikgahner/PolData/">Erik Gahner Larsen</a>]</p>
@@ -180,7 +204,12 @@
 <p> </p>
 <p><strong>🌴🌴🌴🌴🌴.</strong> A team of researchers has “<a href="https://www.nature.com/articles/s41597-019-0189-0">derived measurements of essential functional traits</a>” for more than 2,500 species of palm plants — including but not limited to palm trees. Their <a href="https://datadryad.org/stash/dataset/doi:10.5061/dryad.ts45225">PalmTraits database</a>, based on published studies and preserved specimens, includes variables such as maximum height, fruit shape, and whether the fruit color is “conspicuous.”</p>
 <p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send frondtastic feedback to <a href="mailto:jsvine@gmail.com">jsvine@gmail.com</a>, or just reply to this email. Looking for past datasets? <a href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk">This spreadsheet contains them all</a>. Did a friend forward you this email? <a href="https://tinyletter.com/data-is-plural">Click here to subscribe</a>.</em></p>
+<p><em>Dataset suggestions? Criticism? Praise? Send frondtastic feedback to <script type="text/javascript">
+<!--
+h='&#x67;&#x6d;&#x61;&#x69;&#108;&#46;&#x63;&#x6f;&#x6d;';a='&#64;';n='&#106;&#x73;&#118;&#x69;&#110;&#x65;';e=n+a+h;
+document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+e+'<\/'+'a'+'>');
+// -->
+</script><noscript>&#106;&#x73;&#118;&#x69;&#110;&#x65;&#32;&#x61;&#116;&#32;&#x67;&#x6d;&#x61;&#x69;&#108;&#32;&#100;&#x6f;&#116;&#32;&#x63;&#x6f;&#x6d;</noscript>, or just reply to this email. Looking for past datasets? <a href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk">This spreadsheet contains them all</a>. Did a friend forward you this email? <a href="https://tinyletter.com/data-is-plural">Click here to subscribe</a>.</em></p>
 ]]></content>
     <link href="http://tinyletter.com/data-is-plural/letters/data-is-plural-2019-10-16-edition" rel="alternate"/>
     <summary>Presidential popularity, California power outages, mobile broadband prices, the ways couples meet, and palm trees.</summary>
@@ -189,7 +218,7 @@
   <entry>
     <id>dip-2019-10-09</id>
     <title>Data Is Plural — 2019.10.09 edition</title>
-    <updated>2019-12-27T15:48:53.806635+00:00</updated>
+    <updated>2020-01-01T13:09:08.587850+00:00</updated>
     <content type="CDATA"><![CDATA[<p><em>Wealth distributions, parliamentary rules, electricity in rural India, web encryption, and Walter White.</em></p>
 <p> </p>
 <p><strong>Financial access.</strong> Last week, the International Monetary Fund <a href="https://www.imf.org/en/News/Articles/2019/09/27/pr19359-imf-releases-the-2019-financial-access-survey-results">released the results</a> of its <a href="https://data.imf.org/FAS">10th annual Financial Access Survey</a>. It’s a “supply-side” dataset; its country-level metrics include, for instance, the number of automated teller machines (mainland China has the most, with more than 1 million) and active mobile banking accounts (Pakistan and Bangladesh are tops). Many of the metrics are also disaggregated by gender.</p>
@@ -202,32 +231,15 @@
 <p> </p>
 <p><strong>Walter White and company.</strong> Web developer <a href="https://timbilestim.netlify.com">Tim Biles</a> has created an <a href="https://breakingbadapi.com/documentation">unofficial Breaking Bad API</a>. It provides structured data on every character, episode, and death in the TV series, plus selected quotations.</p>
 <p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send home-cooked feedback to <a href="mailto:jsvine@gmail.com">jsvine@gmail.com</a>, or just reply to this email. Looking for past datasets? <a href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk">This spreadsheet contains them all</a>. Did a friend forward you this email? <a href="https://tinyletter.com/data-is-plural">Click here to subscribe</a>.</em></p>
+<p><em>Dataset suggestions? Criticism? Praise? Send home-cooked feedback to <script type="text/javascript">
+<!--
+h='&#x67;&#x6d;&#x61;&#x69;&#108;&#46;&#x63;&#x6f;&#x6d;';a='&#64;';n='&#106;&#x73;&#118;&#x69;&#110;&#x65;';e=n+a+h;
+document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+e+'<\/'+'a'+'>');
+// -->
+</script><noscript>&#106;&#x73;&#118;&#x69;&#110;&#x65;&#32;&#x61;&#116;&#32;&#x67;&#x6d;&#x61;&#x69;&#108;&#32;&#100;&#x6f;&#116;&#32;&#x63;&#x6f;&#x6d;</noscript>, or just reply to this email. Looking for past datasets? <a href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk">This spreadsheet contains them all</a>. Did a friend forward you this email? <a href="https://tinyletter.com/data-is-plural">Click here to subscribe</a>.</em></p>
 ]]></content>
     <link href="http://tinyletter.com/data-is-plural/letters/data-is-plural-2019-10-09-edition" rel="alternate"/>
     <summary>Wealth distributions, parliamentary rules, electricity in rural India, web encryption, and Walter White.</summary>
     <published>2019-10-09T08:00:00-04:00</published>
-  </entry>
-  <entry>
-    <id>dip-2019-10-02</id>
-    <title>Data Is Plural — 2019.10.02 edition</title>
-    <updated>2019-12-27T15:48:53.780588+00:00</updated>
-    <content type="CDATA"><![CDATA[<p><em>Wealth distributions, Snapchat political ads, datos cubanos, bird sounds, and designer data.</em></p>
-<p> </p>
-<p><strong>Wealth, asset, and debt distributions.</strong> The Federal Reserve’s <a href="https://www.federalreserve.gov/releases/efa/enhanced-financial-accounts.htm">Enhanced Financial Accounts datasets</a> are supplements to the central bank’s more-aggregated <a href="https://www.federalreserve.gov/releases/Z1/">Financial Accounts of the United States</a> statistics. Among them: <a href="https://www.federalreserve.gov/releases/efa/efa-distributional-financial-accounts.htm">wealth, asset, and debt distributions</a> by percentile and demographic. Also: <a href="https://www.federalreserve.gov/releases/efa/efa-project-section-529-college-plans.htm">College savings plans by state</a> and <a href="https://www.federalreserve.gov/releases/efa/efa-project-consolidated-balance-sheet.htm">the banking industry’s balance sheet</a>. [h/t <a href="https://www.reddit.com/r/datasets/comments/b761im/federal_reserves_new_time_series_on_wealth/">u/loopback2019</a>]</p>
-<p> </p>
-<p><strong>Snapchat political ads.</strong> Snapchat <a href="https://businesshelp.snapchat.com/en-US/article/political-ads-library">has released</a> detailed data about <a href="https://www.snap.com/en-US/political-ads/">every political ad purchased on its platform</a> in 2018 and 2019. For each ad, the information includes its targeting parameters (age, gender, location, interests, internet service provider, device operating system, and more), the dates the it ran, the amount spent, number of impressions, and a link to the ad itself. Snap says this year’s data will be updated daily and that new ads will appear within 24 hours of first delivery. [h/t <a href="https://github.com/erikgahner/PolData">Erik Gahner Larsen</a>]</p>
-<p> </p>
-<p><strong>Datos cubanos.</strong> Official, reliable data on Cuba is hard to come by. So Cuban journalist <a href="https://twitter.com/barbaramaseda">Barbara Maseda</a>’s <a href="https://proyectoinventario.org/">Proyecto Inventario</a> has been collecting and publishing datasets relevant to the island nation — including by documenting the country’s <a href="https://proyectoinventario.org/parlamento-cuba-ix-legislatura-anpp/">legislators</a>, <a href="https://proyectoinventario.org/apagones-programados-cuba-reportes-ciudadanos/">blackouts</a>, and <a href="https://proyectoinventario.org/registro-cooperativas-no-agropecuarias-cuba/">non-agricultural cooperatives</a>. <strong>Related:</strong> <a href="https://knightcenter.utexas.edu/blog/00-21226-cuban-journalist-uses-creativity-dig-information-and-maintain-database-other-media">Júlio Lubianco’s profile of Maseda and the project</a>.</p>
-<p> </p>
-<p><strong>Bird sounds.</strong> Machine learning scientist <a href="https://github.com/AgaMiko">Agnieszka Mikołajczyk</a> has been <a href="https://github.com/AgaMiko/Bird-recognition-review">gathering useful resources</a> for identifying birds by sound. The resources include about a dozen datasets of audio recordings, many of which are immediately downloadable.</p>
-<p> </p>
-<p><strong>Designer data.</strong> Nearly 10,000 people took the American Institute of Graphic Arts’ “Design Census” earlier this year. The (non-scientific but detailed) <a href="https://designcensus.org/">results are out</a>, and the raw data are (prominently) available to download. [h/t <a href="https://www.robinsloan.com/">Robin Sloan</a>]</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send very well-kerned feedback to <a href="mailto:jsvine@gmail.com">jsvine@gmail.com</a>, or just reply to this email. Looking for past datasets? <a href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk">This spreadsheet contains them all</a>. Did a friend forward you this email? <a href="https://tinyletter.com/data-is-plural">Click here to subscribe</a>.</em></p>
-]]></content>
-    <link href="http://tinyletter.com/data-is-plural/letters/data-is-plural-2019-10-02-edition" rel="alternate"/>
-    <summary>Wealth distributions, Snapchat political ads, datos cubanos, bird sounds, and designer data.</summary>
-    <published>2019-10-02T08:00:00-04:00</published>
   </entry>
 </feed>
