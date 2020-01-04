@@ -55,6 +55,7 @@ def create_item(path):
         "title": text.strip().split("\n")[0],
         "guid": f"dip-{date_str}",
         "published": date,
+        "updated": date,
         "summary": re.search(r"\*(.+?)\*\s*\n", text).group(1),
         "content": {
             "content": html,
@@ -67,9 +68,14 @@ def build():
     feed = FeedGenerator()
     call_dict_as_methods(feed, FEED_SETTINGS)
 
-    for path in sorted(glob("editions/*.md"))[-10:]:
-        entry = feed.add_entry()
-        call_dict_as_methods(entry, create_item(path))
+    paths = sorted(glob("editions/*.md"), reverse = True)[:10]
+
+    for i, path in enumerate(paths):
+        entry = feed.add_entry(order = "append")
+        data = create_item(path)
+        call_dict_as_methods(entry, data)
+        if i == 0:
+            feed.updated(data["updated"])
 
     return feed
 
