@@ -6,7 +6,28 @@
     <description>A weekly newsletter of useful/curious datasets.</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>https://github.com/data-is-plural/newsletter-archive</generator>
-    <lastBuildDate>Wed, 01 Jan 2020 08:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 15 Jan 2020 08:00:00 -0500</lastBuildDate>
+    <item>
+      <title>Data Is Plural — 2020.01.15 edition</title>
+      <link>http://tinyletter.com/data-is-plural/letters/data-is-plural-2020-01-15-edition</link>
+      <description>Missing migrants, global antitrust, microbes, geographic renaming proposals, and the life of a supercomputer.</description>
+      <content:encoded><![CDATA[<p><em>Missing migrants, global antitrust, microbes, geographic renaming proposals, and the life of a supercomputer.</em></p>
+<p> </p>
+<p><strong>Missing migrants.</strong> The <a href="https://missingmigrants.iom.int/about">Missing Migrants Project</a> “tracks deaths of migrants, including refugees and asylum-seekers, who have gone missing along mixed migration routes worldwide.” Research for the project, an initiative of the <a href="https://www.iom.int">International Organization for Migration</a>, began after the <a href="https://en.wikipedia.org/wiki/2013_Lampedusa_migrant_shipwreck">fatal Lampedusa shipwrecks</a> of October 2013. For each incident, the project’s <a href="https://missingmigrants.iom.int/downloads">datasets</a> specify the location, the number of people who died, the number who are missing, the number who survived, the sources of information, the source quality, and more. <strong>Previously</strong>: <a href="https://github.com/ondata/the-list">European migration deaths</a>, 1993 to May 2018 (<a href="https://tinyletter.com/data-is-plural/letters/data-is-plural-2018-07-18-edition">DIP 2018.07.18</a>). [h/t <a href="https://www.reddit.com/r/datasets/comments/eiwiww/dataset_where_migrants_die/">u/cavedave</a> + <a href="https://twitter.com/tjukanov/status/1212641818975916032">Topi Tjukanov</a>]</p>
+<p> </p>
+<p><strong>Global antitrust.</strong> The <a href="https://comparativecompetitionlaw.org">Comparative Competition Law project</a> classifies the legal provisions and enforcement of antitrust laws around the world, over time. The project is run by law professors <a href="https://www.law.columbia.edu/faculty/anu-bradford">Anu Bradford</a> and <a href="http://www.adamchilton.org">Adam Chilton</a>, and features several <a href="http://comparativecompetitionlaw.org/data/">datasets and detailed codebooks</a>. (They require an email address but no formal registration.) <strong>Related</strong>: <a href="https://twitter.com/adamschilton/status/1192498999204483074">Chilton’s introductory Twitter thread</a>. [h/t <a href="https://twitter.com/dusek_libor/status/1192520366373187586">Libor Dusek</a>]</p>
+<p> </p>
+<p><strong>Microorganisms.</strong> The <a href="https://microbe.directory/">Microbe Directory</a> is an attempt to profile more than 7,000 bacteria, viruses, archaea, and other microorganisms. The directory <a href="https://microbe.directory/developers">can be downloaded</a> <a href="https://github.com/microbe-directory/microbe-directory">in bulk</a> and describes the microbes’ optimal temperature, optimal pH, Gram stain, pathogenicity, antimicrobial resistance, and more.</p>
+<p> </p>
+<p><strong>Geographic (re)naming proposals.</strong> When someone wants to officially name or rename a geographic feature of the United States — such as a mountain, creek, or island — they file a proposal with the <a href="https://www.usgs.gov/core-science-systems/ngp/board-on-geographic-names">US Board on Geographic Names</a>. Those proposals end up on the agency’s “<a href="https://geonames.usgs.gov/apex/f?p=geonames_web:review_lists:0:::::">Action List</a>,” the most recent year of which can be downloaded as a spreadsheet. <strong>Previously</strong>: <a href="https://www.usgs.gov/core-science-systems/ngp/board-on-geographic-names/download-gnis-data">The Board’s database of every US geographic name</a> (<a href="https://tinyletter.com/data-is-plural/letters/data-is-plural-2015-10-21-edition">DIP 2015.10.21</a>). [h/t <a href="https://twitter.com/veltman/status/1201906847382269953">Noah Veltman</a>]</p>
+<p> </p>
+<p><strong>The life of a supercomputer.</strong> <a href="http://fusionwiki.ciemat.es/wiki/CIEMAT">CIEMAT</a> — a public institution in Spain that studies energy and the environment — <a href="https://www.sciencedirect.com/science/article/pii/S2352340919313629">has published</a> nearly a decade of <a href="https://www.cse.huji.ac.il/labs/parallel/workload/l_ciemat_euler/index.html">processing receipts from its Euler supercomputer</a>. The records, which span the supercomputer’s entire lifetime, contain metadata for more than 9 million computing jobs, including timestamps, memory usage, and more.</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send CPU-intensive feedback to jsvine@gmail.com, or just reply to this email. Looking for past datasets? <a href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk">This spreadsheet contains them all</a>. Did a friend forward you this email? <a href="https://tinyletter.com/data-is-plural">Click here to subscribe</a>.</em></p>
+]]></content:encoded>
+      <guid isPermaLink="false">dip-2020-01-15</guid>
+      <pubDate>Wed, 15 Jan 2020 08:00:00 -0500</pubDate>
+    </item>
     <item>
       <title>Data Is Plural — 2020.01.01 edition</title>
       <link>http://tinyletter.com/data-is-plural/letters/data-is-plural-2020-01-01-edition</link>
@@ -197,27 +218,6 @@
 ]]></content:encoded>
       <guid isPermaLink="false">dip-2019-10-16</guid>
       <pubDate>Wed, 16 Oct 2019 08:00:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Data Is Plural — 2019.10.09 edition</title>
-      <link>http://tinyletter.com/data-is-plural/letters/data-is-plural-2019-10-09-edition</link>
-      <description>Wealth distributions, parliamentary rules, electricity in rural India, web encryption, and Walter White.</description>
-      <content:encoded><![CDATA[<p><em>Wealth distributions, parliamentary rules, electricity in rural India, web encryption, and Walter White.</em></p>
-<p> </p>
-<p><strong>Financial access.</strong> Last week, the International Monetary Fund <a href="https://www.imf.org/en/News/Articles/2019/09/27/pr19359-imf-releases-the-2019-financial-access-survey-results">released the results</a> of its <a href="https://data.imf.org/FAS">10th annual Financial Access Survey</a>. It’s a “supply-side” dataset; its country-level metrics include, for instance, the number of automated teller machines (mainland China has the most, with more than 1 million) and active mobile banking accounts (Pakistan and Bangladesh are tops). Many of the metrics are also disaggregated by gender.</p>
-<p> </p>
-<p><strong>The rules for making rules.</strong> The <a href="https://parlrulesdata.org/">Parliamentary Rules Database</a> traces “the formal rules of procedure for various parliaments over time.” Currently, the database covers two parliaments — the UK House of Commons and the Irish Dáil. The House of Commons info includes more than 137,000 “<a href="https://www.parliament.uk/site-information/glossary/standing-orders/">standing orders</a>,” going all the way back to 1811. [h/t <a href="https://github.com/erikgahner/PolData">Erik Gahner Larsen</a>]</p>
-<p> </p>
-<p><strong>Electricity in rural India.</strong> Last month, the <a href="http://www.smartpowerindia.org/">Smart Power India</a> and the <a href="https://sais-isep.org/">Initiative for Sustainable Energy Policy</a> published <a href="https://dataverse.harvard.edu/dataverse/REDI">Rural Electricity Demand in India</a>, a new survey dataset that “covers 10,000 households and 2,000 rural enterprises across 200 villages in Bihar, Uttar Pradesh, Odisha, and Rajasthan.” Respondents were asked, among other things, how many hours per day they get electricity, whether they have solar panels, and the price they pay for kerosene. [h/t <a href="https://twitter.com/hishamzerriffi/status/1175544673571524610">Hisham Zerriffi</a> + <a href="https://twitter.com/jurpelai/status/1175050741427257345">Johannes Urpelainen</a>]</p>
-<p> </p>
-<p><strong>Web encryption.</strong> Programmer <a href="https://www.leebutterman.com/">Lee Butterman</a> has <a href="https://www.leebutterman.com/2019/08/01/handshaking-the-web-dataset-of-350-million-ssl-connections.html">built a dataset</a> of the <a href="https://www.leebutterman.com/2019/08/05/analyzing-hundreds-of-millions-of-ssl-connections.html">SSL encyryption connections associated with 350 million web domains</a>. For each connection, the dataset indicates the SSL certificate’s issuer, cryptographic algorithms used, and other details. [h/t <a href="https://mailchi.mp/c1861f935ce7/naked-data-232-stripy-teslas-twitter-twerps-and-thomas-cooked">Jason Norwood-Young</a>]</p>
-<p> </p>
-<p><strong>Walter White and company.</strong> Web developer <a href="https://timbilestim.netlify.com">Tim Biles</a> has created an <a href="https://breakingbadapi.com/documentation">unofficial Breaking Bad API</a>. It provides structured data on every character, episode, and death in the TV series, plus selected quotations.</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send home-cooked feedback to <a href="mailto:jsvine@gmail.com" class="email">jsvine@gmail.com</a>, or just reply to this email. Looking for past datasets? <a href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk">This spreadsheet contains them all</a>. Did a friend forward you this email? <a href="https://tinyletter.com/data-is-plural">Click here to subscribe</a>.</em></p>
-]]></content:encoded>
-      <guid isPermaLink="false">dip-2019-10-09</guid>
-      <pubDate>Wed, 09 Oct 2019 08:00:00 -0400</pubDate>
     </item>
   </channel>
 </rss>
