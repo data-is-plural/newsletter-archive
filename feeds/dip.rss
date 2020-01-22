@@ -6,7 +6,28 @@
     <description>A weekly newsletter of useful/curious datasets.</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>https://github.com/data-is-plural/newsletter-archive</generator>
-    <lastBuildDate>Wed, 15 Jan 2020 08:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 22 Jan 2020 08:00:00 -0500</lastBuildDate>
+    <item>
+      <title>Data Is Plural — 2020.01.22 edition</title>
+      <link>http://tinyletter.com/data-is-plural/letters/data-is-plural-2020-01-22-edition</link>
+      <description>China’s projects abroad, radio/TV broadcast areas, street sprawl, cannabis tests, and backyard ice rinks.</description>
+      <content:encoded><![CDATA[<p><em>China’s projects abroad, radio/TV broadcast areas, street sprawl, cannabis tests, and backyard ice rinks.</em></p>
+<p> </p>
+<p><strong>China’s projects abroad.</strong> The <a href="https://www.aiddata.org/about">AidData research lab</a> at the College of William &amp; Mary has published several datasets on China’s international soft-power efforts, including the <a href="https://www.aiddata.org/blog/aiddata-releases-first-ever-global-dataset-on-chinas-development-spending-spree">first-ever</a> dataset of <a href="https://www.aiddata.org/data/geocoded-chinese-global-official-finance-dataset">government-financed development projects abroad</a> (covering 3,485 projects between 2000 and 2014) and a structured dataset of <a href="https://www.aiddata.org/data/chinas-public-diplomacy-dashboard-dataset-version-1-0">diplomacy efforts in 25 Asia/Pacific countries</a> between 2000 and 2016. [h/t <a href="https://www.visualcapitalist.com/global-chinese-financing-is-fueling-megaprojects">Nick Routley</a> + <a href="https://twitter.com/simongerman600/status/1216764349026574337">Simon Kuestenmacher</a>]</p>
+<p> </p>
+<p><strong>Broadcast geography.</strong> To construct her maps “<a href="https://erdavis.com/2020/01/04/visualizing-the-geography-of-fm-radio/">visualizing the geography of FM radio</a>” in the US, <a href="https://erdavis.com/about/">Erin Davis</a> combined the Federal Communication Commission’s <a href="https://www.fcc.gov/media/radio/fm-service-contour-data-points">service contour data</a> — the area where reception for a station “is generally protected from interference caused by other stations” — with the agency’s <a href="https://www.fcc.gov/media/radio/fm-query">radio station licensing data</a> and genre information from <a href="https://radio-locator.com">radio-locator.com</a>. The FCC also provides <a href="https://www.fcc.gov/media/television/tv-service-contour-data-points">service contour data for broadcast television</a>. <strong>Previously</strong>: <a href="http://reboot.fcc.gov/license-view/">All FCC-issued licenses</a> (<a href="https://tinyletter.com/data-is-plural/letters/data-is-plural-2016-09-07-edition">DIP 2016.09.07</a>). [h/t <a href="https://us5.campaign-archive.com/?u=77ecabbd32e97a6caa9d7d40b&amp;id=c55fd8b814">Giuseppe Sollazzo</a>]</p>
+<p> </p>
+<p><strong>Street sprawl.</strong> Using 46 million kilometers of <a href="https://planet.openstreetmap.org">data from OpenStreetMap</a>, <a href="https://wellbeing.ihsp.mcgill.ca">Christopher Barrington-Leigh</a> and <a href="https://people.ucsc.edu/~adammb/">Adam Millard-Ball</a> have <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0223078">published</a> “the first systematic and globally commensurable measures of street-network sprawl based on graph-theoretic and geographic concepts.” You can explore their findings via an <a href="https://sprawlmap.org/">interactive map</a> and also download <a href="https://sprawl.research.mcgill.ca/publications/2020-PNAS-sprawl/website-FAQ.html">aggregate metrics</a> for nearly 200 cities and more than 160 countries. [h/t <a href="https://twitter.com/robroc">Roberto Rocha</a>]</p>
+<p> </p>
+<p><strong>Cannabis tests.</strong> Despite US adults increasingly gaining state-legal access to cannabis, “no universal standards for laboratory testing protocols currently exist,” write <a href="https://twitter.com/trikomes">Nick Jikomes</a> and <a href="https://michaelzoorob.com/about/">Michael Zoorob</a>, in a <a href="https://www.nature.com/articles/s41598-018-22755-2">March 2018 article</a> for <em>Scientific Reports</em>. “To investigate these concerns, we analyzed a publicly available seed-to-sale traceability dataset from Washington state containing measurements of the cannabinoid content of legal cannabis products from state-certified laboratories.” The <a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/E8TQSD">dataset</a>, obtained by the authors via public records requests, includes more than 200,000 test results over the course of three years.</p>
+<p> </p>
+<p><strong>Backyard ice rinks.</strong> <a href="https://www.rinkwatch.org/">RinkWatch</a> “asks people who love outdoor skating to help environmental scientists monitor winter weather conditions” by reporting the conditions of their backyard ice rinks. The project’s <a href="https://www.rinkwatch.org/download.html">downloadable data</a> includes more than 30,000 “skateable” / “not skateable” observations of more than 1,200 rinks since 2012. <strong>As mentioned in</strong>: <a href="https://www.nytimes.com/2020/01/13/travel/ice-skating-Quebec.html">Last week’s New York Times article</a> about outdoor skating trails in Quebec.</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send icy feedback to jsvine@gmail.com, or just reply to this email. Looking for past datasets? <a href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk">This spreadsheet contains them all</a>. Did a friend forward you this email? <a href="https://tinyletter.com/data-is-plural">Click here to subscribe</a>.</em></p>
+]]></content:encoded>
+      <guid isPermaLink="false">dip-2020-01-22</guid>
+      <pubDate>Wed, 22 Jan 2020 08:00:00 -0500</pubDate>
+    </item>
     <item>
       <title>Data Is Plural — 2020.01.15 edition</title>
       <link>http://tinyletter.com/data-is-plural/letters/data-is-plural-2020-01-15-edition</link>
@@ -197,27 +218,6 @@
 ]]></content:encoded>
       <guid isPermaLink="false">dip-2019-10-23</guid>
       <pubDate>Wed, 23 Oct 2019 08:00:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Data Is Plural — 2019.10.16 edition</title>
-      <link>http://tinyletter.com/data-is-plural/letters/data-is-plural-2019-10-16-edition</link>
-      <description>Presidential popularity, California power outages, mobile broadband prices, the ways couples meet, and palm trees.</description>
-      <content:encoded><![CDATA[<p><em>Presidential popularity, California power outages, mobile broadband prices, the ways couples meet, and palm trees.</em></p>
-<p> </p>
-<p><strong>Presidential popularity.</strong> The <a href="http://www.executiveapproval.org/">Executive Approval Project</a> uses international polling data measure public support for presidents, prime ministers, and other political executives in 50 countries. For most of the countries, the database goes back to the 1990s; for some, it goes even further. Access requires providing a name, affiliation, and email address — plus agreeing to receive updates. [h/t <a href="https://github.com/erikgahner/PolData/">Erik Gahner Larsen</a>]</p>
-<p> </p>
-<p><strong>California power outages.</strong> Last week, Pacific Gas and Electric began <a href="https://www.latimes.com/california/story/2019-10-10/pg-e-california-power-outages-grid-climate-change">cutting power to hundreds of thousands of Californians</a> — a precaution to keep the company’s aging infrastructure from sparking wildfires. <a href="https://simonwillison.net/">Simon Willison</a> <a href="https://simonwillison.net/2019/Oct/10/pge-outages/">has been scraping</a> PG&amp;E’s <a href="http://critweb-outage.pgealerts.com/?WT.mc_id=Vanity_pge-outages">outage website</a> every 10 minutes, and pushing the results into a <a href="https://pge-outages.simonwillison.net/pge-outages">database you can query and download</a>. [h/t <a href="https://lamthuyvo.com">Lam Thuy Vo</a>]</p>
-<p> </p>
-<p><strong>Mobile broadband prices.</strong> Since 2017, the <a href="https://a4ai.org/who-we-are/">Alliance for Affordable Internet</a> has been collecting <a href="https://a4ai.org/mobile-broadband-pricing-data-historical/">country-level prices for mobile data</a>. The <a href="https://a4ai.org/extra/mobile_broadband_pricing_usd-2019Q2">most recent data</a> covers 99 low- and middle-income countries for the second quarter of 2019. The rates are based on “the cheapest plan(s) providing at least 1GB of broadband data over a 30-day period from the largest mobile network operator in each country.” [h/t <a href="https://twitter.com/TeddyWoodhouse">Teddy Woodhouse</a>]</p>
-<p> </p>
-<p><strong>Dating.</strong> Stanford’s <a href="https://data.stanford.edu/hcmst">How Couples Meet and Stay Together</a> study, which receives funding from both the university and the National Science Foundation, has been asking American adults about dating since 2009. A <a href="https://data.stanford.edu/hcmst2017">new-and-updated version of the survey</a> includes questions related to dating apps. [h/t <a href="https://www.reddit.com/r/datasets/comments/dhxiva/how_couples_meet_and_stay_together_dataset_in_csv/">u/morningshower</a>]</p>
-<p> </p>
-<p><strong>🌴🌴🌴🌴🌴.</strong> A team of researchers has “<a href="https://www.nature.com/articles/s41597-019-0189-0">derived measurements of essential functional traits</a>” for more than 2,500 species of palm plants — including but not limited to palm trees. Their <a href="https://datadryad.org/stash/dataset/doi:10.5061/dryad.ts45225">PalmTraits database</a>, based on published studies and preserved specimens, includes variables such as maximum height, fruit shape, and whether the fruit color is “conspicuous.”</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send frondtastic feedback to <a href="mailto:jsvine@gmail.com" class="email">jsvine@gmail.com</a>, or just reply to this email. Looking for past datasets? <a href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk">This spreadsheet contains them all</a>. Did a friend forward you this email? <a href="https://tinyletter.com/data-is-plural">Click here to subscribe</a>.</em></p>
-]]></content:encoded>
-      <guid isPermaLink="false">dip-2019-10-16</guid>
-      <pubDate>Wed, 16 Oct 2019 08:00:00 -0400</pubDate>
     </item>
   </channel>
 </rss>
