@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://tinyletter.com/data-is-plural</id>
   <title>Data Is Plural</title>
-  <updated>2020-01-22T08:00:00-05:00</updated>
+  <updated>2020-01-29T08:00:00-05:00</updated>
   <author>
     <name>Jeremy Singer-Vine</name>
     <email>jsvine@gmail.com</email>
@@ -10,6 +10,28 @@
   <link href="https://tinyletter.com/data-is-plural" rel="alternate"/>
   <generator>https://github.com/data-is-plural/newsletter-archive</generator>
   <subtitle>A weekly newsletter of useful/curious datasets.</subtitle>
+  <entry>
+    <id>dip-2020-01-29</id>
+    <title>Data Is Plural — 2020.01.29 edition</title>
+    <updated>2020-01-29T08:00:00-05:00</updated>
+    <content type="CDATA"><![CDATA[<p><em>Time use surveys, dams, Spanish migration, darknet markets, and (more) vanity plate applications.</em></p>
+<p> </p>
+<p><strong>How we spend our time.</strong> Ever year since 2003, the <a href="https://www.bls.gov/tus/home.htm">American Time Use Survey</a>, has been measuring how much time we spend sleeping, eating, and working; with friends, with family, and alone; and much more. Unlike <a href="https://www.timeuse.org/information/access-data">many other time use surveys</a>, the ATUS’s <a href="https://www.bls.gov/tus/data.htm">respondent-level datasets</a> are freely available to the general public. Other time use surveys with downloadable data include the <a href="https://dataverse.unc.edu/dataverse/rlms-hse">Russia Longitudinal Monitoring Survey</a> and a <a href="https://data.mcc.gov/evaluations/index.php/catalog/205/study-description">Kosovo time use survey</a> sponsored by the Millennium Challenge Corporation. <strong>Related</strong>: Through <a href="https://ipums.org">IPUMS</a>, you can build custom data extracts <a href="https://www.atusdata.org/atus/">of the ATUS</a>, <a href="https://www.ahtusdata.org/ahtus/">of historical US time survey data</a>, and <a href="https://www.mtusdata.org/mtus/">of the Multinational Time Use Study</a> (registration required). <strong>As seen in</strong>: “<a href="https://flowingdata.com/2019/07/16/how-the-american-work-day-changed-in-15-years/">How the American Work Day Changed in 15 Years</a>” and “<a href="https://flowingdata.com/2019/03/06/women-men-timeuse/">A Day in the Life: Women and Men</a>,” two visualizations by <a href="https://twitter.com/flowingdata">Nathan Yau</a>. [h/t <a href="https://twitter.com/Petrit/status/1043413638068006912">Petrit Selimi</a>]</p>
+<p> </p>
+<p><strong>Dams.</strong> The <a href="https://globaldamwatch.org/goodd/">Global Georeferenced Database of Dams</a> contains <a href="https://springernature.figshare.com/collections/GOODD_a_global_dataset_of_more_than_38_000_georeferenced_dams/4648214">geographic data on more than 38,000 dams and their watersheds</a>. The project, <a href="https://www.nature.com/articles/s41597-020-0362-5">published by geographers at King’s College London</a>, is based on a combination of satellite imagery, national registries, and other sources. At least one co-author <a href="https://twitter.com/drarnoutvans/status/1219664646107533318">has been working on the project since 2008</a>. [h/t <a href="https://twitter.com/JIDA1983/status/1220374752533131264">Jida Wang</a>]</p>
+<p> </p>
+<p><strong>Three decades of Spanish migration.</strong> Spain’s national statistics institute publishes <a href="https://github.com/ECLaboratorio/unidad-de-datos/tree/master/proyectos/migraciones_espana">annual microdata on the relocation of residents</a> within, into, and out of the country. The datasets indicate each relocator’s gender and age, birthplace, previous location, and destination — down to the municipality for locations within Spain. Currently, the records cover 1988 to 2018. <strong>Related</strong>: <a href="https://translate.google.com/translate?hl=&amp;sl=es&amp;tl=en&amp;u=https%3A%2F%2Fwww.elconfidencial.com%2Feconomia%2F2019-09-27%2Fexodo-urbano-espana-migraciones-provincias_2240119%2F&amp;sandbox=1">El Confidencial’s report on intra-provincial migration patterns</a>, using this data, and <a href="https://github.com/ECLaboratorio/unidad-de-datos/tree/master/proyectos/migraciones_espana">related GitHub repository</a>. [h/t <a href="https://mailchi.mp/a4bbc86cc07b/preview-222-in-other-news-3750685">Giuseppe Sollazzo</a>]</p>
+<p> </p>
+<p><strong>Darknet market survival.</strong> The researcher who goes by “<a href="https://www.gwern.net/Links">Gwern</a>” maintains a <a href="https://www.gwern.net/DNM-survival">dataset of more than 80 darknet marketplaces</a> founded between 2011 and 2015. For each market (such as the infamous Silk Road), the dataset lists when it began, when it closed, why it closed, its URL, what cryptocurrencies it accepted, whether guns were allowed to be sold, and more.</p>
+<p> </p>
+<p><strong>California vanity plates.</strong> Through a public records request, <a href="https://twitter.com/veltman">Noah Veltman</a> has obtained data on <a href="https://github.com/veltman/ca-license-plates">more than 23,000 personalized license plate applications</a> flagged for review by the California DMV. For each flagged application, the dataset contains the applicant’s justification, comments from the state’s reviewers, and the proposal’s outcome. The reviewers rejected about 80% of the proposals, including those believed to be referencing racial slurs, swearing, drugs, sex, violence, and more. <strong>Previously</strong>: <a href="https://github.com/datanews/license-plates">New York vanity plate applications</a> (<a href="https://tinyletter.com/data-is-plural/letters/data-is-plural-2015-10-21-edition">DIP 2015.10.21</a>).</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send vain feedback to jsvine@gmail.com, or just reply to this email. Looking for past datasets? <a href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk">This spreadsheet contains them all</a>. Did a friend forward you this email? <a href="https://tinyletter.com/data-is-plural">Click here to subscribe</a>.</em></p>
+]]></content>
+    <link href="http://tinyletter.com/data-is-plural/letters/data-is-plural-2020-01-29-edition" rel="alternate"/>
+    <summary>Time use surveys, dams, Spanish migration, darknet markets, and (more) vanity plate applications.</summary>
+    <published>2020-01-29T08:00:00-05:00</published>
+  </entry>
   <entry>
     <id>dip-2020-01-22</id>
     <title>Data Is Plural — 2020.01.22 edition</title>
@@ -209,27 +231,5 @@
     <link href="http://tinyletter.com/data-is-plural/letters/data-is-plural-2019-11-13-edition" rel="alternate"/>
     <summary>Millions of violent crimes, online news language, interwar debt, food flows, and perceived vs. real ages.</summary>
     <published>2019-11-13T08:00:00-05:00</published>
-  </entry>
-  <entry>
-    <id>dip-2019-10-23</id>
-    <title>Data Is Plural — 2019.10.23 edition</title>
-    <updated>2019-10-23T08:00:00-04:00</updated>
-    <content type="CDATA"><![CDATA[<p><em>Autocracies, ECB speeches, biomedical citations, adoptable dogs, and data-visualization professionals.</em></p>
-<p> </p>
-<p><strong>Autocracies.</strong> The Autocratic Ruling Parties Dataset <a href="https://journals.sagepub.com/doi/full/10.1177/0022002719876000">bills itself</a> as “the first comprehensive data set on the founding origins, modes of gaining and losing power, ruling tenures, and other characteristics of autocratic ruling parties.” <a href="https://sites.google.com/site/mkmtwo/data">The dataset</a>, created by political science professor <a href="https://sites.google.com/site/mkmtwo/home">Michael K. Miller</a>, covers nearly 500 parties in more than 150 countries between 1940 and 2015. [h/t <a href="https://www.reddit.com/r/datasets/comments/dgve6r/new_dataset_on_all_autocratic_ruling_parties/">u/smurfyjenkins</a>]</p>
-<p> </p>
-<p><strong>Euro-bank speeches.</strong> European Central Bank has begun publishing a spreadsheet of <a href="https://www.ecb.europa.eu/press/key/html/downloads.en.html">all executive board members’ speeches</a> since the late 1990s. The dataset contains each speech’s date, speaker(s), title, subtitle, and text; the ECB says it will be updated every two months. [h/t <a href="https://twitter.com/nitschv/status/1184048455741857793">Volker Nitsch</a> + <a href="https://twitter.com/peterhtillmann/status/1183833071050727430">Peter Tillmann</a>]</p>
-<p> </p>
-<p><strong>Biomedical citations.</strong> The National Institutes of Health’s new <a href="https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3000385">Open Citation Collection</a> brings together 420 million academic citations in biomedical literature. The data — the most comprehensive available for biomedicine — now underpins the NIH’s <a href="https://icite.od.nih.gov/">iCite platform</a>, where you can explore citation statistics online. The citations are also available <a href="https://doi.org/10.35092/yhjc.c.4586573">as a bulk download</a> and <a href="https://icite.od.nih.gov/api">via an API</a>. [h/t <a href="https://twitter.com/metasemantic/status/1182358118564450304">Travis Hoppe</a>]</p>
-<p> </p>
-<p><strong>Adoptable dogs.</strong> <a href="https://pudding.cool/author/amber-thomas/">The Pudding’s Amber Thomas</a> used <a href="https://www.petfinder.com/developers/api-docs">PetFinder’s API</a> to collect <a href="https://github.com/the-pudding/data/tree/master/dog-shelters">detailed data on all adoptable dogs</a> at shelters and rescue organizations on a single day in September. <strong>Related:</strong> <a href="https://pudding.cool/2019/10/shelters/">Thomas's story for The Pudding</a>, which uses the data to examine state-to-state relocations.</p>
-<p> </p>
-<p><strong>Charts and minds.</strong> The <a href="https://www.datavisualizationsociety.com/">Data Visualization Society</a> has published <a href="https://github.com/data-visualization-society/data_visualization_survey">the results</a> of its <a href="https://docs.google.com/forms/d/e/1FAIpQLSe-CMHrt1gYOxO9Tdk6cjyLIpJnAJMDjS94OBDHi6YU2g3sBA/viewform">annual community survey</a>, which received 1,359 responses from data visualization practitioners. The public data contains answers to 50 questions on topics such as compensation, tools, community, and more. [h/t <a href="https://www.amycesal.com/">Amy Cesal</a>]</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send feedback, with axes labeled, to jsvine@gmail.com, or just reply to this email. Looking for past datasets? <a href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk">This spreadsheet contains them all</a>. Did a friend forward you this email? <a href="https://tinyletter.com/data-is-plural">Click here to subscribe</a>.</em></p>
-]]></content>
-    <link href="http://tinyletter.com/data-is-plural/letters/data-is-plural-2019-10-23-edition" rel="alternate"/>
-    <summary>Autocracies, ECB speeches, biomedical citations, adoptable dogs, and data-visualization professionals.</summary>
-    <published>2019-10-23T08:00:00-04:00</published>
   </entry>
 </feed>
