@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://tinyletter.com/data-is-plural</id>
   <title>Data Is Plural</title>
-  <updated>2020-02-05T08:00:00-05:00</updated>
+  <updated>2020-02-12T08:00:00-05:00</updated>
   <author>
     <name>Jeremy Singer-Vine</name>
     <email>jsvine@gmail.com</email>
@@ -10,6 +10,28 @@
   <link href="https://tinyletter.com/data-is-plural" rel="alternate"/>
   <generator>https://github.com/data-is-plural/newsletter-archive</generator>
   <subtitle>A weekly newsletter of useful/curious datasets.</subtitle>
+  <entry>
+    <id>dip-2020-02-12</id>
+    <title>Data Is Plural — 2020.02.12 edition</title>
+    <updated>2020-02-12T08:00:00-05:00</updated>
+    <content type="CDATA"><![CDATA[<p><em>Banking crises, Europe in translation, simulated hurricanes, arXiv metadata, and the greatest hip-hop tracks of all time.</em></p>
+<p> </p>
+<p><strong>Banking crises.</strong> <a href="https://sites.google.com/site/laevenl/home">Luc Laeven</a> and <a href="https://www.imf.org/external/np/cv/AuthorCV.aspx?AuthID=179">Fabián Valencia</a> — economists at the European Central Bank and the International Monetary Fund, respectively — have built and maintain a <a href="https://www.imf.org/en/Publications/WP/Issues/2018/09/14/Systemic-Banking-Crises-Revisited-46232">dataset of systemic banking crises</a>, like those that rippled across the globe in 2008. First published in 2008 and most recently updated in 2018, the dataset covers on 151 crises affecting 118 countries from 1970 to 2017. For each episode, the dataset provides the starting and ending dates, policy responses, output loss, fiscal cost, increase in public debt, and more. [h/t <a href="https://github.com/erikgahner/PolData/commit/5499561d2ff6b692ed59770b0f62e3fe98995bdc">Erik Gahner Larsen</a>]</p>
+<p> </p>
+<p><strong>Europe in translation.</strong> <a href="https://iate.europa.eu/home">IATE</a> is the European Union’s official terminology database, containing translations for words and phrases such as “orange juice,” “climate change policy”, and “competence of the Member States.” (That’s <em>succo d’arancia</em> in Italian, <em>ilmastonmuutospolitiikka</em> in Finnish, and <em>tagállami hatáskör</em> in Hungarian.) Over the past 20+ years, the project has accumulated more than 970,000 entries, translated into nearly 8 million phrasings in 25 languages. You can search the entries online or <a href="https://iate.europa.eu/download-iate">download the entire dataset</a> as a single XML file. [h/t <a href="https://twitter.com/Yambo_LSG/status/1224270800150245381">Laura Solana Garzón</a>]</p>
+<p> </p>
+<p><strong>Tropical cyclone simulations.</strong> A team of scientists have used historical hurricane and typhoon data to <a href="https://www.nature.com/articles/s41597-020-0381-2">simulate</a> a <a href="https://data.4tu.nl/repository/uuid:82c1dc0d-5485-43d8-901a-ce7f26cda35d">10,000 plausible years of cyclone activity</a>. The dataset covers the world’s most active “basins” — the areas where cyclones form — and includes each simulated storm’s path, maximum wind speed, average pressure, and more. [h/t <a href="https://mobile.twitter.com/jcnathaz/status/1225676744625012736">Jose A Cañizares</a>]</p>
+<p> </p>
+<p><strong>arXiv metadata.</strong> Founded nearly 30 years ago, <a href="https://arxiv.org">arXiv</a> is an open-access repository of more than 1,600,000 scholarly articles — typically “preprints” of papers, uploaded by the authors before being peer-reviewed — in physics, math, computer science, statistics, economics, and several other fields. The website participates in <a href="https://www.openarchives.org">Open Archives Initiative</a>, providing <a href="https://arxiv.org/help/oa/index">metadata on uploaded articles</a> through the initiative’s protocol; it also <a href="https://arxiv.org/help/api/index">has an API</a>. Last summer, computer science student <a href="https://boramalper.org">Bora M. Alper</a> <a href="https://www.reddit.com/r/DataHoarder/comments/c39mmj/arxiv_complete_metadata_dump_20190618_internet/">collected</a> the metadata for all the site’s papers and <a href="https://archive.org/details/arXiv-metadata-dump-2019-06-18.tar.xz">published it as a single file</a>.</p>
+<p> </p>
+<p><strong>Biggie data.</strong> What are the greatest hip-hop songs of all time? Last year, the BBC <a href="http://www.bbc.com/culture/story/20191007-the-greatest-hip-hop-songs-of-all-time-who-voted">posed that question</a> to more than 100 artists, producers, critics, and other experts, asking each to rank their top five tracks. (Notorious B.I.G.’s “Juicy” <a href="http://www.bbc.com/culture/story/20191007-the-greatest-hip-hop-songs-of-all-time">nabbed the highest rating</a>.) Software engineer <a href="https://simonjockers.de">Simon Jockers</a> has turned the responses into a <a href="https://github.com/sjockers/bbc-best-rapmusic">structured dataset</a> and <a href="https://blog.datawrapper.de/best-hip-hop-songs-of-all-time-visualized/">visualized the results</a>.</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send critic-approved feedback to jsvine@gmail.com, or just reply to this email. Looking for past datasets? <a href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk">This spreadsheet contains them all</a>. Did a friend forward you this email? <a href="https://tinyletter.com/data-is-plural">Click here to subscribe</a>.</em></p>
+]]></content>
+    <link href="http://tinyletter.com/data-is-plural/letters/data-is-plural-2020-02-12-edition" rel="alternate"/>
+    <summary>Banking crises, Europe in translation, simulated hurricanes, arXiv metadata, and the greatest hip-hop tracks of all time.</summary>
+    <published>2020-02-12T08:00:00-05:00</published>
+  </entry>
   <entry>
     <id>dip-2020-02-05</id>
     <title>Data Is Plural — 2020.02.05 edition</title>
@@ -209,27 +231,5 @@
     <link href="http://tinyletter.com/data-is-plural/letters/data-is-plural-2019-11-27-edition" rel="alternate"/>
     <summary>Blue helmets, earthquakes in Mexico, seized Greek real estate, Bollywood, and medieval monasteries.</summary>
     <published>2019-11-27T08:00:00-05:00</published>
-  </entry>
-  <entry>
-    <id>dip-2019-11-20</id>
-    <title>Data Is Plural — 2019.11.20 edition</title>
-    <updated>2019-11-20T08:00:00-05:00</updated>
-    <content type="CDATA"><![CDATA[<p><em>Chicago prosecutions, electricity prices, financial well-being, soccer play-by-play, and Central Park squirrels.</em></p>
-<p> </p>
-<p><strong>Chicago prosecutions.</strong> Since early 2018, the <a href="https://www.cookcountystatesattorney.org/">Cook County State's Attorney's Office</a> has been publishing <a href="https://www.cookcountystatesattorney.org/about/case-level-data">detailed data</a> on every felony case it has handled since 2010. (The office, whose jurisdiction includes Chicago, is the second-largest local prosecutorial agency in the country.) <a href="https://datacatalog.cookcountyil.gov/browse?tags=state%27s+attorney+case-level&amp;sortBy=most_accessed">The datasets</a> cover four main stages: <a href="https://datacatalog.cookcountyil.gov/Courts/Intake/3k7z-hchi">intake</a>, <a href="https://datacatalog.cookcountyil.gov/Courts/Initiation/7mck-ehwz">initiation</a>, <a href="https://datacatalog.cookcountyil.gov/Courts/Dispositions/apwk-dzx8">charging</a>, and <a href="https://datacatalog.cookcountyil.gov/Courts/Sentencing/tg8v-tm6u">sentencing</a>. <strong>Related:</strong> In a <a href="https://pudding.cool/2019/10/prosecutors/">recent Pudding article</a> copublished with <a href="https://www.themarshallproject.org/2019/10/24/the-kim-foxx-effect-how-prosecutions-have-changed-in-cook-county">The Marshall Project</a> and <a href="https://projects.chicagoreporter.com/kim-foxx-prosecutions-20191024/">Chicago Reporter</a>, <a href="https://twitter.com/matthew_daniels">Matt Daniels</a> used the data to examine how prosecutions have changed under State’s Attorney Kim Foxx, who promised reforms.</p>
-<p> </p>
-<p><strong>Electricity prices.</strong> OpenEI’s <a href="https://openei.org/wiki/Utility_Rate_Database">Utility Rate Database</a> contains nearly 50,000 expert-verified rates — current and historical — for residential, commercial, industrial, and street-lighting electricity from thousands of US utility companies. <strong>Related:</strong> <a href="https://openei.org/wiki/Data">OpenEI’s other data offerings</a>. [h/t <a href="https://www.nber.org/papers/w26385">Arik Levinson and Emilson Delfino Silva</a>]</p>
-<p> </p>
-<p><strong>Financial well-being.</strong> Since the mid-1980s, the US Census Bureau has periodically conducted its <a href="https://www.census.gov/sipp/">Survey of Income and Program Participation</a> and provided <a href="https://www.census.gov/programs-surveys/sipp/data/datasets.html">anonymized, respondent-level data</a>. In addition to the titular topics, the <a href="https://www.census.gov/programs-surveys/sipp/about/sipp-content-information.html">extensive questionnaires</a> also ask about “family dynamics, educational attainment, housing expenditures, asset ownership, health insurance, disability, child care, and food security.” <strong>Related:</strong> My colleagues <a href="https://twitter.com/scottpham">Scott Pham</a> and <a href="https://twitter.com/venessawwong">Venessa Wong</a> <a href="https://github.com/BuzzFeedNews/2019-11-sipp">used SIPP’s data on familial support</a> to “<a href="https://www.buzzfeednews.com/article/venessawong/millennials-parents-stereotypes-boomers-data">finally end the myth of the lazy millennial</a>.”</p>
-<p> </p>
-<p><strong>Soccer/football play-by-play.</strong> A group of academics has partnered with a soccer-data company <a href="https://www.nature.com/articles/s41597-019-0247-7">to publish</a> what they believe to be “the largest collection of soccer-logs ever released.” <a href="https://figshare.com/collections/Soccer_match_event_dataset/4415000">The dataset</a> describes every “event” on the field — each pass, shot, foul, tackle, penalty, and more — for the 2017/18 season of five European leagues, the 2018 World Cup, and the 2016 European championship.</p>
-<p> </p>
-<p><strong>Central Park squirrels.</strong> Last October, the <a href="https://www.thesquirrelcensus.com/">Squirrel Census</a> dispatched 300+ volunteers to record every squirrel they saw in Central Park. In June, the organizers published a multimedia report of their findings (<a href="https://squirrelcensus.bigcartel.com/product/central-park-squirrel-census-2019-report">at $75 each</a>). Now they’ve made the data — with each squirrel’s location, fur color, behavior, and more — <a href="https://data.cityofnewyork.us/Environment/2018-Central-Park-Squirrel-Census-Squirrel-Data/vfnx-vebw">available through New York City’s open data portal</a>. <strong>Related:</strong> <a href="https://www.citylab.com/life/2019/06/squirrel-census-results-population-central-park-nyc/592162/">CityLab has more details on the project and interviews its creator</a>. [h/t <a href="https://twitter.com/jmcastagnetto/status/1191418797384753152">Jesus M. Castagnetto</a> + <a href="https://github.com/rfordatascience/tidytuesday#2019">Tidy Tuesday</a>]</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send furry-tailed feedback to jsvine@gmail.com, or just reply to this email. Looking for past datasets? <a href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk">This spreadsheet contains them all</a>. Did a friend forward you this email? <a href="https://tinyletter.com/data-is-plural">Click here to subscribe</a>.</em></p>
-]]></content>
-    <link href="http://tinyletter.com/data-is-plural/letters/data-is-plural-2019-11-20-edition" rel="alternate"/>
-    <summary>Chicago prosecutions, electricity prices, financial well-being, soccer play-by-play, and Central Park squirrels.</summary>
-    <published>2019-11-20T08:00:00-05:00</published>
   </entry>
 </feed>
