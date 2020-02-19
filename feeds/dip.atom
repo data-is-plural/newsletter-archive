@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://tinyletter.com/data-is-plural</id>
   <title>Data Is Plural</title>
-  <updated>2020-02-12T08:00:00-05:00</updated>
+  <updated>2020-02-19T08:00:00-05:00</updated>
   <author>
     <name>Jeremy Singer-Vine</name>
     <email>jsvine@gmail.com</email>
@@ -10,6 +10,28 @@
   <link href="https://tinyletter.com/data-is-plural" rel="alternate"/>
   <generator>https://github.com/data-is-plural/newsletter-archive</generator>
   <subtitle>A weekly newsletter of useful/curious datasets.</subtitle>
+  <entry>
+    <id>dip-2020-02-19</id>
+    <title>Data Is Plural — 2020.02.19 edition</title>
+    <updated>2020-02-19T08:00:00-05:00</updated>
+    <content type="CDATA"><![CDATA[<p><em>Standardized electric-utility info, school vaccination rates, global empires, farming households, and pinball.</em></p>
+<p> </p>
+<p><strong>Electric utilities, standardized.</strong> “Electric utilities report a huge amount of information to the US government,” but “much of this data is not released in well documented, ready-to-use, machine readable formats.” That assessment comes from the <a href="https://catalyst.coop/pudl/">Public Utility Data Liberation</a> (PUDL) project, which aims to clean, standardize, and cross-link the electric utility information gathered by various agencies. Earlier this month, PUDL published <a href="https://zenodo.org/record/3653159">its first data release</a>; it includes information originally collected through Energy Information Administration <a href="https://www.eia.gov/electricity/data/eia860/">Form 860</a> (details about individual generators) and <a href="https://www.eia.gov/electricity/data/eia923/">Form 923</a> (individual power plants), the Environmental Protection Agency’s <a href="https://www.epa.gov/emc/emc-continuous-emission-monitoring-systems">Continuous Emissions Monitoring System</a> (hourly emissions), and the Federal Energy Regulatory Commission’s <a href="https://www.ferc.gov/docs-filing/forms/form-1/data.asp">Form 1</a> (price rates and financial audits). The code PUDL uses to download, extract, and standardize the raw data is also <a href="https://github.com/catalyst-cooperative/pudl">available online</a>. [h/t <a href="https://twitter.com/ZaneSelvans">Zane Selvans</a>]</p>
+<p> </p>
+<p><strong>School vaccination rates.</strong> Reporters at the Wall Street Journal collected <a href="https://github.com/WSJ/measles-data">data on school-specific vaccination rates</a> — both overall and also for the measles, mumps, and rubella (MMR) vaccine — from 32 US states’ health departments. In total, the WSJ’s dataset covers more than 46,000 schools, of which 42,000 have at least one vaccination rate available. Most states provided data for the 2018–19 school year; the rest did so for 2017–18.</p>
+<p> </p>
+<p><strong>4,500 years of empire.</strong> To help study “<a href="https://voxeu.org/article/imperial-roots-global-trade">the imperial roots of global trade</a>,” a trio of economists have built a <a href="https://www.wnvermeulen.com/empires/">dataset of 168 historical empires</a>. For each empire, the dataset lists the modern-day countries under rule (and during which years), plus whether the empire had a centralized administration, centralized religion, and/or monopoly on coin-minting. [h/t <a href="https://mailchi.mp/newsletter.jainfamilyinstitute.org/some-totality">Jain Family Institute</a>]</p>
+<p> </p>
+<p><strong>Farm households.</strong> The <a href="https://www.nature.com/articles/s41597-020-0388-8">Rural Household Multiple Indicator Survey</a> (RHoMIS) “collects information on 758 variables covering household demographics, farm area, crops grown and their production, livestock holdings” and more. In an <a href="https://www.nature.com/articles/s41597-020-0388-8">academic article published this month</a>, researchers from the Nairobi-based <a href="https://www.ilri.org">International Livestock Research Institute</a> presented a <a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/9M6EHS">dataset of responses collected from 13,310 farm households</a> in 21 countries in sub-Saharan Africa, Central America, and Asia between 2015 and early 2018.</p>
+<p> </p>
+<p><strong>Pinball.</strong> The crowdsourced website <a href="https://pinballmap.com">pinballmap.com</a> provides data on more than 25,500 pinball machines at more than 7,400 locations in the US, UK, Canada, Australia, Finland, and Japan. The <a href="https://pinballmap.com/api/v1/docs">website’s API</a> lets you access the underlying data, including the specific machines available at each location.</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send high-scoring feedback to jsvine@gmail.com, or just reply to this email. Looking for past datasets? <a href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk">This spreadsheet contains them all</a>. Did a friend forward you this email? <a href="https://tinyletter.com/data-is-plural">Click here to subscribe</a>.</em></p>
+]]></content>
+    <link href="http://tinyletter.com/data-is-plural/letters/data-is-plural-2020-02-19-edition" rel="alternate"/>
+    <summary>Standardized electric-utility info, school vaccination rates, global empires, farming households, and pinball.</summary>
+    <published>2020-02-19T08:00:00-05:00</published>
+  </entry>
   <entry>
     <id>dip-2020-02-12</id>
     <title>Data Is Plural — 2020.02.12 edition</title>
@@ -209,27 +231,5 @@
     <link href="http://tinyletter.com/data-is-plural/letters/data-is-plural-2019-12-04-edition" rel="alternate"/>
     <summary>Income inequality, ambassadorial qualifications, Samoa’s measles outbreak, science PhD candidates, and the Database of British and Irish Hills.</summary>
     <published>2019-12-04T08:00:00-05:00</published>
-  </entry>
-  <entry>
-    <id>dip-2019-11-27</id>
-    <title>Data Is Plural — 2019.11.27 edition</title>
-    <updated>2019-11-27T08:00:00-05:00</updated>
-    <content type="CDATA"><![CDATA[<p><em>Blue helmets, earthquakes in Mexico, seized Greek real estate, Bollywood, and medieval monasteries.</em></p>
-<p> </p>
-<p><strong>UN blue helmets.</strong> The United Nations <a href="https://peacekeeping.un.org/en/open-data-portal">publishes data</a> describing its <a href="https://peacekeeping.un.org/en/peacekeeping-master-open-datasets">active peacekeeping missions</a> and <a href="https://peacekeeping.un.org/en/data-troop-and-police-contributions">police and military personnel</a>, plus <a href="https://peacekeeping.un.org/en/peacekeeper-fatalities">all peacekeeping fatalities since 1948</a>. <strong>Also:</strong> The International Peace Institute’s <a href="http://www.providingforpeacekeeping.org/contributions/">Peacekeeping Database</a> tracks member-countries’ historical contributions of personnel going back to 1990. <strong>Plus:</strong> Last month, researchers at Uppsala University’s Department of Peace and Conflict Research <a href="https://journals.sagepub.com/doi/abs/10.1177/0022343319871978?journalCode=jpra">introduced</a> a <a href="https://www.pcr.uu.se/data/geo-pko/">Geocoded Peacekeeping Operations dataset</a>, which provides detailed information about the location and troops for all UN peacekeeping deployments in Africa from 1994 to 2014, with stated plans to extend coverage through 2018 soon. [h/t <a href="https://www.reddit.com/r/IRstudies/comments/dmhn38/dataset_the_geocoded_peacekeeping_operations/">u/smurfyjenkins</a>]</p>
-<p> </p>
-<p><strong>Earthquakes in Mexico.</strong> Researchers <a href="https://www.nature.com/articles/s41597-019-0234-z">have constructed</a> a “unified catalog” more than 5,000 earthquakes in Mexico. To do so, they standardized, deduplicated, and fact-checked quake information from more than 100 local, regional, and international sources. <a href="https://springernature.figshare.com/collections/An_updated_and_unified_earthquake_catalog_1787-2018_for_seismic_hazard_assessment_studies_in_Mexico/4492763">The final dataset</a> goes back to 1787 and details each quake’s epicenter, depth, magnitude, and sources. The researchers consider the catalog to be complete for earthquakes with a <a href="https://en.wikipedia.org/wiki/Moment_magnitude_scale">moment magnitude</a> of 6+ since 1925, and for those with a magnitude of 4+ since 1990.</p>
-<p> </p>
-<p><strong>Seized Greek real estate.</strong> <a href="https://medium.com/athenslivegr/whose-home-is-this-f3b45d878b0b">For an article in AthensLive</a>, <a href="https://twitter.com/sotsideris">Sotiris Sideris</a> collected <a href="https://github.com/2109Sot/eauction_data">data on properties up for bidding</a> through <a href="https://www.eauction.gr/">eauction.gr</a>, Greece’s official website for auctioning real estate seized from over-indebted borrowers. The dataset includes 45,918 lots listed between mid-November 2017 (when the website launched) and September 1, 2019. For each lot, the dataset specifies the auction date, property characteristics, starting bid, total debt, debtor, “hastener” pursuing the auction, links to additional documentation, and more.</p>
-<p> </p>
-<p><strong>Bollywood.</strong> <a href="https://pncnmnp.github.io/">Parth Parikh</a>, an engineering student in Mumbai, has created <a href="https://github.com/pncnmnp/TIMDB/">The Indian Movie Database</a>, which aggregates and cross-references data on Bollywood films from <a href="https://www.imdb.com/">IMDB</a>, Wikipedia, and <a href="https://grouplens.org/datasets/movielens/">MovieLens</a>. It currently contains more than 4,700 movies released between 1950 and 2019.</p>
-<p> </p>
-<p><strong>Medieval monasteries.</strong> Economists <a href="https://www.qatar.cmu.edu/directory/serra-boranbay-akan/">Serra Boranbay-Akan</a> and <a href="https://www.unibo.it/sitoweb/c.guerriero/en">Carmine Guerriero</a> have <a href="https://www.sciencedirect.com/science/article/pii/S2352340919310868">built a dataset</a> describing the locations and operating years of more than 3,000 Cistercian and Franciscan monasteries in 90 European regions between the years 1000 and 1600.</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send ascetic feedback to jsvine@gmail.com, or just reply to this email. Looking for past datasets? <a href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk">This spreadsheet contains them all</a>. Did a friend forward you this email? <a href="https://tinyletter.com/data-is-plural">Click here to subscribe</a>.</em></p>
-]]></content>
-    <link href="http://tinyletter.com/data-is-plural/letters/data-is-plural-2019-11-27-edition" rel="alternate"/>
-    <summary>Blue helmets, earthquakes in Mexico, seized Greek real estate, Bollywood, and medieval monasteries.</summary>
-    <published>2019-11-27T08:00:00-05:00</published>
   </entry>
 </feed>
