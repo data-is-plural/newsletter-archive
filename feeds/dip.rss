@@ -6,7 +6,28 @@
     <description>A weekly newsletter of useful/curious datasets.</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>https://github.com/data-is-plural/newsletter-archive</generator>
-    <lastBuildDate>Wed, 11 Mar 2020 08:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 18 Mar 2020 08:00:00 -0400</lastBuildDate>
+    <item>
+      <title>Data Is Plural — 2020.03.18 edition</title>
+      <link>http://tinyletter.com/data-is-plural/letters/data-is-plural-2020-03-18-edition</link>
+      <description>Mostly coronavirus-related data, but also speed dating.</description>
+      <content:encoded><![CDATA[<p><em>Mostly coronavirus-related data, but also speed dating.</em></p>
+<p> </p>
+<p><strong>COVID-19 testing in the US.</strong> The <a href="https://covidtracking.com/">COVID Tracking Project</a> “collects information from 50 US states, the District of Columbia, and 5 other U.S. territories to provide the most comprehensive testing data we can collect for the novel coronavirus, SARS-CoV-2.” The project — <a href="https://covidtracking.com/about-team/">a collaboration between <em>The Atlantic</em>, data scientist Jeff Hammerbacher, and a growing team of volunteers</a> — “attempt[s] to include positive and negative results, pending tests, and total people tested for each state or district currently reporting that data.” (Unfortunately, not all states are reporting each of those numbers, and <a href="https://twitter.com/COVID19Tracking/status/1240017561757962245">private-lab testing also complicates the picture</a>.) You can access the data <a href="https://covidtracking.com/data/">online</a>, <a href="https://covidtracking.com/api/">through an API</a>, <a href="https://github.com/COVID19Tracking/covid-tracking-data">on GitHub</a>, and <a href="https://twitter.com/COVID19Tracking">via Twitter</a>. <strong>Related</strong>: <a href="https://www.theatlantic.com/technology/archive/2020/03/how-understand-your-states-coronavirus-numbers/607921/">How to Understand Your State’s Coronavirus Numbers</a> (<em>The Atlantic</em>, March 12).</p>
+<p> </p>
+<p><strong>Coronavirus research papers.</strong> The <a href="https://pages.semanticscholar.org/coronavirus-research">COVID-19 Open Research Dataset</a> is “a free resource of over 29,000 scholarly articles, including over 13,000 with full text, about COVID-19 and the coronavirus family of viruses for use by the global research community.” The dataset, produced by a collaboration of several research groups and the National Library of Medicine, “will be updated weekly." <strong>Related</strong>: On Monday, the White House <a href="https://www.whitehouse.gov/briefings-statements/call-action-tech-community-new-machine-readable-covid-19-dataset/">issued a “call to action to the tech community”</a> regarding the dataset, asking experts “to develop new text and data mining techniques that can help the science community answer high-priority scientific questions related to COVID-19.”</p>
+<p> </p>
+<p><strong>WFH.</strong> <a href="https://stayinghome.club/">Stayinghome.club</a> is compiling hundreds of coronavirus-spurred <a href="https://stayinghome.club/companies.html">work-from-home policies</a>, <a href="https://stayinghome.club/universities.html">university annoucements</a>, and <a href="https://stayinghome.club/events.html">event cancellation statuses</a>. The project is <a href="https://github.com/phildini/stayinghomeclub">collaboratively edited on GitHub</a>, and includes instructions for how to add your company/university/event. [h/t <a href="https://twitter.com/JackieKazil">Jackie Kazil</a>]</p>
+<p> </p>
+<p><strong>Health security preparedness.</strong> The <a href="https://www.ghsindex.org/about/">Global Health Security Index</a> is “the first comprehensive assessment and benchmarking of health security and related capabilities across the 195 countries” that signed on to the WHO’s 2005 <a href="https://www.who.int/ihr/legal_issues/states_parties/en/">International Health Regulations</a>. The index is built on a “framework of 140 questions, organized across 6 categories, 34 indicators, and 85 subindicators to assess a country’s capability to prevent and mitigate epidemics and pandemics.” The first edition of the index <a href="https://www.ghsindex.org/news/inaugural-global-health-security-index-finds-no-country-is-prepared-for-epidemics-or-pandemics/">was released this past October</a>, and can be <a href="https://www.ghsindex.org/report-model/">downloaded as a macro-enabled Excel spreadsheet</a>. The <a href="https://nhspi.org/">National Health Security Preparedness Index</a> aims to do something similar, but for US states; the <a href="https://nhspi.org/nations-ability-to-manage-health-emergencies-rises/">2019 results</a> are also <a href="https://nhspi.org/tools-resources/2019-release-health-security-data-explorer/nhspi_2019_data_download/">available as a spreadsheet</a>. [h/t <a href="https://biglocalnews.org/">Big Local News</a>]</p>
+<p> </p>
+<p><strong>Speed dating.</strong> Between 2002 and 2004, professors <a href="https://twitter.com/RFisman">Ray Fisman</a> and <a href="https://www8.gsb.columbia.edu/cbs-directory/detail/ss957">Sheena Iyengar</a> ran a series of speed dating events for Columbia University graduate students, while collecting detailed data on the participants and results. The full dataset is <a href="https://statmodeling.stat.columbia.edu/2008/01/21/the_speeddating_1/">available to download</a>; data scientist <a href="https://drkeithmcnulty.com/">Keith McNulty</a> has also <a href="https://drkeithmcnulty.com/2020/02/14/what-matters-in-speed-dating/">created a simplified version of it</a>.</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send at-first-sight feedback to jsvine@gmail.com, or just reply to this email. Looking for past datasets? <a href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk">This spreadsheet contains them all</a>. Did a friend forward you this email? <a href="https://tinyletter.com/data-is-plural">Click here to subscribe</a>.</em></p>
+]]></content:encoded>
+      <guid isPermaLink="false">dip-2020-03-18</guid>
+      <pubDate>Wed, 18 Mar 2020 08:00:00 -0400</pubDate>
+    </item>
     <item>
       <title>Data Is Plural — 2020.03.11 edition</title>
       <link>http://tinyletter.com/data-is-plural/letters/data-is-plural-2020-03-11-edition</link>
@@ -197,29 +218,6 @@
 ]]></content:encoded>
       <guid isPermaLink="false">dip-2020-01-15</guid>
       <pubDate>Wed, 15 Jan 2020 08:00:00 -0500</pubDate>
-    </item>
-    <item>
-      <title>Data Is Plural — 2020.01.01 edition</title>
-      <link>http://tinyletter.com/data-is-plural/letters/data-is-plural-2020-01-01-edition</link>
-      <description>Water quality, legislator ideology, Google copyright complaints, California university history, and game show risk-taking.</description>
-      <content:encoded><![CDATA[<p><em>Water quality, legislator ideology, Google copyright complaints, California university history, and game show risk-taking.</em></p>
-<p> </p>
-<p><em>But first ... a small New Year’s gift for DIP readers: <a href="https://github.com/data-is-plural/newsletter-archive/blob/master/README.md">You can now receive the newsletter via RSS</a>.</em></p>
-<p> </p>
-<p><strong>Global water quality.</strong> The UN’s <a href="https://gemstat.org">GEMStat project</a> provides “scientifically-sound data” on freshwater quality around the world. The <a href="https://gemstat.org/data/data-portal/">data portal</a> lets visitors <a href="https://gemstat.bafg.de/applications/public.html?publicuser=PublicUser">explore</a> and <a href="https://gemstat.org/custom-data-request/">download</a> water-sample results from thousands of stations in more than 80 countries. The information available for each sample varies, but it can include chemical, biological, and physical properties. <strong>Note</strong>: Not all locations have been sampled recently, and data downloads are limited to 500 stations at a time and for noncommercial purposes only. <strong>Related</strong>: “<a href="https://openknowledge.worldbank.org/handle/10986/32245">The Invisible Water Crisis</a>,” a World Bank report from last year that used the GEMStat data. [h/t <a href="https://twitter.com/rylan_dobson/status/1165142955243515904">Rylan Dobson</a>]</p>
-<p> </p>
-<p><strong>State legislator ideologies.</strong> Political scientists <a href="https://research.bshor.com">Boris Shor</a> and <a href="https://www.princeton.edu/~nmccarty/">Nolan McCarty</a>’s have <a href="https://americanlegislatures.com/faq/">assigned ideology scores</a>, on a conservative-to-liberal scale, to every US lawmaker in all 50 state legislatures. The <a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/6QWX7Q">most recent update</a>, published May 2018, covers more than 22,000 legislators from 1993 through 2016. Shor and McCarty derived the numeric scores from a combination of legislative voting records and responses to Vote Smart’s “<a href="https://justfacts.votesmart.org/about/political-courage-test/">Political Courage Test</a>.”</p>
-<p> </p>
-<p><strong>Copyright complaints.</strong> Google has received millions of requests from copyright holders to delist billions of URLs from its search results. The company’s <a href="https://transparencyreport.google.com">transparency reports</a> include a section where you can <a href="https://transparencyreport.google.com/copyright/overview">explore and download data</a> about these requests. One of the datasets describes 8.5 million delisting requests, with their dates, copyright holders, numbers of URLs targeted, and links to more details in <a href="https://www.lumendatabase.org">the Lumen archive</a>. Another contains every web domain targeted, while another lists the URLs for which Google says it took no action. [h/t <a href="https://www.reddit.com/r/datasets/comments/54kv4e/database_of_copyright_removal_requests_made_to/">Dan Nguyen</a>]</p>
-<p> </p>
-<p><strong>California university history.</strong> The <a href="https://uccliometric.org">UC ClioMetric History Project</a> is digitizing decades of administrative records from the University of California and other schools in the state (such as USC and Stanford). So far, they’ve uploaded data on more than <a href="https://uccliometric.org/students/">750,000 student enrollments</a>, <a href="https://uccliometric.org/faculty/">tens of thousands of faculty members</a>, and <a href="https://uccliometric.org/courses/">800,000 courses</a>.</p>
-<p> </p>
-<p><strong>Game show gambles.</strong> To study how people make decisions in risky situations, a team of academics <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=636508">analyzed contestants’ choices</a> in 100+ episodes of <a href="https://en.wikipedia.org/wiki/Deal_or_No_Deal">Deal or No Deal</a> that aired in the Netherlands, Germany, and the US. Their dataset is available <a href="https://www.openicpsr.org/openicpsr/project/113232/version/V1/view">through ICPSR</a> (registration required) and <a href="http://web.archive.org/web/2018*/https://www.aeaweb.org/articles?id=10.1257/aer.98.1.38">the Wayback Machine</a>.</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send risky feedback to jsvine@gmail.com, or just reply to this email. Looking for past datasets? <a href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk">This spreadsheet contains them all</a>. Did a friend forward you this email? <a href="https://tinyletter.com/data-is-plural">Click here to subscribe</a>.</em></p>
-]]></content:encoded>
-      <guid isPermaLink="false">dip-2020-01-01</guid>
-      <pubDate>Wed, 01 Jan 2020 08:00:00 -0500</pubDate>
     </item>
   </channel>
 </rss>
