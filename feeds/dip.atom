@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://tinyletter.com/data-is-plural</id>
   <title>Data Is Plural</title>
-  <updated>2020-03-18T08:00:00-04:00</updated>
+  <updated>2020-03-25T08:00:00-04:00</updated>
   <author>
     <name>Jeremy Singer-Vine</name>
     <email>jsvine@gmail.com</email>
@@ -10,6 +10,28 @@
   <link href="https://tinyletter.com/data-is-plural" rel="alternate"/>
   <generator>https://github.com/data-is-plural/newsletter-archive</generator>
   <subtitle>A weekly newsletter of useful/curious datasets.</subtitle>
+  <entry>
+    <id>dip-2020-03-25</id>
+    <title>Data Is Plural — 2020.03.25 edition</title>
+    <updated>2020-03-25T08:00:00-04:00</updated>
+    <content type="CDATA"><![CDATA[<p><em>More coronavirus data, but also transportation data from the US Census, a prisoner survey, and very old companies.</em></p>
+<p> </p>
+<p><strong>COVID-19 cases, continued.</strong> The <a href="https://www.ecdc.europa.eu/">European Centre for Disease Prevention and Control</a> has been publishing <a href="https://qap.ecdc.europa.eu/public/extensions/COVID-19/COVID-19.html">a COVID-19 dashboard</a> and <a href="https://www.ecdc.europa.eu/en/publications-data/download-todays-data-geographic-distribution-covid-19-cases-worldwide">daily-updated data files</a> tracking country-level cases and deaths. <strong>Related</strong>: <a href="https://ourworldindata.org/">Our World In Data</a> <a href="https://ourworldindata.org/coronavirus-source-data">explains why the publication switched</a> from using the <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports">World Health Organization’s situation reports</a> to the ECDC’s data for <a href="https://ourworldindata.org/coronavirus">its analyses and graphics</a>. <strong>Also related</strong>: <a href="https://usafacts.org/">USAFacts</a> is using data from state governments, local public health agencies, and Johns Hopkins University (<a href="https://tinyletter.com/data-is-plural/letters/data-is-plural-2020-03-11-edition">DIP 2020.03.11</a>) to <a href="https://usafacts.org/visualizations/coronavirus-covid-19-spread-map/">map US cases at the county level</a>, with the underlying data available to download. [h/t <a href="https://github.com/covid19-data/covid19-data">YY Ahn</a> + <a href="https://biglocalnews.org/">Big Local News</a>]</p>
+<p> </p>
+<p><strong>Official coronavirus interventions.</strong> <a href="https://www.acaps.org/who-we-are/in-short">ACAPS</a>, a humanitarian analysis nonprofit, is cataloguing <a href="https://data.humdata.org/dataset/acaps-covid19-government-measures-dataset">government measures implemented in response to the pandemic</a>. The measures range from quarantine policies (the most common) to electronic surveillance and the lockdown of refugee camps. As of Tuesday evening, the dataset contained 1,741 entries; each entry includes the date implemented, source links, and descriptive comments. Computational social scientist <a href="https://rexdouglass.com/">Rex Douglass</a>, meanwhile, is <a href="https://github.com/rexdouglass/TIGR">crowdsourcing a dataset of mandatory government restrictions</a>, such as bans on large gatherings, restaurant shutdowns, and shelter-in-place decrees. It has fewer entries so far, but <a href="https://github.com/rexdouglass/TIGR/blob/master/data_out/TIGR_version1_latest.tsv">more detail on US cities and states</a>. [h/t <a href="https://twitter.com/NArulappan/status/1240305942798848001">Nishanth Arulappan</a>]</p>
+<p> </p>
+<p><strong>Getting around.</strong> The <a href="https://www.transportation.org/home/organization/">American Association of State Highway and Transportation Officials</a>’ <a href="https://ctpp.transportation.org/">Census Transportation Planning Products</a> initiative “produces special tabulations of American Community Survey (ACS) data that have enhanced value for transportation planning, analysis, and strategic direction,” such as commute times, carpooling, bicycle usage, available vehicles, and more. The program’s <a href="https://ctpp.transportation.org/2012-2016-5-year-ctpp/">core dataset</a> “consists of almost 200 residence-based tables, 115 workplace-based tables and 39 flow tables (home to work) for over 325,000 geographies.” [h/t <a href="https://www.linkedin.com/in/adrienne-heller-aicp-env-sp-0b96837/">Adrienne Heller</a>]</p>
+<p> </p>
+<p><strong>Prisoners, polled.</strong> <a href="https://www.themarshallproject.org/">The Marshall Project</a> and <a href="https://slate.com/">Slate</a> have partnered <a href="https://www.themarshallproject.org/2020/03/11/how-we-pulled-off-a-groundbreaking-political-survey-behind-bars">to conduct</a> a <a href="https://www.themarshallproject.org/2020/03/11/what-do-we-really-know-about-the-politics-of-people-behind-bars">survey of incarcerated people’s political views</a>. They’ve received more than 8,000 responses so far, and have made the (anonymized) data <a href="https://github.com/themarshallproject/incarcerated_survey">available to download</a>.</p>
+<p> </p>
+<p><strong>Unfinished business.</strong> <a href="https://businessfinancing.co.uk/about/">BusinessFinancing.co.uk</a> attempted to identify <a href="https://businessfinancing.co.uk/the-oldest-company-in-almost-every-country/">the oldest, still-operating companies in every country in the world</a>, and put its findings into <a href="https://docs.google.com/spreadsheets/d/1ynIAoLhz0SZYzjpwZ5e5mFzBxt6V28FTBjX7A99jq3E/edit#gid=1002274442">a spreadsheet</a>. [h/t <a href="https://mailchi.mp/ad9d9051041f/preview-222-in-other-news-3843345">Giuseppe Sollazzo</a> + <a href="https://www.visualcapitalist.com/oldest-companies/">Iman Ghosh</a>]</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send centuries-old feedback to jsvine@gmail.com, or just reply to this email. Looking for past datasets? <a href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk">This spreadsheet contains them all</a>. Did a friend forward you this email? <a href="https://tinyletter.com/data-is-plural">Click here to subscribe</a>.</em></p>
+]]></content>
+    <link href="http://tinyletter.com/data-is-plural/letters/data-is-plural-2020-03-25-edition" rel="alternate"/>
+    <summary>More coronavirus data, but also transportation data from the US Census, a prisoner survey, and very old companies.</summary>
+    <published>2020-03-25T08:00:00-04:00</published>
+  </entry>
   <entry>
     <id>dip-2020-03-18</id>
     <title>Data Is Plural — 2020.03.18 edition</title>
@@ -209,27 +231,5 @@
     <link href="http://tinyletter.com/data-is-plural/letters/data-is-plural-2020-01-22-edition" rel="alternate"/>
     <summary>China’s projects abroad, radio/TV broadcast areas, street sprawl, cannabis tests, and backyard ice rinks.</summary>
     <published>2020-01-22T08:00:00-05:00</published>
-  </entry>
-  <entry>
-    <id>dip-2020-01-15</id>
-    <title>Data Is Plural — 2020.01.15 edition</title>
-    <updated>2020-01-15T08:00:00-05:00</updated>
-    <content type="CDATA"><![CDATA[<p><em>Missing migrants, global antitrust, microbes, geographic renaming proposals, and the life of a supercomputer.</em></p>
-<p> </p>
-<p><strong>Missing migrants.</strong> The <a href="https://missingmigrants.iom.int/about">Missing Migrants Project</a> “tracks deaths of migrants, including refugees and asylum-seekers, who have gone missing along mixed migration routes worldwide.” Research for the project, an initiative of the <a href="https://www.iom.int">International Organization for Migration</a>, began after the <a href="https://en.wikipedia.org/wiki/2013_Lampedusa_migrant_shipwreck">fatal Lampedusa shipwrecks</a> of October 2013. For each incident, the project’s <a href="https://missingmigrants.iom.int/downloads">datasets</a> specify the location, the number of people who died, the number who are missing, the number who survived, the sources of information, the source quality, and more. <strong>Previously</strong>: <a href="https://github.com/ondata/the-list">European migration deaths</a>, 1993 to May 2018 (<a href="https://tinyletter.com/data-is-plural/letters/data-is-plural-2018-07-18-edition">DIP 2018.07.18</a>). [h/t <a href="https://www.reddit.com/r/datasets/comments/eiwiww/dataset_where_migrants_die/">u/cavedave</a> + <a href="https://twitter.com/tjukanov/status/1212641818975916032">Topi Tjukanov</a>]</p>
-<p> </p>
-<p><strong>Global antitrust.</strong> The <a href="https://comparativecompetitionlaw.org">Comparative Competition Law project</a> classifies the legal provisions and enforcement of antitrust laws around the world, over time. The project is run by law professors <a href="https://www.law.columbia.edu/faculty/anu-bradford">Anu Bradford</a> and <a href="http://www.adamchilton.org">Adam Chilton</a>, and features several <a href="http://comparativecompetitionlaw.org/data/">datasets and detailed codebooks</a>. (They require an email address but no formal registration.) <strong>Related</strong>: <a href="https://twitter.com/adamschilton/status/1192498999204483074">Chilton’s introductory Twitter thread</a>. [h/t <a href="https://twitter.com/dusek_libor/status/1192520366373187586">Libor Dusek</a>]</p>
-<p> </p>
-<p><strong>Microorganisms.</strong> The <a href="https://microbe.directory/">Microbe Directory</a> is an attempt to profile more than 7,000 bacteria, viruses, archaea, and other microorganisms. The directory <a href="https://microbe.directory/developers">can be downloaded</a> <a href="https://github.com/microbe-directory/microbe-directory">in bulk</a> and describes the microbes’ optimal temperature, optimal pH, Gram stain, pathogenicity, antimicrobial resistance, and more.</p>
-<p> </p>
-<p><strong>Geographic (re)naming proposals.</strong> When someone wants to officially name or rename a geographic feature of the United States — such as a mountain, creek, or island — they file a proposal with the <a href="https://www.usgs.gov/core-science-systems/ngp/board-on-geographic-names">US Board on Geographic Names</a>. Those proposals end up on the agency’s “<a href="https://geonames.usgs.gov/apex/f?p=geonames_web:review_lists:0:::::">Action List</a>,” the most recent year of which can be downloaded as a spreadsheet. <strong>Previously</strong>: <a href="https://www.usgs.gov/core-science-systems/ngp/board-on-geographic-names/download-gnis-data">The Board’s database of every US geographic name</a> (<a href="https://tinyletter.com/data-is-plural/letters/data-is-plural-2015-10-21-edition">DIP 2015.10.21</a>). [h/t <a href="https://twitter.com/veltman/status/1201906847382269953">Noah Veltman</a>]</p>
-<p> </p>
-<p><strong>The life of a supercomputer.</strong> <a href="http://fusionwiki.ciemat.es/wiki/CIEMAT">CIEMAT</a> — a public institution in Spain that studies energy and the environment — <a href="https://www.sciencedirect.com/science/article/pii/S2352340919313629">has published</a> nearly a decade of <a href="https://www.cse.huji.ac.il/labs/parallel/workload/l_ciemat_euler/index.html">processing receipts from its Euler supercomputer</a>. The records, which span the supercomputer’s entire lifetime, contain metadata for more than 9 million computing jobs, including timestamps, memory usage, and more.</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send CPU-intensive feedback to jsvine@gmail.com, or just reply to this email. Looking for past datasets? <a href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk">This spreadsheet contains them all</a>. Did a friend forward you this email? <a href="https://tinyletter.com/data-is-plural">Click here to subscribe</a>.</em></p>
-]]></content>
-    <link href="http://tinyletter.com/data-is-plural/letters/data-is-plural-2020-01-15-edition" rel="alternate"/>
-    <summary>Missing migrants, global antitrust, microbes, geographic renaming proposals, and the life of a supercomputer.</summary>
-    <published>2020-01-15T08:00:00-05:00</published>
   </entry>
 </feed>
