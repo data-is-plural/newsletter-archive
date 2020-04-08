@@ -6,7 +6,28 @@
     <description>A weekly newsletter of useful/curious datasets.</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>https://github.com/data-is-plural/newsletter-archive</generator>
-    <lastBuildDate>Wed, 01 Apr 2020 08:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 08 Apr 2020 08:00:00 -0400</lastBuildDate>
+    <item>
+      <title>Data Is Plural — 2020.04.08 edition</title>
+      <link>http://tinyletter.com/data-is-plural/letters/data-is-plural-2020-04-08-edition</link>
+      <description>Pandemic-era economic policies, historical economic productivity, FOIA figures, police drones, and a lot of domain names.</description>
+      <content:encoded><![CDATA[<p><em>Pandemic-era economic policies, historical economic productivity, FOIA figures, police drones, and a lot of domain names.</em></p>
+<p> </p>
+<p><strong>Pandemic-era economic policies.</strong> A group of researchers have built a structured dataset quantifying <a href="http://web.boun.edu.tr/elgin/COVID.htm">166 countries’ economic responses to the COVID-19 pandemic</a>. The dataset draws mainly from the <a href="https://www.imf.org/en/Topics/imf-and-covid19/Policy-Responses-to-COVID-19">International Monetary Fund’s COVID-19 Policy Tracker</a> — which describes the policies in free-form text — and supplements it with additional research. The quantified policies include fiscal stimuli, monetary stimuli, interest-rate cuts, and interventions to control the countries’ balance of payments. [h/t <a href="https://www.reddit.com/r/datasets/comments/fve5ta/dataset_economic_policy_measures_adopted_by_166/">u/smurfyjenkins</a>]</p>
+<p> </p>
+<p><strong>Historical economic productivity.</strong> The <a href="http://longtermproductivity.com/">Long-Term Productivity database</a> was created at the Bank of France in 2013, and has been updated several times since then. For 23 OECD countries from 1890 to 2018, the database tracks <a href="https://en.wikipedia.org/wiki/Total_factor_productivity">total factor productivity</a>, <a href="https://data.oecd.org/lprdty/gdp-per-hour-worked.htm">labor productivity</a>, <a href="https://en.wikipedia.org/wiki/Capital_intensity">capital intensity</a>, GDP per capita, and more. [h/t <a href="https://www.mokhtartabari.ca/">Mokhtar Tabari</a>]</p>
+<p> </p>
+<p><strong>Forty-plus years of FOIA.</strong> Journalism professor <a href="https://www.ajaywagner.com/">A.Jay Wagner</a> has compiled a dataset of <a href="https://epublications.marquette.edu/comm_data/1/">14 federal agencies’ Freedom of Information Act annual reports</a> from 1975 through 2018. For each agency and year, the dataset contains the number of FOIA requests processed, granted, and denied; exemptions invoked; appeal outcomes; staffing figures; fees assessed; and more. [h/t <a href="https://www.linkedin.com/in/georgelevines/">George LeVines</a>]</p>
+<p> </p>
+<p><strong>Police drones.</strong> Last month, the <a href="https://dronecenter.bard.edu/about/">Center for the Study of the Drone at Bard College</a> released the third edition of its <a href="https://dronecenter.bard.edu/projects/public-safety-drones-project/public-safety-drones-3rd-edition/">Public Safety Drones report</a>, in which researchers identified “1,578 state and local police, sheriff, fire, and emergency services agencies in the U.S. that are believed to have acquired drones.” You can explore and download the data through <a href="https://www.google.com/maps/d/viewer?mid=1zcTdAkQB_gqVX383oQcyujM7Nd85rquH">the report’s interactive map</a>.</p>
+<p> </p>
+<p><strong>A lot of domain names.</strong> Software engineer <a href="https://www.linkedin.com/in/bohdanturkynewych">Bohdan Turkynewych</a> has compiled a <a href="https://github.com/tb0hdan/domains">dataset of more than 50 million domain names</a>, discovered by crawling the web and processing 86 terabytes of internet traffic. <strong>Related</strong>: French registry <a href="https://en.wikipedia.org/wiki/Association_fran%C3%A7aise_pour_le_nommage_Internet_en_coop%C3%A9ration">Afnic</a> publishes a <a href="http://opendata.afnic.fr/en/products-and-services/services/opendata-en.html">full list of all registered <em>.fr</em> domains</a>. [h/t <a href="https://opendata.stackexchange.com/a/6835">Javier Sáenz</a>]</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send DNS-queryable feedback to jsvine@gmail.com, or just reply to this email. Looking for past datasets? <a href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk">This spreadsheet contains them all</a>. Did a friend forward you this email? <a href="https://tinyletter.com/data-is-plural">Click here to subscribe</a>.</em></p>
+]]></content:encoded>
+      <guid isPermaLink="false">dip-2020-04-08</guid>
+      <pubDate>Wed, 08 Apr 2020 08:00:00 -0400</pubDate>
+    </item>
     <item>
       <title>Data Is Plural — 2020.04.01 edition</title>
       <link>http://tinyletter.com/data-is-plural/letters/data-is-plural-2020-04-01-edition</link>
@@ -197,27 +218,6 @@
 ]]></content:encoded>
       <guid isPermaLink="false">dip-2020-02-05</guid>
       <pubDate>Wed, 05 Feb 2020 08:00:00 -0500</pubDate>
-    </item>
-    <item>
-      <title>Data Is Plural — 2020.01.29 edition</title>
-      <link>http://tinyletter.com/data-is-plural/letters/data-is-plural-2020-01-29-edition</link>
-      <description>Time use surveys, dams, Spanish migration, darknet markets, and (more) vanity plate applications.</description>
-      <content:encoded><![CDATA[<p><em>Time use surveys, dams, Spanish migration, darknet markets, and (more) vanity plate applications.</em></p>
-<p> </p>
-<p><strong>How we spend our time.</strong> Ever year since 2003, the <a href="https://www.bls.gov/tus/home.htm">American Time Use Survey</a>, has been measuring how much time we spend sleeping, eating, and working; with friends, with family, and alone; and much more. Unlike <a href="https://www.timeuse.org/information/access-data">many other time use surveys</a>, the ATUS’s <a href="https://www.bls.gov/tus/data.htm">respondent-level datasets</a> are freely available to the general public. Other time use surveys with downloadable data include the <a href="https://dataverse.unc.edu/dataverse/rlms-hse">Russia Longitudinal Monitoring Survey</a> and a <a href="https://data.mcc.gov/evaluations/index.php/catalog/205/study-description">Kosovo time use survey</a> sponsored by the Millennium Challenge Corporation. <strong>Related</strong>: Through <a href="https://ipums.org">IPUMS</a>, you can build custom data extracts <a href="https://www.atusdata.org/atus/">of the ATUS</a>, <a href="https://www.ahtusdata.org/ahtus/">of historical US time survey data</a>, and <a href="https://www.mtusdata.org/mtus/">of the Multinational Time Use Study</a> (registration required). <strong>As seen in</strong>: “<a href="https://flowingdata.com/2019/07/16/how-the-american-work-day-changed-in-15-years/">How the American Work Day Changed in 15 Years</a>” and “<a href="https://flowingdata.com/2019/03/06/women-men-timeuse/">A Day in the Life: Women and Men</a>,” two visualizations by <a href="https://twitter.com/flowingdata">Nathan Yau</a>. [h/t <a href="https://twitter.com/Petrit/status/1043413638068006912">Petrit Selimi</a>]</p>
-<p> </p>
-<p><strong>Dams.</strong> The <a href="https://globaldamwatch.org/goodd/">Global Georeferenced Database of Dams</a> contains <a href="https://springernature.figshare.com/collections/GOODD_a_global_dataset_of_more_than_38_000_georeferenced_dams/4648214">geographic data on more than 38,000 dams and their watersheds</a>. The project, <a href="https://www.nature.com/articles/s41597-020-0362-5">published by geographers at King’s College London</a>, is based on a combination of satellite imagery, national registries, and other sources. At least one co-author <a href="https://twitter.com/drarnoutvans/status/1219664646107533318">has been working on the project since 2008</a>. [h/t <a href="https://twitter.com/JIDA1983/status/1220374752533131264">Jida Wang</a>]</p>
-<p> </p>
-<p><strong>Three decades of Spanish migration.</strong> Spain’s national statistics institute publishes <a href="https://github.com/ECLaboratorio/unidad-de-datos/tree/master/proyectos/migraciones_espana">annual microdata on the relocation of residents</a> within, into, and out of the country. The datasets indicate each relocator’s gender and age, birthplace, previous location, and destination — down to the municipality for locations within Spain. Currently, the records cover 1988 to 2018. <strong>Related</strong>: <a href="https://translate.google.com/translate?hl=&amp;sl=es&amp;tl=en&amp;u=https%3A%2F%2Fwww.elconfidencial.com%2Feconomia%2F2019-09-27%2Fexodo-urbano-espana-migraciones-provincias_2240119%2F&amp;sandbox=1">El Confidencial’s report on intra-provincial migration patterns</a>, using this data, and <a href="https://github.com/ECLaboratorio/unidad-de-datos/tree/master/proyectos/migraciones_espana">related GitHub repository</a>. [h/t <a href="https://mailchi.mp/a4bbc86cc07b/preview-222-in-other-news-3750685">Giuseppe Sollazzo</a>]</p>
-<p> </p>
-<p><strong>Darknet market survival.</strong> The researcher who goes by “<a href="https://www.gwern.net/Links">Gwern</a>” maintains a <a href="https://www.gwern.net/DNM-survival">dataset of more than 80 darknet marketplaces</a> founded between 2011 and 2015. For each market (such as the infamous Silk Road), the dataset lists when it began, when it closed, why it closed, its URL, what cryptocurrencies it accepted, whether guns were allowed to be sold, and more.</p>
-<p> </p>
-<p><strong>California vanity plates.</strong> Through a public records request, <a href="https://twitter.com/veltman">Noah Veltman</a> has obtained data on <a href="https://github.com/veltman/ca-license-plates">more than 23,000 personalized license plate applications</a> flagged for review by the California DMV. For each flagged application, the dataset contains the applicant’s justification, comments from the state’s reviewers, and the proposal’s outcome. The reviewers rejected about 80% of the proposals, including those believed to be referencing racial slurs, swearing, drugs, sex, violence, and more. <strong>Previously</strong>: <a href="https://github.com/datanews/license-plates">New York vanity plate applications</a> (<a href="https://tinyletter.com/data-is-plural/letters/data-is-plural-2015-10-21-edition">DIP 2015.10.21</a>).</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send vain feedback to jsvine@gmail.com, or just reply to this email. Looking for past datasets? <a href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk">This spreadsheet contains them all</a>. Did a friend forward you this email? <a href="https://tinyletter.com/data-is-plural">Click here to subscribe</a>.</em></p>
-]]></content:encoded>
-      <guid isPermaLink="false">dip-2020-01-29</guid>
-      <pubDate>Wed, 29 Jan 2020 08:00:00 -0500</pubDate>
     </item>
   </channel>
 </rss>
