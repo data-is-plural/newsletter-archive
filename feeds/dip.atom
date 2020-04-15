@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://tinyletter.com/data-is-plural</id>
   <title>Data Is Plural</title>
-  <updated>2020-04-08T08:00:00-04:00</updated>
+  <updated>2020-04-15T08:00:00-04:00</updated>
   <author>
     <name>Jeremy Singer-Vine</name>
     <email>jsvine@gmail.com</email>
@@ -10,6 +10,28 @@
   <link href="https://tinyletter.com/data-is-plural" rel="alternate"/>
   <generator>https://github.com/data-is-plural/newsletter-archive</generator>
   <subtitle>A weekly newsletter of useful/curious datasets.</subtitle>
+  <entry>
+    <id>dip-2020-04-15</id>
+    <title>Data Is Plural — 2020.04.15 edition</title>
+    <updated>2020-04-15T08:00:00-04:00</updated>
+    <content type="CDATA"><![CDATA[<p><em>COVID-19 testing around the world, aggregated smartphone movements, privacy policies, NYC trash, and Animal Crossing.</em></p>
+<p> </p>
+<p><strong>COVID-19 testing around the world.</strong> Nearly every country publishes the number of residents who’ve tested positive for COVID-19. Far fewer post data on the total number of <em>people tested</em> (or <em>tests performed</em>). But as more countries start doing that, the team at <a href="https://ourworldindata.org/">Our World In Data</a> has begun compiling a <a href="https://github.com/owid/covid-19-data/tree/master/public/data/testing">regularly-updated dataset on COVID-19 testing</a>, along with <a href="https://ourworldindata.org/covid-testing">key context, a detailed methodology, and interactive charts</a>.</p>
+<p> </p>
+<p><strong>Aggregated smartphone movements.</strong> A team of academics has begun publishing a <a href="https://github.com/COVIDExposureIndices/COVIDExposureIndices">series of “exposure indices”</a> based on smartphone “pings” collected by a location-analytics company. One set of indices describes the proportion of smartphones that, on a given day in a given US state or county, were observed at least once in another given state or county during the previous 14 days. Another tries to quantify how often smartphones are observed in the same “commercial venues” as other devices. “We are making these indices publicly available to all researchers in the context of the spread of COVID-19,” the researchers write.</p>
+<p> </p>
+<p><strong>Privacy policies.</strong> Researchers at Imperial College London and Oxford have compiled a dataset of <a href="https://github.com/ansgarw/privacy">more than 4,000 privacy policies</a> published on major US companies’ websites. For each policy, the dataset includes its full text, counts the number of words and paragraphs in it, calculates a readability metric, and reports the number of third-party tracking cookies loaded through the policy’s webpage. [h/t <a href="https://www.imperial.ac.uk/people/a.uettwiller17">Antione Uettwiller</a>]</p>
+<p> </p>
+<p><strong>Thirty years of NYC trash and recycling.</strong> New York City’s Department of Sanitation publishes a dataset of <a href="https://data.cityofnewyork.us/City-Government/DSNY-Monthly-Tonnage-Data/ebb7-mvp5">the monthly tonnage it collects from city residences</a>, going back to 1990. For each community district and month, the dataset tallies the weight of household trash, recyclables, “organics,” and more — including, for each January, the tonnage of Christmas trees collected. <strong>Related</strong>: Reporters at The City recently analyzed the dataset, and <a href="https://thecity.nyc/2020/04/garbage-pickups-tell-tale-of-two-cities-as-manhattan-shrinks.html">found potential evidence of Manhattanites fleeing the city in March</a>. They also interviewed the Department of Sanitation’s <a href="https://robinnagle.com/">anthropologist-in-residence</a>.</p>
+<p> </p>
+<p><strong>Animal Crossing.</strong> <a href="https://villagerdb.com/">VillagerDB</a> is an online and <a href="https://github.com/jefflomacy/villagerdb/tree/master/data">downloadable</a> database of thousands of the characters, accessories, tools, and other items in <a href="https://en.wikipedia.org/wiki/Animal_Crossing:_New_Horizons">Animal Crossing: New Horizons</a> — the <em>Sims</em>-like game that’s <a href="https://www.theverge.com/2020/3/26/21195022/animal-crossing-switch-sales-japan-famitsu">breaking sales records</a> and <a href="https://www.buzzfeednews.com/article/scaachikoul/animal-crossing-quarantine-distraction">saving my colleague’s marriage</a>. [h/t <a href="https://twitter.com/ACWorldBlog/status/1248376259735769090">Justin</a>]</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send deserted-island feedback to jsvine@gmail.com, or just reply to this email. Looking for past datasets? <a href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk">This spreadsheet contains them all</a>. Did a friend forward you this email? <a href="https://tinyletter.com/data-is-plural">Click here to subscribe</a>.</em></p>
+]]></content>
+    <link href="http://tinyletter.com/data-is-plural/letters/data-is-plural-2020-04-15-edition" rel="alternate"/>
+    <summary>COVID-19 testing around the world, aggregated smartphone movements, privacy policies, NYC trash, and Animal Crossing.</summary>
+    <published>2020-04-15T08:00:00-04:00</published>
+  </entry>
   <entry>
     <id>dip-2020-04-08</id>
     <title>Data Is Plural — 2020.04.08 edition</title>
@@ -209,27 +231,5 @@
     <link href="http://tinyletter.com/data-is-plural/letters/data-is-plural-2020-02-12-edition" rel="alternate"/>
     <summary>Banking crises, Europe in translation, simulated hurricanes, arXiv metadata, and the greatest hip-hop tracks of all time.</summary>
     <published>2020-02-12T08:00:00-05:00</published>
-  </entry>
-  <entry>
-    <id>dip-2020-02-05</id>
-    <title>Data Is Plural — 2020.02.05 edition</title>
-    <updated>2020-02-05T08:00:00-05:00</updated>
-    <content type="CDATA"><![CDATA[<p><em>Credibly accused clergy, coronavirus cases, sign-stealing, hotel bookings, and the Smiths (... and the Johnsons ... and the Williamses ...).</em></p>
-<p> </p>
-<p><strong>Credibly accused clergy.</strong> Reporters at ProPublica <a href="https://www.propublica.org/article/we-assembled-the-only-nationwide-database-of-priests-deemed-credibly-accused-of-abuse-heres-how">have assembled</a> the first-ever <a href="https://projects.propublica.org/credibly-accused/">nationwide database of US Catholic clergy “credibly accused” of sexual abuse</a>, based on nearly 180 official lists released by dioceses and religious orders. (The majority of the lists were published during the past year and a half, following a <a href="https://en.wikipedia.org/wiki/Grand_jury_investigation_of_Catholic_Church_sexual_abuse_in_Pennsylvania">landmark grand jury report in Pennsylvania</a>.) The database contains more than 6,700 names so far, plus details available from some of the lists, including birth year, ordination year, assignments, and status.</p>
-<p> </p>
-<p><strong>Coronavirus cases.</strong> As the <a href="https://en.wikipedia.org/wiki/2019%E2%80%9320_Wuhan_coronavirus_outbreak">Wuhan coronavirus outbreak</a> intensifies, a team at Johns Hopkins has been <a href="https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6">mapping the number of confirmed cases</a>, deaths, and recoveries. The project <a href="https://systems.jhu.edu/research/public-health/ncov/">aggregates data</a> from several sources, including the <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports/">WHO</a>, <a href="https://www.cdc.gov/coronavirus/2019-nCoV/summary.html">US CDC</a>, <a href="https://www.ecdc.europa.eu/en/geographical-distribution-2019-ncov-cases">European CDC</a>, and <a href="https://ncov.dxy.cn/">DXY</a>, a website that reports case counts from China’s CDC and National Health Commission. The dataset powering the Johns Hopkins map is <a href="https://docs.google.com/spreadsheets/d/1wQVypefm946ch4XDp37uZ-wartW4V7ILdg-qYiDXUHM/edit#gid=787605648">available as a spreadsheet</a>. [h/t <a href="http://www.fionn.xyz">Fionn Delahunty</a>]</p>
-<p> </p>
-<p><strong>Baseball sign-stealing.</strong> “I’m an Astros fan. They cheated during the 2017 regular season — the evidence is clear. In an attempt to understand the scope of the cheating and the players involved, I decided to listen to every pitch from the Astros’ 2017 home games and log any banging noise I could detect.” That’s from <a href="https://twitter.com/adams_at">Tony Adams</a>, who <a href="http://signstealingscandal.com/about/">analyzed audio spectrograms</a> corresponding to more than 8,200 pitches. Last week, he published <a href="http://signstealingscandal.com/">a website documenting his findings</a>, including <a href="http://signstealingscandal.com/files/">a spreadsheet of the data</a>. <strong>Related</strong>: <a href="http://signstealingscandal.com/statistical-analysis/">Adams’s list of stories and analyses that have used the data</a>. [h/t <a href="https://danjbrady.com">Dan Brady</a>]</p>
-<p> </p>
-<p><strong>Hotel bookings.</strong> In 2018, a trio of researchers at the Instituto Universitário de Lisboa published a <a href="https://www.sciencedirect.com/science/article/pii/S2352340918315191">dataset detailing nearly 120,000 (anonymized) bookings</a> at two (unnamed) hotels in Portugal between July 2015 and August 2017. The bookings, extracted from the hotels’ property management systems, are described in detail: the number of adults, children, and babies for the reservation; country of origin; customer, room, and deposit types; whether the guests were repeat visitors; the number of special requests made; and more.</p>
-<p> </p>
-<p><strong>Last (but not least) names.</strong> From the US Census Bureau, you can download a dataset of <a href="https://www.census.gov/topics/population/genealogy/data/2010_surnames.html">all surnames that belonged to at least 100 people in 2010</a>, and <a href="https://www.census.gov/topics/population/genealogy/data/2000_surnames.html">the same for 2000</a>. Those datasets indicate the total number of people with the name, and distribution of those people by race/ethnicity. A similar list, but based on a sample population and without demographic information, is also <a href="https://www.census.gov/topics/population/genealogy/data/1990_census/1990_census_namefiles.html">available for 1990</a>. <strong>Pop quiz</strong>: Try to guess the five most popular surnames that are also colors ... in order. [h/t <a href="https://pinboard.in/u:arnicas/">Lynn Cherny</a>]</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send common feedback to jsvine@gmail.com, or just reply to this email. Looking for past datasets? <a href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk">This spreadsheet contains them all</a>. Did a friend forward you this email? <a href="https://tinyletter.com/data-is-plural">Click here to subscribe</a>.</em></p>
-]]></content>
-    <link href="http://tinyletter.com/data-is-plural/letters/data-is-plural-2020-02-05-edition" rel="alternate"/>
-    <summary>Credibly accused clergy, coronavirus cases, sign-stealing, hotel bookings, and the Smiths (... and the Johnsons ... and the Williamses ...).</summary>
-    <published>2020-02-05T08:00:00-05:00</published>
   </entry>
 </feed>
