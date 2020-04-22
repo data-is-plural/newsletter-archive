@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://tinyletter.com/data-is-plural</id>
   <title>Data Is Plural</title>
-  <updated>2020-04-15T08:00:00-04:00</updated>
+  <updated>2020-04-22T08:00:00-04:00</updated>
   <author>
     <name>Jeremy Singer-Vine</name>
     <email>jsvine@gmail.com</email>
@@ -10,6 +10,28 @@
   <link href="https://tinyletter.com/data-is-plural" rel="alternate"/>
   <generator>https://github.com/data-is-plural/newsletter-archive</generator>
   <subtitle>A weekly newsletter of useful/curious datasets.</subtitle>
+  <entry>
+    <id>dip-2020-04-22</id>
+    <title>Data Is Plural — 2020.04.22 edition</title>
+    <updated>2020-04-22T08:00:00-04:00</updated>
+    <content type="CDATA"><![CDATA[<p><em>A COVID policy tracker–tracker, every US Census question since 1790, chemical weapons in Syria, NYC sidewalks, and crowdsourced moral judgments.</em></p>
+<p> </p>
+<p><strong>Tracking the COVID policy trackers.</strong> Economics graduate student <a href="https://www.spi.ox.ac.uk/people/lukas-lehner">Lukas Lehner</a> has gathered, <a href="https://twitter.com/LukasLehner_/status/1251048564899397632">with help from the hive-mind</a>, a list of <a href="https://lukaslehner.github.io/covid19policytrackers/">dozens of websites and datasets tracking policy responses</a> to the COVID-19 pandemic – a few that have been mentioned in DIP, plus many that haven’t. Lehner’s tracker-tracker groups the resources into several topic areas, summarizes them, and indicates their data formats. [h/t <a href="https://f.briatte.org/">François Briatte</a>]</p>
+<p> </p>
+<p><strong>Every Census question, ever.</strong> Programmer <a href="https://github.com/anbnyc">Alec Barrett</a> has built a spreadsheet listing <a href="https://github.com/the-pudding/data/tree/master/census-history">every question asked on every decennial US Census</a> since 1790 — more than 900 items overall. In addition to the questions themselves, the dataset describes the subgroups of people questioned and the types of answers expected. <strong>Related</strong>: The dataset powers “<a href="https://pudding.cool/2020/03/census-history/">The Evolution of the American Census</a>,” Barrett’s interactive exploration of how the questions have changed over time, and what they say about America.</p>
+<p> </p>
+<p><strong>Chemical weapons attacks in Syria.</strong> “Building on years of painstaking work alongside our Syrian and international partners,” the <a href="https://chemicalweapons.gppi.net/">Global Public Policy Institute</a> “has compiled the most comprehensive dataset of incidents of chemical weapons use in Syria to date.” The institute has published a <a href="https://chemicalweapons.gppi.net/data-portal/">new interactive data portal</a> to display the data on 345 attacks between 2012 and 2019. The data fields include the date and time of the attack, location, chemical agent, munition type and method of delivery, perpetrator, confidence rating, and more. [h/t <a href="https://twitter.com/tobiaschneider/status/1247665719334100994">Tobias Schneider</a>]</p>
+<p> </p>
+<p><strong>NYC sidewalks, narrow and broad.</strong> Urban planner <a href="http://meliharvey.com/">Meli Harvey</a> has taken <a href="https://data.cityofnewyork.us/City-Government/Sidewalk/vfx9-tbb6">New York City’s official dataset of sidewalks</a> and <a href="https://github.com/meliharvey/sidewalkwidths-nyc">dissected its geometries</a> to <a href="http://www.sidewalkwidths.nyc/">map the width of each segment of walkable pavement</a>. [h/t <a href="https://danjbrady.com">Dan Brady</a>]</p>
+<p> </p>
+<p><strong>Crowdsourced moral judgements.</strong> Data scientist <a href="https://www.elle-obrien.com/">Elle O’Brien</a> <a href="https://dvc.org/blog/a-public-reddit-dataset">recently described</a> how she built and cleaned a <a href="https://github.com/iterative/aita_dataset">dataset of the moral dilemmas</a> posted to <a href="https://www.reddit.com/r/AmItheAsshole/">r/AmItheAsshole</a>, “a semi-structured online forum that’s the internet’s closest approximation of a judicial system.” For each of the 97,628 posts collected, the dataset includes the title, body, date, number of Reddit upvotes, and number of comments — plus the community’s verdict. [h/t <a href="https://www.reddit.com/r/datasets/comments/f5t5fo/a_public_dataset_of_reddit_posts_about_moral/">u/thumbsdrivesmecrazy</a>]</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send morally-questionable feedback to jsvine@gmail.com, or just reply to this email. Looking for past datasets? <a href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk">This spreadsheet contains them all</a>. Did a friend forward you this email? <a href="https://tinyletter.com/data-is-plural">Click here to subscribe</a>.</em></p>
+]]></content>
+    <link href="http://tinyletter.com/data-is-plural/letters/data-is-plural-2020-04-22-edition" rel="alternate"/>
+    <summary>A COVID policy tracker–tracker, every US Census question since 1790, chemical weapons in Syria, NYC sidewalks, and crowdsourced moral judgments.</summary>
+    <published>2020-04-22T08:00:00-04:00</published>
+  </entry>
   <entry>
     <id>dip-2020-04-15</id>
     <title>Data Is Plural — 2020.04.15 edition</title>
@@ -209,27 +231,5 @@
     <link href="http://tinyletter.com/data-is-plural/letters/data-is-plural-2020-02-19-edition" rel="alternate"/>
     <summary>Standardized electric-utility info, school vaccination rates, global empires, farming households, and pinball.</summary>
     <published>2020-02-19T08:00:00-05:00</published>
-  </entry>
-  <entry>
-    <id>dip-2020-02-12</id>
-    <title>Data Is Plural — 2020.02.12 edition</title>
-    <updated>2020-02-12T08:00:00-05:00</updated>
-    <content type="CDATA"><![CDATA[<p><em>Banking crises, Europe in translation, simulated hurricanes, arXiv metadata, and the greatest hip-hop tracks of all time.</em></p>
-<p> </p>
-<p><strong>Banking crises.</strong> <a href="https://sites.google.com/site/laevenl/home">Luc Laeven</a> and <a href="https://www.imf.org/external/np/cv/AuthorCV.aspx?AuthID=179">Fabián Valencia</a> — economists at the European Central Bank and the International Monetary Fund, respectively — have built and maintain a <a href="https://www.imf.org/en/Publications/WP/Issues/2018/09/14/Systemic-Banking-Crises-Revisited-46232">dataset of systemic banking crises</a>, like those that rippled across the globe in 2008. First published in 2008 and most recently updated in 2018, the dataset covers on 151 crises affecting 118 countries from 1970 to 2017. For each episode, the dataset provides the starting and ending dates, policy responses, output loss, fiscal cost, increase in public debt, and more. [h/t <a href="https://github.com/erikgahner/PolData/commit/5499561d2ff6b692ed59770b0f62e3fe98995bdc">Erik Gahner Larsen</a>]</p>
-<p> </p>
-<p><strong>Europe in translation.</strong> <a href="https://iate.europa.eu/home">IATE</a> is the European Union’s official terminology database, containing translations for words and phrases such as “orange juice,” “climate change policy”, and “competence of the Member States.” (That’s <em>succo d’arancia</em> in Italian, <em>ilmastonmuutospolitiikka</em> in Finnish, and <em>tagállami hatáskör</em> in Hungarian.) Over the past 20+ years, the project has accumulated more than 970,000 entries, translated into nearly 8 million phrasings in 25 languages. You can search the entries online or <a href="https://iate.europa.eu/download-iate">download the entire dataset</a> as a single XML file. [h/t <a href="https://twitter.com/Yambo_LSG/status/1224270800150245381">Laura Solana Garzón</a>]</p>
-<p> </p>
-<p><strong>Tropical cyclone simulations.</strong> A team of scientists have used historical hurricane and typhoon data to <a href="https://www.nature.com/articles/s41597-020-0381-2">simulate</a> a <a href="https://data.4tu.nl/repository/uuid:82c1dc0d-5485-43d8-901a-ce7f26cda35d">10,000 plausible years of cyclone activity</a>. The dataset covers the world’s most active “basins” — the areas where cyclones form — and includes each simulated storm’s path, maximum wind speed, average pressure, and more. [h/t <a href="https://mobile.twitter.com/jcnathaz/status/1225676744625012736">Jose A Cañizares</a>]</p>
-<p> </p>
-<p><strong>arXiv metadata.</strong> Founded nearly 30 years ago, <a href="https://arxiv.org">arXiv</a> is an open-access repository of more than 1,600,000 scholarly articles — typically “preprints” of papers, uploaded by the authors before being peer-reviewed — in physics, math, computer science, statistics, economics, and several other fields. The website participates in <a href="https://www.openarchives.org">Open Archives Initiative</a>, providing <a href="https://arxiv.org/help/oa/index">metadata on uploaded articles</a> through the initiative’s protocol; it also <a href="https://arxiv.org/help/api/index">has an API</a>. Last summer, computer science student <a href="https://boramalper.org">Bora M. Alper</a> <a href="https://www.reddit.com/r/DataHoarder/comments/c39mmj/arxiv_complete_metadata_dump_20190618_internet/">collected</a> the metadata for all the site’s papers and <a href="https://archive.org/details/arXiv-metadata-dump-2019-06-18.tar.xz">published it as a single file</a>.</p>
-<p> </p>
-<p><strong>Biggie data.</strong> What are the greatest hip-hop songs of all time? Last year, the BBC <a href="http://www.bbc.com/culture/story/20191007-the-greatest-hip-hop-songs-of-all-time-who-voted">posed that question</a> to more than 100 artists, producers, critics, and other experts, asking each to rank their top five tracks. (Notorious B.I.G.’s “Juicy” <a href="http://www.bbc.com/culture/story/20191007-the-greatest-hip-hop-songs-of-all-time">nabbed the highest rating</a>.) Software engineer <a href="https://simonjockers.de">Simon Jockers</a> has turned the responses into a <a href="https://github.com/sjockers/bbc-best-rapmusic">structured dataset</a> and <a href="https://blog.datawrapper.de/best-hip-hop-songs-of-all-time-visualized/">visualized the results</a>.</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send critic-approved feedback to jsvine@gmail.com, or just reply to this email. Looking for past datasets? <a href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk">This spreadsheet contains them all</a>. Did a friend forward you this email? <a href="https://tinyletter.com/data-is-plural">Click here to subscribe</a>.</em></p>
-]]></content>
-    <link href="http://tinyletter.com/data-is-plural/letters/data-is-plural-2020-02-12-edition" rel="alternate"/>
-    <summary>Banking crises, Europe in translation, simulated hurricanes, arXiv metadata, and the greatest hip-hop tracks of all time.</summary>
-    <published>2020-02-12T08:00:00-05:00</published>
   </entry>
 </feed>
