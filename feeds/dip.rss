@@ -6,7 +6,28 @@
     <description>A weekly newsletter of useful/curious datasets.</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>https://github.com/data-is-plural/newsletter-archive</generator>
-    <lastBuildDate>Wed, 22 Apr 2020 08:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 29 Apr 2020 08:00:00 -0400</lastBuildDate>
+    <item>
+      <title>Data Is Plural — 2020.04.29 edition</title>
+      <link>http://tinyletter.com/data-is-plural/letters/data-is-plural-2020-04-29-edition</link>
+      <description>Parlimentary speeches, COVID-19 preprints, mobility indicators, US retail, and poems by kids.</description>
+      <content:encoded><![CDATA[<p><em>Parlimentary speeches, COVID-19 preprints, mobility indicators, US retail, and poems by kids.</em></p>
+<p> </p>
+<p><strong>Six million parliamentary speeches.</strong> <a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/L4OAKN">ParlSpeech V2</a> contains 6.3 million parliamentary speeches from nine countries: Austria, the Czech Republic, Germany, Denmark, the Netherlands, New Zealand, Spain, Sweden, and the United Kingdom. The dataset, created by political scientists <a href="https://sites.google.com/site/christianrauh/">Christian Rauh</a> and <a href="https://twitter.com/janschwalbach">Jan Schwalbach</a>, includes the full text of each speech, plus the date, speaker, and the speaker’s party. <strong>Related</strong>: <a href="http://personal.lse.ac.uk/hix/HixNouryRolandEPdata.HTM">Roll call votes from the European Parliament’s first six terms</a> (1979–2009). [h/t <a href="https://github.com/erikgahner/PolData/pull/5">Robert Stelzle</a>]</p>
+<p> </p>
+<p><strong>COVID-19 preprints.</strong> Preprints — academic papers published online before they’ve gone through traditional peer review — have become a common way for scientists to disseminate their coronavirus-related findings. So researchers <a href="https://orcid.org/0000-0002-7582-6339">Nicholas Fraser</a> and <a href="https://orcid.org/0000-0002-5965-6560">Bianca Kramer</a> have begun compiling a <a href="https://github.com/nicholasmfraser/covid19_preprints">dataset of more than 6,000 COVID-19 preprints</a>. For each paper, the dataset includes the title, abstract, DOI, date posted, and the hosting repository (such as <a href="https://www.medrxiv.org/">medRxiv</a>, the most common so far).</p>
+<p> </p>
+<p><strong>Mobility indicators.</strong> Tech companies have repurposed some of the data they collect from you into explorable, downloadable datasets that estimate the degree to which movement patterns have (or haven’t) changed in recent months. Among them: Apple, which is <a href="https://www.apple.com/covid19/mobility">quantifying requests for directions</a>; Google, which is <a href="https://www.google.com/covid19/mobility/">counting visits to places such as grocery stores and transit station</a>; and Descartes Labs, which is <a href="https://github.com/descarteslabs/DL-COVID-19">tracking smartphone movements</a>. <strong>Related</strong>: Sociologist <a href="https://kieranhealy.org/about/">Kieran Healy</a> recently <a href="https://kieranhealy.org/blog/archives/2020/04/23/apples-covid-mobility-data/">found and explained</a> a curious February 17 spike in Apple’s data. [h/t <a href="https://mobile.twitter.com/hillary/status/1250130170029248512">Hillary Hartley</a>]</p>
+<p> </p>
+<p><strong>US retail.</strong> Since the 1950s, the US Census Bureau has conducted <a href="https://www.census.gov/retail/index.html">monthly surveys of retail and food-services industries</a>. The results — which estimate sales and inventory numbers by subsector — are available as machine-readable data going back to 1992. The next release is scheduled for May 15. [h/t <a href="https://mailchi.mp/b13add45c669/preview-222-in-other-news-3862701">Giuseppe Sollazzo</a>]</p>
+<p> </p>
+<p><strong>Poems by kids.</strong> <a href="https://github.com/whipson/PoKi-Poems-by-Kids">PoKi</a> is “a corpus of 61,330 poems written by children from grades 1 to 12,” scraped with permission from <a href="http://web.archive.org/web/20191025052907/teacher.scholastic.com/writewit/poetry/jack_readall.asp">a Scholastic website</a>. The dataset includes each poem’s title, text, and character count, plus the author’s first name and grade. <strong>Noteworthy</strong>: “PoKi is made freely available for research with the condition that the research be used for the benefit of children.”</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send precocious feedback to jsvine@gmail.com, or just reply to this email. Looking for past datasets? <a href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk">This spreadsheet contains them all</a>. Did a friend forward you this email? <a href="https://tinyletter.com/data-is-plural">Click here to subscribe</a>.</em></p>
+]]></content:encoded>
+      <guid isPermaLink="false">dip-2020-04-29</guid>
+      <pubDate>Wed, 29 Apr 2020 08:00:00 -0400</pubDate>
+    </item>
     <item>
       <title>Data Is Plural — 2020.04.22 edition</title>
       <link>http://tinyletter.com/data-is-plural/letters/data-is-plural-2020-04-22-edition</link>
@@ -197,27 +218,6 @@
 ]]></content:encoded>
       <guid isPermaLink="false">dip-2020-02-26</guid>
       <pubDate>Wed, 26 Feb 2020 08:00:00 -0500</pubDate>
-    </item>
-    <item>
-      <title>Data Is Plural — 2020.02.19 edition</title>
-      <link>http://tinyletter.com/data-is-plural/letters/data-is-plural-2020-02-19-edition</link>
-      <description>Standardized electric-utility info, school vaccination rates, global empires, farming households, and pinball.</description>
-      <content:encoded><![CDATA[<p><em>Standardized electric-utility info, school vaccination rates, global empires, farming households, and pinball.</em></p>
-<p> </p>
-<p><strong>Electric utilities, standardized.</strong> “Electric utilities report a huge amount of information to the US government,” but “much of this data is not released in well documented, ready-to-use, machine readable formats.” That assessment comes from the <a href="https://catalyst.coop/pudl/">Public Utility Data Liberation</a> (PUDL) project, which aims to clean, standardize, and cross-link the electric utility information gathered by various agencies. Earlier this month, PUDL published <a href="https://zenodo.org/record/3653159">its first data release</a>; it includes information originally collected through Energy Information Administration <a href="https://www.eia.gov/electricity/data/eia860/">Form 860</a> (details about individual generators) and <a href="https://www.eia.gov/electricity/data/eia923/">Form 923</a> (individual power plants), the Environmental Protection Agency’s <a href="https://www.epa.gov/emc/emc-continuous-emission-monitoring-systems">Continuous Emissions Monitoring System</a> (hourly emissions), and the Federal Energy Regulatory Commission’s <a href="https://www.ferc.gov/docs-filing/forms/form-1/data.asp">Form 1</a> (price rates and financial audits). The code PUDL uses to download, extract, and standardize the raw data is also <a href="https://github.com/catalyst-cooperative/pudl">available online</a>. [h/t <a href="https://twitter.com/ZaneSelvans">Zane Selvans</a>]</p>
-<p> </p>
-<p><strong>School vaccination rates.</strong> Reporters at the Wall Street Journal collected <a href="https://github.com/WSJ/measles-data">data on school-specific vaccination rates</a> — both overall and also for the measles, mumps, and rubella (MMR) vaccine — from 32 US states’ health departments. In total, the WSJ’s dataset covers more than 46,000 schools, of which 42,000 have at least one vaccination rate available. Most states provided data for the 2018–19 school year; the rest did so for 2017–18.</p>
-<p> </p>
-<p><strong>4,500 years of empire.</strong> To help study “<a href="https://voxeu.org/article/imperial-roots-global-trade">the imperial roots of global trade</a>,” a trio of economists have built a <a href="https://www.wnvermeulen.com/empires/">dataset of 168 historical empires</a>. For each empire, the dataset lists the modern-day countries under rule (and during which years), plus whether the empire had a centralized administration, centralized religion, and/or monopoly on coin-minting. [h/t <a href="https://mailchi.mp/newsletter.jainfamilyinstitute.org/some-totality">Jain Family Institute</a>]</p>
-<p> </p>
-<p><strong>Farm households.</strong> The <a href="https://www.nature.com/articles/s41597-020-0388-8">Rural Household Multiple Indicator Survey</a> (RHoMIS) “collects information on 758 variables covering household demographics, farm area, crops grown and their production, livestock holdings” and more. In an <a href="https://www.nature.com/articles/s41597-020-0388-8">academic article published this month</a>, researchers from the Nairobi-based <a href="https://www.ilri.org">International Livestock Research Institute</a> presented a <a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/9M6EHS">dataset of responses collected from 13,310 farm households</a> in 21 countries in sub-Saharan Africa, Central America, and Asia between 2015 and early 2018.</p>
-<p> </p>
-<p><strong>Pinball.</strong> The crowdsourced website <a href="https://pinballmap.com">pinballmap.com</a> provides data on more than 25,500 pinball machines at more than 7,400 locations in the US, UK, Canada, Australia, Finland, and Japan. The <a href="https://pinballmap.com/api/v1/docs">website’s API</a> lets you access the underlying data, including the specific machines available at each location.</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send high-scoring feedback to jsvine@gmail.com, or just reply to this email. Looking for past datasets? <a href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk">This spreadsheet contains them all</a>. Did a friend forward you this email? <a href="https://tinyletter.com/data-is-plural">Click here to subscribe</a>.</em></p>
-]]></content:encoded>
-      <guid isPermaLink="false">dip-2020-02-19</guid>
-      <pubDate>Wed, 19 Feb 2020 08:00:00 -0500</pubDate>
     </item>
   </channel>
 </rss>
