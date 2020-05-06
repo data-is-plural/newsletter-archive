@@ -6,7 +6,28 @@
     <description>A weekly newsletter of useful/curious datasets.</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>https://github.com/data-is-plural/newsletter-archive</generator>
-    <lastBuildDate>Wed, 29 Apr 2020 08:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 06 May 2020 08:00:00 -0400</lastBuildDate>
+    <item>
+      <title>Data Is Plural — 2020.05.06 edition</title>
+      <link>http://tinyletter.com/data-is-plural/letters/data-is-plural-2020-05-06-edition</link>
+      <description>Coronavirus and race, COVID-19 in prisons, “essential” NYC construction, space dollars, and Love Island.</description>
+      <content:encoded><![CDATA[<p><em>Coronavirus and race, COVID-19 in prisons, “essential” NYC construction, space dollars, and Love Island.</em></p>
+<p> </p>
+<p><strong>Coronavirus and race.</strong> Last week, the COVID Tracking Project (<a href="https://tinyletter.com/data-is-plural/letters/data-is-plural-2020-03-18-edition">DIP 2020.03.18</a>) <a href="https://twitter.com/COVID19Tracking/status/1254909756742852608">launched</a> a beta release of its <a href="https://covidtracking.com/race">COVID Racial Data Tracker</a>, built in collaboration with American University’s <a href="https://antiracismcenter.com/">Antiracist Research &amp; Policy Center</a>. The tracker collects demographic statistics, now published by most states, that disaggregate the number of COVID-19 cases and deaths by race and/or ethnicity. “This is a challenging dataset to compile and code, and our data sources remain in flux, but we offer this beta release for full transparency,” the project’s organizers write; they’re seeking feedback “as we work toward building a complete dataset and getting it into our API and onto the website.”</p>
+<p> </p>
+<p><strong>COVID-19 in prisons.</strong> The Marshall Project has been <a href="https://www.themarshallproject.org/2020/05/01/a-state-by-state-look-at-coronavirus-in-prisons">tracking COVID-19 cases and deaths in US prisons</a>. To compile <a href="https://github.com/themarshallproject/COVID_prison_data">that dataset</a>, every week the publication’s reporters ask each state prison system and the federal Bureau of Prisons “for the total number of coronavirus tests administered to its staff members and prisoners, the cumulative number who tested positive among staff and prisoners, and the numbers of deaths for each group.”</p>
+<p> </p>
+<p><strong>Essential NYC construction sites.</strong> New York City’s Department of Buildings has been publishing a <a href="https://www1.nyc.gov/assets/buildings/html/essential-active-construction.html">dataset and interactive map</a> of construction sites deemed “essential,” and thus <a href="https://www1.nyc.gov/site/buildings/about/essential-construction-faq.page">eligible to continue work</a> during the coronavirus pandemic. The current list covers more than 6,700 sites, including more than 1,200 at schools, 1,000 for public housing, and 250 related to health care. [h/t <a href="https://tinyletter.com/nycdatajobs/letters/nyc-data-188-spotify-northwell-health-the-knot-predicting-weekly-unemployment-claims-turner-cit-bayer">Josh Laurito</a>]</p>
+<p> </p>
+<p><strong>Space dollars.</strong> <a href="https://www.planetary.org/get-involved/be-a-space-advocate/become-an-expert/planetary-exploration-budget-dataset.html">The Planetary Science Budget Dataset</a> “integrates the spending history, by year, of every NASA planetary science mission and related activities.” It also calculates funding by destination (e.g., Mars, Venus, the moon, etc.), and annual budget breakdowns for individual missions. The dataset is maintained by <a href="https://www.planetary.org/about/">The Planetary Society</a>, a nonprofit founded 40 years ago by Carl Sagan, Louis Friedman, and Bruce Murray — and now led by Bill Nye. [h/t <a href="https://twitter.com/lifewinning/status/1257431537252999168">Ingrid Burrington</a>]</p>
+<p> </p>
+<p><strong>Love Island.</strong> Developer advocate <a href="https://twitter.com/AmyKateNicho">Amy Boyd</a> has assembled <a href="https://github.com/amynic/love-island-workshop">a dataset of 96 contestants</a> who appeared on the British dating reality series <a href="https://en.wikipedia.org/wiki/Love_Island_(2015_TV_series)"><em>Love Island</em></a> from 2016 to 2019, including each contestant’s name, age, profession, and various metrics of success in the competition. [h/t <a href="https://twitter.com/nckltcha/status/1253977479204818944">Nick Latocha</a>]</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send competitively-romantic feedback to jsvine@gmail.com, or just reply to this email. Looking for past datasets? <a href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk">This spreadsheet contains them all</a>. Did a friend forward you this email? <a href="https://tinyletter.com/data-is-plural">Click here to subscribe</a>.</em></p>
+]]></content:encoded>
+      <guid isPermaLink="false">dip-2020-05-06</guid>
+      <pubDate>Wed, 06 May 2020 08:00:00 -0400</pubDate>
+    </item>
     <item>
       <title>Data Is Plural — 2020.04.29 edition</title>
       <link>http://tinyletter.com/data-is-plural/letters/data-is-plural-2020-04-29-edition</link>
@@ -197,27 +218,6 @@
 ]]></content:encoded>
       <guid isPermaLink="false">dip-2020-03-04</guid>
       <pubDate>Wed, 04 Mar 2020 08:00:00 -0500</pubDate>
-    </item>
-    <item>
-      <title>Data Is Plural — 2020.02.26 edition</title>
-      <link>http://tinyletter.com/data-is-plural/letters/data-is-plural-2020-02-26-edition</link>
-      <description>Government contracts, tech organizing, US anti-press incidents, EU laws, and Cockatoo Island prisoners.</description>
-      <content:encoded><![CDATA[<p><em>Government contracts, tech organizing, US anti-press incidents, EU laws, and Cockatoo Island prisoners.</em></p>
-<p> </p>
-<p><strong>Government contracts, standardized.</strong> The <a href="https://www.open-contracting.org/data-standard/">Open Contracting Data Standard</a> is a “free, non-proprietary open data standard” that makes it “easier to share, compare and analyze” the contracts that governments award to bidders. The project <a href="https://www.open-contracting.org/impact-stories/">has been gaining traction</a>, with <a href="https://www.open-contracting.org/worldwide/">dozens of local and federal governments</a> using <a href="https://standard.open-contracting.org/latest/en/">the standard</a> to publish detailed official data, including in <a href="https://www.gov.uk/government/publications/open-contracting">the UK</a>, <a href="https://buyandsell.gc.ca/procurement-data/open-contracting-data-standard-pilot/about-the-ocds-pilot">Canada</a>, <a href="https://www.colombiacompra.gov.co/transparencia/gestion-documental/datos-abiertos">Colombia</a>, <a href="http://ppip.gov.np">Nepal</a>, <a href="https://gpp.ppda.go.ug">Uganda</a>, and <a href="https://ageops.net/en/home">Afghanistan</a>.</p>
-<p> </p>
-<p><strong>Tech workers, united.</strong> The <a href="https://collectiveactions.tech">Collective Actions In Tech project</a> database aims to document every instance of tech-industry workers banding together to raise awareness of a shared cause. The database, which is <a href="https://github.com/collective-action/tech/blob/master/CONTRIBUTING.md">developed collaboratively</a> and <a href="https://github.com/collective-action/tech">available to download</a>, so far contains more than 200 protests, strikes, union drives, legal actions, and open letters. (The earliest event: In 1979, IBM workers protested their company’s business with apartheid South Africa.) <strong>Related</strong>: Writing for The Guardian, <a href="https://www.theguardian.com/commentisfree/2019/dec/22/tech-worker-activism-2019-what-we-learned">two of the project’s organizers describe</a> “our eight most important insights.” [h/t <a href="https://anja.kefala.info">anjakefala</a>]</p>
-<p> </p>
-<p><strong>Anti-press incidents.</strong> Since 2017, the <a href="https://pressfreedomtracker.us">U.S. Press Freedom Tracker</a> has collected information on <a href="https://pressfreedomtracker.us/blog/3-years-tracking-our-january-2020-newsletter/">more than 400 incidents targeting journalists in the United States</a>, such as arrests, attacks, and denials of access. The <a href="https://pressfreedomtracker.us/about/">initiative</a>, led by the <a href="https://freedom.press/">Freedom of the Press Foundation</a> and the <a href="https://www.cpj.org/">Committee to Protect Journalists</a>, provides <a href="https://pressfreedomtracker.us/data/">bulk downloads of the data, plus an API</a>. <strong>Related</strong>: The project <a href="https://pressfreedomtracker.us/blog/back-campaign-trail-president-trump-increases-his-anti-press-tweet-offensive/">also maintains</a> a <a href="https://docs.google.com/spreadsheets/d/1uNA6nsgcRhhQ0b6USsMNzhYLMfuDRSMhbGZNZ00WkHk/edit?usp=sharing">spreadsheet of anti-press tweets</a> by Donald Trump. <strong>Previously</strong>: CPJ’s <a href="https://cpj.org/data/killed">database of journalists who’ve been killed</a> for reasons related to their work (<a href="https://tinyletter.com/data-is-plural/letters/data-is-plural-2019-01-16-edition">DIP 2019.01.16</a>). [h/t <a href="https://twitter.com/sidnext2none">Sid Rao</a>]</p>
-<p> </p>
-<p><strong>EU laws.</strong> The <a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/0EGYWY">CEPS EurLex dataset</a> contains more than 142,000 European Union regulations, directives, and official decisions — ”almost the entire corpus of the EU’s legally binding acts passed between 1952 - 2019.” The dataset contains two dozen variables, including dates, subject matter, authors, various links, and the full text of most laws. The information comes, ultimately, from the EU’s online legal repository, <a href="https://eur-lex.europa.eu">eur-lex.europa.eu</a>. [h/t <a href="https://twitter.com/MoritzLaurer/status/1229356229660639237">Moritz Laurer</a>]</p>
-<p> </p>
-<p><strong>Cockatoo Island prisoners.</strong> Historical criminologist <a href="https://www.liverpool.ac.uk/sociology-social-policy-and-criminology/staff/katherine-roscoe/">Katherine Roscoe</a> has transcribed archival records to create a <a href="https://cockatooconvicts.wordpress.com">detailed dataset of more than 2,500 people imprisoned</a> between 1847 and 1869 at <a href="https://en.wikipedia.org/wiki/Cockatoo_Island_(New_South_Wales)">Cockatoo Island Prison</a> — “Sydney’s most notorious 19th century prison,” now a UNESCO World Heritage Site.</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send notorious feedback to jsvine@gmail.com, or just reply to this email. Looking for past datasets? <a href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk">This spreadsheet contains them all</a>. Did a friend forward you this email? <a href="https://tinyletter.com/data-is-plural">Click here to subscribe</a>.</em></p>
-]]></content:encoded>
-      <guid isPermaLink="false">dip-2020-02-26</guid>
-      <pubDate>Wed, 26 Feb 2020 08:00:00 -0500</pubDate>
     </item>
   </channel>
 </rss>
