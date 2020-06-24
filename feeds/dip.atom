@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://tinyletter.com/data-is-plural</id>
   <title>Data Is Plural</title>
-  <updated>2020-06-17T08:00:00-04:00</updated>
+  <updated>2020-06-24T08:00:00-04:00</updated>
   <author>
     <name>Jeremy Singer-Vine</name>
     <email>jsvine@gmail.com</email>
@@ -10,6 +10,28 @@
   <link href="https://tinyletter.com/data-is-plural" rel="alternate"/>
   <generator>https://github.com/data-is-plural/newsletter-archive</generator>
   <subtitle>A weekly newsletter of useful/curious datasets.</subtitle>
+  <entry>
+    <id>dip-2020-06-24</id>
+    <title>Data Is Plural — 2020.06.24 edition</title>
+    <updated>2020-06-24T08:00:00-04:00</updated>
+    <content type="CDATA"><![CDATA[<p><em>New policing bills, Indigenous lands, The Gay Guides, coronavirus-era child care, and Ancient Rome.</em></p>
+<p> </p>
+<p><strong>New policing bills.</strong> The <a href="https://www.ncsl.org">National Conference of State Legislatures</a> has built a <a href="https://www.ncsl.org/research/civil-and-criminal-justice/legislative-responses-for-policing.aspx">database of state-level policing bills and executive orders</a> introduced since May 25, the day George Floyd was killed. The database covers proposed bills on “oversight and data, training, standards and certification, use of force, technology, policing alternatives and collaboration, [...] and other timely issues.” So far, it contains brief descriptions, author information, statuses, and last-activity dates for more than 250 pieces of legislation in 25 states and DC. Although the database does not provide downloads, its HTML output is highly structured. <strong>Related</strong>: Last week, The Marshall Project’s <a href="https://twitter.com/Weihua_Li1">Weihua Li</a>, <a href="https://twitter.com/HumeraLodhi">Humera Lodhi</a>, and <a href="https://twitter.com/sharmad23">Damini Sharma</a> <a href="https://www.themarshallproject.org/2020/06/18/which-states-are-taking-on-police-reform-after-george-floyd">analyzed the database and put the bills in context</a>.</p>
+<p> </p>
+<p><strong>Indigenous lands.</strong> <a href="https://native-land.ca/">Native-Land.ca</a> maps the historical geographic extents of Indigenous territories in North America, Australia, New Zealand, parts of South America, and elsewhere. The <a href="https://native-land.ca/api-docs/">project’s datasets</a> cover 1,400+ territories, 900+ languages, and 800+ related treaties, drawn from <a href="https://native-land.ca/resources/">a wide range of resources</a>. It was launched in 2015 by programmer <a href="http://victortemprano.com">Victor Temprano</a> and is <a href="https://native-land.ca/about/">now run by a not-for-profit organization with a board of directors</a>. <strong>Related</strong>: Earlier this year, High Country News published <a href="https://www.landgrabu.org">Land-Grab Universities</a>, a “two-year inquiry into the origin of wealth that undergirds the nation’s system of higher education,” accompanied by a <a href="https://www.hcn.org/articles/indigenous-affairs-education-how-we-investigated-the-land-grant-university-system">detailed methodology</a> and <a href="https://github.com/HCN-Digital-Projects/landgrabu-data">dataset</a> spanning nearly 11 million acres of expropriated Indigenous land.</p>
+<p> </p>
+<p><strong>The Gay Guides.</strong> <a href="https://www.mappingthegayguides.org">Mapping the Gay Guides</a> “aims to understand often ignored queer geographies using the Damron Address Books, an early but longstanding travel guide aimed at gay men since the early 1960s.” The project — <a href="https://www.mappingthegayguides.org/2020/02/announcing-the-launch-of-mapping-the-gay-guides/">launched earlier this year</a> and <a href="https://mappingthegayguides.org/about/">led by</a> historians <a href="https://mappingthegayguides.org/regan/">Amanda Regan</a> and <a href="https://mappingthegayguides.org/gonzaba/">Eric Gonzaba</a> — includes an <a href="https://mappingthegayguides.org/map/">interactive map</a>, <a href="https://github.com/MappingtheGayGuides/MGG-Data">downloadable dataset</a>, <a href="https://mappingthegayguides.org/methodology/">methodology</a>, and <a href="https://mappingthegayguides.org/ethics/">ethics statement</a>. It already covers more than 22,000 entries in more than 30 states, with plans for further expansion. [h/t <a href="https://mailchi.mp/42557319b05d/preview-222-in-other-news-3837485">Giuseppe Sollazzo</a>]</p>
+<p> </p>
+<p><strong>Coronavirus-era child care.</strong> Economist and parenting book–author <a href="https://emilyoster.net/">Emily Oster</a> has been <a href="https://docs.google.com/forms/d/e/1FAIpQLSeYIy0Dc9PW9sWCSWNXypw36FLoMiSx9jDalgDPcccK4T7ezQ/viewform">collecting</a> and <a href="https://twitter.com/ProfEmilyOster/status/1275044876133044225">publishing</a> “preliminary, unscientific data on child care centers which were open in the pandemic.” The <a href="https://docs.google.com/spreadsheets/d/1L45r63t8hpYfGLpT6gWKjYMscu8Wut6jtlxO-1FAW9c/edit">dataset</a> currently includes more than 900 centers, their locations, age ranges served, whether they were open the whole time or just part of it, the number of students and staff, and the number of COVID-19 cases in students and staff. [h/t <a href="https://twitter.com/LauraALibby/status/1274084844817940480">Laura Libby</a>]</p>
+<p> </p>
+<p><strong>These datasets lead to Rome.</strong> The <a href="https://darmc.harvard.edu/">Digital Atlas of Roman and Medieval Civilizations</a> at Harvard University “makes freely available on the internet the best available materials for [...] mapping and spatial analysis of the Roman and medieval worlds.” The project’s <a href="https://darmc.harvard.edu/data-availability">datasets</a> include economic indicators, climate records, ports and harbors, shipwrecks, roads, and more. [h/t <a href="https://www.reddit.com/r/datasets/comments/h0702y/has_anyone_put_together_a_document_listing_all/">Pier Rolla</a>]</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send ancient feedback to jsvine@gmail.com, or just reply to this email. Looking for past datasets? <a href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk">This spreadsheet contains them all</a>. Did a friend forward you this email? <a href="https://tinyletter.com/data-is-plural">Click here to subscribe</a>.</em></p>
+]]></content>
+    <link href="http://tinyletter.com/data-is-plural/letters/data-is-plural-2020-06-24-edition" rel="alternate"/>
+    <summary>New policing bills, Indigenous lands, The Gay Guides, coronavirus-era child care, and Ancient Rome.</summary>
+    <published>2020-06-24T08:00:00-04:00</published>
+  </entry>
   <entry>
     <id>dip-2020-06-17</id>
     <title>Data Is Plural — 2020.06.17 edition</title>
@@ -207,27 +229,5 @@
     <link href="http://tinyletter.com/data-is-plural/letters/data-is-plural-2020-04-15-edition" rel="alternate"/>
     <summary>COVID-19 testing around the world, aggregated smartphone movements, privacy policies, NYC trash, and Animal Crossing.</summary>
     <published>2020-04-15T08:00:00-04:00</published>
-  </entry>
-  <entry>
-    <id>dip-2020-04-08</id>
-    <title>Data Is Plural — 2020.04.08 edition</title>
-    <updated>2020-04-08T08:00:00-04:00</updated>
-    <content type="CDATA"><![CDATA[<p><em>Pandemic-era economic policies, historical economic productivity, FOIA figures, police drones, and a lot of domain names.</em></p>
-<p> </p>
-<p><strong>Pandemic-era economic policies.</strong> A group of researchers have built a structured dataset quantifying <a href="http://web.boun.edu.tr/elgin/COVID.htm">166 countries’ economic responses to the COVID-19 pandemic</a>. The dataset draws mainly from the <a href="https://www.imf.org/en/Topics/imf-and-covid19/Policy-Responses-to-COVID-19">International Monetary Fund’s COVID-19 Policy Tracker</a> — which describes the policies in free-form text — and supplements it with additional research. The quantified policies include fiscal stimuli, monetary stimuli, interest-rate cuts, and interventions to control the countries’ balance of payments. [h/t <a href="https://www.reddit.com/r/datasets/comments/fve5ta/dataset_economic_policy_measures_adopted_by_166/">u/smurfyjenkins</a>]</p>
-<p> </p>
-<p><strong>Historical economic productivity.</strong> The <a href="http://longtermproductivity.com/">Long-Term Productivity database</a> was created at the Bank of France in 2013, and has been updated several times since then. For 23 OECD countries from 1890 to 2018, the database tracks <a href="https://en.wikipedia.org/wiki/Total_factor_productivity">total factor productivity</a>, <a href="https://data.oecd.org/lprdty/gdp-per-hour-worked.htm">labor productivity</a>, <a href="https://en.wikipedia.org/wiki/Capital_intensity">capital intensity</a>, GDP per capita, and more. [h/t <a href="https://www.mokhtartabari.ca/">Mokhtar Tabari</a>]</p>
-<p> </p>
-<p><strong>Forty-plus years of FOIA.</strong> Journalism professor <a href="https://www.ajaywagner.com/">A.Jay Wagner</a> has compiled a dataset of <a href="https://epublications.marquette.edu/comm_data/1/">14 federal agencies’ Freedom of Information Act annual reports</a> from 1975 through 2018. For each agency and year, the dataset contains the number of FOIA requests processed, granted, and denied; exemptions invoked; appeal outcomes; staffing figures; fees assessed; and more. [h/t <a href="https://www.linkedin.com/in/georgelevines/">George LeVines</a>]</p>
-<p> </p>
-<p><strong>Police drones.</strong> Last month, the <a href="https://dronecenter.bard.edu/about/">Center for the Study of the Drone at Bard College</a> released the third edition of its <a href="https://dronecenter.bard.edu/projects/public-safety-drones-project/public-safety-drones-3rd-edition/">Public Safety Drones report</a>, in which researchers identified “1,578 state and local police, sheriff, fire, and emergency services agencies in the U.S. that are believed to have acquired drones.” You can explore and download the data through <a href="https://www.google.com/maps/d/viewer?mid=1zcTdAkQB_gqVX383oQcyujM7Nd85rquH">the report’s interactive map</a>.</p>
-<p> </p>
-<p><strong>A lot of domain names.</strong> Software engineer <a href="https://www.linkedin.com/in/bohdanturkynewych">Bohdan Turkynewych</a> has compiled a <a href="https://github.com/tb0hdan/domains">dataset of more than 50 million domain names</a>, discovered by crawling the web and processing 86 terabytes of internet traffic. <strong>Related</strong>: French registry <a href="https://en.wikipedia.org/wiki/Association_fran%C3%A7aise_pour_le_nommage_Internet_en_coop%C3%A9ration">Afnic</a> publishes a <a href="http://opendata.afnic.fr/en/products-and-services/services/opendata-en.html">full list of all registered <em>.fr</em> domains</a>. [h/t <a href="https://opendata.stackexchange.com/a/6835">Javier Sáenz</a>]</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send DNS-queryable feedback to jsvine@gmail.com, or just reply to this email. Looking for past datasets? <a href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk">This spreadsheet contains them all</a>. Did a friend forward you this email? <a href="https://tinyletter.com/data-is-plural">Click here to subscribe</a>.</em></p>
-]]></content>
-    <link href="http://tinyletter.com/data-is-plural/letters/data-is-plural-2020-04-08-edition" rel="alternate"/>
-    <summary>Pandemic-era economic policies, historical economic productivity, FOIA figures, police drones, and a lot of domain names.</summary>
-    <published>2020-04-08T08:00:00-04:00</published>
   </entry>
 </feed>
