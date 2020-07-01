@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://tinyletter.com/data-is-plural</id>
   <title>Data Is Plural</title>
-  <updated>2020-06-24T08:00:00-04:00</updated>
+  <updated>2020-07-01T08:00:00-04:00</updated>
   <author>
     <name>Jeremy Singer-Vine</name>
     <email>jsvine@gmail.com</email>
@@ -10,6 +10,28 @@
   <link href="https://tinyletter.com/data-is-plural" rel="alternate"/>
   <generator>https://github.com/data-is-plural/newsletter-archive</generator>
   <subtitle>A weekly newsletter of useful/curious datasets.</subtitle>
+  <entry>
+    <id>dip-2020-07-01</id>
+    <title>Data Is Plural — 2020.07.01 edition</title>
+    <updated>2020-07-01T08:00:00-04:00</updated>
+    <content type="CDATA"><![CDATA[<p><em>The coronavirus economy, early voting registrations, COVID clusters, subway accessibility, and twelve men using computers.</em></p>
+<p> </p>
+<p><strong>The coronavirus economy.</strong> Opportunity Insights’ <a href="https://tracktherecovery.org/">Economic Tracker</a> “combines anonymized data from leading private companies – from credit card processors to payroll firms – to provide a real-time picture of indicators such as employment rates, consumer spending, and job postings across counties, industries, and income groups.” Small business revenue, for instance, appears to be down about 55% in Boston, compared to the beginning of the year. The <a href="https://github.com/Opportunitylab/EconomicTracker">project’s GitHub page</a> provides aggregated data corresponding to each of the charts and graphs. <strong>Previously</strong>: <a href="https://opportunityinsights.org/data/">Opportunity Insights’ extensive datasets on economic mobility</a> (<a href="https://tinyletter.com/data-is-plural/letters/data-is-plural-2019-06-12-edition">DIP 2019.06.12</a>). [h/t <a href="https://twitter.com/matteoferroni93/status/1273312600793714689">Matteo Ferroni</a> + <a href="https://twitter.com/DanStein_econ/status/1273301012091035648">Dan Stein</a>]</p>
+<p> </p>
+<p><strong>Voter registration.</strong> At least three states publish monthly, machine-readable statistics on new voter registrations: <a href="https://dos.myflorida.com/elections/data-statistics/voter-registration-statistics/voter-registration-reportsxlsx/">Florida</a>, <a href="https://www.elections.virginia.gov/resultsreports/registration-statistics/">Virginia</a>, and <a href="https://dl.ncsbe.gov/?prefix=data/voterstats/">North Carolina</a>. <a href="https://elections.maryland.gov/voter_registration/stats.html">Maryland</a> and the <a href="https://www.dcboe.org/Data-Resources-Forms/Voter-Registration-Stats">District of Columbia</a> publish similar data as PDF tables. A <a href="https://electioninnovation.org/new-voter-registrations-in-2020/">recent report</a> by <a href="https://electioninnovation.org/">Center for Election Innovation &amp; Research</a> analyzed pandemic-era registrations, using that data plus numbers obtained from Arizona, California, Colorado, Delaware, Georgia, Illinois, and Texas. The analysis found a “steep decline in new registrations,” largely attributable to social distancing measures and DMV closures. To accompany <a href="https://fivethirtyeight.com/features/voter-registrations-are-way-way-down-during-the-pandemic/">an article on the topic</a>, FiveThirtyEight has compiled CEIR’s counts for those 12 states, for the first five months of 2016 and 2020, <a href="https://github.com/fivethirtyeight/data/tree/master/voter-registration">into a simple CSV</a>.</p>
+<p> </p>
+<p><strong>COVID clusters.</strong> A <a href="https://wellcomeopenresearch.org/articles/5-83">team of researchers in the UK</a> has been gathering <a href="https://docs.google.com/spreadsheets/d/16wtnHe4hM6I7TFHXVpLXY8R4GAUzAJ-7NWbKIVvsVuA/edit">data on COVID-19 “transmission events”</a> that have resulted in clusters of cases, based on various official, scholarly, and news reports. For each of the 250+ events listed so far, the dataset specifies the setting (e.g., “work,” “household,” “religious,” “elderly care”), whether it was indoors or outdoors, geographical location, number of cases involved, and more. The New York Times has also been tracking <a href="https://www.nytimes.com/interactive/2020/us/coronavirus-us-cases.html#clusters">the location and size of COVID-19 clusters in the US</a> — so far, more than 1,700 clusters with at least 50 cases. The NYT doesn’t provide a download button, but its webpage loads the data from a JSON file. [h/t <a href="https://www.sciencemag.org/news/2020/05/why-do-some-covid-19-patients-infect-many-others-whereas-most-don-t-spread-virus-all">Kai Kupferschmidt</a>]</p>
+<p> </p>
+<p><strong>Subway accessibility.</strong> <a href="https://medium.com/dataclinic/open-tools-to-analyze-accessibility-within-the-nyc-subway-system-383fb111b4ad">To better understand accessibility issues</a> in the NYC subway, the <a href="https://dataclinic.twosigma.com/">Two Sigma Data Clinic</a> has <a href="https://github.com/tsdataclinic/mta">constructed</a> a series of <a href="https://github.com/tsdataclinic/mta/tree/master/data/processed/stationgraph">datasets</a> and <a href="https://github.com/tsdataclinic/mta/tree/master/figures/elevator_maps">diagrams</a> describing each station’s elevator connections — from the street to the station, and between various points and platforms within it. <strong>Related</strong>: The subway system’s <a href="http://advisory.mtanyct.info/eedevwebsvc/allequipments.aspx">official list of elevators and escalators</a>. <strong>Previously</strong>: Turnstile data from <a href="http://web.mta.info/developers/turnstile.html">NYC</a> and <a href="https://data.cityofchicago.org/Transportation/CTA-Ridership-L-Station-Entries-Daily-Totals/5neh-572f">Chicago</a> (<a href="https://tinyletter.com/data-is-plural/letters/data-is-plural-2017-02-08-edition">DIP 2017.02.08</a>). [h/t <a href="https://twitter.com/eeeestein/status/1271539959632211971">Erin Stein</a>]</p>
+<p> </p>
+<p><strong>Humans using computers.</strong> <a href="https://www.sciencedirect.com/science/article/pii/S2352340920306612">BEHACOM</a> is a <a href="https://data.mendeley.com/datasets/cg4br62535/2">dataset</a> that details minute-by-minute usage statistics for 12 Spanish and Italian men “interacting for fifty-five consecutive days with their personal computers in their own way and without restrictions.”</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send keyboard-and-mousey feedback to jsvine@gmail.com, or just reply to this email. Looking for past datasets? <a href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk">This spreadsheet contains them all</a>. Did a friend forward you this email? <a href="https://tinyletter.com/data-is-plural">Click here to subscribe</a>.</em></p>
+]]></content>
+    <link href="http://tinyletter.com/data-is-plural/letters/data-is-plural-2020-07-01-edition" rel="alternate"/>
+    <summary>The coronavirus economy, early voting registrations, COVID clusters, subway accessibility, and twelve men using computers.</summary>
+    <published>2020-07-01T08:00:00-04:00</published>
+  </entry>
   <entry>
     <id>dip-2020-06-24</id>
     <title>Data Is Plural — 2020.06.24 edition</title>
@@ -207,27 +229,5 @@
     <link href="http://tinyletter.com/data-is-plural/letters/data-is-plural-2020-04-22-edition" rel="alternate"/>
     <summary>A COVID policy tracker–tracker, every US Census question since 1790, chemical weapons in Syria, NYC sidewalks, and crowdsourced moral judgments.</summary>
     <published>2020-04-22T08:00:00-04:00</published>
-  </entry>
-  <entry>
-    <id>dip-2020-04-15</id>
-    <title>Data Is Plural — 2020.04.15 edition</title>
-    <updated>2020-04-15T08:00:00-04:00</updated>
-    <content type="CDATA"><![CDATA[<p><em>COVID-19 testing around the world, aggregated smartphone movements, privacy policies, NYC trash, and Animal Crossing.</em></p>
-<p> </p>
-<p><strong>COVID-19 testing around the world.</strong> Nearly every country publishes the number of residents who’ve tested positive for COVID-19. Far fewer post data on the total number of <em>people tested</em> (or <em>tests performed</em>). But as more countries start doing that, the team at <a href="https://ourworldindata.org/">Our World In Data</a> has begun compiling a <a href="https://github.com/owid/covid-19-data/tree/master/public/data/testing">regularly-updated dataset on COVID-19 testing</a>, along with <a href="https://ourworldindata.org/covid-testing">key context, a detailed methodology, and interactive charts</a>.</p>
-<p> </p>
-<p><strong>Aggregated smartphone movements.</strong> A team of academics has begun publishing a <a href="https://github.com/COVIDExposureIndices/COVIDExposureIndices">series of “exposure indices”</a> based on smartphone “pings” collected by a location-analytics company. One set of indices describes the proportion of smartphones that, on a given day in a given US state or county, were observed at least once in another given state or county during the previous 14 days. Another tries to quantify how often smartphones are observed in the same “commercial venues” as other devices. “We are making these indices publicly available to all researchers in the context of the spread of COVID-19,” the researchers write.</p>
-<p> </p>
-<p><strong>Privacy policies.</strong> Researchers at Imperial College London and Oxford have compiled a dataset of <a href="https://github.com/ansgarw/privacy">more than 4,000 privacy policies</a> published on major US companies’ websites. For each policy, the dataset includes its full text, counts the number of words and paragraphs in it, calculates a readability metric, and reports the number of third-party tracking cookies loaded through the policy’s webpage. [h/t <a href="https://www.imperial.ac.uk/people/a.uettwiller17">Antione Uettwiller</a>]</p>
-<p> </p>
-<p><strong>Thirty years of NYC trash and recycling.</strong> New York City’s Department of Sanitation publishes a dataset of <a href="https://data.cityofnewyork.us/City-Government/DSNY-Monthly-Tonnage-Data/ebb7-mvp5">the monthly tonnage it collects from city residences</a>, going back to 1990. For each community district and month, the dataset tallies the weight of household trash, recyclables, “organics,” and more — including, for each January, the tonnage of Christmas trees collected. <strong>Related</strong>: Reporters at The City recently analyzed the dataset, and <a href="https://thecity.nyc/2020/04/garbage-pickups-tell-tale-of-two-cities-as-manhattan-shrinks.html">found potential evidence of Manhattanites fleeing the city in March</a>. They also interviewed the Department of Sanitation’s <a href="https://robinnagle.com/">anthropologist-in-residence</a>.</p>
-<p> </p>
-<p><strong>Animal Crossing.</strong> <a href="https://villagerdb.com/">VillagerDB</a> is an online and <a href="https://github.com/jefflomacy/villagerdb/tree/master/data">downloadable</a> database of thousands of the characters, accessories, tools, and other items in <a href="https://en.wikipedia.org/wiki/Animal_Crossing:_New_Horizons">Animal Crossing: New Horizons</a> — the <em>Sims</em>-like game that’s <a href="https://www.theverge.com/2020/3/26/21195022/animal-crossing-switch-sales-japan-famitsu">breaking sales records</a> and <a href="https://www.buzzfeednews.com/article/scaachikoul/animal-crossing-quarantine-distraction">saving my colleague’s marriage</a>. [h/t <a href="https://twitter.com/ACWorldBlog/status/1248376259735769090">Justin</a>]</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send deserted-island feedback to jsvine@gmail.com, or just reply to this email. Looking for past datasets? <a href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk">This spreadsheet contains them all</a>. Did a friend forward you this email? <a href="https://tinyletter.com/data-is-plural">Click here to subscribe</a>.</em></p>
-]]></content>
-    <link href="http://tinyletter.com/data-is-plural/letters/data-is-plural-2020-04-15-edition" rel="alternate"/>
-    <summary>COVID-19 testing around the world, aggregated smartphone movements, privacy policies, NYC trash, and Animal Crossing.</summary>
-    <published>2020-04-15T08:00:00-04:00</published>
   </entry>
 </feed>
