@@ -6,7 +6,28 @@
     <description>A weekly newsletter of useful/curious datasets.</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>https://github.com/data-is-plural/newsletter-archive</generator>
-    <lastBuildDate>Wed, 01 Jul 2020 08:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 08 Jul 2020 08:00:00 -0400</lastBuildDate>
+    <item>
+      <title>Data Is Plural — 2020.07.08 edition</title>
+      <link>http://tinyletter.com/data-is-plural/letters/data-is-plural-2020-07-08-edition</link>
+      <description>The Paycheck Protection Program, women in office, programmer surveys, UK land parcels, and Dungeons &amp; Dragons dialogue.</description>
+      <content:encoded><![CDATA[<p><em>The Paycheck Protection Program, women in office, programmer surveys, UK land parcels, and Dungeons &amp; Dragons dialogue.</em></p>
+<p> </p>
+<p><strong>The Paycheck Protection Program.</strong> On Monday, the US Treasury Department and Small Business Administration <a href="https://home.treasury.gov/news/press-releases/sm1052">released detailed data</a> on the financial assistance given to businesses through the government’s <a href="https://en.wikipedia.org/wiki/Paycheck_Protection_Program">Paycheck Protection Program</a>. For the 660,000+ loans of at least $150,000, <a href="https://home.treasury.gov/policy-issues/cares-act/assistance-for-small-businesses/sba-paycheck-protection-program-loan-level-data">the dataset</a> includes each recipient’s name, address, industry classification, and business type, plus the name of lender, the number of jobs the business said would be supported, loan amount (grouped into several ranges), and more. For aid less than $150,000, the dataset contains similar information, but without names or addresses. <strong>Related</strong>: Efforts to make the data more accessible are already underway. <a href="https://simonwillison.net">Simon Willison</a>, for instance, <a href="https://twitter.com/simonw/status/1280283053726691329">generated</a> a <a href="https://sba-loans-covid-19.datasettes.com/loans_150k_plus/foia_150k_plus">searchable database of all loans of $150,000+</a>, and The Washington Post has published an <a href="https://www.washingtonpost.com/graphics/2020/business/sba-ppp-data/">interactive database of the $1,000,000+ loans</a>. <strong>Also related</strong>: <a href="https://www.cnbc.com/2020/07/06/ppp-small-business-coroniavirus-loan-database-contains-errors.html">There are some errors in the data</a>.</p>
+<p> </p>
+<p><strong>Women in office.</strong> Rutgers University’s <a href="https://cawp.rutgers.edu">Center for American Women and Politics</a> has made public its <a href="https://cawpdata.rutgers.edu">Women Elected Officials Database</a>, which “represents the most complete collection of information anywhere in the world about women elected officials in the United States.” It covers all “women who have held office at the congressional, statewide elected executive, and state legislative levels nationwide,” going back to <a href="https://en.wikipedia.org/wiki/Laura_J._Eisenhuth">the 1890s</a>. For each of the 11,540 officeholders, “the database includes their geographic information, party identification, and race identification where available.” You can <a href="https://cawpdata.rutgers.edu/women-elected-officials">explore the data online</a> and also (with a free registration) download it. <strong>Previously</strong>: <a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/CFPBRI">Women candidates for the US House, 1972–2010</a> (<a href="https://tinyletter.com/data-is-plural/letters/data-is-plural-2017-07-26-edition">DIP 2017.07.26</a>) .</p>
+<p> </p>
+<p><strong>Programmer surveys.</strong> For the past decade, programming Q&amp;A site <a href="https://stackoverflow.com">StackOverflow</a> has run an annual survey, asking developers about the languages they use, their workplaces, learning goals, salaries, and more. The site provides <a href="https://insights.stackoverflow.com/survey/">anonymized, respondent-level data</a> for each survey, including the 2020 edition, which received 64,000+ responses. Between 2016 and 2018, the not-for-profit <a href="https://www.freecodecamp.org">FreeCodeCamp</a> ran an <a href="https://www.freecodecamp.org/news/the-2018-new-coder-survey-31-000-people-told-us-how-theyre-learning-to-code-and-getting-dev-jobs-e10feb9ed419/">annual “new coder” survey</a>, which attracted more than 31,000 responses in its most recent year; those datasets are also <a href="https://github.com/freeCodeCamp?q=new-coder-survey">available to download</a>. [h/t <a href="https://nakeddata.org/2020/06/12/the-most-loved-and-dreaded-computing-languages/">Jason Norwood-Young</a></p>
+<p> </p>
+<p><strong>UK land parcels.</strong> Last week, the UK <a href="https://www.gov.uk/government/news/inspire-data-to-be-shared-under-open-terms">expanded access</a> to its <a href="https://use-land-property-data.service.gov.uk/datasets/inspire">datasets defining the geographical boundaries</a> of 23 million “title extents” in England, Wales, and <a href="https://ros.locationcentre.co.uk/inspire/">Scotland</a>. <strong>Previously</strong>: <a href="https://www.gov.uk/government/collections/price-paid-data">UK property sales</a> (<a href="https://tinyletter.com/data-is-plural/letters/data-is-plural-2016-03-23-edition">DIP 2016.03.23</a>).</p>
+<p> </p>
+<p><strong>Dungeons &amp; Dragons dialogue.</strong> Microsoft researchers <a href="https://twitter.com/rev_rameshkumar">Revanth Rameshkumar</a> and <a href="https://twitter.com/peter_r_bailey">Peter Bailey</a> have assembled the <a href="https://github.com/RevanthRameshkumar/CRD3">Critical Role Dungeons and Dragons Dataset</a>, converting 159 transcripts of <a href="https://critrole.com">a popular, live-streamed role-playing show</a> into structured information about 398,682 bits of dialogue. [h/t <a href="https://pinboard.in/u:arnicas/">Lynn Cherny</a>]</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send monstrous feedback to jsvine@gmail.com, or just reply to this email. Looking for past datasets? <a href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk">This spreadsheet contains them all</a>. Did a friend forward you this email? <a href="https://tinyletter.com/data-is-plural">Click here to subscribe</a>.</em></p>
+]]></content:encoded>
+      <guid isPermaLink="false">dip-2020-07-08</guid>
+      <pubDate>Wed, 08 Jul 2020 08:00:00 -0400</pubDate>
+    </item>
     <item>
       <title>Data Is Plural — 2020.07.01 edition</title>
       <link>http://tinyletter.com/data-is-plural/letters/data-is-plural-2020-07-01-edition</link>
@@ -195,27 +216,6 @@
 ]]></content:encoded>
       <guid isPermaLink="false">dip-2020-04-29</guid>
       <pubDate>Wed, 29 Apr 2020 08:00:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Data Is Plural — 2020.04.22 edition</title>
-      <link>http://tinyletter.com/data-is-plural/letters/data-is-plural-2020-04-22-edition</link>
-      <description>A COVID policy tracker–tracker, every US Census question since 1790, chemical weapons in Syria, NYC sidewalks, and crowdsourced moral judgments.</description>
-      <content:encoded><![CDATA[<p><em>A COVID policy tracker–tracker, every US Census question since 1790, chemical weapons in Syria, NYC sidewalks, and crowdsourced moral judgments.</em></p>
-<p> </p>
-<p><strong>Tracking the COVID policy trackers.</strong> Economics graduate student <a href="https://www.spi.ox.ac.uk/people/lukas-lehner">Lukas Lehner</a> has gathered, <a href="https://twitter.com/LukasLehner_/status/1251048564899397632">with help from the hive-mind</a>, a list of <a href="https://lukaslehner.github.io/covid19policytrackers/">dozens of websites and datasets tracking policy responses</a> to the COVID-19 pandemic – a few that have been mentioned in DIP, plus many that haven’t. Lehner’s tracker-tracker groups the resources into several topic areas, summarizes them, and indicates their data formats. [h/t <a href="https://f.briatte.org/">François Briatte</a>]</p>
-<p> </p>
-<p><strong>Every Census question, ever.</strong> Programmer <a href="https://github.com/anbnyc">Alec Barrett</a> has built a spreadsheet listing <a href="https://github.com/the-pudding/data/tree/master/census-history">every question asked on every decennial US Census</a> since 1790 — more than 900 items overall. In addition to the questions themselves, the dataset describes the subgroups of people questioned and the types of answers expected. <strong>Related</strong>: The dataset powers “<a href="https://pudding.cool/2020/03/census-history/">The Evolution of the American Census</a>,” Barrett’s interactive exploration of how the questions have changed over time, and what they say about America.</p>
-<p> </p>
-<p><strong>Chemical weapons attacks in Syria.</strong> “Building on years of painstaking work alongside our Syrian and international partners,” the <a href="https://chemicalweapons.gppi.net/">Global Public Policy Institute</a> “has compiled the most comprehensive dataset of incidents of chemical weapons use in Syria to date.” The institute has published a <a href="https://chemicalweapons.gppi.net/data-portal/">new interactive data portal</a> to display the data on 345 attacks between 2012 and 2019. The data fields include the date and time of the attack, location, chemical agent, munition type and method of delivery, perpetrator, confidence rating, and more. [h/t <a href="https://twitter.com/tobiaschneider/status/1247665719334100994">Tobias Schneider</a>]</p>
-<p> </p>
-<p><strong>NYC sidewalks, narrow and broad.</strong> Urban planner <a href="http://meliharvey.com/">Meli Harvey</a> has taken <a href="https://data.cityofnewyork.us/City-Government/Sidewalk/vfx9-tbb6">New York City’s official dataset of sidewalks</a> and <a href="https://github.com/meliharvey/sidewalkwidths-nyc">dissected its geometries</a> to <a href="http://www.sidewalkwidths.nyc/">map the width of each segment of walkable pavement</a>. [h/t <a href="https://danjbrady.com">Dan Brady</a>]</p>
-<p> </p>
-<p><strong>Crowdsourced moral judgements.</strong> Data scientist <a href="https://www.elle-obrien.com/">Elle O’Brien</a> <a href="https://dvc.org/blog/a-public-reddit-dataset">recently described</a> how she built and cleaned a <a href="https://github.com/iterative/aita_dataset">dataset of the moral dilemmas</a> posted to <a href="https://www.reddit.com/r/AmItheAsshole/">r/AmItheAsshole</a>, “a semi-structured online forum that’s the internet’s closest approximation of a judicial system.” For each of the 97,628 posts collected, the dataset includes the title, body, date, number of Reddit upvotes, and number of comments — plus the community’s verdict. [h/t <a href="https://www.reddit.com/r/datasets/comments/f5t5fo/a_public_dataset_of_reddit_posts_about_moral/">u/thumbsdrivesmecrazy</a>]</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send morally-questionable feedback to jsvine@gmail.com, or just reply to this email. Looking for past datasets? <a href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk">This spreadsheet contains them all</a>. Did a friend forward you this email? <a href="https://tinyletter.com/data-is-plural">Click here to subscribe</a>.</em></p>
-]]></content:encoded>
-      <guid isPermaLink="false">dip-2020-04-22</guid>
-      <pubDate>Wed, 22 Apr 2020 08:00:00 -0400</pubDate>
     </item>
   </channel>
 </rss>
