@@ -6,7 +6,28 @@
     <description>A weekly newsletter of useful/curious datasets.</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>https://github.com/data-is-plural/newsletter-archive</generator>
-    <lastBuildDate>Wed, 08 Jul 2020 08:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 15 Jul 2020 08:00:00 -0400</lastBuildDate>
+    <item>
+      <title>Data Is Plural — 2020.07.15 edition</title>
+      <link>http://tinyletter.com/data-is-plural/letters/data-is-plural-2020-07-15-edition</link>
+      <description>1.75 million US COVID patients, more goverment responses to the coronavirus, COVID cases in migrant worker dorms, 43 million court case citations, and old British lighthouses.</description>
+      <content:encoded><![CDATA[<p><em>1.75 million US COVID patients, more goverment responses to the coronavirus, COVID cases in migrant worker dorms, 43 million court case citations, and old British lighthouses.</em></p>
+<p> </p>
+<p><strong>1.75 million US COVID patients.</strong> The US Centers for Disease Control and Prevention has published a <a href="https://data.cdc.gov/Case-Surveillance/COVID-19-Case-Surveillance-Public-Use-Data/vbim-akqf">dataset containing demographic and medical information on 1.75 million deidentified COVID-19 patients</a>. For each confirmed or probable case, the dataset report reports the patient’s age group and race/ethnicity, the date of their initial symptoms, whether they were hospitalized, whether they had an “underlying morbidity or disease,” and more — although several of the fields contain high percentages of “unknown” values. The dataset is similar to the one The New York Times got from the CDC <a href="https://www.nytimes.com/2020/07/08/podcasts/the-daily/coronavirus-data-united-states.html">through a Freedom of Information Act lawsuit</a> (see: “<a href="https://www.nytimes.com/interactive/2020/07/05/us/coronavirus-latinos-african-americans-cdc-data.html">The Fullest Look Yet at the Racial Inequity of Coronavirus</a>”), but it does not specify the patient’s county. [h/t <a href="https://twitter.com/zorinaq/status/1282139606905786369">Marc Bevand</a> + <a href="https://twitter.com/stevenmosher/status/1282136596628688896">Steven Mosher</a>]</p>
+<p> </p>
+<p><strong>More government responses to the coronavirus.</strong> The <a href="https://www.coronanet-project.org/">CoronaNet Research Project</a> aims “to collect as much information as we can about the various fine-grained actions governments are taking to defeat the coronavirus.” The project, which has drawn contributions from more than 400 researchers around the world, published its <a href="https://www.coronanet-project.org/download.html">initial release</a> a few weeks ago, and now details nearly 16,000 policy events in nearly 200 countries. <strong>Related</strong>: The nonprofit <a href="https://www.hikmahealth.org/">Hikma Health</a> says <a href="https://www.hikmahealth.org/map">it has compiled</a> “the largest county-level COVID-19 policy dataset in the nation,” covering 1,200 US counties and more than 120 Native American communities. <a href="https://github.com/hikmahealth/covid19countymap/tree/gh-pages">The dataset</a> indicates the dates on which each jurisdiction undertook various responses, such as closing schools and restricting large gatherings. [h/t <a href="https://twitter.com/AlexPashanov/status/1275441552324612102">Alex Pashanov</a>]</p>
+<p> </p>
+<p><strong>COVID cases in migrant worker dorms.</strong> The anonymous author of <a href="https://squirrellingdata.wixsite.com/home/">Squirrelling Data</a> has been <a href="https://squirrellingdata.wixsite.com/home/post/singapore-covid-19-data">collating information</a> from the Singapore Ministry of Health’s <a href="https://www.moh.gov.sg/news-highlights/">coronavirus press releases</a>. Among the datasets: <a href="https://docs.google.com/spreadsheets/d/1NcoRQkvlPTiXh1_CWtjQFyyGXNTY5enbRPNLf4cHuhc/edit#gid=0">daily case counts in dozens of migrant worker dormitories</a>, which <a href="https://www.theguardian.com/world/2020/apr/23/singapore-million-migrant-workers-suffer-as-covid-19-surges-back">have been hit hard</a>. [h/t <a href="https://www.josesho.com/">Joses Ho</a>]</p>
+<p> </p>
+<p><strong>Case citations.</strong> The <a href="https://case.law/about/">Caselaw Access Project</a> (<a href="https://tinyletter.com/data-is-plural/letters/data-is-plural-2018-11-07-edition">DIP 2018.11.07</a>) has begun publishing a <a href="https://case.law/download/citation_graph/">citation graph</a>, a dataset listing the previous cases that each court decision cites. The <a href="https://case.law/download/citation_graph/2020-05-08/">latest release</a> covers 43 million citations. The project also provides aggregated versions of the data, plus <a href="https://case.law/exhibits/cite-grid">interactive graphics</a> showing the frequency of citations to and from courts in each state.</p>
+<p> </p>
+<p><strong>Old British lighthouses.</strong> The <a href="https://reshare.ukdataservice.ac.uk/854172/">Historical Light Aids to Navigation</a> dataset “shows the development of historical lighthouses, lightships, harbour lights and beacons in England and Wales for several benchmark years between 1514-1911,” <a href="https://www.sciencedirect.com/science/article/pii/S2352340920308854">drawn from</a> navigational charts, government publications, and other sources. For each of the 600+ entries, the dataset provides the light aid’s name, geocoordinates, and (when available) its visibility range, height, and number of lights.</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send illuminating feedback to jsvine@gmail.com, or just reply to this email. Looking for past datasets? <a href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk">This spreadsheet contains them all</a>. Did a friend forward you this email? <a href="https://tinyletter.com/data-is-plural">Click here to subscribe</a>.</em></p>
+]]></content:encoded>
+      <guid isPermaLink="false">dip-2020-07-15</guid>
+      <pubDate>Wed, 15 Jul 2020 08:00:00 -0400</pubDate>
+    </item>
     <item>
       <title>Data Is Plural — 2020.07.08 edition</title>
       <link>http://tinyletter.com/data-is-plural/letters/data-is-plural-2020-07-08-edition</link>
@@ -195,27 +216,6 @@
 ]]></content:encoded>
       <guid isPermaLink="false">dip-2020-05-06</guid>
       <pubDate>Wed, 06 May 2020 08:00:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Data Is Plural — 2020.04.29 edition</title>
-      <link>http://tinyletter.com/data-is-plural/letters/data-is-plural-2020-04-29-edition</link>
-      <description>Parlimentary speeches, COVID-19 preprints, mobility indicators, US retail, and poems by kids.</description>
-      <content:encoded><![CDATA[<p><em>Parlimentary speeches, COVID-19 preprints, mobility indicators, US retail, and poems by kids.</em></p>
-<p> </p>
-<p><strong>Six million parliamentary speeches.</strong> <a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/L4OAKN">ParlSpeech V2</a> contains 6.3 million parliamentary speeches from nine countries: Austria, the Czech Republic, Germany, Denmark, the Netherlands, New Zealand, Spain, Sweden, and the United Kingdom. The dataset, created by political scientists <a href="https://sites.google.com/site/christianrauh/">Christian Rauh</a> and <a href="https://twitter.com/janschwalbach">Jan Schwalbach</a>, includes the full text of each speech, plus the date, speaker, and the speaker’s party. <strong>Related</strong>: <a href="http://personal.lse.ac.uk/hix/HixNouryRolandEPdata.HTM">Roll call votes from the European Parliament’s first six terms</a> (1979–2009). [h/t <a href="https://github.com/erikgahner/PolData/pull/5">Robert Stelzle</a>]</p>
-<p> </p>
-<p><strong>COVID-19 preprints.</strong> Preprints — academic papers published online before they’ve gone through traditional peer review — have become a common way for scientists to disseminate their coronavirus-related findings. So researchers <a href="https://orcid.org/0000-0002-7582-6339">Nicholas Fraser</a> and <a href="https://orcid.org/0000-0002-5965-6560">Bianca Kramer</a> have begun compiling a <a href="https://github.com/nicholasmfraser/covid19_preprints">dataset of more than 6,000 COVID-19 preprints</a>. For each paper, the dataset includes the title, abstract, DOI, date posted, and the hosting repository (such as <a href="https://www.medrxiv.org/">medRxiv</a>, the most common so far).</p>
-<p> </p>
-<p><strong>Mobility indicators.</strong> Tech companies have repurposed some of the data they collect from you into explorable, downloadable datasets that estimate the degree to which movement patterns have (or haven’t) changed in recent months. Among them: Apple, which is <a href="https://www.apple.com/covid19/mobility">quantifying requests for directions</a>; Google, which is <a href="https://www.google.com/covid19/mobility/">counting visits to places such as grocery stores and transit station</a>; and Descartes Labs, which is <a href="https://github.com/descarteslabs/DL-COVID-19">tracking smartphone movements</a>. <strong>Related</strong>: Sociologist <a href="https://kieranhealy.org/about/">Kieran Healy</a> recently <a href="https://kieranhealy.org/blog/archives/2020/04/23/apples-covid-mobility-data/">found and explained</a> a curious February 17 spike in Apple’s data. [h/t <a href="https://mobile.twitter.com/hillary/status/1250130170029248512">Hillary Hartley</a>]</p>
-<p> </p>
-<p><strong>US retail.</strong> Since the 1950s, the US Census Bureau has conducted <a href="https://www.census.gov/retail/index.html">monthly surveys of retail and food-services industries</a>. The results — which estimate sales and inventory numbers by subsector — are available as machine-readable data going back to 1992. The next release is scheduled for May 15. [h/t <a href="https://mailchi.mp/b13add45c669/preview-222-in-other-news-3862701">Giuseppe Sollazzo</a>]</p>
-<p> </p>
-<p><strong>Poems by kids.</strong> <a href="https://github.com/whipson/PoKi-Poems-by-Kids">PoKi</a> is “a corpus of 61,330 poems written by children from grades 1 to 12,” scraped with permission from <a href="http://web.archive.org/web/20191025052907/teacher.scholastic.com/writewit/poetry/jack_readall.asp">a Scholastic website</a>. The dataset includes each poem’s title, text, and character count, plus the author’s first name and grade. <strong>Noteworthy</strong>: “PoKi is made freely available for research with the condition that the research be used for the benefit of children.”</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send precocious feedback to jsvine@gmail.com, or just reply to this email. Looking for past datasets? <a href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk">This spreadsheet contains them all</a>. Did a friend forward you this email? <a href="https://tinyletter.com/data-is-plural">Click here to subscribe</a>.</em></p>
-]]></content:encoded>
-      <guid isPermaLink="false">dip-2020-04-29</guid>
-      <pubDate>Wed, 29 Apr 2020 08:00:00 -0400</pubDate>
     </item>
   </channel>
 </rss>
