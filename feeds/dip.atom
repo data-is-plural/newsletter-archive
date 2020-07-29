@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://tinyletter.com/data-is-plural</id>
   <title>Data Is Plural</title>
-  <updated>2020-07-22T08:00:00-04:00</updated>
+  <updated>2020-07-29T08:00:00-04:00</updated>
   <author>
     <name>Jeremy Singer-Vine</name>
     <email>jsvine@gmail.com</email>
@@ -10,6 +10,28 @@
   <link href="https://tinyletter.com/data-is-plural" rel="alternate"/>
   <generator>https://github.com/data-is-plural/newsletter-archive</generator>
   <subtitle>A weekly newsletter of useful/curious datasets.</subtitle>
+  <entry>
+    <id>dip-2020-07-29</id>
+    <title>Data Is Plural — 2020.07.29 edition</title>
+    <updated>2020-07-29T08:00:00-04:00</updated>
+    <content type="CDATA"><![CDATA[<p><em>COVID-19 vaccines and treatments, NYPD officer misconduct, thousands of political polls, territorial self-governance, and meteorite landings.</em></p>
+<p> </p>
+<p><strong>COVID-19 treatments and vaccines.</strong> The Milken Institute’s <a href="https://milkeninstitute.org/centers/fastercures">FasterCures project</a> is tracking <a href="https://covid-19tracker.milkeninstitute.org/">hundreds of potential COVID-19 treatments and vaccines</a>. For each candidate, <a href="https://airtable.com/shrSAi6t5WFwqo3GM/tblEzPQS5fnc0FHYR/viweyymxOAtNvo7yH?blocks=bipZFzhJ7wHPv7x9z">the project’s database</a> lists its category (e.g., DNA-based vaccines, cell-based therapies, et cetera), a brief description, its stage of development, “anticipated next steps,” funders, and more. <strong>Related</strong>: <a href="https://www.covid-19vaccinetracker.org/">The project’s interactive graphic exploring the vaccines</a>.</p>
+<p> </p>
+<p><strong>NYPD officer misconduct.</strong> ProPublica <a href="https://www.propublica.org/article/nypd-civilian-complaint-review-board-editors-note">has published</a> a dataset of <a href="https://projects.propublica.org/nypd-ccrb/">more than 12,000 civilian complaints against nearly 4,000 NYPD officers</a>. The reporters obtained <a href="https://www.propublica.org/datastore/dataset/civilian-complaints-against-new-york-city-police-officers">the data</a> through a freedom-of-information request to New York City’s Civilian Complaint Review Board, after state lawmakers overturned a decades-old statute that had shielded the records. ProPublica’s database “lists the name of each officer, the race of the complainant and the officer, a category describing the alleged misconduct, and whether the CCRB concluded the officers’ conduct violated NYPD rules.” <strong>Related</strong>: In 2018, my colleagues <a href="https://twitter.com/KendallTTaggart">Kendall Taggart</a> and <a href="https://twitter.com/michaelhayes">Mike Hayes</a> obtained <a href="https://www.buzzfeednews.com/article/kendalltaggart/nypd-police-misconduct-database">thousands of NYPD disciplinary records</a> from a source who requested anonymity — <a href="https://www.buzzfeednews.com/article/kendalltaggart/nypd-police-misconduct-database-explainer">giving the public access to this closely-guarded information for the first time</a> and demonstrating how the department had <a href="https://www.buzzfeednews.com/article/kendalltaggart/secret-nypd-files-hundreds-of-officers-committed-serious">let hundreds of officers keep their jobs after committing fireable offenses</a>. (Soon after, the NYPD <a href="https://www.buzzfeednews.com/article/mikehayes/nypd-disciplinary-review-board-created">announced an independent panel</a> to review its disciplinary program.) [h/t <a href="https://twitter.com/JanWillemTulp">Jan Willem Tulp</a> + <a href="https://www.linkedin.com/in/ed-vine-a480347">Ed Vine</a>]</p>
+<p> </p>
+<p><strong>US political polls.</strong> FiveThirtyEight’s frequently-updated <a href="https://projects.fivethirtyeight.com/polls/">polling database</a> provides results from thousands of polls (and hundreds of pollsters) on the current presidential, congressional, and gubernatorial elections. Those datasets — plus historical polling averages for presidential elections since 1980 — are <a href="https://github.com/fivethirtyeight/data/tree/master/polls">available to download</a>. The files list each poll’s sample size, methods, timeframe, <a href="https://projects.fivethirtyeight.com/pollster-ratings/">FiveThirtyEight pollster rating</a>, and more.</p>
+<p> </p>
+<p><strong>Territorial self-governance.</strong> <a href="https://www.uni-heidelberg.de/politikwissenschaften/personal/croissant/trinn_en.html">Christoph Trinn</a> and <a href="https://www.uni-heidelberg.de/politikwissenschaften/personal/croissant/schulte_en.html">Felix Schulte</a>’s <a href="https://territorial-governance.com/">TERRGO</a> dataset presents “a fresh look at territorial self-governance in more than 2,200 second-level regions in 96 Western and non-Western democracies, semi-democracies, and a selection of autocratic regimes between 2000 and 2018.” For each region (for instance, Guam or Greenland), TERRGO provides several self-governance metrics, such as whether the national constitution protects the its status and to what degree it can set taxes.</p>
+<p> </p>
+<p><strong>Meteorite landings.</strong> <a href="https://meteoritical.org/">The Meteoritical Society</a>’s <a href="https://www.lpi.usra.edu/meteor/">Meteoritical Bulletin Database</a> “is a clearinghouse for <em>basic</em> information about each meteorite, including the classification, place and year of discovery, whether if was observed to fall, references to catalogues in which the meteorite is described, and known synonyms that may be encountered in the literature.” The society doesn’t provide an easy way to download the full database, but NASA’s open data portal hosts a key slice of it — <a href="https://data.nasa.gov/Space-Science/Meteorite-Landings/gh4g-9sfh">45,000+ landings recorded through mid-2013</a>. <strong>Related</strong>: <a href="https://twitter.com/CraigTaylorViz">Craig Taylor</a>’s <a href="https://twitter.com/CraigTaylorViz/status/1287007372053970945">animated, 3-D rendering of the data</a>. [h/t EwanP]</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send impactful feedback to jsvine@gmail.com, or just reply to this email. Looking for past datasets? <a href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk">This spreadsheet contains them all</a>. Did a friend forward you this email? <a href="https://tinyletter.com/data-is-plural">Click here to subscribe</a>.</em></p>
+]]></content>
+    <link href="http://tinyletter.com/data-is-plural/letters/data-is-plural-2020-07-29-edition" rel="alternate"/>
+    <summary>COVID-19 vaccines and treatments, NYPD officer misconduct, thousands of political polls, territorial self-governance, and meteorite landings.</summary>
+    <published>2020-07-29T08:00:00-04:00</published>
+  </entry>
   <entry>
     <id>dip-2020-07-22</id>
     <title>Data Is Plural — 2020.07.22 edition</title>
@@ -207,27 +229,5 @@
     <link href="http://tinyletter.com/data-is-plural/letters/data-is-plural-2020-05-20-edition" rel="alternate"/>
     <summary>Excess deaths, trade agreements, US forests, historical crop yields, and Victorian fiction.</summary>
     <published>2020-05-20T08:00:00-04:00</published>
-  </entry>
-  <entry>
-    <id>dip-2020-05-13</id>
-    <title>Data Is Plural — 2020.05.13 edition</title>
-    <updated>2020-05-13T08:00:00-04:00</updated>
-    <content type="CDATA"><![CDATA[<p><em>Employee protections, COVID stimulus recipients, national wildernesses, EU legislative edits, and millions of Iowa liquor purchases.</em></p>
-<p> </p>
-<p><strong>Employee protections.</strong> The UN International Labour Organization’s <a href="https://eplex.ilo.org/">Employment Protection Legislation Database</a> tracks “legal information on the regulation of temporary contracts and employment termination at the initiative of the employer,” on a national-regulatory level. The database quantifies and categorizes regulations under nine “themes” — including grounds for dismissal, procedures for collective dismissals, severance pay, and redress — and for more than 100 countries.</p>
-<p> </p>
-<p><strong>COVID stimulus recipients.</strong> The nonprofit <a href="https://www.goodjobsfirst.org/about-us">Good Jobs First</a> has <a href="https://covidstimuluswatch.org/blog/2020-04/covid-stimulus-watch-new-website-documents-accountability-track-records-cares-act">launched</a> <a href="https://covidstimuluswatch.org/">COVID Stimulus Watch</a>, which is gathering data on the grants and loans that have been provided to corporations through the $2 trillion <a href="https://en.wikipedia.org/wiki/Coronavirus_Aid,_Relief,_and_Economic_Security_Act">CARES Act</a>. So far, the dataset contains more than 5,700 awards, totalling $54 billion. The records are based on information from public financial filings, press releases, and, <a href="https://covidstimuluswatch.org/blog/2020-05/covid-stimulus-watch-adds-5000-healthcare-provider-awards">most recently</a>, <a href="https://data.cdc.gov/Administrative/HHS-Provider-Relief-Fund/kh8y-3es6">data from the government’s healthcare-focused Provider Relief Fund</a>.</p>
-<p> </p>
-<p><strong>National wildernesses.</strong> Since the passage of the Wilderness Act in 1964, the US federal government has established 803 official wilderness areas, which cover more than 111 million acres. They’re all part of the <a href="https://wilderness.net/learn-about-wilderness/fast-facts/default.php">National Wilderness Preservation System</a>, co-managed by the National Park Service, Bureau of Land Management, Fish and Wildlife Service, and Forest Service. The University of Montana’s <a href="https://wilderness.net/default.php">Wilderness.net</a> brings data about each of the agencies’ wildernesses into one place, where it can be <a href="https://umontana.maps.arcgis.com/apps/webappviewer/index.html?id=a415bca07f0a4bee9f0e894b0db5c3b6">explored via an interactive map</a> and <a href="https://wilderness.net/visit-wilderness/gis-gps.php">downloaded in bulk</a>. For each wilderness, the dataset provides its name, description, boundaries, acreage, year designated, and more.</p>
-<p> </p>
-<p><strong>EU legislative edits.</strong> Computer science graduate student <a href="https://victorkristof.me/">Victor Kristof</a> has built a <a href="https://zenodo.org/record/3757714">dataset of 450,000 legislative edits</a> proposed by members of the EU parliament from 2009 to 2019. For each proposed edit, the dataset points to the relevant legislation, names the parlimentarian, and indicates whether the edit was accepted. In an accompanying <a href="https://dl.acm.org/doi/fullHtml/10.1145/3366423.3380041">academic paper</a>, Kristof et al. describe the dataset’s construction and “propose a model for predicting the success of such edits.”</p>
-<p> </p>
-<p><strong>Millions of Iowa liquor purchases.</strong> Iowa’s Alcoholic Beverages Division publishes <a href="https://data.iowa.gov/Sales-Distribution/Iowa-Liquor-Sales/m3tr-qhgy">itemized data on all liquor sales</a> by grocery/liquor/convenience-type stores since January 2002 — more than 18 million purchases in all. For each purchase, the dataset includes the specific kind, amount, and cost of the liquor, plus the date and location of the sale. <strong>Previously</strong>: <a href="https://tinyletter.com/data-is-plural/letters/data-is-plural-2019-08-07-edition">State liquor prices</a> (DIP 2019.08.07). [h/t <a href="https://twitter.com/seecmb/status/1259948995981516801">Martin Burch</a>]</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send distilled feedback to jsvine@gmail.com, or just reply to this email. Looking for past datasets? <a href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk">This spreadsheet contains them all</a>. Did a friend forward you this email? <a href="https://tinyletter.com/data-is-plural">Click here to subscribe</a>.</em></p>
-]]></content>
-    <link href="http://tinyletter.com/data-is-plural/letters/data-is-plural-2020-05-13-edition" rel="alternate"/>
-    <summary>Employee protections, COVID stimulus recipients, national wildernesses, EU legislative edits, and millions of Iowa liquor purchases.</summary>
-    <published>2020-05-13T08:00:00-04:00</published>
   </entry>
 </feed>
