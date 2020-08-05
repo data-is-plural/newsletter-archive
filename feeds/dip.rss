@@ -6,7 +6,28 @@
     <description>A weekly newsletter of useful/curious datasets.</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>https://github.com/data-is-plural/newsletter-archive</generator>
-    <lastBuildDate>Wed, 29 Jul 2020 08:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 05 Aug 2020 08:00:00 -0400</lastBuildDate>
+    <item>
+      <title>Data Is Plural — 2020.08.05 edition</title>
+      <link>http://tinyletter.com/data-is-plural/letters/data-is-plural-2020-08-05-edition</link>
+      <description>Cabinet members, the World Values Survey, software supply chain attacks, animals with SARS-CoV-2, and 15 million CAD sketches.</description>
+      <content:encoded><![CDATA[<p><em>Cabinet members, the World Values Survey, software supply chain attacks, animals with SARS-CoV-2, and 15 million CAD sketches.</em></p>
+<p> </p>
+<p><strong>Cabinet members.</strong> <a href="https://www.nuffield.ox.ac.uk/our-research/research-centres/nuffield-politics-research-centre/whogov/">WhoGov</a>, a new project <a href="https://www.nuffield.ox.ac.uk/our-research/research-centres/nuffield-politics-research-centre/whogov/people/">led by two graduate students at Oxford</a>, provides “bibliographic information, such as gender and party affiliation, on cabinet members in July every year in the period 1966-2016 in all countries with a population of more than 400,000 citizens.” In all, <a href="https://www.nuffield.ox.ac.uk/our-research/research-centres/nuffield-politics-research-centre/whogov/download-dataset/">the dataset</a> covers more than 50,000 officials and “makes it possible to answer questions such as; what is the share of female cabinet members globally, which type of regime has the highest cabinet turnover, and have cabinets increased in size over time?” [h/t <a href="https://twitter.com/YJuliaJung/status/1285598237068582912">Yujin Julia Jung</a> + <a href="https://twitter.com/MaxGroemping/status/1285641311677231106">Max Grömping</a>]</p>
+<p> </p>
+<p><strong>Values and beliefs.</strong> The <a href="http://www.worldvaluessurvey.org/WVSContents.jsp">World Values Survey</a>, first fielded in 1981, “is the largest non-commercial, cross-national, time series investigation of human beliefs and values ever executed, currently including interviews with almost 400,000 respondents.” Last month, the project <a href="http://www.worldvaluessurvey.org/WVSEventsShow.jsp?ID=413">began releasing</a> data <a href="http://www.worldvaluessurvey.org/WVSDocumentationWV7.jsp">from its seventh wave of interviews</a>, conducted in 77 countries and covering hundreds of questions about religion, migration, stereotypes, trust, and more. [h/t <a href="https://twitter.com/howlettm/status/1285279256906395648">Michael Howlett</a> + <a href="https://twitter.com/SethJMeyer/status/1287439947209879552">Seth J. Meyer</a>]</p>
+<p> </p>
+<p><strong>Software supply chain attacks.</strong> <a href="https://www.atlanticcouncil.org/in-depth-research-reports/report/breaking-trust-shades-of-crisis-across-an-insecure-software-supply-chain/">Breaking Trust</a>, a new project from the <a href="https://www.atlanticcouncil.org/">Atlantic Council</a>, provides <a href="https://www.atlanticcouncil.org/resources/breaking-trust-the-dataset/">a dataset</a> of 115 “software supply chain” attacks and disclosures in the past decaude. These vulnerabilities occur “when an attacker accesses and edits software somewhere in the complex software development supply chain to compromise a target farther up the chain by inserting their own malicious code.” The dataset’s examples include <a href="https://en.wikipedia.org/wiki/Stuxnet">Stuxnet</a>, <a href="https://threatpost.com/500-malicious-chrome-extensions-millions/152918/">malicious browswer extensions</a>, and various attacks on software package registries. [h/t <a href="https://twitter.com/MayaKaczorowski/status/1288231258422575105">Maya Kaczorowski</a> + <a href="https://twitter.com/LilyZimeng/status/1290331849928118272">Lily Liu</a>]</p>
+<p> </p>
+<p><strong>Animals with SARS-CoV-2.</strong> The USDA has been <a href="https://www.aphis.usda.gov/aphis/ourfocus/animalhealth/sa_one_health/sars-cov-2-animals-us">publishing basic information</a> about animals that its <a href="https://www.aphis.usda.gov/aphis/ourfocus/animalhealth/lab-info-services/sa_about_nvsl/ct_about_nvsl">National Veterinary Services Laboratories</a> have confirmed contracted the novel coronvirus. The simple table — unavailable to download, but easy enough to copy-paste into a spreadsheet — lists the types of animals (mostly “Cat” and “Dog,” but also a lion and a tiger), the states they lived in, the dates confirmed, and the methods of diagnosis.</p>
+<p> </p>
+<p><strong>A lot of CAD sketches.</strong> <a href="https://github.com/PrincetonLIPS/SketchGraphs/">SketchGraphs</a> characterizes 15 million computer-aided design (CAD) sketches, “extracted from real-world CAD models” and obtained from a popular online CAD platform. Each of the dataset’s sketches “is represented as a geometric constraint graph where edges denote designer-imposed geometric relationships between primitives, the nodes of the graph.”</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send impactful feedback to jsvine@gmail.com, or just reply to this email. Looking for past datasets? <a href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk">This spreadsheet contains them all</a>. Did a friend forward you this email? <a href="https://tinyletter.com/data-is-plural">Click here to subscribe</a>.</em></p>
+]]></content:encoded>
+      <guid isPermaLink="false">dip-2020-08-05</guid>
+      <pubDate>Wed, 05 Aug 2020 08:00:00 -0400</pubDate>
+    </item>
     <item>
       <title>Data Is Plural — 2020.07.29 edition</title>
       <link>http://tinyletter.com/data-is-plural/letters/data-is-plural-2020-07-29-edition</link>
@@ -195,27 +216,6 @@
 ]]></content:encoded>
       <guid isPermaLink="false">dip-2020-05-27</guid>
       <pubDate>Wed, 27 May 2020 08:00:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Data Is Plural — 2020.05.20 edition</title>
-      <link>http://tinyletter.com/data-is-plural/letters/data-is-plural-2020-05-20-edition</link>
-      <description>Excess deaths, trade agreements, US forests, historical crop yields, and Victorian fiction.</description>
-      <content:encoded><![CDATA[<p><em>Excess deaths, trade agreements, US forests, historical crop yields, and Victorian fiction.</em></p>
-<p> </p>
-<p><strong>Excess deaths.</strong> The Economist has published <a href="https://github.com/TheEconomist/covid-19-excess-deaths-tracker">the data</a> behind its <a href="https://www.economist.com/graphic-detail/2020/04/16/tracking-covid-19-excess-deaths-across-countries">estimates of excess deaths due to COVID-19</a>. The data repository currently covers 20 countries; it provides recent weekly/monthly death totals, officially-counted COVID-19 death, and average historical death totals for the same time periods. <strong>Related</strong>: <a href="https://twitter.com/J_CD_T/status/1261625814854045696">Data journalist James Tozer’s introductory Twitter thread</a>. [h/t <a href="https://twitter.com/sharon000/status/1262029159976574976">Sharon Machlis</a>]</p>
-<p> </p>
-<p><strong>Trade agreements.</strong> The <a href="https://www.designoftradeagreements.org">Design of Trade Agreements</a> database collects information about customs unions, free trade agreements, and other similar treaties signed between 1948 and 2018. It currently includes more than 800 agreements, plus additional negotiations, accessions, withdrawals, consolidations, and amendments. For each agreement, the database indicates the its name, member countries, year of signature, and <a href="https://www.designoftradeagreements.org/downloads/">a number of policy-specific variables</a>. [h/t <a href="https://github.com/erikgahner/PolData/">Erik Gahner Larsen</a>]</p>
-<p> </p>
-<p><strong>US forests.</strong> The US Department of Agriculture’s <a href="https://data.fs.usda.gov/geodata/rastergateway/forest_type/">National Forest Type Dataset</a> shows the geographic distribution of the country’s “forest types” — defined as ”logical ecological groupings of species mixes.” (Examples include “deciduous oak woodland” and “subalpine fir.”) To estimate the extent of each forest type, the dataset’s developers combined satellite imagery with “nearly 100 other geospatial data layers, including elevation, slope, aspect, and ecoregions.” <strong>Related</strong>: The Washington Post has used the dataset to <a href="https://wapo.st/peep-these-leaves">map fall foliage</a> and <a href="https://www.washingtonpost.com/nation/2019/12/12/where-christmas-trees-come/">forests where Christmas-y trees grow</a>. [h/t <a href="https://twitter.com/joemfox">Joe Fox</a>]</p>
-<p> </p>
-<p><strong>Historical crop yields.</strong> The <a href="https://doi.pangaea.de/10.1594/PANGAEA.909132">Global Dataset of Historical Yields</a> combines data from agricultural censuses and satellite sensors to estimate the annual yields for four major crops — maize, rice, wheat, and soybean — annually from 1981 to 2016, for each 0.5-degree square on the planet. <strong>Related</strong>: <a href="https://www.nature.com/articles/s41597-020-0433-7">The dataset’s authors describe their methodology and the latest update</a>.</p>
-<p> </p>
-<p><strong>Victorian fiction.</strong> <a href="https://www.victorianresearch.org/atcl/index.php">At the Circulating Library</a> “offers a biographical and bibliography database of nineteenth-century British fiction.” Launched by literature professor <a href="https://twitter.com/3VolumeNovel">Troy J. Bassett</a> in 2007, the <a href="https://www.victorianresearch.org/atcl/search.php">searchable</a>, <a href="https://www.victorianresearch.org/atcl/view_authors.php">browseable</a>, <a href="http://www.victorianresearch.org/atcl/snapshots.php">downloadable</a> database now contains information on more than 19,000 titles by more than 4,000 authors.</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send Dickensian feedback to jsvine@gmail.com, or just reply to this email. Looking for past datasets? <a href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk">This spreadsheet contains them all</a>. Did a friend forward you this email? <a href="https://tinyletter.com/data-is-plural">Click here to subscribe</a>.</em></p>
-]]></content:encoded>
-      <guid isPermaLink="false">dip-2020-05-20</guid>
-      <pubDate>Wed, 20 May 2020 08:00:00 -0400</pubDate>
     </item>
   </channel>
 </rss>
