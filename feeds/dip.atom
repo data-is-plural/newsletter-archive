@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://tinyletter.com/data-is-plural</id>
   <title>Data Is Plural</title>
-  <updated>2020-10-07T08:00:00-04:00</updated>
+  <updated>2020-10-21T08:00:00-04:00</updated>
   <author>
     <name>Jeremy Singer-Vine</name>
     <email>jsvine@gmail.com</email>
@@ -10,6 +10,28 @@
   <link href="https://tinyletter.com/data-is-plural" rel="alternate"/>
   <generator>https://github.com/data-is-plural/newsletter-archive</generator>
   <subtitle>A weekly newsletter of useful/curious datasets.</subtitle>
+  <entry>
+    <id>dip-2020-10-21</id>
+    <title>Data Is Plural — 2020.10.21 edition</title>
+    <updated>2020-10-21T08:00:00-04:00</updated>
+    <content type="CDATA"><![CDATA[<p><em>Voting equipment, jail deaths, college athletics, bug bounties, and shrinking salmon.</em></p>
+<p> </p>
+<p><strong>Voting equipment.</strong> <a href="https://verifiedvoting.org/">Verified Voting</a> is “a non-partisan organization focused exclusively on the critical role technology plays in election administration," and its <a href="https://verifiedvoting.org/verifier/">Verifier project</a> provides “the only comprehensive data set of voting equipment down to the precinct level of the United States, going back to 2006.” For each election year and jurisdiction, the database indicates the type of technology in use (ranging from hand-counted paper ballots to touchscreen systems), equipment brands and models, and other details, such as whether there is a “voter-verified paper audit trail.” [h/t <a href="https://twitter.com/jonpcohen">Jonathan Cohen</a>]</p>
+<p> </p>
+<p><strong>Jail deaths.</strong> Last week, Reuters published an <a href="https://www.reuters.com/investigates/special-report/usa-jails-deaths/">investigation into deaths in US jails</a>. Because the federal government doesn’t publish jail-by-jail mortality data, reporters “filed more than 1,500 records requests to obtain information about deaths in 523 U.S. jails – every jail with an average population of 750 or more inmates, and the 10 largest jails or jail systems in nearly every state.” The <a href="https://www.reuters.com/investigates/special-report/usa-jails-graphic/">resulting dataset</a> contains details about more than 7,500 inmate deaths between 2008 and 2019, including the cause of death, custody status, and demographic information. <strong>Among the findings</strong>: “At least two-thirds of the dead inmates identified by Reuters, 4,998 people, were never convicted of the charges on which they were being held.” [h/t <a href="https://twitter.com/grantmeaccess">Grant Smith</a>]</p>
+<p> </p>
+<p><strong>College athletics.</strong> The <a href="https://www2.ed.gov/finaid/prof/resources/athletics/eada.html">Equity in Athletics Disclosure Act</a> requires thousands of US colleges to provide annual data on athletic particpation, staffing, and finances by team gender and sport. <a href="https://ope.ed.gov/athletics/">School- and team-level datasets</a> are available through the Department of Education for the academic years ending 2003–19. <strong>Related</strong>: <a href="https://usafacts.org/articles/coronavirus-college-football-profit-sec-acc-pac-12-big-ten-millions-fall-2020/">USAFacts recently used the data to examine college football finances</a>. [h/t <a href="https://twitter.com/sashananderson">Sasha Anderson</a>]</p>
+<p> </p>
+<p><strong>Bug bounties.</strong> Technology companies often offer “bug bounties” — rewards to people who tell them about vulnerabilities in their websites and apps, often coordinated through online platforms. For the past few years, security engineer <a href="https://twitter.com/arkadiyt">Arkadiy Tetelman</a> has been scraping and publishing data about <a href="https://github.com/arkadiyt/bounty-targets-data">the bug bounty “targets” listed on several platforms</a>, including the eligible domains, maximum payouts, and more.</p>
+<p> </p>
+<p><strong>Shrinking salmon.</strong> Scientists <a href="https://www.nature.com/articles/s41467-020-17726-z">recently documented</a> “widespread declines in Pacific salmon size based on 60 years of measurements from 12.5 million fish across Alaska,” collected by state officials from more than 1,000 sampling locations. The <a href="https://knb.ecoinformatics.org/view/doi:10.5063/F1707ZTM">underlying dataset</a> lists each salmon’s age, sex, length, and other details where available. [h/t <a href="https://twitter.com/HollyKindsvater/status/1298960157876027394">Holly Kindsvater</a>]</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send fishy feedback to jsvine@gmail.com, or just reply to this email. Looking for past datasets? <a href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk">This spreadsheet contains them all</a>. Did a friend forward you this email? <a href="https://tinyletter.com/data-is-plural">Click here to subscribe</a>.</em></p>
+]]></content>
+    <link href="http://tinyletter.com/data-is-plural/letters/data-is-plural-2020-10-21-edition" rel="alternate"/>
+    <summary>Voting equipment, jail deaths, college athletics, bug bounties, and shrinking salmon.</summary>
+    <published>2020-10-21T08:00:00-04:00</published>
+  </entry>
   <entry>
     <id>dip-2020-10-07</id>
     <title>Data Is Plural — 2020.10.07 edition</title>
@@ -207,27 +229,5 @@
     <link href="http://tinyletter.com/data-is-plural/letters/data-is-plural-2020-07-22-edition" rel="alternate"/>
     <summary>Police surveillance tech, COVID-related behavior, the Mexican Migration Project, the Arctic seafloor, and the Big Mac Index.</summary>
     <published>2020-07-22T08:00:00-04:00</published>
-  </entry>
-  <entry>
-    <id>dip-2020-07-15</id>
-    <title>Data Is Plural — 2020.07.15 edition</title>
-    <updated>2020-07-15T08:00:00-04:00</updated>
-    <content type="CDATA"><![CDATA[<p><em>1.75 million US COVID patients, more goverment responses to the coronavirus, COVID cases in migrant worker dorms, 43 million court case citations, and old British lighthouses.</em></p>
-<p> </p>
-<p><strong>1.75 million US COVID patients.</strong> The US Centers for Disease Control and Prevention has published a <a href="https://data.cdc.gov/Case-Surveillance/COVID-19-Case-Surveillance-Public-Use-Data/vbim-akqf">dataset containing demographic and medical information on 1.75 million deidentified COVID-19 patients</a>. For each confirmed or probable case, the dataset report reports the patient’s age group and race/ethnicity, the date of their initial symptoms, whether they were hospitalized, whether they had an “underlying morbidity or disease,” and more — although several of the fields contain high percentages of “unknown” values. The dataset is similar to the one The New York Times got from the CDC <a href="https://www.nytimes.com/2020/07/08/podcasts/the-daily/coronavirus-data-united-states.html">through a Freedom of Information Act lawsuit</a> (see: “<a href="https://www.nytimes.com/interactive/2020/07/05/us/coronavirus-latinos-african-americans-cdc-data.html">The Fullest Look Yet at the Racial Inequity of Coronavirus</a>”), but it does not specify the patient’s county. [h/t <a href="https://twitter.com/zorinaq/status/1282139606905786369">Marc Bevand</a> + <a href="https://twitter.com/stevenmosher/status/1282136596628688896">Steven Mosher</a>]</p>
-<p> </p>
-<p><strong>More government responses to the coronavirus.</strong> The <a href="https://www.coronanet-project.org/">CoronaNet Research Project</a> aims “to collect as much information as we can about the various fine-grained actions governments are taking to defeat the coronavirus.” The project, which has drawn contributions from more than 400 researchers around the world, published its <a href="https://www.coronanet-project.org/download.html">initial release</a> a few weeks ago, and now details nearly 16,000 policy events in nearly 200 countries. <strong>Related</strong>: The nonprofit <a href="https://www.hikmahealth.org/">Hikma Health</a> says <a href="https://www.hikmahealth.org/map">it has compiled</a> “the largest county-level COVID-19 policy dataset in the nation,” covering 1,200 US counties and more than 120 Native American communities. <a href="https://github.com/hikmahealth/covid19countymap/tree/gh-pages">The dataset</a> indicates the dates on which each jurisdiction undertook various responses, such as closing schools and restricting large gatherings. [h/t <a href="https://twitter.com/AlexPashanov/status/1275441552324612102">Alex Pashanov</a>]</p>
-<p> </p>
-<p><strong>COVID cases in migrant worker dorms.</strong> The anonymous author of <a href="https://squirrellingdata.wixsite.com/home/">Squirrelling Data</a> has been <a href="https://squirrellingdata.wixsite.com/home/post/singapore-covid-19-data">collating information</a> from the Singapore Ministry of Health’s <a href="https://www.moh.gov.sg/news-highlights/">coronavirus press releases</a>. Among the datasets: <a href="https://docs.google.com/spreadsheets/d/1NcoRQkvlPTiXh1_CWtjQFyyGXNTY5enbRPNLf4cHuhc/edit#gid=0">daily case counts in dozens of migrant worker dormitories</a>, which <a href="https://www.theguardian.com/world/2020/apr/23/singapore-million-migrant-workers-suffer-as-covid-19-surges-back">have been hit hard</a>. [h/t <a href="https://www.josesho.com/">Joses Ho</a>]</p>
-<p> </p>
-<p><strong>Case citations.</strong> The <a href="https://case.law/about/">Caselaw Access Project</a> (<a href="https://tinyletter.com/data-is-plural/letters/data-is-plural-2018-11-07-edition">DIP 2018.11.07</a>) has begun publishing a <a href="https://case.law/download/citation_graph/">citation graph</a>, a dataset listing the previous cases that each court decision cites. The <a href="https://case.law/download/citation_graph/2020-05-08/">latest release</a> covers 43 million citations. The project also provides aggregated versions of the data, plus <a href="https://case.law/exhibits/cite-grid">interactive graphics</a> showing the frequency of citations to and from courts in each state.</p>
-<p> </p>
-<p><strong>Old British lighthouses.</strong> The <a href="https://reshare.ukdataservice.ac.uk/854172/">Historical Light Aids to Navigation</a> dataset “shows the development of historical lighthouses, lightships, harbour lights and beacons in England and Wales for several benchmark years between 1514-1911,” <a href="https://www.sciencedirect.com/science/article/pii/S2352340920308854">drawn from</a> navigational charts, government publications, and other sources. For each of the 600+ entries, the dataset provides the light aid’s name, geocoordinates, and (when available) its visibility range, height, and number of lights.</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send illuminating feedback to jsvine@gmail.com, or just reply to this email. Looking for past datasets? <a href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk">This spreadsheet contains them all</a>. Did a friend forward you this email? <a href="https://tinyletter.com/data-is-plural">Click here to subscribe</a>.</em></p>
-]]></content>
-    <link href="http://tinyletter.com/data-is-plural/letters/data-is-plural-2020-07-15-edition" rel="alternate"/>
-    <summary>1.75 million US COVID patients, more goverment responses to the coronavirus, COVID cases in migrant worker dorms, 43 million court case citations, and old British lighthouses.</summary>
-    <published>2020-07-15T08:00:00-04:00</published>
   </entry>
 </feed>
