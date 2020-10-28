@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://tinyletter.com/data-is-plural</id>
   <title>Data Is Plural</title>
-  <updated>2020-10-21T08:00:00-04:00</updated>
+  <updated>2020-10-28T08:00:00-04:00</updated>
   <author>
     <name>Jeremy Singer-Vine</name>
     <email>jsvine@gmail.com</email>
@@ -10,6 +10,28 @@
   <link href="https://tinyletter.com/data-is-plural" rel="alternate"/>
   <generator>https://github.com/data-is-plural/newsletter-archive</generator>
   <subtitle>A weekly newsletter of useful/curious datasets.</subtitle>
+  <entry>
+    <id>dip-2020-10-28</id>
+    <title>Data Is Plural — 2020.10.28 edition</title>
+    <updated>2020-10-28T08:00:00-04:00</updated>
+    <content type="CDATA"><![CDATA[<p><em>Pregnancy/birth/abortion rates, COVID-19 in ICE facilities, mining areas, e-bike/scooter laws, and witch trials.</em></p>
+<p> </p>
+<p><strong>Pregnancy, birth, and abortion.</strong> Last month the Guttmacher Institute, a “research and policy organization committed to advancing sexual and reproductive health and rights,” <a href="https://www.guttmacher.org/report/pregnancies-births-abortions-in-united-states-1973-2016#">released</a> its <a href="https://osf.io/kthnf/">latest estimates of annual pregnancies, births, and abortions</a> among women in the US — overall, and also by <a href="https://guttinst.github.io/National-State-Pregnancy-Codebook/">age-group and state</a>. The national statistics cover 1973 to 2016, while the state-level numbers go from 1988 to 2016; both sets of estimates are derived from a combination of government data and the institute’s own <a href="https://www.guttmacher.org/report/abortion-incidence-service-availability-us-2017">Abortion Provider Census</a>. <strong>Related</strong>: <a href="https://twitter.com/Imaddowzimet/status/1313501719406555138">An introductory Twitter thread</a>. [h/t <a href="https://twitter.com/Imaddowzimet">Isaac Maddow-Zimet</a>]</p>
+<p> </p>
+<p><strong>COVID-19 in ICE facilities.</strong> Since late March, US Immigration and Customs Enforcement has been <a href="https://www.ice.gov/coronavirus">updating a webpage</a> that tallies coronavirus cases and deaths at each of its detention facilities. But the site doesn’t provide any historical numbers; it’s just a snapshot. To fill that gap, the <a href="https://www.vera.org/">Vera Institute of Justice</a> has been continually downloading the webpage, parsing it, and <a href="https://github.com/vera-institute/ice-detention-covid">turning the information into structured, longitudinal data</a>. <strong>Related:</strong> Over the summer, <a href="https://www.vera.org/the-hidden-curve-covid-19-in-ice-detention">Vera used the data to estimate “the true scope” of COVID-19 in ICE detention</a>, and called on the agency to provide more detailed statistics.</p>
+<p> </p>
+<p><strong>Mining areas.</strong> A team of academics has built a <a href="https://doi.pangaea.de/10.1594/PANGAEA.910894">dataset</a> and <a href="https://www.fineprint.global/visualisations/viewer/">map</a> indicating the <a href="https://www.nature.com/articles/s41597-020-00624-w">geographic extents of 6,000+ mining sites around the world</a>. The project traces out 21,000+ polygons covering 57,000+ square kilometers, with boundaries based on experts’ visual interpretation of satellite imagery. It focuses on “above-ground features,” such as “open cuts, tailings dams, waste rock dumps, water ponds, and processing infrastructure.”</p>
+<p> </p>
+<p><strong>E-bike and e-scooter laws.</strong> A dataset of <a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/W9NGI2">state regulations pertaining to standard bicycles, electric bicycles, and electric scooters</a> accompanies <a href="https://repository.law.umich.edu/jlm/vol2020/iss1/2/">a recent paper in the Journal of Law and Mobility</a>. It includes various classifications for each state — indicating, for instance, whether riders can use the sidewalk, whether adults must wear helmets, and whether DUI laws apply.</p>
+<p> </p>
+<p><strong>Witch trials.</strong> Some years ago, economists <a href="https://economics.gmu.edu/people/pleeson">Peter T. Leeson</a> and <a href="https://www.jakeruss.com/">Jake Russ</a> compiled a <a href="https://github.com/JakeRuss/witch-trials">dataset of 10,000+ witch trials in Europe</a>. Over the course of 550 years, the trials accused more than 43,000 people and led to 16,000 deaths. <strong>Related</strong>: <a href="https://www.peterleeson.com/Witch_Trials.pdf">Leeson and Russ’s academic paper analyzing the data</a> (PDF). <strong>Previously</strong>: <a href="https://www.shca.ed.ac.uk/Research/witches/">The Survey of Scottish Witchcraft</a> (<a href="https://tinyletter.com/data-is-plural/letters/data-is-plural-2016-01-27-edition">DIP 2016.01.27</a>). [h/t <a href="https://www.getrevue.co/profile/FairWarning/issues/fair-warning-blasts-birdwatchers-and-battleground-states-272882">Sophie Warnes</a>]</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send allegedly-wicked feedback to jsvine@gmail.com, or just reply to this email. Looking for past datasets? <a href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk">This spreadsheet contains them all</a>. Did a friend forward you this email? <a href="https://tinyletter.com/data-is-plural">Click here to subscribe</a>.</em></p>
+]]></content>
+    <link href="http://tinyletter.com/data-is-plural/letters/data-is-plural-2020-10-28-edition" rel="alternate"/>
+    <summary>Pregnancy/birth/abortion rates, COVID-19 in ICE facilities, mining areas, e-bike/scooter laws, and witch trials.</summary>
+    <published>2020-10-28T08:00:00-04:00</published>
+  </entry>
   <entry>
     <id>dip-2020-10-21</id>
     <title>Data Is Plural — 2020.10.21 edition</title>
@@ -207,27 +229,5 @@
     <link href="http://tinyletter.com/data-is-plural/letters/data-is-plural-2020-07-29-edition" rel="alternate"/>
     <summary>COVID-19 vaccines and treatments, NYPD officer misconduct, thousands of political polls, territorial self-governance, and meteorite landings.</summary>
     <published>2020-07-29T08:00:00-04:00</published>
-  </entry>
-  <entry>
-    <id>dip-2020-07-22</id>
-    <title>Data Is Plural — 2020.07.22 edition</title>
-    <updated>2020-07-22T08:00:00-04:00</updated>
-    <content type="CDATA"><![CDATA[<p><em>Police surveillance tech, COVID-related behavior, the Mexican Migration Project, the Arctic seafloor, and the Big Mac Index.</em></p>
-<p> </p>
-<p><strong>Police surveillance tech.</strong> The <a href="https://atlasofsurveillance.org/">Atlas of Surveillance</a>, a new project from the <a href="https://www.eff.org/">Electronic Frontier Foundation</a>, documents various types of surveillance technology used by 3,500 law enforcement agencies around the US. The <a href="https://atlasofsurveillance.org/search">5,300 data-points</a>, <a href="https://atlasofsurveillance.org/methodology">crowdsourced with the help of hundreds of students and volunteers</a>, cover a dozen categories of technology, such as automated license plate readers, facial recognition systems, and partnerships with doorbell camera–companies. [h/t <a href="https://news.ycombinator.com/item?id=23824845">anigbrowl</a>]</p>
-<p> </p>
-<p><strong>COVID-related behavior.</strong> Since early April, Imperial College London and YouGov have been <a href="https://www.imperial.ac.uk/global-health-innovation/our-research/covid-19-response/covid-19-behaviour-tracker/">surveying people in 29 countries</a> about their coronavirus-related behaviors and opinions. Topics include mask usage, self-isolation, working from home, vaccinations, and economic activity; the 230,000+ (anonymized) responses <a href="https://github.com/YouGov-Data/covid-19-tracker">are available to download</a>. [h/t <a href="https://twitter.com/AkinUnver/status/1282815737288183810">Akin Unver</a>]</p>
-<p> </p>
-<p><strong>Mexican migration to the US.</strong> The <a href="https://mmp.opr.princeton.edu/">Mexican Migration Project</a> “was created in 1982 by an interdisciplinary team of researchers to further our understanding of the complex process of Mexican migration to the United States.” Since then, the project — co-directed by professors at the University of Guadalajara and Princeton University — has interviewed <a href="https://mmp.opr.princeton.edu/databases/dataoverview-en.aspx">more than 176,000 people</a> from <a href="https://mmp.opr.princeton.edu/research/maps-en.aspx">170 communities in Mexico</a>, some who migrated and others who did not. <a href="https://mmp.opr.princeton.edu/databases/instructions-en.aspx">The datasets</a> (registration required) record <a href="https://mmp.opr.princeton.edu/databases/codebooks-en.aspx">various facets of their lives and migrations</a>: demographic, health, and economic attributes; migration timings, circumstances, and destinations; community characteristics; and more. [h/t <a href="https://www.nber.org/papers/w26790">Brian K. Kovak and Rebecca Lessem</a>]</p>
-<p> </p>
-<p><strong>The Arctic seafloor.</strong> The <a href="https://www.gebco.net/about_us/overview/">General Bathymetric Chart of the Ocean</a> project <a href="https://www.nature.com/articles/s41597-020-0520-9">has published</a> a new version of <a href="https://www.gebco.net/data_and_products/gridded_bathymetry_data/arctic_ocean/">its Arctic Ocean depth chart</a>, which was first released in 1997 and last updated in 2012. The latest dataset incorporates new sources, has “more than twice the resolution” as the previous version, and is more precise. <strong>Previously</strong>: <a href="https://nsidc.org/data/seaice_index/">Arctic (and Antarctic) ice coverage</a> (<a href="https://tinyletter.com/data-is-plural/letters/data-is-plural-2016-09-14-edition">DIP 2016.09.14</a>), <a href="https://twitter.com/paldhous/status/1283049748614848528">which is hitting year-over-year lows</a>.</p>
-<p> </p>
-<p><strong>The Big Mac Index.</strong> The Economist’s <a href="https://www.economist.com/news/2020/07/15/the-big-mac-index">Big Mac Index</a>, which the magazine invented in 1986, compares the cost of the signature McDonald’s hamburger around the world. “Burgernomics was never intended as a precise gauge of currency misalignment, merely a tool to make exchange-rate theory more digestible,” it says. “Yet the Big Mac index has become a global standard, included in several economic textbooks and the subject of dozens of academic studies.” The index is updated twice a year (including last week) and now covers 55 countries; both the data (going back to April 2000) and calculation code are <a href="https://github.com/TheEconomist/big-mac-data">available to download</a>.</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send double-patty feedback to jsvine@gmail.com, or just reply to this email. Looking for past datasets? <a href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk">This spreadsheet contains them all</a>. Did a friend forward you this email? <a href="https://tinyletter.com/data-is-plural">Click here to subscribe</a>.</em></p>
-]]></content>
-    <link href="http://tinyletter.com/data-is-plural/letters/data-is-plural-2020-07-22-edition" rel="alternate"/>
-    <summary>Police surveillance tech, COVID-related behavior, the Mexican Migration Project, the Arctic seafloor, and the Big Mac Index.</summary>
-    <published>2020-07-22T08:00:00-04:00</published>
   </entry>
 </feed>
