@@ -6,7 +6,28 @@
     <description>A weekly newsletter of useful/curious datasets.</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>https://github.com/data-is-plural/newsletter-archive</generator>
-    <lastBuildDate>Wed, 02 Dec 2020 08:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 09 Dec 2020 08:00:00 -0500</lastBuildDate>
+    <item>
+      <title>Data Is Plural — 2020.12.09 edition</title>
+      <link>http://tinyletter.com/data-is-plural/letters/data-is-plural-2020-12-09-edition</link>
+      <description>Hospital capacity, travel restrictions, the World Factbook, La Pola and her compatriots, and Bob Ross paintings.</description>
+      <content:encoded><![CDATA[<p><em>Hospital capacity, travel restrictions, the World Factbook, La Pola and her compatriots, and Bob Ross paintings.</em></p>
+<p> </p>
+<p><strong>COVID-19 hospital capacity.</strong> On Monday, the Department of Health and Human Services <a href="https://www.hhs.gov/about/news/2020/12/07/hhs-publishes-covid-19-hospital-facility-level-data.html">released</a> a <a href="https://healthdata.gov/dataset/covid-19-reported-patient-impact-and-hospital-capacity-facility?">dataset on coronavirus-related capacity at thousands of US hospitals</a> — information the agency previously only published <a href="https://healthdata.gov/dataset/covid-19-reported-patient-impact-and-hospital-capacity-state">as state-level metrics</a>. The self-reported, weekly-updated dataset quantifies various aspects of capacity, such as the number of staffed ICU beds and the number of beds occupied by patients with COVID-19. “This data is tremendously complex and is the result of substantial ongoing efforts,” notes an <a href="https://healthdata.gov/hhs-publishes-covid-19-hospital-facility-level-data">accompanying blog post</a>. “We opted not to have perfect be the enemy of good, so these datasets will have imperfections.” <strong>Related</strong>: <a href="https://github.com/CareSet/COVID_Hospital_PUF">An FAQ</a> “developed in collaboration with a group of data journalists, data scientists, and healthcare system researchers who have reviewed the data.” [h/t <a href="https://twitter.com/rypan/status/1336095555852767233">Ryan Panchadsaram</a>]</p>
+<p> </p>
+<p><strong>Pandemic travel restrictions.</strong> The UN World Food Program has been tracking <a href="https://data.humdata.org/dataset/covid-19-global-travel-restrictions-and-airline-information">countries’ and airlines’ travel restrictions during the COVID-19 pandemic</a>, based on official communications, media reports, and other sources. The country-level dataset indicates whether travelers must obtain a recent negative test and what type of quarantine or self-isolation is required. [h/t <a href="https://datainnovation.org/2020/12/documenting-global-travel-restrictions-and-airline-policies/">Cassidy Chansirik</a>]</p>
+<p> </p>
+<p><strong>Country facts.</strong> The CIA’s <a href="https://www.cia.gov/library/publications/the-world-factbook/">World Factbook</a> “provides information on the history, people and society, government, economy, energy, geography, communications, transportation, military, and transnational issues for 267 world entities.” The details are extensive and fairly standardized. Open data–enthusiast <a href="https://github.com/geraldb">Gerald Bauer</a> has <a href="https://github.com/factbook/factbook.json">converted the publication into a series of JSON files</a>. <strong>Now you know</strong>: The physical areas of five countries (Georgia, Ireland, Latvia, Lithuania, and Sri Lanka) are all described as “slightly larger than West Virginia.”</p>
+<p> </p>
+<p><strong>La Pola and her compatriots.</strong> During Colombia’s struggle for independence, Royalists executed scores of women by shooting squad, the most famous of whom was the seamstress and spy known as “<a href="https://en.wikipedia.org/wiki/Policarpa_Salavarrieta">La Pola</a>.” Writing last year for the <a href="https://www.banrepcultural.org/boletin-cultural/">cultural journal</a> of Colombia’s central bank, historian Pablo Rodríguez Jiménez <a href="https://publicaciones.banrepcultural.org/index.php/boletin_cultural/article/view/20880/21278">presented a list of 76 women known to have suffered this fate</a> — their names, locations, and dates of death. Colombia-based Datasketch has <a href="https://www.datasketch.co/datasketch/mujeres-fusiladas-durante-la-independencia-colombiana">converted that list into a spreadsheet</a>. [h/t <a href="https://twitter.com/jpmarindiaz">Juan Pablo Marín Díaz</a>]</p>
+<p> </p>
+<p><strong>Bob Ross paintings.</strong> Data scientist <a href="https://www.jwilber.me">Jared Wilber</a> has built a dataset of all paintings in Bob Ross’s 31 seasons of “<a href="https://en.wikipedia.org/wiki/The_Joy_of_Painting">The Joy of Painting</a>,” scraped from the <a href="https://www.twoinchbrush.com">searchable database at TwoInchBrush.com</a>. For each painting, the dataset lists the title, season, episode, YouTube link, and list of colors used. For <a href="https://fivethirtyeight.com/features/a-statistical-analysis-of-the-work-of-bob-ross/">a 2014 article at FiveThirtyEight</a>, <a href="https://twitter.com/WaltHickey">Walt Hickey</a> created a <a href="https://fivethirtyeight.com/features/a-statistical-analysis-of-the-work-of-bob-ross/">dataset categorizing the types of things Ross depicted in each episode</a>. <strong>Related</strong>: “<a href="https://www.youtube.com/watch?v=rDs3o1uLEdU">Where Are All the Bob Ross Paintings? We Found Them</a>,” a video from the New York Times. [h/t <a href="https://www.reddit.com/r/datasets/comments/k2wqax/i_once_found_a_dataset_of_every_paint_used_in/">u/palpitations</a>]</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send happy little bits of feedback to jsvine@gmail.com, or just reply to this email. Looking for past datasets? <a href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk">This spreadsheet contains them all</a>. Did a friend forward you this email? <a href="https://tinyletter.com/data-is-plural">Click here to subscribe</a>.</em></p>
+]]></content:encoded>
+      <guid isPermaLink="false">dip-2020-12-09</guid>
+      <pubDate>Wed, 09 Dec 2020 08:00:00 -0500</pubDate>
+    </item>
     <item>
       <title>Data Is Plural — 2020.12.02 edition</title>
       <link>http://tinyletter.com/data-is-plural/letters/data-is-plural-2020-12-02-edition</link>
@@ -195,27 +216,6 @@
 ]]></content:encoded>
       <guid isPermaLink="false">dip-2020-08-26</guid>
       <pubDate>Wed, 26 Aug 2020 08:00:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Data Is Plural — 2020.08.19 edition</title>
-      <link>http://tinyletter.com/data-is-plural/letters/data-is-plural-2020-08-19-edition</link>
-      <description>Federal sentencing, the demographics of power, House job listings, late-medieval England immigrants, and bees.</description>
-      <content:encoded><![CDATA[<p><em>Federal sentencing, the demographics of power, House job listings, late-medieval England immigrants, and bees.</em></p>
-<p> </p>
-<p><strong>Federal sentencing.</strong> The <a href="https://www.ussc.gov/">United States Sentencing Commission</a> publishes <a href="https://www.ussc.gov/research/datafiles/commission-datafiles">annual datasets</a>, going back to 2002, on people and organizations criminally sentenced in federal court. The files are anonymized, but contain hundreds of variables detailing the circumstances and outcomes of each decision. The commission also publishes “special collections” with additional information on drug-trafficking and economic crimes. <strong>Note</strong>: The datasets are published as SAS and SPSS files, but <a href="https://kevinhayeswilson.com/">Kevin H. Wilson</a> has shared <a href="https://github.com/khwilson/SentencingCommissionDatasets">Python code to convert them to CSVs</a>. [h/t <a href="https://mailchi.mp/6e3a3405cf45/preview-222-in-other-news-3899490">Giuseppe Sollazzo</a>]</p>
-<p> </p>
-<p><strong>The demographics of power.</strong> The <a href="https://wholeads.us/">Reflective Democracy Campaign</a> and the <a href="https://www.techandciviclife.org/">Center for Technology and Civic Life</a> have partnered to produce <a href="https://wholeads.us/resources/for-researchers/">datasets examining the demographics</a> of 3,000+ elected sheriffs; 2,800+ elected prosecutors; and candidates for federal, state, and local offices in 2012, 2014, 2016, and 2018. [h/t <a href="https://twitter.com/teacupwoozy">Stacy Montemayor</a>]</p>
-<p> </p>
-<p><strong>House work.</strong> With help from academics and former Hill staffers, journalist <a href="http://thescoop.org/about/">Derek Willis</a> has assembled an <a href="https://github.com/dwillis/house-jobs">archive of the weekly job and internship bulletins</a> sent by the US House of Representatives. The archive, which goes back to late 2013, includes both the original PDFs and text extracted from them.</p>
-<p> </p>
-<p><strong>Late-medieval English immigrants.</strong> <a href="https://www.englandsimmigrants.com/">England’s Immigrants 1330-1550</a> is “a fully-searchable database containing over 64,000 names of people known to have migrated to England during the period of the Hundred Years’ War and the Black Death, the Wars of the Roses and the Reformation,” drawing on “taxation assessments, letters of denization and protection, and a variety of other licences and grants.” In addition to names, the <a href="https://www.englandsimmigrants.com/browse/">dataset</a> includes nationalities, places of residence, occupations, and more. [h/t <a href="https://www.cambridge.org/core/journals/journal-of-british-studies/article/englands-immigrants-13301550-aliens-in-later-medieval-and-early-tudor-england/18763980AF6911AD8DEA4B5D27984007">W. Mark Ormrod</a>]</p>
-<p> </p>
-<p><strong>Bees.</strong> The US Geological Survey’s <a href="https://www.usgs.gov/centers/pwrc/science/native-bee-inventory-and-monitoring-lab">Native Bee Inventory and Monitoring Lab</a> keeps tabs on the country’s bee species, including through a <a href="https://www.gbif.org/dataset/f519367d-6b9d-411c-b319-99424741e7de">dataset of more than 400,000 observations</a> of “native and non-native bees, wasps and other insects.” (Free registration required.) <strong>Related</strong>: The lab also publishes “<a href="https://prd-wret.s3-us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/atoms/files/The%20Very%20Handy%20Manual%20-%202015.pdf">The Very Handy Manual: How to Catch and Identify Bees and Manage a Collection</a>,” plus <a href="https://www.flickr.com/photos/usgsbiml">thousands of high-resolution photos</a>.</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send pollinating feedback to jsvine@gmail.com, or just reply to this email. Looking for past datasets? <a href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk">This spreadsheet contains them all</a>. Did a friend forward you this email? <a href="https://tinyletter.com/data-is-plural">Click here to subscribe</a>.</em></p>
-]]></content:encoded>
-      <guid isPermaLink="false">dip-2020-08-19</guid>
-      <pubDate>Wed, 19 Aug 2020 08:00:00 -0400</pubDate>
     </item>
   </channel>
 </rss>
