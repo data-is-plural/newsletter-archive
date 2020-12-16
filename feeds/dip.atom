@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://tinyletter.com/data-is-plural</id>
   <title>Data Is Plural</title>
-  <updated>2020-12-09T08:00:00-05:00</updated>
+  <updated>2020-12-16T08:00:00-05:00</updated>
   <author>
     <name>Jeremy Singer-Vine</name>
     <email>jsvine@gmail.com</email>
@@ -10,6 +10,28 @@
   <link href="https://tinyletter.com/data-is-plural" rel="alternate"/>
   <generator>https://github.com/data-is-plural/newsletter-archive</generator>
   <subtitle>A weekly newsletter of useful/curious datasets.</subtitle>
+  <entry>
+    <id>dip-2020-12-16</id>
+    <title>Data Is Plural — 2020.12.16 edition</title>
+    <updated>2020-12-16T08:00:00-05:00</updated>
+    <content type="CDATA"><![CDATA[<p><em>Enslaved.org, more PPP details, more on travel/immigration bans, Third-Republic France, and cyber wargames.</em></p>
+<p> </p>
+<p><strong>People of slavery.</strong> <a href="https://www.smithsonianmag.com/history/sweeping-new-digital-database-emphasizes-enslaved-peoples-individuality-180976513/">Recently launched</a>, <a href="https://enslaved.org/">Enslaved.org</a> allows the public to “explore or reconstruct the lives of individuals who were enslaved, owned slaves, or participated in the historical trade.” Its interactive database contains 600,000+ records, with plans to expand. The <a href="https://enslaved.org/about">collaborative, schlolar-led project</a> also includes <a href="https://jsdp.enslaved.org/">The Journal of Slavery and Data Preservation</a>, which “publishes original, peer-reviewed datasets about the lives of enslaved Africans and their descendants.” The <a href="https://jsdp.enslaved.org/fullIssue/volume1-issue1">first issue</a> features three datasets <a href="http://slavebiographies.org/databases.php">originally published</a> through a <a href="https://enslaved.org/projectHistory">precursor</a> to Enslaved.org — <a href="http://slavebiographies.org/about.php">Slave Biographies: The Atlantic Database Network</a>. Those <a href="https://dataverse.harvard.edu/dataverse/jsdp">datasets</a> focus on <a href="https://jsdp.enslaved.org/fullDataArticle/volume1-issue1-louisiana-slave-database">Louisiana slaves</a> (1719–1820), <a href="https://jsdp.enslaved.org/fullDataArticle/volume1-issue1-free-blacks-database">New Orleans “Free Blacks”</a> (1840–1860), and <a href="https://jsdp.enslaved.org/fullDataArticle/volume1-issue1-maranhao-inventories-slave-database">enslaved Africans in Maranhão, Brazil</a> (1767–1831).</p>
+<p> </p>
+<p><strong>More PPP details.</strong> Thanks to a FOIA lawsuit by a group of news organizations, the US Small Business Administration has <a href="https://www.wsj.com/articles/sba-releases-detailed-information-on-more-small-business-borrowers-under-ppp-pandemic-relief-effort-11606874820">released additional data</a> about the financial assistance distributed through its Paycheck Protection Program. Previously (<a href="https://tinyletter.com/data-is-plural/letters/data-is-plural-2020-07-08-edition">DIP 2020.07.08</a>), the SBA’s public data withheld the specific amounts for all loans (instead listing only a broad range), as well as names and addresses for loans below $150,000. <a href="https://sba.app.box.com/s/5myd1nxutoq8wxecx2562baruz774si6">The new datasets</a> include those amounts, names, and addresses for all loans.</p>
+<p> </p>
+<p><strong>More on travel/immigration bans.</strong> The <a href="https://covidborderaccountability.org">COVID Border Accountability Project</a> is tracking countries’ pandemic-related travel and immigration restrictions, on a weekly basis. The <a href="https://covidborderaccountability.org/about.html">project’s team</a> categorizes various aspects of the restrictions — whether they hinge on citizenship, halt new visa applications, et cetera — and turns them into <a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/U6DJAC">a longitudinal dataset</a>. <strong>Previously</strong>: <a href="https://data.humdata.org/dataset/covid-19-global-travel-restrictions-and-airline-information">The UN World Food Program’s travel-restrictions dataset</a> (<a href="https://tinyletter.com/data-is-plural/letters/data-is-plural-2020-12-09-edition">DIP 2020.12.09</a>).</p>
+<p> </p>
+<p><strong>Third-Republic France.</strong> Economist <a href="https://sites.google.com/site/victorgayeco/">Victor Gay</a> has built <a href="https://dataverse.harvard.edu/dataverse/TRF-GIS">a geographic dataset</a> that traces, year by year, the administrative boundaries of <a href="https://en.wikipedia.org/wiki/French_Third_Republic">France’s Third Republic</a>, which governed from 1870 to 1940, when the Vichy Regime took power. The dataset <a href="https://hal.archives-ouvertes.fr/hal-02951461">provides</a> annual shapefiles delineating the country’s départements, arrondissements, and cantons; as well as for its “most significant special administrative constituencies: military, judicial and penitentiary, electoral, academic, labor inspection, and ecclesiastical.”</p>
+<p> </p>
+<p><strong>Cyber wargames.</strong> <a href="https://www.sciencedirect.com/science/article/pii/S2352340920306788">This</a> is, “to the best of our knowledge, [...] the first dataset providing network traffic traces and corresponding event logs from a complex cyber defense exercise” — a two-day <a href="https://csirt.muni.cz/projects/cyber-czech">Cyber Czech</a> event in March 2019.</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send cyber feedback to jsvine@gmail.com, or just reply to this email. Looking for past datasets? <a href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk">This spreadsheet contains them all</a>. Did a friend forward you this email? <a href="https://tinyletter.com/data-is-plural">Click here to subscribe</a>.</em></p>
+]]></content>
+    <link href="http://tinyletter.com/data-is-plural/letters/data-is-plural-2020-12-16-edition" rel="alternate"/>
+    <summary>Enslaved.org, more PPP details, more on travel/immigration bans, Third-Republic France, and cyber wargames.</summary>
+    <published>2020-12-16T08:00:00-05:00</published>
+  </entry>
   <entry>
     <id>dip-2020-12-09</id>
     <title>Data Is Plural — 2020.12.09 edition</title>
@@ -207,27 +229,5 @@
     <link href="http://tinyletter.com/data-is-plural/letters/data-is-plural-2020-09-02-edition" rel="alternate"/>
     <summary>The China Biographical Database, school reopenings, US cabinets since Washington, papal visits, and the Bible.</summary>
     <published>2020-09-02T08:00:00-04:00</published>
-  </entry>
-  <entry>
-    <id>dip-2020-08-26</id>
-    <title>Data Is Plural — 2020.08.26 edition</title>
-    <updated>2020-08-26T08:00:00-04:00</updated>
-    <content type="CDATA"><![CDATA[<p><em>The Mass Mobilization Project, ruling elites, government publications, national park trails, and bad words.</em></p>
-<p> </p>
-<p><strong>Protests around the world.</strong> The <a href="https://massmobilization.github.io/">Mass Mobilization Project</a> is “an effort to understand citizen movements against governments, what citizens want when they demonstrate against governments, and how governments respond to citizens.” The project’s <a href="https://dataverse.harvard.edu/dataverse/MMdata">dataset</a> covers more than 14,000 protests in more than 160 countries between 1990 and early 2017. For each protest, it indicates the location, dates, estimated number of participants, protesters’ demands, the state’s response, and more. The project, led by political scientists <a href="https://scholar.google.com/citations?user=miiCGvgAAAAJ&amp;hl=en">David H. Clark</a> and <a href="https://en.wikipedia.org/wiki/Patrick_M._Regan">Patrick M. Regan</a>, is indirectly funded by the CIA through the government-sponsored <a href="https://en.wikipedia.org/wiki/Political_Instability_Task_Force">Political Instability Task Force</a>. [h/t <a href="https://github.com/erikgahner/PolData/commit/884ae0d5e6dce893c2ad986ae51fb09bbd0d0cd2">Erik Gahner Larsen</a>]</p>
-<p> </p>
-<p><strong>Ruling elites.</strong> The <a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/QZ9BSA">Authoritarian Ruling Elites Database</a>, compiled by political scientist <a href="https://sites.google.com/view/austinsmatthews/home">Austin S. Matthews</a>, is “a collection of biographical and professional information on the individuals who constitute the top elite of authoritarian regimes.” Each of the project’s 18 datasets focuses on a particular regime, such as the military dictatorship that ruled Chile from 1973 to 1990. The biographical data-points include gender, occupation, dates of birth and death, tenure among the elite, and more.</p>
-<p> </p>
-<p><strong>Government publications.</strong> The US Government Publishing Office’s <a href="https://www.govinfo.gov/">govinfo.gov</a> provides online access to a wide range of official federal publications — including <a href="https://www.govinfo.gov/bulkdata">bulk downloads</a> of <a href="https://www.govinfo.gov/app/collection/bills">congressional bills</a>, the <a href="https://www.govinfo.gov/app/collection/fr">Federal Register</a>, the <a href="https://www.govinfo.gov/app/collection/cfr">Code of Federal Regulations</a>, and more. It also provides <a href="https://www.govinfo.gov/sitemaps">sitemaps</a> “to crawl and harvest content” from many of its other collections. [h/t <a href="https://www.linkedin.com/in/christine-stefano-5615456/">Christine Stefano</a>]</p>
-<p> </p>
-<p><strong>National park trails.</strong> The US National Park Service publishes a <a href="https://public-nps.opendata.arcgis.com/datasets/nps-trails-geographic-coordinate-system-1">dataset of 28,000+ lines</a> describing “formal and informal trails as well as routes within and across” the park system. The dataset provides the trail names, types, surfaces, allowed uses, and more. [h/t <a href="https://www.reddit.com/r/datasets/comments/icxtxf/csv_of_us_national_park_trails/">u/torrijasycafe</a>]</p>
-<p> </p>
-<p><strong>Bad words.</strong> “With millions of images in our library and billions of user-submitted keywords, we work hard at Shutterstock to make sure that bad words don’t show up in places they shouldn’t.” The company’s dataset of <a href="https://github.com/LDNOOBW/List-of-Dirty-Naughty-Obscene-and-Otherwise-Bad-Words">Dirty, Naughty, Obscene, and Otherwise Bad Words</a> contains the block-lists for their autocompletion and recommendation features, covering 2,600+ words and phrases in 28 languages. [h/t <a href="https://www.dolthub.com/blog/2020-04-16-f*%24!-you-in-4-languages/">Katie McCulloch</a>]</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send uncensored feedback to jsvine@gmail.com, or just reply to this email. Looking for past datasets? <a href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk">This spreadsheet contains them all</a>. Did a friend forward you this email? <a href="https://tinyletter.com/data-is-plural">Click here to subscribe</a>.</em></p>
-]]></content>
-    <link href="http://tinyletter.com/data-is-plural/letters/data-is-plural-2020-08-26-edition" rel="alternate"/>
-    <summary>The Mass Mobilization Project, ruling elites, government publications, national park trails, and bad words.</summary>
-    <published>2020-08-26T08:00:00-04:00</published>
   </entry>
 </feed>
