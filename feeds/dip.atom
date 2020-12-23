@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://tinyletter.com/data-is-plural</id>
   <title>Data Is Plural</title>
-  <updated>2020-12-16T08:00:00-05:00</updated>
+  <updated>2020-12-23T08:00:00-05:00</updated>
   <author>
     <name>Jeremy Singer-Vine</name>
     <email>jsvine@gmail.com</email>
@@ -10,6 +10,28 @@
   <link href="https://tinyletter.com/data-is-plural" rel="alternate"/>
   <generator>https://github.com/data-is-plural/newsletter-archive</generator>
   <subtitle>A weekly newsletter of useful/curious datasets.</subtitle>
+  <entry>
+    <id>dip-2020-12-23</id>
+    <title>Data Is Plural — 2020.12.23 edition</title>
+    <updated>2020-12-23T08:00:00-05:00</updated>
+    <content type="CDATA"><![CDATA[<p><em>Vaccine doses, county-level coronavirus tests, social scientists testifying, permafrost, and meat-washing.</em></p>
+<p> </p>
+<p><strong>Vaccine doses.</strong> <a href="https://ourworldindata.org">Our World in Data</a> is tracking the <a href="https://ourworldindata.org/covid-vaccinations">number of COVID-19 vaccine doses administered</a> per country, compiling <a href="https://github.com/owid/covid-19-data/tree/master/public/data/vaccinations">their dataset</a> from a range of government sources, including <a href="https://www.gov.il/en/departments/news/22122020-01">press releases</a> and <a href="https://twitter.com/nadhimzahawi/status/1339143635586207744">ministers’ tweets</a>. In addition to <a href="https://covid.cdc.gov/covid-data-tracker/#vaccinations">listing the total doses administered</a>, the US Department of Health and Human Services is also <a href="https://www.hhs.gov/coronavirus/covid-19-vaccines/distribution/index.html">publishing datasets</a> that tally how many <a href="https://data.cdc.gov/Vaccinations/COVID-19-Vaccine-Distribution-Allocations-by-Juris/saz5-9hgg">Pfizer-BioNTech</a> and <a href="https://data.cdc.gov/Vaccinations/COVID-19-Vaccine-Distribution-Allocations-by-Juris/b7pe-5nws">Moderna</a> vaccine doses have been <em>allocated</em> and <em>shipped</em> to each state and territory.</p>
+<p> </p>
+<p><strong>County-level coronavirus tests.</strong> The US federal government has finally begun publishing county-level data on COVID-19 test counts, positivity rates, and delays. And that’s just a slice of <a href="https://github.com/CareSet/COVID_Community_Profile_Report_FAQ">the information now available</a> through the daily-updated, multi-agency <a href="https://beta.healthdata.gov/National/COVID-19-Community-Profile-Report/gqxm-d9w9">Community Profile Reports</a>, which also assign each county to a “concern category” and aggregate the metrics to the CBSA, state, and regional levels. <strong>Related</strong>: <a href="https://twitter.com/rypan/status/1340012957321728001">Ryan Panchadsaram’s enthusiastic Twitter thread</a>.</p>
+<p> </p>
+<p><strong>Social scientists testifying.</strong> In a <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0230104">paper published this spring</a>, Mahler et al. describe their dataset of <a href="https://osf.io/e3h98/">social scientists’ appearances in US congressional hearings</a> — more than 15,000 instances in all, at more than 10,000 hearings between 1946 and 2016. For each testimony, the dataset indicates the expert’s name, discipline, title, and professional affiliations, as well as the hearing’s date, title, and committee. Economists predominate, followed by political scientists, psychologists, sociologists, and then anthropologists. [h/t <a href="https://deblina.net/">Deblina Mukherjee</a>]</p>
+<p> </p>
+<p><strong>Permafrost.</strong> The European Space Agency <a href="https://www.esa.int/Applications/Observing_the_Earth/Space_for_our_climate/Long-term_permafrost_record_details_Arctic_thaw">has released</a> new <a href="https://catalogue.ceda.ac.uk/uuid/1f88068e86304b0fbd34456115b6606f">longitudinal data on the Northern Hemisphere’s permafrost</a> — ground that remains 0°C/32°F or colder for at least two years. Through a combination of satellite detection and on-the-ground measurements, the datasets quantify the permafrost’s thickness, extent, and temperature between 1997 and 2017. [h/t <a href="https://twitter.com/simon_sat/status/1339167494720937989">Simon Proud</a>]</p>
+<p> </p>
+<p><strong>Who washes meat?</strong> YouTuber (and former public radio reporter) <a href="https://www.youtube.com/user/aragusea/about">Adam Ragusea</a> recently <a href="https://youtu.be/U_PMnCpaJiQ?t=742">asked his viewers</a> to answer a detailed survey about whether (and why, and how) they wash meat before cooking it. He received more than 13,000 responses. He then made a <a href="https://www.youtube.com/watch?v=90Nd_vh3yk8">video about what he found</a> and published a <a href="https://drive.google.com/file/d/1eygYpBJQGFd4wHH8iYsLoy3PR8PmHN0O/view">spreadsheet of the anonymized answers</a>.</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send uncontaminated feedback to jsvine@gmail.com, or just reply to this email. Looking for past datasets? <a href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk">This spreadsheet contains them all</a>. Did a friend forward you this email? <a href="https://tinyletter.com/data-is-plural">Click here to subscribe</a>.</em></p>
+]]></content>
+    <link href="http://tinyletter.com/data-is-plural/letters/data-is-plural-2020-12-23-edition" rel="alternate"/>
+    <summary>Vaccine doses, county-level coronavirus tests, social scientists testifying, permafrost, and meat-washing.</summary>
+    <published>2020-12-23T08:00:00-05:00</published>
+  </entry>
   <entry>
     <id>dip-2020-12-16</id>
     <title>Data Is Plural — 2020.12.16 edition</title>
@@ -207,27 +229,5 @@
     <link href="http://tinyletter.com/data-is-plural/letters/data-is-plural-2020-09-30-edition" rel="alternate"/>
     <summary>State bills, centuries of federal debt, the Global Wind Atlas, the Social Connectedness Index, and prime numbers.</summary>
     <published>2020-09-30T08:00:00-04:00</published>
-  </entry>
-  <entry>
-    <id>dip-2020-09-02</id>
-    <title>Data Is Plural — 2020.09.02 edition</title>
-    <updated>2020-09-02T08:00:00-04:00</updated>
-    <content type="CDATA"><![CDATA[<p><em>The China Biographical Database, school reopenings, US cabinets since Washington, papal visits, and the Bible.</em></p>
-<p> </p>
-<p><strong>A who’s who of historical China.</strong> The <a href="https://projects.iq.harvard.edu/cbdb">China Biographical Database</a> is packed with details on “approximately 470,000 individuals” from historical China, “primarily from the 7th through 19th centuries.” The <a href="https://projects.iq.harvard.edu/cbdb/supporting-documents">extensively documented</a> records include information about kinships, social statuses, offices and postings, aliases, known addresses, and more. The project, which has a <a href="https://projects.iq.harvard.edu/cbdb/history-of-cbdb">long history of its own</a>, provides <a href="https://projects.iq.harvard.edu/cbdb/download-cbdb-standalone-database">bulk downloads</a> as well as <a href="https://projects.iq.harvard.edu/cbdb/cbdb-api">an API</a>. [h/t <a href="https://twitter.com/yifeiphu">Yifei Hu</a>]</p>
-<p> </p>
-<p><strong>School reopenings.</strong> Education Week is <a href="https://www.edweek.org/ew/section/multimedia/school-districts-reopening-plans-a-snapshot.html">collecting coronavirus-era reopening plans</a> “from a sample of school districts around the country.” The <a href="https://fs24.formsite.com/edweek/lpuqp09jhq/index.html">dataset</a> (free registration required) covers more than 800 US public school districts so far, and is being updated weekly. USAFacts has collected similar information <a href="https://usafacts.org/articles/how-are-children-going-back-school-americas-225-largest-public-school-districts/">from the 255 largest US public school districts</a> as of August 17. And <a href="http://www.coronaviral.fyi/">coronaviral.fyi</a> has pulled together data on <a href="https://docs.google.com/spreadsheets/d/16f99488ylGL9L1BaeqaD-yy85mayS7-BSHJS31ukiXk/edit#gid=608920111">a thousand districts’ plans</a> in Connecticut, New Jersey, New York, and Pennsylvania. [h/t <a href="https://twitter.com/sashananderson">Sasha Anderson</a> + <a href="https://us19.campaign-archive.com/?u=f41127908fa3aa16b3d6c4d99&amp;id=542bdcc636">Stephen Stirling and Rebekah F. Ward</a>]</p>
-<p> </p>
-<p><strong>US cabinets.</strong> UX designer <a href="https://taitcha.com/">Tait Chamberlain</a> has constructed a dataset of <a href="https://github.com/taitcha/American_cabinet_appointments">all US presidential cabinet nominations</a> — including nominees appointed, withdrawn, and rejected — from George Washington’s to the current administration. The spreadsheets contain “service dates, notable scandals, education, military service, foreign birth, known minority and gender status, whether the appointee died in office, and the senate confirmation vote tallies.” <strong>Previously</strong>: <a href="https://www.nuffield.ox.ac.uk/our-research/research-centres/nuffield-politics-research-centre/whogov/">Cabinets around the world, 1966–2016</a> (<a href="https://tinyletter.com/data-is-plural/letters/data-is-plural-2020-08-05-edition">DIP 2020.08.05</a>).</p>
-<p> </p>
-<p><strong>Papal visits.</strong> For their “<a href="https://econpapers.repec.org/paper/zbwilewps/37.htm">Pacem in Terris: Are Papal Visits Good News for Human Rights?</a>” working paper, economists <a href="https://www.jura.uni-hamburg.de/die-fakultaet/personenverzeichnis/endrich-marek.html">Marek Endrich</a> and <a href="https://sites.google.com/site/jerggutmann/home">Jerg Gutmann</a> have compiled “<a href="https://drive.google.com/file/d/1Lr3qQvtReCAbke6DksuX5IoGMqwjbN_r/view">the first global dataset on papal travels outside of Italy</a>.” For each country-year combination between 1964 and 2017, the dataset indicates whether the Pope visited, who he was, and the country’s <a href="https://dataverse.harvard.edu/dataverse/HumanRightsScores">“latent human rights” score</a> for that year.</p>
-<p> </p>
-<p><strong>The Bible.</strong> <a href="https://timmorgan.dev/">Tim Morgan</a>’s <a href="https://bible-api.com/">bible-api.com</a> “provides a JSON API for grabbing bible verses and passages.” You can choose verses from six translations in five languages, and can download both <a href="https://github.com/seven1m/bible_api">the underlying code</a> and <a href="https://github.com/seven1m/open-bibles">the data</a>. [h/t <a href="https://news.ycombinator.com/item?id=23737601">Oto Brglez</a>]</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send scriptural feedback to jsvine@gmail.com, or just reply to this email. Looking for past datasets? <a href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk">This spreadsheet contains them all</a>. Did a friend forward you this email? <a href="https://tinyletter.com/data-is-plural">Click here to subscribe</a>.</em></p>
-]]></content>
-    <link href="http://tinyletter.com/data-is-plural/letters/data-is-plural-2020-09-02-edition" rel="alternate"/>
-    <summary>The China Biographical Database, school reopenings, US cabinets since Washington, papal visits, and the Bible.</summary>
-    <published>2020-09-02T08:00:00-04:00</published>
   </entry>
 </feed>
