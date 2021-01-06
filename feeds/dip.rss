@@ -6,7 +6,28 @@
     <description>A weekly newsletter of useful/curious datasets.</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>https://github.com/data-is-plural/newsletter-archive</generator>
-    <lastBuildDate>Wed, 23 Dec 2020 08:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 06 Jan 2021 08:00:00 -0500</lastBuildDate>
+    <item>
+      <title>Data Is Plural — 2021.01.06 edition</title>
+      <link>http://tinyletter.com/data-is-plural/letters/data-is-plural-2021-01-06-edition</link>
+      <description>Megascale coronavirus surveys, commodity-transportation costs, more college sports financing, ten million Jupyter notebooks, and 2020 in haiku.</description>
+      <content:encoded><![CDATA[<p><em>Megascale coronavirus surveys, commodity-transportation costs, more college sports financing, ten million Jupyter notebooks, and 2020 in haiku.</em></p>
+<p> </p>
+<p><strong>Megascale coronavirus surveys.</strong> Carnegie Mellon University’s <a href="https://delphi.cmu.edu/about/">epidemiological forecasting group</a> and Facebook have partnered to field a <a href="https://delphi.cmu.edu/covidcast/surveys/">large-scale coronavirus survey in the US</a>; they’ve collected <a href="https://delphi.cmu.edu/covidcast/survey-results/">more than 15 million responses since April 2020</a>. The University of Maryland has <a href="https://covidmap.umd.edu/">formed a similar partnership</a> for an international survey, in which “a representative sample of Facebook users is invited on a daily basis to report on symptoms, social distancing behavior, mental health issues, and financial constraints”; <a href="https://ischool.umd.edu/news/university-maryland-carnegie-mellon-and-facebook-team-forecast-coronavirus-spread">millions have also participated</a>. Geographically-aggregated results of the US survey can be downloaded via an <a href="https://delphi.cmu.edu/covidcast/export/">online interface</a> or <a href="https://cmu-delphi.github.io/delphi-epidata/api/covidcast.html">Delphi’s API</a>; the international results are also <a href="https://covidmap.umd.edu/api.html">available via API</a>. <strong>Practical example</strong>: <a href="https://delphi.cmu.edu/blog/2020/12/13/are-masks-widely-used-in-public/">An analysis of state-by-state mask usage, with code</a>. [h/t <a href="https://www.refsmmat.com/">Alex Reinhart</a>]</p>
+<p> </p>
+<p><strong>Commodity-transportation costs.</strong> The UN and the World Bank have <a href="https://unctad.org/news/why-and-how-measure-international-transport-costs">launched</a> a new <a href="https://unctadstat.unctad.org/EN/TransportCost.html">interactive map</a> and <a href="https://unctadstat.unctad.org/wds/ReportFolders/reportFolders.aspx?IF_ActivePath=P%2C207045">dataset</a> that quantify the transportation costs for international trade — country-by-country and broken down by mode of transportation (sea, air, rail, road), trading partner, and commodity. The numbers, based both on directly-reported figures and statistical modelling, include costs overall, per unit, and per unit per kilometer. The project currently covers only 2016, but has plans to expand. [h/t <a href="https://twitter.com/JanHoffmann_gva/status/1341414753567186947">Jan Hoffmann</a>]</p>
+<p> </p>
+<p><strong>More college sports financing.</strong> The <a href="http://cafidatabase.knightcommission.org">College Athletics Financial Information Database</a>, run by the privately-funded <a href="https://www.knightcommission.org">Knight Commission on Intercollegiate Athletics</a>, details the annual sources of revenue (such as ticket sales) and expenses (such as coaches’ compensation) for hundreds of schools, based on information self-reported to the NCAA and federal government. Many of the records <a href="http://cafidatabase.knightcommission.org/about-the-data">were obtained</a> via freedom-of-information requests by <a href="https://sports.usatoday.com/2020/07/05/methodology-for-2019-ncaa-athletic-department-revenue-database/">USA Today and Syracuse University students</a>. [h/t <a href="https://www.ipr.northwestern.edu/our-work/working-papers/2020/wp-20-42.html">Craig Garthwaite et al.</a>]</p>
+<p> </p>
+<p><strong>Millions of computational notebooks.</strong> In 2017, a team of researchers <a href="https://github.com/activityhistory/jupyter_on_github">downloaded and analyzed</a> 1.25 million publicly-available Jupyter notebooks — <a href="https://jupyter.org/">documents</a> that weave computational code, output, and text. They also <a href="https://library.ucsd.edu/dc/collection/bb6931851t">published</a> the notebooks and their related metadata. Inspired by that project, a team at JetBrains recently did a follow-up scan, <a href="https://blog.jetbrains.com/datalore/2020/12/17/we-downloaded-10-000-000-jupyter-notebooks-from-github-this-is-what-we-learned/">analyzing and publishing data on nearly 10 million notebooks</a>.</p>
+<p> </p>
+<p><strong>2020 in haiku.</strong> Over the course of 2020, <a href="https://twitter.com/elibryan">Eli Holder</a> paid workers on Mechanical Turk to turn news headlines into 5/7/5-syllable poems. The result: 2,760 “Doom Haikus,” which you can <a href="https://doomhaikus.3iap.co/">browse on a timeline</a> or <a href="https://www.kaggle.com/newshaikus/dataset">download in bulk</a>. For each poem, the dataset also includes the original article URL, date processed, headline, and SEO snippet. [h/t <a href="http://ksaj.inlisp.org">Karsten Johansson</a>]</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send journo-poetic feedback to jsvine@gmail.com, or just reply to this email. Looking for past datasets? <a href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk">This spreadsheet contains them all</a>. Did a friend forward you this email? <a href="https://tinyletter.com/data-is-plural">Click here to subscribe</a>.</em></p>
+]]></content:encoded>
+      <guid isPermaLink="false">dip-2021-01-06</guid>
+      <pubDate>Wed, 06 Jan 2021 08:00:00 -0500</pubDate>
+    </item>
     <item>
       <title>Data Is Plural — 2020.12.23 edition</title>
       <link>http://tinyletter.com/data-is-plural/letters/data-is-plural-2020-12-23-edition</link>
@@ -195,27 +216,6 @@
 ]]></content:encoded>
       <guid isPermaLink="false">dip-2020-10-07</guid>
       <pubDate>Wed, 07 Oct 2020 08:00:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Data Is Plural — 2020.09.30 edition</title>
-      <link>http://tinyletter.com/data-is-plural/letters/data-is-plural-2020-09-30-edition</link>
-      <description>State bills, centuries of federal debt, the Global Wind Atlas, the Social Connectedness Index, and prime numbers.</description>
-      <content:encoded><![CDATA[<p><em>State bills, centuries of federal debt, the Global Wind Atlas, the Social Connectedness Index, and prime numbers.</em></p>
-<p> </p>
-<p><strong>State bills.</strong> For years, <a href="https://openstates.org/">Open States</a> has allowed you to “track bills, review upcoming legislation, and see how your local representatives are voting in your state.” The <a href="https://openstates.org/about/">volunteer-driven project</a> provides <a href="https://openstates.org/data/">bulk downloads</a> of nearly all its data, plus <a href="https://docs.openstates.org/en/latest/api/v2/">an API</a>. More recently, it has started <a href="https://openstates.org/covid19/">tracking coronavirus-related legislation</a>, with data on more than 3,300 bills across the country. [h/t <a href="https://www.amycesal.com/">Amy Cesal</a>]</p>
-<p> </p>
-<p><strong>Centuries of federal debt.</strong> The US Treasury’s “<a href="https://fiscaldata.treasury.gov/datasets/debt-to-the-penny/debt-to-the-penny">Debt to the Penny</a>” dataset reports the total amount of outstanding public debt issued by the federal government — updated daily and going back to April 1, 1993. As of Monday, that number was $26,811,409,726,497.33. Another of <a href="https://fiscaldata.treasury.gov/datasets/">the Treasury’s datasets</a> provides <a href="https://fiscaldata.treasury.gov/datasets/historical-debt-outstanding/historical-debt-outstanding"><em>annual</em> debt figures going back to 1789</a>. [h/t <a href="https://twitter.com/shunley42/status/1301875586101583877">Sam Hunley</a>]</p>
-<p> </p>
-<p><strong>Wind.</strong> The <a href="https://globalwindatlas.info/">Global Wind Atlas</a> aims “to help policymakers, planners, and investors identify high-wind areas for wind power generation virtually anywhere in the world.” The internationally-funded project provides a range of <a href="https://globalwindatlas.info/downloads/gis-files">global and country-specific datasets</a>, including wind speeds at various heights, as well as a <a href="https://globalwindatlas.info/about/method">description of its methodology</a> and an <a href="https://globalwindatlas.info/about/faq">FAQ</a>. [h/t <a href="https://twitter.com/AntnRueh/status/1291634332965261312">Anton Rühling</a>]</p>
-<p> </p>
-<p><strong>Cross-border friendliness.</strong> The <a href="https://dataforgood.fb.com/tools/social-connectedness-index/">Social Connectedness Index</a>, a collaboration between Facebook and academic researchers, quantifies “the intensity of connectedness between locations” by measuring the frequency of Facebook-friendships linking their residents. The index represents this measurement on a scale from 1 to 1,000,000,000; the <a href="https://data.humdata.org/dataset/social-connectedness-index">publicly available datasets</a> provide it for every pair of countries, every pair of US counties, every county-country pair, and between subnational regions around the world. <strong>Related</strong>: <a href="https://twitter.com/stroebel_econ/status/1247537135487299590">An illustrative Twitter thread demonstrating the data</a>. [h/t <a href="https://twitter.com/stroebel_econ">Johannes Stroebel</a>]</p>
-<p> </p>
-<p><strong>Prime numbers.</strong> Mathematician <a href="https://www.utm.edu/staff/caldwell/">Chris K. Caldwell</a> maintains a <a href="https://primes.utm.edu/primes/search.php">searchable</a>, <a href="https://primes.utm.edu/primes/download.php">downloadable</a> database of <a href="https://primes.utm.edu/primes/home.php">the largest prime numbers known to humankind</a> — plus who discovered them, when, and how. <strong>Related</strong>: <a href="https://primes.utm.edu/lists/small/">Smaller primes</a>.</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send minimally-factorable feedback to jsvine@gmail.com, or just reply to this email. Looking for past datasets? <a href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk">This spreadsheet contains them all</a>. Did a friend forward you this email? <a href="https://tinyletter.com/data-is-plural">Click here to subscribe</a>.</em></p>
-]]></content:encoded>
-      <guid isPermaLink="false">dip-2020-09-30</guid>
-      <pubDate>Wed, 30 Sep 2020 08:00:00 -0400</pubDate>
     </item>
   </channel>
 </rss>
