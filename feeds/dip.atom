@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://tinyletter.com/data-is-plural</id>
   <title>Data Is Plural</title>
-  <updated>2021-01-06T08:00:00-05:00</updated>
+  <updated>2021-01-13T08:00:00-05:00</updated>
   <author>
     <name>Jeremy Singer-Vine</name>
     <email>jsvine@gmail.com</email>
@@ -10,6 +10,28 @@
   <link href="https://tinyletter.com/data-is-plural" rel="alternate"/>
   <generator>https://github.com/data-is-plural/newsletter-archive</generator>
   <subtitle>A weekly newsletter of useful/curious datasets.</subtitle>
+  <entry>
+    <id>dip-2021-01-13</id>
+    <title>Data Is Plural — 2021.01.13 edition</title>
+    <updated>2021-01-13T08:00:00-05:00</updated>
+    <content type="CDATA"><![CDATA[<p><em>Electoral attitudes, fishing activity, Bundestag writings, innovation licensing, and chess puzzles.</em></p>
+<p> </p>
+<p><strong>Electoral attitudes.</strong> The <a href="https://u.osu.edu/cnep/">Comparative National Elections Project</a> “is a partnership among scholars who have conducted election surveys on five continents,” with a focus on understanding the factors that shape voters’ decisions. The project’s <a href="https://u.osu.edu/cnep/surveys/surveys-through-2012/">publicly-available datasets</a> include 48 of the surveys, which use a combination of country-specific questions and <a href="https://u.osu.edu/cnep/common-core-questionnaire/">shared questionnaire</a> — asking about political news consumption, attitudes towards democracy, interpersonal communications, and other topics. <strong>Related</strong>: The <a href="https://cses.org/">Comparative Study of Electoral Systems</a>, a similar collaboration with “a special emphasis on voting and turnout.” [h/t <a href="https://github.com/erikgahner/PolData/commit/26ff4d1932024d71b29a1195597d5e5a64367cca">Erik Gahner Larsen</a>]</p>
+<p> </p>
+<p><strong>Fishing activity.</strong> <a href="https://globalfishingwatch.org/">Global Fishing Watch</a> — initially organized as <a href="https://globalfishingwatch.org/about-us/">a collaboration</a> between conservationists and Google — uses satellite imagery, ship signals, and other sources “to visualise, track and share data about global fishing activity in near real-time and for free.” The project’s <a href="https://globalfishingwatch.org/datasets-and-code/">public datasets</a> (free registration required) examine various aspects of the industry, including the <a href="https://globalfishingwatch.org/datasets-and-code/fishing-effort/">geography of “fishing effort”</a> (2012–16) and <a href="https://globalfishingwatch.org/transshipment-success/report-first-global-view-transshipment-sea/">transshipment between vessels</a>. <strong>As seen in</strong>: “<a href="https://www.bloomberg.com/graphics/2020-brexit-eu-fisheries/">Why the U.K. and EU Are Fighting Over Fish</a>” (Bloomberg). [h/t <a href="https://flowingdata.com/2020/12/21/who-catches-the-most-fish/">Nathan Yau</a>]</p>
+<p> </p>
+<p><strong>Bundestag writings.</strong> Political scientists <a href="https://corinna-kroeber.jimdofree.com/">Corinna Kroeber</a> and <a href="https://twitter.com/tremsch">Tobias Remschel</a> have <a href="https://www.cambridge.org/core/journals/government-and-opposition/article/every-single-word-a-new-data-set-including-all-parliamentary-materials-published-in-germany/34D424C406687F7446C6F32980A4FE84">compiled</a> a <a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/7EJ1KI">dataset</a> of “all written communication published by the German Bundestag between 1949 and 2017,” unifying <a href="https://www.bundestag.de/services/opendata">datasets released by Germany’s parliament</a> “in a manner easily accessible to researchers applying text analysis.” For each of the 131,835 reports, requests, bills, and other documents, the dataset provides the full text, date, author information, and more. <strong>Previously</strong>: <a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/L4OAKN">Six million parliamentary speeches from nine countries</a> (<a href="https://tinyletter.com/data-is-plural/letters/data-is-plural-2020-04-29-edition">DIP 2020.04.29</a>.</p>
+<p> </p>
+<p><strong>Innovation licensing.</strong> Government agencies often commercialize their innovations through “<a href="https://federallabs.org/learning-center/what-is-t2">technology transfer</a>” programs, which strike collaboration and licensing agreements with outside parties. NASA provides a <a href="https://technology.nasa.gov/api/">technology transfer API</a> for accessing data about its patent portfolio and software catalog; the National Institutes of Health offers a <a href="https://www.ott.nih.gov/nih-ott-api">similar API</a> for querying its licensing opportunities. [h/t <a href="https://alexlib.info/">Tom Folkes</a>]</p>
+<p> </p>
+<p><strong>Chess puzzles.</strong> <a href="https://lichess.org/about">Lichess</a> is a free, open-source, donation-supported chess server. Its team publishes a <a href="https://database.lichess.org/">database of the rated matches</a> played on its platform (more than 1.7 billion so far, since 2013), which it recently used <a href="https://lichess.org/blog/X-S6gRUAAGjNX4ki/new-puzzles-are-here">to revamp</a> its <a href="https://database.lichess.org/#puzzles">dataset of original chess puzzles</a>. <strong>Previously</strong>: <a href="http://www.pgnmentor.com/files.html">Chess games from high-level players and tournaments</a> (<a href="https://tinyletter.com/data-is-plural/letters/data-is-plural-2016-02-17-edition">DIP 2016.02.17</a>).</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send strategic feedback to jsvine@gmail.com, or just reply to this email. Looking for past datasets? <a href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk">This spreadsheet contains them all</a>. Did a friend forward you this email? <a href="https://tinyletter.com/data-is-plural">Click here to subscribe</a>.</em></p>
+]]></content>
+    <link href="http://tinyletter.com/data-is-plural/letters/data-is-plural-2021-01-13-edition" rel="alternate"/>
+    <summary>Electoral attitudes, fishing activity, Bundestag writings, innovation licensing, and chess puzzles.</summary>
+    <published>2021-01-13T08:00:00-05:00</published>
+  </entry>
   <entry>
     <id>dip-2021-01-06</id>
     <title>Data Is Plural — 2021.01.06 edition</title>
@@ -207,27 +229,5 @@
     <link href="http://tinyletter.com/data-is-plural/letters/data-is-plural-2020-10-21-edition" rel="alternate"/>
     <summary>Voting equipment, jail deaths, college athletics, bug bounties, and shrinking salmon.</summary>
     <published>2020-10-21T08:00:00-04:00</published>
-  </entry>
-  <entry>
-    <id>dip-2020-10-07</id>
-    <title>Data Is Plural — 2020.10.07 edition</title>
-    <updated>2020-10-07T08:00:00-04:00</updated>
-    <content type="CDATA"><![CDATA[<p><em>Polling places, Xinjiang internment camps, historical newspaper imagery, a millennium of UK macroeconomic data, and a lifetime of first kisses.</em></p>
-<p> </p>
-<p><strong>Polling places.</strong> As part of <a href="https://publicintegrity.org/topics/politics/elections/ballotboxbarriers/">a new investigative series</a>, the <a href="https://publicintegrity.org/">Center for Public Integrity</a> and <a href="https://www.pewtrusts.org/en/research-and-analysis/blogs/stateline">Stateline</a> have published a <a href="https://github.com/PublicI/us-polling-places">dataset of polling places</a> during the 2012–18 US general elections for 30 states (and plan to add more states “in the coming weeks”). To assemble the dataset, <a href="https://publicintegrity.org/politics/elections/ballotboxbarriers/data-release-sheds-light-on-past-polling-place-changes">reporters filed 1,200 records requests</a>, and then converted the disparate files they received into standardized CSVs listing each polling place’s county, precinct, name, and address.</p>
-<p> </p>
-<p><strong>Xinjiang internment camps.</strong> In August, BuzzFeed News published a <a href="https://www.buzzfeednews.com/article/meghara/china-new-internment-camps-xinjiang-uighurs-muslims">two-part investigation</a> into China’s “vast new infrastructure” for imprisoning Muslim minorities in its Xinjiang region. The reporters used a novel methodology to of hundreds of detention facilities: <a href="https://www.buzzfeednews.com/article/alison_killing/satellite-images-investigation-xinjiang-detention-camps">examining the gaps in Baidu Maps’ satellite imagery</a>. Last month, they published <a href="https://github.com/critocrito/xinjiang-camps-data">a dataset</a> of those facilities’ coordinates and statuses. The <a href="https://www.aspi.org.au/">Australian Strategic Policy Institute</a> has also <a href="https://www.theguardian.com/world/2020/sep/24/china-has-built-380-internment-camps-in-xinjiang-study-finds">launched</a> its <a href="https://xjdp.aspi.org.au/">Xinjiang Data Project</a>, <a href="https://xjdp.aspi.org.au/data/?tab=datasets">identifying</a> <a href="https://xjdp.aspi.org.au/explainers/exploring-xinjiangs-detention-facilities/">more than 380 detention facilities</a> as well as <a href="https://xjdp.aspi.org.au/explainers/cultural-erasure/">the destruction of religious/cultural sites in the region</a>. The project — which builds on previous research <a href="https://www.aspi.org.au/report/mapping-xinjiangs-re-education-camps">by the institute</a>, BuzzFeed News, and others — classifies the detention sites into four tiers, from “low-security re-education facilities” to “suspected maximum-security prisons.” [h/t <a href="https://twitter.com/WilliamYang120/status/1308950380219252736">William Yang</a>]</p>
-<p> </p>
-<p><strong>Historical newspaper imagery.</strong> The Library of Congress’ <a href="https://news-navigator.labs.loc.gov/">Newspaper Navigator dataset</a> extracts “visual content” from more than 16 million pages of newspapers from 1789 to 1963, drawn from the library’s <a href="https://chroniclingamerica.loc.gov/about/">Chronicling America project</a> (<a href="https://tinyletter.com/data-is-plural/letters/data-is-plural-2017-08-16-edition">DIP 2017.08.16</a>). To compile the dataset, its creators <a href="https://github.com/LibraryOfCongress/newspaper-navigator">used machine learning</a> to detect seven types of visuals: photos, illustrations, maps, comics, editorial cartoons, headlines, and ads. They also built <a href="https://news-navigator.labs.loc.gov/search">an interactive search tool</a>. [h/t <a href="https://www.metafilter.com/188743/This-is-the-largest-dataset-of-its-kind-ever-produced">Jessamyn West</a>]</p>
-<p> </p>
-<p><strong>Even older UK economic figures.</strong> The Bank of England has considerably expanded its <a href="https://www.bankofengland.co.uk/statistics/research-datasets">longitudinal dataset on the UK’s economy</a> (<a href="https://tinyletter.com/data-is-plural/letters/data-is-plural-2017-01-25-edition">DIP 2017.01.25</a>), renaming it “a millennium of macroeconomic data.” A few indicators (such as GDP per capita) now stretch back to 1086, thanks to the <a href="https://en.wikipedia.org/wiki/Domesday_Book">Domesday Book</a>, while several others (such as consumer price inflation) now extend to the 13th century. [h/t <a href="https://thelittledataset.com/about/">Alex Albright</a>]</p>
-<p> </p>
-<p><strong>A lifetime of first kisses.</strong> <a href="http://beebe-west.com/viz/kiss-list/">The Kiss List</a> explores artist <a href="https://www.galenbeebe.com/">Galen Beebe</a>’s 48 first kisses. Reconstructed from “memories and journals,” and developed with her partner <a href="http://beebe-west.com/john/">John West</a>, the <a href="https://github.com/jswest/kiss-list-refresh/blob/master/public/data.json.js">dataset</a> and visualization present “a set of facts that show who, what, where, when, and why I kissed how I did.”</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send smoochy feedback to jsvine@gmail.com, or just reply to this email. Looking for past datasets? <a href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk">This spreadsheet contains them all</a>. Did a friend forward you this email? <a href="https://tinyletter.com/data-is-plural">Click here to subscribe</a>.</em></p>
-]]></content>
-    <link href="http://tinyletter.com/data-is-plural/letters/data-is-plural-2020-10-07-edition" rel="alternate"/>
-    <summary>Polling places, Xinjiang internment camps, historical newspaper imagery, a millennium of UK macroeconomic data, and a lifetime of first kisses.</summary>
-    <published>2020-10-07T08:00:00-04:00</published>
   </entry>
 </feed>
