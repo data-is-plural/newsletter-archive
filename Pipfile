@@ -7,7 +7,7 @@ verify_ssl = true
 
 [packages]
 requests = "*"
-lxml = "*"
+lxml = ">=4.6.2"
 cssselect = "*"
 tinyapi = "*"
 markdown = "*"
