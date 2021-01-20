@@ -6,7 +6,28 @@
     <description>A weekly newsletter of useful/curious datasets.</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>https://github.com/data-is-plural/newsletter-archive</generator>
-    <lastBuildDate>Wed, 13 Jan 2021 08:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 20 Jan 2021 08:00:00 -0500</lastBuildDate>
+    <item>
+      <title>Data Is Plural — 2021.01.20 edition</title>
+      <link>http://tinyletter.com/data-is-plural/letters/data-is-plural-2021-01-20-edition</link>
+      <description>US demonstrations and political violence, Capitol siege charges, terms of service, India’s coal mines, and newsletter links.</description>
+      <content:encoded><![CDATA[<p><em>US demonstrations and political violence, Capitol siege charges, terms of service, India’s coal mines, and newsletter links.</em></p>
+<p> </p>
+<p><strong>US demonstrations and political violence.</strong> <a href="https://acleddata.com/special-projects/us-crisis-monitor/">US Crisis Monitor</a> “provides the public with real-time data and analysis on political violence and demonstrations around the country, establishing an evidence base from which to identify risks, hotspots, and available resources to empower local communities in times of crisis.” The project, <a href="https://acleddata.com/2020/07/09/introducing-the-us-crisis-monitor/">launched last summer</a> as a collaboration between the <a href="https://www.acleddata.com/about-acled/">Armed Conflict Location &amp; Event Data Project</a> (<a href="https://tinyletter.com/data-is-plural/letters/data-is-plural-2017-11-29-edition">DIP 2017.11.29</a>) and Princeton University’s <a href="https://bridgingdivides.princeton.edu/">Bridging Divides Initiative</a>, now contains information on 20,000+ peaceful protests (the vast majority of entries), violent demonstrations, riots, and other events since April 2020. For each entry, the dataset lists the event type, date, location, groups involved, as well as a brief summary. <strong>As seen in</strong>: <a href="https://fivethirtyeight.com/features/the-polices-tepid-response-to-the-capitol-breach-wasnt-an-aberration/">The Police’s Tepid Response To The Capitol Breach Wasn’t An Aberration</a> (FiveThirtyEight).</p>
+<p> </p>
+<p><strong>Capitol siege charges.</strong> The <a href="https://extremism.gwu.edu/">Program on Extremism</a> at George Washington University <a href="https://extremism.gwu.edu/Capitol-Hill-Cases">is building</a> a “central database of court records related to the events of January 6, 2021.” In addition to linking to the government’s criminal complaints, indictments, and other documents, the researchers are publishing a spreadsheet of all people who’ve been federally charged — with names, age, gender, home state, and date charged.</p>
+<p> </p>
+<p><strong>Terms of service.</strong> The <a href="https://disinfo.quaidorsay.fr/en">Office of the French Ambassador for Digital Affairs</a> has been <a href="https://disinfo.quaidorsay.fr/en/cgus">tracking user-agreement documents</a> (such as terms of service and privacy policies) published by 170+ websites, apps, and other bits of software — from <a href="https://github.com/ambanum/CGUs-versions/tree/master/Airbnb">Airbnb</a> and <a href="https://github.com/ambanum/CGUs-versions/tree/master/Google%20Analytics">Google Analytics</a> to <a href="https://github.com/ambanum/CGUs-versions/tree/master/The%20New%20York%20Times">The New York Times</a> and <a href="https://github.com/ambanum/CGUs-versions/tree/master/Zillow">Zillow</a>. You can <a href="https://github.com/ambanum/CGUs-versions/releases">download them all</a> and <a href="https://github.com/ambanum/CGUs#be-notified">subscribe to notifications when they change</a>. [h/t <a href="https://twitter.com/vincentviers/status/1349656682163556352">Vincent Viers</a>]</p>
+<p> </p>
+<p><strong>India’s coal mines.</strong> Thanks to India’s Right to Information Act, energy researcher <a href="https://twitter.com/Sandeeppaii">Sandeep Pai</a> has <a href="https://iopscience.iop.org/article/10.1088/2633-1357/abdbbb">compiled</a> a <a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/TDEK8O">dataset of the country’s 459 operational coal mines</a>. It includes each mine’s name, location (state, district, latitude, longitude), ownership, production tonnage, and more. <strong>Related</strong>: <a href="https://twitter.com/Sandeeppaii/status/1349940755805028353">Pai’s introductory Twitter thread</a>.</p>
+<p> </p>
+<p><strong>Newsletter links.</strong> <a href="https://pudding.cool/projects/newsletter/">Winning the Internet</a>, an experimental newsletter from The Pudding’s <a href="https://russellgoldenberg.com/">Russell Goldenberg</a>, analyzes the hyperlinks found in 100+ link-heavy general-interest newsletters. Last month, Goldenberg published <a href="https://github.com/the-pudding/data/tree/master/winning-the-internet">sixth months of the underlying data</a> — nearly 150,000 newsletter/link/date observations in total.</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send hyperlinked feedback to jsvine@gmail.com, or just reply to this email. Looking for past datasets? <a href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk">This spreadsheet contains them all</a>. Did a friend forward you this email? <a href="https://tinyletter.com/data-is-plural">Click here to subscribe</a>.</em></p>
+]]></content:encoded>
+      <guid isPermaLink="false">dip-2021-01-20</guid>
+      <pubDate>Wed, 20 Jan 2021 08:00:00 -0500</pubDate>
+    </item>
     <item>
       <title>Data Is Plural — 2021.01.13 edition</title>
       <link>http://tinyletter.com/data-is-plural/letters/data-is-plural-2021-01-13-edition</link>
@@ -195,27 +216,6 @@
 ]]></content:encoded>
       <guid isPermaLink="false">dip-2020-10-28</guid>
       <pubDate>Wed, 28 Oct 2020 08:00:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Data Is Plural — 2020.10.21 edition</title>
-      <link>http://tinyletter.com/data-is-plural/letters/data-is-plural-2020-10-21-edition</link>
-      <description>Voting equipment, jail deaths, college athletics, bug bounties, and shrinking salmon.</description>
-      <content:encoded><![CDATA[<p><em>Voting equipment, jail deaths, college athletics, bug bounties, and shrinking salmon.</em></p>
-<p> </p>
-<p><strong>Voting equipment.</strong> <a href="https://verifiedvoting.org/">Verified Voting</a> is “a non-partisan organization focused exclusively on the critical role technology plays in election administration," and its <a href="https://verifiedvoting.org/verifier/">Verifier project</a> provides “the only comprehensive data set of voting equipment down to the precinct level of the United States, going back to 2006.” For each election year and jurisdiction, the database indicates the type of technology in use (ranging from hand-counted paper ballots to touchscreen systems), equipment brands and models, and other details, such as whether there is a “voter-verified paper audit trail.” [h/t <a href="https://twitter.com/jonpcohen">Jonathan Cohen</a>]</p>
-<p> </p>
-<p><strong>Jail deaths.</strong> Last week, Reuters published an <a href="https://www.reuters.com/investigates/special-report/usa-jails-deaths/">investigation into deaths in US jails</a>. Because the federal government doesn’t publish jail-by-jail mortality data, reporters “filed more than 1,500 records requests to obtain information about deaths in 523 U.S. jails – every jail with an average population of 750 or more inmates, and the 10 largest jails or jail systems in nearly every state.” The <a href="https://www.reuters.com/investigates/special-report/usa-jails-graphic/">resulting dataset</a> contains details about more than 7,500 inmate deaths between 2008 and 2019, including the cause of death, custody status, and demographic information. <strong>Among the findings</strong>: “At least two-thirds of the dead inmates identified by Reuters, 4,998 people, were never convicted of the charges on which they were being held.” [h/t <a href="https://twitter.com/grantmeaccess">Grant Smith</a>]</p>
-<p> </p>
-<p><strong>College athletics.</strong> The <a href="https://www2.ed.gov/finaid/prof/resources/athletics/eada.html">Equity in Athletics Disclosure Act</a> requires thousands of US colleges to provide annual data on athletic particpation, staffing, and finances by team gender and sport. <a href="https://ope.ed.gov/athletics/">School- and team-level datasets</a> are available through the Department of Education for the academic years ending 2003–19. <strong>Related</strong>: <a href="https://usafacts.org/articles/coronavirus-college-football-profit-sec-acc-pac-12-big-ten-millions-fall-2020/">USAFacts recently used the data to examine college football finances</a>. [h/t <a href="https://twitter.com/sashananderson">Sasha Anderson</a>]</p>
-<p> </p>
-<p><strong>Bug bounties.</strong> Technology companies often offer “bug bounties” — rewards to people who tell them about vulnerabilities in their websites and apps, often coordinated through online platforms. For the past few years, security engineer <a href="https://twitter.com/arkadiyt">Arkadiy Tetelman</a> has been scraping and publishing data about <a href="https://github.com/arkadiyt/bounty-targets-data">the bug bounty “targets” listed on several platforms</a>, including the eligible domains, maximum payouts, and more.</p>
-<p> </p>
-<p><strong>Shrinking salmon.</strong> Scientists <a href="https://www.nature.com/articles/s41467-020-17726-z">recently documented</a> “widespread declines in Pacific salmon size based on 60 years of measurements from 12.5 million fish across Alaska,” collected by state officials from more than 1,000 sampling locations. The <a href="https://knb.ecoinformatics.org/view/doi:10.5063/F1707ZTM">underlying dataset</a> lists each salmon’s age, sex, length, and other details where available. [h/t <a href="https://twitter.com/HollyKindsvater/status/1298960157876027394">Holly Kindsvater</a>]</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send fishy feedback to jsvine@gmail.com, or just reply to this email. Looking for past datasets? <a href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk">This spreadsheet contains them all</a>. Did a friend forward you this email? <a href="https://tinyletter.com/data-is-plural">Click here to subscribe</a>.</em></p>
-]]></content:encoded>
-      <guid isPermaLink="false">dip-2020-10-21</guid>
-      <pubDate>Wed, 21 Oct 2020 08:00:00 -0400</pubDate>
     </item>
   </channel>
 </rss>
