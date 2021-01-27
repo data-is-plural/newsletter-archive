@@ -6,7 +6,28 @@
     <description>A weekly newsletter of useful/curious datasets.</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>https://github.com/data-is-plural/newsletter-archive</generator>
-    <lastBuildDate>Wed, 20 Jan 2021 08:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 27 Jan 2021 08:00:00 -0500</lastBuildDate>
+    <item>
+      <title>Data Is Plural — 2021.01.27 edition</title>
+      <link>http://tinyletter.com/data-is-plural/letters/data-is-plural-2021-01-27-edition</link>
+      <description>Tens of millions of flights, dot-gov characteristics, corporate risk-talk, Euro-polling, and the Codex Atlanticus.</description>
+      <content:encoded><![CDATA[<p><em>Tens of millions of flights, dot-gov characteristics, corporate risk-talk, Euro-polling, and the Codex Atlanticus.</em></p>
+<p> </p>
+<p><strong>Tens of millions of flights.</strong> The <a href="https://opensky-network.org">OpenSky Network</a> crowdsources air traffic data, thanks to members who collect the <a href="https://en.wikipedia.org/wiki/Automatic_Dependent_Surveillance%E2%80%93Broadcast">radio signals that aircraft periodically broadcast</a>. The nonprofit organization has published a “<a href="https://opensky-network.org/community/blog/item/6-opensky-covid-19-flight-dataset">COVID-19 flight dataset</a>,” which contains <a href="https://zenodo.org/record/4419082">metadata for the tens of millions of flights</a> those members observed in 2019 and 2020, with plans to update the dataset until the pandemic ends. It includes each flight’s call sign, aircraft model type, origin and destination airports, time first and last seen, and more. [h/t <a href="https://twitter.com/PogrebnyakE/status/1347978426322460674">Evgeny Pogrebnyak</a>]</p>
+<p> </p>
+<p><strong>Dot-gov characteristics.</strong> The US General Services Administration publishes a <a href="https://github.com/GSA/data/tree/master/dotgov-domains">list of all registered <em>.gov</em> domains</a> (<a href="https://tinyletter.com/data-is-plural/letters/data-is-plural-2017-01-18-edition">DIP 2017.01.18</a>). In <a href="https://ben.balter.com/2011/09/07/analysis-of-federal-executive-domains/">2011</a>, <a href="https://ben.balter.com/2014/07/07/analysis-of-federal-executive-domains-part-deux/">2014</a>, and <a href="https://ben.balter.com/2015/05/11/third-analysis-of-federal-executive-dotgovs/">2015</a>, open-source advocate <a href="https://ben.balter.com/about/">Ben Balter</a> used software to scan each federally-managed domain “to sniff out information about [their] technology and capabilities.” For instance: Do the domains support HTTPS? Do they use Google Analytics? Earlier this month, <a href="https://ben.balter.com/2021/01/11/analysis-of-federal-dotgov-domains-pre-biden-edition/">Balter ran the scan again</a>, “to serve as a snapshot of the state of government technology ahead of the incoming Biden administration.” You can <a href="https://ben.balter.com/2021-analysis-of-federal-dotgov-domains/">browse and download the results</a>.</p>
+<p> </p>
+<p><strong>Corporate risk-talk.</strong> The <a href="https://www.firmlevelrisk.com/">Firm-Level Risk</a> project uses “textual analysis of quarterly earnings conference calls held by more than 11,000 listed firms in 81 countries” to construct company-by-company “measures of exposure, risk, and sentiment.” The <a href="https://www.firmlevelrisk.com/download">dataset</a> goes back nearly two decades and includes sub-measures for various themes, such as tax policy, Brexit, and COVID-19. [h/t <a href="https://twitter.com/StephanHollan">Stephan Hollander</a>]</p>
+<p> </p>
+<p><strong>Euro-polling.</strong> The <a href="https://github.com/filipvanlaenen/eopaod">European Opinion Polls as Open Data</a> repository collects the results of party-preference polls in 34 countries. For each poll, it lists the polling firm and commissioners, when the fieldwork began and ended, its scope and sample size, and the topline numbers for each party. <strong>Related</strong>: <a href="https://medium.com/grensesnittet/how-simple-things-quickly-become-complicated-in-software-development-9cf52233226d">Project maintainer Filip Van Laenen on “how simple things can turn out to be rather complicated.”</a> [h/t <a href="https://github.com/erikgahner/PolData/commit/c0f0764f9c5b8b429ba71d9ce773967e8c849325">Erik Gahner Larsen</a>]</p>
+<p> </p>
+<p><strong>The da Vinci codex.</strong> The <a href="https://en.wikipedia.org/wiki/Codex_Atlanticus">Codex Atlanticus</a> “is the largest existing collection of original drawings and text by Leonardo da Vinci” — 1,119 pages assembled by the 16th–century sculptor Pompeo Leoni. Milan’s Biblioteca Ambrosiana and <a href="https://thevisualagency.com/about/">The Visual Agency</a> have created an <a href="https://codex-atlanticus.it/">interactive graphic</a> that lets you explore the pages by year and subject; you can also download that metadata through the graphic’s “About the project” section. [h/t <a href="https://mailchi.mp/817fc600d094/preview-222-in-other-news-4724814">Giuseppe Sollazzo</a>]</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send polymathic feedback to jsvine@gmail.com, or just reply to this email. Looking for past datasets? <a href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk">This spreadsheet contains them all</a>. Did a friend forward you this email? <a href="https://tinyletter.com/data-is-plural">Click here to subscribe</a>.</em></p>
+]]></content:encoded>
+      <guid isPermaLink="false">dip-2021-01-27</guid>
+      <pubDate>Wed, 27 Jan 2021 08:00:00 -0500</pubDate>
+    </item>
     <item>
       <title>Data Is Plural — 2021.01.20 edition</title>
       <link>http://tinyletter.com/data-is-plural/letters/data-is-plural-2021-01-20-edition</link>
@@ -195,27 +216,6 @@
 ]]></content:encoded>
       <guid isPermaLink="false">dip-2020-11-11</guid>
       <pubDate>Wed, 11 Nov 2020 08:00:00 -0500</pubDate>
-    </item>
-    <item>
-      <title>Data Is Plural — 2020.10.28 edition</title>
-      <link>http://tinyletter.com/data-is-plural/letters/data-is-plural-2020-10-28-edition</link>
-      <description>Pregnancy/birth/abortion rates, COVID-19 in ICE facilities, mining areas, e-bike/scooter laws, and witch trials.</description>
-      <content:encoded><![CDATA[<p><em>Pregnancy/birth/abortion rates, COVID-19 in ICE facilities, mining areas, e-bike/scooter laws, and witch trials.</em></p>
-<p> </p>
-<p><strong>Pregnancy, birth, and abortion.</strong> Last month the Guttmacher Institute, a “research and policy organization committed to advancing sexual and reproductive health and rights,” <a href="https://www.guttmacher.org/report/pregnancies-births-abortions-in-united-states-1973-2016#">released</a> its <a href="https://osf.io/kthnf/">latest estimates of annual pregnancies, births, and abortions</a> among women in the US — overall, and also by <a href="https://guttinst.github.io/National-State-Pregnancy-Codebook/">age-group and state</a>. The national statistics cover 1973 to 2016, while the state-level numbers go from 1988 to 2016; both sets of estimates are derived from a combination of government data and the institute’s own <a href="https://www.guttmacher.org/report/abortion-incidence-service-availability-us-2017">Abortion Provider Census</a>. <strong>Related</strong>: <a href="https://twitter.com/Imaddowzimet/status/1313501719406555138">An introductory Twitter thread</a>. [h/t <a href="https://twitter.com/Imaddowzimet">Isaac Maddow-Zimet</a>]</p>
-<p> </p>
-<p><strong>COVID-19 in ICE facilities.</strong> Since late March, US Immigration and Customs Enforcement has been <a href="https://www.ice.gov/coronavirus">updating a webpage</a> that tallies coronavirus cases and deaths at each of its detention facilities. But the site doesn’t provide any historical numbers; it’s just a snapshot. To fill that gap, the <a href="https://www.vera.org/">Vera Institute of Justice</a> has been continually downloading the webpage, parsing it, and <a href="https://github.com/vera-institute/ice-detention-covid">turning the information into structured, longitudinal data</a>. <strong>Related:</strong> Over the summer, <a href="https://www.vera.org/the-hidden-curve-covid-19-in-ice-detention">Vera used the data to estimate “the true scope” of COVID-19 in ICE detention</a>, and called on the agency to provide more detailed statistics.</p>
-<p> </p>
-<p><strong>Mining areas.</strong> A team of academics has built a <a href="https://doi.pangaea.de/10.1594/PANGAEA.910894">dataset</a> and <a href="https://www.fineprint.global/visualisations/viewer/">map</a> indicating the <a href="https://www.nature.com/articles/s41597-020-00624-w">geographic extents of 6,000+ mining sites around the world</a>. The project traces out 21,000+ polygons covering 57,000+ square kilometers, with boundaries based on experts’ visual interpretation of satellite imagery. It focuses on “above-ground features,” such as “open cuts, tailings dams, waste rock dumps, water ponds, and processing infrastructure.”</p>
-<p> </p>
-<p><strong>E-bike and e-scooter laws.</strong> A dataset of <a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/W9NGI2">state regulations pertaining to standard bicycles, electric bicycles, and electric scooters</a> accompanies <a href="https://repository.law.umich.edu/jlm/vol2020/iss1/2/">a recent paper in the Journal of Law and Mobility</a>. It includes various classifications for each state — indicating, for instance, whether riders can use the sidewalk, whether adults must wear helmets, and whether DUI laws apply.</p>
-<p> </p>
-<p><strong>Witch trials.</strong> Some years ago, economists <a href="https://economics.gmu.edu/people/pleeson">Peter T. Leeson</a> and <a href="https://www.jakeruss.com/">Jake Russ</a> compiled a <a href="https://github.com/JakeRuss/witch-trials">dataset of 10,000+ witch trials in Europe</a>. Over the course of 550 years, the trials accused more than 43,000 people and led to 16,000 deaths. <strong>Related</strong>: <a href="https://www.peterleeson.com/Witch_Trials.pdf">Leeson and Russ’s academic paper analyzing the data</a> (PDF). <strong>Previously</strong>: <a href="https://www.shca.ed.ac.uk/Research/witches/">The Survey of Scottish Witchcraft</a> (<a href="https://tinyletter.com/data-is-plural/letters/data-is-plural-2016-01-27-edition">DIP 2016.01.27</a>). [h/t <a href="https://www.getrevue.co/profile/FairWarning/issues/fair-warning-blasts-birdwatchers-and-battleground-states-272882">Sophie Warnes</a>]</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send allegedly-wicked feedback to jsvine@gmail.com, or just reply to this email. Looking for past datasets? <a href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk">This spreadsheet contains them all</a>. Did a friend forward you this email? <a href="https://tinyletter.com/data-is-plural">Click here to subscribe</a>.</em></p>
-]]></content:encoded>
-      <guid isPermaLink="false">dip-2020-10-28</guid>
-      <pubDate>Wed, 28 Oct 2020 08:00:00 -0400</pubDate>
     </item>
   </channel>
 </rss>
