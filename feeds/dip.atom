@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://tinyletter.com/data-is-plural</id>
   <title>Data Is Plural</title>
-  <updated>2021-01-27T08:00:00-05:00</updated>
+  <updated>2021-02-03T08:00:00-05:00</updated>
   <author>
     <name>Jeremy Singer-Vine</name>
     <email>jsvine@gmail.com</email>
@@ -10,6 +10,28 @@
   <link href="https://tinyletter.com/data-is-plural" rel="alternate"/>
   <generator>https://github.com/data-is-plural/newsletter-archive</generator>
   <subtitle>A weekly newsletter of useful/curious datasets.</subtitle>
+  <entry>
+    <id>dip-2021-02-03</id>
+    <title>Data Is Plural — 2021.02.03 edition</title>
+    <updated>2021-02-03T08:00:00-05:00</updated>
+    <content type="CDATA"><![CDATA[<p><em>Private prisons, detailed elevations, even more mortality data, web trackers, and hockey.</em></p>
+<p> </p>
+<p><strong>Private prisons.</strong> Political scientist <a href="https://www.annagunderson.com/home">Anna Gunderson</a> has <a href="https://www.cambridge.org/core/journals/perspectives-on-politics/article/abs/why-do-states-privatize-their-prisons-the-unintended-consequences-of-inmate-litigation/AF814E16A605CA894D558AE72BEF65C9">assembled</a> a <a href="https://www.annagunderson.com/data/private-prisons">longitudinal dataset of private prisons</a> at the federal, state, and local level through 2016. Using decades of financial reports by the two largest operators, plus those by two other companies one later acquired, Gunderson’s dataset identifies each facility’s name, location, primary customer, capacity, security level, contract information, and more. <strong>Related</strong>: Last week, President Biden <a href="https://www.whitehouse.gov/briefing-room/presidential-actions/2021/01/26/executive-order-reforming-our-incarceration-system-to-eliminate-the-use-of-privately-operated-criminal-detention-facilities/">signed an executive order</a> to phase out the federal use of such facilities.</p>
+<p> </p>
+<p><strong>Detailed elevations.</strong> Among <a href="https://opentopography.org/about">its goals</a>, <a href="https://opentopography.org/">OpenTopography</a> wants to “democratize online access to high-resolution (meter to sub-meter scale), Earth science-oriented, topography data acquired with lidar and other technologies.” The project hosts <a href="https://portal.opentopography.org/dataCatalog">hundreds of elevation datasets</a> from <a href="https://portal.opentopography.org/datasets">around the world</a>, available to visualize online and to download. <strong>Related</strong>: The US Geological Survey’s <a href="https://www.usgs.gov/core-science-systems/ngp/3dep/what-is-3dep">3D Elevation Program</a> aims “to provide the first-ever national baseline of consistent high-resolution topographic elevation data” by 2023, and already publishes <a href="https://www.usgs.gov/core-science-systems/ngp/3dep/data-tools">a range of subnational datasets</a>. [h/t <a href="https://twitter.com/Olenellus/status/1354562008998440963">Ricardo Pereira</a>]</p>
+<p> </p>
+<p><strong>Even more mortality data.</strong> The <a href="https://github.com/akarlinsky/world_mortality">World Mortality Dataset</a> contains recent “all-cause mortality” counts for 79 countries, aggregated to weekly, monthly, or quarterly totals (depending on availability). Launched last week by researchers <a href="https://akarlinsky.github.io/">Ariel Karlinsky</a> and <a href="https://dkobak.github.io/">Dmitry Kobak</a>, the project draws on the <a href="https://www.mortality.org/">Human Mortality Database</a>, <a href="https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Weekly_death_statistics&amp;stable">EuroStat</a>, and data <a href="https://github.com/nytimes/covid-19-data/tree/master/excess-deaths">collected by the New York Times</a> (<a href="https://tinyletter.com/data-is-plural/letters/data-is-plural-2020-05-27-edition">DIP 2020.05.27</a>); and <a href="https://www.medrxiv.org/content/10.1101/2021.01.27.21250604v1">expands upon it</a> by gathering data from government websites and through direct inquiries. [h/t <a href="https://www.linkedin.com/in/dror-guldin-903950a8/">Dror Guldin</a>]</p>
+<p> </p>
+<p><strong>Web trackers.</strong> DuckDuckGo’s <a href="https://spreadprivacy.com/duckduckgo-tracker-radar/">Tracker Radar</a> watches the web’s watchers. The regularly-updated <a href="https://github.com/duckduckgo/tracker-radar">dataset</a> currently covers 36,000+ of the most common third-party domains, and provides “detailed information about their tracking behavior, including prevalence, ownership, fingerprinting behavior, cookie behavior, privacy policy,” and more. <strong>As seen in</strong>: <a href="https://themarkup.org/blacklight">Blacklight</a>, The Markup’s “real-time website privacy inspector,” which <a href="https://themarkup.org/blacklight/2020/09/22/how-we-built-a-real-time-privacy-inspector">uses the dataset</a>. [h/t <a href="https://twitter.com/suryamattu/status/1308346656899956736">Surya Mattu</a>]</p>
+<p> </p>
+<p><strong>Hockey.</strong> The National Hockey League <a href="https://www.kevinsidwar.com/iot/2017/7/1/the-undocumented-nhl-stats-api">has an undocumented API</a>. Technologist <a href="https://pure-defect.com/about/">Drew Hynes</a> is <a href="https://gitlab.com/dword4/nhlapi">making sense of the dozens of endpoints</a>, which provide data on decades of player stats, game schedules, draft picks, and more. [h/t <a href="https://github.com/jemmaissroff/hockey">Jemma Issroff</a>]</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send knucklepuck feedback to jsvine@gmail.com, or just reply to this email. Looking for past datasets? <a href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk">This spreadsheet contains them all</a>. Did a friend forward you this email? <a href="https://tinyletter.com/data-is-plural">Click here to subscribe</a>.</em></p>
+]]></content>
+    <link href="http://tinyletter.com/data-is-plural/letters/data-is-plural-2021-02-03-edition" rel="alternate"/>
+    <summary>Private prisons, detailed elevations, even more mortality data, web trackers, and hockey.</summary>
+    <published>2021-02-03T08:00:00-05:00</published>
+  </entry>
   <entry>
     <id>dip-2021-01-27</id>
     <title>Data Is Plural — 2021.01.27 edition</title>
@@ -207,27 +229,5 @@
     <link href="http://tinyletter.com/data-is-plural/letters/data-is-plural-2020-11-18-edition" rel="alternate"/>
     <summary>Global inequality, urban traffic, education and civil rights, state spending on kids, and more urban trees.</summary>
     <published>2020-11-18T08:00:00-05:00</published>
-  </entry>
-  <entry>
-    <id>dip-2020-11-11</id>
-    <title>Data Is Plural — 2020.11.11 edition</title>
-    <updated>2020-11-11T08:00:00-05:00</updated>
-    <content type="CDATA"><![CDATA[<p><em>Child detention, USPS performance, transit costs, the early Islamic world, and the opera.</em></p>
-<p> </p>
-<p><strong>Child detention.</strong> The Marshall Project has <a href="https://github.com/themarshallproject/cbp-migrantchildren-detention-data">obtained and published</a> official data from US Customs and Border Protection listing 580,000+ times that the agency detained migrant children since early 2017. For each detention, the dataset <a href="https://observablehq.com/@themarshallproject/cbp-child-detentions-2017-to-2020">includes</a> the date and time the child entered and left CBP custody, as well as the child’s age, gender, and citizenship. <strong>Related</strong>: <a href="https://www.themarshallproject.org/2020/10/30/500-000-kids-30-million-hours-trump-s-vast-expansion-of-child-detention">The Marshall Project’s report on the data</a>.</p>
-<p> </p>
-<p><strong>USPS performance.</strong> As part of <a href="https://www.courtlistener.com/docket/17449832/jones-v-united-states-postal-service/"><em>Jones v. United States Postal Service</em></a>, a federal lawsuit filed in August, USPS must submit weekly performance reports that indicate, at a national and district level, the percentage of mail that was processed (though not necessarily delivered) on time. The agency files these reports as PDFs; <a href="https://www.savethepostoffice.com/">Save the Post Office</a>, a <a href="https://www.savethepostoffice.com/about/">decade-old website run by a retired English professor</a>, has been <a href="https://www.savethepostoffice.com/updates-on-the-service-performance-reports/">collecting those PDFs</a> and converting them <a href="https://drive.google.com/drive/folders/1WIiUIu0PP_5D1j8R_-T7IN7kVWk9lvuj">into spreadsheets</a>. <strong>Related</strong>: <a href="https://themail.substack.com/p/crunch-time">Aaron Gordon’s pre-election analysis of the USPS data</a>, from <a href="https://themail.substack.com/">Gordon’s (limited-run) newsletter about the postal service</a>.</p>
-<p> </p>
-<p><strong>Transit costs.</strong> “Why do transit-infrastructure projects in New York cost 20 times more on a per kilometer basis than in Seoul?” With the aim of answering questions like these, the NYU-based <a href="https://transitcosts.com/about/">Transit Costs Project</a> is building <a href="https://transitcosts.com/data/">a dataset</a> that already spans <a href="https://transitcosts.com/projects/">more than 500 urban rail projects</a> around the world. For each project, the dataset specifies the city, start year, end year, rail length, number of stations, total cost, and more.</p>
-<p> </p>
-<p><strong>The early Islamic world.</strong> The <a href="https://althurayya.github.io/">al-Ṯurayyā Project</a> features an interactive map of the early Islamic world, with 2,000 named locations — from Damascus to Baghdad and beyond — and historical routes between them. The <a href="https://github.com/althurayya/althurayya.github.io/tree/master/master">underlying dataset</a> includes geocoordinates, Arabic spellings, transliterations, primary sources, and other details. [h/t <a href="https://twitter.com/JajRK/status/1299889379817775106">Jajwalya Karajgikar</a>]</p>
-<p> </p>
-<p><strong>The opera.</strong> <a href="https://www.operabase.com/">Operabase</a> has gathered information about more than 500,000 opera performances staged since 1996. The website doesn’t provide direct downloads but you can access <a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/8LUFN8">a dataset on six full seasons of stagings</a>, covering thousands of runs in hundreds of cities, thanks to a “data donation” to support <a href="https://ideas.repec.org/e/pcu83.html">Alexander N. Cuntz</a>’s <a href="https://www.wipo.int/publications/en/details.jsp?id=4521">study of how copyright affects performance frequency</a>.</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send glass-shattering feedback to jsvine@gmail.com, or just reply to this email. Looking for past datasets? <a href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk">This spreadsheet contains them all</a>. Did a friend forward you this email? <a href="https://tinyletter.com/data-is-plural">Click here to subscribe</a>.</em></p>
-]]></content>
-    <link href="http://tinyletter.com/data-is-plural/letters/data-is-plural-2020-11-11-edition" rel="alternate"/>
-    <summary>Child detention, USPS performance, transit costs, the early Islamic world, and the opera.</summary>
-    <published>2020-11-11T08:00:00-05:00</published>
   </entry>
 </feed>
