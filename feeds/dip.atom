@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://tinyletter.com/data-is-plural</id>
   <title>Data Is Plural</title>
-  <updated>2021-02-03T08:00:00-05:00</updated>
+  <updated>2021-02-10T08:00:00-05:00</updated>
   <author>
     <name>Jeremy Singer-Vine</name>
     <email>jsvine@gmail.com</email>
@@ -10,6 +10,28 @@
   <link href="https://tinyletter.com/data-is-plural" rel="alternate"/>
   <generator>https://github.com/data-is-plural/newsletter-archive</generator>
   <subtitle>A weekly newsletter of useful/curious datasets.</subtitle>
+  <entry>
+    <id>dip-2021-02-10</id>
+    <title>Data Is Plural — 2021.02.10 edition</title>
+    <updated>2021-02-10T08:00:00-05:00</updated>
+    <content type="CDATA"><![CDATA[<p><em>Hyperlocal Biden/Trump results, subnational COVID-19 vaccinations, historical night light, public-sector employment, and Super Bowl ads.</em></p>
+<p> </p>
+<p><strong>Hyperlocal Biden/Trump results.</strong> To create their “<a href="https://www.nytimes.com/interactive/2021/upshot/2020-election-map.html">Extremely Detailed Map of the 2020 Election</a>,” journalists at The Upshot have gathered and standardized the ballot results for more than 100,000 precincts in dozens of states so far — representing nearly two-thirds of all votes cast. The accompanying <a href="https://github.com/TheUpshot/presidential-precinct-map-2020">GeoJSON dataset</a> indicates the number of votes received by Joe Biden, by Donald Trump, and overall (including third-party and write-in candidates), joined to each precinct’s geographic boundaries. [h/t <a href="https://twitter.com/KevinQ/status/1356631383393923076">Kevin Quealy</a> + <a href="https://twitter.com/ryanmatsumoto1/status/1356581507393933317">Ryan Matsumoto</a>]</p>
+<p> </p>
+<p><strong>Subnational COVID-19 vaccinations.</strong> Software developer <a href="https://lcsrg.me/">Lucas Rodés-Guirao</a> is aggregating <a href="https://github.com/sociepy/covid19-vaccination-subnational">coronavirus vaccination numbers, over time, by administrative division</a> — each canton in Switzerland, for example, and each province in Argentina. The project, inspired by <a href="https://ourworldindata.org/covid-vaccinations">Our World In Data</a>’s <a href="https://github.com/owid/covid-19-data/tree/master/public/data/vaccinations">country-level dataset</a> (<a href="https://tinyletter.com/data-is-plural/letters/data-is-plural-2020-12-23-edition">DIP 2020.12.23</a>), currently includes 20+ countries and provides links to the sources. [h/t <a href="https://dataisthenewoil.substack.com/p/data-is-the-new-oil-04022021-update">Olivier Lejeune</a>]</p>
+<p> </p>
+<p><strong>Historical night light.</strong> Researchers <a href="https://www.nature.com/articles/s41597-020-0510-y">have harmonized</a> two major datasets measuring the light visible on Earth at night. The first, from the <a href="https://www.ospo.noaa.gov/Operations/DMSP/index.html">Defense Meteorological Satellite Program</a>, <a href="https://eogdata.mines.edu/dmsp/downloadV4composites.html">covers 1992–2013</a>. The second, from the <a href="https://www.jpss.noaa.gov/viirs.html">Visible Infrared Imaging Radiometer Suite</a>, <a href="https://eogdata.mines.edu/products/vnl/">covers 2012 onward</a>. The <a href="https://figshare.com/articles/Harmonization_of_DMSP_and_VIIRS_nighttime_light_data_from_1992-2018_at_the_global_scale/9828827/2">harmonized dataset</a> covers 1992–2018 and polishes the data by removing, for example, “noises from aurora, fires, boasts, and other temporal lights.” <strong>Related</strong>: <a href="https://payneinstitute.mines.edu/eog/">The Colorado School of Mines’ Earth Observation Group</a>, which “specializes in nighttime observations of lights and combustion sources worldwide.” [h/t <a href="https://twitter.com/milos_agathon/status/1358832472348327936">Milos Popovic</a>]</p>
+<p> </p>
+<p><strong>Public-sector employment.</strong> The World Bank’s <a href="https://datacatalog.worldbank.org/dataset/worldwide-bureaucracy-indicators">Worldwide Bureaucracy Indicators</a> “is a unique new cross-national dataset on public sector employment and wages” in 130+ countries between 2000 and 2018, based on censuses and household surveys. The dataset’s measurements include the size of this workforce, its demographics, pay disparities versus the private sector, and more. <strong>Related</strong>: <a href="https://twitter.com/faisalabaig/status/1356326936448917507">An introductory Twitter thread from coauthor Faisal Baig</a>.</p>
+<p> </p>
+<p><strong>Super Bowl ads.</strong> Journalists at FiveThirtyEight <a href="https://projects.fivethirtyeight.com/super-bowl-ads/">watched 233 Super Bowl ads</a> run by 10 frequently-advertising brands between 2000 and 2020, drawing from <a href="https://superbowl-ads.com/">superbowl-ads.com</a>’s video archive. Then they <a href="https://github.com/fivethirtyeight/superbowl-ads">categorized each ad</a> according to seven specific questions, which included “Was it trying to be funny?” and “Did it include animals?”</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send trying-to-be-funny feedback to jsvine@gmail.com, or just reply to this email. Looking for past datasets? <a href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk">This spreadsheet contains them all</a>. Did a friend forward you this email? <a href="https://tinyletter.com/data-is-plural">Click here to subscribe</a>.</em></p>
+]]></content>
+    <link href="http://tinyletter.com/data-is-plural/letters/data-is-plural-2021-02-10-edition" rel="alternate"/>
+    <summary>Hyperlocal Biden/Trump results, subnational COVID-19 vaccinations, historical night light, public-sector employment, and Super Bowl ads.</summary>
+    <published>2021-02-10T08:00:00-05:00</published>
+  </entry>
   <entry>
     <id>dip-2021-02-03</id>
     <title>Data Is Plural — 2021.02.03 edition</title>
@@ -207,27 +229,5 @@
     <link href="http://tinyletter.com/data-is-plural/letters/data-is-plural-2020-12-02-edition" rel="alternate"/>
     <summary>Student loans, rural facilities in India, more coups, Jefferson’s weather, and integer sequences.</summary>
     <published>2020-12-02T08:00:00-05:00</published>
-  </entry>
-  <entry>
-    <id>dip-2020-11-18</id>
-    <title>Data Is Plural — 2020.11.18 edition</title>
-    <updated>2020-11-18T08:00:00-05:00</updated>
-    <content type="CDATA"><![CDATA[<p><em>Global inequality, urban traffic, education and civil rights, state spending on kids, and more urban trees.</em></p>
-<p> </p>
-<p><strong>Global inequality.</strong> The <a href="https://wid.world/wid-world/">World Inequality Database</a> “aims to provide open and convenient access to the most extensive available database on the historical evolution of the world distribution of income and wealth, both within countries and between countries.” The project, <a href="https://wid.world/team/">co-directed</a> by Thomas Piketty, <a href="https://wid.world/news-article/2020-regional-updates/">published a major update last week</a>, expanding its geographic and temporal coverage. The data points <a href="https://wid.world/summary-table/">vary by country</a>; you can <a href="https://wid.world/data/">download them interactively or in bulk</a>. <strong>Previously</strong>: <a href="https://fsolt.org/">Frederick Solt</a>’s <a href="https://fsolt.org/swiid/">Standardized World Income Inequality Database</a> (<a href="https://tinyletter.com/data-is-plural/letters/data-is-plural-2019-12-04-edition">DIP 2019.12.04</a>) and the United Nations University’s <a href="https://www.wider.unu.edu/project/wiid-world-income-inequality-database">World Income Inequality Database</a> (<a href="https://tinyletter.com/data-is-plural/letters/data-is-plural-2016-06-01-edition">DIP 2016.06.01</a>).</p>
-<p> </p>
-<p><strong>Urban traffic.</strong> Researchers from ETH Zurich’s <a href="https://www.ivt.ethz.ch/en/">Institute for Transport Planning and Systems</a> have assembled <a href="https://utd19.ethz.ch/">170 million observations of traffic intensity on urban roads</a>, registered by 23,000+ detection points in 40 cities, “making it the largest multi-city traffic dataset publically available.” The cities are mostly in Western Europe, but also include Tokyo, Taipei, Melbourne, Vilnius, Los Angeles, and Toronto. [h/t <a href="https://news.ycombinator.com/item?id=24405632">ddechamb</a>]</p>
-<p> </p>
-<p><strong>Education and civil rights.</strong> For decades, the US Department of Education’s <a href="https://www2.ed.gov/about/offices/list/ocr/data.html">Civil Rights Data Collection</a> has compiled “data on key education and civil rights issues in our nation’s public schools,” including “student enrollment and educational programs and services, most of which is disaggregated by race/ethnicity, sex, limited English proficiency, and disability.” Last month, the department <a href="https://www.ed.gov/news/press-releases/us-department-education-releases-2017-18-civil-rights-data-collection">released</a> the <a href="https://www2.ed.gov/about/offices/list/ocr/docs/crdc-2017-18.html">CRDC for the 2017–18 school year</a>. <strong>Related</strong>: ProPublica has used CRDC data to investigate <a href="https://projects.propublica.org/miseducation/methodology">racial inequality</a> and <a href="https://www.propublica.org/getinvolved/reporting-recipe-investigating-restraint-and-seclusion-in-us-schools">the use of restraints and seclusions</a>. [h/t <a href="https://twitter.com/wouldeye125">Andrew McCartney</a>]</p>
-<p> </p>
-<p><strong>State spending on kids.</strong> A <a href="https://datacatalog.urban.org/dataset/state-state-spending-kids-dataset">new dataset</a> from the <a href="https://www.urban.org/">Urban Institute</a> “provides a comprehensive accounting of public spending on children from 1997 through 2016.” Drawing on the US Census Bureau’s <a href="https://www.census.gov/programs-surveys/gov-finances.html">Annual Survey of State and Local Government Finances</a> and other sources, the dataset summarizes “state-by-state spending on education, income security, health, and other areas.” [h/t <a href="https://twitter.com/EricaHGreenberg/status/1300540133427613701">Erica Greenberg</a>]</p>
-<p> </p>
-<p><strong>Yet more urban trees.</strong> DIP editions <a href="https://tinyletter.com/data-is-plural/letters/data-is-plural-2016-11-16-edition">2016.11.16</a> and <a href="https://tinyletter.com/data-is-plural/letters/data-is-plural-2018-08-08-edition">2018.08.08</a> featured datasets of trees in NYC and other cities. But wait, there's more: millions of trees in <a href="http://especiales.datasketch.co/arboles-bogota/metodologia.html">Bogotá</a>, <a href="https://opendata.paris.fr/explore/dataset/les-arbres/information/">Paris</a>, <a href="https://www.data.gv.at/katalog/dataset/stadt-wien_baumkatasterderstadtwien">Vienna</a>, <a href="https://maps.amsterdam.nl/bomen/?LANG=en">Amsterdam</a>, <a href="https://hri.fi/data/en_GB/dataset/helsingin-kaupungin-puurekisteri">Helsinki</a>, and <a href="https://data.smartdublin.ie/dataset/trees">Dublin</a>. [h/t <a href="https://twitter.com/jpmarindiaz/status/1324000258452541440">Juan Pablo Marín Díaz</a> + <a href="https://twitter.com/anlugonz/status/1323991925708492800">Ana Lucía González</a> + <a href="https://twitter.com/ocaoimh/status/1093494467351449600">Cormac O’Keeffe</a> + <a href="https://twitter.com/tjukanov/status/1130481172151177217">Topi Tjukanov</a> + <a href="https://twitter.com/ttso/status/1192730262993620992">Tuija Sonkkila</a> + <a href="https://twitter.com/MartinBangratz/status/1130489730234236929">Martin Bangratz</a> + <a href="https://twitter.com/sannehombroek/status/1130545212386873345">Sanne Hombroek</a> + <a href="https://www.reddit.com/r/datasets/comments/br8b32/tree_gps/">u/cavedave</a>]</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send leafy feedback to jsvine@gmail.com, or just reply to this email. Looking for past datasets? <a href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk">This spreadsheet contains them all</a>. Did a friend forward you this email? <a href="https://tinyletter.com/data-is-plural">Click here to subscribe</a>.</em></p>
-]]></content>
-    <link href="http://tinyletter.com/data-is-plural/letters/data-is-plural-2020-11-18-edition" rel="alternate"/>
-    <summary>Global inequality, urban traffic, education and civil rights, state spending on kids, and more urban trees.</summary>
-    <published>2020-11-18T08:00:00-05:00</published>
   </entry>
 </feed>
