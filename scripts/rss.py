@@ -10,10 +10,10 @@ import sys
 
 FEED_SETTINGS = {
     "link": {
-        "href": "https://tinyletter.com/data-is-plural",
+        "href": "https://www.data-is-plural.com",
         "rel": "alternate",
     },
-    "id": "https://tinyletter.com/data-is-plural",
+    "id": "https://www.data-is-plural.com",
     "title": "Data Is Plural",
     "description": "A weekly newsletter of useful/curious datasets.",
     "author": {
@@ -33,8 +33,16 @@ def call_dict_as_methods(obj, d):
         else:
             setter(v)
 
+tl_pat = r"https://tinyletter.com/data-is-plural/letters/data-is-plural-(\d{4}-\d{2}-\d{2})-edition"
+
 def create_item(path):
     text = open(path).read()
+
+    def rewrite_internal_link(m):
+        match = re.search(tl_pat, m.group(0))
+        return f"https://www.data-is-plural.com/archive/{match.group(1)}-edition"
+
+    text = re.sub(tl_pat, rewrite_internal_link, text)
 
     date_str = path[-13:-3]
     date_tup = tuple(map(int, date_str.split("-")))
@@ -50,7 +58,7 @@ def create_item(path):
 
     return {
         "link": {
-            "href": f"http://tinyletter.com/data-is-plural/letters/data-is-plural-{date_str}-edition"
+            "href": f"http://www.data-is-plural.com/archive/{date_str}-edition"
         },
         "title": text.strip().split("\n")[0],
         "guid": f"dip-{date_str}",
