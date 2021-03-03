@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://tinyletter.com/data-is-plural</id>
   <title>Data Is Plural</title>
-  <updated>2021-02-24T08:00:00-05:00</updated>
+  <updated>2021-03-03T08:00:00-05:00</updated>
   <author>
     <name>Jeremy Singer-Vine</name>
     <email>jsvine@gmail.com</email>
@@ -10,6 +10,28 @@
   <link href="https://tinyletter.com/data-is-plural" rel="alternate"/>
   <generator>https://github.com/data-is-plural/newsletter-archive</generator>
   <subtitle>A weekly newsletter of useful/curious datasets.</subtitle>
+  <entry>
+    <id>dip-2021-03-03</id>
+    <title>Data Is Plural — 2021.03.03 edition</title>
+    <updated>2021-03-03T08:00:00-05:00</updated>
+    <content type="CDATA"><![CDATA[<p><em>Police misconduct settlements, congressional e-newsletters, California vaccine availability, illegal cheetah commerce, and soil.</em></p>
+<p> </p>
+<p><strong>Police misconduct settlements.</strong> Reporters at FiveThirtyEight and The Marshall Project filed freedom-of-information requests to 50 US cities, asking for data on all civil lawsuits against their police departments/officers “that resulted in a monetary legal settlement” in 2010–2019 — including incident and settlement dates, plaintiff and defendant names, allegation descriptions, amounts awarded, and more. They received <a href="https://github.com/fivethirtyeight/police-settlements">full or partial data from 31 of those cities</a>, and <a href="https://fivethirtyeight.com/features/police-misconduct-costs-cities-millions-every-year-but-thats-where-the-accountability-ends/">found that</a> total payouts <a href="https://www.themarshallproject.org/2021/02/22/police-misconduct-costs-cities-millions-every-year-but-that-s-where-the-accountability-ends">exceeded $3 billion</a>. <strong>Don’t miss</strong>: The data repository’s “<a href="https://github.com/fivethirtyeight/police-settlements#words-of-caution">words of caution</a>,” which discourage comparisons between cities. <strong>Related</strong>: Coauthor Laura Bronner’s <a href="https://twitter.com/laurabronner/status/1363961281905106956">introductory Twitter thread</a>. [h/t <a href="https://www.linkedin.com/in/eric-gardner-0531aa9/">Eric Gardner</a>]</p>
+<p> </p>
+<p><strong>Congressional e-newsletters.</strong> <a href="https://www.dcinbox.com/about">For more than a decade</a>, political scientist <a href="https://www.lindseycormack.com/">Lindsey Cormack</a>’s <a href="https://www.dcinbox.com/">DCinbox</a> project has collected “every official e-newsletter sent by sitting members of the U.S. House and Senate.” You can search the corpus online and also <a href="https://www.lindseycormack.com/dcinbox-data-downloads">download all the emails</a> as a series of CSV files, grouped by month. For each of the 130,000+ mailings, the files provide the date, subject, body, and sender’s <a href="https://www.congress.gov/help/field-values/member-bioguide-ids">Bioguide</a> ID. (April 2020 was the highest-volume month, with more than 2,300 messages, nearly all of them mentioning the coronavirus.)</p>
+<p> </p>
+<p><strong>California vaccine availability.</strong> The volunteer-driven <a href="https://www.vaccinateca.com/">VaccinateCA</a> project calls “hundreds of potential [COVID-19] vaccination sites daily, asking them if they have the vaccine and if so to whom they will administer it to and how to get an appointment.” You can examine the results on their website, and also use <a href="https://docs.vaccinateca.com/reference">their API</a> to access the latest data, which includes status reports on every California county, 20+ health care providers, and thousands of potential vaccination sites. <strong>Related</strong>: “<a href="https://blog.vaccinateca.com/what-weve-learned-so-far/">What We’ve Learned (So Far)</a>.” [h/t <a href="https://simonwillison.net/2021/Feb/28/vaccinateca/">Simon Willison</a>]</p>
+<p> </p>
+<p><strong>Illegal cheetah commerce.</strong> A team of conservationists <a href="https://www.sciencedirect.com/science/article/pii/S2352340921001323">has compiled</a> a <a href="https://data.mendeley.com/datasets/84k92j4n3y">decade of data on illegal cheetah sales and ownership</a>, drawing from “over 300 sources, including direct communications with field informants, veterinarians, and cheetah owners,” court records, social media, and more. The dataset covers 1,800+ cases — including both actual seizures and alleged/suspected incidents — involving 4,000+ cheetahs or cheetah parts/derivatives.</p>
+<p> </p>
+<p><strong>Soil.</strong> <a href="https://soilgrids.org/">SoilGrids</a> “uses state-of-the-art machine learning methods to map the spatial distribution of soil properties across the globe,” including organic carbon density, pH, clay content, and more. The maps use data from the <a href="https://www.isric.org/explore/wosis">World Soil Information Service</a>, which standardizes millions of soil records. Both projects are run by the <a href="https://isric.org/">International Soil Reference and Information Centre</a>, which also catalogs <a href="https://isric.org/explore/soil-geographic-databases">dozens of public-access soil datasets</a>. [h/t <a href="https://twitter.com/johnowhitaker/status/1318943142691962880">Jonathan Whitaker</a>]</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send earthy feedback to jsvine@gmail.com, or just reply to this email. Looking for past datasets? <a href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk">This spreadsheet contains them all</a>. Did a friend forward you this email? <a href="https://tinyletter.com/data-is-plural">Click here to subscribe</a>.</em></p>
+]]></content>
+    <link href="http://tinyletter.com/data-is-plural/letters/data-is-plural-2021-03-03-edition" rel="alternate"/>
+    <summary>Police misconduct settlements, congressional e-newsletters, California vaccine availability, illegal cheetah commerce, and soil.</summary>
+    <published>2021-03-03T08:00:00-05:00</published>
+  </entry>
   <entry>
     <id>dip-2021-02-24</id>
     <title>Data Is Plural — 2021.02.24 edition</title>
@@ -207,27 +229,5 @@
     <link href="http://tinyletter.com/data-is-plural/letters/data-is-plural-2020-12-16-edition" rel="alternate"/>
     <summary>Enslaved.org, more PPP details, more on travel/immigration bans, Third-Republic France, and cyber wargames.</summary>
     <published>2020-12-16T08:00:00-05:00</published>
-  </entry>
-  <entry>
-    <id>dip-2020-12-09</id>
-    <title>Data Is Plural — 2020.12.09 edition</title>
-    <updated>2020-12-09T08:00:00-05:00</updated>
-    <content type="CDATA"><![CDATA[<p><em>Hospital capacity, travel restrictions, the World Factbook, La Pola and her compatriots, and Bob Ross paintings.</em></p>
-<p> </p>
-<p><strong>COVID-19 hospital capacity.</strong> On Monday, the Department of Health and Human Services <a href="https://www.hhs.gov/about/news/2020/12/07/hhs-publishes-covid-19-hospital-facility-level-data.html">released</a> a <a href="https://healthdata.gov/dataset/covid-19-reported-patient-impact-and-hospital-capacity-facility?">dataset on coronavirus-related capacity at thousands of US hospitals</a> — information the agency previously only published <a href="https://healthdata.gov/dataset/covid-19-reported-patient-impact-and-hospital-capacity-state">as state-level metrics</a>. The self-reported, weekly-updated dataset quantifies various aspects of capacity, such as the number of staffed ICU beds and the number of beds occupied by patients with COVID-19. “This data is tremendously complex and is the result of substantial ongoing efforts,” notes an <a href="https://healthdata.gov/hhs-publishes-covid-19-hospital-facility-level-data">accompanying blog post</a>. “We opted not to have perfect be the enemy of good, so these datasets will have imperfections.” <strong>Related</strong>: <a href="https://github.com/CareSet/COVID_Hospital_PUF">An FAQ</a> “developed in collaboration with a group of data journalists, data scientists, and healthcare system researchers who have reviewed the data.” [h/t <a href="https://twitter.com/rypan/status/1336095555852767233">Ryan Panchadsaram</a>]</p>
-<p> </p>
-<p><strong>Pandemic travel restrictions.</strong> The UN World Food Program has been tracking <a href="https://data.humdata.org/dataset/covid-19-global-travel-restrictions-and-airline-information">countries’ and airlines’ travel restrictions during the COVID-19 pandemic</a>, based on official communications, media reports, and other sources. The country-level dataset indicates whether travelers must obtain a recent negative test and what type of quarantine or self-isolation is required. [h/t <a href="https://datainnovation.org/2020/12/documenting-global-travel-restrictions-and-airline-policies/">Cassidy Chansirik</a>]</p>
-<p> </p>
-<p><strong>Country facts.</strong> The CIA’s <a href="https://www.cia.gov/library/publications/the-world-factbook/">World Factbook</a> “provides information on the history, people and society, government, economy, energy, geography, communications, transportation, military, and transnational issues for 267 world entities.” The details are extensive and fairly standardized. Open data–enthusiast <a href="https://github.com/geraldb">Gerald Bauer</a> has <a href="https://github.com/factbook/factbook.json">converted the publication into a series of JSON files</a>. <strong>Now you know</strong>: The physical areas of five countries (Georgia, Ireland, Latvia, Lithuania, and Sri Lanka) are all described as “slightly larger than West Virginia.”</p>
-<p> </p>
-<p><strong>La Pola and her compatriots.</strong> During Colombia’s struggle for independence, Royalists executed scores of women by shooting squad, the most famous of whom was the seamstress and spy known as “<a href="https://en.wikipedia.org/wiki/Policarpa_Salavarrieta">La Pola</a>.” Writing last year for the <a href="https://www.banrepcultural.org/boletin-cultural/">cultural journal</a> of Colombia’s central bank, historian Pablo Rodríguez Jiménez <a href="https://publicaciones.banrepcultural.org/index.php/boletin_cultural/article/view/20880/21278">presented a list of 76 women known to have suffered this fate</a> — their names, locations, and dates of death. Colombia-based Datasketch has <a href="https://www.datasketch.co/datasketch/mujeres-fusiladas-durante-la-independencia-colombiana">converted that list into a spreadsheet</a>. [h/t <a href="https://twitter.com/jpmarindiaz">Juan Pablo Marín Díaz</a>]</p>
-<p> </p>
-<p><strong>Bob Ross paintings.</strong> Data scientist <a href="https://www.jwilber.me">Jared Wilber</a> has built a dataset of all paintings in Bob Ross’s 31 seasons of “<a href="https://en.wikipedia.org/wiki/The_Joy_of_Painting">The Joy of Painting</a>,” scraped from the <a href="https://www.twoinchbrush.com">searchable database at TwoInchBrush.com</a>. For each painting, the dataset lists the title, season, episode, YouTube link, and list of colors used. For <a href="https://fivethirtyeight.com/features/a-statistical-analysis-of-the-work-of-bob-ross/">a 2014 article at FiveThirtyEight</a>, <a href="https://twitter.com/WaltHickey">Walt Hickey</a> created a <a href="https://fivethirtyeight.com/features/a-statistical-analysis-of-the-work-of-bob-ross/">dataset categorizing the types of things Ross depicted in each episode</a>. <strong>Related</strong>: “<a href="https://www.youtube.com/watch?v=rDs3o1uLEdU">Where Are All the Bob Ross Paintings? We Found Them</a>,” a video from the New York Times. [h/t <a href="https://www.reddit.com/r/datasets/comments/k2wqax/i_once_found_a_dataset_of_every_paint_used_in/">u/palpitations</a>]</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send happy little bits of feedback to jsvine@gmail.com, or just reply to this email. Looking for past datasets? <a href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk">This spreadsheet contains them all</a>. Did a friend forward you this email? <a href="https://tinyletter.com/data-is-plural">Click here to subscribe</a>.</em></p>
-]]></content>
-    <link href="http://tinyletter.com/data-is-plural/letters/data-is-plural-2020-12-09-edition" rel="alternate"/>
-    <summary>Hospital capacity, travel restrictions, the World Factbook, La Pola and her compatriots, and Bob Ross paintings.</summary>
-    <published>2020-12-09T08:00:00-05:00</published>
   </entry>
 </feed>
