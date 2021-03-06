@@ -50,8 +50,10 @@ def create_item(path):
         datetime.datetime(*(date_tup + (8, 0, 0)))
     )
 
+    body = "\n".join(text.strip().split("\n")[3:])
+    body = re.sub(r"\n\n", "\n\n&nbsp;\n\n", body)
     html = pypandoc.convert_text(
-        "\n".join(text.strip().split("\n")[3:]),
+        body,
         "html",
         format = "markdown_strict",
     )
