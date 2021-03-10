@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.data-is-plural.com</id>
   <title>Data Is Plural</title>
-  <updated>2021-03-03T08:00:00-05:00</updated>
+  <updated>2021-03-10T08:00:00-05:00</updated>
   <author>
     <name>Jeremy Singer-Vine</name>
     <email>jsvine@gmail.com</email>
@@ -10,6 +10,30 @@
   <link href="https://www.data-is-plural.com" rel="alternate"/>
   <generator>https://github.com/data-is-plural/newsletter-archive</generator>
   <subtitle>A weekly newsletter of useful/curious datasets.</subtitle>
+  <entry>
+    <id>dip-2021-03-10</id>
+    <title>Data Is Plural — 2021.03.10 edition</title>
+    <updated>2021-03-10T08:00:00-05:00</updated>
+    <content type="CDATA"><![CDATA[<p><em>Coronavirus variants, 200+ years of US property density, Black media, parliamentary election designs, and Amsterdam’s bats.</em></p>
+<p> </p>
+<p><em>👋 FYI: After hitting a quota on TinyLetter, Data Is Plural has migrated to the <a href="https://buttondown.email/">Buttondown</a> newsletter service; this is the first edition sent through it. Also, this newsletter finally has its own website: <a href="https://www.data-is-plural.com">data-is-plural.com</a>. Thanks for reading, and please send complaints!</em></p>
+<p> </p>
+<p><strong>Coronavirus variants.</strong> <a href="https://outbreak.info">Outbreak.info</a>’s <a href="https://outbreak.info/situation-reports">mutation situation reports</a> track the prevalence of new strains of SARS-CoV-2, the virus that sparked the COVID-19 pandemic. For each “lineage,” the reports provide data on the geography, timing, and number of sequenced viral samples that bear the strain’s signature. The project, led by biologists at Scripps Research, is one of <a href="https://www.gisaid.org/collaborations/enabled-by-hcov-19-data-from-gisaid/">many that draw from the genomic data</a> collected by <a href="https://www.gisaid.org/">GISAID</a> (<a href="https://www.data-is-plural.com/archive/2020-03-11-edition/">DIP 2020.03.11</a>), which also publishes <a href="https://www.gisaid.org/hcov19-variants/">its own variants dashboard</a>. <strong>Related</strong>: The US CDC is tracking the number of <a href="Centers%20for%20Disease%20Control%20and%20Prevention">variant cases reported in each state and territory</a>. But they’re only providing cumulative counts, so USA Today has begun <a href="https://github.com/USATODAY/covid-variants/">scraping (and backfilling) the data</a> to maintain a historical record. [h/t <a href="https://coviddatadispatch.com/2021/03/07/featured-sources-march-7/">Betsy Ladyzhets</a>]</p>
+<p> </p>
+<p><strong>200+ years of US property density.</strong> <a href="https://essd.copernicus.org/articles/13/119/2021/">Johannes Uhl et al.</a>’s <a href="https://dataverse.harvard.edu/dataverse/hisdacus">Historical Settlement Data Compilation for the United States</a> contains estimates, for every half decade from 1810 to 2015, of the number of building units and structures in every 250-meter-by-250-meter chunk of the (present-day) contiguous US. The researchers constructed their calculations from the <a href="https://www.zillow.com/research/ztrax/">Zillow Transaction and Assessment Dataset</a>, which contains more than 400 million property records and requires researchers to apply for access. <strong>Previously</strong>: <a href="https://ghslsys.jrc.ec.europa.eu/index.php">The Global Human Settlement Layer</a> (<a href="https://www.data-is-plural.com/archive/2016-11-02-edition/">DIP 2016.11.02</a>). [h/t <a href="https://www.npr.org/people/384067907/rebecca-hersher">Rebecca Hersher</a>]</p>
+<p> </p>
+<p><strong>Black media.</strong> The <a href="https://www.journalism.cuny.edu/centers/center-community-media/black-media-initiative/">Black Media Initiative</a>, based at the CUNY’s graduate journalism school, <a href="https://www.journalism.cuny.edu/2020/11/mapping-black-media/">has launched</a> an <a href="https://storymaps.arcgis.com/stories/8ba10e0e56974b6f81a49e59523fe5bb">interactive map</a> and <a href="https://airtable.com/shrKbdiGOaRdsSIIW/tblPDC9g46NM1n7Np">database</a> of 300+ newspapers, radio stations, and other “media outlets across the U.S. that primarily serve Black communities across the diaspora.” The information includes locations, formats, publication frequencies, target audiences, ownership categories, and more. [h/t <a href="https://journaliststoolbox.substack.com/p/toolbox-newsletter-xix">Mike Reilley</a>]</p>
+<p> </p>
+<p><strong>Parliamentary election designs.</strong> The <a href="https://www.idea.int/data-tools/data/electoral-system-design">Electoral System Design Database</a> describes the way in which lower-house parliamentarians are chosen, covering 1,300+ such elections in 217 countries and territories since 1991. It <a href="https://www.idea.int/publications/catalogue/electoral-system-design-database-codebook?lang=en">specifies</a> the type of system (e.g., “first-past-the-post,” “party block vote,” et cetera), the number of tiers of representation, the number of legislators directly elected, and the number of voting members. [h/t <a href="https://github.com/andrewcstewart/awesome-democracy-data">Andrew Stewart</a>]</p>
+<p> </p>
+<p><strong>Amsterdam’s bats.</strong> Using a combination of human observation and automated detection, the city of Amsterdam has been <a href="https://maps.amsterdam.nl/vleermuizen/?LANG=en">mapping its bat population</a>. Its data features <a href="https://maps.amsterdam.nl/open_geodata/?LANG=en&amp;k=366">more than 6,000 observations</a>, <a href="https://maps.amsterdam.nl/open_geodata/?LANG=en&amp;k=367">the observation routes</a>, <a href="https://maps.amsterdam.nl/open_geodata/?LANG=en&amp;k=364">bat-detection device placement and findings</a>, and the city’s known <a href="https://maps.amsterdam.nl/open_geodata/?LANG=en&amp;k=365">bat abodes</a>. [h/t <a href="https://smartilla.persona.co/">Martina Zamboni</a>]</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send ultrasonic feedback to jsvine@gmail.com, or just reply to this email. Did a friend forward you this edition? Visit <a href="https://www.data-is-plural.com">data-is-plural.com</a> to subscribe and explore the archives.</em></p>
+]]></content>
+    <link href="http://www.data-is-plural.com/archive/2021-03-10-edition" rel="alternate"/>
+    <summary>Coronavirus variants, 200+ years of US property density, Black media, parliamentary election designs, and Amsterdam’s bats.</summary>
+    <published>2021-03-10T08:00:00-05:00</published>
+  </entry>
   <entry>
     <id>dip-2021-03-03</id>
     <title>Data Is Plural — 2021.03.03 edition</title>
@@ -207,27 +231,5 @@
     <link href="http://www.data-is-plural.com/archive/2020-12-23-edition" rel="alternate"/>
     <summary>Vaccine doses, county-level coronavirus tests, social scientists testifying, permafrost, and meat-washing.</summary>
     <published>2020-12-23T08:00:00-05:00</published>
-  </entry>
-  <entry>
-    <id>dip-2020-12-16</id>
-    <title>Data Is Plural — 2020.12.16 edition</title>
-    <updated>2020-12-16T08:00:00-05:00</updated>
-    <content type="CDATA"><![CDATA[<p><em>Enslaved.org, more PPP details, more on travel/immigration bans, Third-Republic France, and cyber wargames.</em></p>
-<p> </p>
-<p><strong>People of slavery.</strong> <a href="https://www.smithsonianmag.com/history/sweeping-new-digital-database-emphasizes-enslaved-peoples-individuality-180976513/">Recently launched</a>, <a href="https://enslaved.org/">Enslaved.org</a> allows the public to “explore or reconstruct the lives of individuals who were enslaved, owned slaves, or participated in the historical trade.” Its interactive database contains 600,000+ records, with plans to expand. The <a href="https://enslaved.org/about">collaborative, schlolar-led project</a> also includes <a href="https://jsdp.enslaved.org/">The Journal of Slavery and Data Preservation</a>, which “publishes original, peer-reviewed datasets about the lives of enslaved Africans and their descendants.” The <a href="https://jsdp.enslaved.org/fullIssue/volume1-issue1">first issue</a> features three datasets <a href="http://slavebiographies.org/databases.php">originally published</a> through a <a href="https://enslaved.org/projectHistory">precursor</a> to Enslaved.org — <a href="http://slavebiographies.org/about.php">Slave Biographies: The Atlantic Database Network</a>. Those <a href="https://dataverse.harvard.edu/dataverse/jsdp">datasets</a> focus on <a href="https://jsdp.enslaved.org/fullDataArticle/volume1-issue1-louisiana-slave-database">Louisiana slaves</a> (1719–1820), <a href="https://jsdp.enslaved.org/fullDataArticle/volume1-issue1-free-blacks-database">New Orleans “Free Blacks”</a> (1840–1860), and <a href="https://jsdp.enslaved.org/fullDataArticle/volume1-issue1-maranhao-inventories-slave-database">enslaved Africans in Maranhão, Brazil</a> (1767–1831).</p>
-<p> </p>
-<p><strong>More PPP details.</strong> Thanks to a FOIA lawsuit by a group of news organizations, the US Small Business Administration has <a href="https://www.wsj.com/articles/sba-releases-detailed-information-on-more-small-business-borrowers-under-ppp-pandemic-relief-effort-11606874820">released additional data</a> about the financial assistance distributed through its Paycheck Protection Program. Previously (<a href="https://www.data-is-plural.com/archive/2020-07-08-edition">DIP 2020.07.08</a>), the SBA’s public data withheld the specific amounts for all loans (instead listing only a broad range), as well as names and addresses for loans below $150,000. <a href="https://sba.app.box.com/s/5myd1nxutoq8wxecx2562baruz774si6">The new datasets</a> include those amounts, names, and addresses for all loans.</p>
-<p> </p>
-<p><strong>More on travel/immigration bans.</strong> The <a href="https://covidborderaccountability.org">COVID Border Accountability Project</a> is tracking countries’ pandemic-related travel and immigration restrictions, on a weekly basis. The <a href="https://covidborderaccountability.org/about.html">project’s team</a> categorizes various aspects of the restrictions — whether they hinge on citizenship, halt new visa applications, et cetera — and turns them into <a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/U6DJAC">a longitudinal dataset</a>. <strong>Previously</strong>: <a href="https://data.humdata.org/dataset/covid-19-global-travel-restrictions-and-airline-information">The UN World Food Program’s travel-restrictions dataset</a> (<a href="https://www.data-is-plural.com/archive/2020-12-09-edition">DIP 2020.12.09</a>).</p>
-<p> </p>
-<p><strong>Third-Republic France.</strong> Economist <a href="https://sites.google.com/site/victorgayeco/">Victor Gay</a> has built <a href="https://dataverse.harvard.edu/dataverse/TRF-GIS">a geographic dataset</a> that traces, year by year, the administrative boundaries of <a href="https://en.wikipedia.org/wiki/French_Third_Republic">France’s Third Republic</a>, which governed from 1870 to 1940, when the Vichy Regime took power. The dataset <a href="https://hal.archives-ouvertes.fr/hal-02951461">provides</a> annual shapefiles delineating the country’s départements, arrondissements, and cantons; as well as for its “most significant special administrative constituencies: military, judicial and penitentiary, electoral, academic, labor inspection, and ecclesiastical.”</p>
-<p> </p>
-<p><strong>Cyber wargames.</strong> <a href="https://www.sciencedirect.com/science/article/pii/S2352340920306788">This</a> is, “to the best of our knowledge, [...] the first dataset providing network traffic traces and corresponding event logs from a complex cyber defense exercise” — a two-day <a href="https://csirt.muni.cz/projects/cyber-czech">Cyber Czech</a> event in March 2019.</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send cyber feedback to jsvine@gmail.com, or just reply to this email. Looking for past datasets? <a href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk">This spreadsheet contains them all</a>. Did a friend forward you this email? <a href="https://tinyletter.com/data-is-plural">Click here to subscribe</a>.</em></p>
-]]></content>
-    <link href="http://www.data-is-plural.com/archive/2020-12-16-edition" rel="alternate"/>
-    <summary>Enslaved.org, more PPP details, more on travel/immigration bans, Third-Republic France, and cyber wargames.</summary>
-    <published>2020-12-16T08:00:00-05:00</published>
   </entry>
 </feed>
