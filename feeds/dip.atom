@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.data-is-plural.com</id>
   <title>Data Is Plural</title>
-  <updated>2021-03-17T08:00:00-04:00</updated>
+  <updated>2021-03-24T08:00:00-04:00</updated>
   <author>
     <name>Jeremy Singer-Vine</name>
     <email>jsvine@gmail.com</email>
@@ -10,6 +10,28 @@
   <link href="https://www.data-is-plural.com" rel="alternate"/>
   <generator>https://github.com/data-is-plural/newsletter-archive</generator>
   <subtitle>A weekly newsletter of useful/curious datasets.</subtitle>
+  <entry>
+    <id>dip-2021-03-24</id>
+    <title>Data Is Plural — 2021.03.24 edition</title>
+    <updated>2021-03-24T08:00:00-04:00</updated>
+    <content type="CDATA"><![CDATA[<p><em>Mass shootings, food-related GHG emissions, infrastructure spending, NYC’s housing lotteries, and animal lifespans.</em></p>
+<p> </p>
+<p><strong>Mass shootings, detailed.</strong> <a href="https://www.theviolenceproject.org/">The Violence Project</a>’s <a href="https://www.theviolenceproject.org/mass-shooter-database/">Mass Shooter Database</a> contains <a href="https://www.theviolenceproject.org/methodology/">extensive details</a> about public mass shootings in the US and their perpetrators, weapons, and victims, with a goal of “finding pathways to prevention.” The database, funded by <a href="https://www.nij.gov/funding/awards/pages/award-detail.aspx?award=2018-75-CX-0023">a National Institute of Justice grant</a>, covers 170+ shootings between 1966 and early 2020. Examples of the variables include: the perpetrator’s employment status, known prejudices, and experience with mental illness; the victims’ relationship to the perpetrator and estimated years of life they lost; and the firearms’ make, model, and method of acquisition. <strong>Previously</strong>: Data on mass shootings from the <a href="https://www.gunviolencearchive.org/methodology">Gun Violence Archive</a> and <a href="https://www.motherjones.com/politics/2012/12/mass-shootings-mother-jones-full-data/">Mother Jones</a> (<a href="https://www.data-is-plural.com/archive/2015-12-09-edition/">DIP 2015.12.09</a>).</p>
+<p> </p>
+<p><strong>Food-related GHG emissions.</strong> <a href="https://edgar.jrc.ec.europa.eu/overview.php?v=EDGAR-FOOD">EDGAR-FOOD</a>, a new dataset from European Commission researchers, <a href="https://www.nature.com/articles/s43016-021-00225-9">provides estimates</a> of the global food system’s greenhouse gas emissions, “consistently covering each stage of the food chain for all countries with yearly frequency for the period 1990–2015.” The dataset distinguishes between four kinds of greenhouse and eight stages: “land use/land-use change activities,” production, processing, packaging, transport, retail, consumption, and waste management. <strong>Related</strong>: <a href="https://www.carbonbrief.org/food-systems-responsible-for-one-third-of-human-caused-emissions">Carbon Brief’s coverage of the research</a>. [h/t <a href="https://www.duncangeere.com/">Duncan Geere</a>]</p>
+<p> </p>
+<p><strong>Infrastructure spending.</strong> Researchers from the US Bureau of Economic Analysis have <a href="https://www.bea.gov/research/papers/2020/measuring-infrastructure-bureau-economic-analysis-national-economic-accounts">constructed a dataset</a> of government investment in basic, social, and digital infrastructure from 1947 to 2017, using data from the agency’s <a href="https://www.bea.gov/data/economic-accounts/national">National Economic Accounts</a>. The investment amounts are broken down by subcategory (water, sewer, power, transportation, education, public safety, healthcare, etc.) and ownership (federal, state/local, or private). [h/t <a href="https://twitter.com/DonFSchneider/status/1367181077316575236">Donald Schneider</a>]</p>
+<p> </p>
+<p><strong>NYC’s housing lotteries.</strong> New York City’s affordable housing lotteries receive hundreds of applications per available unit. For an <a href="https://www.thecity.nyc/2020/6/28/21306383/affordable-housing-lottery-chances-worst-low-income">investigation into the odds</a>, reporters for The City last year <a href="https://github.com/thecityny/housing-lottery-data">obtained and analyzed data</a> on 426 lotteries from 2014 to 2019 (including building locations, unit sizes, monthly rents, and income thresholds), plus basic information (on income and household size) from more than 20 million lottery applications. [h/t <a href="https://twitter.com/annjychoi">Ann Choi</a>]</p>
+<p> </p>
+<p><strong>Animal lifespans.</strong> <a href="https://genomics.senescence.info/species/index.html">AnAge</a> is “a curated database of ageing and life history in animals, including extensive longevity records.” Part of a <a href="https://genomics.senescence.info/">broader project on the genetics of human ageing</a>, the database contains 4,200+ species, from the <a href="https://genomics.senescence.info/species/entry.php?species=Orycteropus_afer">aardvark</a> to the <a href="https://genomics.senescence.info/species/entry.php?species=Pelecus_cultratus">ziege</a>. Where available, it lists maximum lifespans, average gestation times, typical litter sizes, and more. [h/t <a href="https://twitter.com/xangregg">Xan Gregg</a>]</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send aged feedback to jsvine@gmail.com, or just reply to this email. Did a friend forward you this edition? Visit <a href="https://www.data-is-plural.com">data-is-plural.com</a> to subscribe and explore the archives.</em></p>
+]]></content>
+    <link href="http://www.data-is-plural.com/archive/2021-03-24-edition" rel="alternate"/>
+    <summary>Mass shootings, food-related GHG emissions, infrastructure spending, NYC’s housing lotteries, and animal lifespans.</summary>
+    <published>2021-03-24T08:00:00-04:00</published>
+  </entry>
   <entry>
     <id>dip-2021-03-17</id>
     <title>Data Is Plural — 2021.03.17 edition</title>
@@ -209,27 +231,5 @@
     <link href="http://www.data-is-plural.com/archive/2021-01-13-edition" rel="alternate"/>
     <summary>Electoral attitudes, fishing activity, Bundestag writings, innovation licensing, and chess puzzles.</summary>
     <published>2021-01-13T08:00:00-05:00</published>
-  </entry>
-  <entry>
-    <id>dip-2021-01-06</id>
-    <title>Data Is Plural — 2021.01.06 edition</title>
-    <updated>2021-01-06T08:00:00-05:00</updated>
-    <content type="CDATA"><![CDATA[<p><em>Megascale coronavirus surveys, commodity-transportation costs, more college sports financing, ten million Jupyter notebooks, and 2020 in haiku.</em></p>
-<p> </p>
-<p><strong>Megascale coronavirus surveys.</strong> Carnegie Mellon University’s <a href="https://delphi.cmu.edu/about/">epidemiological forecasting group</a> and Facebook have partnered to field a <a href="https://delphi.cmu.edu/covidcast/surveys/">large-scale coronavirus survey in the US</a>; they’ve collected <a href="https://delphi.cmu.edu/covidcast/survey-results/">more than 15 million responses since April 2020</a>. The University of Maryland has <a href="https://covidmap.umd.edu/">formed a similar partnership</a> for an international survey, in which “a representative sample of Facebook users is invited on a daily basis to report on symptoms, social distancing behavior, mental health issues, and financial constraints”; <a href="https://ischool.umd.edu/news/university-maryland-carnegie-mellon-and-facebook-team-forecast-coronavirus-spread">millions have also participated</a>. Geographically-aggregated results of the US survey can be downloaded via an <a href="https://delphi.cmu.edu/covidcast/export/">online interface</a> or <a href="https://cmu-delphi.github.io/delphi-epidata/api/covidcast.html">Delphi’s API</a>; the international results are also <a href="https://covidmap.umd.edu/api.html">available via API</a>. <strong>Practical example</strong>: <a href="https://delphi.cmu.edu/blog/2020/12/13/are-masks-widely-used-in-public/">An analysis of state-by-state mask usage, with code</a>. [h/t <a href="https://www.refsmmat.com/">Alex Reinhart</a>]</p>
-<p> </p>
-<p><strong>Commodity-transportation costs.</strong> The UN and the World Bank have <a href="https://unctad.org/news/why-and-how-measure-international-transport-costs">launched</a> a new <a href="https://unctadstat.unctad.org/EN/TransportCost.html">interactive map</a> and <a href="https://unctadstat.unctad.org/wds/ReportFolders/reportFolders.aspx?IF_ActivePath=P%2C207045">dataset</a> that quantify the transportation costs for international trade — country-by-country and broken down by mode of transportation (sea, air, rail, road), trading partner, and commodity. The numbers, based both on directly-reported figures and statistical modelling, include costs overall, per unit, and per unit per kilometer. The project currently covers only 2016, but has plans to expand. [h/t <a href="https://twitter.com/JanHoffmann_gva/status/1341414753567186947">Jan Hoffmann</a>]</p>
-<p> </p>
-<p><strong>More college sports financing.</strong> The <a href="http://cafidatabase.knightcommission.org">College Athletics Financial Information Database</a>, run by the privately-funded <a href="https://www.knightcommission.org">Knight Commission on Intercollegiate Athletics</a>, details the annual sources of revenue (such as ticket sales) and expenses (such as coaches’ compensation) for hundreds of schools, based on information self-reported to the NCAA and federal government. Many of the records <a href="http://cafidatabase.knightcommission.org/about-the-data">were obtained</a> via freedom-of-information requests by <a href="https://sports.usatoday.com/2020/07/05/methodology-for-2019-ncaa-athletic-department-revenue-database/">USA Today and Syracuse University students</a>. [h/t <a href="https://www.ipr.northwestern.edu/our-work/working-papers/2020/wp-20-42.html">Craig Garthwaite et al.</a>]</p>
-<p> </p>
-<p><strong>Millions of computational notebooks.</strong> In 2017, a team of researchers <a href="https://github.com/activityhistory/jupyter_on_github">downloaded and analyzed</a> 1.25 million publicly-available Jupyter notebooks — <a href="https://jupyter.org/">documents</a> that weave computational code, output, and text. They also <a href="https://library.ucsd.edu/dc/collection/bb6931851t">published</a> the notebooks and their related metadata. Inspired by that project, a team at JetBrains recently did a follow-up scan, <a href="https://blog.jetbrains.com/datalore/2020/12/17/we-downloaded-10-000-000-jupyter-notebooks-from-github-this-is-what-we-learned/">analyzing and publishing data on nearly 10 million notebooks</a>.</p>
-<p> </p>
-<p><strong>2020 in haiku.</strong> Over the course of 2020, <a href="https://twitter.com/elibryan">Eli Holder</a> paid workers on Mechanical Turk to turn news headlines into 5/7/5-syllable poems. The result: 2,760 “Doom Haikus,” which you can <a href="https://doomhaikus.3iap.co/">browse on a timeline</a> or <a href="https://www.kaggle.com/newshaikus/dataset">download in bulk</a>. For each poem, the dataset also includes the original article URL, date processed, headline, and SEO snippet. [h/t <a href="http://ksaj.inlisp.org">Karsten Johansson</a>]</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send journo-poetic feedback to jsvine@gmail.com, or just reply to this email. Looking for past datasets? <a href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk">This spreadsheet contains them all</a>. Did a friend forward you this email? <a href="https://tinyletter.com/data-is-plural">Click here to subscribe</a>.</em></p>
-]]></content>
-    <link href="http://www.data-is-plural.com/archive/2021-01-06-edition" rel="alternate"/>
-    <summary>Megascale coronavirus surveys, commodity-transportation costs, more college sports financing, ten million Jupyter notebooks, and 2020 in haiku.</summary>
-    <published>2021-01-06T08:00:00-05:00</published>
   </entry>
 </feed>
