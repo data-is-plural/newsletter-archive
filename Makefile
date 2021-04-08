@@ -1,7 +1,4 @@
-all: fetch rss
-
-fetch:
-	python scripts/fetch.py
+.PHONY: rss
 
 rss:
 	python scripts/rss.py rss > feeds/dip.rss
