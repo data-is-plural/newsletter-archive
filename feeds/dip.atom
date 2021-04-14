@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.data-is-plural.com</id>
   <title>Data Is Plural</title>
-  <updated>2021-04-07T08:00:00-04:00</updated>
+  <updated>2021-04-14T08:00:00-04:00</updated>
   <author>
     <name>Jeremy Singer-Vine</name>
     <email>jsvine@gmail.com</email>
@@ -10,6 +10,28 @@
   <link href="https://www.data-is-plural.com" rel="alternate"/>
   <generator>https://github.com/data-is-plural/newsletter-archive</generator>
   <subtitle>A weekly newsletter of useful/curious datasets.</subtitle>
+  <entry>
+    <id>dip-2021-04-14</id>
+    <title>Data Is Plural — 2021.04.14 edition</title>
+    <updated>2021-04-14T08:00:00-04:00</updated>
+    <content type="CDATA"><![CDATA[<p><em>Global abortion rates, pandemic-era central banking, the Household Pulse Survey, news homepages, and rainforest soundscapes.</em></p>
+<p> </p>
+<p><strong>Global abortion rates.</strong> The Guttmacher Institute’s new <a href="https://osf.io/5k7fp/">Global Abortion Incidence Dataset</a> gathers annual abortion statistics for more than 100 countries — for as many years between 1990 and 2018 as possible. The dataset also indicates the sources for the figures, “whether spontaneous abortions are included, whether or not the data are considered complete and the reason behind it, the marital status of the sample for studies and surveys,” and more. <strong>Previously</strong>: <a href="https://osf.io/kthnf/">Pregnancies, births, and abortions by US state and age group</a> (<a href="https://www.data-is-plural.com/archive/2020-10-28-edition/">DIP 2020.10.28</a>), also from Guttmacher. [h/t <a href="https://twitter.com/CynthiaBeavin/status/1378008110783160320">Cynthia Beavin</a>]</p>
+<p> </p>
+<p><strong>Central banks vs. the pandemic.</strong> Researchers at the <a href="https://www.bis.org/">Bank for International Settlements</a> (<a href="https://www.data-is-plural.com/archive/2020-08-12-edition/">DIP 2020.08.12</a>) have compiled a <a href="https://www.bis.org/publ/work934.htm">dataset of central banks’ policy responses to the coronavirus pandemic</a>. It covers more than 900 announcements by 39 central banks, grouped by monetary tool: interest rates, reserve policies, lending operations, foreign exchange, and asset purchases. The researchers also “provide further details relevant to each type of tool, such as the maturity and whether the instrument was new to the central bank or not.” [h/t <a href="https://twitter.com/CarlosCantug/status/1376884559237758976">Carlos Cantú</a>]</p>
+<p> </p>
+<p><strong>The pandemic vs. US households.</strong> The Census Bureau’s <a href="https://www.census.gov/programs-surveys/household-pulse-survey.html">Household Pulse Survey</a> “is a 20-minute online survey studying how the coronavirus pandemic is impacting households across the country from a social and economic perspective,” and asks questions about food security, housing, telework, and more. It has collected more than 2 million responses since last April, with results published on a rolling basis via <a href="https://www.census.gov/programs-surveys/household-pulse-survey/datasets.html">microdata files</a>, <a href="https://www.census.gov/programs-surveys/household-pulse-survey/data.html">statistical tables</a>, and <a href="https://www.census.gov/data-tools/demo/hhp/">interactive graphics</a>. <strong>Related</strong>: The Urban Institute has been <a href="https://datacatalog.urban.org/dataset/census-pulse-public-use-files-questionnaire-two">collating and standardizing the data files</a>. [h/t <a href="https://www.linkedin.com/in/michael-allen-60287015b/">Michael Allen</a> + <a href="https://www.linkedin.com/in/eric-gardner-0531aa9/">Eric Gardner</a>]</p>
+<p> </p>
+<p><strong>News homepages.</strong> Since January 2019, software engineer <a href="https://nrjones8.me/">Nick Jones</a> has been <a href="https://github.com/nrjones8/website-screenshotter">capturing</a> hourly screenshots of five news sites’ homepages: The New York Times, Washington Post, Wall Street Journal, Fox News, and CNN. You can <a href="https://nrjones8.github.io/news-archive-explorer/">browse the images online</a> and <a href="https://github.com/nrjones8/website-screenshotter#how-to-access-screenshots">download them from predictable URLs</a>. <strong>Note</strong>: “This project is unaffiliated with <a href="http://www.pastpages.org/">PastPages</a>, a similar effort that took screenshots from 2012 to 2018 from a much wider range of news websites.”</p>
+<p> </p>
+<p><strong>Rainforest soundscapes.</strong> As part of its “efforts to better understand the ecology of forest elephant movements, and the spatial and temporal pattern of poaching,” the <a href="https://elephantlisteningproject.org/">Elephant Listening Project</a> has been <a href="https://elephantlisteningproject.org/arus/">collecting audio 24/7</a> from 50 locations in the Republic of the Congo and <a href="https://elephantlisteningproject.org/congo-soundscapes-public-database/">publishing the raw recordings</a> — ”more than 1 million hours of the sounds of birds, primates, insects, frogs, you name it. <em>If it makes sound, we record it</em>.”</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send audible feedback to jsvine@gmail.com, or just reply to this email. Did a friend forward you this edition? Visit <a href="https://www.data-is-plural.com">data-is-plural.com</a> to subscribe and explore the archives.</em></p>
+]]></content>
+    <link href="http://www.data-is-plural.com/archive/2021-04-14-edition" rel="alternate"/>
+    <summary>Global abortion rates, pandemic-era central banking, the Household Pulse Survey, news homepages, and rainforest soundscapes.</summary>
+    <published>2021-04-14T08:00:00-04:00</published>
+  </entry>
   <entry>
     <id>dip-2021-04-07</id>
     <title>Data Is Plural — 2021.04.07 edition</title>
@@ -209,27 +231,5 @@
     <link href="http://www.data-is-plural.com/archive/2021-02-03-edition" rel="alternate"/>
     <summary>Private prisons, detailed elevations, even more mortality data, web trackers, and hockey.</summary>
     <published>2021-02-03T08:00:00-05:00</published>
-  </entry>
-  <entry>
-    <id>dip-2021-01-27</id>
-    <title>Data Is Plural — 2021.01.27 edition</title>
-    <updated>2021-01-27T08:00:00-05:00</updated>
-    <content type="CDATA"><![CDATA[<p><em>Tens of millions of flights, dot-gov characteristics, corporate risk-talk, Euro-polling, and the Codex Atlanticus.</em></p>
-<p> </p>
-<p><strong>Tens of millions of flights.</strong> The <a href="https://opensky-network.org">OpenSky Network</a> crowdsources air traffic data, thanks to members who collect the <a href="https://en.wikipedia.org/wiki/Automatic_Dependent_Surveillance%E2%80%93Broadcast">radio signals that aircraft periodically broadcast</a>. The nonprofit organization has published a “<a href="https://opensky-network.org/community/blog/item/6-opensky-covid-19-flight-dataset">COVID-19 flight dataset</a>,” which contains <a href="https://zenodo.org/record/4419082">metadata for the tens of millions of flights</a> those members observed in 2019 and 2020, with plans to update the dataset until the pandemic ends. It includes each flight’s call sign, aircraft model type, origin and destination airports, time first and last seen, and more. [h/t <a href="https://twitter.com/PogrebnyakE/status/1347978426322460674">Evgeny Pogrebnyak</a>]</p>
-<p> </p>
-<p><strong>Dot-gov characteristics.</strong> The US General Services Administration publishes a <a href="https://github.com/GSA/data/tree/master/dotgov-domains">list of all registered <em>.gov</em> domains</a> (<a href="https://www.data-is-plural.com/archive/2017-01-18-edition">DIP 2017.01.18</a>). In <a href="https://ben.balter.com/2011/09/07/analysis-of-federal-executive-domains/">2011</a>, <a href="https://ben.balter.com/2014/07/07/analysis-of-federal-executive-domains-part-deux/">2014</a>, and <a href="https://ben.balter.com/2015/05/11/third-analysis-of-federal-executive-dotgovs/">2015</a>, open-source advocate <a href="https://ben.balter.com/about/">Ben Balter</a> used software to scan each federally-managed domain “to sniff out information about [their] technology and capabilities.” For instance: Do the domains support HTTPS? Do they use Google Analytics? Earlier this month, <a href="https://ben.balter.com/2021/01/11/analysis-of-federal-dotgov-domains-pre-biden-edition/">Balter ran the scan again</a>, “to serve as a snapshot of the state of government technology ahead of the incoming Biden administration.” You can <a href="https://ben.balter.com/2021-analysis-of-federal-dotgov-domains/">browse and download the results</a>.</p>
-<p> </p>
-<p><strong>Corporate risk-talk.</strong> The <a href="https://www.firmlevelrisk.com/">Firm-Level Risk</a> project uses “textual analysis of quarterly earnings conference calls held by more than 11,000 listed firms in 81 countries” to construct company-by-company “measures of exposure, risk, and sentiment.” The <a href="https://www.firmlevelrisk.com/download">dataset</a> goes back nearly two decades and includes sub-measures for various themes, such as tax policy, Brexit, and COVID-19. [h/t <a href="https://twitter.com/StephanHollan">Stephan Hollander</a>]</p>
-<p> </p>
-<p><strong>Euro-polling.</strong> The <a href="https://github.com/filipvanlaenen/eopaod">European Opinion Polls as Open Data</a> repository collects the results of party-preference polls in 34 countries. For each poll, it lists the polling firm and commissioners, when the fieldwork began and ended, its scope and sample size, and the topline numbers for each party. <strong>Related</strong>: <a href="https://medium.com/grensesnittet/how-simple-things-quickly-become-complicated-in-software-development-9cf52233226d">Project maintainer Filip Van Laenen on “how simple things can turn out to be rather complicated.”</a> [h/t <a href="https://github.com/erikgahner/PolData/commit/c0f0764f9c5b8b429ba71d9ce773967e8c849325">Erik Gahner Larsen</a>]</p>
-<p> </p>
-<p><strong>The da Vinci codex.</strong> The <a href="https://en.wikipedia.org/wiki/Codex_Atlanticus">Codex Atlanticus</a> “is the largest existing collection of original drawings and text by Leonardo da Vinci” — 1,119 pages assembled by the 16th–century sculptor Pompeo Leoni. Milan’s Biblioteca Ambrosiana and <a href="https://thevisualagency.com/about/">The Visual Agency</a> have created an <a href="https://codex-atlanticus.it/">interactive graphic</a> that lets you explore the pages by year and subject; you can also download that metadata through the graphic’s “About the project” section. [h/t <a href="https://mailchi.mp/817fc600d094/preview-222-in-other-news-4724814">Giuseppe Sollazzo</a>]</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send polymathic feedback to jsvine@gmail.com, or just reply to this email. Looking for past datasets? <a href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk">This spreadsheet contains them all</a>. Did a friend forward you this email? <a href="https://tinyletter.com/data-is-plural">Click here to subscribe</a>.</em></p>
-]]></content>
-    <link href="http://www.data-is-plural.com/archive/2021-01-27-edition" rel="alternate"/>
-    <summary>Tens of millions of flights, dot-gov characteristics, corporate risk-talk, Euro-polling, and the Codex Atlanticus.</summary>
-    <published>2021-01-27T08:00:00-05:00</published>
   </entry>
 </feed>
