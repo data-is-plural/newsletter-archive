@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.data-is-plural.com</id>
   <title>Data Is Plural</title>
-  <updated>2021-04-14T08:00:00-04:00</updated>
+  <updated>2021-04-21T08:00:00-04:00</updated>
   <author>
     <name>Jeremy Singer-Vine</name>
     <email>jsvine@gmail.com</email>
@@ -10,6 +10,28 @@
   <link href="https://www.data-is-plural.com" rel="alternate"/>
   <generator>https://github.com/data-is-plural/newsletter-archive</generator>
   <subtitle>A weekly newsletter of useful/curious datasets.</subtitle>
+  <entry>
+    <id>dip-2021-04-21</id>
+    <title>Data Is Plural — 2021.04.21 edition</title>
+    <updated>2021-04-21T08:00:00-04:00</updated>
+    <content type="CDATA"><![CDATA[<p><em>Domestic terrorism, web crawls, COVID-19 in incarceration facilities, New York City languages, and CEO dismissals.</em></p>
+<p> </p>
+<p><strong>Domestic terrorism.</strong> The <a href="https://www.csis.org/programs/about-us">Center for Strategic and International Studies</a> has <a href="https://www.csis.org/analysis/military-police-and-rise-terrorism-united-states">analyzed</a> data on 980 domestic terrorism plots and attacks in the US from 1994 through January 2021, categorizing them as “violent far-right,” “violent far-left,” “religious,” “ethnonationalist,” or “other.” (The <a href="https://csis-website-prod.s3.amazonaws.com/s3fs-public/publication/210412_Jones_Methodology.pdf">project’s methodology</a> provides further details.) The researchers haven’t published the full dataset, but have allowed the Washington Post to publish <a href="https://github.com/wpinvestigative/csis_domestic_terrorism">a large slice of it</a> — a dozen columns for each incident, with dates, locations, type of target, and more. Based on its own research, the Post added eight more columns about the far-right attacks, which it used for a <a href="https://www.washingtonpost.com/investigations/interactive/2021/domestic-terrorism-data/">data-driven article on the topic</a>. <strong>Previously</strong>: <a href="http://www.start.umd.edu/gtd/">The Global Terrorism Database</a> (<a href="https://www.data-is-plural.com/archive/2018-02-07-edition/">DIP 2018.02.07</a>).</p>
+<p> </p>
+<p><strong>The web, crawled.</strong> The nonprofit <a href="https://commoncrawl.org/">Common Crawl</a> is “dedicated to providing a copy of the internet to internet researchers, companies and individuals at no cost for the purpose of research and analysis.” Over the past decade, it has gathered and shared <a href="https://commoncrawl.org/the-data/get-started/">petabytes of data</a> from its roughly-monthly web crawls. The <a href="https://commoncrawl.org/2021/03/february-march-2021-crawl-archive-now-available/">most recent</a>, completed in early March, contains 2.7 billion pages. <strong>Related</strong>: The University of Mannheim’s <a href="http://webdatacommons.org/">Web Data Commons</a> generates structured data from the crawls, including <a href="http://webdatacommons.org/structureddata/schemaorgtables/">nearly 300 million rows</a> of information (on products, events, museums, and more) extracted from websites’ <a href="https://schema.org/">schema.org</a> markup. [h/t <a href="https://twitter.com/cyberandy/status/1376540713614204930">Andrea Volpini</a>]</p>
+<p> </p>
+<p><strong>COVID-19 in incarceration, by facility.</strong> For more than a year, the New York Times <a href="https://github.com/nytimes/covid-19-data/tree/master/prisons">collected data</a> on "coronavirus infections, deaths and testing for state and federal prisons; immigration detention centers; juvenile detention facilities; local, regional and reservation jails; and those in the custody of the U.S. Marshals Service.” On Friday, it published the <a href="https://github.com/nytimes/covid-19-data/blob/master/prisons/facilities.csv">case and death tolls for 2,000+ of these facilities</a>, as of March 2021. <strong>Read more</strong>: <a href="https://www.nytimes.com/interactive/2021/04/10/us/covid-prison-outbreak.html">The Times’ reporting and graphics based on the data</a>. <strong>Previously</strong>: <a href="https://github.com/themarshallproject/COVID_prison_data">Weekly COVID-19 numbers for each state prison system</a> (<a href="https://www.data-is-plural.com/archive/2020-05-06-edition/">DIP 2020.05.06</a>), collected by the Marshall Project and Associated Press. [h/t <a href="https://twitter.com/LibbySeline">Libby Seline</a>]</p>
+<p> </p>
+<p><strong>New York City languages.</strong> The <a href="https://elalliance.org/">Endangered Language Alliance</a>’s <a href="https://languagemap.nyc/">Languages of New York City map</a> highlights nearly 700 languages and dialects spoken in NYC and nearby counties. For each language, it indicates a number of significant sites where it is or has been spoken. The project’s <a href="https://languagemap.nyc/Data">downloadable dataset</a> lists each site's status and neighborhood or city, plus the language’s linguistic family, countries of origin, and estimated number of global speakers. [h/t <a href="https://twitter.com/RossPerlin/status/1382699074739187717">Ross Perlin</a>]</p>
+<p> </p>
+<p><strong>CEO dismissals.</strong> <a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/smj.3278">Richard J. Gentry et al.</a> have <a href="https://docs.google.com/document/d/1VtY-_7es3JE9ymnTNYUTp9nwJW4VPpduOY0L-z1Yh9s/edit">overseen the collection</a> of <a href="https://zenodo.org/record/4618103">data on 1,400+ CEO dismissals</a> and thousands of other CEO departures from S&amp;P 1500 companies between 1992 and 2018. <strong>Related</strong>: <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3824812">Claudio Fernandez-Araoz et al.</a> have compiled data on <a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/FG0FOE">CEO</a> and <a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/ZC0AKE">CFO</a> turnover between 2014 and 2018. [h/t <a href="https://twitter.com/steveboivie/status/1379976286462951426">Steve Boivie</a>]</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send feedback from the C-suite to jsvine@gmail.com, or just reply to this email. Did a friend forward you this edition? Visit <a href="https://www.data-is-plural.com">data-is-plural.com</a> to subscribe and explore the archives.</em></p>
+]]></content>
+    <link href="http://www.data-is-plural.com/archive/2021-04-21-edition" rel="alternate"/>
+    <summary>Domestic terrorism, web crawls, COVID-19 in incarceration facilities, New York City languages, and CEO dismissals.</summary>
+    <published>2021-04-21T08:00:00-04:00</published>
+  </entry>
   <entry>
     <id>dip-2021-04-14</id>
     <title>Data Is Plural — 2021.04.14 edition</title>
@@ -209,27 +231,5 @@
     <link href="http://www.data-is-plural.com/archive/2021-02-10-edition" rel="alternate"/>
     <summary>Hyperlocal Biden/Trump results, subnational COVID-19 vaccinations, historical night light, public-sector employment, and Super Bowl ads.</summary>
     <published>2021-02-10T08:00:00-05:00</published>
-  </entry>
-  <entry>
-    <id>dip-2021-02-03</id>
-    <title>Data Is Plural — 2021.02.03 edition</title>
-    <updated>2021-02-03T08:00:00-05:00</updated>
-    <content type="CDATA"><![CDATA[<p><em>Private prisons, detailed elevations, even more mortality data, web trackers, and hockey.</em></p>
-<p> </p>
-<p><strong>Private prisons.</strong> Political scientist <a href="https://www.annagunderson.com/home">Anna Gunderson</a> has <a href="https://www.cambridge.org/core/journals/perspectives-on-politics/article/abs/why-do-states-privatize-their-prisons-the-unintended-consequences-of-inmate-litigation/AF814E16A605CA894D558AE72BEF65C9">assembled</a> a <a href="https://www.annagunderson.com/data/private-prisons">longitudinal dataset of private prisons</a> at the federal, state, and local level through 2016. Using decades of financial reports by the two largest operators, plus those by two other companies one later acquired, Gunderson’s dataset identifies each facility’s name, location, primary customer, capacity, security level, contract information, and more. <strong>Related</strong>: Last week, President Biden <a href="https://www.whitehouse.gov/briefing-room/presidential-actions/2021/01/26/executive-order-reforming-our-incarceration-system-to-eliminate-the-use-of-privately-operated-criminal-detention-facilities/">signed an executive order</a> to phase out the federal use of such facilities.</p>
-<p> </p>
-<p><strong>Detailed elevations.</strong> Among <a href="https://opentopography.org/about">its goals</a>, <a href="https://opentopography.org/">OpenTopography</a> wants to “democratize online access to high-resolution (meter to sub-meter scale), Earth science-oriented, topography data acquired with lidar and other technologies.” The project hosts <a href="https://portal.opentopography.org/dataCatalog">hundreds of elevation datasets</a> from <a href="https://portal.opentopography.org/datasets">around the world</a>, available to visualize online and to download. <strong>Related</strong>: The US Geological Survey’s <a href="https://www.usgs.gov/core-science-systems/ngp/3dep/what-is-3dep">3D Elevation Program</a> aims “to provide the first-ever national baseline of consistent high-resolution topographic elevation data” by 2023, and already publishes <a href="https://www.usgs.gov/core-science-systems/ngp/3dep/data-tools">a range of subnational datasets</a>. [h/t <a href="https://twitter.com/Olenellus/status/1354562008998440963">Ricardo Pereira</a>]</p>
-<p> </p>
-<p><strong>Even more mortality data.</strong> The <a href="https://github.com/akarlinsky/world_mortality">World Mortality Dataset</a> contains recent “all-cause mortality” counts for 79 countries, aggregated to weekly, monthly, or quarterly totals (depending on availability). Launched last week by researchers <a href="https://akarlinsky.github.io/">Ariel Karlinsky</a> and <a href="https://dkobak.github.io/">Dmitry Kobak</a>, the project draws on the <a href="https://www.mortality.org/">Human Mortality Database</a>, <a href="https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Weekly_death_statistics&amp;stable">EuroStat</a>, and data <a href="https://github.com/nytimes/covid-19-data/tree/master/excess-deaths">collected by the New York Times</a> (<a href="https://www.data-is-plural.com/archive/2020-05-27-edition">DIP 2020.05.27</a>); and <a href="https://www.medrxiv.org/content/10.1101/2021.01.27.21250604v1">expands upon it</a> by gathering data from government websites and through direct inquiries. [h/t <a href="https://www.linkedin.com/in/dror-guldin-903950a8/">Dror Guldin</a>]</p>
-<p> </p>
-<p><strong>Web trackers.</strong> DuckDuckGo’s <a href="https://spreadprivacy.com/duckduckgo-tracker-radar/">Tracker Radar</a> watches the web’s watchers. The regularly-updated <a href="https://github.com/duckduckgo/tracker-radar">dataset</a> currently covers 36,000+ of the most common third-party domains, and provides “detailed information about their tracking behavior, including prevalence, ownership, fingerprinting behavior, cookie behavior, privacy policy,” and more. <strong>As seen in</strong>: <a href="https://themarkup.org/blacklight">Blacklight</a>, The Markup’s “real-time website privacy inspector,” which <a href="https://themarkup.org/blacklight/2020/09/22/how-we-built-a-real-time-privacy-inspector">uses the dataset</a>. [h/t <a href="https://twitter.com/suryamattu/status/1308346656899956736">Surya Mattu</a>]</p>
-<p> </p>
-<p><strong>Hockey.</strong> The National Hockey League <a href="https://www.kevinsidwar.com/iot/2017/7/1/the-undocumented-nhl-stats-api">has an undocumented API</a>. Technologist <a href="https://pure-defect.com/about/">Drew Hynes</a> is <a href="https://gitlab.com/dword4/nhlapi">making sense of the dozens of endpoints</a>, which provide data on decades of player stats, game schedules, draft picks, and more. [h/t <a href="https://github.com/jemmaissroff/hockey">Jemma Issroff</a>]</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send knucklepuck feedback to jsvine@gmail.com, or just reply to this email. Looking for past datasets? <a href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk">This spreadsheet contains them all</a>. Did a friend forward you this email? <a href="https://tinyletter.com/data-is-plural">Click here to subscribe</a>.</em></p>
-]]></content>
-    <link href="http://www.data-is-plural.com/archive/2021-02-03-edition" rel="alternate"/>
-    <summary>Private prisons, detailed elevations, even more mortality data, web trackers, and hockey.</summary>
-    <published>2021-02-03T08:00:00-05:00</published>
   </entry>
 </feed>
