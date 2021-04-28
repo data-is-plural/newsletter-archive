@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.data-is-plural.com</id>
   <title>Data Is Plural</title>
-  <updated>2021-04-21T08:00:00-04:00</updated>
+  <updated>2021-04-28T08:00:00-04:00</updated>
   <author>
     <name>Jeremy Singer-Vine</name>
     <email>jsvine@gmail.com</email>
@@ -10,6 +10,28 @@
   <link href="https://www.data-is-plural.com" rel="alternate"/>
   <generator>https://github.com/data-is-plural/newsletter-archive</generator>
   <subtitle>A weekly newsletter of useful/curious datasets.</subtitle>
+  <entry>
+    <id>dip-2021-04-28</id>
+    <title>Data Is Plural — 2021.04.28 edition</title>
+    <updated>2021-04-28T08:00:00-04:00</updated>
+    <content type="CDATA"><![CDATA[<p><em>Water access points, foreign labor requests, congressional scandals, global mail, and the Tour de France.</em></p>
+<p> </p>
+<p><strong>Water access points.</strong> Launched <a href="https://www.unicef.org/innovation/stories/water-point-data-exchange-launched">in 2015</a>, the <a href="https://www.waterpointdata.org/">Water Point Data Exchange</a> today describes <a href="https://www.waterpointdata.org/access-data/">577,000+ specific water access points</a>: boreholes, hand-dug wells, protected springs, rainwater harvest tanks, and more. The platform gathers information from governments and their partners in 50+ countries — mostly in Africa, but also with 10,000+ data-points each in Afghanistan, Bangladesh, Haiti, and India. The records indicate the coordinates of each access point, the date checked, water availability when checked, the water source and/or transport system, and other details. [h/t <a href="https://csvconf.com/speakers/#katy-sill-adam-kariv">Katy Sill and Adam Kariv</a>]</p>
+<p> </p>
+<p><strong>Foreign labor requests.</strong> In order to hire foreign workers through the government’s <a href="https://www.dol.gov/agencies/eta/foreign-labor/programs">H-1B, H-2A, and H-2B programs</a>, US employers need permission from the Department of Labor. The agency collects and publishes <a href="https://www.dol.gov/agencies/eta/foreign-labor/performance">data on each “certification” request</a>, detailing the employer (name, location, industry, etc.), job position (title, pay, etc.), and approval status. The datasets go back more than a decade for each program and receive quarterly updates, the most recent being posted last week. <strong>Related</strong>: At BuzzFeed News, we used the data throughout our 2015/16 <a href="https://www.buzzfeednews.com/article/jessicagarrison/the-new-american-slavery-invited-to-the-us-foreign-workers-f">series</a> <a href="https://www.buzzfeednews.com/article/jessicagarrison/all-you-americans-are-fired">investigating</a> <a href="https://www.buzzfeednews.com/article/kenbensinger/the-coyote">the</a> <a href="https://www.buzzfeednews.com/article/kenbensinger/the-pushovers">H-2 program</a>, and maintain a <a href="https://github.com/BuzzFeedNews/H-2-certification-data/">dataset that standardizes key fields from the raw files</a>. [h/t <a href="https://eigenfoo.xyz/">George Ho</a>]</p>
+<p> </p>
+<p><strong>Congressional scandals.</strong> In 2018, <a href="https://www.michaelgmiller.com/">Michael G. Miller</a> and <a href="https://www.brianhamel.me/">Brian T. Hamel</a> published <a href="https://journals.sagepub.com/doi/full/10.1177/1065912918781044">a study</a> examining how voters and donors responded to scandals embroiling members of the US House between 1980 and 2010, <a href="https://dataverse.harvard.edu/file.xhtml?fileId=4575902&amp;version=1.0">building on</a> <a href="https://journals.sagepub.com/doi/abs/10.1177/1065912912451144">the work of</a> <a href="https://www.bloomsburycollections.com/book/scandal-an-interdisciplinary-approach-to-the-consequences-outcomes-and-significance-of-political-scandals/preface">Scott Basinger and others</a>. They have since expanded <a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/BID3QM">the dataset</a>, which now covers both the House and the Senate and extends through 2018, providing information on 316 legislator-scandal combinations (categorized as financial, sexual, political, or “other”) and their outcomes.</p>
+<p> </p>
+<p><strong>Global mail.</strong> For more than a century, the <a href="https://www.upu.int/en/Home">Universal Postal Union</a> has collected and published statistics about the world’s postal systems. Online, you can <a href="https://www.upu.int/en/Universal-Postal-Union/Activities/Research-Publications/Postal-Statistics">query and export</a> country-level data — the number of letter-boxes and permanent post offices, operating revenue, total staff, and much more — going back to 1980. <strong>Related</strong>: <a href="https://onlinelibrary.wiley.com/doi/10.1111/ajps.12594">Jon C. Rogowski et al.</a> have used historical UPU reports to count the <a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/33K3EF">number of post offices per country between 1875 and 2007</a>. <strong>Previously</strong>: <a href="https://cblevins.github.io/us-post-offices/">US post office locations, 1639–2000</a> (<a href="https://www.data-is-plural.com/archive/2021-04-07-edition/">DIP 2021.04.07</a>).</p>
+<p> </p>
+<p><strong>Le Tour.</strong> On its official website, the Tour de France lists <a href="https://www.letour.fr/en/history">riders’ results in its famed bicycle race since 1903</a>. The site doesn’t provide downloads, but applied mathematician <a href="https://www.camminady.org/">Thomas Camminady</a> has <a href="https://github.com/camminady/LeTourDataSet">scraped it to build a CSV file</a> containing each finisher’s rank, time, team, and more.</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send multi-stage feedback to jsvine@gmail.com, or just reply to this email. Did a friend forward you this edition? Visit <a href="https://www.data-is-plural.com">data-is-plural.com</a> to subscribe and explore the archives.</em></p>
+]]></content>
+    <link href="http://www.data-is-plural.com/archive/2021-04-28-edition" rel="alternate"/>
+    <summary>Water access points, foreign labor requests, congressional scandals, global mail, and the Tour de France.</summary>
+    <published>2021-04-28T08:00:00-04:00</published>
+  </entry>
   <entry>
     <id>dip-2021-04-21</id>
     <title>Data Is Plural — 2021.04.21 edition</title>
@@ -209,27 +231,5 @@
     <link href="http://www.data-is-plural.com/archive/2021-02-24-edition" rel="alternate"/>
     <summary>Indian court cases, machine learning papers/code/datasets, foreign ministers, Spanish pardons, and O’Reilly animals.</summary>
     <published>2021-02-24T08:00:00-05:00</published>
-  </entry>
-  <entry>
-    <id>dip-2021-02-10</id>
-    <title>Data Is Plural — 2021.02.10 edition</title>
-    <updated>2021-02-10T08:00:00-05:00</updated>
-    <content type="CDATA"><![CDATA[<p><em>Hyperlocal Biden/Trump results, subnational COVID-19 vaccinations, historical night light, public-sector employment, and Super Bowl ads.</em></p>
-<p> </p>
-<p><strong>Hyperlocal Biden/Trump results.</strong> To create their “<a href="https://www.nytimes.com/interactive/2021/upshot/2020-election-map.html">Extremely Detailed Map of the 2020 Election</a>,” journalists at The Upshot have gathered and standardized the ballot results for more than 100,000 precincts in dozens of states so far — representing nearly two-thirds of all votes cast. The accompanying <a href="https://github.com/TheUpshot/presidential-precinct-map-2020">GeoJSON dataset</a> indicates the number of votes received by Joe Biden, by Donald Trump, and overall (including third-party and write-in candidates), joined to each precinct’s geographic boundaries. [h/t <a href="https://twitter.com/KevinQ/status/1356631383393923076">Kevin Quealy</a> + <a href="https://twitter.com/ryanmatsumoto1/status/1356581507393933317">Ryan Matsumoto</a>]</p>
-<p> </p>
-<p><strong>Subnational COVID-19 vaccinations.</strong> Software developer <a href="https://lcsrg.me/">Lucas Rodés-Guirao</a> is aggregating <a href="https://github.com/sociepy/covid19-vaccination-subnational">coronavirus vaccination numbers, over time, by administrative division</a> — each canton in Switzerland, for example, and each province in Argentina. The project, inspired by <a href="https://ourworldindata.org/covid-vaccinations">Our World In Data</a>’s <a href="https://github.com/owid/covid-19-data/tree/master/public/data/vaccinations">country-level dataset</a> (<a href="https://www.data-is-plural.com/archive/2020-12-23-edition">DIP 2020.12.23</a>), currently includes 20+ countries and provides links to the sources. [h/t <a href="https://dataisthenewoil.substack.com/p/data-is-the-new-oil-04022021-update">Olivier Lejeune</a>]</p>
-<p> </p>
-<p><strong>Historical night light.</strong> Researchers <a href="https://www.nature.com/articles/s41597-020-0510-y">have harmonized</a> two major datasets measuring the light visible on Earth at night. The first, from the <a href="https://www.ospo.noaa.gov/Operations/DMSP/index.html">Defense Meteorological Satellite Program</a>, <a href="https://eogdata.mines.edu/dmsp/downloadV4composites.html">covers 1992–2013</a>. The second, from the <a href="https://www.jpss.noaa.gov/viirs.html">Visible Infrared Imaging Radiometer Suite</a>, <a href="https://eogdata.mines.edu/products/vnl/">covers 2012 onward</a>. The <a href="https://figshare.com/articles/Harmonization_of_DMSP_and_VIIRS_nighttime_light_data_from_1992-2018_at_the_global_scale/9828827/2">harmonized dataset</a> covers 1992–2018 and polishes the data by removing, for example, “noises from aurora, fires, boasts, and other temporal lights.” <strong>Related</strong>: <a href="https://payneinstitute.mines.edu/eog/">The Colorado School of Mines’ Earth Observation Group</a>, which “specializes in nighttime observations of lights and combustion sources worldwide.” [h/t <a href="https://twitter.com/milos_agathon/status/1358832472348327936">Milos Popovic</a>]</p>
-<p> </p>
-<p><strong>Public-sector employment.</strong> The World Bank’s <a href="https://datacatalog.worldbank.org/dataset/worldwide-bureaucracy-indicators">Worldwide Bureaucracy Indicators</a> “is a unique new cross-national dataset on public sector employment and wages” in 130+ countries between 2000 and 2018, based on censuses and household surveys. The dataset’s measurements include the size of this workforce, its demographics, pay disparities versus the private sector, and more. <strong>Related</strong>: <a href="https://twitter.com/faisalabaig/status/1356326936448917507">An introductory Twitter thread from coauthor Faisal Baig</a>.</p>
-<p> </p>
-<p><strong>Super Bowl ads.</strong> Journalists at FiveThirtyEight <a href="https://projects.fivethirtyeight.com/super-bowl-ads/">watched 233 Super Bowl ads</a> run by 10 frequently-advertising brands between 2000 and 2020, drawing from <a href="https://superbowl-ads.com/">superbowl-ads.com</a>’s video archive. Then they <a href="https://github.com/fivethirtyeight/superbowl-ads">categorized each ad</a> according to seven specific questions, which included “Was it trying to be funny?” and “Did it include animals?”</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send trying-to-be-funny feedback to jsvine@gmail.com, or just reply to this email. Looking for past datasets? <a href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk">This spreadsheet contains them all</a>. Did a friend forward you this email? <a href="https://tinyletter.com/data-is-plural">Click here to subscribe</a>.</em></p>
-]]></content>
-    <link href="http://www.data-is-plural.com/archive/2021-02-10-edition" rel="alternate"/>
-    <summary>Hyperlocal Biden/Trump results, subnational COVID-19 vaccinations, historical night light, public-sector employment, and Super Bowl ads.</summary>
-    <published>2021-02-10T08:00:00-05:00</published>
   </entry>
 </feed>
