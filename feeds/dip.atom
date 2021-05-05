@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.data-is-plural.com</id>
   <title>Data Is Plural</title>
-  <updated>2021-04-28T08:00:00-04:00</updated>
+  <updated>2021-05-05T08:00:00-04:00</updated>
   <author>
     <name>Jeremy Singer-Vine</name>
     <email>jsvine@gmail.com</email>
@@ -10,6 +10,28 @@
   <link href="https://www.data-is-plural.com" rel="alternate"/>
   <generator>https://github.com/data-is-plural/newsletter-archive</generator>
   <subtitle>A weekly newsletter of useful/curious datasets.</subtitle>
+  <entry>
+    <id>dip-2021-05-05</id>
+    <title>Data Is Plural — 2021.05.05 edition</title>
+    <updated>2021-05-05T08:00:00-04:00</updated>
+    <content type="CDATA"><![CDATA[<p><em>Historical land use, union election results, peace mission mandates, Federal Reserve Bank directors, and television castaways.</em></p>
+<p> </p>
+<p><strong>Historical land use.</strong> The <a href="https://themasites.pbl.nl/tridion/en/themasites/hyde/index.html">History Database of the Global Environment</a>, a project of the Netherlands Environmental Assessment Agency, provides <a href="https://themasites.pbl.nl/tridion/en/themasites/hyde/landusedata/landcover/index-2.html">land use estimates that span 12,000 years</a> — from 10,000 BCE to the near-present. The <a href="https://themasites.pbl.nl/tridion/en/themasites/hyde/download/index-2.html">datasets</a> <a href="https://easy.dans.knaw.nl/ui/datasets/id/easy-dataset:74467">include</a> gridded, country-level, and regional estimates of cropland, pasture, grazing areas, and other typologies over time. <strong>Related</strong>: <a href="https://clio-infra.eu/">Clio Infra</a> gathers “worldwide data on social, economic, and institutional indicators for the past five centuries,” including estimates of cropland, livestock, metal production, and more. [h/t <a href="https://twitter.com/CedScherer/status/1384420013533241351">Cédric Scherer</a> + <a href="https://www.reddit.com/r/datasets/comments/mv19ec/agricultural_area_used_for_farming_and_grazing/">u/cavedave</a>]</p>
+<p> </p>
+<p><strong>Union election results.</strong> The US National Labor Relations Board publishes a <a href="https://www.nlrb.gov/reports/graphs-data/recent-election-results">searchable and downloadable database</a> that details the results of thousands of union elections <a href="https://www.nlrb.gov/about-nlrb/what-we-do/conduct-elections">the agency has conducted</a>, going back more than a decade. The records list the employer name and location, tally date and type, petitioned-for employee unit, proposed labor union(s), number of votes for and against those union(s), and more. [h/t <a href="https://twitter.com/CoryMcCartan/status/1384012739626950656">Cory McCartan</a>]</p>
+<p> </p>
+<p><strong>Peace mission mandates.</strong> A team led by political scientist <a href="https://twitter.com/SaraHellmuller">Sara Hellmüller</a> has <a href="https://www.peacemissions.info/">categorized the “evolving mandate tasks”</a> of all 121 United Nations peace missions between 1991 and 2020. The dataset identifies 41 kinds of tasks, which it <a href="https://www.peacemissions.info/dataset#definition">sorts into three categories</a>: “minimalist,” “moderate,” and “maximalist.” Minimalist tasks “reflect an approach that contents itself with absence of armed conflict,” while the maximalist approach “seeks to address root causes,” such as by supporting military reform and women’s rights. <strong>Previously</strong>: <a href="https://peacekeeping.un.org/en/open-data-portal">Official UN peacekeeping data</a> and <a href="https://www.pcr.uu.se/data/geo-pko/">the Geocoded Peacekeeping Operations dataset</a> (<a href="https://www.data-is-plural.com/archive/2019-11-27-edition/">DIP 2019.11.27</a>). [h/t <a href="https://twitter.com/rolandparis/status/1383070123179790338">Roland Paris</a>]</p>
+<p> </p>
+<p><strong>Federal Reserve Bank directors.</strong> To examine diversity in the US <a href="https://www.federalreserve.gov/aboutthefed.htm">Federal Reserve System</a>, a team led by central bank–watchers <a href="https://lgst.wharton.upenn.edu/profile/petercb/">Peter Conti-Brown</a> and <a href="https://kalebnygaard.com/">Kaleb Nygaard</a> has <a href="https://www.brookings.edu/research/diversity-within-the-federal-reserve-system/">compiled a biographical dataset</a> of the nearly 2,000 people who have served as directors of the system’s <a href="https://www.federalreserve.gov/aboutthefed/federal-reserve-system.htm">twelve Reserve Banks</a> between 1914 and 2019. The dataset expands the information available in official reports to include “race, gender, profession, education, age, time spent in position, and whether or not the directors later held a position on the FOMC.”</p>
+<p> </p>
+<p><strong>Television castaways.</strong> Statistician <a href="https://twitter.com/danoehm">Dan Oehm</a> has <a href="https://gradientdescending.com/survivor-data-from-the-tv-series-in-r/">constructed a dataset</a> describing all 40 US seasons of <em>Survivor</em>, providing details on every contestant, challenge winner, individual vote, episode viewership, and more. You can access the data as an R package or an Excel file. [h/t <a href="https://www.reddit.com/r/datasets/comments/mu1ww9/survivor_r_package_a_collection_of_datasets/">u/antirabbit</a>]</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send conniving feedback to jsvine@gmail.com, or just reply to this email. Did a friend forward you this edition? Visit <a href="https://www.data-is-plural.com">data-is-plural.com</a> to subscribe and explore the archives.</em></p>
+]]></content>
+    <link href="http://www.data-is-plural.com/archive/2021-05-05-edition" rel="alternate"/>
+    <summary>Historical land use, union election results, peace mission mandates, Federal Reserve Bank directors, and television castaways.</summary>
+    <published>2021-05-05T08:00:00-04:00</published>
+  </entry>
   <entry>
     <id>dip-2021-04-28</id>
     <title>Data Is Plural — 2021.04.28 edition</title>
@@ -209,27 +231,5 @@
     <link href="http://www.data-is-plural.com/archive/2021-03-03-edition" rel="alternate"/>
     <summary>Police misconduct settlements, congressional e-newsletters, California vaccine availability, illegal cheetah commerce, and soil.</summary>
     <published>2021-03-03T08:00:00-05:00</published>
-  </entry>
-  <entry>
-    <id>dip-2021-02-24</id>
-    <title>Data Is Plural — 2021.02.24 edition</title>
-    <updated>2021-02-24T08:00:00-05:00</updated>
-    <content type="CDATA"><![CDATA[<p><em>Indian court cases, machine learning papers/code/datasets, foreign ministers, Spanish pardons, and O’Reilly animals.</em></p>
-<p> </p>
-<p><strong>Indian court cases.</strong> The <a href="http://www.devdatalab.org/">Development Data Lab</a> has gathered <a href="http://www.devdatalab.org/judicial-bias-data">data on 81.2 million court cases</a> in India’s lower judiciary between 2010 and 2018, drawn from the country’s <a href="https://districts.ecourts.gov.in/">e-Courts platform</a>. It’s “the largest open-access dataset on judicial proceedings in the world,” <a href="https://devdatalab.medium.com/big-data-for-justice-f53e0e14c9c9">says project coauthor Aditi Bhowmick</a>. The public dataset contains each case’s state, district, court, case type, filing and decision dates, defendant and petitioner genders, legal codes, and more. It “has been fully anonymized to prevent the identification of individual judges or litigants,” but researchers can apply for more extensive access. [h/t <a href="https://twitter.com/srajagopalan/status/1358884545743978502">Shruti Rajagopalan</a>]</p>
-<p> </p>
-<p><strong>Machine learning papers, code, and datasets.</strong> <a href="https://paperswithcode.com/about">Papers with Code</a> cross-references machine learning papers with their datasets, code, and results. The project has connected 56,000+ of those papers to specific code repositories, and assembled a <a href="https://paperswithcode.com/datasets">meta-dataset of 3,000+ relevant datasets</a>. The records can be <a href="https://github.com/paperswithcode/paperswithcode-data">downloaded in bulk</a> or <a href="https://paperswithcode.com/api/v1/docs/">fetched via API</a>. <strong>Related</strong>: <a href="https://arxiv.org/abs/2102.00813">A recent study</a> examining 133 facial-recognition datasets created since 1976; <a href="https://www.technologyreview.com/2021/02/05/1017388/ai-deep-learning-facial-recognition-data-history/">further coverage in MIT Technology Review</a>. <strong>Also related</strong>: <a href="https://exposing.ai/">Exposing.ai</a>, which lets you “check if your Flickr photos were used to build face recognition.” [h/t <a href="https://ksaj.inlisp.org">Karsten Johansson</a>]</p>
-<p> </p>
-<p><strong>Foreign ministers.</strong> <a href="https://academic.oup.com/fpa/article/17/2/oraa024/6111504">Hanna Bäck et al.</a> have built a <a href="http://www.stanceatlund.org/foreign-minister-dataset.html">dataset of 1,000+ foreign ministers</a> — all officials holding such a post between 1789 and the mid-2010s in “the world’s 13 former and current great powers.” It describes their stints in office and biographical details, such as their marital status, occupational experience, education level, military service, and much more. [h/t <a href="https://twitter.com/prof_quiroz/status/1354838505483079682">Alex Quiroz Flores</a>]</p>
-<p> </p>
-<p><strong>Spanish pardons.</strong> To build <a href="https://civio.es/el-indultometro/buscador-de-indultos/">El Indultómetro</a>/<a href="https://civio.es/en/pardonometer/pardons-searcher/">The Pardonometer</a>, the <a href="https://civio.es/en/about-us/">Civio Foundation</a> has “collected, scraped and classified all the information contained in the [<a href="https://en.wikipedia.org/wiki/Bolet%C3%ADn_Oficial_del_Estado">Official State Gazette</a>] on pardons granted in Spain since 1996.” You can browse the 10,000+ pardons and commutations online or <a href="https://github.com/civio/elindultometro/blob/master/data/indultos.csv">download the dataset</a>, which describes the initial charges, form of relief, relevant dates, and more. <strong>Related</strong>: <a href="https://civio.es/el-indultometro/metodologia/">Civio’s (Spanish-language) methodology</a> and <a href="https://civio.es/el-indultometro/">reporting on the topic</a>. [h/t <a href="https://unavezalmes.substack.com/p/imperdonable-maradona-indultos-en">Olaya Argüeso Pérez</a>]</p>
-<p> </p>
-<p><strong>O’Reilly animals.</strong> More than 1,000 illustrated animals have graced the covers of O’Reilly Media’s technical books. The publisher hosts an <a href="https://www.oreilly.com/animals.csp">online “menagerie”</a> where you can browse the pairings; it doesn’t provide downloads, but <a href="https://briandfoy.github.io/">brian d foy</a>, author of <a href="https://www.oreilly.com/pub/au/1071">several O’Reilly books</a>, has <a href="https://www.perl.com/article/extracting-the-list-of-o-reilly-animals/">written a Perl tutorial</a> on how to scrape it, and has <a href="https://gist.github.com/briandfoy/d68915eb425e1fc4932ceac5cdf2d60d">shared the results</a>.</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send illustrated feedback to jsvine@gmail.com, or just reply to this email. Looking for past datasets? <a href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk">This spreadsheet contains them all</a>. Did a friend forward you this email? <a href="https://tinyletter.com/data-is-plural">Click here to subscribe</a>.</em></p>
-]]></content>
-    <link href="http://www.data-is-plural.com/archive/2021-02-24-edition" rel="alternate"/>
-    <summary>Indian court cases, machine learning papers/code/datasets, foreign ministers, Spanish pardons, and O’Reilly animals.</summary>
-    <published>2021-02-24T08:00:00-05:00</published>
   </entry>
 </feed>
