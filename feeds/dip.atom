@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.data-is-plural.com</id>
   <title>Data Is Plural</title>
-  <updated>2021-05-26T08:00:00-04:00</updated>
+  <updated>2021-06-02T08:00:00-04:00</updated>
   <author>
     <name>Jeremy Singer-Vine</name>
     <email>jsvine@gmail.com</email>
@@ -10,6 +10,28 @@
   <link href="https://www.data-is-plural.com" rel="alternate"/>
   <generator>https://github.com/data-is-plural/newsletter-archive</generator>
   <subtitle>A weekly newsletter of useful/curious datasets.</subtitle>
+  <entry>
+    <id>dip-2021-06-02</id>
+    <title>Data Is Plural — 2021.06.02 edition</title>
+    <updated>2021-06-02T08:00:00-04:00</updated>
+    <content type="CDATA"><![CDATA[<p><em>Lynching victims, gun-dealer violations, more police misconduct complaints, UK lobbying, and fermentative microbes.</em></p>
+<p> </p>
+<p><strong>Lynching victims.</strong> In the 1880s–1910s, the Chicago Tribune, Tuskegee University, and the NAACP each began collecting data on lynchings in the US. In the 1990s, sociologists <a href="https://soc.washington.edu/people/stewart-tolnay">Stewart Tolnay</a> and <a href="https://sociology.uga.edu/directory/people/e-m-beck">E.M. Beck</a> reverified, standardized, and extended those three collections, compiling a now-seminal dataset that described 2,800+ victims of these mob-led extrajudicial killings — the majority of whom were Black — in 10 Southern states from 1882–1930. The researchers shared a copy of that data with <a href="http://people.uncw.edu/hinese/HAL/HAL%20Web%20Page.htm">Project HAL</a>, where you can download it. Meanwhile, they and collaborators have continued <a href="http://lynching.csde.washington.edu/#/about">updating and expanding the research</a>; you can <a href="http://lynching.csde.washington.edu/#/contact">request access to their latest datasets</a>. In 2019, sociologists <a href="http://www.charlieseguin.com/">Charles Seguin</a> and <a href="https://rigby.netlify.app/">David Rigby</a> published <a href="https://osf.io/kr8yc/">a dataset</a> that <a href="https://journals.sagepub.com/doi/full/10.1177/2378023119841780">aims to complement Tolnay and Beck’s</a> by presenting information (<a href="http://davidrigbysociology.com/lynching_dot_map">and an interactive map</a>) on 1,328 lynching victims in 38 additional states from 1883–1941. [h/t <a href="https://twitter.com/geoffhing">Geoff Hing</a> + <a href="https://www.tandfonline.com/doi/abs/10.1080/01615440.2011.639289">Lisa D. Cook</a>]</p>
+<p> </p>
+<p><strong>Gun-dealer violations.</strong> “The Bureau of Alcohol, Tobacco, Firearms and Explosives inspects thousands of licensed gun dealers and manufacturers each year, but what happens in those investigations is rarely revealed to the public.” So reporters at The Trace and USA Today <a href="https://projects.thetrace.org/inspections/methodology/">compiled</a> a <a href="https://projects.thetrace.org/inspections/">database</a> of nearly 2,000 ATF inspections between July 2015 and June 2017 with violations, based on PDFs obtained <a href="https://www.courtlistener.com/docket/6170066/brady-center-to-prevent-gun-violence-v-us-department-of-justice/">through a FOIA lawsuit</a> by the <a href="https://www.bradyunited.org/">Brady gun control group</a>. It <a href="https://www.thetrace.org/2021/05/atf-inspection-records-gun-stores-guide/">includes</a> dealer information, lists of violations, final dispositions, and more. <strong>Read more</strong>: “<a href="https://www.thetrace.org/2021/05/atf-inspection-report-gun-store-ffl-violation/">The ATF Catches Thousands of Lawbreaking Gun Dealers Every Year. It Shuts Down Very Few.</a>” <strong>Previously</strong>: <a href="https://www.data-is-plural.com/archive/2015-11-04-edition/">The ATF’s licensing database</a> (<a href="https://www.data-is-plural.com/archive/2015-11-04-edition/">DIP 2015.11.04</a>).</p>
+<p> </p>
+<p><strong>More police misconduct complaints.</strong> The <a href="https://www.nyclu.org/">New York Civil Liberties Union</a> has updated its <a href="https://github.com/new-york-civil-liberties-union/NYPD-Misconduct-Complaint-Database-Updated">NYPD misconduct complaint database</a> to include “the race or ethnicity of the impacted person and officer, incident location, current employment status of the officer, and other data,” and to remove duplicates in the original records obtained from the city. <strong>Also</strong>: Philadelphia publishes <a href="https://www.opendataphilly.org/dataset/police-complaints">monthly-updated data</a> on police complaints from the past five years. <strong>Previously</strong>: <a href="https://projects.propublica.org/nypd-ccrb/">ProPublica’s subset of the NYPD data</a> (<a href="https://www.data-is-plural.com/archive/2020-07-29-edition/">DIP 2020.07.29</a>); and <a href="https://cpdp.co/">CPDP’s database of complaints against Chicago officers</a> (<a href="https://www.data-is-plural.com/archive/2015-11-25-edition/">DIP 2015.11.25</a>). <strong>Read more</strong>: The Financial Times has <a href="https://github.com/Financial-Times/police-misconduct-complaints-analysis">compared and analyzed</a> these cities’ datasets, <a href="https://www.ft.com/content/141182fc-7727-4af8-a555-5418fa46d09e">finding</a> that the 10% most-cited officers account for roughly a third of all complaints. [h/t <a href="https://twitter.com/christinezhang">Christine Zhang</a> + <a href="https://eigenfoo.xyz/">George Ho</a>]</p>
+<p> </p>
+<p><strong>Lobbying in Britain.</strong> <a href="https://openaccess.transparency.org.uk/">Open Access UK</a> is a database of 70,000+ meetings between lobbyists and government ministers going back to 2012. The records have been <a href="https://openaccess.transparency.org.uk/about.php">compiled by Transparency International UK</a> from scattered official publications; they list the date of the meeting, the lobbying organization, the minister lobbied, and a brief description of the meeting’s purpose. [h/t <a href="https://buttondown.email/puntofisso/archive/423-quantum-of-sollazzo/">Gavin Freeguard</a>]</p>
+<p> </p>
+<p><strong>Fermentative microbes.</strong> The <a href="https://www.wikim.re.kr/index.es?sid=a2">World Institute of Kimchi</a>’s <a href="https://www.nature.com/articles/s41597-021-00895-x">Omics Database of Fermentative Microbes</a> provides “genome, metagenome, metataxonome, and (meta)transcriptome sequences” of bacteria and other microorganisms associated with a variety of fermented foods. You can <a href="https://odfm.wikim.re.kr/">search the sequenced microbes</a> by taxonomy, research study, and food sampled.</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send anaerobic feedback to jsvine@gmail.com, or just reply to this email. Did a friend forward you this edition? Visit <a href="https://www.data-is-plural.com">data-is-plural.com</a> to subscribe and explore the archives.</em></p>
+]]></content>
+    <link href="http://www.data-is-plural.com/archive/2021-06-02-edition" rel="alternate"/>
+    <summary>Lynching victims, gun-dealer violations, more police misconduct complaints, UK lobbying, and fermentative microbes.</summary>
+    <published>2021-06-02T08:00:00-04:00</published>
+  </entry>
   <entry>
     <id>dip-2021-05-26</id>
     <title>Data Is Plural — 2021.05.26 edition</title>
@@ -207,27 +229,5 @@
     <link href="http://www.data-is-plural.com/archive/2021-03-24-edition" rel="alternate"/>
     <summary>Mass shootings, food-related GHG emissions, infrastructure spending, NYC’s housing lotteries, and animal lifespans.</summary>
     <published>2021-03-24T08:00:00-04:00</published>
-  </entry>
-  <entry>
-    <id>dip-2021-03-17</id>
-    <title>Data Is Plural — 2021.03.17 edition</title>
-    <updated>2021-03-17T08:00:00-04:00</updated>
-    <content type="CDATA"><![CDATA[<p><em>Disasters, nursing-home staffing, Brazil’s vaccination registry, probable news quotations, and British millionaires of the late 1920s.</em></p>
-<p> </p>
-<p><strong>Disasters.</strong> The <a href="https://www.emdat.be/">Emergency Events Database</a> (EM-DAT) contains “essential core data on the occurrence and effects of more than 21,000 [natural and technological] disasters in the world, from 1900 to present.” It <a href="https://www.emdat.be/explanatory-notes">focuses on</a> disasters that have caused 10+ human deaths, affected 100+ people, sparked a state of emergency, and/or prompted a request for international assistance. Where known, the <a href="https://public.emdat.be/">public dataset</a> (registration required) indicates each disaster’s location, type, start/end dates, and estimated damages; the number of people killed, injured, made homeless, or otherwise affected; and more. <strong>Related</strong>: <a href="https://sedac.ciesin.columbia.edu/data/set/pend-gdis-1960-2018">The Geocoded Disasters (GDIS) Dataset</a> (registration required) <a href="https://www.nature.com/articles/s41597-021-00846-6">provides spatial coordinates</a> for the natural disasters in EM-DAT from 1960 to 2018.</p>
-<p> </p>
-<p><strong>Nursing-home staffing.</strong> The US Centers for Medicare &amp; Medicaid Services requires nursing homes to submit <a href="https://www.cms.gov/Medicare/Quality-Initiatives-Patient-Assessment-Instruments/NursingHomeQualityInits/Staffing-Data-Submission-PBJ">detailed payroll information</a>, which the agency converts into <a href="https://data.cms.gov/browse?q=daily+nurse+staffing">public-use files</a> that <a href="https://data.cms.gov/Special-Programs-Initiatives-Long-Term-Care-Facili/PBJ-Public-Use-Files-Data-Documentation/ygny-gzks">summarize</a> daily staffing levels at each facility. The files count employee and contract hours for dozens of types of staff, ranging from administrators to respiratory therapists. <strong>Related</strong>: “<a href="https://www.nytimes.com/2021/03/13/business/nursing-homes-ratings-medicare-covid.html">Maggots, Rape and Yet Five Stars: How U.S. Ratings of Nursing Homes Mislead the Public</a>,” a recent New York Times investigation that uses the data in several ways.</p>
-<p> </p>
-<p><strong>Brazil’s vaccination registry.</strong> Brazil’s health ministry is publishing <a href="https://opendatasus.saude.gov.br/en/dataset/covid-19-vacinacao">granular data from its COVID-19 vaccination registry</a>, with data on more than 12 million doses administered so far. For each dose, it indicates the patient’s date of birth, sex, race, location, and eligibility group; the vaccine name, manufacturer, and lot; the date and location of vaccination; and more. [h/t <a href="https://dataisthenewoil.substack.com/p/data-is-the-new-oil-18022021-update">Olivier Lejeune</a>]</p>
-<p> </p>
-<p><strong>Probable news quotations.</strong> <a href="https://zenodo.org/record/4277311">Quotebank</a> is “an open corpus of 178 million quotations attributed to the speakers who uttered them, extracted from 162 million English news articles published between 2008 and 2020.” Its authors <a href="https://dl.acm.org/doi/10.1145/3437963.3441760">used machine learning</a> to identify the quotes and speakers, “correctly [attributing] 86.9% of quotations in our experiments.” The five most-quoted people: Barack Obama, Donald Trump, Mitt Romney, Hillary Clinton, and Narendra Modi. [h/t <a href="https://pinboard.in/u:arnicas/">Lynn Cherny</a>]</p>
-<p> </p>
-<p><strong>Early British millionaires.</strong> Business historian <a href="https://www.henley.ac.uk/people/professor-peter-scott">Peter Scott</a> has <a href="https://onlinelibrary.wiley.com/doi/epdf/10.1111/ehr.13025">reconstructed a dataset</a> of Britain’s “<a href="https://ehs.org.uk/britains-inter-war-super-rich-the-1928-9-millionaire-list-2/">inter-war super-rich</a>.” Scott started with an official (but mostly nameless) list of 438 “millionaires” (which tax authorities defined as people with annual incomes above £50,000) from 1928/29, and then cross-referenced the entries with other sources to identify 291 men and 28 women who fit the criteria. [h/t <a href="https://mailchi.mp/newsletter.jainfamilyinstitute.org/great-conspiracy">Jain Family Institute</a>]</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send super-rich feedback to jsvine@gmail.com, or just reply to this email. Did a friend forward you this edition? Visit <a href="https://www.data-is-plural.com">data-is-plural.com</a> to subscribe and explore the archives.</em></p>
-]]></content>
-    <link href="http://www.data-is-plural.com/archive/2021-03-17-edition" rel="alternate"/>
-    <summary>Disasters, nursing-home staffing, Brazil’s vaccination registry, probable news quotations, and British millionaires of the late 1920s.</summary>
-    <published>2021-03-17T08:00:00-04:00</published>
   </entry>
 </feed>
