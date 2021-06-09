@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.data-is-plural.com</id>
   <title>Data Is Plural</title>
-  <updated>2021-06-02T08:00:00-04:00</updated>
+  <updated>2021-06-09T08:00:00-04:00</updated>
   <author>
     <name>Jeremy Singer-Vine</name>
     <email>jsvine@gmail.com</email>
@@ -10,6 +10,28 @@
   <link href="https://www.data-is-plural.com" rel="alternate"/>
   <generator>https://github.com/data-is-plural/newsletter-archive</generator>
   <subtitle>A weekly newsletter of useful/curious datasets.</subtitle>
+  <entry>
+    <id>dip-2021-06-09</id>
+    <title>Data Is Plural — 2021.06.09 edition</title>
+    <updated>2021-06-09T08:00:00-04:00</updated>
+    <content type="CDATA"><![CDATA[<p><em>US vaccinations over time, weekly gas prices, COVID-19 and fiscal accountability, Swiss glacier thicknesses, and mathematical proofs.</em></p>
+<p> </p>
+<p><strong>US vaccinations over time.</strong> The CDC has begun publishing <a href="https://data.cdc.gov/Vaccinations/COVID-19-Vaccinations-in-the-United-States-County/8xkx-amqh">daily-historical data on vaccination progress in the US</a>, going back to mid-December 2020. For the country overall, each state and territory, and a handful of other jurisdictions (e.g., the Bureau of Prisons), the dataset indicates the number of Pfizer-BioNTech, Moderna, and J&amp;J/Janssen doses delivered, total doses administered by age group, percentages of populations fully vaccinated, and more. Less-detailed information is also available for <a href="https://data.cdc.gov/Vaccinations/COVID-19-Vaccinations-in-the-United-States-County/8xkx-amqh">each county over time</a> and for <a href="https://data.cdc.gov/Vaccinations/COVID-19-Vaccination-Demographics-in-the-United-St/km4m-vcsb">national demographic trends</a>. <strong>Related</strong>: My colleague <a href="https://www.peteraldhous.com/">Peter Aldhous</a> has <a href="https://twitter.com/paldhous/status/1401948291093340160">incorporated</a> the CDC’s data into <a href="https://www.buzzfeednews.com/article/peteraldhous/covid-vaccine-tracker">BuzzFeed News’ vaccination tracker</a>.</p>
+<p> </p>
+<p><strong>Weekly gas prices.</strong> Every Monday, the Energy Information Administration <a href="https://www.eia.gov/petroleum/gasdiesel/gas_proc-methods.php">collects data</a> “on retail prices for regular, midgrade, and premium grades of gasoline from a sample of retail gasoline outlets across the United States using Form EIA-878, <em>Motor Gasoline Price Survey Schedule A</em>.” The survey informs the agency’s <a href="https://www.eia.gov/petroleum/gasdiesel/">average gas price estimates</a>, which are available at a national and regional level, as well as for a few selected states and cities, going back to the 1990s (though the sampling methodology changed in 2018). The EIA also <a href="https://www.eia.gov/petroleum/gasdiesel/diesel_proc-methods.php">collects data</a> on diesel prices, using a separate survey.</p>
+<p> </p>
+<p><strong>COVID-19 and fiscal accountability.</strong> The <a href="https://www.internationalbudget.org/">International Budget Partnership</a> has published <a href="https://internationalbudget.org/covid/">an assessment</a> of accountability in the emergency fiscal policies that 120 governments introduced between March and September 2020. The report’s downloadable data (see bottom of page) includes each policy package’s name, date introduced, and whether it was a legislative act or executive decree; ratings on various aspects of transparency, oversight, and participation; and scores on 26 specific questions. <strong>Related</strong>: The partnership’s <a href="https://www.internationalbudget.org/open-budget-survey/about">Open Budget Survey</a> and <a href="https://survey.internationalbudget.org">data explorer</a>. [h/t <a href="https://www.rajanzaveri.com/">Rajan Zaveri</a>]</p>
+<p> </p>
+<p><strong>Swiss glacier thicknesses.</strong> “Using AIR-ETH, a new helicopter-borne ground-penetrating radar (GPR) platform,” <a href="https://www.cambridge.org/core/journals/journal-of-glaciology/article/ice-thickness-distribution-of-all-swiss-glaciers-based-on-extended-groundpenetrating-radar-data-and-glaciological-modeling/CB6685222A664FD3FCE1367E2B5245D8">Melchior Grab et al.</a> “measured the ice thickness of all large and most medium-sized glaciers in the Swiss Alps during the years 2016–20. Most of these had either never or only partially been surveyed before.” The <a href="https://www.research-collection.ethz.ch/handle/20.500.11850/434697">team’s latest inventory</a> combines detailed geospatial data from this and previous surveys. <strong>Previously</strong>: <a href="http://www.glims.org/RGI/rgi50_dl.html">The Randolph Glacier Inventory</a> (<a href="https://www.data-is-plural.com/archive/2015-12-16-edition/">DIP 2015.12.16</a>).</p>
+<p> </p>
+<p><strong>Mathematical proofs.</strong> <a href="https://proofwiki.org/wiki/Main_Page">ProofWiki</a> is “an online compendium of mathematical proofs,” with 21,000+ of them and counting. (It also provides <a href="https://proofwiki.org/wiki/Mathematician:Mathematicians">lists of notable mathematicians</a> and <a href="https://proofwiki.org/wiki/ProofWiki:Jokes">a page of jokes</a>.) <a href="https://wellecks.github.io/naturalproofs/">Sean Welleck et al.</a>’s <a href="https://github.com/wellecks/naturalproofs">NaturalProofs dataset</a> contains a processed version of the website’s <a href="https://proofwiki.org/wiki/User:Afirou/website_dump">XML dump</a>, plus data derived from other proof-containing resources.</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send proven feedback to jsvine@gmail.com, or just reply to this email. Did a friend forward you this edition? Visit <a href="https://www.data-is-plural.com">data-is-plural.com</a> to subscribe and explore the archives.</em></p>
+]]></content>
+    <link href="http://www.data-is-plural.com/archive/2021-06-09-edition" rel="alternate"/>
+    <summary>US vaccinations over time, weekly gas prices, COVID-19 and fiscal accountability, Swiss glacier thicknesses, and mathematical proofs.</summary>
+    <published>2021-06-09T08:00:00-04:00</published>
+  </entry>
   <entry>
     <id>dip-2021-06-02</id>
     <title>Data Is Plural — 2021.06.02 edition</title>
@@ -207,27 +229,5 @@
     <link href="http://www.data-is-plural.com/archive/2021-03-31-edition" rel="alternate"/>
     <summary>US coronavirus case details, high-resolution population densities, electoral gender quotas, EU merger decisions, and dried beans.</summary>
     <published>2021-03-31T08:00:00-04:00</published>
-  </entry>
-  <entry>
-    <id>dip-2021-03-24</id>
-    <title>Data Is Plural — 2021.03.24 edition</title>
-    <updated>2021-03-24T08:00:00-04:00</updated>
-    <content type="CDATA"><![CDATA[<p><em>Mass shootings, food-related GHG emissions, infrastructure spending, NYC’s housing lotteries, and animal lifespans.</em></p>
-<p> </p>
-<p><strong>Mass shootings, detailed.</strong> <a href="https://www.theviolenceproject.org/">The Violence Project</a>’s <a href="https://www.theviolenceproject.org/mass-shooter-database/">Mass Shooter Database</a> contains <a href="https://www.theviolenceproject.org/methodology/">extensive details</a> about public mass shootings in the US and their perpetrators, weapons, and victims, with a goal of “finding pathways to prevention.” The database, funded by <a href="https://www.nij.gov/funding/awards/pages/award-detail.aspx?award=2018-75-CX-0023">a National Institute of Justice grant</a>, covers 170+ shootings between 1966 and early 2020. Examples of the variables include: the perpetrator’s employment status, known prejudices, and experience with mental illness; the victims’ relationship to the perpetrator and estimated years of life they lost; and the firearms’ make, model, and method of acquisition. <strong>Previously</strong>: Data on mass shootings from the <a href="https://www.gunviolencearchive.org/methodology">Gun Violence Archive</a> and <a href="https://www.motherjones.com/politics/2012/12/mass-shootings-mother-jones-full-data/">Mother Jones</a> (<a href="https://www.data-is-plural.com/archive/2015-12-09-edition/">DIP 2015.12.09</a>).</p>
-<p> </p>
-<p><strong>Food-related GHG emissions.</strong> <a href="https://edgar.jrc.ec.europa.eu/overview.php?v=EDGAR-FOOD">EDGAR-FOOD</a>, a new dataset from European Commission researchers, <a href="https://www.nature.com/articles/s43016-021-00225-9">provides estimates</a> of the global food system’s greenhouse gas emissions, “consistently covering each stage of the food chain for all countries with yearly frequency for the period 1990–2015.” The dataset distinguishes between four kinds of greenhouse and eight stages: “land use/land-use change activities,” production, processing, packaging, transport, retail, consumption, and waste management. <strong>Related</strong>: <a href="https://www.carbonbrief.org/food-systems-responsible-for-one-third-of-human-caused-emissions">Carbon Brief’s coverage of the research</a>. [h/t <a href="https://www.duncangeere.com/">Duncan Geere</a>]</p>
-<p> </p>
-<p><strong>Infrastructure spending.</strong> Researchers from the US Bureau of Economic Analysis have <a href="https://www.bea.gov/research/papers/2020/measuring-infrastructure-bureau-economic-analysis-national-economic-accounts">constructed a dataset</a> of government investment in basic, social, and digital infrastructure from 1947 to 2017, using data from the agency’s <a href="https://www.bea.gov/data/economic-accounts/national">National Economic Accounts</a>. The investment amounts are broken down by subcategory (water, sewer, power, transportation, education, public safety, healthcare, etc.) and ownership (federal, state/local, or private). [h/t <a href="https://twitter.com/DonFSchneider/status/1367181077316575236">Donald Schneider</a>]</p>
-<p> </p>
-<p><strong>NYC’s housing lotteries.</strong> New York City’s affordable housing lotteries receive hundreds of applications per available unit. For an <a href="https://www.thecity.nyc/2020/6/28/21306383/affordable-housing-lottery-chances-worst-low-income">investigation into the odds</a>, reporters for The City last year <a href="https://github.com/thecityny/housing-lottery-data">obtained and analyzed data</a> on 426 lotteries from 2014 to 2019 (including building locations, unit sizes, monthly rents, and income thresholds), plus basic information (on income and household size) from more than 20 million lottery applications. [h/t <a href="https://twitter.com/annjychoi">Ann Choi</a>]</p>
-<p> </p>
-<p><strong>Animal lifespans.</strong> <a href="https://genomics.senescence.info/species/index.html">AnAge</a> is “a curated database of ageing and life history in animals, including extensive longevity records.” Part of a <a href="https://genomics.senescence.info/">broader project on the genetics of human ageing</a>, the database contains 4,200+ species, from the <a href="https://genomics.senescence.info/species/entry.php?species=Orycteropus_afer">aardvark</a> to the <a href="https://genomics.senescence.info/species/entry.php?species=Pelecus_cultratus">ziege</a>. Where available, it lists maximum lifespans, average gestation times, typical litter sizes, and more. [h/t <a href="https://twitter.com/xangregg">Xan Gregg</a>]</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send aged feedback to jsvine@gmail.com, or just reply to this email. Did a friend forward you this edition? Visit <a href="https://www.data-is-plural.com">data-is-plural.com</a> to subscribe and explore the archives.</em></p>
-]]></content>
-    <link href="http://www.data-is-plural.com/archive/2021-03-24-edition" rel="alternate"/>
-    <summary>Mass shootings, food-related GHG emissions, infrastructure spending, NYC’s housing lotteries, and animal lifespans.</summary>
-    <published>2021-03-24T08:00:00-04:00</published>
   </entry>
 </feed>
