@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.data-is-plural.com</id>
   <title>Data Is Plural</title>
-  <updated>2021-06-09T08:00:00-04:00</updated>
+  <updated>2021-06-16T08:00:00-04:00</updated>
   <author>
     <name>Jeremy Singer-Vine</name>
     <email>jsvine@gmail.com</email>
@@ -10,6 +10,31 @@
   <link href="https://www.data-is-plural.com" rel="alternate"/>
   <generator>https://github.com/data-is-plural/newsletter-archive</generator>
   <subtitle>A weekly newsletter of useful/curious datasets.</subtitle>
+  <entry>
+    <id>dip-2021-06-16</id>
+    <title>Data Is Plural — 2021.06.16 edition</title>
+    <updated>2021-06-16T08:00:00-04:00</updated>
+    <content type="CDATA"><![CDATA[<p><em>Drought in the United States, standardized testing trends, women on high courts, word origins, and animal rescues.</em></p>
+<p> </p>
+<p><em>👋 An experiment in community: Reply to this edition with your preferred name and a brief introduction or icebreaker (up to 100 words) and I’ll connect you (via email) with another (randomly selected) subscriber who has done the same.</em></p>
+<p> </p>
+<p><strong>Drought in the United States.</strong> “Maybe you’ve seen it in the media: that map of the U.S. painted with blobs of yellow, orange and red. It shows drought – but how do we know which colors go where?” <a href="https://droughtmonitor.unl.edu/">US Drought Monitor</a>, a collaboration between the University of Nebraska and two federal agencies, <a href="https://droughtmonitor.unl.edu/About/WhatistheUSDM.aspx">describes the process behind its weekly maps</a>. Its <a href="https://droughtmonitor.unl.edu/About/ContactUs.aspx">authors</a>, who take turns drawing the drought-intensity boundaries, synthesize various sources of quantitative information — such as the <a href="https://wrcc.dri.edu/wwdt/">Palmer Drought Severity Index</a> and the <a href="https://www.nrcs.usda.gov/wps/portal/nrcs/detail/id/snow/?cid=stelprdb1240689">Surface Water Supply Index</a> — and local knowledge. The results can be <a href="https://droughtmonitor.unl.edu/Data.aspx">downloaded</a> as geospatial files, timeseries, and summary statistics. <strong>As seen in</strong>: “<a href="https://www.nytimes.com/interactive/2021/06/11/climate/california-western-drought-map.html">How Severe Is the Western Drought? See For Yourself</a>,” from the New York Times.</p>
+<p> </p>
+<p> </p>
+<p><strong>Standardized testing trends.</strong> Stanford University’s <a href="https://edopportunity.org/">Educational Opportunity Project</a> uses restricted-access data on standardized test results <a href="https://edopportunity.org/methods">to estimate trends in academic performance and learning rates</a> in grades 3–8 across US schools, school districts, counties, states, and other geographies, and with respect to race, gender, and economic status. Last week the project <a href="https://edopportunity.org/whats-new/">released v4.1</a> of <a href="https://edopportunity.org/about/">their public dataset</a>, adding estimates for Native American students and <a href="https://www.bie.edu/">Bureau of Indian Education</a> schools. <strong>As seen in</strong>: “<a href="https://www.propublica.org/article/the-bureau-of-indian-information-hasnt-told-the-public-how-its-schools-are-performing">The Bureau of Indian Education Hasn’t Told the Public How Its Schools Are Performing. So We Did It Instead</a>,” from ProPublica and the Arizona Republic, <a href="https://www.propublica.org/article/how-we-analyzed-the-performance-of-bureau-of-indian-education-schools">which compiled data for the new estimates</a>. [h/t <a href="https://twitter.com/oldjacket">Otis Anderson</a>]</p>
+<p> </p>
+<p><strong>Women on high courts.</strong> <a href="https://womenonhighcourts.com/researchers/">Maria C. Escobar-Lemmon et al.</a> have assembled a <a href="https://womenonhighcourts.com/data/">dataset</a> on the representation of women in constitutional, supreme, and highest-appellate courts around the world. It lists the number and percentage of women on those courts in 175 countries (from 1970 to 2013), and indicates the first year a woman was appointed to each court (updated through 2020). [h/t <a href="https://twitter.com/kangalicej/status/1397553926430461957">Alice J. Kang</a>]</p>
+<p> </p>
+<p><strong>Word origins.</strong> <a href="http://gerard.demelo.org/">Gerard de Melo</a>’s <a href="http://etym.org/">Etymological Wordnet</a> provides structured data on the relationship of words to one another, mostly mined from their semi-structured descriptions on <a href="https://www.wiktionary.org/">Wiktionary</a> as of 2013. The dataset includes hundreds of thousands of word-origin associations, among other connections. <strong>As seen in</strong>: “<a href="https://www.danielde.dev/blog/surprising-shared-word-etymologies/">Surprising shared word etymologies</a>,” a recent blog post by <a href="https://www.danielde.dev/">Daniel de Haas</a>. [h/t <a href="https://www.linkedin.com/in/michael-allen-60287015b/">Michael Allen</a>]</p>
+<p> </p>
+<p><strong>Fox in bedroom, dog trapped in wall.</strong> The London Fire Brigade responds to hundreds of requests to rescue animals each year. Its monthly-updated <a href="https://data.london.gov.uk/dataset/animal-rescue-incidents-attended-by-lfb">spreadsheet of such events</a> goes back to 2009; it lists the location and type of property, the kind of animal and rescue, hours spent, a (very) brief description, and more. [h/t <a href="https://www.getrevue.co/profile/FairWarning/issues/fair-warning-cutting-carbon-animal-rescues-and-the-oscars-568608">Soph Warnes</a>]</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send stuck-in-tree feedback to jsvine@gmail.com, or just reply to this email. Did a friend forward you this edition? Visit <a href="https://www.data-is-plural.com">data-is-plural.com</a> to subscribe and explore the archives.</em></p>
+]]></content>
+    <link href="http://www.data-is-plural.com/archive/2021-06-16-edition" rel="alternate"/>
+    <summary>Drought in the United States, standardized testing trends, women on high courts, word origins, and animal rescues.</summary>
+    <published>2021-06-16T08:00:00-04:00</published>
+  </entry>
   <entry>
     <id>dip-2021-06-09</id>
     <title>Data Is Plural — 2021.06.09 edition</title>
@@ -207,27 +232,5 @@
     <link href="http://www.data-is-plural.com/archive/2021-04-07-edition" rel="alternate"/>
     <summary>Post offices, Han Chinese names, working hours, London’s COVID restrictions, and 1½ centuries of Great Lakes fishing.</summary>
     <published>2021-04-07T08:00:00-04:00</published>
-  </entry>
-  <entry>
-    <id>dip-2021-03-31</id>
-    <title>Data Is Plural — 2021.03.31 edition</title>
-    <updated>2021-03-31T08:00:00-04:00</updated>
-    <content type="CDATA"><![CDATA[<p><em>US coronavirus case details, high-resolution population densities, electoral gender quotas, EU merger decisions, and dried beans.</em></p>
-<p> </p>
-<p><strong>US coronavirus case details.</strong> Last week, the US CDC began publishing a <a href="https://data.cdc.gov/Case-Surveillance/COVID-19-Case-Surveillance-Public-Use-Data-with-Ge/n8mc-b4w4">new, geographically-specific COVID-19 “case surveillance” dataset</a>. Each of the 22 million rows represents a (<a href="https://github.com/CDCgov/covid_case_privacy_review">de-identified</a>) coronavirus case, accounting for roughly 70% of the country’s current official case count. The details include (where available) the person’s county and state of residence; age, sex, race, and ethnicity; “presence of any underlying medical conditions and risk behaviors”; and whether the person was hospitalized and/or died. <strong>Read more</strong>: <a href="https://coviddatadispatch.com/2021/03/28/new-more-local-data-from-the-cdc/">Betsy Ladyzhets writes at the COVID-19 Data Dispatch</a>, “After months of no state-by-state demographic data from the federal government, we now have county-by-county demographic data. This is a pretty big deal!"</p>
-<p> </p>
-<p><strong>High-resolution population densities.</strong> “Using a mixture of machine learning techniques, high-resolution satellite imagery, and population data,” <a href="https://ai.facebook.com/blog/mapping-the-world-to-help-aid-workers-with-weakly-semi-supervised-learning">researchers at Facebook and Columbia University</a> have “mapped hundreds of millions of structures distributed across vast areas and then used that to extrapolate the local population density.” The <a href="https://dataforgood.fb.com/tools/population-density-maps/">project</a>, which <a href="https://engineering.fb.com/2016/02/21/core-data/connecting-the-world-with-better-maps/">began half a decade ago</a>, now provides <a href="https://data.humdata.org/search?organization=facebook&amp;q=%22high%20resolution%20population%20density%22">population density datasets</a> covering much of the world. (China, Russia, and Canada are among the notable countries missing.) <strong>Read more</strong>: <a href="https://twitter.com/benmschmidt/status/1369718224997220362">Benjamin Schmidt’s exploratory Twitter thread</a>. <strong>Previously</strong>: <a href="https://ghslsys.jrc.ec.europa.eu/index.php">The Global Human Settlement Layer</a> (<a href="https://www.data-is-plural.com/archive/2016-11-02-edition/">DIP 2016.11.02</a>).</p>
-<p> </p>
-<p><strong>Electoral gender quotas.</strong> Many countries apply <a href="https://www.idea.int/data-tools/data/gender-quotas/quotas">gender quotas</a> to their parliamentary elections, typically by reserving a certain number of seats for women or by regulating political parties’ candidate lists. In other instances, parties have instituted voluntary quotas. The <a href="https://www.idea.int/data-tools/data/gender-quotas">Gender Quotas Database</a> categorizes these rules <a href="https://www.idea.int/data-tools/data/gender-quotas/database">for more than 120 nations</a>, and provides additional details through its country profile pages.</p>
-<p> </p>
-<p><strong>EU merger decisions.</strong> <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3366915">Pauline Affeldt et al.</a> have compiled a <a href="https://www.diw.de/en/diw_01.c.670982.en/pages/research_data_center_for_business_and_organizational_data__rdc-bo.html">quarter century of merger control decisions</a> by the European Commission’s <a href="https://ec.europa.eu/dgs/competition/index_en.htm">Directorate-General for Competition</a> — decisions relating to 5,000+ cases and 31,000+ product/market combinations between 1990 and 2014. The dataset lists the target company, acquiring company, industry, product, outcome, decision date, and more. [h/t <a href="https://twitter.com/AnnaRBennato/status/1367803357314813952">Anna Rita Bennato</a>]</p>
-<p> </p>
-<p><strong>Dried beans.</strong> Researchers at Turkey’s <a href="https://en.wikipedia.org/wiki/Sel%C3%A7uk_University">Selçuk University</a> have <a href="https://www.sciencedirect.com/science/article/abs/pii/S0168169919311573">built</a> a computer vision program to measure and classify images of dried beans. Their <a href="https://archive.ics.uci.edu/ml/datasets/Dry+Bean+Dataset">dataset</a> includes 13,611 specimens across seven varieties; for each, it reports the bean’s perimeter, axis lengths, roundness, and more. [h/t <a href="https://twitter.com/merbroussard/status/1371551820426907649">Meredith Broussard</a>]</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send leguminous feedback to jsvine@gmail.com, or just reply to this email. Did a friend forward you this edition? Visit <a href="https://www.data-is-plural.com">data-is-plural.com</a> to subscribe and explore the archives.</em></p>
-]]></content>
-    <link href="http://www.data-is-plural.com/archive/2021-03-31-edition" rel="alternate"/>
-    <summary>US coronavirus case details, high-resolution population densities, electoral gender quotas, EU merger decisions, and dried beans.</summary>
-    <published>2021-03-31T08:00:00-04:00</published>
   </entry>
 </feed>
