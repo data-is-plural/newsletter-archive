@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.data-is-plural.com</id>
   <title>Data Is Plural</title>
-  <updated>2021-06-16T08:00:00-04:00</updated>
+  <updated>2021-06-23T08:00:00-04:00</updated>
   <author>
     <name>Jeremy Singer-Vine</name>
     <email>jsvine@gmail.com</email>
@@ -10,6 +10,28 @@
   <link href="https://www.data-is-plural.com" rel="alternate"/>
   <generator>https://github.com/data-is-plural/newsletter-archive</generator>
   <subtitle>A weekly newsletter of useful/curious datasets.</subtitle>
+  <entry>
+    <id>dip-2021-06-23</id>
+    <title>Data Is Plural — 2021.06.23 edition</title>
+    <updated>2021-06-23T08:00:00-04:00</updated>
+    <content type="CDATA"><![CDATA[<p><em>2020 election emails, civilian harm in Yemen, medical abbreviations, NYC constituent inquiries, and Forrest Gump-ology.</em></p>
+<p> </p>
+<p><strong>2020 election emails.</strong> To build the <a href="https://electionemails2020.org/">Princeton Corpus of Political Emails</a>, researchers auto-subscribed to thousands of mailing lists run by candidates, political parties, and other groups participating in the 2020 US election cycle. They’ve received 400,000+ messages so far. Since October, you’ve been able to search the corpus online; as of last month, you can <a href="https://docs.google.com/forms/d/e/1FAIpQLSdcgjZo-D1nNON4d90H2j0VLtTdxiHK6Y8HPJSpdRu4w5YILw/viewform">request access</a> to v1.0 of its bulk dataset, which contains 300,000+ emails received through Election Day. For each, it provides the subject and body text, sender, office sought, and more. <strong>Previously</strong>: <a href="https://www.lindseycormack.com/dcinbox-data-downloads">Congressional e-newsletters</a> via <a href="https://www.dcinbox.com/">DCinbox</a> (<a href="https://www.data-is-plural.com/archive/2021-03-03-edition/">DIP 2021.03.03</a>), and political emails gathered <a href="https://github.com/the-markup/investigation-wheres-my-email">by The Markup</a> and <a href="https://github.com/fivethirtyeight/candidate-emails">by FiveThirtyEight</a> (<a href="https://www.data-is-plural.com/archive/2020-03-04-edition/">DIP 2020.03.04</a>). [h/t <a href="http://samanthaguss.com">Samantha Guss</a>]</p>
+<p> </p>
+<p><strong>Civilian harm in Yemen.</strong> The UN-affiliated <a href="https://civilianimpactmonitoring.org/">Civilian Impact Monitoring Project</a> <a href="https://civilianimpactmonitoring.org/methodology">conducts</a> “real-time collection, analysis and dissemination of open source data on the civilian impact from armed violence in Yemen.” Its public datasets include the <a href="https://data.humdata.org/dataset/yemen-civilian-impact-incidents-and-civilian-casualties">monthly incident and casualty counts</a> and the <a href="https://data.humdata.org/dataset/yemen-impact-on-civilian-infrastructure">incidents per region damaging various types of civilian infrastructure</a>. <strong>Related</strong>: <a href="https://www.acaps.org/">ACAPS</a>, a humanitarian analysis group, <a href="https://data.humdata.org/search?q=%22Yemen%20CrisisInSight%22&amp;sort=title_case_insensitive%20desc">is aggregating data</a> on a range of “key drivers” and outcomes of the crisis (such as fuel prices, malnutrition, and internal displacement) in each district and governorate. <strong>Previously</strong>: <a href="https://yemendataproject.org/">The Yemen Data Project</a> (<a href="https://www.data-is-plural.com/archive/2019-04-03-edition/">DIP 2019.04.03</a>). [h/t <a href="https://twitter.com/SadamAladwar/status/1366456457986781185">Sadam Al-Adwar</a>]</p>
+<p> </p>
+<p><strong>Medical abbreviations.</strong> <a href="https://www.nature.com/articles/s41597-021-00929-4">Lisa Grossman Liu et al.</a> have developed the <a href="https://github.com/lisavirginia/clinical-abbreviations/tree/master/metainventory">Medical Abbreviation and Acronym Meta-Inventory</a>, a database that maps 104,000+ medical abbreviations and acronyms to 170,000+ different meanings. To build it, the authors standardized data from <a href="https://www.nature.com/articles/s41597-021-00929-4/tables/2">eight sources</a>, including the <a href="https://www.nlm.nih.gov/research/umls/index.html">Unified Medical Language System</a>, <a href="https://en.wikipedia.org/wiki/List_of_medical_abbreviations">Wikipedia</a>, and <a href="http://arrowsmith.psych.uic.edu/arrowsmith_uic/adam.html">ADAM: Another Database of Abbreviations in MEDLINE</a>. <strong>Related</strong>: “<a href="https://www.sciencedirect.com/science/article/pii/S1532046418302132">At our urban academic medical center, acronyms constituted 30–50% of the words in a typical medicine admission note.</a>”</p>
+<p> </p>
+<p><strong>NYC constituent inquiries.</strong> Many members of the New York City Council use <a href="https://council.nyc.gov/districts/data1/">CouncilStat</a> to track their constituents’ requests, complaints, and other inquiries. The tool’s <a href="https://data.cityofnewyork.us/City-Government/NYC-Council-Constituent-Services/9hzi-kbqb">public dataset</a> contains 260,000+ anonymized entries going back to 2015. It identifies each inquiry’s topic (e.g., tax preparation, citizenship, affordable housing, street resurfacing), district, and dates opened and closed. <strong>As seen in</strong>: <a href="https://www.thecity.nyc/2021/6/15/22536020/nyc-city-council-constituent-service">A pre-election analysis of the requests</a> by <em>The City</em>’s <a href="https://www.twitter.com/annjychoi">Ann Choi</a>.</p>
+<p> </p>
+<p><strong>Forrest Gump-ology.</strong> <a href="https://www.studyforrest.org/">StudyForrest</a> is “a one-of-a-kind resource for studying high-level cognition in the human brain under complex, natural stimulation.” Specifically: while watching <em>Forrest Gump</em>. In addition to fMRI scans and eye-tracking measurements, <a href="https://www.studyforrest.org/data.html">the project’s datasets</a> include extensive annotations of the film itself, such as the <a href="https://f1000research.com/articles/5-2273/v1">location and timing of each shot</a>.</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send box-of-chocolates feedback to jsvine@gmail.com, or just reply to this email. Did a friend forward you this edition? Visit <a href="https://www.data-is-plural.com">data-is-plural.com</a> to subscribe and explore the archives.</em></p>
+]]></content>
+    <link href="http://www.data-is-plural.com/archive/2021-06-23-edition" rel="alternate"/>
+    <summary>2020 election emails, civilian harm in Yemen, medical abbreviations, NYC constituent inquiries, and Forrest Gump-ology.</summary>
+    <published>2021-06-23T08:00:00-04:00</published>
+  </entry>
   <entry>
     <id>dip-2021-06-16</id>
     <title>Data Is Plural — 2021.06.16 edition</title>
@@ -210,27 +232,5 @@
     <link href="http://www.data-is-plural.com/archive/2021-04-14-edition" rel="alternate"/>
     <summary>Global abortion rates, pandemic-era central banking, the Household Pulse Survey, news homepages, and rainforest soundscapes.</summary>
     <published>2021-04-14T08:00:00-04:00</published>
-  </entry>
-  <entry>
-    <id>dip-2021-04-07</id>
-    <title>Data Is Plural — 2021.04.07 edition</title>
-    <updated>2021-04-07T08:00:00-04:00</updated>
-    <content type="CDATA"><![CDATA[<p><em>Post offices, Han Chinese names, working hours, London’s COVID restrictions, and 1½ centuries of Great Lakes fishing.</em></p>
-<p> </p>
-<p><strong>Post offices.</strong> Historian <a href="https://www.cameronblevins.org/">Cameron Blevins</a> has released a <a href="https://cblevins.github.io/us-post-offices/">dataset</a> of 166,000+ post offices operating in the US between 1639 and 2000. It includes their years of service and precise/approximate geocoordinates, “making it one of the most fine-grained and expansive datasets currently available for studying the historical geography of the United States.” The project <a href="https://cblevins.github.io/us-post-offices/data-biography/">builds on research by the late Richard W. Helbock</a> and provides the data-foundation for Blevins’s new book, <a href="https://www.cameronblevins.org/paper-trails/"><em>Paper Trails: The US Post and the Making of the American West</em></a>, and <a href="https://gossamernetwork.com/">companion website</a>. <strong>Read more</strong>: <a href="https://twitter.com/historying/status/1377336343676608513">Blevins’s introductory Twitter thread</a>. [h/t <a href="https://www.linkedin.com/in/eric-gardner-0531aa9/">Eric Gardner</a> + <a href="https://scholar.harvard.edu/apalbright">Alex Albright</a>]</p>
-<p> </p>
-<p><strong>Han Chinese names.</strong> The <a href="https://github.com/psychbruce/ChineseNames">Chinese Name Database</a>, published by social psychology grad student <a href="https://psychbruce.github.io/">Han-Wu-Shuang (Bruce) Bao (包寒吴霜)</a>, “contains nationwide frequency statistics of 1,806 Chinese surnames and 2,614 Chinese characters used in given names, covering about 1.2 billion Han Chinese population (96.8% of the Han Chinese household-registered population born from 1930 to 2008 and still alive in 2008).” The statistics, obtained from China’s National Citizen Identity Information Center, also record the frequencies of given-name characters for six age cohorts, based on decade of birth. <strong>Read more</strong>: “<a href="https://kontinentalist.com/stories/a-cultural-history-of-han-chinese-names-for-girls-and-boys-in-china">What can we tell from the evolution of Han Chinese names?</a>” — an explainer and analysis by <a href="https://twitter.com/patcheez94">Isabella Chua</a> in <a href="https://kontinentalist.com/about">Kontinentalist</a>. [h/t <a href="https://flowingdata.com/2021/03/16/evolution-of-chinese-names/">Nathan Yau</a>]</p>
-<p> </p>
-<p><strong>Working hours.</strong> For an article initially published in 2013 and since updated, Our World in Data has examined <a href="https://ourworldindata.org/working-hours">historical trends in the number of hours that people work</a>. The <a href="https://ourworldindata.org/working-hours#data-sources">data sources</a> vary in geographic and temporal scope, with most spanning decades; they include <a href="https://personal.lse.ac.uk/minns/Huberman_Minns_EEH_2007.pdf">Huberman and Minns</a> (PDF, see Table 3), the <a href="https://www.rug.nl/ggdc/productivity/pwt/">Penn World Table</a>, the <a href="https://conference-board.org/data/economydatabase">Total Economy Database</a> (registration required), the <a href="https://stats.oecd.org/Index.aspx?DataSetCode=ANHRS">OECD</a>, and more.</p>
-<p> </p>
-<p><strong>London’s COVID restrictions.</strong> London <a href="https://data.london.gov.uk/dataset/covid-19-restrictions-timeseries">is providing</a> an “experimental dataset” categorizing the various coronavirus-related restrictions that have affected the UK capital since March 2020. It lists the dates of 22 policy changes, including three separate lockdowns; whether schools, pubs, restaurants, and/or shops were closed; whether household mixing was banned; and more. [h/t <a href="https://dataisthenewoil.substack.com/p/data-is-the-new-oil-01042021-update">Olivier Lejeune</a>]</p>
-<p> </p>
-<p><strong>Fishing the Great Lakes.</strong> The Great Lakes Fishery Commission, <a href="http://www.glfc.org/about.php">whose founding was spurred by an invasion of sea lampreys</a>, publishes <a href="http://www.glfc.org/great-lakes-databases.php">several datasets</a> relevant to the famous North American basin. Among them: “Commercial Fish Production In The Great Lakes 1867-2015,” which tallies the number of pounds caught each year by lake, jurisdiction, and species. [h/t <a href="https://twitter.com/forestgregg/status/1375444473371635714">Forest Gregg</a>]</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send wild-caught feedback to jsvine@gmail.com, or just reply to this email. Did a friend forward you this edition? Visit <a href="https://www.data-is-plural.com">data-is-plural.com</a> to subscribe and explore the archives.</em></p>
-]]></content>
-    <link href="http://www.data-is-plural.com/archive/2021-04-07-edition" rel="alternate"/>
-    <summary>Post offices, Han Chinese names, working hours, London’s COVID restrictions, and 1½ centuries of Great Lakes fishing.</summary>
-    <published>2021-04-07T08:00:00-04:00</published>
   </entry>
 </feed>
