@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.data-is-plural.com</id>
   <title>Data Is Plural</title>
-  <updated>2021-06-30T08:00:00-04:00</updated>
+  <updated>2021-07-07T08:00:00-04:00</updated>
   <author>
     <name>Jeremy Singer-Vine</name>
     <email>jsvine@gmail.com</email>
@@ -10,6 +10,28 @@
   <link href="https://www.data-is-plural.com" rel="alternate"/>
   <generator>https://github.com/data-is-plural/newsletter-archive</generator>
   <subtitle>A weekly newsletter of useful/curious datasets.</subtitle>
+  <entry>
+    <id>dip-2021-07-07</id>
+    <title>Data Is Plural — 2021.07.07 edition</title>
+    <updated>2021-07-07T08:00:00-04:00</updated>
+    <content type="CDATA"><![CDATA[<p><em>Water politics, government regulations, rural hospital closures, vertebrates’ viruses, and Andean roadkill.</em></p>
+<p> </p>
+<p><strong>Water politics.</strong> Oregon State University’s <a href="https://transboundarywaters.science.oregonstate.edu/content/international-water-event-database">International Water Events Database</a> summarizes 7,000+ episodes from 1948 to 2008 that “concern water as a scarce or consumable resource or as a quantity to be managed,” categorizing their intensities and indicating the basins and countries involved. The <a href="https://pacinst.org/">Pacific Institute</a>’s <a href="https://www.worldwater.org/water-conflict/">Water Conflict Chronology</a> documents 926 events (including a few legends) between 3000 BC and 2019 that involved violence or the threat of it. Bernhauer et al.’s <a href="https://www.prio.org/Publications/Publication/?x=5118">Water-Related Intrastate Conflict and Cooperation</a> dataset details 10,000+ events in the Middle East, Mediterranean, and Sahel between 1997 and 2009. <strong>Related</strong>: Takeshi Wada’s “<a href="https://ifi.u-tokyo.ac.jp/en/wp-content/uploads/2021/05/sdgs_wp_2020_wada_en.pdf">Geographic Distribution of Water Conflicts Worldwide: A Comparative Analysis of Four Databases</a>” (<em>pdf</em>) discusses these resources plus <a href="https://www.gdeltproject.org/data.html">GDELT</a>, a broader-scope event database.</p>
+<p> </p>
+<p><strong>Government regulations.</strong> <a href="https://www.quantgov.org/about">QuantGov</a>, an <a href="https://github.com/quantgov">open-source</a> project of the free-market-oriented <a href="https://www.mercatus.org/">Mercatus Center</a>, “solves the problem of quantifying large amounts of policy text for research and comprehension by using machine learning and natural language processing.” Its <a href="https://www.quantgov.org/history">RegData</a> initiative applies this approach to government regulations over time — quantifying their length and linguistic complexity and trying to identify their relevant <a href="https://www.census.gov/naics/">NAICS</a>-classified industries. Its <a href="https://www.quantgov.org/download-data">datasets</a> examine rules enacted by the federal government and most US states, as well as federal and subnational regulations from Australia, Canada, and India. [h/t <a href="https://www.thecgo.org/research/the-economic-geography-of-beer-regulations/">Aaron Staples et al.</a>]</p>
+<p> </p>
+<p><strong>Rural hospital closures.</strong> The <a href="https://www.shepscenter.unc.edu/programs-projects/rural-health/">North Carolina Rural Health Research Program</a> maintains a list of <a href="https://www.shepscenter.unc.edu/programs-projects/rural-health/rural-hospital-closures/">rural hospital closures in the US since 2005</a>. The dataset contains 181 entries through June 2021, each representing a complete closure or a conversion from inpatient care to other services, and indicates the hospital, number of beds, Medicare payment program, month of closure, and the location’s <a href="https://www.ers.usda.gov/data-products/rural-urban-commuting-area-codes.aspx">Rural-Urban Commuting Area classification</a>. [h/t <a href="https://coviddatadispatch.com/2021/06/20/featured-sources-june-20/">Betsy Ladyzhets</a>]</p>
+<p> </p>
+<p><strong>Vertebrates’ viruses.</strong> <a href="https://www.viralemergence.org/virion">VIRION</a> is “an open atlas of the vertebrate virome” that <a href="https://twitter.com/viralemergence/status/1394270587267264518">launched in May</a>. It represents the associations between 9,000+ viruses and 3,700+ host species, <a href="https://github.com/viralemergence/virion#how-we-built-virion">drawing from a range of sources</a>, including USAID’s <a href="https://healthmap.org/predict/">PREDICT project</a> and the <a href="https://www.globalbioticinteractions.org/">GloBI project</a>, which organizes data about inter-species interactions. [h/t <a href="https://twitter.com/tpoi/status/1394633093856759808">Timothée Poisot</a>]</p>
+<p> </p>
+<p><strong>Andean roadkill.</strong> For their recent paper, “<a href="https://onlinelibrary.wiley.com/doi/full/10.1111/btp.12938">Geography of roadkills within the Tropical Andes Biodiversity Hotspot</a>,” ecologists <a href="https://twitter.com/pmedranoviz">Pablo Medrano-Vizcaíno</a> and <a href="https://scholar.google.com/citations?user=Vv-viDsAAAAJ&amp;hl=en">Santiago Espinosa</a> surveyed three 33-kilometer road segments dozens of times in 2014. Their <a href="https://datadryad.org/stash/dataset/doi:10.5061/dryad.xwdbrv1cp">publication datasets</a> provide details about the 445 dead vertebrates they found, including one new-to-science species of snake. [h/t <a href="http://cjlm.ca">Christian Miles</a> + <a href="https://www.economist.com/science-and-technology/2021/05/06/roadkill-provide-a-novel-way-to-sample-an-areas-animals">The Economist</a>]</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send new-to-science feedback to jsvine@gmail.com, or just reply to this email. Did a friend forward you this edition? Visit <a href="https://www.data-is-plural.com">data-is-plural.com</a> to subscribe and explore the archives.</em></p>
+]]></content>
+    <link href="http://www.data-is-plural.com/archive/2021-07-07-edition" rel="alternate"/>
+    <summary>Water politics, government regulations, rural hospital closures, vertebrates’ viruses, and Andean roadkill.</summary>
+    <published>2021-07-07T08:00:00-04:00</published>
+  </entry>
   <entry>
     <id>dip-2021-06-30</id>
     <title>Data Is Plural — 2021.06.30 edition</title>
@@ -210,27 +232,5 @@
     <link href="http://www.data-is-plural.com/archive/2021-04-28-edition" rel="alternate"/>
     <summary>Water access points, foreign labor requests, congressional scandals, global mail, and the Tour de France.</summary>
     <published>2021-04-28T08:00:00-04:00</published>
-  </entry>
-  <entry>
-    <id>dip-2021-04-21</id>
-    <title>Data Is Plural — 2021.04.21 edition</title>
-    <updated>2021-04-21T08:00:00-04:00</updated>
-    <content type="CDATA"><![CDATA[<p><em>Domestic terrorism, web crawls, COVID-19 in incarceration facilities, New York City languages, and CEO dismissals.</em></p>
-<p> </p>
-<p><strong>Domestic terrorism.</strong> The <a href="https://www.csis.org/programs/about-us">Center for Strategic and International Studies</a> has <a href="https://www.csis.org/analysis/military-police-and-rise-terrorism-united-states">analyzed</a> data on 980 domestic terrorism plots and attacks in the US from 1994 through January 2021, categorizing them as “violent far-right,” “violent far-left,” “religious,” “ethnonationalist,” or “other.” (The <a href="https://csis-website-prod.s3.amazonaws.com/s3fs-public/publication/210412_Jones_Methodology.pdf">project’s methodology</a> provides further details.) The researchers haven’t published the full dataset, but have allowed the Washington Post to publish <a href="https://github.com/wpinvestigative/csis_domestic_terrorism">a large slice of it</a> — a dozen columns for each incident, with dates, locations, type of target, and more. Based on its own research, the Post added eight more columns about the far-right attacks, which it used for a <a href="https://www.washingtonpost.com/investigations/interactive/2021/domestic-terrorism-data/">data-driven article on the topic</a>. <strong>Previously</strong>: <a href="http://www.start.umd.edu/gtd/">The Global Terrorism Database</a> (<a href="https://www.data-is-plural.com/archive/2018-02-07-edition/">DIP 2018.02.07</a>).</p>
-<p> </p>
-<p><strong>The web, crawled.</strong> The nonprofit <a href="https://commoncrawl.org/">Common Crawl</a> is “dedicated to providing a copy of the internet to internet researchers, companies and individuals at no cost for the purpose of research and analysis.” Over the past decade, it has gathered and shared <a href="https://commoncrawl.org/the-data/get-started/">petabytes of data</a> from its roughly-monthly web crawls. The <a href="https://commoncrawl.org/2021/03/february-march-2021-crawl-archive-now-available/">most recent</a>, completed in early March, contains 2.7 billion pages. <strong>Related</strong>: The University of Mannheim’s <a href="http://webdatacommons.org/">Web Data Commons</a> generates structured data from the crawls, including <a href="http://webdatacommons.org/structureddata/schemaorgtables/">nearly 300 million rows</a> of information (on products, events, museums, and more) extracted from websites’ <a href="https://schema.org/">schema.org</a> markup. [h/t <a href="https://twitter.com/cyberandy/status/1376540713614204930">Andrea Volpini</a>]</p>
-<p> </p>
-<p><strong>COVID-19 in incarceration, by facility.</strong> For more than a year, the New York Times <a href="https://github.com/nytimes/covid-19-data/tree/master/prisons">collected data</a> on "coronavirus infections, deaths and testing for state and federal prisons; immigration detention centers; juvenile detention facilities; local, regional and reservation jails; and those in the custody of the U.S. Marshals Service.” On Friday, it published the <a href="https://github.com/nytimes/covid-19-data/blob/master/prisons/facilities.csv">case and death tolls for 2,000+ of these facilities</a>, as of March 2021. <strong>Read more</strong>: <a href="https://www.nytimes.com/interactive/2021/04/10/us/covid-prison-outbreak.html">The Times’ reporting and graphics based on the data</a>. <strong>Previously</strong>: <a href="https://github.com/themarshallproject/COVID_prison_data">Weekly COVID-19 numbers for each state prison system</a> (<a href="https://www.data-is-plural.com/archive/2020-05-06-edition/">DIP 2020.05.06</a>), collected by the Marshall Project and Associated Press. [h/t <a href="https://twitter.com/LibbySeline">Libby Seline</a>]</p>
-<p> </p>
-<p><strong>New York City languages.</strong> The <a href="https://elalliance.org/">Endangered Language Alliance</a>’s <a href="https://languagemap.nyc/">Languages of New York City map</a> highlights nearly 700 languages and dialects spoken in NYC and nearby counties. For each language, it indicates a number of significant sites where it is or has been spoken. The project’s <a href="https://languagemap.nyc/Data">downloadable dataset</a> lists each site's status and neighborhood or city, plus the language’s linguistic family, countries of origin, and estimated number of global speakers. [h/t <a href="https://twitter.com/RossPerlin/status/1382699074739187717">Ross Perlin</a>]</p>
-<p> </p>
-<p><strong>CEO dismissals.</strong> <a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/smj.3278">Richard J. Gentry et al.</a> have <a href="https://docs.google.com/document/d/1VtY-_7es3JE9ymnTNYUTp9nwJW4VPpduOY0L-z1Yh9s/edit">overseen the collection</a> of <a href="https://zenodo.org/record/4618103">data on 1,400+ CEO dismissals</a> and thousands of other CEO departures from S&amp;P 1500 companies between 1992 and 2018. <strong>Related</strong>: <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3824812">Claudio Fernandez-Araoz et al.</a> have compiled data on <a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/FG0FOE">CEO</a> and <a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/ZC0AKE">CFO</a> turnover between 2014 and 2018. [h/t <a href="https://twitter.com/steveboivie/status/1379976286462951426">Steve Boivie</a>]</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send feedback from the C-suite to jsvine@gmail.com, or just reply to this email. Did a friend forward you this edition? Visit <a href="https://www.data-is-plural.com">data-is-plural.com</a> to subscribe and explore the archives.</em></p>
-]]></content>
-    <link href="http://www.data-is-plural.com/archive/2021-04-21-edition" rel="alternate"/>
-    <summary>Domestic terrorism, web crawls, COVID-19 in incarceration facilities, New York City languages, and CEO dismissals.</summary>
-    <published>2021-04-21T08:00:00-04:00</published>
   </entry>
 </feed>
