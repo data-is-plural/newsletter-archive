@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.data-is-plural.com</id>
   <title>Data Is Plural</title>
-  <updated>2021-09-01T08:00:00-04:00</updated>
+  <updated>2021-09-08T08:00:00-04:00</updated>
   <author>
     <name>Jeremy Singer-Vine</name>
     <email>jsvine@gmail.com</email>
@@ -10,6 +10,28 @@
   <link href="https://www.data-is-plural.com" rel="alternate"/>
   <generator>https://github.com/data-is-plural/newsletter-archive</generator>
   <subtitle>A weekly newsletter of useful/curious datasets.</subtitle>
+  <entry>
+    <id>dip-2021-09-08</id>
+    <title>Data Is Plural — 2021.09.08 edition</title>
+    <updated>2021-09-08T08:00:00-04:00</updated>
+    <content type="CDATA"><![CDATA[<p><em>OpenSanctions, alternative fueling, India’s political parties, software licenses, and UK parliamentary ejections.</em></p>
+<p> </p>
+<p><strong>Persons of interest.</strong> <a href="https://opensanctions.org/">OpenSanctions</a>, an <a href="https://github.com/pudo/opensanctions">open-source project</a> that <a href="https://twitter.com/open_sanctions/status/1432977327282171904">launched its website last week</a>, is “an international database of persons and companies of political, criminal, or economic interest.” It combines and standardizes data from <a href="https://opensanctions.org/datasets/">20+ sources</a>, such as the US Treasury’s <a href="https://opensanctions.org/datasets/us_ofac_sdn/">sanctions</a> <a href="https://opensanctions.org/datasets/us_ofac_cons/">lists</a> (<a href="https://www.data-is-plural.com/archive/2018-02-21-edition/">DIP 2018.02.21</a>), <a href="https://opensanctions.org/datasets/interpol_red_notices/">Interpol’s Red Notices</a>, <a href="https://opensanctions.org/datasets/eu_meps/">members of EU parliament</a>, and the <a href="https://opensanctions.org/datasets/us_cia_world_leaders/">CIA’s index of world leaders</a>. The project uses a <a href="https://opensanctions.org/reference/">detailed schema</a> to represent the particulars of each entity, including aliases, known cryptocurrency wallets, aircraft registrations, sanction dates, and more. You can <a href="https://opensanctions.org/docs/usage/">download the data</a> with those detailed representations or in simpler formats. [h/t <a href="https://twitter.com/pudo/status/1433017697244225540">Friedrich Lindenberg</a>]</p>
+<p> </p>
+<p><strong>Alternative fueling.</strong> The US Bureau of Transportation Statistics’ <a href="https://www.bts.gov/newsroom/national-transportation-atlas-database-summer-2021-adds-alternative-fuel-corridors-dataset">summer update</a> to its <a href="https://www.bts.gov/ntad">National Transportation Atlas Database</a> adds a <a href="https://data-usdot.opendata.arcgis.com/datasets/alternative-fuel-corridors/explore">dataset</a> on “<a href="https://www.fhwa.dot.gov/environment/alternative_fuel_corridors/">alternative fuel corridors</a>” — stretches of highway with a sufficient frequency of fueling stations. (Electric vehicle corridors must, for instance, have charging stations at least every 50 miles.) The release covers electric, hydrogen, propane, compressed natural gas, and liquefied natural gas infrastructure, and complements a prior dataset of <a href="https://data-usdot.opendata.arcgis.com/datasets/alternative-fueling-stations-1/explore">56,000+ such stations</a>. <strong>Related</strong>: The Department of Energy’s maps and datasets of <a href="https://afdc.energy.gov/stations/">alternative fueling stations</a> and <a href="https://afdc.energy.gov/corridors">corridors</a>. [h/t <a href="https://datainnovation.org/2021/08/tracking-alternative-fueling-facilities-across-the-united-states/">Morgan Stevens</a>]</p>
+<p> </p>
+<p><strong>India’s political parties.</strong> The <a href="https://tcpd.ashoka.edu.in/">Trivedi Centre for Political Data</a> has published a <a href="https://tcpd.ashoka.edu.in/political-parties-of-india/">dataset</a> of “all parties that have contested national and state elections in India since 1962,” with an eye toward unifying the information across name changes. For each legislative level and state, the dataset <a href="https://github.com/tcpd/ppi/blob/main/17Aug2021TCPDPPI_1_0.pdf">indicates</a> each party’s first and last year contesting elections, number of seats won, number of female and <a href="https://en.wikipedia.org/wiki/Scheduled_Castes_and_Scheduled_Tribes">Scheduled Caste/Tribe</a> candidates fielded, and more. [h/t <a href="https://twitter.com/vijdankawoosa/status/1431642431590567944">Vijdan Mohammad Kawoosa</a> + <a href="https://twitter.com/gilkumar/status/1431210872945328146">Gilles Verniers</a>]</p>
+<p> </p>
+<p><strong>Software licenses.</strong> The <a href="https://scancode-licensedb.aboutcode.org/">ScanCode LicenseDB</a> provides information about 1,700+ software licenses, ranging from the common (e.g., <a href="https://scancode-licensedb.aboutcode.org/mit.html">MIT License</a>) to the idiosyncratic (<a href="https://scancode-licensedb.aboutcode.org/blessing.html">SQLite Blessing</a>) to the obscure (<a href="https://scancode-licensedb.aboutcode.org/ubuntu-font-1.0.html">Ubuntu Font License</a>). The <a href="https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses">records</a>, which are part of a broader <a href="https://www.aboutcode.org/projects/scancode.html">license-detection toolkit</a>, list each license’s core phrasing, general category, custodian, relevant URLs, and <a href="https://scancode-licensedb.aboutcode.org/help.html">other details</a>. [h/t <a href="https://github.com/pombredanne">Philippe Ombredanne</a>]</p>
+<p> </p>
+<p><strong>UK parliamentary ejections.</strong> A UK House of Commons Library <a href="https://commonslibrary.parliament.uk/research-briefings/sn02430/">research briefing</a> in July included a spreadsheet of “MPs who have left the Chamber voluntarily, been asked to withdraw, or who have been suspended,” along with the date, reason, and suspension period. <a href="https://commonslibrary.parliament.uk/research-briefings/sn03169/">Another briefing</a>, published the same day, “attempts to capture all instances where an apology has been made on the floor of the House of Commons since 1979.” [h/t <a href="https://twitter.com/InductiveStep/status/1419001122799423490">Andi Fugard</a>]</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send unparliamentary feedback to jsvine@gmail.com, or just reply to this email. Looking for past datasets? <a href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This spreadsheet contains them all</a>. Visit <a href="https://www.data-is-plural.com">data-is-plural.com</a> to subscribe and browse past editions.</em></p>
+]]></content>
+    <link href="http://www.data-is-plural.com/archive/2021-09-08-edition" rel="alternate"/>
+    <summary>OpenSanctions, alternative fueling, India’s political parties, software licenses, and UK parliamentary ejections.</summary>
+    <published>2021-09-08T08:00:00-04:00</published>
+  </entry>
   <entry>
     <id>dip-2021-09-01</id>
     <title>Data Is Plural — 2021.09.01 edition</title>
@@ -212,27 +234,5 @@
     <link href="http://www.data-is-plural.com/archive/2021-06-16-edition" rel="alternate"/>
     <summary>Drought in the United States, standardized testing trends, women on high courts, word origins, and animal rescues.</summary>
     <published>2021-06-16T08:00:00-04:00</published>
-  </entry>
-  <entry>
-    <id>dip-2021-06-09</id>
-    <title>Data Is Plural — 2021.06.09 edition</title>
-    <updated>2021-06-09T08:00:00-04:00</updated>
-    <content type="CDATA"><![CDATA[<p><em>US vaccinations over time, weekly gas prices, COVID-19 and fiscal accountability, Swiss glacier thicknesses, and mathematical proofs.</em></p>
-<p> </p>
-<p><strong>US vaccinations over time.</strong> The CDC has begun publishing <a href="https://data.cdc.gov/Vaccinations/COVID-19-Vaccinations-in-the-United-States-County/8xkx-amqh">daily-historical data on vaccination progress in the US</a>, going back to mid-December 2020. For the country overall, each state and territory, and a handful of other jurisdictions (e.g., the Bureau of Prisons), the dataset indicates the number of Pfizer-BioNTech, Moderna, and J&amp;J/Janssen doses delivered, total doses administered by age group, percentages of populations fully vaccinated, and more. Less-detailed information is also available for <a href="https://data.cdc.gov/Vaccinations/COVID-19-Vaccinations-in-the-United-States-County/8xkx-amqh">each county over time</a> and for <a href="https://data.cdc.gov/Vaccinations/COVID-19-Vaccination-Demographics-in-the-United-St/km4m-vcsb">national demographic trends</a>. <strong>Related</strong>: My colleague <a href="https://www.peteraldhous.com/">Peter Aldhous</a> has <a href="https://twitter.com/paldhous/status/1401948291093340160">incorporated</a> the CDC’s data into <a href="https://www.buzzfeednews.com/article/peteraldhous/covid-vaccine-tracker">BuzzFeed News’ vaccination tracker</a>.</p>
-<p> </p>
-<p><strong>Weekly gas prices.</strong> Every Monday, the Energy Information Administration <a href="https://www.eia.gov/petroleum/gasdiesel/gas_proc-methods.php">collects data</a> “on retail prices for regular, midgrade, and premium grades of gasoline from a sample of retail gasoline outlets across the United States using Form EIA-878, <em>Motor Gasoline Price Survey Schedule A</em>.” The survey informs the agency’s <a href="https://www.eia.gov/petroleum/gasdiesel/">average gas price estimates</a>, which are available at a national and regional level, as well as for a few selected states and cities, going back to the 1990s (though the sampling methodology changed in 2018). The EIA also <a href="https://www.eia.gov/petroleum/gasdiesel/diesel_proc-methods.php">collects data</a> on diesel prices, using a separate survey.</p>
-<p> </p>
-<p><strong>COVID-19 and fiscal accountability.</strong> The <a href="https://www.internationalbudget.org/">International Budget Partnership</a> has published <a href="https://internationalbudget.org/covid/">an assessment</a> of accountability in the emergency fiscal policies that 120 governments introduced between March and September 2020. The report’s downloadable data (see bottom of page) includes each policy package’s name, date introduced, and whether it was a legislative act or executive decree; ratings on various aspects of transparency, oversight, and participation; and scores on 26 specific questions. <strong>Related</strong>: The partnership’s <a href="https://www.internationalbudget.org/open-budget-survey/about">Open Budget Survey</a> and <a href="https://survey.internationalbudget.org">data explorer</a>. [h/t <a href="https://www.rajanzaveri.com/">Rajan Zaveri</a>]</p>
-<p> </p>
-<p><strong>Swiss glacier thicknesses.</strong> “Using AIR-ETH, a new helicopter-borne ground-penetrating radar (GPR) platform,” <a href="https://www.cambridge.org/core/journals/journal-of-glaciology/article/ice-thickness-distribution-of-all-swiss-glaciers-based-on-extended-groundpenetrating-radar-data-and-glaciological-modeling/CB6685222A664FD3FCE1367E2B5245D8">Melchior Grab et al.</a> “measured the ice thickness of all large and most medium-sized glaciers in the Swiss Alps during the years 2016–20. Most of these had either never or only partially been surveyed before.” The <a href="https://www.research-collection.ethz.ch/handle/20.500.11850/434697">team’s latest inventory</a> combines detailed geospatial data from this and previous surveys. <strong>Previously</strong>: <a href="http://www.glims.org/RGI/rgi50_dl.html">The Randolph Glacier Inventory</a> (<a href="https://www.data-is-plural.com/archive/2015-12-16-edition/">DIP 2015.12.16</a>).</p>
-<p> </p>
-<p><strong>Mathematical proofs.</strong> <a href="https://proofwiki.org/wiki/Main_Page">ProofWiki</a> is “an online compendium of mathematical proofs,” with 21,000+ of them and counting. (It also provides <a href="https://proofwiki.org/wiki/Mathematician:Mathematicians">lists of notable mathematicians</a> and <a href="https://proofwiki.org/wiki/ProofWiki:Jokes">a page of jokes</a>.) <a href="https://wellecks.github.io/naturalproofs/">Sean Welleck et al.</a>’s <a href="https://github.com/wellecks/naturalproofs">NaturalProofs dataset</a> contains a processed version of the website’s <a href="https://proofwiki.org/wiki/User:Afirou/website_dump">XML dump</a>, plus data derived from other proof-containing resources.</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send proven feedback to jsvine@gmail.com, or just reply to this email. Did a friend forward you this edition? Visit <a href="https://www.data-is-plural.com">data-is-plural.com</a> to subscribe and explore the archives.</em></p>
-]]></content>
-    <link href="http://www.data-is-plural.com/archive/2021-06-09-edition" rel="alternate"/>
-    <summary>US vaccinations over time, weekly gas prices, COVID-19 and fiscal accountability, Swiss glacier thicknesses, and mathematical proofs.</summary>
-    <published>2021-06-09T08:00:00-04:00</published>
   </entry>
 </feed>
