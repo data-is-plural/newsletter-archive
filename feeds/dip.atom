@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.data-is-plural.com</id>
   <title>Data Is Plural</title>
-  <updated>2021-10-06T08:00:00-04:00</updated>
+  <updated>2021-10-13T08:00:00-04:00</updated>
   <author>
     <name>Jeremy Singer-Vine</name>
     <email>jsvine@gmail.com</email>
@@ -11,10 +11,32 @@
   <generator>https://github.com/data-is-plural/newsletter-archive</generator>
   <subtitle>A weekly newsletter of useful/curious datasets.</subtitle>
   <entry>
+    <id>dip-2021-10-13</id>
+    <title>Data Is Plural — 2021.10.13 edition</title>
+    <updated>2021-10-13T08:00:00-04:00</updated>
+    <content type="CDATA"><![CDATA[<p><em>Abortion policies, hourly weather, deployment votes, mask diplomacy, and bird food.</em></p>
+<p> </p>
+<p><strong>Abortion policies.</strong> The World Health Organization’s <a href="https://abortion-policies.srhr.org/">Global Abortion Policies Database</a> is “designed to strengthen global efforts to eliminate unsafe abortion by producing an interactive open-access database and repository of current abortion laws, policies, and national standards and guidelines.” The project uses an <a href="https://abortion-policies.srhr.org/documents/data/questionnaire.pdf">extensive questionnaire</a> to categorize dozens of regulatory factors for each country; the findings can be <a href="https://abortion-policies.srhr.org/countries/">queried</a> online, or <a href="https://abortion-policies.srhr.org/documents/data/survey.xlsx">downloaded as a spreadsheet</a>. The Center for Reproductive Rights’ <a href="https://maps.reproductiverights.org/worldabortionlaws">World Abortion Laws Map</a> groups countries into five categories of restrictiveness, and also indicates the types of laws in effect. The map’s data is <a href="https://maps.reproductiverights.org/ajax/wal-map">available as a JSON file</a>. <strong>As seen in</strong>: “<a href="https://www.washingtonpost.com/world/interactive/2021/us-abortion-laws-worldwide/">How abortion laws in the U.S. compare to those in other countries</a>” (Washington Post). [h/t <a href="https://flowingdata.com/2021/10/07/comparing-abortion-limits-in-the-u-s-against-other-countries/">Nathan Yau</a>]</p>
+<p> </p>
+<p><strong>Hourly weather.</strong> NOAA’s <a href="https://www.ncei.noaa.gov/products/land-based-station/integrated-surface-database">Integrated Surface Database</a>, launched two decades ago, combines point-in-time weather observations from 100+ sources, collected at 35,000+ stations around the world, 14,000+ of which are still active. The measurements can include “wind speed and direction, wind gust, temperature, dew point, cloud data, sea level pressure, altimeter setting, station pressure, present weather, visibility, precipitation amounts for various time periods, snow depth” and more. <strong>Related</strong>: <a href="https://observablehq.com/@observablehq/noaa-weather-data-by-major-u-s-city">An Observable notebook for previewing and downloading data from ISDLite</a>, NOAA’s simpler version of the larger database. [h/t <a href="https://twitter.com/enjalot">Ian Johnson</a>]</p>
+<p> </p>
+<p><strong>Deployment votes.</strong> The <a href="http://deploymentvotewatch.eu/">Parliamentary Deployment Votes Database</a> gathers information about national parliaments and legislatures voting on the deployment or withdrawal of military forces. It lists the date, name, and chamber of each vote; the mission name and area of deployment; the number of members voting in favor, against, and abstaining; and other details. The <a href="http://deploymentvotewatch.eu/?page_id=8">collaborative</a> project’s <a href="http://deploymentvotewatch.eu/?page_id=2">latest release</a> includes 1,000+ votes in 21 countries from 1990 to 2019, plus 5,500+ counts disaggregated by political party.</p>
+<p> </p>
+<p><strong>Mask diplomacy.</strong> Political scientists <a href="https://twitter.com/diegotelias">Diego Telias</a> and <a href="https://www.furdinez.com/">Francisco Urdinez</a> have <a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/EIAXSE">collected</a> and <a href="https://estudiosasiaticos.uc.cl/humanidades-digitales/mask-diplomacy-v-1-0">mapped</a> data on 530+ donations of face masks, respirators, COVID-19 tests, and other pandemic-related supplies from entities in China and Taiwan to 33 countries Latin America and the Caribbean in early 2020. The dataset indicates the donor, recipient, date, and equipment types, amounts, and estimated value. <strong>Read more</strong>: <a href="https://www.researchgate.net/profile/Francisco-Urdinez/publication/344035590_China’s_Foreign_Aid_Political_Drivers_Lessons_from_a_Novel_Dataset_of_Mask_Diplomacy_in_Latin_America_During_the_COVID-19_Pandemic/links/607df952907dcf667baf42fe/Chinas-Foreign-Aid-Political-Drivers-Lessons-from-a-Novel-Dataset-of-Mask-Diplomacy-in-Latin-America-During-the-COVID-19-Pandemic.pdfa">Telias and Urdinez’s preprint analyzing the data</a>.</p>
+<p> </p>
+<p><strong>Bird food.</strong> <a href="https://www.nature.com/articles/s41597-021-01049-9">Allen H. Hurlbert et al.</a>’s <a href="https://aviandiet.unc.edu/">Avian Diet Database</a> contains “73,075 quantitative diet data records for 759 primarily North American bird species, providing standardized information not just on the diet itself, but on the context for that diet information including the year, season, location, and habitat type of each study.” You can explore it online, <a href="https://github.com/hurlbertlab/dietdatabase">download it</a>, and <a href="https://github.com/ahhurlbert/aviandietdb">access it as an R package</a>.</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send feathered feedback to jsvine@gmail.com, or just reply to this email. Looking for past datasets? <a href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This spreadsheet contains them all</a>. Visit <a href="https://www.data-is-plural.com">data-is-plural.com</a> to subscribe and browse past editions.</em></p>
+]]></content>
+    <link href="http://www.data-is-plural.com/archive/2021-10-13-edition" rel="alternate"/>
+    <summary>Abortion policies, hourly weather, deployment votes, mask diplomacy, and bird food.</summary>
+    <published>2021-10-13T08:00:00-04:00</published>
+  </entry>
+  <entry>
     <id>dip-2021-10-06</id>
     <title>Data Is Plural — 2021.10.06 edition</title>
     <updated>2021-10-06T08:00:00-04:00</updated>
-    <content type="CDATA"><![CDATA[<p><em>Reservoir levels, parallel texts, Stolpersteine, undersea internet cables, and a graph model of the human skeleton.</em></p>
+    <content type="CDATA"><![CDATA[<p><em>Reservoir levels, Stolpersteine, parallel texts, undersea internet cables, and a graph model of the human skeleton.</em></p>
 <p> </p>
 <p><strong>Reservoir levels.</strong> The <a href="https://www.usbr.gov/main/about/mission.html">US Bureau of Reclamation</a>, a federal agency formed in 1902, is today “the nation’s largest wholesale water supplier, operating 338 reservoirs with a total storage capacity of 140 million acre-feet.” Its <a href="https://data.usbr.gov/">Reclamation Information Sharing Environment</a> (RISE) <a href="https://www.usbr.gov/newsroom/newsroomold/newsrelease/detail.cfm?RecordID=72624">launched publicly last year</a>, providing data on reservoir levels, water quality, hydropower generation, habitat monitoring, and more. You can <a href="https://data.usbr.gov/catalog">browse the data catalog</a>, <a href="https://data.usbr.gov/time-series/search?v=1">explore its time series</a> — for instance <a href="https://data.usbr.gov/catalog/4370/item/6123">daily water levels at Lake Mead</a>, the country’s largest reservoir, going back to 1935 — and <a href="https://data.usbr.gov/rise-api">query its API</a>. <strong>As seen in</strong>: “<a href="https://www.cnn.com/interactive/2021/08/us/colorado-river-water-shortage/">The Southwest’s most important river is drying up</a>” (CNN).</p>
 <p> </p>
@@ -29,7 +51,7 @@
 <p><em>Dataset suggestions? Criticism? Praise? Send ossified feedback to jsvine@gmail.com, or just reply to this email. Looking for past datasets? <a href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This spreadsheet contains them all</a>. Visit <a href="https://www.data-is-plural.com">data-is-plural.com</a> to subscribe and browse past editions.</em></p>
 ]]></content>
     <link href="http://www.data-is-plural.com/archive/2021-10-06-edition" rel="alternate"/>
-    <summary>Reservoir levels, parallel texts, Stolpersteine, undersea internet cables, and a graph model of the human skeleton.</summary>
+    <summary>Reservoir levels, Stolpersteine, parallel texts, undersea internet cables, and a graph model of the human skeleton.</summary>
     <published>2021-10-06T08:00:00-04:00</published>
   </entry>
   <entry>
@@ -209,27 +231,5 @@
     <link href="http://www.data-is-plural.com/archive/2021-07-14-edition" rel="alternate"/>
     <summary>Refugees resettled in the US, Arizona migrant deaths, Canadian candidates, NBER working papers, and lightning intensity.</summary>
     <published>2021-07-14T08:00:00-04:00</published>
-  </entry>
-  <entry>
-    <id>dip-2021-07-07</id>
-    <title>Data Is Plural — 2021.07.07 edition</title>
-    <updated>2021-07-07T08:00:00-04:00</updated>
-    <content type="CDATA"><![CDATA[<p><em>Water politics, government regulations, rural hospital closures, vertebrates’ viruses, and Andean roadkill.</em></p>
-<p> </p>
-<p><strong>Water politics.</strong> Oregon State University’s <a href="https://transboundarywaters.science.oregonstate.edu/content/international-water-event-database">International Water Events Database</a> summarizes 7,000+ episodes from 1948 to 2008 that “concern water as a scarce or consumable resource or as a quantity to be managed,” categorizing their intensities and indicating the basins and countries involved. The <a href="https://pacinst.org/">Pacific Institute</a>’s <a href="https://www.worldwater.org/water-conflict/">Water Conflict Chronology</a> documents 926 events (including a few legends) between 3000 BC and 2019 that involved violence or the threat of it. Bernhauer et al.’s <a href="https://www.prio.org/Publications/Publication/?x=5118">Water-Related Intrastate Conflict and Cooperation</a> dataset details 10,000+ events in the Middle East, Mediterranean, and Sahel between 1997 and 2009. <strong>Related</strong>: Takeshi Wada’s “<a href="https://ifi.u-tokyo.ac.jp/en/wp-content/uploads/2021/05/sdgs_wp_2020_wada_en.pdf">Geographic Distribution of Water Conflicts Worldwide: A Comparative Analysis of Four Databases</a>” (<em>pdf</em>) discusses these resources plus <a href="https://www.gdeltproject.org/data.html">GDELT</a>, a broader-scope event database.</p>
-<p> </p>
-<p><strong>Government regulations.</strong> <a href="https://www.quantgov.org/about">QuantGov</a>, an <a href="https://github.com/quantgov">open-source</a> project of the free-market-oriented <a href="https://www.mercatus.org/">Mercatus Center</a>, “solves the problem of quantifying large amounts of policy text for research and comprehension by using machine learning and natural language processing.” Its <a href="https://www.quantgov.org/history">RegData</a> initiative applies this approach to government regulations over time — quantifying their length and linguistic complexity and trying to identify their relevant <a href="https://www.census.gov/naics/">NAICS</a>-classified industries. Its <a href="https://www.quantgov.org/download-data">datasets</a> examine rules enacted by the federal government and most US states, as well as federal and subnational regulations from Australia, Canada, and India. [h/t <a href="https://www.thecgo.org/research/the-economic-geography-of-beer-regulations/">Aaron Staples et al.</a>]</p>
-<p> </p>
-<p><strong>Rural hospital closures.</strong> The <a href="https://www.shepscenter.unc.edu/programs-projects/rural-health/">North Carolina Rural Health Research Program</a> maintains a list of <a href="https://www.shepscenter.unc.edu/programs-projects/rural-health/rural-hospital-closures/">rural hospital closures in the US since 2005</a>. The dataset contains 181 entries through June 2021, each representing a complete closure or a conversion from inpatient care to other services, and indicates the hospital, number of beds, Medicare payment program, month of closure, and the location’s <a href="https://www.ers.usda.gov/data-products/rural-urban-commuting-area-codes.aspx">Rural-Urban Commuting Area classification</a>. [h/t <a href="https://coviddatadispatch.com/2021/06/20/featured-sources-june-20/">Betsy Ladyzhets</a>]</p>
-<p> </p>
-<p><strong>Vertebrates’ viruses.</strong> <a href="https://www.viralemergence.org/virion">VIRION</a> is “an open atlas of the vertebrate virome” that <a href="https://twitter.com/viralemergence/status/1394270587267264518">launched in May</a>. It represents the associations between 9,000+ viruses and 3,700+ host species, <a href="https://github.com/viralemergence/virion#how-we-built-virion">drawing from a range of sources</a>, including USAID’s <a href="https://healthmap.org/predict/">PREDICT project</a> and the <a href="https://www.globalbioticinteractions.org/">GloBI project</a>, which organizes data about inter-species interactions. [h/t <a href="https://twitter.com/tpoi/status/1394633093856759808">Timothée Poisot</a>]</p>
-<p> </p>
-<p><strong>Andean roadkill.</strong> For their recent paper, “<a href="https://onlinelibrary.wiley.com/doi/full/10.1111/btp.12938">Geography of roadkills within the Tropical Andes Biodiversity Hotspot</a>,” ecologists <a href="https://twitter.com/pmedranoviz">Pablo Medrano-Vizcaíno</a> and <a href="https://scholar.google.com/citations?user=Vv-viDsAAAAJ&amp;hl=en">Santiago Espinosa</a> surveyed three 33-kilometer road segments dozens of times in 2014. Their <a href="https://datadryad.org/stash/dataset/doi:10.5061/dryad.xwdbrv1cp">publication datasets</a> provide details about the 445 dead vertebrates they found, including one new-to-science species of snake. [h/t <a href="http://cjlm.ca">Christian Miles</a> + <a href="https://www.economist.com/science-and-technology/2021/05/06/roadkill-provide-a-novel-way-to-sample-an-areas-animals">The Economist</a>]</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send new-to-science feedback to jsvine@gmail.com, or just reply to this email. Did a friend forward you this edition? Visit <a href="https://www.data-is-plural.com">data-is-plural.com</a> to subscribe and explore the archives.</em></p>
-]]></content>
-    <link href="http://www.data-is-plural.com/archive/2021-07-07-edition" rel="alternate"/>
-    <summary>Water politics, government regulations, rural hospital closures, vertebrates’ viruses, and Andean roadkill.</summary>
-    <published>2021-07-07T08:00:00-04:00</published>
   </entry>
 </feed>
