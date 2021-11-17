@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.data-is-plural.com</id>
   <title>Data Is Plural</title>
-  <updated>2021-11-10T08:00:00-05:00</updated>
+  <updated>2021-11-17T08:00:00-05:00</updated>
   <author>
     <name>Jeremy Singer-Vine</name>
     <email>jsvine@gmail.com</email>
@@ -10,6 +10,28 @@
   <link href="https://www.data-is-plural.com" rel="alternate"/>
   <generator>https://github.com/data-is-plural/newsletter-archive</generator>
   <subtitle>A weekly newsletter of useful/curious datasets.</subtitle>
+  <entry>
+    <id>dip-2021-11-17</id>
+    <title>Data Is Plural — 2021.11.17 edition</title>
+    <updated>2021-11-17T08:00:00-05:00</updated>
+    <content type="CDATA"><![CDATA[<p><em>Carbon credits, foodborne pathogens, violence against environmental defenders, mineral production, and Werner’s Nomenclature of Colours.</em></p>
+<p> </p>
+<p><strong>Carbon credits.</strong> The <a href="https://gspp.berkeley.edu/faculty-and-impact/centers/cepp/projects/berkeley-carbon-trading-project/offsets-database">Voluntary Registry Offsets Database</a>, a collaboration between the <a href="https://gspp.berkeley.edu/faculty-and-impact/centers/cepp/projects/berkeley-carbon-trading-project">Berkeley Carbon Trading Project</a> and <a href="https://carbon-direct.com/">Carbon Direct</a>, “contains all carbon offset projects, credit issuances, and credit retirements listed globally by four major voluntary offset project registries,” accounting for “almost all of the world’s voluntary market offsets.” Updated in September with data through early May 2021, the database covers 5,000+ projects and 1.2 billion credits issued. Each credit purportedly offsets a metric tonne of CO<sub>2</sub> emissions, but the Berkeley team is skeptical: “Research performed by us and others has found that many, if not most, offset credits traded on the market today do not represent real emissions reductions.” <strong>Related</strong>: <a href="https://carbonpricingdashboard.worldbank.org/map_data">The World Bank’s database of carbon pricing initiatives</a>.</p>
+<p> </p>
+<p><strong>Foodborne pathogens.</strong> In an <a href="https://www.propublica.org/article/how-propublica-used-genomic-sequencing-data-to-track-an-ongoing-salmonella-outbreak">explainer article</a> accompanying a <a href="https://www.propublica.org/article/salmonella-chicken-usda-food-safety">recent food-safety investigation</a>, ProPublica reporter <a href="https://www.propublica.org/people/irena-hwang">Irena Hwang</a> describes using her training in bioinformatics to analyze salmonella DNA data collected by the <a href="https://www.ncbi.nlm.nih.gov/">National Center for Biotechnology Information</a>’s <a href="https://www.ncbi.nlm.nih.gov/pathogens/">Pathogen Detection</a> initiative, which <a href="https://www.ncbi.nlm.nih.gov/pathogens/faq/">aggregates genomic sequences</a> from bacteria “originating in food, environmental sources, and patients.” The initiative has <a href="https://www.ncbi.nlm.nih.gov/pathogens/pathogens_help/#data-retrieval">published such data</a> for nearly 1 million samples of <a href="https://www.ncbi.nlm.nih.gov/pathogens/organisms/">dozens of species</a>. <strong>Related</strong>: <a href="https://projects.propublica.org/chicken/">ProPublica’s Chicken Checker lookup tool</a>, based on the <a href="https://www.fsis.usda.gov/science-data/data-sets-visualizations/laboratory-sampling-data">results of Department of Agriculture microbiological sampling</a> conducted at processing plants.</p>
+<p> </p>
+<p><strong>Violence against environmental defenders.</strong> <a href="https://tierraderesistentes.com/en/">Tierra de Resistentes</a> is a “crossborder journalistic effort to investigate episodes of violence against leaders and communities in Latin America who have devoted their lives to defending the environment.” The <a href="https://tierraderesistentes.com/es/datos/">collaboration’s database</a> details 2,400+ such attacks, mostly focusing on the years 2009–2019. For each attack, it provides information about the person, organization, or community attacked, the type of violence, the resource defended, case status, and more. [h/t <a href="https://www.datasketch.co/newsletter/data-journalism/issue-6-cop26-climate-change-and-biodiversity/">Juan Pablo Marín Díaz</a>]</p>
+<p> </p>
+<p><strong>Mineral production.</strong> The US Geological Survey’s <a href="https://www.usgs.gov/centers/nmic">National Minerals Information Center</a> keeps tabs on “minerals and materials essential to the U.S. economy, the national security, and protection of the environment.” Its published datasets include annual statistics on <a href="https://www.usgs.gov/centers/nmic/state-minerals-statistics-and-information">mineral production by state</a>, <a href="https://www.usgs.gov/centers/nmic/international-minerals-statistics-and-information">by country</a>, and <a href="https://www.usgs.gov/centers/nmic/commodity-statistics-and-information">by commodity</a>. [h/t <a href="https://www.brianckeegan.com/about/">Brian C. Keegan</a>]</p>
+<p> </p>
+<p><strong>Werner’s Nomenclature of Colours.</strong> Data artist <a href="https://www.c82.net/">Nicholas Rougeux</a> has <a href="https://www.c82.net/werner/">digitally recreated</a> Scottish painter <a href="https://en.wikipedia.org/wiki/Patrick_Syme">Patrick Syme</a>’s 1821 <a href="https://archive.org/details/gri_c00033125012743312">guidebook</a> to German mineralogist <a href="https://en.wikipedia.org/wiki/Abraham_Gottlob_Werner">Abraham Werner</a>’s <a href="https://en.wikipedia.org/wiki/Werner%27s_Nomenclature_of_Colours">color system</a>. For each of the 110 colors, such as <em>Saffron Yellow</em> and <em>Veinous Blood Red</em>, a <a href="https://docs.google.com/spreadsheets/d/10w7UebIDqN6ChEpBwLDQmAgVZZhLtKvnrLeNnBjJmsc/edit">corresponding spreadsheet</a> contains its name, hex code, description, and more. [h/t <a href="https://buttondown.email/puntofisso/archive/444-quantum-of-sollazzo/">Giuseppe Sollazzo</a>]</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send colorful feedback to jsvine@gmail.com, or just reply to this email. Looking for past datasets? <a href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This spreadsheet contains them all</a>. Visit <a href="https://www.data-is-plural.com">data-is-plural.com</a> to subscribe and browse past editions.</em></p>
+]]></content>
+    <link href="http://www.data-is-plural.com/archive/2021-11-17-edition" rel="alternate"/>
+    <summary>Carbon credits, foodborne pathogens, violence against environmental defenders, mineral production, and Werner’s Nomenclature of Colours.</summary>
+    <published>2021-11-17T08:00:00-05:00</published>
+  </entry>
   <entry>
     <id>dip-2021-11-10</id>
     <title>Data Is Plural — 2021.11.10 edition</title>
@@ -207,27 +229,5 @@
     <link href="http://www.data-is-plural.com/archive/2021-09-01-edition" rel="alternate"/>
     <summary>Attacks against aid workers, fact-checks, offshore wind turbines, worker strikes in China, and creative Twitter bots.</summary>
     <published>2021-09-01T08:00:00-04:00</published>
-  </entry>
-  <entry>
-    <id>dip-2021-08-25</id>
-    <title>Data Is Plural — 2021.08.25 edition</title>
-    <updated>2021-08-25T08:00:00-04:00</updated>
-    <content type="CDATA"><![CDATA[<p><em>Legislator stock trades, national revenues, Africa building outlines, AI patents, and Formula One.</em></p>
-<p> </p>
-<p><strong>Legislator stock trades.</strong> US Congress members and candidates must report all stock purchases and sales exceeding $1,000, as well as those of their spouses and dependent children. Those records are technically available through the <a href="https://disclosures-clerk.house.gov/PublicDisclosure/FinancialDisclosure">House</a>’s and <a href="https://efdsearch.senate.gov/">Senate</a>’s financial disclosure portals, but neither provides bulk data. Software engineer <a href="https://twitter.com/tcarambat">Tim Carabat</a>’s <a href="https://senatestockwatcher.com/">Senate Stock Watcher</a> and <a href="https://housestockwatcher.com/">House Stock Watcher</a> websites fill that gap by making the transactions available to browse, query, and download. In the case of the House, where reports are still provided as PDFs, Carabat also coordinates <a href="https://contributor.housestockwatcher.com/">the manual transcription of those files</a>.</p>
-<p> </p>
-<p><strong>National revenues.</strong> UNU-WIDER’s <a href="https://www.wider.unu.edu/project/government-revenue-dataset">Government Revenue Dataset</a> “aims to present a complete picture of government revenue and tax trends over time.” The project, <a href="https://www.wider.unu.edu/about-grd">updated this month</a>, currently covers 196 countries and goes back, in most cases, to the early 1980s. It <a href="https://www.wider.unu.edu/publication/government-revenue-dataset-2021-source-selection">draws on data from OECD and IMF reports</a> and includes dozens of variables, such as total revenue, natural resource taxes, and foreign grants received. <strong>Previously</strong>: <a href="https://www.oecd.org/tax/tax-policy/global-revenue-statistics-database.htm">The OECD’s Global Revenue Statistics Database</a> (<a href="https://www.data-is-plural.com/archive/2018-08-01-edition/">DIP 2018.08.01</a>). [h/t <a href="https://link.springer.com/article/10.1007/s11127-020-00788-4">Lisa Chauvet &amp; Marin Ferry</a> + <a href="https://twitter.com/ErikFeiring/status/1428442876237815816">Erik Feiring</a>]</p>
-<p> </p>
-<p><strong>Africa building outlines.</strong> <a href="https://sites.research.google/open-buildings/">Open Buildings</a>, a project led by Google Research’s Ghana office, has <a href="https://ai.googleblog.com/2021/07/mapping-africas-buildings-with.html">published</a> a dataset of 516 million building footprints in Africa, <a href="https://arxiv.org/abs/2107.12283">estimated from satellite imagery</a>. The dataset, which you can explore online and download as CSVs, spans roughly 64% of the continent. It describes each estimated footprint’s coordinates, shape, and area, plus the detection algorithm’s degree of confidence. <strong>Previously</strong>: <a href="https://github.com/Microsoft/USBuildingFootprints">Footprints of buildings in the US</a> (<a href="https://www.data-is-plural.com/archive/2018-07-18-edition/">DIP 2018.07.18</a>), and in <a href="https://github.com/Microsoft/CanadianBuildingFootprints">Canada</a> and <a href="https://medium.com/on-location/an-open-building-outlines-dataset-for-new-zealand-eef8b558ef7a">New Zealand</a> (<a href="https://www.data-is-plural.com/archive/2019-09-25-edition/">DIP 2019.09.25</a>).</p>
-<p> </p>
-<p><strong>AI patents.</strong> The US Patent and Trademark Office has <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3866793">built a series of machine-learning models</a> to identify patents that involve AI technologies, such as natural language processing or computer vision. Its <a href="https://www.uspto.gov/ip-policy/economic-research/research-datasets/artificial-intelligence-patent-dataset">Artificial Intelligence Patent Dataset</a>, released in June, focuses on eight of these technologies and provides predictions of their presence (or absence) in 13.2 million granted patents and patent applications since 1976, finding hits in 11% of the documents. [h/t <a href="https://twitter.com/nicholas_rada/status/1408440086639702025">Nicholas Rada</a>]</p>
-<p> </p>
-<p><strong>Formula One.</strong> The <a href="https://ergast.com/mrd/">Ergast Developer API</a> provides seven decades of Formula One racing results, with details on each season, race, and result since 1950, each lap time since 1996, each pit stop since 2012, and more. In addition to querying the API, you can also <a href="https://ergast.com/mrd/query/">explore the data online</a> and <a href="https://ergast.com/mrd/db/">download it in full</a>. <strong>As seen in</strong>: FiveThirtyEight’s “<a href="https://fivethirtyeight.com/features/formula-one-racing/">Who’s The Best Formula One Driver Of All Time?</a>” [h/t <a href="https://www.linkedin.com/in/eric-gardner-0531aa9/">Eric Gardner</a> + <a href="https://twitter.com/hydrosquall">Cameron Yick</a> + <a href="https://github.com/davidor/formula1-lap-charts">David Ortiz</a>]</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send speedy feedback to jsvine@gmail.com, or just reply to this email. Looking for past datasets? <a href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This spreadsheet contains them all</a>. Visit <a href="https://www.data-is-plural.com">data-is-plural.com</a> to subscribe and browse past editions.</em></p>
-]]></content>
-    <link href="http://www.data-is-plural.com/archive/2021-08-25-edition" rel="alternate"/>
-    <summary>Legislator stock trades, national revenues, Africa building outlines, AI patents, and Formula One.</summary>
-    <published>2021-08-25T08:00:00-04:00</published>
   </entry>
 </feed>
