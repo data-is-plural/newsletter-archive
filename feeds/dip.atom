@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.data-is-plural.com</id>
   <title>Data Is Plural</title>
-  <updated>2021-12-15T08:00:00-05:00</updated>
+  <updated>2021-12-22T08:00:00-05:00</updated>
   <author>
     <name>Jeremy Singer-Vine</name>
     <email>jsvine@gmail.com</email>
@@ -10,6 +10,28 @@
   <link href="https://www.data-is-plural.com" rel="alternate"/>
   <generator>https://github.com/data-is-plural/newsletter-archive</generator>
   <subtitle>A weekly newsletter of useful/curious datasets.</subtitle>
+  <entry>
+    <id>dip-2021-12-22</id>
+    <title>Data Is Plural — 2021.12.22 edition</title>
+    <updated>2021-12-22T08:00:00-05:00</updated>
+    <content type="CDATA"><![CDATA[<p><em>Tobacco habits, working hours, COVID-19 in European prisons, California water wells, and toothbrushing.</em></p>
+<p> </p>
+<p><strong>Tobacco habits.</strong> Every few years since 1992, the <a href="https://cancercontrol.cancer.gov/">National Cancer Institute</a> has sponsored the <a href="https://cancercontrol.cancer.gov/brp/tcrb/tus-cps">Tobacco Use Supplement to the Current Population Survey</a>, <a href="https://www.census.gov/programs-surveys/cps/about/supplemental-surveys.html">administered by the US Census Bureau</a>. In addition to extensive demographic information, the supplement asks about historical tobacco usage (“Have you smoked at least 100 cigarettes in your entire life?”), preferences (“Do you usually smoke menthol or non-menthol cigarettes?”), purchasing habits, e-cigarettes, and much more. Anonymized responses and documentation <a href="https://cancercontrol.cancer.gov/brp/tcrb/tus-cps/questionnaires-data">are available</a> for all survey waves through 2018–19. <strong>Previously</strong>: <a href="http://www.cdc.gov/brfss/">The CDC’s Behavioral Risk Factor Surveillance System</a> (<a href="https://www.data-is-plural.com/archive/2016-09-14-edition/">DIP 2016.09.14</a>). [h/t <a href="https://pubmed.ncbi.nlm.nih.gov/34644338/">Christian Gunadi et al.</a> + <a href="https://www.nationalaffairs.com/blog/detail/findings-a-daily-roundup/unhealthy-lifestyles">Kevin Lewis</a>]</p>
+<p> </p>
+<p><strong>Working hours.</strong> Political scientist <a href="https://www.magnusbrasmussen.com/">Magnus Bergli Rasmussen</a> has <a href="https://twitter.com/RasmussenMagnus/status/1465629029982158848">compiled data</a> on the regulation of laborers’ total work hours in nearly every country since 1789, <a href="https://www.dropbox.com/s/ie1zvkr7iht2i1j/public_workingtimedata.dta?dl=0">available as a Stata file</a>. For each year and territory, the dataset indicates whether such laws existed, the “normal” number of contractually-obligated weekly hours, the maximum number of hours allowed, and increases in pay for overtime. <strong>Read more</strong>: “<a href="https://www.researchgate.net/publication/356063579_The_Great_Standardization_Working_Hours_around_the_World">The Great Standardization: Working Hours Around the World</a>,” in which Rasmussen describes the dataset’s construction.</p>
+<p> </p>
+<p><strong>COVID-19 in European prisons.</strong> A collaboration coordinated by <a href="https://www.dw.com/en/data/t-43091100">Deutsche Welle</a> and the <a href="https://www.europeandatajournalism.eu/eng/News/Data-news/How-Europe-s-prisons-have-fared-in-the-Covid-19-pandemic">European Data Journalism Network</a> has <a href="https://github.com/dw-data/covid-prisons">gathered data</a> on <a href="https://www.dw.com/en/covid-how-europes-prisons-have-fared-in-the-pandemic/a-60006262">the pandemic’s impact on prisoners and prison staff in dozens of European countries</a>, including the number of COVID-19 tests, cases, and deaths over time. The data also note the types of preventative measures and vaccine policies in place. <strong>Previously</strong>: US prison COVID-19 data from the <a href="https://github.com/themarshallproject/COVID_prison_data">Marshall Project and AP</a> (<a href="https://www.data-is-plural.com/archive/2020-05-06-edition/">DIP 2020.05.06</a>) and the <a href="https://github.com/nytimes/covid-19-data/tree/master/prisons">New York Times</a> (<a href="https://www.data-is-plural.com/archive/2021-04-21-edition/">DIP 2021.04.21</a>). [h/t <a href="https://twitter.com/lorferr">Lorenzo Ferrari</a>]</p>
+<p> </p>
+<p><strong>California water wells.</strong> Domestic wells in the San Joaquin Valley “are drying up at an alarming pace” amid “a frenzy of new well construction and heavy agricultural pumping,” according to a <a href="https://www.latimes.com/projects/california-farms-water-wells-drought/">Los Angeles Times article last week</a>. Data reporter <a href="https://twitter.com/lamarr_lemee">Gabrielle LaMarr LeMee</a>’s <a href="https://github.com/datadesk/groundwater-analysis">analysis</a> provides the quantitative backbone, drawing on three state datasets: <a href="https://data.cnra.ca.gov/dataset/well-completion-reports">well completion reports</a> and <a href="https://data.cnra.ca.gov/dataset/periodic-groundwater-level-measurements">periodic groundwater level measurements</a>, both of which go back more than a century, and <a href="https://data.ca.gov/dataset/household-water-supply-shortage-reporting-system-data">household water supply shortage reports</a> since 2013.</p>
+<p> </p>
+<p><strong>Toothbrushing.</strong> <a href="https://www.sciencedirect.com/science/article/pii/S2352340921005321">Zawar Hussain et al.</a> recorded data from 120 electric and manual toothbrushing sessions, using sensors attached to the brush handle and brusher’s wrist. Each session’s <a href="https://data.mendeley.com/datasets/hx5kkkbr3j/">data files</a> trace the sensors’ positions over time and indicate the brush type, participant’s gender, age, and handedness, and more.</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send dentist-approved feedback to jsvine@gmail.com, or just reply to this email. Looking for past datasets? <a href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This spreadsheet contains them all</a>. Visit <a href="https://www.data-is-plural.com">data-is-plural.com</a> to subscribe and browse past editions.</em></p>
+]]></content>
+    <link href="http://www.data-is-plural.com/archive/2021-12-22-edition" rel="alternate"/>
+    <summary>Tobacco habits, working hours, COVID-19 in European prisons, California water wells, and toothbrushing.</summary>
+    <published>2021-12-22T08:00:00-05:00</published>
+  </entry>
   <entry>
     <id>dip-2021-12-15</id>
     <title>Data Is Plural — 2021.12.15 edition</title>
@@ -207,27 +229,5 @@
     <link href="http://www.data-is-plural.com/archive/2021-10-06-edition" rel="alternate"/>
     <summary>Reservoir levels, Stolpersteine, parallel texts, undersea internet cables, and a graph model of the human skeleton.</summary>
     <published>2021-10-06T08:00:00-04:00</published>
-  </entry>
-  <entry>
-    <id>dip-2021-09-29</id>
-    <title>Data Is Plural — 2021.09.29 edition</title>
-    <updated>2021-09-29T08:00:00-04:00</updated>
-    <content type="CDATA"><![CDATA[<p><em>State vaccine mandates, incarceration by county, South Carolina jail deaths, marine regions, and dancing.</em></p>
-<p> </p>
-<p><strong>State vaccine mandates.</strong> The <a href="https://www.immunize.org/aboutus/">Immunization Action Coalition</a> is a not-for-profit organization that “works to increase immunization rates and prevent disease by creating and distributing educational materials for healthcare professionals and the public.” Its resources include a <a href="https://www.immunize.org/laws/">series of HTML tables</a> that categorize states’ school and childcare immunization mandates for more than a dozen diseases, such as <a href="https://www.immunize.org/laws/hepa.asp">hepatitis A</a>, <a href="https://www.immunize.org/laws/polio.asp">polio</a>, and <a href="https://www.immunize.org/laws/rotavirus.asp">rotavirus</a>. The tables, although not downloadable, can be easily pasted into spreadsheet programs. The <a href="https://www.kff.org/about-us/">Kaiser Family Foundation</a>, meanwhile, is <a href="https://www.kff.org/report-section/state-covid-19-data-and-policy-actions-policy-actions/#vaccines">compiling data</a> on state vaccine mandates specific to COVID-19. [h/t <a href="https://graphics.reuters.com/HEALTH-CORONAVIRUS/BIDEN/zgpombrajpd/index.html">Minami Funakoshi</a>]</p>
-<p> </p>
-<p><strong>Incarceration by county.</strong> For an <a href="https://www.themarshallproject.org/2021/09/20/there-are-fewer-people-behind-bars-now-than-10-years-ago-will-it-last">analysis and graphics</a> that examine changes in incarceration rates over time, reporters at the Marshall Project have <a href="https://observablehq.com/@themarshallproject/adults-in-correctional-facilities-from-decennial-census">published a dataset</a> indicating the number of adults in each US county who were living in correctional facilities at the time of the Decennial Census in 2000, 2010, and 2020. Those counts, per the Census Bureau’s methodology, include a broad range of facilities, such as state prisons, military jails, halfway houses, and immigration detention centers.</p>
-<p> </p>
-<p><strong>South Carolina jail deaths.</strong> For an <a href="https://www.islandpacket.com/news/state/south-carolina/article252332068.html">investigation</a> into inmate deaths in South Carolina, <a href="https://twitter.com/Lucasgsl6">Lucas Smolcic Larson</a> has <a href="https://github.com/islandpacket/SCjaildeaths">compiled a dataset</a> “that aims to fill a void left by inconsistent government tracking” of these incidents. It details 253 deaths between 2009 and mid-2021, and draws from a <a href="https://github.com/islandpacket/SCjaildeaths#data-sources">range of sources</a>, including official forms, jail death data <a href="https://www.reuters.com/investigates/special-report/usa-jails-graphic/">compiled by Reuters</a> (<a href="https://www.data-is-plural.com/archive/2020-10-21-edition/">DIP 2020.10.21</a>) <a href="https://data.huffingtonpost.com/2016/jail-deaths">and the Huffington Post</a>, local media reports, and more. <strong>Previously</strong>: <a href="https://www.incarcerationtransparency.org/">Louisiana deaths behind bars</a> (<a href="https://www.data-is-plural.com/archive/2021-08-18-edition/">DIP 2021.08.18</a>).</p>
-<p> </p>
-<p><strong>Sea world.</strong> <a href="https://www.marineregions.org/">Marine Regions</a>, a project managed by the <a href="https://www.vliz.be/en">Flanders Marine Institute</a>, provides names and geographic coordinates for <a href="https://www.marineregions.org/content.php">62,000+</a> sea-related places, areas, and boundaries. These <a href="https://www.marineregions.org/downloads.php">include</a> exclusive economic zones, the high seas, “internal waters,” <a href="https://www.marineregions.org/sources.php#heritage">World Marine Heritage Sites</a> and more, drawn from a <a href="https://www.marineregions.org/sources.php">wide range of sources</a>. You can also <a href="https://www.marineregions.org/eezsearch.php">search</a> and <a href="https://www.marineregions.org/eezmapper.php">explore</a> the maritime boundaries online.</p>
-<p> </p>
-<p><strong>Dancing.</strong> The <a href="https://aistdancedb.ongaaccel.jp/">AIST Dance Video Database</a>, from Japan’s <a href="https://www.aist.go.jp/aist_e/about_aist/">National Institute of Advanced Industrial Science and Technology</a>, “is a shared database containing original street dance videos with copyright-cleared dance music.” It <a href="https://google.github.io/aistplusplus_dataset/factsfigures.html">forms the basis</a> of Google Research’s <a href="https://google.github.io/aistplusplus_dataset/index.html">AIST++ Dance Motion Dataset</a>, which provides detailed annotations of 10 million images from the videos, plus “1,408 sequences of 3D human dance motion,” some of which <a href="https://google.github.io/aistplusplus_dataset/visualizer/index.html">explore online</a>. [h/t <a href="https://www.robinsloan.com/">Robin Sloan</a>]</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send danceable feedback to jsvine@gmail.com, or just reply to this email. Looking for past datasets? <a href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This spreadsheet contains them all</a>. Visit <a href="https://www.data-is-plural.com">data-is-plural.com</a> to subscribe and browse past editions.</em></p>
-]]></content>
-    <link href="http://www.data-is-plural.com/archive/2021-09-29-edition" rel="alternate"/>
-    <summary>State vaccine mandates, incarceration by county, South Carolina jail deaths, marine regions, and dancing.</summary>
-    <published>2021-09-29T08:00:00-04:00</published>
   </entry>
 </feed>
