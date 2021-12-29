@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.data-is-plural.com</id>
   <title>Data Is Plural</title>
-  <updated>2021-12-22T08:00:00-05:00</updated>
+  <updated>2021-12-29T08:00:00-05:00</updated>
   <author>
     <name>Jeremy Singer-Vine</name>
     <email>jsvine@gmail.com</email>
@@ -10,6 +10,28 @@
   <link href="https://www.data-is-plural.com" rel="alternate"/>
   <generator>https://github.com/data-is-plural/newsletter-archive</generator>
   <subtitle>A weekly newsletter of useful/curious datasets.</subtitle>
+  <entry>
+    <id>dip-2021-12-29</id>
+    <title>Data Is Plural — 2021.12.29 edition</title>
+    <updated>2021-12-29T08:00:00-05:00</updated>
+    <content type="CDATA"><![CDATA[<p><em>Local mortality and the 1918 pandemic, religious congregations, COVID-era news layoffs, leaders’ economic persuasions, and root traits.</em></p>
+<p> </p>
+<p><strong>Local mortality and the 1918 pandemic.</strong> <a href="https://osf.io/preprints/socarxiv/zf6wy/">Martin Eiermann, Elizabeth Wrigley-Field, et al.</a> have conducted an analysis of deaths before, during, and after the 1918 influenza pandemic, drawing on “data from multiple sources, including digitized mortality records for 70 U.S. cities, linked census records that establish urban residency status across multiple censuses” and newspaper accounts of <a href="https://en.wikipedia.org/wiki/Non-pharmaceutical_intervention_(epidemiology)">non-pharmaceutical interventions</a>. The team’s <a href="https://osf.io/njghd/">published files</a> includes a dataset that, for each city-and-year, lists the mortality rate overall, for white vs. non-white residents, and due to flu/pneumonia; a range of demographic variables; the timing of certain interventions; and more.</p>
+<p> </p>
+<p><strong>Religious congregations.</strong> The <a href="https://www.thearda.com/">Association of Religion Data Archives</a>, founded in 1997, “strives to democratize access to the best data on religion.” Among <a href="https://www.thearda.com/Archive/browse.asp">its resources</a> are <a href="https://www.thearda.com/Archive/NCS.asp">four waves of the National Congregations Study</a>, a <a href="https://sites.duke.edu/ncsweb/">Duke University–based survey</a> that <a href="https://sites.duke.edu/ncsweb/methodology/">asks US religious establishments</a> about their denominational affiliation, buildings of worship, congregants, staffing, educational offerings, and more. Representatives from 5,300+ Christian, Jewish, Muslim, Buddhist, Hindu, and other congregations participated in the latest wave, conducted in 2018–19. [h/t <a href="https://journals.sagepub.com/doi/abs/10.1177/0003122421996686">Patricia Homan and Amy Burdette</a> + <a href="https://nationalaffairs.com/blog/detail/findings-a-daily-roundup/worship">Kevin Lewis</a>]</p>
+<p> </p>
+<p><strong>COVID-era news layoffs.</strong> “At least 6,154 news organization workers, which includes both editorial and non-editorial staffers, were laid off beginning March 2020 through August 2021,” according to a <a href="https://www.cjr.org/tow_center_reports/more-than-6150-news-workers-laid-off.php">new report</a> from the <a href="https://towcenter.columbia.edu/">Tow Center</a>’s <a href="https://twitter.com/__gabbymiller">Gabby Miller</a>. An <a href="https://www.cjr.org/widescreen/covid-cutback-tracker.php">interactive tracker</a> provides a map and downloadable table of the layoffs and other cutbacks, listing each outlet’s name, medium, owner, and location; the cutback’s date, description, and category (layoffs, pay cuts, etc.); and source links. <strong>Related</strong>: The Washington Post Magazine’s <a href="https://www.washingtonpost.com/magazine/interactive/2021/local-news-deserts-expanding/">Lost Local News issue</a>.</p>
+<p> </p>
+<p><strong>Leaders’ economic persuasions.</strong> Political scientist <a href="https://www.bastianherre.com/">Bastian Herre</a>’s new <a href="https://github.com/bastianherre/global-leader-ideologies">Global Leader Ideology dataset</a> “provides unprecedented coverage of chief executives’ [economic] ideologies across time and space,” classifying their approaches as leftist, centrist, rightist, or non-ideological in 182 countries, from 1945 to 2020. <strong>Read more</strong>: <a href="https://bb1fa620-fff9-4aa7-b146-7f71c3bf5bae.filesusr.com/ugd/654001_8c377a64fecb46cd84f76ee5d69c9edb.pdf">Herre’s introductory paper</a> and <a href="https://twitter.com/bbherre/status/1473681744964501522">Twitter thread</a>.</p>
+<p> </p>
+<p><strong>Root traits.</strong> Oak Ridge National Laboratory’s <a href="https://roots.ornl.gov/">Fine-Root Ecology Database</a> categorizes <a href="https://roots.ornl.gov/traits/map">the root characteristics</a> of <a href="https://roots.ornl.gov/plant-species">4,500+ plant species</a>, as <a href="https://roots.ornl.gov/data-sources">observed and published in scientific literature</a>. The <a href="https://roots.ornl.gov/data-inventory">hundreds of types of traits</a> relate to vessel density, root angles, lifespan, macronutrients, microbial symbionts, and more.</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send radical feedback to jsvine@gmail.com, or just reply to this email. Looking for past datasets? <a href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This spreadsheet contains them all</a>. Visit <a href="https://www.data-is-plural.com">data-is-plural.com</a> to subscribe and browse past editions.</em></p>
+]]></content>
+    <link href="http://www.data-is-plural.com/archive/2021-12-29-edition" rel="alternate"/>
+    <summary>Local mortality and the 1918 pandemic, religious congregations, COVID-era news layoffs, leaders’ economic persuasions, and root traits.</summary>
+    <published>2021-12-29T08:00:00-05:00</published>
+  </entry>
   <entry>
     <id>dip-2021-12-22</id>
     <title>Data Is Plural — 2021.12.22 edition</title>
@@ -207,27 +229,5 @@
     <link href="http://www.data-is-plural.com/archive/2021-10-13-edition" rel="alternate"/>
     <summary>Abortion policies, hourly weather, deployment votes, mask diplomacy, and bird food.</summary>
     <published>2021-10-13T08:00:00-04:00</published>
-  </entry>
-  <entry>
-    <id>dip-2021-10-06</id>
-    <title>Data Is Plural — 2021.10.06 edition</title>
-    <updated>2021-10-06T08:00:00-04:00</updated>
-    <content type="CDATA"><![CDATA[<p><em>Reservoir levels, Stolpersteine, parallel texts, undersea internet cables, and a graph model of the human skeleton.</em></p>
-<p> </p>
-<p><strong>Reservoir levels.</strong> The <a href="https://www.usbr.gov/main/about/mission.html">US Bureau of Reclamation</a>, a federal agency formed in 1902, is today “the nation’s largest wholesale water supplier, operating 338 reservoirs with a total storage capacity of 140 million acre-feet.” Its <a href="https://data.usbr.gov/">Reclamation Information Sharing Environment</a> (RISE) <a href="https://www.usbr.gov/newsroom/newsroomold/newsrelease/detail.cfm?RecordID=72624">launched publicly last year</a>, providing data on reservoir levels, water quality, hydropower generation, habitat monitoring, and more. You can <a href="https://data.usbr.gov/catalog">browse the data catalog</a>, <a href="https://data.usbr.gov/time-series/search?v=1">explore its time series</a> — for instance <a href="https://data.usbr.gov/catalog/4370/item/6123">daily water levels at Lake Mead</a>, the country’s largest reservoir, going back to 1935 — and <a href="https://data.usbr.gov/rise-api">query its API</a>. <strong>As seen in</strong>: “<a href="https://www.cnn.com/interactive/2021/08/us/colorado-river-water-shortage/">The Southwest’s most important river is drying up</a>” (CNN).</p>
-<p> </p>
-<p><strong>Stolpersteine.</strong> German artist <a href="https://en.wikipedia.org/wiki/Gunter_Demnig">Gunter Demnig</a>’s <a href="http://www.stolpersteine.eu/en/home/">Stolpersteine</a> are concrete-and-brass “stumbling stones,” each inscribed with the name of someone killed or persecuted by the Nazi regime, placed into pavement where the person last freely lived or worked. Since the mid-1990s, Demnig <a href="https://www.theguardian.com/cities/2019/feb/18/stumbling-stones-a-different-vision-of-holocaust-remembrance">has installed</a> <a href="https://www.dw.com/en/germany-75000th-stolperstein-for-holocaust-victims-laid/a-51827506">more than 75,000 of the stones</a>, often with the help of local groups. <a href="https://www.stolpersteine-berlin.de/en/project/koordinierungsstelle">Stolpersteine coordinators in Berlin</a> provide a <a href="https://www.stolpersteine-berlin.de/en/finding-stolpersteine">map and downloadable list of 8,500+ installations</a> in the city. Other resources include a <a href="https://www.stolpersteine-hamburg.de/en.php?MAIN_ID=7">searchable database of 6,000+ Stolpersteine in Hamburg</a> and <a href="https://stolpersteine.app/en/stolpersteine-app/">Stolpersteine.app</a>’s <a href="https://stolpersteine.app/en/stolpersteine/">map of 10,000+ installations in the Netherlands and Belgium</a>. [h/t <a href="https://basilesimon.fr/blog/stolpersteine-maps/">Basile Simon</a> + <a href="https://twitter.com/JenniferVEvans/status/1431304581376626688">Jennifer Evans</a> + <a href="https://twitter.com/SmithHelmut/status/1431307756565405696">Helmut Smith</a>]</p>
-<p> </p>
-<p><strong>Parallel texts.</strong> The <a href="https://opus.nlpl.eu/">OPUS</a> project gathers and converts texts that are freely available in multiple languages, providing <a href="https://opus.nlpl.eu/trac/index.html">various interfaces</a> for querying and downloading side-by-side translations. The dozens of sources include “<a href="https://en.wikipedia.org/wiki/Parallel_text">parallel corpora</a>” — bodies of text whose translations have already been aligned with one another, typically sentence by sentence — such as the <a href="https://conferences.unite.un.org/uncorpus">United Nations Parallel Corpus</a>, as well as those OPUS has tried to align automatically with software. [h/t <a href="https://pinboard.in/u:peerlessdeepak">u:peerlessdeepak</a>]</p>
-<p> </p>
-<p><strong>Undersea internet cables.</strong> <a href="https://www2.telegeography.com/">TeleGeography</a>’s <a href="https://www.submarinecablemap.com/">Submarine Cable Map</a> lets you search and browse nearly 500 active and planned <a href="https://www2.telegeography.com/submarine-cable-faqs-frequently-asked-questions">undersea internet cables</a>, the <a href="https://www.submarinecablemap.com/submarine-cable/seamewe-3">longest of which</a> spans 39,000 kilometers and connects four continents. The map’s information, which <a href="https://github.com/telegeography/www.submarinecablemap.com#how-can-i-download-the-dataset">can also be downloaded</a>, indicates each cable’s length, landing points, completion year, owners, and suppliers. [h/t <a href="https://www.getrevue.co/profile/FairWarning/issues/fair-warning-beef-brexit-and-bivariate-choropleths-772476">Soph Warnes</a>]</p>
-<p> </p>
-<p><strong>The _____ bone’s connected to the _____ bone.</strong> Data scientist <a href="https://twitter.com/clayheaton">Clay Heaton</a>’s <a href="https://github.com/clayheaton/human-skeleton-graph-data-model">graph model of the human skeleton</a> links all 206 adult human bones to their anatomical neighbors. The dataset also maps each bone to its general region, such as “Left Foot” or “Right Ear.” [h/t <a href="https://pinboard.in/u:arnicas/">Lynn Cherny</a>]</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send ossified feedback to jsvine@gmail.com, or just reply to this email. Looking for past datasets? <a href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This spreadsheet contains them all</a>. Visit <a href="https://www.data-is-plural.com">data-is-plural.com</a> to subscribe and browse past editions.</em></p>
-]]></content>
-    <link href="http://www.data-is-plural.com/archive/2021-10-06-edition" rel="alternate"/>
-    <summary>Reservoir levels, Stolpersteine, parallel texts, undersea internet cables, and a graph model of the human skeleton.</summary>
-    <published>2021-10-06T08:00:00-04:00</published>
   </entry>
 </feed>
