@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.data-is-plural.com</id>
   <title>Data Is Plural</title>
-  <updated>2022-03-09T08:00:00-05:00</updated>
+  <updated>2022-03-16T08:00:00-04:00</updated>
   <author>
     <name>Jeremy Singer-Vine</name>
     <email>jsvine@gmail.com</email>
@@ -11,22 +11,210 @@
   <generator>https://github.com/data-is-plural/newsletter-archive</generator>
   <subtitle>A weekly newsletter of useful/curious datasets.</subtitle>
   <entry>
+    <id>dip-2022-03-16</id>
+    <title>Data Is Plural — 2022.03.16 edition</title>
+    <updated>2022-03-16T08:00:00-04:00</updated>
+    <content type="CDATA"><![CDATA[<p><em>European energy imports/exports, Ukraine border crossing sites,
+conspiracy theory language, ISS photo locations, and software
+sunsets.</em></p>
+<p> </p>
+<p><strong>European energy imports/exports.</strong> The EU’s <a
+href="https://en.wikipedia.org/wiki/Eurostat">Eurostat</a> office
+publishes a range of statistical datasets on <a
+href="https://ec.europa.eu/eurostat/databrowser/explore/all/envir?lang=en&amp;subtheme=nrg&amp;display=list&amp;sort=category&amp;extractionId=NRG_TI_SFF__custom_2293925">energy
+usage and economics</a>, including annual <a
+href="https://ec.europa.eu/eurostat/databrowser/explore/all/envir?lang=en&amp;subtheme=nrg.nrg_quant.nrg_quanta.nrg_t.nrg_ti&amp;display=list&amp;sort=category&amp;extractionId=NRG_TI_SFF__custom_2293925">imports</a>
+and <a
+href="https://ec.europa.eu/eurostat/databrowser/explore/all/envir?lang=en&amp;subtheme=nrg.nrg_quant.nrg_quanta.nrg_t.nrg_te&amp;display=list&amp;sort=category&amp;extractionId=NRG_TI_SFF__custom_2293925">exports</a>
+of petroleum, natural gas, and coal between European countries and their
+trading partners. <strong>Related</strong>: The <a
+href="https://www.eia.gov/">Energy Information Administration</a> tracks
+US imports and exports of <a
+href="https://www.eia.gov/petroleum/data.php#imports">petroleum</a>, <a
+href="https://www.eia.gov/naturalgas/data.php#imports">natural gas</a>,
+and <a href="https://www.eia.gov/coal/data.php#imports">coal</a>.
+<strong>As seen in</strong>: <a
+href="https://www.newstatesman.com/chart-of-the-day/2022/02/how-europe-is-dependent-on-russian-gas">How
+Europe is dependent on Russian gas</a> (New Statesman) and <a
+href="https://www.nytimes.com/2022/02/25/business/economy/russia-europe-sanctions-gas-oil.html">Why
+the Toughest Sanctions on Russia Are the Hardest for Europe to Wield</a>
+(New York Times). <strong>Previously</strong>: <a
+href="https://agsi.gie.eu/">European gas storage</a> (<a
+href="https://www.data-is-plural.com/archive/2022-01-26-edition/">DIP
+2022.01.26</a>), <a
+href="https://www.nationaloilcompanydata.org/">state-owned oil
+companies</a> (<a
+href="https://www.data-is-plural.com/archive/2019-05-01-edition/">DIP
+2019.05.01</a>), and <a
+href="https://edx.netl.doe.gov/dataset/global-oil-gas-features-database">global
+and gas infrastructure</a> (<a
+href="https://www.data-is-plural.com/archive/2018-06-06-edition/">DIP
+2018.06.06</a>). [h/t <a
+href="https://blog.datawrapper.de/data-vis-dispatch-march-1-2022/">Lisa
+Charlotte Muth</a>]</p>
+<p> </p>
+<p><strong>Ukraine border crossing sites.</strong> The UN’s <a
+href="https://www.unocha.org/ukraine">Office for the Coordination of
+Humanitarian Affairs in Ukraine</a> has combined information from
+multiple sources to create a <a
+href="https://data.humdata.org/dataset/ukraine-border-crossings">geospatial
+dataset of the country’s international border crossings</a> with Moldova
+(11 crossings listed), Poland (8), Hungary (5), Romania (4), and
+Slovakia (2). It provides each crossing’s latitude, longitude, border
+country, and name in both Ukrainian and English. The associated metadata
+indicates an “expected update frequency” of weekly.</p>
+<p> </p>
+<p><strong>Conspiracy theory language.</strong> <a
+href="https://link.springer.com/article/10.3758/s13428-021-01698-z">Alessandro
+Miani et al.</a> have built a <a
+href="https://osf.io/snpcg/">dataset</a> to study the language of
+conspiracy theories. Starting with a set of phrases associated with
+major conspiracy theories (e.g., those surrounding Princess Diana’s
+death), the authors searched online for sources that mentioned them
+often, ultimately selecting 150 websites — both mainstream and
+conspiracy-laden — that met their criteria. Then, in mid-2020, they
+collected 72,000+ topical articles from those sites. For each article,
+the project includes its text, lexical features, and metadata. [h/t <a
+href="https://www.reddit.com/r/datasets/comments/rzufy9/loco_the_88millionword_language_of_conspiracy/">Gwern
+Branwen</a>]</p>
+<p> </p>
+<p><strong>ISS photo locations.</strong> In 2013, <a
+href="https://natronics.org/">Nathan Bergey</a> crawled NASA’s <a
+href="https://eol.jsc.nasa.gov/">website of International Space Station
+imagery</a>, <a
+href="https://natronics.github.io/ISS-photo-locations/">creating a
+dataset</a> that listed the mission, roll, frame, latitude, and
+longitude of each of the million-plus photographs ever taken from the
+habitable satellite. <strong>Related</strong>: NASA itself also provides
+tools for <a
+href="https://eol.jsc.nasa.gov/SearchPhotos/">searching</a>, <a
+href="https://eol.jsc.nasa.gov/SearchPhotos/ShowQueryResults-Lightcycle.pl?results=Latest_ISS_Imagery">browsing</a>,
+and <a href="https://issearthserv.jsc.nasa.gov/i4.html">mapping</a> ISS
+imagery. [h/t <a
+href="https://twitter.com/sasha_trub/status/1466961926441914372">Sasha
+Trubetskoy</a>]</p>
+<p> </p>
+<p><strong>Software sunsets.</strong> The website <a
+href="https://endoflife.date/">endoflife.date</a> tracks “end of life”
+dates and “support lifecycles” for roughly 100 software products
+— languages, frameworks, operating systems, and more. It indicates, for
+example, that <a href="https://endoflife.date/python">Python 3.10
+appeared in October 2021</a> and will lose security support in October
+2026. You can access the project’s machine-readable data <a
+href="https://github.com/endoflife-date/endoflife.date/tree/master/products">through
+its GitHub repository</a> and <a
+href="https://endoflife.date/docs/api">API</a>.</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send unsupported feedback
+to jsvine@gmail.com, or just reply to this email. Looking for past
+datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions.</em></p>
+]]></content>
+    <link href="http://www.data-is-plural.com/archive/2022-03-16-edition" rel="alternate"/>
+    <summary>European energy imports/exports, Ukraine border crossing sites, conspiracy theory language, ISS photo locations, and software sunsets.</summary>
+    <published>2022-03-16T08:00:00-04:00</published>
+  </entry>
+  <entry>
     <id>dip-2022-03-09</id>
     <title>Data Is Plural — 2022.03.09 edition</title>
     <updated>2022-03-09T08:00:00-05:00</updated>
-    <content type="CDATA"><![CDATA[<p><em>Refugees fleeing Ukraine, international crises, foreign ministry statements, prison COVID policies, and medieval prices.</em></p>
+    <content type="CDATA"><![CDATA[<p><em>Refugees fleeing Ukraine, international crises, foreign ministry
+statements, prison COVID policies, and medieval prices.</em></p>
 <p> </p>
-<p><strong>Refugees fleeing Ukraine.</strong> The UN’s refugee agency last week <a href="https://www.unhcr.org/news/announc/2022/3/621f5e334/launch-unhcr-data-portal-ukraine-refugee-situation.html">launched</a> a data portal <a href="https://data2.unhcr.org/en/situations/ukraine">tracking the arrival of refugees from Ukraine in other countries</a>. The daily-updated maps, charts, and structured data provide counts and estimates of arrivals by date, by receiving country, and overall. <strong>Related</strong>: The UN’s <a href="https://www.unhcr.org/refugee-statistics-uat/">Refugee Population Statistics Database</a>, which “contains information about forcibly displaced populations spanning more than 70 years of statistical activities.”</p>
+<p><strong>Refugees fleeing Ukraine.</strong> The UN’s refugee agency
+last week <a
+href="https://www.unhcr.org/news/announc/2022/3/621f5e334/launch-unhcr-data-portal-ukraine-refugee-situation.html">launched</a>
+a data portal <a
+href="https://data2.unhcr.org/en/situations/ukraine">tracking the
+arrival of refugees from Ukraine in other countries</a>. The
+daily-updated maps, charts, and structured data provide counts and
+estimates of arrivals by date, by receiving country, and overall.
+<strong>Related</strong>: The UN’s <a
+href="https://www.unhcr.org/refugee-statistics-uat/">Refugee Population
+Statistics Database</a>, which “contains information about forcibly
+displaced populations spanning more than 70 years of statistical
+activities.”</p>
 <p> </p>
-<p><strong>International crises.</strong> The <a href="https://sites.duke.edu/icbdata/">International Crisis Behavior Project</a>, <a href="https://sites.duke.edu/icbdata/project-info/">initiated in 1975</a>, collects detailed data about interstate military-security crises such as the <a href="http://www.icb.umd.edu/dataviewer/?crisno=39">Mukden Incident</a>, <a href="http://www.icb.umd.edu/dataviewer/?crisno=196">Cuban Missile Crisis</a>, and <a href="http://www.icb.umd.edu/dataviewer/?crisno=471">Russia’s 2014 invasion of Crimea</a>. The <a href="https://sites.duke.edu/icbdata/data-collections/">project’s datasets</a> and <a href="http://www.icb.umd.edu/dataviewer/">online catalog</a>, now in their 14th version, have come to cover 487 crises between 1918 and 2017. The dozens of variables include the start and end dates, type of triggering event, centrality of violence, use of mediation, type of outcome, and more. <strong>Related</strong>: The <a href="https://www.crisisevents.org/">International Crisis Behavior Events</a> project, developed by a <a href="https://arxiv.org/abs/2202.07081">separate group of researchers</a>, has translated the sub-events within ICB’s summaries into structured data. [h/t <a href="https://pinboard.in/u:arnicas">Lynn Cherny</a>]</p>
+<p><strong>International crises.</strong> The <a
+href="https://sites.duke.edu/icbdata/">International Crisis Behavior
+Project</a>, <a
+href="https://sites.duke.edu/icbdata/project-info/">initiated in
+1975</a>, collects detailed data about interstate military-security
+crises such as the <a
+href="http://www.icb.umd.edu/dataviewer/?crisno=39">Mukden Incident</a>,
+<a href="http://www.icb.umd.edu/dataviewer/?crisno=196">Cuban Missile
+Crisis</a>, and <a
+href="http://www.icb.umd.edu/dataviewer/?crisno=471">Russia’s 2014
+invasion of Crimea</a>. The <a
+href="https://sites.duke.edu/icbdata/data-collections/">project’s
+datasets</a> and <a href="http://www.icb.umd.edu/dataviewer/">online
+catalog</a>, now in their 14th version, have come to cover 487 crises
+between 1918 and 2017. The dozens of variables include the start and end
+dates, type of triggering event, centrality of violence, use of
+mediation, type of outcome, and more. <strong>Related</strong>: The <a
+href="https://www.crisisevents.org/">International Crisis Behavior
+Events</a> project, developed by a <a
+href="https://arxiv.org/abs/2202.07081">separate group of
+researchers</a>, has translated the sub-events within ICB’s summaries
+into structured data. [h/t <a href="https://pinboard.in/u:arnicas">Lynn
+Cherny</a>]</p>
 <p> </p>
-<p><strong>Foreign ministry statements.</strong> The <a href="https://focusdataproject.com/">FOCUSdata project</a>, led by New Jersey City University’s <a href="https://www.njcu.edu/academics/schools-colleges/college-professional-studies/departments/professional-security-studies">National Security Studies Department</a>, <a href="https://academic.oup.com/fpa/article/18/2/orac002/6527272">has compiled</a> English-language statements and articles from the foreign ministries and state media in Russia, North Korea, China, and Iran. Many of <a href="https://dataverse.harvard.edu/dataverse/focusdataproject">the collections</a> span more than a decade, and typically extend to 2019 or 2020. The project also presents interactive charts showing estimated sentiment trends and topic frequencies. [h/t <a href="https://twitter.com/GraigKlein/status/1493617381712834564">Graig Klein</a> + <a href="https://twitter.com/J_Codjo/status/1493627145645703172">Juste Codjo</a>]</p>
+<p><strong>Foreign ministry statements.</strong> The <a
+href="https://focusdataproject.com/">FOCUSdata project</a>, led by New
+Jersey City University’s <a
+href="https://www.njcu.edu/academics/schools-colleges/college-professional-studies/departments/professional-security-studies">National
+Security Studies Department</a>, <a
+href="https://academic.oup.com/fpa/article/18/2/orac002/6527272">has
+compiled</a> English-language statements and articles from the foreign
+ministries and state media in Russia, North Korea, China, and Iran. Many
+of <a
+href="https://dataverse.harvard.edu/dataverse/focusdataproject">the
+collections</a> span more than a decade, and typically extend to 2019 or
+2020. The project also presents interactive charts showing estimated
+sentiment trends and topic frequencies. [h/t <a
+href="https://twitter.com/GraigKlein/status/1493617381712834564">Graig
+Klein</a> + <a
+href="https://twitter.com/J_Codjo/status/1493627145645703172">Juste
+Codjo</a>]</p>
 <p> </p>
-<p><strong>Prison COVID policies.</strong> Between April 2020 and April 2021, researchers at the <a href="https://uclacovidbehindbars.org/">UCLA Law COVID Behind Bars Data Project</a> gathered 3,500+ policy announcements from federal and state prison agencies in the US. Their <a href="https://uclacovidbehindbars.org/policy-index">Prison Policy Index spreadsheet</a>, <a href="https://uclacovidbehindbars.org/prison-policy-index">published earlier this year</a>, describes the announcements they gathered through April 2021. It indicates the state, date publicized, and date collected, and provides an archival link, a short summary, and a series of columns classifying the policies announced.</p>
+<p><strong>Prison COVID policies.</strong> Between April 2020 and April
+2021, researchers at the <a href="https://uclacovidbehindbars.org/">UCLA
+Law COVID Behind Bars Data Project</a> gathered 3,500+ policy
+announcements from federal and state prison agencies in the US. Their <a
+href="https://uclacovidbehindbars.org/policy-index">Prison Policy Index
+spreadsheet</a>, <a
+href="https://uclacovidbehindbars.org/prison-policy-index">published
+earlier this year</a>, describes the announcements they gathered through
+April 2021. It indicates the state, date publicized, and date collected,
+and provides an archival link, a short summary, and a series of columns
+classifying the policies announced.</p>
 <p> </p>
-<p><strong>Medieval prices.</strong> The <a href="https://memdb.libraries.rutgers.edu/">Medieval and Early Modern Data Bank</a>, an effort that dates back to the 1980s, contains six datasets relating to currency exchanges, prices, wages, and textile production in Europe “circa 800-1815 C.E.” The records, which have been compiled from prior publications (<a href="https://memdb.libraries.rutgers.edu/metz-prices">such as a statistical compendium of grain sales in Cologne</a>), can be queried online or <a href="https://search.gesis.org/research_data/ZA8150">downloaded in bulk</a>. [h/t <a href="https://medium.com/@zavidovych/what-we-can-learn-by-looking-at-prices-and-wages-in-medieval-england-8dc207cfd20a">Vlad Zavidovych</a> + <a href="https://blog.datawrapper.de/medieval-prices-wages/">Mirko Lorenz</a>]</p>
+<p><strong>Medieval prices.</strong> The <a
+href="https://memdb.libraries.rutgers.edu/">Medieval and Early Modern
+Data Bank</a>, an effort that dates back to the 1980s, contains six
+datasets relating to currency exchanges, prices, wages, and textile
+production in Europe “circa 800-1815 C.E.” The records, which have been
+compiled from prior publications (<a
+href="https://memdb.libraries.rutgers.edu/metz-prices">such as a
+statistical compendium of grain sales in Cologne</a>), can be queried
+online or <a
+href="https://search.gesis.org/research_data/ZA8150">downloaded in
+bulk</a>. [h/t <a
+href="https://medium.com/@zavidovych/what-we-can-learn-by-looking-at-prices-and-wages-in-medieval-england-8dc207cfd20a">Vlad
+Zavidovych</a> + <a
+href="https://blog.datawrapper.de/medieval-prices-wages/">Mirko
+Lorenz</a>]</p>
 <p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send guilder-denominated feedback to jsvine@gmail.com, or just reply to this email. Looking for past datasets? <a href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This spreadsheet contains them all</a>. Visit <a href="https://www.data-is-plural.com">data-is-plural.com</a> to subscribe and browse past editions.</em></p>
+<p><em>Dataset suggestions? Criticism? Praise? Send guilder-denominated
+feedback to jsvine@gmail.com, or just reply to this email. Looking for
+past datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and browse past editions.</em></p>
 ]]></content>
     <link href="http://www.data-is-plural.com/archive/2022-03-09-edition" rel="alternate"/>
     <summary>Refugees fleeing Ukraine, international crises, foreign ministry statements, prison COVID policies, and medieval prices.</summary>
@@ -36,21 +224,117 @@
     <id>dip-2022-02-09</id>
     <title>Data Is Plural — 2022.02.09 edition</title>
     <updated>2022-02-09T08:00:00-05:00</updated>
-    <content type="CDATA"><![CDATA[<p><em>People affected by Trump’s travel ban, Erasmus exchanges, national climate funds, sites that support HTTPs, and board games.</em></p>
+    <content type="CDATA"><![CDATA[<p><em>People affected by Trump’s travel ban, Erasmus exchanges,
+national climate funds, sites that support HTTPs, and board
+games.</em></p>
 <p> </p>
-<p><em>👋 In a similar vein as last week’s link to the unofficial <a href="https://twitter.com/DataispluralBot">@DataIsPluralBot</a>: You might also enjoy <a href="https://wattenberger.com/">Amelia Wattenberger</a>’s <a href="https://dataset-finder.netlify.app/random">DIP-randomizing webpage</a>, stocked with <a href="https://twitter.com/Wattenberger/status/1425593128153751554">3D gift boxes and custom illustrations</a>.</em></p>
+<p><em>👋 In a similar vein as last week’s link to the unofficial <a
+href="https://twitter.com/DataispluralBot">@DataIsPluralBot</a>: You
+might also enjoy <a href="https://wattenberger.com/">Amelia
+Wattenberger</a>’s <a
+href="https://dataset-finder.netlify.app/random">DIP-randomizing
+webpage</a>, stocked with <a
+href="https://twitter.com/Wattenberger/status/1425593128153751554">3D
+gift boxes and custom illustrations</a>.</em></p>
 <p> </p>
-<p><strong>People affected by Trump’s travel ban.</strong> On January 27, 2017, then–President Trump issued <a href="https://ballotpedia.org/Donald_Trump%27s_immigration_executive_order_issued_January_27,_2017">an executive order</a> suspending entry to the United States by citizens of seven Muslim-majority countries. For a <a href="https://www.huffpost.com/entry/trump-travel-ban-muslims-changed-lives_n_61e86498e4b01f707dabbdcd">recent, year-long HuffPost investigation</a>, reporter <a href="https://twitter.com/Rowaida_Abdel">Rowaida Abdelaziz</a> led a team that collected and categorized the stories of 874 people affected by the travel ban, such as those who separated from a parent or child. An <a href="https://docs.google.com/spreadsheets/d/11w02tTBHguxfQljb2--fN-c3kEaiSpHhnpW6CYkBgQY/edit#gid=135755090">anonymized spreadsheet</a> indicates the types of loss each person experienced, their nationalities, and other relevant details. <strong>Related</strong>: Between September 2019 and January 2021, the State Department published <a href="https://travel.state.gov/content/travel/en/us-visas/visa-information-resources/presidential-proclamation-archive/presidential-proclamation9645.html?wcmmode=disabled">monthly, cumulative statistics</a> about visa applications affected by later versions of the travel ban, but only as PDF reports. [h/t <a href="http://www.davidvine.net/">David Vine</a>]</p>
+<p><strong>People affected by Trump’s travel ban.</strong> On January
+27, 2017, then–President Trump issued <a
+href="https://ballotpedia.org/Donald_Trump%27s_immigration_executive_order_issued_January_27,_2017">an
+executive order</a> suspending entry to the United States by citizens of
+seven Muslim-majority countries. For a <a
+href="https://www.huffpost.com/entry/trump-travel-ban-muslims-changed-lives_n_61e86498e4b01f707dabbdcd">recent,
+year-long HuffPost investigation</a>, reporter <a
+href="https://twitter.com/Rowaida_Abdel">Rowaida Abdelaziz</a> led a
+team that collected and categorized the stories of 874 people affected
+by the travel ban, such as those who separated from a parent or child.
+An <a
+href="https://docs.google.com/spreadsheets/d/11w02tTBHguxfQljb2--fN-c3kEaiSpHhnpW6CYkBgQY/edit#gid=135755090">anonymized
+spreadsheet</a> indicates the types of loss each person experienced,
+their nationalities, and other relevant details.
+<strong>Related</strong>: Between September 2019 and January 2021, the
+State Department published <a
+href="https://travel.state.gov/content/travel/en/us-visas/visa-information-resources/presidential-proclamation-archive/presidential-proclamation9645.html?wcmmode=disabled">monthly,
+cumulative statistics</a> about visa applications affected by later
+versions of the travel ban, but only as PDF reports. [h/t <a
+href="http://www.davidvine.net/">David Vine</a>]</p>
 <p> </p>
-<p><strong>Erasmus exchanges.</strong> The European Union publishes <a href="https://data.europa.eu/data/datasets?locale=en&amp;catalog=eac&amp;query=erasmus&amp;page=1&amp;sort=issued%2Bdesc,%20relevance%2Bdesc,%20title.en%2Basc">data on the movement of students, staff, and trainees</a> through its <a href="https://en.wikipedia.org/wiki/Erasmus_Programme">Erasmus+</a> exchange program. The <a href="https://data.europa.eu/data/datasets/erasmus-mobility-statistics-2014-2019-v2?locale=en">most recent dataset</a> covers academic years 2014–15 through 2019–20, detailing the international transfer of millions of participants. Each row lists a combination of variables and the number of participants who matched that description. The variables include the field of education, participant gender and nationality, duration of the exchange, sending and receiving cities and organizations, and more. <strong>As seen in</strong>: <a href="https://www.elconfidencial.com/mundo/europa/2021-12-28/erasmus-dos-velocidades-programa-ue-desigualdad_3348913/">Erasmus a dos velocidades</a> (El Confidencial). [h/t <a href="https://blog.datawrapper.de/data-vis-dispatch-january-4-2022/">Rose Mintzer-Sweeney</a>]</p>
+<p><strong>Erasmus exchanges.</strong> The European Union publishes <a
+href="https://data.europa.eu/data/datasets?locale=en&amp;catalog=eac&amp;query=erasmus&amp;page=1&amp;sort=issued%2Bdesc,%20relevance%2Bdesc,%20title.en%2Basc">data
+on the movement of students, staff, and trainees</a> through its <a
+href="https://en.wikipedia.org/wiki/Erasmus_Programme">Erasmus+</a>
+exchange program. The <a
+href="https://data.europa.eu/data/datasets/erasmus-mobility-statistics-2014-2019-v2?locale=en">most
+recent dataset</a> covers academic years 2014–15 through 2019–20,
+detailing the international transfer of millions of participants. Each
+row lists a combination of variables and the number of participants who
+matched that description. The variables include the field of education,
+participant gender and nationality, duration of the exchange, sending
+and receiving cities and organizations, and more. <strong>As seen
+in</strong>: <a
+href="https://www.elconfidencial.com/mundo/europa/2021-12-28/erasmus-dos-velocidades-programa-ue-desigualdad_3348913/">Erasmus
+a dos velocidades</a> (El Confidencial). [h/t <a
+href="https://blog.datawrapper.de/data-vis-dispatch-january-4-2022/">Rose
+Mintzer-Sweeney</a>]</p>
 <p> </p>
-<p><strong>National climate funds.</strong> Boston University’s <a href="https://www.bu.edu/gdp/profile/rishikesh-ram-bhandary/">Rishikesh Ram Bhandary</a> has <a href="https://www.tandfonline.com/doi/full/10.1080/14693062.2022.2027223">constructed an inventory</a> of national funds for financing action on climate change. The dataset, which you can <a href="https://figshare.com/articles/dataset/National_climate_funds_a_new_dataset_on_national_financing_vehicles_for_climate_change/18865640">download</a> or <a href="https://www.bu.edu/gdp/national-climate-funds-tracker/">browse interactively</a>, currently covers 46 funds in 39 developing countries. It lists each fund’s title, year established, source of funding, host entity, scope, and more.</p>
+<p><strong>National climate funds.</strong> Boston University’s <a
+href="https://www.bu.edu/gdp/profile/rishikesh-ram-bhandary/">Rishikesh
+Ram Bhandary</a> has <a
+href="https://www.tandfonline.com/doi/full/10.1080/14693062.2022.2027223">constructed
+an inventory</a> of national funds for financing action on climate
+change. The dataset, which you can <a
+href="https://figshare.com/articles/dataset/National_climate_funds_a_new_dataset_on_national_financing_vehicles_for_climate_change/18865640">download</a>
+or <a
+href="https://www.bu.edu/gdp/national-climate-funds-tracker/">browse
+interactively</a>, currently covers 46 funds in 39 developing countries.
+It lists each fund’s title, year established, source of funding, host
+entity, scope, and more.</p>
 <p> </p>
-<p><strong>Sites that support HTTPS.</strong> DuckDuckGo’s <a href="https://spreadprivacy.com/duckduckgo-smarter-encryption/">Smarter Encryption</a> project <a href="https://github.com/duckduckgo/smarter-encryption">provides a big text file</a> that lists every website that the company knows supports HTTPS, the internet encryption protocol. The list contains 31+ million entries, updated via a web crawler. <strong>Related</strong>: Last year, the <a href="https://www.eff.org/about">Electronic Frontier Foundation</a> <a href="https://www.eff.org/deeplinks/2021/04/https-everywhere-now-uses-duckduckgos-smarter-encryption">began incorporating the data</a> into its <a href="https://www.eff.org/https-everywhere">HTTPS Everywhere</a> browser extension. (It has since <a href="https://www.eff.org/deeplinks/2021/09/https-actually-everywhere">announced plans to retire</a> the decade-in-service extension, now that “HTTPS is truly just about everywhere.”) [h/t <a href="https://news.ycombinator.com/item?id=26821333">Giulio Magnifico</a>]</p>
+<p><strong>Sites that support HTTPS.</strong> DuckDuckGo’s <a
+href="https://spreadprivacy.com/duckduckgo-smarter-encryption/">Smarter
+Encryption</a> project <a
+href="https://github.com/duckduckgo/smarter-encryption">provides a big
+text file</a> that lists every website that the company knows supports
+HTTPS, the internet encryption protocol. The list contains 31+ million
+entries, updated via a web crawler. <strong>Related</strong>: Last year,
+the <a href="https://www.eff.org/about">Electronic Frontier
+Foundation</a> <a
+href="https://www.eff.org/deeplinks/2021/04/https-everywhere-now-uses-duckduckgos-smarter-encryption">began
+incorporating the data</a> into its <a
+href="https://www.eff.org/https-everywhere">HTTPS Everywhere</a> browser
+extension. (It has since <a
+href="https://www.eff.org/deeplinks/2021/09/https-actually-everywhere">announced
+plans to retire</a> the decade-in-service extension, now that “HTTPS is
+truly just about everywhere.”) [h/t <a
+href="https://news.ycombinator.com/item?id=26821333">Giulio
+Magnifico</a>]</p>
 <p> </p>
-<p><strong>Board games.</strong> <a href="https://boardgamegeek.com/">BoardGameGeek</a> users have submitted millions of <a href="https://boardgamegeek.com/wiki/page/ratings">ratings</a> over the past two decades, <a href="https://fivethirtyeight.com/features/designing-the-best-board-game-on-the-planet/">judging</a> <a href="https://boardgamegeek.com/browse/boardgame/">tens of thousands of games</a>. The website <a href="https://boardgamegeek.com/wiki/page/BGG_XML_API2">provides an API</a> that lets you search for games and retrieve detailed information about their attributes and ratings. <strong>As seen in</strong>: “<a href="https://jvanelteren.github.io/blog/2022/01/19/boardgames.html">Diving into BoardGameGeek</a>,” by <a href="https://jvanelteren.github.io/blog/">Jesse van Elteren</a>, who crawled the API to compile a <a href="https://www.kaggle.com/jvanelteren/boardgamegeek-reviews">dataset of 19 million ratings from 410,000+ users</a>. [h/t <a href="https://news.ycombinator.com/item?id=30040739">Jordan Isip</a>]</p>
+<p><strong>Board games.</strong> <a
+href="https://boardgamegeek.com/">BoardGameGeek</a> users have submitted
+millions of <a
+href="https://boardgamegeek.com/wiki/page/ratings">ratings</a> over the
+past two decades, <a
+href="https://fivethirtyeight.com/features/designing-the-best-board-game-on-the-planet/">judging</a>
+<a href="https://boardgamegeek.com/browse/boardgame/">tens of thousands
+of games</a>. The website <a
+href="https://boardgamegeek.com/wiki/page/BGG_XML_API2">provides an
+API</a> that lets you search for games and retrieve detailed information
+about their attributes and ratings. <strong>As seen in</strong>: “<a
+href="https://jvanelteren.github.io/blog/2022/01/19/boardgames.html">Diving
+into BoardGameGeek</a>,” by <a
+href="https://jvanelteren.github.io/blog/">Jesse van Elteren</a>, who
+crawled the API to compile a <a
+href="https://www.kaggle.com/jvanelteren/boardgamegeek-reviews">dataset
+of 19 million ratings from 410,000+ users</a>. [h/t <a
+href="https://news.ycombinator.com/item?id=30040739">Jordan
+Isip</a>]</p>
 <p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send tabletop feedback to jsvine@gmail.com, or just reply to this email. Looking for past datasets? <a href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This spreadsheet contains them all</a>. Visit <a href="https://www.data-is-plural.com">data-is-plural.com</a> to subscribe and browse past editions.</em></p>
+<p><em>Dataset suggestions? Criticism? Praise? Send tabletop feedback to
+jsvine@gmail.com, or just reply to this email. Looking for past
+datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and browse past editions.</em></p>
 ]]></content>
     <link href="http://www.data-is-plural.com/archive/2022-02-09-edition" rel="alternate"/>
     <summary>People affected by Trump’s travel ban, Erasmus exchanges, national climate funds, sites that support HTTPs, and board games.</summary>
@@ -60,21 +344,107 @@
     <id>dip-2022-02-02</id>
     <title>Data Is Plural — 2022.02.02 edition</title>
     <updated>2022-02-02T08:00:00-05:00</updated>
-    <content type="CDATA"><![CDATA[<p><em>Abortion facility distances, China’s tech giants abroad, House committee witnesses, immigrant populations in 1900, and borrowed words.</em></p>
+    <content type="CDATA"><![CDATA[<p><em>Abortion facility distances, China’s tech giants abroad, House
+committee witnesses, immigrant populations in 1900, and borrowed
+words.</em></p>
 <p> </p>
-<p><em>👋 Data Is Plural isn’t officially on Twitter. But if you want a smörgåsbord of past datasets in your feed, you can follow <a href="https://twitter.com/DataispluralBot">@DataIsPluralBot</a>, <a href="https://twitter.com/OscarBaruffa/status/1487830101664407552">recently created</a> by DIP subscriber <a href="https://twitter.com/OscarBaruffa">Oscar Baruffa</a>.</em></p>
+<p><em>👋 Data Is Plural isn’t officially on Twitter. But if you want a
+smörgåsbord of past datasets in your feed, you can follow <a
+href="https://twitter.com/DataispluralBot">@DataIsPluralBot</a>, <a
+href="https://twitter.com/OscarBaruffa/status/1487830101664407552">recently
+created</a> by DIP subscriber <a
+href="https://twitter.com/OscarBaruffa">Oscar Baruffa</a>.</em></p>
 <p> </p>
-<p><strong>Abortion facility distances.</strong> <a href="https://cmyers.middcreate.net/">Caitlin Knowles Myers</a>, an economist with a <a href="https://cmyers.middcreate.net/scholarship/">focus on reproductive policy</a>, has <a href="https://osf.io/8dg7r/">compiled a dataset</a> that calculates — for every county in the contiguous US, every month between January 2009 and June 2021 — the distance you would have to travel to the nearest abortion facility. Researchers can also <a href="https://osf.io/tj4ud/">request access to Myers’s underlying database of the facilities themselves</a>. As described in her working paper, “<a href="https://www.iza.org/publications/dp/14556">Measuring the Burden: The Effect of Travel Distance on Abortions and Births</a>,” Myers gathered the information from a range of sources, including state licensing databases, facility websites, and Planned Parenthood directories. <strong>As seen in</strong>: “<a href="https://www.axios.com/distance-abortion-roe-supreme-court-texas-17ae0d8c-7882-408c-b6f9-bf6ece0f22a2.html">Abortions could require 200-mile trips if Roe is overturned</a>” (Axios). [h/t <a href="https://blog.datawrapper.de/data-vis-dispatch-december-7-2021/">Rose Mintzer-Sweeney</a>]</p>
+<p><strong>Abortion facility distances.</strong> <a
+href="https://cmyers.middcreate.net/">Caitlin Knowles Myers</a>, an
+economist with a <a
+href="https://cmyers.middcreate.net/scholarship/">focus on reproductive
+policy</a>, has <a href="https://osf.io/8dg7r/">compiled a dataset</a>
+that calculates — for every county in the contiguous US, every month
+between January 2009 and June 2021 — the distance you would have to
+travel to the nearest abortion facility. Researchers can also <a
+href="https://osf.io/tj4ud/">request access to Myers’s underlying
+database of the facilities themselves</a>. As described in her working
+paper, “<a href="https://www.iza.org/publications/dp/14556">Measuring
+the Burden: The Effect of Travel Distance on Abortions and Births</a>,”
+Myers gathered the information from a range of sources, including state
+licensing databases, facility websites, and Planned Parenthood
+directories. <strong>As seen in</strong>: “<a
+href="https://www.axios.com/distance-abortion-roe-supreme-court-texas-17ae0d8c-7882-408c-b6f9-bf6ece0f22a2.html">Abortions
+could require 200-mile trips if Roe is overturned</a>” (Axios). [h/t <a
+href="https://blog.datawrapper.de/data-vis-dispatch-december-7-2021/">Rose
+Mintzer-Sweeney</a>]</p>
 <p> </p>
-<p><strong>Chinese technology companies abroad.</strong> <a href="https://chinatechmap.aspi.org.au/">Mapping China’s Tech Giants</a>, a project relaunched by the <a href="https://en.wikipedia.org/wiki/Australian_Strategic_Policy_Institute">Australian Strategic Policy Institute</a> last year, examines the overseas expansion of 27 major Chinese technology companies, from Alibaba to ZTE. The <a href="https://chinatechmap.aspi.org.au/#/data/">project’s dataset</a> includes 3,900+ entries, each describing and locating an operation or connection abroad. They’re grouped into a couple dozen categories, such as commercial partnerships, overseas offices, data centers, 5G relationships, training, and donations. [h/t <a href="https://twitter.com/He_Shumei/status/1402114458793635844">Samantha Hoffman</a>]</p>
+<p><strong>Chinese technology companies abroad.</strong> <a
+href="https://chinatechmap.aspi.org.au/">Mapping China’s Tech
+Giants</a>, a project relaunched by the <a
+href="https://en.wikipedia.org/wiki/Australian_Strategic_Policy_Institute">Australian
+Strategic Policy Institute</a> last year, examines the overseas
+expansion of 27 major Chinese technology companies, from Alibaba to ZTE.
+The <a href="https://chinatechmap.aspi.org.au/#/data/">project’s
+dataset</a> includes 3,900+ entries, each describing and locating an
+operation or connection abroad. They’re grouped into a couple dozen
+categories, such as commercial partnerships, overseas offices, data
+centers, 5G relationships, training, and donations. [h/t <a
+href="https://twitter.com/He_Shumei/status/1402114458793635844">Samantha
+Hoffman</a>]</p>
 <p> </p>
-<p><strong>House committee witnesses.</strong> Political scientists <a href="https://www.rmc.edu/departments/political-science/faculty/lauren-bell">Lauren C. Bell</a> and <a href="https://jdrackey.com/">J.D. Rackey</a> have compiled a <a href="https://www.rmc.edu/departments/political-science/faculty/lauren-bell/dataset-information">spreadsheet of 435,000+ people testifying</a> before the US House of Representatives from 1971 to 2016. They began with a text file scraped from <a href="https://about.proquest.com/en/products-services/ProQuest-Congressional-Hearings-Digital-Collection/">a ProQuest database</a>, provided by the authors of <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0230104">a dataset that focused on social scientists’ testimony</a> (<a href="https://www.data-is-plural.com/archive/2020-12-23-edition/">DIP 2020.12.23</a>). Then, they determined each witness’s first and last name; type of organization; the committee, date, title, and summary of the relevant hearing; and more. [h/t <a href="https://twitter.com/derekwillis">Derek Willis</a>]</p>
+<p><strong>House committee witnesses.</strong> Political scientists <a
+href="https://www.rmc.edu/departments/political-science/faculty/lauren-bell">Lauren
+C. Bell</a> and <a href="https://jdrackey.com/">J.D. Rackey</a> have
+compiled a <a
+href="https://www.rmc.edu/departments/political-science/faculty/lauren-bell/dataset-information">spreadsheet
+of 435,000+ people testifying</a> before the US House of Representatives
+from 1971 to 2016. They began with a text file scraped from <a
+href="https://about.proquest.com/en/products-services/ProQuest-Congressional-Hearings-Digital-Collection/">a
+ProQuest database</a>, provided by the authors of <a
+href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0230104">a
+dataset that focused on social scientists’ testimony</a> (<a
+href="https://www.data-is-plural.com/archive/2020-12-23-edition/">DIP
+2020.12.23</a>). Then, they determined each witness’s first and last
+name; type of organization; the committee, date, title, and summary of
+the relevant hearing; and more. [h/t <a
+href="https://twitter.com/derekwillis">Derek Willis</a>]</p>
 <p> </p>
-<p><strong>Immigrant populations in 1900.</strong> The 1900 US Census’s <a href="https://www.census.gov/programs-surveys/decennial-census/decade/decennial-publications.1900.html">public report</a> includes a table counting the foreign-born residents of each state and territory — overall and disaggregated into a few dozen origins, which range from subdivisions of countries (Poland is split into “Austrian,” “German,” “Russian,” and “unknown” columns) to entire continents (“Africa”). It’s officially available as <a href="https://www2.census.gov/library/publications/decennial/1900/volume-1/volume-1-p13.pdf">a low-resolution PDF</a>. Reporters at <a href="https://stacker.com/">Stacker</a>, however, recently <a href="https://github.com/stacker-media/data/tree/main/1900-census-immigrant-state">transcribed it</a> into <a href="https://github.com/stacker-media/data/blob/main/1900-census-immigrant-state/1900-census-immigrant-pop-state.csv">a CSV file</a> for easier use. [h/t <a href="https://emiliaruzicka.com">Emilia Ruzicka</a>]</p>
+<p><strong>Immigrant populations in 1900.</strong> The 1900 US Census’s
+<a
+href="https://www.census.gov/programs-surveys/decennial-census/decade/decennial-publications.1900.html">public
+report</a> includes a table counting the foreign-born residents of each
+state and territory — overall and disaggregated into a few dozen
+origins, which range from subdivisions of countries (Poland is split
+into “Austrian,” “German,” “Russian,” and “unknown” columns) to entire
+continents (“Africa”). It’s officially available as <a
+href="https://www2.census.gov/library/publications/decennial/1900/volume-1/volume-1-p13.pdf">a
+low-resolution PDF</a>. Reporters at <a
+href="https://stacker.com/">Stacker</a>, however, recently <a
+href="https://github.com/stacker-media/data/tree/main/1900-census-immigrant-state">transcribed
+it</a> into <a
+href="https://github.com/stacker-media/data/blob/main/1900-census-immigrant-state/1900-census-immigrant-pop-state.csv">a
+CSV file</a> for easier use. [h/t <a
+href="https://emiliaruzicka.com">Emilia Ruzicka</a>]</p>
 <p> </p>
-<p><strong>Borrowed words.</strong> The <a href="https://wold.clld.org/">World Loanword Database</a>, a project from the <a href="https://en.wikipedia.org/wiki/Max_Planck_Institute_for_Evolutionary_Anthropology">Max Planck Institute for Evolutionary Anthropology</a>, examines how languages have borrowed words from each other. For 41 historical and contemporary languages, it lists 1,000–2,500 words, experts’ judgment of whether they were borrowed, from what language, and <a href="https://wold.clld.org/terms">other etymological details</a>. <strong>Previously</strong>: <a href="https://wals.info/">The World Atlas of Language Structures</a> (<a href="https://www.data-is-plural.com/archive/2016-01-06-edition/">DIP 2016.01.06</a>). [h/t <a href="https://news.ycombinator.com/item?id=29867638">blopeur</a>]</p>
+<p><strong>Borrowed words.</strong> The <a
+href="https://wold.clld.org/">World Loanword Database</a>, a project
+from the <a
+href="https://en.wikipedia.org/wiki/Max_Planck_Institute_for_Evolutionary_Anthropology">Max
+Planck Institute for Evolutionary Anthropology</a>, examines how
+languages have borrowed words from each other. For 41 historical and
+contemporary languages, it lists 1,000–2,500 words, experts’ judgment of
+whether they were borrowed, from what language, and <a
+href="https://wold.clld.org/terms">other etymological details</a>.
+<strong>Previously</strong>: <a href="https://wals.info/">The World
+Atlas of Language Structures</a> (<a
+href="https://www.data-is-plural.com/archive/2016-01-06-edition/">DIP
+2016.01.06</a>). [h/t <a
+href="https://news.ycombinator.com/item?id=29867638">blopeur</a>]</p>
 <p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send borrowed feedback to jsvine@gmail.com, or just reply to this email. Looking for past datasets? <a href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This spreadsheet contains them all</a>. Visit <a href="https://www.data-is-plural.com">data-is-plural.com</a> to subscribe and browse past editions.</em></p>
+<p><em>Dataset suggestions? Criticism? Praise? Send borrowed feedback to
+jsvine@gmail.com, or just reply to this email. Looking for past
+datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and browse past editions.</em></p>
 ]]></content>
     <link href="http://www.data-is-plural.com/archive/2022-02-02-edition" rel="alternate"/>
     <summary>Abortion facility distances, China’s tech giants abroad, House committee witnesses, immigrant populations in 1900, and borrowed words.</summary>
@@ -84,19 +454,112 @@
     <id>dip-2022-01-26</id>
     <title>Data Is Plural — 2022.01.26 edition</title>
     <updated>2022-01-26T08:00:00-05:00</updated>
-    <content type="CDATA"><![CDATA[<p><em>Redistricting, SARS-CoV-2 in local sewage, collective bargaining, European gas storage, and whaling.</em></p>
+    <content type="CDATA"><![CDATA[<p><em>Redistricting, SARS-CoV-2 in local sewage, collective bargaining,
+European gas storage, and whaling.</em></p>
 <p> </p>
-<p><strong>Redistricting.</strong> US <a href="https://ballotpedia.org/Redistricting">decennial redistricting</a> is well underway, with redrawn legislative maps approved in the majority of states. <a href="https://projects.fivethirtyeight.com/redistricting-2022-maps/">FiveThirtyEight</a>, <a href="https://www.politico.com/interactives/2022/congressional-redistricting-maps-by-state-and-district/">Politico</a>, and <a href="https://www.washingtonpost.com/politics/interactive/redistricting-tracker-map/">The Washington Post</a> have all built graphics tracking the process and its likely effects on Congress. The <a href="https://redistrictingdatahub.org/">Redistricting Data Hub</a>, a project of the <a href="https://redistrictingdatahub.org/about/about-us/#whoweare">Fair Representation in Redistricting Initiative</a>, has been gathering states’ proposed and approved maps (e.g., <a href="https://redistrictingdatahub.org/dataset/2021-california-congressional-districts-approved-plan/">California’s</a>, from <a href="https://www.wedrawthelinesca.org/final_maps">its commission</a>), as well <a href="https://redistrictingdatahub.org/data/about-our-data/">other datasets useful for analyzing the changes</a>. <a href="https://redistricting.lls.edu/">All About Redistricting</a>, a resource founded by Loyola Law School’s <a href="https://redistricting.lls.edu/about/my-work/">Justin Levitt</a>, also publishes <a href="https://redistricting.lls.edu/mapdownload/?sortby=-updated&amp;page=1">state mapping data</a>, as well as a downloadable table describing <a href="https://redistricting.lls.edu/national-overview/?colorby=Institution&amp;level=Congress&amp;cycle=2020">who controls each state’s redistricting process</a>.</p>
+<p><strong>Redistricting.</strong> US <a
+href="https://ballotpedia.org/Redistricting">decennial redistricting</a>
+is well underway, with redrawn legislative maps approved in the majority
+of states. <a
+href="https://projects.fivethirtyeight.com/redistricting-2022-maps/">FiveThirtyEight</a>,
+<a
+href="https://www.politico.com/interactives/2022/congressional-redistricting-maps-by-state-and-district/">Politico</a>,
+and <a
+href="https://www.washingtonpost.com/politics/interactive/redistricting-tracker-map/">The
+Washington Post</a> have all built graphics tracking the process and its
+likely effects on Congress. The <a
+href="https://redistrictingdatahub.org/">Redistricting Data Hub</a>, a
+project of the <a
+href="https://redistrictingdatahub.org/about/about-us/#whoweare">Fair
+Representation in Redistricting Initiative</a>, has been gathering
+states’ proposed and approved maps (e.g., <a
+href="https://redistrictingdatahub.org/dataset/2021-california-congressional-districts-approved-plan/">California’s</a>,
+from <a href="https://www.wedrawthelinesca.org/final_maps">its
+commission</a>), as well <a
+href="https://redistrictingdatahub.org/data/about-our-data/">other
+datasets useful for analyzing the changes</a>. <a
+href="https://redistricting.lls.edu/">All About Redistricting</a>, a
+resource founded by Loyola Law School’s <a
+href="https://redistricting.lls.edu/about/my-work/">Justin Levitt</a>,
+also publishes <a
+href="https://redistricting.lls.edu/mapdownload/?sortby=-updated&amp;page=1">state
+mapping data</a>, as well as a downloadable table describing <a
+href="https://redistricting.lls.edu/national-overview/?colorby=Institution&amp;level=Congress&amp;cycle=2020">who
+controls each state’s redistricting process</a>.</p>
 <p> </p>
-<p><strong>SARS-CoV-2 in local sewage.</strong> <a href="https://biobot.io/">Biobot Analytics</a>, a wastewater epidemiology company, has been partnering with local governments to monitor sewage for traces of coronavirus. Their <a href="https://biobot.io/data/">public dashboard</a> and <a href="https://github.com/biobotanalytics/covid19-wastewater-data">downloadable data</a> provide weekly estimates of the number of SARS-CoV-2 genome copies per milliliter of wastewater — at a national and regional level, and for 31 of the participating communities (some with data more recent than others). <strong>Read more</strong>: “<a href="https://www.nytimes.com/2022/01/19/health/covid-omicron-wastewater-sewage.html">In Sewage, Clues to Omicron’s Surge</a>” (The New York Times). [h/t <a href="https://mailchi.mp/davenetics/bz8u3c8oic">Dave Pell</a>]</p>
+<p><strong>SARS-CoV-2 in local sewage.</strong> <a
+href="https://biobot.io/">Biobot Analytics</a>, a wastewater
+epidemiology company, has been partnering with local governments to
+monitor sewage for traces of coronavirus. Their <a
+href="https://biobot.io/data/">public dashboard</a> and <a
+href="https://github.com/biobotanalytics/covid19-wastewater-data">downloadable
+data</a> provide weekly estimates of the number of SARS-CoV-2 genome
+copies per milliliter of wastewater — at a national and regional level,
+and for 31 of the participating communities (some with data more recent
+than others). <strong>Read more</strong>: “<a
+href="https://www.nytimes.com/2022/01/19/health/covid-omicron-wastewater-sewage.html">In
+Sewage, Clues to Omicron’s Surge</a>” (The New York Times). [h/t <a
+href="https://mailchi.mp/davenetics/bz8u3c8oic">Dave Pell</a>]</p>
 <p> </p>
-<p><strong>Collective bargaining.</strong> The US <a href="https://en.wikipedia.org/wiki/Federal_Mediation_and_Conciliation_Service_(United_States)">Federal Mediation and Conciliation Service</a>’s <a href="https://www.fmcs.gov/aboutus/">stated mission</a> “is to preserve and promote labor-management peace and cooperation.” It also publishes <a href="https://www.fmcs.gov/resources/documents-and-data/#tab-d3d7f5344cef9bab4d3">spreadsheets of data submitted</a> through its <a href="https://www.fmcs.gov/resources/forms-applications/notice-of-bargaining-f-7/">Form F-7</a>, which employers and unions must file when they can’t agree on modifying or ending a collectively bargained contract. The spreadsheets, which go back to 2015, list the employer and union’s name and location, their industry, the size of the bargaining unit, and a few other details. <strong>Previously</strong>: <a href="https://www.nlrb.gov/reports/graphs-data/recent-election-results">Union elections</a> (<a href="https://www.data-is-plural.com/archive/2021-05-05-edition/">DIP 2021.05.05</a>) and <a href="https://github.com/labordata/nlrb-voluntary-recognitions">voluntary recognition</a> (<a href="https://www.data-is-plural.com/archive/2021-09-22-edition/">DIP 2021.09.22</a>). [h/t <a href="https://twitter.com/danbauman77">Dan Bauman</a>]</p>
+<p><strong>Collective bargaining.</strong> The US <a
+href="https://en.wikipedia.org/wiki/Federal_Mediation_and_Conciliation_Service_(United_States)">Federal
+Mediation and Conciliation Service</a>’s <a
+href="https://www.fmcs.gov/aboutus/">stated mission</a> “is to preserve
+and promote labor-management peace and cooperation.” It also publishes
+<a
+href="https://www.fmcs.gov/resources/documents-and-data/#tab-d3d7f5344cef9bab4d3">spreadsheets
+of data submitted</a> through its <a
+href="https://www.fmcs.gov/resources/forms-applications/notice-of-bargaining-f-7/">Form
+F-7</a>, which employers and unions must file when they can’t agree on
+modifying or ending a collectively bargained contract. The spreadsheets,
+which go back to 2015, list the employer and union’s name and location,
+their industry, the size of the bargaining unit, and a few other
+details. <strong>Previously</strong>: <a
+href="https://www.nlrb.gov/reports/graphs-data/recent-election-results">Union
+elections</a> (<a
+href="https://www.data-is-plural.com/archive/2021-05-05-edition/">DIP
+2021.05.05</a>) and <a
+href="https://github.com/labordata/nlrb-voluntary-recognitions">voluntary
+recognition</a> (<a
+href="https://www.data-is-plural.com/archive/2021-09-22-edition/">DIP
+2021.09.22</a>). [h/t <a href="https://twitter.com/danbauman77">Dan
+Bauman</a>]</p>
 <p> </p>
-<p><strong>European gas storage.</strong> The industry group <a href="https://www.gie.eu/">Gas Infrastructure Europe</a> publishes <a href="https://agsi.gie.eu/">data on daily fuel storage levels at its members’ facilities</a>. For each facility, and aggregated to the provider and country level, the data <a href="https://agsi.gie.eu/#/faq">indicate</a> the amount of fuel in storage, the percent capacity that represents, fuel added and withdrawn, and more. <strong>As seen in</strong>: “<a href="https://www.bloomberg.com/opinion/articles/2022-01-13/gazprom-tweets-about-european-gas-shortages-it-may-be-creating">Earlier Than Ever, European Gas Storage Is Half-Empty</a>” (Bloomberg). [h/t <a href="https://blog.datawrapper.de/data-vis-dispatch-january-18-2022/">Rose Mintzer-Sweeney</a>]</p>
+<p><strong>European gas storage.</strong> The industry group <a
+href="https://www.gie.eu/">Gas Infrastructure Europe</a> publishes <a
+href="https://agsi.gie.eu/">data on daily fuel storage levels at its
+members’ facilities</a>. For each facility, and aggregated to the
+provider and country level, the data <a
+href="https://agsi.gie.eu/#/faq">indicate</a> the amount of fuel in
+storage, the percent capacity that represents, fuel added and withdrawn,
+and more. <strong>As seen in</strong>: “<a
+href="https://www.bloomberg.com/opinion/articles/2022-01-13/gazprom-tweets-about-european-gas-shortages-it-may-be-creating">Earlier
+Than Ever, European Gas Storage Is Half-Empty</a>” (Bloomberg). [h/t <a
+href="https://blog.datawrapper.de/data-vis-dispatch-january-18-2022/">Rose
+Mintzer-Sweeney</a>]</p>
 <p> </p>
-<p><strong>Whaling.</strong> <a href="https://whalinghistory.org/">WhalingHistory.org</a>, a collaboration between the <a href="https://mysticseaport.org/">Mystic Seaport Museum</a> and the <a href="https://whalingmuseum.org/">New Bedford Whaling Museum</a>, revolves around <a href="https://whalinghistory.org/databases/">a series of interconnected databases</a>. They include <a href="https://whalinghistory.org/av/voyages/">every known American whaling voyage between the 1700s and 1920s</a>, <a href="https://whalinghistory.org/av/logs/aowl/">entries from 1,381 of their logbooks</a>, and <a href="https://whalinghistory.org/av/crew/">some of their crew lists</a>, plus records from British and French voyages. [h/t <a href="https://www.reddit.com/r/datasets/comments/ma66az/whaling_history_data/">u/cavedave</a>]</p>
+<p><strong>Whaling.</strong> <a
+href="https://whalinghistory.org/">WhalingHistory.org</a>, a
+collaboration between the <a href="https://mysticseaport.org/">Mystic
+Seaport Museum</a> and the <a href="https://whalingmuseum.org/">New
+Bedford Whaling Museum</a>, revolves around <a
+href="https://whalinghistory.org/databases/">a series of interconnected
+databases</a>. They include <a
+href="https://whalinghistory.org/av/voyages/">every known American
+whaling voyage between the 1700s and 1920s</a>, <a
+href="https://whalinghistory.org/av/logs/aowl/">entries from 1,381 of
+their logbooks</a>, and <a
+href="https://whalinghistory.org/av/crew/">some of their crew lists</a>,
+plus records from British and French voyages. [h/t <a
+href="https://www.reddit.com/r/datasets/comments/ma66az/whaling_history_data/">u/cavedave</a>]</p>
 <p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send Melvillesque feedback to jsvine@gmail.com, or just reply to this email. Looking for past datasets? <a href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This spreadsheet contains them all</a>. Visit <a href="https://www.data-is-plural.com">data-is-plural.com</a> to subscribe and browse past editions.</em></p>
+<p><em>Dataset suggestions? Criticism? Praise? Send Melvillesque
+feedback to jsvine@gmail.com, or just reply to this email. Looking for
+past datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and browse past editions.</em></p>
 ]]></content>
     <link href="http://www.data-is-plural.com/archive/2022-01-26-edition" rel="alternate"/>
     <summary>Redistricting, SARS-CoV-2 in local sewage, collective bargaining, European gas storage, and whaling.</summary>
@@ -106,19 +569,115 @@
     <id>dip-2022-01-19</id>
     <title>Data Is Plural — 2022.01.19 edition</title>
     <updated>2022-01-19T08:00:00-05:00</updated>
-    <content type="CDATA"><![CDATA[<p><em>Political emails, foreign commerce interventions, commuting zones, tech support scams, and Wordle words.</em></p>
+    <content type="CDATA"><![CDATA[<p><em>Political emails, foreign commerce interventions, commuting
+zones, tech support scams, and Wordle words.</em></p>
 <p> </p>
-<p><strong>More political emails.</strong> <a href="https://twitter.com/derekwillis">Derek Willis</a>, a <a href="https://merrill.umd.edu/directory/derek-willis">journalism lecturer</a> with an expertise in political data, <a href="https://createsend.com/t/t-97F63A7D578A8F0B2540EF23F30FEDED">has published</a> a searchable, downloadable <a href="https://political-emails.herokuapp.com/">database of 100,000+ email messages</a> received in recent years by an address he created for this purpose, and “which I routinely plug into forms I find on candidate and committee sites.” The database, which Willis <a href="https://twitter.com/derekwillis/status/1480657382703312901">plans to update weekly</a>, lists each message’s timestamp, sender, subject line, and body. <strong>Previously</strong>: <a href="https://electionemails2020.org/">The Princeton Corpus of Political Emails</a> (<a href="https://www.data-is-plural.com/archive/2021-06-23-edition/">DIP 2021.06.23</a>), <a href="https://github.com/the-markup/investigation-wheres-my-email">the Markup’s collection of 5,000+ campaign emails</a> (<a href="https://www.data-is-plural.com/archive/2020-03-04-edition/">DIP 2020.03.04</a>, and <a href="https://www.dcinbox.com/">DCInbox’s congressional e-newsletter collection</a> (<a href="https://www.data-is-plural.com/archive/2021-03-03-edition/">DIP 2021.03.03</a>). [h/t <a href="https://pinboard.in/u:jcberk">jcberk</a>]</p>
+<p><strong>More political emails.</strong> <a
+href="https://twitter.com/derekwillis">Derek Willis</a>, a <a
+href="https://merrill.umd.edu/directory/derek-willis">journalism
+lecturer</a> with an expertise in political data, <a
+href="https://createsend.com/t/t-97F63A7D578A8F0B2540EF23F30FEDED">has
+published</a> a searchable, downloadable <a
+href="https://political-emails.herokuapp.com/">database of 100,000+
+email messages</a> received in recent years by an address he created for
+this purpose, and “which I routinely plug into forms I find on candidate
+and committee sites.” The database, which Willis <a
+href="https://twitter.com/derekwillis/status/1480657382703312901">plans
+to update weekly</a>, lists each message’s timestamp, sender, subject
+line, and body. <strong>Previously</strong>: <a
+href="https://electionemails2020.org/">The Princeton Corpus of Political
+Emails</a> (<a
+href="https://www.data-is-plural.com/archive/2021-06-23-edition/">DIP
+2021.06.23</a>), <a
+href="https://github.com/the-markup/investigation-wheres-my-email">the
+Markup’s collection of 5,000+ campaign emails</a> (<a
+href="https://www.data-is-plural.com/archive/2020-03-04-edition/">DIP
+2020.03.04</a>, and <a href="https://www.dcinbox.com/">DCInbox’s
+congressional e-newsletter collection</a> (<a
+href="https://www.data-is-plural.com/archive/2021-03-03-edition/">DIP
+2021.03.03</a>). [h/t <a
+href="https://pinboard.in/u:jcberk">jcberk</a>]</p>
 <p> </p>
-<p><strong>Foreign commerce interventions.</strong> The <a href="https://www.globaltradealert.org/">Global Trade Alert</a>, <a href="https://www.globaltradealert.org/about">launched in 2009</a>, “provides timely information on state interventions taken since November 2008 that are likely to affect foreign commerce,” such as new subsidies, export quotas, import tariffs, or anti-dumping laws. Its <a href="https://www.globaltradealert.org/data_extraction">downloadable dataset</a> describes 33,000+ interventions, listing their types, implementing jurisdictions, affected jurisdictions, affected products, and more. The project, <a href="https://www.unisg.ch/en/wissen/newsroom/aktuell/rssnews/forschung-lehre/2020/november/stgallen-endowment-for-prosperity-through-trade-26november2020">affiliated with the University of St. Gallen</a>, has also started tracking <a href="https://www.globaltradealert.org/digital_policy">interventions that affect digital commerce</a>. [h/t <a href="https://voxeu.org/article/subsidies-and-market-access-new-data-and-findings-global-trade-alert">Simon Evenett and Johannes Fritz</a>]</p>
+<p><strong>Foreign commerce interventions.</strong> The <a
+href="https://www.globaltradealert.org/">Global Trade Alert</a>, <a
+href="https://www.globaltradealert.org/about">launched in 2009</a>,
+“provides timely information on state interventions taken since November
+2008 that are likely to affect foreign commerce,” such as new subsidies,
+export quotas, import tariffs, or anti-dumping laws. Its <a
+href="https://www.globaltradealert.org/data_extraction">downloadable
+dataset</a> describes 33,000+ interventions, listing their types,
+implementing jurisdictions, affected jurisdictions, affected products,
+and more. The project, <a
+href="https://www.unisg.ch/en/wissen/newsroom/aktuell/rssnews/forschung-lehre/2020/november/stgallen-endowment-for-prosperity-through-trade-26november2020">affiliated
+with the University of St. Gallen</a>, has also started tracking <a
+href="https://www.globaltradealert.org/digital_policy">interventions
+that affect digital commerce</a>. [h/t <a
+href="https://voxeu.org/article/subsidies-and-market-access-new-data-and-findings-global-trade-alert">Simon
+Evenett and Johannes Fritz</a>]</p>
 <p> </p>
-<p><strong>Commuting zones.</strong> Decades ago, the USDA <a href="https://www.ers.usda.gov/">Economic Research Service</a> developed a methodology to group the nation’s counties into hundreds of “<a href="https://en.wikipedia.org/wiki/Commuting_zone">commuting zones</a>,” based on the Census’s <a href="https://www.census.gov/topics/employment/commuting.html">journey to work</a> data. Those groupings are available <a href="https://www.ers.usda.gov/data-products/commuting-zones-and-labor-market-areas/">from the agency</a> (for 1980, 1990, and 2000), and <a href="https://sites.psu.edu/psucz/">from researchers at Penn State</a> (for those years plus 2010). More recently, Facebook/Meta <a href="https://dataforgood.facebook.com/dfg/tools/commuting-zones">has developed</a> its <a href="https://dataforgood.facebook.com/dfg/docs/methodology-commuting-zones">own methodology</a> for estimating commuting zones, using location data collected from its users. The project’s <a href="https://data.humdata.org/dataset/commuting-zones">public dataset</a> spans the world and specifies the zones not as sets of counties but as detailed, custom boundaries.</p>
+<p><strong>Commuting zones.</strong> Decades ago, the USDA <a
+href="https://www.ers.usda.gov/">Economic Research Service</a> developed
+a methodology to group the nation’s counties into hundreds of “<a
+href="https://en.wikipedia.org/wiki/Commuting_zone">commuting
+zones</a>,” based on the Census’s <a
+href="https://www.census.gov/topics/employment/commuting.html">journey
+to work</a> data. Those groupings are available <a
+href="https://www.ers.usda.gov/data-products/commuting-zones-and-labor-market-areas/">from
+the agency</a> (for 1980, 1990, and 2000), and <a
+href="https://sites.psu.edu/psucz/">from researchers at Penn State</a>
+(for those years plus 2010). More recently, Facebook/Meta <a
+href="https://dataforgood.facebook.com/dfg/tools/commuting-zones">has
+developed</a> its <a
+href="https://dataforgood.facebook.com/dfg/docs/methodology-commuting-zones">own
+methodology</a> for estimating commuting zones, using location data
+collected from its users. The project’s <a
+href="https://data.humdata.org/dataset/commuting-zones">public
+dataset</a> spans the world and specifies the zones not as sets of
+counties but as detailed, custom boundaries.</p>
 <p> </p>
-<p><strong>Tech support scams.</strong> From 2018 to 2021, the now-shuttered <a href="https://github.com/choozn/PopupDB-Data/">PopupDB Project</a> <a href="http://web.archive.org/web/20210307114123/https://popupdb.org/">collected</a> information about <a href="https://www.consumer.ftc.gov/articles/how-spot-avoid-and-report-tech-support-scams">tech support scams</a> and their deceptive browser popups. Its maintainers have since released two final downloads: a “<a href="https://github.com/choozn/PopupDB-Data/tree/main/databases">light</a>” dataset that lists the URLs and web hosts of 11,000+ such popups, and a “<a href="https://popupdb.org/downloads">full</a>” database that includes screenshots and source code. [h/t <a href="https://twitter.com/NeePscambaiting/status/1415040785515491329">NeeP</a>]</p>
+<p><strong>Tech support scams.</strong> From 2018 to 2021, the
+now-shuttered <a href="https://github.com/choozn/PopupDB-Data/">PopupDB
+Project</a> <a
+href="http://web.archive.org/web/20210307114123/https://popupdb.org/">collected</a>
+information about <a
+href="https://www.consumer.ftc.gov/articles/how-spot-avoid-and-report-tech-support-scams">tech
+support scams</a> and their deceptive browser popups. Its maintainers
+have since released two final downloads: a “<a
+href="https://github.com/choozn/PopupDB-Data/tree/main/databases">light</a>”
+dataset that lists the URLs and web hosts of 11,000+ such popups, and a
+“<a href="https://popupdb.org/downloads">full</a>” database that
+includes screenshots and source code. [h/t <a
+href="https://twitter.com/NeePscambaiting/status/1415040785515491329">NeeP</a>]</p>
 <p> </p>
-<p><strong>Wordle words.</strong> <a href="https://www.nytimes.com/2022/01/03/technology/wordle-word-game-creator.html">You</a> <a href="https://www.wsj.com/articles/wordle-has-turned-fans-of-word-games-into-argumentative-strategy-nerds-11641831311">might</a> <a href="https://www.theguardian.com/games/2022/jan/11/wordle-creator-overwhelmed-by-global-success-of-hit-puzzle">have</a> <a href="https://www.buzzfeednews.com/article/stefficao/how-wordle-went-viral-strategy">heard</a> <a href="https://www.washingtonpost.com/opinions/2022/01/13/wordle-perfect-pandemic-game-together/">of</a> <a href="https://www.powerlanguage.co.uk/wordle/">Wordle</a>. The game’s 2,315 possible answers and 12,972 permitted guesses are not an enormous secret, being embedded in its viewable source code. <a href="https://fivethirtyeight.com/tag/the-riddler/">The Riddler</a>’s <a href="https://twitter.com/xaqwg">Zach Wissner-Gross</a>, for instance, has <a href="https://fivethirtyeight.com/features/when-the-riddler-met-wordle/">extracted those word lists</a> into <a href="https://docs.google.com/spreadsheets/d/1-M0RIVVZqbeh0mZacdAsJyBrLuEmhKUhNaVAI-7pr2Y/edit#gid=0">two</a> <a href="https://docs.google.com/spreadsheets/d/1KR5lsyI60J1Ek6YgJRU2hKsk4iAOWvlPLUWjAZ6m8sg/edit#gid=0">spreadsheets</a>.</p>
+<p><strong>Wordle words.</strong> <a
+href="https://www.nytimes.com/2022/01/03/technology/wordle-word-game-creator.html">You</a>
+<a
+href="https://www.wsj.com/articles/wordle-has-turned-fans-of-word-games-into-argumentative-strategy-nerds-11641831311">might</a>
+<a
+href="https://www.theguardian.com/games/2022/jan/11/wordle-creator-overwhelmed-by-global-success-of-hit-puzzle">have</a>
+<a
+href="https://www.buzzfeednews.com/article/stefficao/how-wordle-went-viral-strategy">heard</a>
+<a
+href="https://www.washingtonpost.com/opinions/2022/01/13/wordle-perfect-pandemic-game-together/">of</a>
+<a href="https://www.powerlanguage.co.uk/wordle/">Wordle</a>. The game’s
+2,315 possible answers and 12,972 permitted guesses are not an enormous
+secret, being embedded in its viewable source code. <a
+href="https://fivethirtyeight.com/tag/the-riddler/">The Riddler</a>’s <a
+href="https://twitter.com/xaqwg">Zach Wissner-Gross</a>, for instance,
+has <a
+href="https://fivethirtyeight.com/features/when-the-riddler-met-wordle/">extracted
+those word lists</a> into <a
+href="https://docs.google.com/spreadsheets/d/1-M0RIVVZqbeh0mZacdAsJyBrLuEmhKUhNaVAI-7pr2Y/edit#gid=0">two</a>
+<a
+href="https://docs.google.com/spreadsheets/d/1KR5lsyI60J1Ek6YgJRU2hKsk4iAOWvlPLUWjAZ6m8sg/edit#gid=0">spreadsheets</a>.</p>
 <p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send five-letter feedback to jsvine@gmail.com, or just reply to this email. Looking for past datasets? <a href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This spreadsheet contains them all</a>. Visit <a href="https://www.data-is-plural.com">data-is-plural.com</a> to subscribe and browse past editions.</em></p>
+<p><em>Dataset suggestions? Criticism? Praise? Send five-letter feedback
+to jsvine@gmail.com, or just reply to this email. Looking for past
+datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and browse past editions.</em></p>
 ]]></content>
     <link href="http://www.data-is-plural.com/archive/2022-01-19-edition" rel="alternate"/>
     <summary>Political emails, foreign commerce interventions, commuting zones, tech support scams, and Wordle words.</summary>
@@ -128,21 +687,111 @@
     <id>dip-2022-01-12</id>
     <title>Data Is Plural — 2022.01.12 edition</title>
     <updated>2022-01-12T08:00:00-05:00</updated>
-    <content type="CDATA"><![CDATA[<p><em>Slaveholders in Congress, pension plans, journal editors, radio on the internet, and chocolate bar reviews.</em></p>
+    <content type="CDATA"><![CDATA[<p><em>Slaveholders in Congress, pension plans, journal editors, radio
+on the internet, and chocolate bar reviews.</em></p>
 <p> </p>
-<p><em>👋 Some updates: After nearly eight (very fulfilling) years as BuzzFeed News’ data editor, I’m shifting roles there — I’ll be working part-time (for now) on a new initiative that I’m quite excited about. More details on that soonish. In the meantime, two related developments: ✨ <a href="https://boards.greenhouse.io/buzzfeed/jobs/3758781?gh_jid=3758781">we’re hiring a new data editor</a> ✨ (ask me about it!) and I’ve added a ✨ <a href="https://www.data-is-plural.com/jobs">job board</a> ✨ to Data Is Plural (see below).</em></p>
+<p><em>👋 Some updates: After nearly eight (very fulfilling) years as
+BuzzFeed News’ data editor, I’m shifting roles there — I’ll be working
+part-time (for now) on a new initiative that I’m quite excited about.
+More details on that soonish. In the meantime, two related developments:
+✨ <a
+href="https://boards.greenhouse.io/buzzfeed/jobs/3758781?gh_jid=3758781">we’re
+hiring a new data editor</a> ✨ (ask me about it!) and I’ve added a ✨
+<a href="https://www.data-is-plural.com/jobs">job board</a> ✨ to Data
+Is Plural (see below).</em></p>
 <p> </p>
-<p><strong>Slaveholders in Congress.</strong> At least “1,715 members of Congress were enslavers at some point in their adult lives,” according to a <a href="https://www.washingtonpost.com/history/interactive/2022/congress-slaveowners-names-list/">Washington Post investigation published Monday</a>. Reporter <a href="https://twitter.com/juliezweil">Julie Zauzmer Weil</a> began her research with a list of <a href="https://github.com/unitedstates/congress-legislators">every person who ever served in the House or Senate</a>, filtered it to those born before 1840, and then consulted <a href="https://bioguide.congress.gov/">their biographies</a>, Census records, and other historical documents. The Post’s <a href="https://github.com/washingtonpost/data-congress-slaveowners/">public dataset</a>, the first of its kind, lists the congressmen from that era, their dates of birth, positions held in Congress, states served, dates served, and whether the Post determined they were slaveholders. For 677 of the congressmen, the Post “couldn’t reach a conclusion” and <a href="https://www.washingtonpost.com/history/interactive/2022/submit-congress-enslaved-database/">is seeking assistance from readers</a>.</p>
+<p><strong>Slaveholders in Congress.</strong> At least “1,715 members of
+Congress were enslavers at some point in their adult lives,” according
+to a <a
+href="https://www.washingtonpost.com/history/interactive/2022/congress-slaveowners-names-list/">Washington
+Post investigation published Monday</a>. Reporter <a
+href="https://twitter.com/juliezweil">Julie Zauzmer Weil</a> began her
+research with a list of <a
+href="https://github.com/unitedstates/congress-legislators">every person
+who ever served in the House or Senate</a>, filtered it to those born
+before 1840, and then consulted <a
+href="https://bioguide.congress.gov/">their biographies</a>, Census
+records, and other historical documents. The Post’s <a
+href="https://github.com/washingtonpost/data-congress-slaveowners/">public
+dataset</a>, the first of its kind, lists the congressmen from that era,
+their dates of birth, positions held in Congress, states served, dates
+served, and whether the Post determined they were slaveholders. For 677
+of the congressmen, the Post “couldn’t reach a conclusion” and <a
+href="https://www.washingtonpost.com/history/interactive/2022/submit-congress-enslaved-database/">is
+seeking assistance from readers</a>.</p>
 <p> </p>
-<p><strong>Pension plans.</strong> <a href="https://publicplansdata.org/">Public Plans Data</a>, a <a href="https://publicplansdata.org/about/our-research">collaboration</a> led by Boston College professor <a href="https://publicplansdata.org/about/bios/munnell/">Alicia H. Munnell</a>, gathers extensive information about the retirement plans that state and local governments offer their employees, drawn from <a href="https://publicplansdata.org/resources/download-avs-cafrs/">those plans’ annual financial reports</a>. The project maintains a <a href="https://publicplansdata.org/public-plans-database/download-full-data-set/">range of datasets</a>, including two decades of participation and financial figures for 200+ plans that account for “95 percent of public pension membership and assets nationwide,” their investments, early payout options, and more. It also provides <a href="https://publicplansdata.org/resources/interactive-tools/">interactive tools</a> and <a href="https://publicplansdata.org/public-plans-database/api/">an API</a>.</p>
+<p><strong>Pension plans.</strong> <a
+href="https://publicplansdata.org/">Public Plans Data</a>, a <a
+href="https://publicplansdata.org/about/our-research">collaboration</a>
+led by Boston College professor <a
+href="https://publicplansdata.org/about/bios/munnell/">Alicia H.
+Munnell</a>, gathers extensive information about the retirement plans
+that state and local governments offer their employees, drawn from <a
+href="https://publicplansdata.org/resources/download-avs-cafrs/">those
+plans’ annual financial reports</a>. The project maintains a <a
+href="https://publicplansdata.org/public-plans-database/download-full-data-set/">range
+of datasets</a>, including two decades of participation and financial
+figures for 200+ plans that account for “95 percent of public pension
+membership and assets nationwide,” their investments, early payout
+options, and more. It also provides <a
+href="https://publicplansdata.org/resources/interactive-tools/">interactive
+tools</a> and <a
+href="https://publicplansdata.org/public-plans-database/api/">an
+API</a>.</p>
 <p> </p>
-<p><strong>Journal editors.</strong> For his <a href="https://openeditors.ooir.org/">Open Editors</a> project, <a href="https://twitter.com/andrepacher">Andreas Nishikawa-Pacher</a> scrapes the websites of scholarly journals, extracting the names, affiliations, and roles of their listed editors and board members. The <a href="https://github.com/andreaspacher/openeditors">project’s dataset</a> contains half a million associations between editors and 6,000+ scholarly journals from 22 publishers (17 mainstream and 5 “<a href="https://en.wikipedia.org/wiki/Predatory_publishing">predatory</a>”). <strong>Read more</strong>: <a href="https://osf.io/preprints/socarxiv/jvzq7/">Nishikawa-Pacher et al.’s introductory working paper</a>. <strong>And</strong>: “<a href="https://www.natureindex.com/news-blog/researchers-created-database-half-million-journal-open-editors">Why researchers created a database of half a million journal editors</a>” (Nature Index, 2021).</p>
+<p><strong>Journal editors.</strong> For his <a
+href="https://openeditors.ooir.org/">Open Editors</a> project, <a
+href="https://twitter.com/andrepacher">Andreas Nishikawa-Pacher</a>
+scrapes the websites of scholarly journals, extracting the names,
+affiliations, and roles of their listed editors and board members. The
+<a href="https://github.com/andreaspacher/openeditors">project’s
+dataset</a> contains half a million associations between editors and
+6,000+ scholarly journals from 22 publishers (17 mainstream and 5 “<a
+href="https://en.wikipedia.org/wiki/Predatory_publishing">predatory</a>”).
+<strong>Read more</strong>: <a
+href="https://osf.io/preprints/socarxiv/jvzq7/">Nishikawa-Pacher et
+al.’s introductory working paper</a>. <strong>And</strong>: “<a
+href="https://www.natureindex.com/news-blog/researchers-created-database-half-million-journal-open-editors">Why
+researchers created a database of half a million journal editors</a>”
+(Nature Index, 2021).</p>
 <p> </p>
-<p><strong>Radio on the internet.</strong> <a href="https://www.radio-browser.info/">Radio-browser.info</a> is “a community driven effort (like wikipedia) with the aim of collecting as many internet radio and TV stations as possible.” The 29,000+ stations span <a href="https://www.radio-browser.info/countries">200+ countries</a> and <a href="https://www.radio-browser.info/languages">280+ languages</a>. You can explore them on <a href="https://www.radio-browser.info/map">a map</a>, through <a href="https://api.radio-browser.info/">an API</a>, and via <a href="https://backups.radio-browser.info/">bulk database snapshots</a>. [h/t <a href="https://news.ycombinator.com/item?id=29728030">jlkuester7</a>]</p>
+<p><strong>Radio on the internet.</strong> <a
+href="https://www.radio-browser.info/">Radio-browser.info</a> is “a
+community driven effort (like wikipedia) with the aim of collecting as
+many internet radio and TV stations as possible.” The 29,000+ stations
+span <a href="https://www.radio-browser.info/countries">200+
+countries</a> and <a
+href="https://www.radio-browser.info/languages">280+ languages</a>. You
+can explore them on <a href="https://www.radio-browser.info/map">a
+map</a>, through <a href="https://api.radio-browser.info/">an API</a>,
+and via <a href="https://backups.radio-browser.info/">bulk database
+snapshots</a>. [h/t <a
+href="https://news.ycombinator.com/item?id=29728030">jlkuester7</a>]</p>
 <p> </p>
-<p><strong>Chocolate bar reviews.</strong> The <a href="http://flavorsofcacao.com/mcs_index.html">Manhattan Chocolate Society</a>’s <a href="http://flavorsofcacao.com/contact.html">Brady Brelinski</a> has <a href="http://flavorsofcacao.com/review_guide.html">reviewed</a> 2,500+ bars of craft chocolate since 2006, and compiles his findings into a <a href="http://flavorsofcacao.com/chocolate_database.html">copy-paste-able table</a> that lists each bar’s manufacturer, bean origin, percent cocoa, ingredients, review notes, and numerical rating. <strong>Related</strong>: <a href="http://flavorsofcacao.com/usa_craft_makers.html">Craft chocolate makers in the US</a> and <a href="http://flavorsofcacao.com/canadian_craft_makers.html">Canada</a>, also compiled by Brelinski. [h/t <a href="https://www.kaggle.com/andrewmvd/chocolate-ratings">Andrew Maranhão</a>]</p>
+<p><strong>Chocolate bar reviews.</strong> The <a
+href="http://flavorsofcacao.com/mcs_index.html">Manhattan Chocolate
+Society</a>’s <a href="http://flavorsofcacao.com/contact.html">Brady
+Brelinski</a> has <a
+href="http://flavorsofcacao.com/review_guide.html">reviewed</a> 2,500+
+bars of craft chocolate since 2006, and compiles his findings into a <a
+href="http://flavorsofcacao.com/chocolate_database.html">copy-paste-able
+table</a> that lists each bar’s manufacturer, bean origin, percent
+cocoa, ingredients, review notes, and numerical rating.
+<strong>Related</strong>: <a
+href="http://flavorsofcacao.com/usa_craft_makers.html">Craft chocolate
+makers in the US</a> and <a
+href="http://flavorsofcacao.com/canadian_craft_makers.html">Canada</a>,
+also compiled by Brelinski. [h/t <a
+href="https://www.kaggle.com/andrewmvd/chocolate-ratings">Andrew
+Maranhão</a>]</p>
 <p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send tempered feedback to jsvine@gmail.com, or just reply to this email. Looking for past datasets? <a href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This spreadsheet contains them all</a>. Visit <a href="https://www.data-is-plural.com">data-is-plural.com</a> to subscribe and browse past editions.</em></p>
+<p><em>Dataset suggestions? Criticism? Praise? Send tempered feedback to
+jsvine@gmail.com, or just reply to this email. Looking for past
+datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and browse past editions.</em></p>
 ]]></content>
     <link href="http://www.data-is-plural.com/archive/2022-01-12-edition" rel="alternate"/>
     <summary>Slaveholders in Congress, pension plans, journal editors, radio on the internet, and chocolate bar reviews.</summary>
@@ -152,19 +801,93 @@
     <id>dip-2022-01-05</id>
     <title>Data Is Plural — 2022.01.05 edition</title>
     <updated>2022-01-05T08:00:00-05:00</updated>
-    <content type="CDATA"><![CDATA[<p><em>Civil asset forfeiture, joint military exercises, medical drug names, foundation shades, and honey bees.</em></p>
+    <content type="CDATA"><![CDATA[<p><em>Civil asset forfeiture, joint military exercises, medical drug
+names, foundation shades, and honey bees.</em></p>
 <p> </p>
-<p><strong>Civil asset forfeiture.</strong> “Most states and the federal government have laws allowing police and prosecutors to seize and permanently keep Americans’ cash, cars, homes and other property suspected of being involved in a crime — without regard to the owners’ guilt or innocence,” the nonprofit law firm <a href="https://ij.org/about-us/">Institute for Justice</a> writes in its <a href="https://ij.org/report/policing-for-profit-3/">third edition of <em>Policing for Profit</em></a>, published in 2020. The report gathers and analyzes <a href="https://ij.org/report/policing-for-profit-3/policing-for-profit-data/">datasets on property seized in dozens of states</a> through this practice of <a href="https://en.wikipedia.org/wiki/Civil_forfeiture_in_the_United_States">civil asset forfeiture</a>, and on the spending of forfeiture funds. It also examines seizures from the federal <a href="https://www.justice.gov/jmd/major-information-systems-consolidated-asset-tracking-system">Consolidated Asset Tracking System</a>, <a href="https://www.justice.gov/afp/freedom-information-act">detailed public extracts</a> of which the Department of Justice updates quarterly. <strong>As seen in</strong>: “<a href="https://thewhyaxis.substack.com/p/cops-still-take-more-stuff-from-people">Cops still take more stuff from people than burglars do</a>” (The Why Axis, 2021), and “<a href="https://www.washingtonpost.com/sf/investigative/2014/09/06/stop-and-seize/">Stop and Seize</a>” (Washington Post, 2014).</p>
+<p><strong>Civil asset forfeiture.</strong> “Most states and the federal
+government have laws allowing police and prosecutors to seize and
+permanently keep Americans’ cash, cars, homes and other property
+suspected of being involved in a crime — without regard to the owners’
+guilt or innocence,” the nonprofit law firm <a
+href="https://ij.org/about-us/">Institute for Justice</a> writes in its
+<a href="https://ij.org/report/policing-for-profit-3/">third edition of
+<em>Policing for Profit</em></a>, published in 2020. The report gathers
+and analyzes <a
+href="https://ij.org/report/policing-for-profit-3/policing-for-profit-data/">datasets
+on property seized in dozens of states</a> through this practice of <a
+href="https://en.wikipedia.org/wiki/Civil_forfeiture_in_the_United_States">civil
+asset forfeiture</a>, and on the spending of forfeiture funds. It also
+examines seizures from the federal <a
+href="https://www.justice.gov/jmd/major-information-systems-consolidated-asset-tracking-system">Consolidated
+Asset Tracking System</a>, <a
+href="https://www.justice.gov/afp/freedom-information-act">detailed
+public extracts</a> of which the Department of Justice updates
+quarterly. <strong>As seen in</strong>: “<a
+href="https://thewhyaxis.substack.com/p/cops-still-take-more-stuff-from-people">Cops
+still take more stuff from people than burglars do</a>” (The Why Axis,
+2021), and “<a
+href="https://www.washingtonpost.com/sf/investigative/2014/09/06/stop-and-seize/">Stop
+and Seize</a>” (Washington Post, 2014).</p>
 <p> </p>
-<p><strong>Joint military exercises.</strong> Jordan Bernhardt’s <a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/HXQFHU">Joint Military Exercises Dataset</a> describes 5,000+ such operations undertaken between 1977 and 2016, drawn from historical news reports. The dataset lists each exercise’s name, location, when it began and ended, the countries that participated, activities involved, and more. <strong>Related</strong>: <a href="https://www.brandonkinne.com/">Brandon J. Kinne</a>’s <a href="https://correlatesofwar.org/data-sets/defense-cooperation-agreement-dataset">Defense Cooperation Agreement Dataset</a>, a “comprehensive, human-coded dataset” covering bilateral defense treaties between 1980 and 2010.</p>
+<p><strong>Joint military exercises.</strong> Jordan Bernhardt’s <a
+href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/HXQFHU">Joint
+Military Exercises Dataset</a> describes 5,000+ such operations
+undertaken between 1977 and 2016, drawn from historical news reports.
+The dataset lists each exercise’s name, location, when it began and
+ended, the countries that participated, activities involved, and more.
+<strong>Related</strong>: <a
+href="https://www.brandonkinne.com/">Brandon J. Kinne</a>’s <a
+href="https://correlatesofwar.org/data-sets/defense-cooperation-agreement-dataset">Defense
+Cooperation Agreement Dataset</a>, a “comprehensive, human-coded
+dataset” covering bilateral defense treaties between 1980 and 2010.</p>
 <p> </p>
-<p><strong>Medical drug names.</strong> To build their <a href="https://data.mendeley.com/datasets/9nmgzttxhm/1">International Drug Dictionary</a>, <a href="https://www.sciencedirect.com/science/article/pii/S2352340921009768">Mohammad A. Khaleel et al.</a> collected trade names and ingredient names “from open access websites belonging to official drug regulatory agencies, official healthcare systems, or recognized scientific bodies from 44 countries around the world,” among other sources. Each of the 450,000+ entries maps a name to standardized ingredient information from the National Library of Medicine’s <a href="https://www.nlm.nih.gov/research/umls/rxnorm/index.html">RxNorm</a> database.</p>
+<p><strong>Medical drug names.</strong> To build their <a
+href="https://data.mendeley.com/datasets/9nmgzttxhm/1">International
+Drug Dictionary</a>, <a
+href="https://www.sciencedirect.com/science/article/pii/S2352340921009768">Mohammad
+A. Khaleel et al.</a> collected trade names and ingredient names “from
+open access websites belonging to official drug regulatory agencies,
+official healthcare systems, or recognized scientific bodies from 44
+countries around the world,” among other sources. Each of the 450,000+
+entries maps a name to standardized ingredient information from the
+National Library of Medicine’s <a
+href="https://www.nlm.nih.gov/research/umls/rxnorm/index.html">RxNorm</a>
+database.</p>
 <p> </p>
-<p><strong>Foundation shades.</strong> For “<a href="https://pudding.cool/2021/03/foundation-names/">The Naked Truth</a>,” a Pudding article published last year with <a href="https://ofunneamaka.com/about-ofunneamaka/">Ofunne Amaka</a>, <a href="https://amber.rbind.io/">Amber Thomas</a> scraped <a href="https://github.com/the-pudding/data/tree/master/foundation-names">information about 6,800+ foundation shades</a> from the websites of two major cosmetics retailers. The project’s datasets identify each product’s name, description, URL, and the predominant <a href="https://en.wikipedia.org/wiki/RGB_color_model">RGB</a>/<a href="https://en.wikipedia.org/wiki/HSL_and_HSV">HSL</a> color value in its swatch image.</p>
+<p><strong>Foundation shades.</strong> For “<a
+href="https://pudding.cool/2021/03/foundation-names/">The Naked
+Truth</a>,” a Pudding article published last year with <a
+href="https://ofunneamaka.com/about-ofunneamaka/">Ofunne Amaka</a>, <a
+href="https://amber.rbind.io/">Amber Thomas</a> scraped <a
+href="https://github.com/the-pudding/data/tree/master/foundation-names">information
+about 6,800+ foundation shades</a> from the websites of two major
+cosmetics retailers. The project’s datasets identify each product’s
+name, description, URL, and the predominant <a
+href="https://en.wikipedia.org/wiki/RGB_color_model">RGB</a>/<a
+href="https://en.wikipedia.org/wiki/HSL_and_HSV">HSL</a> color value in
+its swatch image.</p>
 <p> </p>
-<p><strong>Honey bees.</strong> Since the 1980s, the US Department of Agriculture has <a href="https://www.nass.usda.gov/Surveys/Guide_to_NASS_Surveys/Bee_and_Honey/">conducted</a> an annual <a href="https://usda.library.cornell.edu/concern/publications/hd76s004z?locale=en">Bee and Honey Inquiry Survey</a>, which generates estimates of “the number of colonies producing honey, yield per colony, honey production, average price, price by color class and value as well as honey stocks at the state and national levels.” Since 2016, it has also published <a href="https://usda.library.cornell.edu/concern/publications/rn301137d?locale=en">annual reports that examine the gain and loss of colonies</a>, including losses due to <a href="https://www.ars.usda.gov/oc/br/ccd/index/">colony collapse disorder</a>.</p>
+<p><strong>Honey bees.</strong> Since the 1980s, the US Department of
+Agriculture has <a
+href="https://www.nass.usda.gov/Surveys/Guide_to_NASS_Surveys/Bee_and_Honey/">conducted</a>
+an annual <a
+href="https://usda.library.cornell.edu/concern/publications/hd76s004z?locale=en">Bee
+and Honey Inquiry Survey</a>, which generates estimates of “the number
+of colonies producing honey, yield per colony, honey production, average
+price, price by color class and value as well as honey stocks at the
+state and national levels.” Since 2016, it has also published <a
+href="https://usda.library.cornell.edu/concern/publications/rn301137d?locale=en">annual
+reports that examine the gain and loss of colonies</a>, including losses
+due to <a href="https://www.ars.usda.gov/oc/br/ccd/index/">colony
+collapse disorder</a>.</p>
 <p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send mellifluous feedback to jsvine@gmail.com, or just reply to this email. Looking for past datasets? <a href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This spreadsheet contains them all</a>. Visit <a href="https://www.data-is-plural.com">data-is-plural.com</a> to subscribe and browse past editions.</em></p>
+<p><em>Dataset suggestions? Criticism? Praise? Send mellifluous feedback
+to jsvine@gmail.com, or just reply to this email. Looking for past
+datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and browse past editions.</em></p>
 ]]></content>
     <link href="http://www.data-is-plural.com/archive/2022-01-05-edition" rel="alternate"/>
     <summary>Civil asset forfeiture, joint military exercises, medical drug names, foundation shades, and honey bees.</summary>
@@ -174,19 +897,90 @@
     <id>dip-2021-12-29</id>
     <title>Data Is Plural — 2021.12.29 edition</title>
     <updated>2021-12-29T08:00:00-05:00</updated>
-    <content type="CDATA"><![CDATA[<p><em>Local mortality and the 1918 pandemic, religious congregations, COVID-era news layoffs, leaders’ economic persuasions, and root traits.</em></p>
+    <content type="CDATA"><![CDATA[<p><em>Local mortality and the 1918 pandemic, religious congregations,
+COVID-era news layoffs, leaders’ economic persuasions, and root
+traits.</em></p>
 <p> </p>
-<p><strong>Local mortality and the 1918 pandemic.</strong> <a href="https://osf.io/preprints/socarxiv/zf6wy/">Martin Eiermann, Elizabeth Wrigley-Field, et al.</a> have conducted an analysis of deaths before, during, and after the 1918 influenza pandemic, drawing on “data from multiple sources, including digitized mortality records for 70 U.S. cities, linked census records that establish urban residency status across multiple censuses” and newspaper accounts of <a href="https://en.wikipedia.org/wiki/Non-pharmaceutical_intervention_(epidemiology)">non-pharmaceutical interventions</a>. The team’s <a href="https://osf.io/njghd/">published files</a> includes a dataset that, for each city-and-year, lists the mortality rate overall, for white vs. non-white residents, and due to flu/pneumonia; a range of demographic variables; the timing of certain interventions; and more.</p>
+<p><strong>Local mortality and the 1918 pandemic.</strong> <a
+href="https://osf.io/preprints/socarxiv/zf6wy/">Martin Eiermann,
+Elizabeth Wrigley-Field, et al.</a> have conducted an analysis of deaths
+before, during, and after the 1918 influenza pandemic, drawing on “data
+from multiple sources, including digitized mortality records for 70 U.S.
+cities, linked census records that establish urban residency status
+across multiple censuses” and newspaper accounts of <a
+href="https://en.wikipedia.org/wiki/Non-pharmaceutical_intervention_(epidemiology)">non-pharmaceutical
+interventions</a>. The team’s <a href="https://osf.io/njghd/">published
+files</a> includes a dataset that, for each city-and-year, lists the
+mortality rate overall, for white vs. non-white residents, and due to
+flu/pneumonia; a range of demographic variables; the timing of certain
+interventions; and more.</p>
 <p> </p>
-<p><strong>Religious congregations.</strong> The <a href="https://www.thearda.com/">Association of Religion Data Archives</a>, founded in 1997, “strives to democratize access to the best data on religion.” Among <a href="https://www.thearda.com/Archive/browse.asp">its resources</a> are <a href="https://www.thearda.com/Archive/NCS.asp">four waves of the National Congregations Study</a>, a <a href="https://sites.duke.edu/ncsweb/">Duke University–based survey</a> that <a href="https://sites.duke.edu/ncsweb/methodology/">asks US religious establishments</a> about their denominational affiliation, buildings of worship, congregants, staffing, educational offerings, and more. Representatives from 5,300+ Christian, Jewish, Muslim, Buddhist, Hindu, and other congregations participated in the latest wave, conducted in 2018–19. [h/t <a href="https://journals.sagepub.com/doi/abs/10.1177/0003122421996686">Patricia Homan and Amy Burdette</a> + <a href="https://nationalaffairs.com/blog/detail/findings-a-daily-roundup/worship">Kevin Lewis</a>]</p>
+<p><strong>Religious congregations.</strong> The <a
+href="https://www.thearda.com/">Association of Religion Data
+Archives</a>, founded in 1997, “strives to democratize access to the
+best data on religion.” Among <a
+href="https://www.thearda.com/Archive/browse.asp">its resources</a> are
+<a href="https://www.thearda.com/Archive/NCS.asp">four waves of the
+National Congregations Study</a>, a <a
+href="https://sites.duke.edu/ncsweb/">Duke University–based survey</a>
+that <a href="https://sites.duke.edu/ncsweb/methodology/">asks US
+religious establishments</a> about their denominational affiliation,
+buildings of worship, congregants, staffing, educational offerings, and
+more. Representatives from 5,300+ Christian, Jewish, Muslim, Buddhist,
+Hindu, and other congregations participated in the latest wave,
+conducted in 2018–19. [h/t <a
+href="https://journals.sagepub.com/doi/abs/10.1177/0003122421996686">Patricia
+Homan and Amy Burdette</a> + <a
+href="https://nationalaffairs.com/blog/detail/findings-a-daily-roundup/worship">Kevin
+Lewis</a>]</p>
 <p> </p>
-<p><strong>COVID-era news layoffs.</strong> “At least 6,154 news organization workers, which includes both editorial and non-editorial staffers, were laid off beginning March 2020 through August 2021,” according to a <a href="https://www.cjr.org/tow_center_reports/more-than-6150-news-workers-laid-off.php">new report</a> from the <a href="https://towcenter.columbia.edu/">Tow Center</a>’s <a href="https://twitter.com/__gabbymiller">Gabby Miller</a>. An <a href="https://www.cjr.org/widescreen/covid-cutback-tracker.php">interactive tracker</a> provides a map and downloadable table of the layoffs and other cutbacks, listing each outlet’s name, medium, owner, and location; the cutback’s date, description, and category (layoffs, pay cuts, etc.); and source links. <strong>Related</strong>: The Washington Post Magazine’s <a href="https://www.washingtonpost.com/magazine/interactive/2021/local-news-deserts-expanding/">Lost Local News issue</a>.</p>
+<p><strong>COVID-era news layoffs.</strong> “At least 6,154 news
+organization workers, which includes both editorial and non-editorial
+staffers, were laid off beginning March 2020 through August 2021,”
+according to a <a
+href="https://www.cjr.org/tow_center_reports/more-than-6150-news-workers-laid-off.php">new
+report</a> from the <a href="https://towcenter.columbia.edu/">Tow
+Center</a>’s <a href="https://twitter.com/__gabbymiller">Gabby
+Miller</a>. An <a
+href="https://www.cjr.org/widescreen/covid-cutback-tracker.php">interactive
+tracker</a> provides a map and downloadable table of the layoffs and
+other cutbacks, listing each outlet’s name, medium, owner, and location;
+the cutback’s date, description, and category (layoffs, pay cuts, etc.);
+and source links. <strong>Related</strong>: The Washington Post
+Magazine’s <a
+href="https://www.washingtonpost.com/magazine/interactive/2021/local-news-deserts-expanding/">Lost
+Local News issue</a>.</p>
 <p> </p>
-<p><strong>Leaders’ economic persuasions.</strong> Political scientist <a href="https://www.bastianherre.com/">Bastian Herre</a>’s new <a href="https://github.com/bastianherre/global-leader-ideologies">Global Leader Ideology dataset</a> “provides unprecedented coverage of chief executives’ [economic] ideologies across time and space,” classifying their approaches as leftist, centrist, rightist, or non-ideological in 182 countries, from 1945 to 2020. <strong>Read more</strong>: <a href="https://bb1fa620-fff9-4aa7-b146-7f71c3bf5bae.filesusr.com/ugd/654001_8c377a64fecb46cd84f76ee5d69c9edb.pdf">Herre’s introductory paper</a> and <a href="https://twitter.com/bbherre/status/1473681744964501522">Twitter thread</a>.</p>
+<p><strong>Leaders’ economic persuasions.</strong> Political scientist
+<a href="https://www.bastianherre.com/">Bastian Herre</a>’s new <a
+href="https://github.com/bastianherre/global-leader-ideologies">Global
+Leader Ideology dataset</a> “provides unprecedented coverage of chief
+executives’ [economic] ideologies across time and space,” classifying
+their approaches as leftist, centrist, rightist, or non-ideological in
+182 countries, from 1945 to 2020. <strong>Read more</strong>: <a
+href="https://bb1fa620-fff9-4aa7-b146-7f71c3bf5bae.filesusr.com/ugd/654001_8c377a64fecb46cd84f76ee5d69c9edb.pdf">Herre’s
+introductory paper</a> and <a
+href="https://twitter.com/bbherre/status/1473681744964501522">Twitter
+thread</a>.</p>
 <p> </p>
-<p><strong>Root traits.</strong> Oak Ridge National Laboratory’s <a href="https://roots.ornl.gov/">Fine-Root Ecology Database</a> categorizes <a href="https://roots.ornl.gov/traits/map">the root characteristics</a> of <a href="https://roots.ornl.gov/plant-species">4,500+ plant species</a>, as <a href="https://roots.ornl.gov/data-sources">observed and published in scientific literature</a>. The <a href="https://roots.ornl.gov/data-inventory">hundreds of types of traits</a> relate to vessel density, root angles, lifespan, macronutrients, microbial symbionts, and more.</p>
+<p><strong>Root traits.</strong> Oak Ridge National Laboratory’s <a
+href="https://roots.ornl.gov/">Fine-Root Ecology Database</a>
+categorizes <a href="https://roots.ornl.gov/traits/map">the root
+characteristics</a> of <a
+href="https://roots.ornl.gov/plant-species">4,500+ plant species</a>, as
+<a href="https://roots.ornl.gov/data-sources">observed and published in
+scientific literature</a>. The <a
+href="https://roots.ornl.gov/data-inventory">hundreds of types of
+traits</a> relate to vessel density, root angles, lifespan,
+macronutrients, microbial symbionts, and more.</p>
 <p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send radical feedback to jsvine@gmail.com, or just reply to this email. Looking for past datasets? <a href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This spreadsheet contains them all</a>. Visit <a href="https://www.data-is-plural.com">data-is-plural.com</a> to subscribe and browse past editions.</em></p>
+<p><em>Dataset suggestions? Criticism? Praise? Send radical feedback to
+jsvine@gmail.com, or just reply to this email. Looking for past
+datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and browse past editions.</em></p>
 ]]></content>
     <link href="http://www.data-is-plural.com/archive/2021-12-29-edition" rel="alternate"/>
     <summary>Local mortality and the 1918 pandemic, religious congregations, COVID-era news layoffs, leaders’ economic persuasions, and root traits.</summary>
@@ -196,44 +990,105 @@
     <id>dip-2021-12-22</id>
     <title>Data Is Plural — 2021.12.22 edition</title>
     <updated>2021-12-22T08:00:00-05:00</updated>
-    <content type="CDATA"><![CDATA[<p><em>Tobacco habits, working hours, COVID-19 in European prisons, California water wells, and toothbrushing.</em></p>
+    <content type="CDATA"><![CDATA[<p><em>Tobacco habits, working hours, COVID-19 in European prisons,
+California water wells, and toothbrushing.</em></p>
 <p> </p>
-<p><strong>Tobacco habits.</strong> Every few years since 1992, the <a href="https://cancercontrol.cancer.gov/">National Cancer Institute</a> has sponsored the <a href="https://cancercontrol.cancer.gov/brp/tcrb/tus-cps">Tobacco Use Supplement to the Current Population Survey</a>, <a href="https://www.census.gov/programs-surveys/cps/about/supplemental-surveys.html">administered by the US Census Bureau</a>. In addition to extensive demographic information, the supplement asks about historical tobacco usage (“Have you smoked at least 100 cigarettes in your entire life?”), preferences (“Do you usually smoke menthol or non-menthol cigarettes?”), purchasing habits, e-cigarettes, and much more. Anonymized responses and documentation <a href="https://cancercontrol.cancer.gov/brp/tcrb/tus-cps/questionnaires-data">are available</a> for all survey waves through 2018–19. <strong>Previously</strong>: <a href="http://www.cdc.gov/brfss/">The CDC’s Behavioral Risk Factor Surveillance System</a> (<a href="https://www.data-is-plural.com/archive/2016-09-14-edition/">DIP 2016.09.14</a>). [h/t <a href="https://pubmed.ncbi.nlm.nih.gov/34644338/">Christian Gunadi et al.</a> + <a href="https://www.nationalaffairs.com/blog/detail/findings-a-daily-roundup/unhealthy-lifestyles">Kevin Lewis</a>]</p>
+<p><strong>Tobacco habits.</strong> Every few years since 1992, the <a
+href="https://cancercontrol.cancer.gov/">National Cancer Institute</a>
+has sponsored the <a
+href="https://cancercontrol.cancer.gov/brp/tcrb/tus-cps">Tobacco Use
+Supplement to the Current Population Survey</a>, <a
+href="https://www.census.gov/programs-surveys/cps/about/supplemental-surveys.html">administered
+by the US Census Bureau</a>. In addition to extensive demographic
+information, the supplement asks about historical tobacco usage (“Have
+you smoked at least 100 cigarettes in your entire life?”), preferences
+(“Do you usually smoke menthol or non-menthol cigarettes?”), purchasing
+habits, e-cigarettes, and much more. Anonymized responses and
+documentation <a
+href="https://cancercontrol.cancer.gov/brp/tcrb/tus-cps/questionnaires-data">are
+available</a> for all survey waves through 2018–19.
+<strong>Previously</strong>: <a href="http://www.cdc.gov/brfss/">The
+CDC’s Behavioral Risk Factor Surveillance System</a> (<a
+href="https://www.data-is-plural.com/archive/2016-09-14-edition/">DIP
+2016.09.14</a>). [h/t <a
+href="https://pubmed.ncbi.nlm.nih.gov/34644338/">Christian Gunadi et
+al.</a> + <a
+href="https://www.nationalaffairs.com/blog/detail/findings-a-daily-roundup/unhealthy-lifestyles">Kevin
+Lewis</a>]</p>
 <p> </p>
-<p><strong>Working hours.</strong> Political scientist <a href="https://www.magnusbrasmussen.com/">Magnus Bergli Rasmussen</a> has <a href="https://twitter.com/RasmussenMagnus/status/1465629029982158848">compiled data</a> on the regulation of laborers’ total work hours in nearly every country since 1789, <a href="https://www.dropbox.com/s/ie1zvkr7iht2i1j/public_workingtimedata.dta?dl=0">available as a Stata file</a>. For each year and territory, the dataset indicates whether such laws existed, the “normal” number of contractually-obligated weekly hours, the maximum number of hours allowed, and increases in pay for overtime. <strong>Read more</strong>: “<a href="https://www.researchgate.net/publication/356063579_The_Great_Standardization_Working_Hours_around_the_World">The Great Standardization: Working Hours Around the World</a>,” in which Rasmussen describes the dataset’s construction.</p>
+<p><strong>Working hours.</strong> Political scientist <a
+href="https://www.magnusbrasmussen.com/">Magnus Bergli Rasmussen</a> has
+<a
+href="https://twitter.com/RasmussenMagnus/status/1465629029982158848">compiled
+data</a> on the regulation of laborers’ total work hours in nearly every
+country since 1789, <a
+href="https://www.dropbox.com/s/ie1zvkr7iht2i1j/public_workingtimedata.dta?dl=0">available
+as a Stata file</a>. For each year and territory, the dataset indicates
+whether such laws existed, the “normal” number of
+contractually-obligated weekly hours, the maximum number of hours
+allowed, and increases in pay for overtime. <strong>Read more</strong>:
+“<a
+href="https://www.researchgate.net/publication/356063579_The_Great_Standardization_Working_Hours_around_the_World">The
+Great Standardization: Working Hours Around the World</a>,” in which
+Rasmussen describes the dataset’s construction.</p>
 <p> </p>
-<p><strong>COVID-19 in European prisons.</strong> A collaboration coordinated by <a href="https://www.dw.com/en/data/t-43091100">Deutsche Welle</a> and the <a href="https://www.europeandatajournalism.eu/eng/News/Data-news/How-Europe-s-prisons-have-fared-in-the-Covid-19-pandemic">European Data Journalism Network</a> has <a href="https://github.com/dw-data/covid-prisons">gathered data</a> on <a href="https://www.dw.com/en/covid-how-europes-prisons-have-fared-in-the-pandemic/a-60006262">the pandemic’s impact on prisoners and prison staff in dozens of European countries</a>, including the number of COVID-19 tests, cases, and deaths over time. The data also note the types of preventative measures and vaccine policies in place. <strong>Previously</strong>: US prison COVID-19 data from the <a href="https://github.com/themarshallproject/COVID_prison_data">Marshall Project and AP</a> (<a href="https://www.data-is-plural.com/archive/2020-05-06-edition/">DIP 2020.05.06</a>) and the <a href="https://github.com/nytimes/covid-19-data/tree/master/prisons">New York Times</a> (<a href="https://www.data-is-plural.com/archive/2021-04-21-edition/">DIP 2021.04.21</a>). [h/t <a href="https://twitter.com/lorferr">Lorenzo Ferrari</a>]</p>
+<p><strong>COVID-19 in European prisons.</strong> A collaboration
+coordinated by <a href="https://www.dw.com/en/data/t-43091100">Deutsche
+Welle</a> and the <a
+href="https://www.europeandatajournalism.eu/eng/News/Data-news/How-Europe-s-prisons-have-fared-in-the-Covid-19-pandemic">European
+Data Journalism Network</a> has <a
+href="https://github.com/dw-data/covid-prisons">gathered data</a> on <a
+href="https://www.dw.com/en/covid-how-europes-prisons-have-fared-in-the-pandemic/a-60006262">the
+pandemic’s impact on prisoners and prison staff in dozens of European
+countries</a>, including the number of COVID-19 tests, cases, and deaths
+over time. The data also note the types of preventative measures and
+vaccine policies in place. <strong>Previously</strong>: US prison
+COVID-19 data from the <a
+href="https://github.com/themarshallproject/COVID_prison_data">Marshall
+Project and AP</a> (<a
+href="https://www.data-is-plural.com/archive/2020-05-06-edition/">DIP
+2020.05.06</a>) and the <a
+href="https://github.com/nytimes/covid-19-data/tree/master/prisons">New
+York Times</a> (<a
+href="https://www.data-is-plural.com/archive/2021-04-21-edition/">DIP
+2021.04.21</a>). [h/t <a href="https://twitter.com/lorferr">Lorenzo
+Ferrari</a>]</p>
 <p> </p>
-<p><strong>California water wells.</strong> Domestic wells in the San Joaquin Valley “are drying up at an alarming pace” amid “a frenzy of new well construction and heavy agricultural pumping,” according to a <a href="https://www.latimes.com/projects/california-farms-water-wells-drought/">Los Angeles Times article last week</a>. Data reporter <a href="https://twitter.com/lamarr_lemee">Gabrielle LaMarr LeMee</a>’s <a href="https://github.com/datadesk/groundwater-analysis">analysis</a> provides the quantitative backbone, drawing on three state datasets: <a href="https://data.cnra.ca.gov/dataset/well-completion-reports">well completion reports</a> and <a href="https://data.cnra.ca.gov/dataset/periodic-groundwater-level-measurements">periodic groundwater level measurements</a>, both of which go back more than a century, and <a href="https://data.ca.gov/dataset/household-water-supply-shortage-reporting-system-data">household water supply shortage reports</a> since 2013.</p>
+<p><strong>California water wells.</strong> Domestic wells in the San
+Joaquin Valley “are drying up at an alarming pace” amid “a frenzy of new
+well construction and heavy agricultural pumping,” according to a <a
+href="https://www.latimes.com/projects/california-farms-water-wells-drought/">Los
+Angeles Times article last week</a>. Data reporter <a
+href="https://twitter.com/lamarr_lemee">Gabrielle LaMarr LeMee</a>’s <a
+href="https://github.com/datadesk/groundwater-analysis">analysis</a>
+provides the quantitative backbone, drawing on three state datasets: <a
+href="https://data.cnra.ca.gov/dataset/well-completion-reports">well
+completion reports</a> and <a
+href="https://data.cnra.ca.gov/dataset/periodic-groundwater-level-measurements">periodic
+groundwater level measurements</a>, both of which go back more than a
+century, and <a
+href="https://data.ca.gov/dataset/household-water-supply-shortage-reporting-system-data">household
+water supply shortage reports</a> since 2013.</p>
 <p> </p>
-<p><strong>Toothbrushing.</strong> <a href="https://www.sciencedirect.com/science/article/pii/S2352340921005321">Zawar Hussain et al.</a> recorded data from 120 electric and manual toothbrushing sessions, using sensors attached to the brush handle and brusher’s wrist. Each session’s <a href="https://data.mendeley.com/datasets/hx5kkkbr3j/">data files</a> trace the sensors’ positions over time and indicate the brush type, participant’s gender, age, and handedness, and more.</p>
+<p><strong>Toothbrushing.</strong> <a
+href="https://www.sciencedirect.com/science/article/pii/S2352340921005321">Zawar
+Hussain et al.</a> recorded data from 120 electric and manual
+toothbrushing sessions, using sensors attached to the brush handle and
+brusher’s wrist. Each session’s <a
+href="https://data.mendeley.com/datasets/hx5kkkbr3j/">data files</a>
+trace the sensors’ positions over time and indicate the brush type,
+participant’s gender, age, and handedness, and more.</p>
 <p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send dentist-approved feedback to jsvine@gmail.com, or just reply to this email. Looking for past datasets? <a href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This spreadsheet contains them all</a>. Visit <a href="https://www.data-is-plural.com">data-is-plural.com</a> to subscribe and browse past editions.</em></p>
+<p><em>Dataset suggestions? Criticism? Praise? Send dentist-approved
+feedback to jsvine@gmail.com, or just reply to this email. Looking for
+past datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and browse past editions.</em></p>
 ]]></content>
     <link href="http://www.data-is-plural.com/archive/2021-12-22-edition" rel="alternate"/>
     <summary>Tobacco habits, working hours, COVID-19 in European prisons, California water wells, and toothbrushing.</summary>
     <published>2021-12-22T08:00:00-05:00</published>
-  </entry>
-  <entry>
-    <id>dip-2021-12-15</id>
-    <title>Data Is Plural — 2021.12.15 edition</title>
-    <updated>2021-12-15T08:00:00-05:00</updated>
-    <content type="CDATA"><![CDATA[<p><em>Faster-turnaround mortality data, zero-day exploits, reproductive assistance in the EU, country leaders’ birthplaces, and 1 million Bandcamp sales.</em></p>
-<p> </p>
-<p><strong>Faster-turnaround mortality data.</strong> Last week, the CDC began publishing <a href="https://wonder.cdc.gov/mcd-icd10-provisional.html">provisional US mortality statistics for 2018 to the near-present</a>. The data are <a href="https://wonder.cdc.gov/wonder/help/mcd-provisional.html">based on death certificates</a> and can be queried by location, timing, demographics, and causes of death. They’re similar to the CDC’s <a href="https://wonder.cdc.gov/mcd.html">non-provisional statistics for earlier years</a>, but “with a lag of just a few weeks” instead of more than a year, <a href="https://coviddatadispatch.com/2021/12/12/new-cdc-mortality-data-real-time-public-health-surveillance-at-a-highly-granular-level/">writes</a> the <a href="https://coviddatadispatch.com/">COVID-19 Data Dispatch</a>’s <a href="https://betsyladyzhets.com/">Betsy Ladyzhets</a>. <strong>Read more</strong>: “<a href="https://www.muckrock.com/news/archives/2021/dec/09/the-cdc-just-released-new-data-on-deaths-in-the-us/">Researchers say the US is undercounting COVID deaths. Now we have a tool to figure out why</a>,” an article by Ladyzhets and other members of <a href="https://documentingcovid19.io/about">Documenting COVID-19</a>, who are <a href="https://us02web.zoom.us/webinar/register/WN_PxEsCSn9SeqkFn-xQu37DA">hosting a webinar</a> about the data today.</p>
-<p> </p>
-<p><strong>Zero-day exploits.</strong> Researchers at Google’s <a href="https://googleprojectzero.blogspot.com/p/about-project-zero.html">Project Zero</a> study “<a href="https://en.wikipedia.org/wiki/Zero-day_(computing)">zero-day</a>” vulnerabilities — software flaws discovered by hackers before they can be fixed. Since 2019, the team <a href="https://googleprojectzero.blogspot.com/p/0day.html">has published</a> a <a href="https://docs.google.com/spreadsheets/d/1lkNJ0uQwbeC1ZTRrxdtuPLCIl7mlUreoKfSIgajnSyY/view#gid=0">spreadsheet of known zero-day exploits</a> “in the wild.” The spreadsheet’s 200 entries go back to 2014 and note the software product, its vendor, the flaw’s type and description, date discovered, date patched, and more. <strong>Previously</strong>: <a href="https://cve.mitre.org/">The Common Vulnerabilities and Exposures list</a> (<a href="https://www.data-is-plural.com/archive/2018-12-12-edition/">DIP 2018.12.12</a>). [h/t <a href="https://www.technologyreview.com/2021/09/23/1036140/2021-record-zero-day-hacks-reasons/">Patrick Howell O’Neill</a> + <a href="https://www.schneier.com/blog/archives/2021/09/the-proliferation-of-zero-days.html">Bruce Schneier</a>]</p>
-<p> </p>
-<p><strong>Reproductive assistance in the EU.</strong> Reporters at <a href="https://civio.es/en/about-us/">Civio</a> have collected data on the <a href="https://datos.civio.es/dataset/acceso-a-la-reproduccion-asistida-en-europa/">access to</a>, and <a href="https://datos.civio.es/dataset/reproduccion-asistida-que-costea-la-sanidad-publica-en-europa/">availability of financial aid for</a>, in vitro fertilization and artificial insemination in 43 European countries, noting limits based on age, marital status, sexual orientation, gender identity, and other factors. <strong>Read more</strong>: “<a href="https://civio.es/medicamentalia/2021/11/02/ART-EU-access/">More than half of European countries prohibit access to assisted reproduction for lesbians and almost a third do so for single women</a>.” <strong>Related</strong>: <a href="https://observablehq.com/collection/@civio/619-art-eu">Civio’s visualization code in Observable notebooks</a>. [h/t <a href="https://unavezalmes.substack.com/p/agricultura-intensiva-madres-vetadas">Olaya Argüeso Pérez</a> + <a href="https://twitter.com/mf_viz">Mike Freeman</a>]</p>
-<p> </p>
-<p><strong>Country leaders’ birthplaces.</strong> <a href="http://www.axel-dreher.de/Spouses.pdf">Axel Dreher et al.</a>’s <a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FYUS575">Political Leaders’ Affiliation Database</a> lists the birthplaces and ethnicities of 1,109 leaders of 177 countries between 1989 and 2020. The birthplaces are described at several levels of administrative detail and are ascribed a latitude, longitude, and an indication of those coordinates’ precision. The ethnicities are drawn from external, linked sources. [h/t <a href="https://twitter.com/simonhhess/status/1448388780294090756">Simon Heß</a>]</p>
-<p> </p>
-<p><strong>1 million Bandcamp sales.</strong> <a href="https://components.one/">Components</a>’ <a href="https://twitter.com/asthompson">Andrew Thompson</a> has published a <a href="https://components.one/datasets/bandcamp-sales">dataset of 1,000,000 sales</a> on the music platform <a href="https://bandcamp.com/">Bandcamp</a> during a few weeks in late 2020. For each sale, it includes the item’s description, price, and type; the buyer’s country; a timestamp; and more. It’s a slice of the data used in “<a href="https://components.one/posts/bandcamp-the-chaos-bazaar">The Chaos Bazaar: An analysis of Bandcamp sales, 9/1/2020 - 12/31/2020</a>.”</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send tune-vending feedback to jsvine@gmail.com, or just reply to this email. Looking for past datasets? <a href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This spreadsheet contains them all</a>. Visit <a href="https://www.data-is-plural.com">data-is-plural.com</a> to subscribe and browse past editions.</em></p>
-]]></content>
-    <link href="http://www.data-is-plural.com/archive/2021-12-15-edition" rel="alternate"/>
-    <summary>Faster-turnaround mortality data, zero-day exploits, reproductive assistance in the EU, country leaders’ birthplaces, and 1 million Bandcamp sales.</summary>
-    <published>2021-12-15T08:00:00-05:00</published>
   </entry>
 </feed>
