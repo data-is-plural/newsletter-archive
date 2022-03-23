@@ -6,7 +6,104 @@
     <description>A weekly newsletter of useful/curious datasets.</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>https://github.com/data-is-plural/newsletter-archive</generator>
-    <lastBuildDate>Wed, 16 Mar 2022 08:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 23 Mar 2022 08:00:00 -0400</lastBuildDate>
+    <item>
+      <title>Data Is Plural — 2022.03.23 edition</title>
+      <link>http://www.data-is-plural.com/archive/2022-03-23-edition</link>
+      <description>HealthCare.gov plans, political apologies, border changes, PISA results and responses, and born-digital artworks.</description>
+      <content:encoded><![CDATA[<p><em>HealthCare.gov plans, political apologies, border changes, PISA
+results and responses, and born-digital artworks.</em></p>
+<p> </p>
+<p><strong>HealthCare.gov plans.</strong> A <a
+href="https://www.cms.gov/CCIIO/Resources/Data-Resources/marketplace-puf">series
+of datasets</a> from the US Centers for Medicare &amp; Medicaid Services
+describes all the plans available through the government’s health
+insurance marketplace. The information resembles that available through
+<a href="https://www.healthcare.gov/">HealthCare.gov</a>, but is
+provided as structured, downloadable files. The datasets describe the
+costs, benefits, networks, service areas, and other aspects of 27,000+
+plans offered by hundreds insurers in 2022, plus similar data for each
+year since 2014. [h/t <a
+href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3966751">Qiang
+Liu et al.</a> + <a
+href="https://www.nationalaffairs.com/blog/detail/findings-a-daily-roundup/healing-powers">Kevin
+Lewis</a>]</p>
+<p> </p>
+<p><strong>Political apologies.</strong> The <a
+href="https://www.politicalapologies.com/?page_id=74">Political
+Apologies Database</a>, part of a <a
+href="https://www.politicalapologies.com/">broader research project on
+the theme</a>, is “an inventory of political apologies offered by states
+or state representatives to a collective for human rights violations
+that happened in the recent or distant past.” The current version
+describes 300+ apologies offered between 1947 and 2021, indicating the
+countries and officials who offered them, the countries and groups that
+received them, classifications of the apologized-for violations, and
+other context. <strong>Read more</strong>: “<a
+href="https://journals.sagepub.com/doi/10.1177/00223433211024696">Examining
+the ‘age of apology,’</a>” a study summarizing <a
+href="https://www.politicalapologies.com/?page_id=234">the
+researchers</a>’ findings. [h/t <a
+href="https://github.com/erikgahner/PolData/commit/177cde6b811e08867e24c00f42ea8a58112d04f0">Erik
+Gahner Larsen</a>]</p>
+<p> </p>
+<p><strong>Border changes.</strong> The <a
+href="https://icr.ethz.ch/data/cshapes/">CShapes 2.0</a> dataset “maps
+the borders and capitals of independent states and dependent territories
+from 1886 to 2019,” and includes the specific dates of each change. It’s
+available in a range of formats and <a
+href="https://cshapes.ethz.ch/">as an interactive graphic</a>.
+<strong>Read more</strong>: <a
+href="https://icr.ethz.ch/publications/cshapes-2/">Guy Schvitz et
+al.</a> describe the dataset’s creation and how it compares to others.
+<strong>Related</strong>: <a href="http://svmiller.com/">Steven V.
+Miller</a>’s <a
+href="https://correlatesofwar.org/data-sets/territorial-change">Territorial
+Change</a> dataset, which “records all peaceful and violent changes of
+territory from 1816-2018.” [h/t <a
+href="https://twitter.com/Pmojmir/status/1481577831582736384">Mojmír
+Polák</a> + <a
+href="https://www.cambridge.org/core/journals/american-political-science-review/article/historical-border-changes-state-building-and-contemporary-trust-in-europe/363B969350A764C68914A48276B44252">Scott
+F. Abramson et al.</a>]</p>
+<p> </p>
+<p><strong>PISA results and responses.</strong> Through tests and
+questionnaires, the OECD’s <a
+href="https://www.oecd.org/pisa/">Programme for International Student
+Assessment</a> examines the math, science, and reading proficiency,
+learning environments, and attitudes of hundreds of thousands
+15-year-olds in <a
+href="http://www.oecd.org/pisa/aboutpisa/pisa-participants.htm">dozens
+of countries around the world</a>. Its <a
+href="https://www.oecd.org/pisa/data/">public datasets</a> include
+students’ results and responses from seven assessment waves, dating from
+2000 to 2018. <strong>As seen in</strong>: “<a
+href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0261438">Sex
+differences in adolescents’ occupational aspirations: Variations across
+time and place</a>,” a study using 2018 PISA data. [h/t <a
+href="https://twitter.com/xangregg">Xan Gregg</a>]</p>
+<p> </p>
+<p><strong>Born-digital artworks.</strong> In 1999, the new-media-art
+nonprofit <a href="https://rhizome.org/">Rhizome</a> launched <a
+href="https://artbase.rhizome.org/">ArtBase</a>, “an archive of
+born-digital artworks.” Last year, it <a
+href="https://rhizome.org/editorial/2021/apr/26/the-artbase-relaunches-welcome-to-linked-open-data/">relaunched
+the project</a> as a <a
+href="https://artbase.rhizome.org/wiki/About#Linked_Open_Data">linked
+data</a> resource, allowing you <a
+href="https://artbase.rhizome.org/wiki/Query">run complex and detailed
+queries</a> across the collection’s 2,200+ entries.</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send born-digital
+feedback to jsvine@gmail.com, or just reply to this email. Looking for
+past datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions.</em></p>
+]]></content:encoded>
+      <guid isPermaLink="false">dip-2022-03-23</guid>
+      <pubDate>Wed, 23 Mar 2022 08:00:00 -0400</pubDate>
+    </item>
     <item>
       <title>Data Is Plural — 2022.03.16 edition</title>
       <link>http://www.data-is-plural.com/archive/2022-03-16-edition</link>
@@ -973,110 +1070,6 @@ subscribe and browse past editions.</em></p>
 ]]></content:encoded>
       <guid isPermaLink="false">dip-2021-12-29</guid>
       <pubDate>Wed, 29 Dec 2021 08:00:00 -0500</pubDate>
-    </item>
-    <item>
-      <title>Data Is Plural — 2021.12.22 edition</title>
-      <link>http://www.data-is-plural.com/archive/2021-12-22-edition</link>
-      <description>Tobacco habits, working hours, COVID-19 in European prisons, California water wells, and toothbrushing.</description>
-      <content:encoded><![CDATA[<p><em>Tobacco habits, working hours, COVID-19 in European prisons,
-California water wells, and toothbrushing.</em></p>
-<p> </p>
-<p><strong>Tobacco habits.</strong> Every few years since 1992, the <a
-href="https://cancercontrol.cancer.gov/">National Cancer Institute</a>
-has sponsored the <a
-href="https://cancercontrol.cancer.gov/brp/tcrb/tus-cps">Tobacco Use
-Supplement to the Current Population Survey</a>, <a
-href="https://www.census.gov/programs-surveys/cps/about/supplemental-surveys.html">administered
-by the US Census Bureau</a>. In addition to extensive demographic
-information, the supplement asks about historical tobacco usage (“Have
-you smoked at least 100 cigarettes in your entire life?”), preferences
-(“Do you usually smoke menthol or non-menthol cigarettes?”), purchasing
-habits, e-cigarettes, and much more. Anonymized responses and
-documentation <a
-href="https://cancercontrol.cancer.gov/brp/tcrb/tus-cps/questionnaires-data">are
-available</a> for all survey waves through 2018–19.
-<strong>Previously</strong>: <a href="http://www.cdc.gov/brfss/">The
-CDC’s Behavioral Risk Factor Surveillance System</a> (<a
-href="https://www.data-is-plural.com/archive/2016-09-14-edition/">DIP
-2016.09.14</a>). [h/t <a
-href="https://pubmed.ncbi.nlm.nih.gov/34644338/">Christian Gunadi et
-al.</a> + <a
-href="https://www.nationalaffairs.com/blog/detail/findings-a-daily-roundup/unhealthy-lifestyles">Kevin
-Lewis</a>]</p>
-<p> </p>
-<p><strong>Working hours.</strong> Political scientist <a
-href="https://www.magnusbrasmussen.com/">Magnus Bergli Rasmussen</a> has
-<a
-href="https://twitter.com/RasmussenMagnus/status/1465629029982158848">compiled
-data</a> on the regulation of laborers’ total work hours in nearly every
-country since 1789, <a
-href="https://www.dropbox.com/s/ie1zvkr7iht2i1j/public_workingtimedata.dta?dl=0">available
-as a Stata file</a>. For each year and territory, the dataset indicates
-whether such laws existed, the “normal” number of
-contractually-obligated weekly hours, the maximum number of hours
-allowed, and increases in pay for overtime. <strong>Read more</strong>:
-“<a
-href="https://www.researchgate.net/publication/356063579_The_Great_Standardization_Working_Hours_around_the_World">The
-Great Standardization: Working Hours Around the World</a>,” in which
-Rasmussen describes the dataset’s construction.</p>
-<p> </p>
-<p><strong>COVID-19 in European prisons.</strong> A collaboration
-coordinated by <a href="https://www.dw.com/en/data/t-43091100">Deutsche
-Welle</a> and the <a
-href="https://www.europeandatajournalism.eu/eng/News/Data-news/How-Europe-s-prisons-have-fared-in-the-Covid-19-pandemic">European
-Data Journalism Network</a> has <a
-href="https://github.com/dw-data/covid-prisons">gathered data</a> on <a
-href="https://www.dw.com/en/covid-how-europes-prisons-have-fared-in-the-pandemic/a-60006262">the
-pandemic’s impact on prisoners and prison staff in dozens of European
-countries</a>, including the number of COVID-19 tests, cases, and deaths
-over time. The data also note the types of preventative measures and
-vaccine policies in place. <strong>Previously</strong>: US prison
-COVID-19 data from the <a
-href="https://github.com/themarshallproject/COVID_prison_data">Marshall
-Project and AP</a> (<a
-href="https://www.data-is-plural.com/archive/2020-05-06-edition/">DIP
-2020.05.06</a>) and the <a
-href="https://github.com/nytimes/covid-19-data/tree/master/prisons">New
-York Times</a> (<a
-href="https://www.data-is-plural.com/archive/2021-04-21-edition/">DIP
-2021.04.21</a>). [h/t <a href="https://twitter.com/lorferr">Lorenzo
-Ferrari</a>]</p>
-<p> </p>
-<p><strong>California water wells.</strong> Domestic wells in the San
-Joaquin Valley “are drying up at an alarming pace” amid “a frenzy of new
-well construction and heavy agricultural pumping,” according to a <a
-href="https://www.latimes.com/projects/california-farms-water-wells-drought/">Los
-Angeles Times article last week</a>. Data reporter <a
-href="https://twitter.com/lamarr_lemee">Gabrielle LaMarr LeMee</a>’s <a
-href="https://github.com/datadesk/groundwater-analysis">analysis</a>
-provides the quantitative backbone, drawing on three state datasets: <a
-href="https://data.cnra.ca.gov/dataset/well-completion-reports">well
-completion reports</a> and <a
-href="https://data.cnra.ca.gov/dataset/periodic-groundwater-level-measurements">periodic
-groundwater level measurements</a>, both of which go back more than a
-century, and <a
-href="https://data.ca.gov/dataset/household-water-supply-shortage-reporting-system-data">household
-water supply shortage reports</a> since 2013.</p>
-<p> </p>
-<p><strong>Toothbrushing.</strong> <a
-href="https://www.sciencedirect.com/science/article/pii/S2352340921005321">Zawar
-Hussain et al.</a> recorded data from 120 electric and manual
-toothbrushing sessions, using sensors attached to the brush handle and
-brusher’s wrist. Each session’s <a
-href="https://data.mendeley.com/datasets/hx5kkkbr3j/">data files</a>
-trace the sensors’ positions over time and indicate the brush type,
-participant’s gender, age, and handedness, and more.</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send dentist-approved
-feedback to jsvine@gmail.com, or just reply to this email. Looking for
-past datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and browse past editions.</em></p>
-]]></content:encoded>
-      <guid isPermaLink="false">dip-2021-12-22</guid>
-      <pubDate>Wed, 22 Dec 2021 08:00:00 -0500</pubDate>
     </item>
   </channel>
 </rss>
