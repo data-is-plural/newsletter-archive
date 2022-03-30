@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.data-is-plural.com</id>
   <title>Data Is Plural</title>
-  <updated>2022-03-23T08:00:00-04:00</updated>
+  <updated>2022-03-30T08:00:00-04:00</updated>
   <author>
     <name>Jeremy Singer-Vine</name>
     <email>jsvine@gmail.com</email>
@@ -10,6 +10,97 @@
   <link href="https://www.data-is-plural.com" rel="alternate"/>
   <generator>https://github.com/data-is-plural/newsletter-archive</generator>
   <subtitle>A weekly newsletter of useful/curious datasets.</subtitle>
+  <entry>
+    <id>dip-2022-03-30</id>
+    <title>Data Is Plural — 2022.03.30 edition</title>
+    <updated>2022-03-30T08:00:00-04:00</updated>
+    <content type="CDATA"><![CDATA[<p><em>WHO outbreak alerts, census tract urbanization, local digital
+news, research organizations, and teenagers on TV.</em></p>
+<p> </p>
+<p><strong>WHO outbreak alerts.</strong> The World Health Organization’s
+<a href="https://www.who.int/emergencies/disease-outbreak-news">Disease
+Outbreak News</a> provides “information on confirmed acute public health
+events or potential events of concern,” with reports issued when those
+events meet certain criteria. <a
+href="https://www.medrxiv.org/content/10.1101/2022.03.22.22272790v1">Colin
+J. Carlson et al.</a> have assembled a <a
+href="https://github.com/cghss/dons">dataset of all 2,700+ reports</a>
+published between January 1996 and December 2019; it includes report
+metadata (date and headline, for example), as well as variables drawn
+from the descriptive text, such as the diseases discussed, countries
+affected, case counts, whether the report implicates mass gatherings,
+and more.</p>
+<p> </p>
+<p><strong>Census tract urbanization.</strong> Studies of US
+urbanization often examine census tracts, but those boundaries have
+changed over time and <a
+href="https://twitter.com/snmarkley/status/1502268920593592321">are
+relatively new</a> in <a
+href="https://www.census.gov/history/www/programs/geography/tracts_and_block_numbering_areas.html">many
+parts of the country</a>. To aid longitudinal analyses, <a
+href="https://www.nature.com/articles/s41597-022-01184-x">Scott N.
+Markley et al.</a> have taken 2010’s tract boundaries and used several
+techniques to estimate the number of housing units within them every
+decade from 1940 to 2010, plus 2019. The <a
+href="https://osf.io/fzv5e/">dataset</a> also estimates each tract’s
+“urbanization year,” when it surpassed 200 units per square mile.
+<strong>Read more</strong>: <a
+href="https://twitter.com/snmarkley/status/1502234165521092610">An
+introductory Twitter thread</a>. <strong>Related</strong>: The <a
+href="https://s4.ad.brown.edu/Projects/Diversity/Researcher/Bridging.htm">Longitudinal
+Tract Data Base</a>, which also provides historical estimates of housing
+units (and other Census variables) matched to 2010 tracts, going back to
+1970.</p>
+<p> </p>
+<p><strong>Local digital news.</strong> <a
+href="https://www.projectnewsoasis.com/">Project Oasis</a>, which aims
+to “map and showcase the growing number of locally focused digital news
+publications in the U.S. and Canada,” has collected data on 700+ such
+organizations. Its <a
+href="https://www.projectnewsoasis.com/publications">downloadable,
+browsable dataset</a> describes their ownership, tax status, years in
+operation, communities served, and other characteristics. A <a
+href="https://www.sembramedia.org/projectoasis/">parallel effort is
+underway in Europe</a>, with plans to publish a final report in early
+2023. [h/t <a
+href="https://mailchi.mp/hackshackers/nicar-is-back">Hacks/Hackers</a>]</p>
+<p> </p>
+<p><strong>Research organizations.</strong> The <a
+href="https://ror.org/">Research Organization Registry</a> is “a
+community-led project to develop an open, sustainable, usable, and
+unique identifier for every research organization in the world.” Earlier
+this month, the project <a
+href="https://zenodo.org/record/6347575">published</a> its <a
+href="https://ror.org/blog/2022-03-17-2022-first-independent-release/">first
+“independent” release</a>, expanding on data seeded from a <a
+href="https://www.digital-science.com/press-release/grid-passes-torch-to-ror/">prior
+initiative</a>. It contains the names, location, contact information,
+and <a href="https://ror.readme.io/docs/ror-data-structure">other
+structured information</a> for 100,000+ organizations.</p>
+<p> </p>
+<p><strong>Teenagers on TV.</strong> In search of “a better
+understanding of the age differences between teen characters in TV shows
+and the actors who portray them,” <a
+href="https://amber.rbind.io/">Amber Thomas</a> last year manually
+compiled <a
+href="https://data.world/amberthomas/age-of-characters-and-actors-in-teen-tv-shows">data
+on 240+ characters</a> in 33 series that premiered between 2000 and
+2021. For each character, Thomas’s dataset lists their name, fictional
+age/grade, gender, and love interests, as well as the actor’s name and
+birth date.</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send Glee-ful feedback to
+jsvine@gmail.com, or just reply to this email. Looking for past
+datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions.</em></p>
+]]></content>
+    <link href="http://www.data-is-plural.com/archive/2022-03-30-edition" rel="alternate"/>
+    <summary>WHO outbreak alerts, census tract urbanization, local digital news, research organizations, and teenagers on TV.</summary>
+    <published>2022-03-30T08:00:00-04:00</published>
+  </entry>
   <entry>
     <id>dip-2022-03-23</id>
     <title>Data Is Plural — 2022.03.23 edition</title>
@@ -990,98 +1081,5 @@ subscribe and browse past editions.</em></p>
     <link href="http://www.data-is-plural.com/archive/2022-01-05-edition" rel="alternate"/>
     <summary>Civil asset forfeiture, joint military exercises, medical drug names, foundation shades, and honey bees.</summary>
     <published>2022-01-05T08:00:00-05:00</published>
-  </entry>
-  <entry>
-    <id>dip-2021-12-29</id>
-    <title>Data Is Plural — 2021.12.29 edition</title>
-    <updated>2021-12-29T08:00:00-05:00</updated>
-    <content type="CDATA"><![CDATA[<p><em>Local mortality and the 1918 pandemic, religious congregations,
-COVID-era news layoffs, leaders’ economic persuasions, and root
-traits.</em></p>
-<p> </p>
-<p><strong>Local mortality and the 1918 pandemic.</strong> <a
-href="https://osf.io/preprints/socarxiv/zf6wy/">Martin Eiermann,
-Elizabeth Wrigley-Field, et al.</a> have conducted an analysis of deaths
-before, during, and after the 1918 influenza pandemic, drawing on “data
-from multiple sources, including digitized mortality records for 70 U.S.
-cities, linked census records that establish urban residency status
-across multiple censuses” and newspaper accounts of <a
-href="https://en.wikipedia.org/wiki/Non-pharmaceutical_intervention_(epidemiology)">non-pharmaceutical
-interventions</a>. The team’s <a href="https://osf.io/njghd/">published
-files</a> includes a dataset that, for each city-and-year, lists the
-mortality rate overall, for white vs. non-white residents, and due to
-flu/pneumonia; a range of demographic variables; the timing of certain
-interventions; and more.</p>
-<p> </p>
-<p><strong>Religious congregations.</strong> The <a
-href="https://www.thearda.com/">Association of Religion Data
-Archives</a>, founded in 1997, “strives to democratize access to the
-best data on religion.” Among <a
-href="https://www.thearda.com/Archive/browse.asp">its resources</a> are
-<a href="https://www.thearda.com/Archive/NCS.asp">four waves of the
-National Congregations Study</a>, a <a
-href="https://sites.duke.edu/ncsweb/">Duke University–based survey</a>
-that <a href="https://sites.duke.edu/ncsweb/methodology/">asks US
-religious establishments</a> about their denominational affiliation,
-buildings of worship, congregants, staffing, educational offerings, and
-more. Representatives from 5,300+ Christian, Jewish, Muslim, Buddhist,
-Hindu, and other congregations participated in the latest wave,
-conducted in 2018–19. [h/t <a
-href="https://journals.sagepub.com/doi/abs/10.1177/0003122421996686">Patricia
-Homan and Amy Burdette</a> + <a
-href="https://nationalaffairs.com/blog/detail/findings-a-daily-roundup/worship">Kevin
-Lewis</a>]</p>
-<p> </p>
-<p><strong>COVID-era news layoffs.</strong> “At least 6,154 news
-organization workers, which includes both editorial and non-editorial
-staffers, were laid off beginning March 2020 through August 2021,”
-according to a <a
-href="https://www.cjr.org/tow_center_reports/more-than-6150-news-workers-laid-off.php">new
-report</a> from the <a href="https://towcenter.columbia.edu/">Tow
-Center</a>’s <a href="https://twitter.com/__gabbymiller">Gabby
-Miller</a>. An <a
-href="https://www.cjr.org/widescreen/covid-cutback-tracker.php">interactive
-tracker</a> provides a map and downloadable table of the layoffs and
-other cutbacks, listing each outlet’s name, medium, owner, and location;
-the cutback’s date, description, and category (layoffs, pay cuts, etc.);
-and source links. <strong>Related</strong>: The Washington Post
-Magazine’s <a
-href="https://www.washingtonpost.com/magazine/interactive/2021/local-news-deserts-expanding/">Lost
-Local News issue</a>.</p>
-<p> </p>
-<p><strong>Leaders’ economic persuasions.</strong> Political scientist
-<a href="https://www.bastianherre.com/">Bastian Herre</a>’s new <a
-href="https://github.com/bastianherre/global-leader-ideologies">Global
-Leader Ideology dataset</a> “provides unprecedented coverage of chief
-executives’ [economic] ideologies across time and space,” classifying
-their approaches as leftist, centrist, rightist, or non-ideological in
-182 countries, from 1945 to 2020. <strong>Read more</strong>: <a
-href="https://bb1fa620-fff9-4aa7-b146-7f71c3bf5bae.filesusr.com/ugd/654001_8c377a64fecb46cd84f76ee5d69c9edb.pdf">Herre’s
-introductory paper</a> and <a
-href="https://twitter.com/bbherre/status/1473681744964501522">Twitter
-thread</a>.</p>
-<p> </p>
-<p><strong>Root traits.</strong> Oak Ridge National Laboratory’s <a
-href="https://roots.ornl.gov/">Fine-Root Ecology Database</a>
-categorizes <a href="https://roots.ornl.gov/traits/map">the root
-characteristics</a> of <a
-href="https://roots.ornl.gov/plant-species">4,500+ plant species</a>, as
-<a href="https://roots.ornl.gov/data-sources">observed and published in
-scientific literature</a>. The <a
-href="https://roots.ornl.gov/data-inventory">hundreds of types of
-traits</a> relate to vessel density, root angles, lifespan,
-macronutrients, microbial symbionts, and more.</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send radical feedback to
-jsvine@gmail.com, or just reply to this email. Looking for past
-datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and browse past editions.</em></p>
-]]></content>
-    <link href="http://www.data-is-plural.com/archive/2021-12-29-edition" rel="alternate"/>
-    <summary>Local mortality and the 1918 pandemic, religious congregations, COVID-era news layoffs, leaders’ economic persuasions, and root traits.</summary>
-    <published>2021-12-29T08:00:00-05:00</published>
   </entry>
 </feed>
