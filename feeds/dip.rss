@@ -6,7 +6,114 @@
     <description>A weekly newsletter of useful/curious datasets.</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>https://github.com/data-is-plural/newsletter-archive</generator>
-    <lastBuildDate>Wed, 30 Mar 2022 08:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 06 Apr 2022 08:00:00 -0400</lastBuildDate>
+    <item>
+      <title>Data Is Plural — 2022.04.06 edition</title>
+      <link>http://www.data-is-plural.com/archive/2022-04-06-edition</link>
+      <description>COVID-19 therapeutics, the 1950 Census, electric vehicle registrations, military alliances, and white sharks.</description>
+      <content:encoded><![CDATA[<p><em>COVID-19 therapeutics, the 1950 Census, electric vehicle
+registrations, military alliances, and white sharks.</em></p>
+<p> </p>
+<p><strong>COVID-19 therapeutics.</strong> The US Department of Health
+&amp; Human Services’ <a
+href="https://covid-19-therapeutics-locator-dhhs.hub.arcgis.com/">COVID-19
+Therapeutics Locator</a> tracks which pharmacies, hospitals, and other
+facilities have received government-procured COVID-19 drugs, and how
+much they have left. The therapeutics include one preventative antibody
+combination (<a
+href="https://aspr.hhs.gov/COVID-19/Therapeutics/Products/Evusheld/Pages/default.aspx">Evusheld</a>)
+and several treatments (<a
+href="https://aspr.hhs.gov/COVID-19/Therapeutics/Products/Bebtelovimab/Pages/default.aspx">bebtelovimab</a>,
+<a
+href="https://www.phe.gov/emergency/events/COVID19/investigation-MCM/molnupiravir/Pages/default.aspx">molnupiravir</a>,
+<a
+href="https://www.phe.gov/emergency/events/COVID19/investigation-MCM/Paxlovid/Pages/default.aspx">Paxlovid</a>,
+and, until its distribution was recently paused, <a
+href="https://www.phe.gov/emergency/events/COVID19/investigation-MCM/Sotrovimab/Pages/default.aspx">sotrovimab</a>).
+The <a
+href="https://healthdata.gov/Health/COVID-19-Public-Therapeutic-Locator/rxn6-qnx8/">underlying
+dataset</a> contains 39,000+ entries, one for each facility-therapeutic
+combination; they list the facility’s name and location, the drug, the
+number of courses available, and the time of the last update. <strong>As
+seen in</strong>: <a href="https://github.com/rrelyea">Rob Relyea</a>’s
+<a href="https://rrelyea.github.io/">locators with current and
+historical data</a>. [h/t <a
+href="https://coviddatadispatch.com/2022/02/20/featured-sources-february-20/">Betsy
+Ladyzhets</a>]</p>
+<p> </p>
+<p><strong>The 1950 Census.</strong> After 72 years of mandated
+confidentiality, the US government on Friday <a
+href="https://1950census.archives.gov/">released</a> “over 165
+terabytes” of microfilm digitized from the 1950 decennial Census. You
+can <a href="https://1950census.archives.gov/search/">search</a> the
+scans, <a
+href="https://www.archives.gov/research/census/1950/faqs">which
+include</a> millions of population schedules (the sheets that contain
+the details recorded about each household and resident), plus maps and
+descriptions of the survey’s <a
+href="https://1950census.archives.gov/howto/finding-aids.html">enumeration
+districts</a>. You can also <a
+href="https://www.archives.gov/developer/1950-census">download the raw
+images and metadata files</a>. [h/t <a
+href="https://www.linkedin.com/in/eric-gardner-0531aa9/">Eric
+Gardner</a> + <a
+href="https://www.washingtonpost.com/dc-md-va/2022/03/30/census-data-1950-secret-unveiled/">Michael
+E. Ruane</a>]</p>
+<p> </p>
+<p><strong>Electric vehicle registrations.</strong> The US Department of
+Energy’s Alternative Fuels Data Center <a
+href="https://afdc.energy.gov/data/categories/vehicles--2">hosts dozens
+of vehicle-related datasets</a>, including the <a
+href="https://afdc.energy.gov/data/10962">number of electric vehicle
+registrations in each state in 2020</a>, <a
+href="https://afdc.energy.gov/data/10301">hybrid sales by model from
+1999 to 2019</a>, and a <a
+href="https://afdc.energy.gov/vehicles/search/">database of
+manufacturers’ offerings</a>. <strong>As seen in</strong>: “<a
+href="https://www.bloomberg.com/opinion/articles/2022-01-22/u-s-has-a-blueprint-to-electrify-its-country-roads-for-evs">U.S.
+Has a Blueprint to Electrify Its Country Roads</a>” (Bloomberg Opinion).
+<strong>Previously</strong>: <a
+href="https://afdc.energy.gov/stations/">Alt-fuel stations</a> (<a
+href="https://www.data-is-plural.com/archive/2021-09-08-edition/">DIP
+2021.09.08</a>). [h/t <a
+href="https://blog.datawrapper.de/data-vis-dispatch-january-25-2022/">Rose
+Mintzer-Sweeney</a>]</p>
+<p> </p>
+<p><strong>Military alliances.</strong> The <a
+href="http://www.atopdata.org/">Alliance Treaty Obligations and
+Provisions</a> project, based at Rice University, examines “the content
+of military alliance agreements signed by all countries of the world
+between 1815 and 2018.” Its <a
+href="http://www.atopdata.org/data.html">dataset</a> covers 760+
+alliances, their various phases, and membership, with variables speaking
+to the formation, duration, obligations, and other aspects of the
+arrangements. [h/t <a
+href="https://twitter.com/BAshleyLeeds/status/1336317522518347776">Ashley
+Leeds</a>]</p>
+<p> </p>
+<p><strong>White sharks.</strong> A collaboration led by the Monterey
+Bay Aquarium <a
+href="https://www.nature.com/articles/s41597-022-01235-3">has
+published</a> a <a
+href="https://portal.atn.ioos.us/#metadata/6e2ba85c-2f61-4bc5-8c2b-34d6734155ed/project">dataset</a>
+of location, pressure, light, and temperature measurements gathered from
+trackers attached to dozens of juvenile white sharks (<em>Carcharodon
+carcharias</em>) that researchers tagged off the coast of Southern
+California. The project ran from 2001 to 2020, when its “present and
+future status was adversely affected” by pandemic-related budget cuts.
+[h/t <a href="https://twitter.com/sharon000">Sharon Machlis</a>]</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send sharp-toothed
+feedback to jsvine@gmail.com, or just reply to this email. Looking for
+past datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions.</em></p>
+]]></content:encoded>
+      <guid isPermaLink="false">dip-2022-04-06</guid>
+      <pubDate>Wed, 06 Apr 2022 08:00:00 -0400</pubDate>
+    </item>
     <item>
       <title>Data Is Plural — 2022.03.30 edition</title>
       <link>http://www.data-is-plural.com/archive/2022-03-30-edition</link>
@@ -973,101 +1080,6 @@ subscribe and browse past editions.</em></p>
 ]]></content:encoded>
       <guid isPermaLink="false">dip-2022-01-12</guid>
       <pubDate>Wed, 12 Jan 2022 08:00:00 -0500</pubDate>
-    </item>
-    <item>
-      <title>Data Is Plural — 2022.01.05 edition</title>
-      <link>http://www.data-is-plural.com/archive/2022-01-05-edition</link>
-      <description>Civil asset forfeiture, joint military exercises, medical drug names, foundation shades, and honey bees.</description>
-      <content:encoded><![CDATA[<p><em>Civil asset forfeiture, joint military exercises, medical drug
-names, foundation shades, and honey bees.</em></p>
-<p> </p>
-<p><strong>Civil asset forfeiture.</strong> “Most states and the federal
-government have laws allowing police and prosecutors to seize and
-permanently keep Americans’ cash, cars, homes and other property
-suspected of being involved in a crime — without regard to the owners’
-guilt or innocence,” the nonprofit law firm <a
-href="https://ij.org/about-us/">Institute for Justice</a> writes in its
-<a href="https://ij.org/report/policing-for-profit-3/">third edition of
-<em>Policing for Profit</em></a>, published in 2020. The report gathers
-and analyzes <a
-href="https://ij.org/report/policing-for-profit-3/policing-for-profit-data/">datasets
-on property seized in dozens of states</a> through this practice of <a
-href="https://en.wikipedia.org/wiki/Civil_forfeiture_in_the_United_States">civil
-asset forfeiture</a>, and on the spending of forfeiture funds. It also
-examines seizures from the federal <a
-href="https://www.justice.gov/jmd/major-information-systems-consolidated-asset-tracking-system">Consolidated
-Asset Tracking System</a>, <a
-href="https://www.justice.gov/afp/freedom-information-act">detailed
-public extracts</a> of which the Department of Justice updates
-quarterly. <strong>As seen in</strong>: “<a
-href="https://thewhyaxis.substack.com/p/cops-still-take-more-stuff-from-people">Cops
-still take more stuff from people than burglars do</a>” (The Why Axis,
-2021), and “<a
-href="https://www.washingtonpost.com/sf/investigative/2014/09/06/stop-and-seize/">Stop
-and Seize</a>” (Washington Post, 2014).</p>
-<p> </p>
-<p><strong>Joint military exercises.</strong> Jordan Bernhardt’s <a
-href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/HXQFHU">Joint
-Military Exercises Dataset</a> describes 5,000+ such operations
-undertaken between 1977 and 2016, drawn from historical news reports.
-The dataset lists each exercise’s name, location, when it began and
-ended, the countries that participated, activities involved, and more.
-<strong>Related</strong>: <a
-href="https://www.brandonkinne.com/">Brandon J. Kinne</a>’s <a
-href="https://correlatesofwar.org/data-sets/defense-cooperation-agreement-dataset">Defense
-Cooperation Agreement Dataset</a>, a “comprehensive, human-coded
-dataset” covering bilateral defense treaties between 1980 and 2010.</p>
-<p> </p>
-<p><strong>Medical drug names.</strong> To build their <a
-href="https://data.mendeley.com/datasets/9nmgzttxhm/1">International
-Drug Dictionary</a>, <a
-href="https://www.sciencedirect.com/science/article/pii/S2352340921009768">Mohammad
-A. Khaleel et al.</a> collected trade names and ingredient names “from
-open access websites belonging to official drug regulatory agencies,
-official healthcare systems, or recognized scientific bodies from 44
-countries around the world,” among other sources. Each of the 450,000+
-entries maps a name to standardized ingredient information from the
-National Library of Medicine’s <a
-href="https://www.nlm.nih.gov/research/umls/rxnorm/index.html">RxNorm</a>
-database.</p>
-<p> </p>
-<p><strong>Foundation shades.</strong> For “<a
-href="https://pudding.cool/2021/03/foundation-names/">The Naked
-Truth</a>,” a Pudding article published last year with <a
-href="https://ofunneamaka.com/about-ofunneamaka/">Ofunne Amaka</a>, <a
-href="https://amber.rbind.io/">Amber Thomas</a> scraped <a
-href="https://github.com/the-pudding/data/tree/master/foundation-names">information
-about 6,800+ foundation shades</a> from the websites of two major
-cosmetics retailers. The project’s datasets identify each product’s
-name, description, URL, and the predominant <a
-href="https://en.wikipedia.org/wiki/RGB_color_model">RGB</a>/<a
-href="https://en.wikipedia.org/wiki/HSL_and_HSV">HSL</a> color value in
-its swatch image.</p>
-<p> </p>
-<p><strong>Honey bees.</strong> Since the 1980s, the US Department of
-Agriculture has <a
-href="https://www.nass.usda.gov/Surveys/Guide_to_NASS_Surveys/Bee_and_Honey/">conducted</a>
-an annual <a
-href="https://usda.library.cornell.edu/concern/publications/hd76s004z?locale=en">Bee
-and Honey Inquiry Survey</a>, which generates estimates of “the number
-of colonies producing honey, yield per colony, honey production, average
-price, price by color class and value as well as honey stocks at the
-state and national levels.” Since 2016, it has also published <a
-href="https://usda.library.cornell.edu/concern/publications/rn301137d?locale=en">annual
-reports that examine the gain and loss of colonies</a>, including losses
-due to <a href="https://www.ars.usda.gov/oc/br/ccd/index/">colony
-collapse disorder</a>.</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send mellifluous feedback
-to jsvine@gmail.com, or just reply to this email. Looking for past
-datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and browse past editions.</em></p>
-]]></content:encoded>
-      <guid isPermaLink="false">dip-2022-01-05</guid>
-      <pubDate>Wed, 05 Jan 2022 08:00:00 -0500</pubDate>
     </item>
   </channel>
 </rss>
