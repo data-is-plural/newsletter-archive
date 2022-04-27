@@ -6,7 +6,121 @@
     <description>A weekly newsletter of useful/curious datasets.</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>https://github.com/data-is-plural/newsletter-archive</generator>
-    <lastBuildDate>Wed, 20 Apr 2022 08:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 27 Apr 2022 08:00:00 -0400</lastBuildDate>
+    <item>
+      <title>Data Is Plural — 2022.04.27 edition</title>
+      <link>http://www.data-is-plural.com/archive/2022-04-27-edition</link>
+      <description>Earmarks, intermediate care facilities, more county-level mortality data, alpine snow, and the meta-Dataverse.</description>
+      <content:encoded><![CDATA[<p><em>Earmarks, intermediate care facilities, more county-level
+mortality data, alpine snow, and the meta-Dataverse.</em></p>
+<p> </p>
+<p><strong>Earmarks.</strong> The US government’s <a
+href="https://www.congress.gov/bill/117th-congress/house-bill/2471">spending
+bill for FY 2022</a>, enacted last month, <a
+href="https://www.axios.com/congressional-earmarks-new-constraints-44b0551d-bdfc-4e1e-b465-e1d2962c90b7.html">heralded
+the return</a> of <a
+href="https://en.wikipedia.org/wiki/Earmark_(politics)">earmarks</a>,
+which were banned for a decade. This time around, Congress <a
+href="https://appropriations.house.gov/transparency/fiscal-year-2022">is
+publishing a set of documents</a> that describe legislators’ specific
+funding requests — but <a
+href="https://twitter.com/danielschuman/status/1511322851932000260">as
+sideways PDFs instead of structured data</a>. So the Bipartisan Policy
+Center has <a
+href="https://bipartisanpolicy.org/blog/congressionally-directed-spending-fy2022-dataset/">converted
+the PDFs into a spreadsheet</a> listing the 4,975 approved earmarks
+within them. Bloomberg Government has also <a
+href="https://about.bgov.com/news/colleges-cops-airports-among-earmark-winners-in-2022-funding/">compiled
+and shared</a> a similar spreadsheet. Both files list each earmarked
+project’s name, recipient, state, and price tag, as well as the
+legislator(s) who made the request and the subcommittee that approved
+it; BPC’s file additionally includes the location, agency,
+agency-account, and legislators’ <a
+href="https://www.congress.gov/help/field-values/member-bioguide-ids">Bioguide
+IDs</a>. [h/t <a
+href="https://firstbranchforecast.com/2022/04/11/first-branch-forecast-for-april-11-2022-fox-on-stocks/">First
+Branch Forecast</a>]</p>
+<p> </p>
+<p><strong>Intermediate care facilities.</strong> In the US, <a
+href="https://www.cms.gov/Medicare/Provider-Enrollment-and-Certification/CertificationandComplianc/ICFIID">intermediate
+care facilities</a> provide residential, long-term care to people whose
+intellectual or developmental disabilities require active treatment and
+continuous supervision. On Monday, colleagues at BuzzFeed News published
+an <a
+href="https://www.buzzfeednews.com/article/kendalltaggart/kkr-brightspring-disability-private-equity-abuse">investigation
+into one of the largest ICF owners</a>, supplemented by an <a
+href="https://github.com/BuzzFeedNews/2022-04-icf-analysis">analysis of
+inspection data</a> gathered through the Centers for Medicare &amp;
+Medicaid Services’ <a href="https://qcor.cms.gov/">QCOR portal</a>.
+(Disclosure: I helped to write an initial version of the data-collection
+code.) The records, <a
+href="https://github.com/BuzzFeedNews/2022-04-icf-analysis/tree/main/data/qcor">available
+in bulk</a> for the first time, <a
+href="https://github.com/BuzzFeedNews/2022-04-icf-analysis#survey-data">enumerate</a>
+surveys conducted between 2010 and 2021, the facilities examined, and
+the types of deficiencies inspectors found. [h/t <a
+href="https://twitter.com/jtemplon/status/1518551383833731072">John
+Templon</a>]</p>
+<p> </p>
+<p><strong>More county-level, COVID-related mortality data.</strong> The
+CDC provides <a
+href="https://wonder.cdc.gov/mcd-icd10-provisional.html">provisional,
+county-level mortality data for 2018 to the near-present</a> (<a
+href="https://www.data-is-plural.com/archive/2021-12-15-edition/">DIP
+2021.12.15</a>), but requires you to build specific, targeted queries.
+So researchers at <a href="https://documentingcovid19.io/">Documenting
+COVID-19</a> used the agency’s <a
+href="https://wonder.cdc.gov/wonder/help/WONDER-API.html">WONDER API</a>
+to gather key stats for every county, such as <a
+href="https://github.com/MuckRock/uncounted_data/tree/main/data/race_ethnicity_and_cause_breakdowns">breakdowns
+of deaths</a> among causes the <a
+href="https://www.cdc.gov/nchs/nvss/vsrr/covid19/excess_deaths.htm">CDC
+says are commonly comorbid with COVID-19</a>, and have <a
+href="https://www.muckrock.com/news/archives/2022/apr/04/muckrock-and-the-documenting-covid-19-project/">shared
+them</a> in a <a
+href="https://github.com/MuckRock/uncounted_data">downloadable
+repository</a>. [h/t <a href="https://betsyladyzhets.com/">Betsy
+Ladyzhets</a> + <a href="https://www.juanfrans.com/">Juan Francisco
+Saldarriaga</a>]</p>
+<p> </p>
+<p><strong>Alpine snow.</strong> <a
+href="https://tc.copernicus.org/articles/15/1343/2021/">Michael Matiu et
+al. (2021)</a> compiled a <a
+href="https://zenodo.org/record/5109574">dataset of daily snowfall and
+snow depths</a> at 2,000+ measurement stations in the European Alps,
+spanning the years 1970 to 2019. They gathered records from open data
+portals and through requests to authorities in five countries,
+standardized them into a consistent format, and filled in gaps where
+possible. [h/t <a
+href="https://dataisthenewoil.substack.com/p/data-is-the-new-oil-04032021-update">Olivier
+Lejeune</a>]</p>
+<p> </p>
+<p><strong>The meta-Dataverse.</strong> The <a
+href="https://dataverse.org/">Dataverse</a> project is <a
+href="https://dataverse.org/about">an open-source platform for data
+sharing</a>. (This newsletter has linked to dozens of Dataverse-hosted
+datasets, mostly on the original <a
+href="https://dataverse.harvard.edu/">Harvard Dataverse</a>.) It <a
+href="https://guides.dataverse.org/en/latest/api/index.html">offers an
+API</a> for fetching metadata on <a
+href="https://dataverse.org/metrics">each known installation</a> and the
+datasets within them, which project member <a
+href="https://scholar.harvard.edu/juliangautier/home">Julian Gautier</a>
+has been using to assemble and update <a
+href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/DCDKZQ">bulk
+snapshots</a>.</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send meta-meta-metadata
+feedback to jsvine@gmail.com, or just reply to this email. Looking for
+past datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions.</em></p>
+]]></content:encoded>
+      <guid isPermaLink="false">dip-2022-04-27</guid>
+      <pubDate>Wed, 27 Apr 2022 08:00:00 -0400</pubDate>
+    </item>
     <item>
       <title>Data Is Plural — 2022.04.20 edition</title>
       <link>http://www.data-is-plural.com/archive/2022-04-20-edition</link>
@@ -955,120 +1069,6 @@ subscribe and browse past editions.</em></p>
 ]]></content:encoded>
       <guid isPermaLink="false">dip-2022-02-02</guid>
       <pubDate>Wed, 02 Feb 2022 08:00:00 -0500</pubDate>
-    </item>
-    <item>
-      <title>Data Is Plural — 2022.01.26 edition</title>
-      <link>http://www.data-is-plural.com/archive/2022-01-26-edition</link>
-      <description>Redistricting, SARS-CoV-2 in local sewage, collective bargaining, European gas storage, and whaling.</description>
-      <content:encoded><![CDATA[<p><em>Redistricting, SARS-CoV-2 in local sewage, collective bargaining,
-European gas storage, and whaling.</em></p>
-<p> </p>
-<p><strong>Redistricting.</strong> US <a
-href="https://ballotpedia.org/Redistricting">decennial redistricting</a>
-is well underway, with redrawn legislative maps approved in the majority
-of states. <a
-href="https://projects.fivethirtyeight.com/redistricting-2022-maps/">FiveThirtyEight</a>,
-<a
-href="https://www.politico.com/interactives/2022/congressional-redistricting-maps-by-state-and-district/">Politico</a>,
-and <a
-href="https://www.washingtonpost.com/politics/interactive/redistricting-tracker-map/">The
-Washington Post</a> have all built graphics tracking the process and its
-likely effects on Congress. The <a
-href="https://redistrictingdatahub.org/">Redistricting Data Hub</a>, a
-project of the <a
-href="https://redistrictingdatahub.org/about/about-us/#whoweare">Fair
-Representation in Redistricting Initiative</a>, has been gathering
-states’ proposed and approved maps (e.g., <a
-href="https://redistrictingdatahub.org/dataset/2021-california-congressional-districts-approved-plan/">California’s</a>,
-from <a href="https://www.wedrawthelinesca.org/final_maps">its
-commission</a>), as well <a
-href="https://redistrictingdatahub.org/data/about-our-data/">other
-datasets useful for analyzing the changes</a>. <a
-href="https://redistricting.lls.edu/">All About Redistricting</a>, a
-resource founded by Loyola Law School’s <a
-href="https://redistricting.lls.edu/about/my-work/">Justin Levitt</a>,
-also publishes <a
-href="https://redistricting.lls.edu/mapdownload/?sortby=-updated&amp;page=1">state
-mapping data</a>, as well as a downloadable table describing <a
-href="https://redistricting.lls.edu/national-overview/?colorby=Institution&amp;level=Congress&amp;cycle=2020">who
-controls each state’s redistricting process</a>.</p>
-<p> </p>
-<p><strong>SARS-CoV-2 in local sewage.</strong> <a
-href="https://biobot.io/">Biobot Analytics</a>, a wastewater
-epidemiology company, has been partnering with local governments to
-monitor sewage for traces of coronavirus. Their <a
-href="https://biobot.io/data/">public dashboard</a> and <a
-href="https://github.com/biobotanalytics/covid19-wastewater-data">downloadable
-data</a> provide weekly estimates of the number of SARS-CoV-2 genome
-copies per milliliter of wastewater — at a national and regional level,
-and for 31 of the participating communities (some with data more recent
-than others). <strong>Read more</strong>: “<a
-href="https://www.nytimes.com/2022/01/19/health/covid-omicron-wastewater-sewage.html">In
-Sewage, Clues to Omicron’s Surge</a>” (The New York Times). [h/t <a
-href="https://mailchi.mp/davenetics/bz8u3c8oic">Dave Pell</a>]</p>
-<p> </p>
-<p><strong>Collective bargaining.</strong> The US <a
-href="https://en.wikipedia.org/wiki/Federal_Mediation_and_Conciliation_Service_(United_States)">Federal
-Mediation and Conciliation Service</a>’s <a
-href="https://www.fmcs.gov/aboutus/">stated mission</a> “is to preserve
-and promote labor-management peace and cooperation.” It also publishes
-<a
-href="https://www.fmcs.gov/resources/documents-and-data/#tab-d3d7f5344cef9bab4d3">spreadsheets
-of data submitted</a> through its <a
-href="https://www.fmcs.gov/resources/forms-applications/notice-of-bargaining-f-7/">Form
-F-7</a>, which employers and unions must file when they can’t agree on
-modifying or ending a collectively bargained contract. The spreadsheets,
-which go back to 2015, list the employer and union’s name and location,
-their industry, the size of the bargaining unit, and a few other
-details. <strong>Previously</strong>: <a
-href="https://www.nlrb.gov/reports/graphs-data/recent-election-results">Union
-elections</a> (<a
-href="https://www.data-is-plural.com/archive/2021-05-05-edition/">DIP
-2021.05.05</a>) and <a
-href="https://github.com/labordata/nlrb-voluntary-recognitions">voluntary
-recognition</a> (<a
-href="https://www.data-is-plural.com/archive/2021-09-22-edition/">DIP
-2021.09.22</a>). [h/t <a href="https://twitter.com/danbauman77">Dan
-Bauman</a>]</p>
-<p> </p>
-<p><strong>European gas storage.</strong> The industry group <a
-href="https://www.gie.eu/">Gas Infrastructure Europe</a> publishes <a
-href="https://agsi.gie.eu/">data on daily fuel storage levels at its
-members’ facilities</a>. For each facility, and aggregated to the
-provider and country level, the data <a
-href="https://agsi.gie.eu/#/faq">indicate</a> the amount of fuel in
-storage, the percent capacity that represents, fuel added and withdrawn,
-and more. <strong>As seen in</strong>: “<a
-href="https://www.bloomberg.com/opinion/articles/2022-01-13/gazprom-tweets-about-european-gas-shortages-it-may-be-creating">Earlier
-Than Ever, European Gas Storage Is Half-Empty</a>” (Bloomberg). [h/t <a
-href="https://blog.datawrapper.de/data-vis-dispatch-january-18-2022/">Rose
-Mintzer-Sweeney</a>]</p>
-<p> </p>
-<p><strong>Whaling.</strong> <a
-href="https://whalinghistory.org/">WhalingHistory.org</a>, a
-collaboration between the <a href="https://mysticseaport.org/">Mystic
-Seaport Museum</a> and the <a href="https://whalingmuseum.org/">New
-Bedford Whaling Museum</a>, revolves around <a
-href="https://whalinghistory.org/databases/">a series of interconnected
-databases</a>. They include <a
-href="https://whalinghistory.org/av/voyages/">every known American
-whaling voyage between the 1700s and 1920s</a>, <a
-href="https://whalinghistory.org/av/logs/aowl/">entries from 1,381 of
-their logbooks</a>, and <a
-href="https://whalinghistory.org/av/crew/">some of their crew lists</a>,
-plus records from British and French voyages. [h/t <a
-href="https://www.reddit.com/r/datasets/comments/ma66az/whaling_history_data/">u/cavedave</a>]</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send Melvillesque
-feedback to jsvine@gmail.com, or just reply to this email. Looking for
-past datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and browse past editions.</em></p>
-]]></content:encoded>
-      <guid isPermaLink="false">dip-2022-01-26</guid>
-      <pubDate>Wed, 26 Jan 2022 08:00:00 -0500</pubDate>
     </item>
   </channel>
 </rss>
