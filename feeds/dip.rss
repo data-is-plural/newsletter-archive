@@ -6,7 +6,125 @@
     <description>A weekly newsletter of useful/curious datasets.</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>https://github.com/data-is-plural/newsletter-archive</generator>
-    <lastBuildDate>Wed, 27 Apr 2022 08:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 04 May 2022 08:00:00 -0400</lastBuildDate>
+    <item>
+      <title>Data Is Plural — 2022.05.04 edition</title>
+      <link>http://www.data-is-plural.com/archive/2022-05-04-edition</link>
+      <description>Wastewater treatment plants, COVID and wastewater, regulatory agencies, NC corporate landlords, and bats in caves.</description>
+      <content:encoded><![CDATA[<p><em>Wastewater treatment plants, COVID and wastewater, regulatory
+agencies, NC corporate landlords, and bats in caves.</em></p>
+<p> </p>
+<p><em>👋 Do you have <strong>piles of PDFs</strong> you’d like to turn
+into <strong>structured data</strong>? I’m trying something new and <a
+href="https://www.jsvine.com/consulting/pdf-data-extraction">starting a
+PDF-data-extraction consulting practice</a>. Interested? Just respond to
+this email with a brief summary of your project. Fees will depend on the
+specifics, but I plan on giving deep discounts to early
+clients.</em></p>
+<p> </p>
+<p><strong>Wastewater treatment plants.</strong> The <a
+href="https://figshare.com/articles/dataset/HydroWASTE_version_1_0/14847786/1">HydroWASTE</a>
+dataset, developed by McGill University geographers and engineers, <a
+href="https://essd.copernicus.org/articles/14/559/2022/">describes
+58,000+ wastewater treatment plants around the world</a> and links them
+to downstream <a href="https://www.hydrosheds.org/hydroatlas">river
+networks</a>. Compiled from national and regional sources, HydroWASTE
+lists each facility’s name, country, status, estimated or official
+population served, geocoordinates, estimated discharge location, level
+of treatment, volume of discharge, and more. The US accounts for the
+most entries, with 14,000+, followed by Germany, Italy, France, and
+Brazil. [h/t <a
+href="https://twitter.com/mishafredmeyer/status/1499422901380038656">Michael
+F. Meyer</a> + <a
+href="https://twitter.com/NVergopolan/status/1499765836189356033">Noemi
+Vergopolan</a>]</p>
+<p> </p>
+<p><strong>COVID and wastewater, continued.</strong> <a
+href="https://www.data-is-plural.com/archive/2022-01-26-edition/">Earlier
+this year</a>, DIP featured <a
+href="https://github.com/biobotanalytics/covid19-wastewater-data">wastewater
+sampling data from Biobot Analytics</a>, which partners with local
+governments to monitor SARS-CoV-2 in sewage. Since then, the CDC has <a
+href="https://coviddatadispatch.com/2022/02/06/the-cdc-is-finally-publishing-wastewater-data-but-only-ten-states-are-well-represented/">launched</a>
+and <a
+href="https://coviddatadispatch.com/2022/02/06/the-cdc-is-finally-publishing-wastewater-data-but-only-ten-states-are-well-represented/">expanded</a>
+a <a
+href="https://covid.cdc.gov/covid-data-tracker/#wastewater-surveillance">wastewater
+surveillance module within its COVID data tracker</a>, displaying
+historically-relative virus concentrations from hundreds of sampling
+sites that participate in the agency’s <a
+href="https://www.cdc.gov/healthywater/surveillance/wastewater-surveillance/wastewater-surveillance.html">National
+Wastewater Surveillance System</a>; you can also <a
+href="https://data.cdc.gov/Public-Health-Surveillance/NWSS-Public-SARS-CoV-2-Wastewater-Data/2ew6-ywp6">download
+the data in bulk</a>. <strong>Read more</strong>: <a
+href="https://betsyladyzhets.com/">Betsy Ladyzhets</a>, who runs the <a
+href="https://coviddatadispatch.com/">COVID-19 Data Dispatch</a> (the
+source of most of the links above), recently <a
+href="https://fivethirtyeight.com/features/the-national-fight-against-covid-19-isnt-ready-to-go-to-the-sewers/">examined
+the state of wastewater monitoring for FiveThirtyEight</a> and <a
+href="https://coviddatadispatch.com/2022/04/24/how-one-wastewater-plant-became-a-leading-covid-19-forecasting-source/">interviewed
+a Twin Cities scientist about it</a>. <strong>Also</strong>: “<a
+href="https://www.rockefellerfoundation.org/report/the-role-of-wastewater-data-in-pandemic-management/">The
+Role of Wastewater Data in Pandemic Management</a>,” a report from The
+Rockefeller Foundation and partners.</p>
+<p> </p>
+<p><strong>Regulatory agencies.</strong> <a
+href="https://www.globalreg.info/">GlobalReg</a>, a research group at
+the <a href="https://www.ibei.org/en/the-institution_25976">Institut
+Barcelona d’Estudis Internacionals</a>, <a
+href="https://www.globalreg.info/who-we-are.html">studies</a> “the
+spread of independent regulatory agencies worldwide.” Among its
+publications: <a
+href="https://www.globalreg.info/institutional-features-of-regulatory-agencies.html">a
+dataset of 799 such agencies</a>, spanning 100+ countries and 17
+sectors. It lists each agency’s name, country, and sector as of 2010;
+groups each into one of six typological “clusters”; and scores them on
+political independence, public accountability, managerial autonomy, and
+regulatory capabilities.</p>
+<p> </p>
+<p><strong>NC corporate landlords.</strong> At least 40,000
+single-family homes in North Carolina are owned by only roughly 20
+investment corporations, according to a <a
+href="https://www.newsobserver.com/topics/security_for_sale">new
+investigation by The News &amp; Observer</a> and <a
+href="https://www.charlotteobserver.com/topics/security_for_sale">The
+Charlotte Observer</a>. In some neighborhoods, the companies own
+one-fifth of all such homes. To reach these findings, reporters used
+manual research and machine learning to compile a <a
+href="https://github.com/mcclatchy-southeast/security_for_sale">now-public
+dataset</a> of the companies, their subsidiaries, and the parcels they
+control. The parcel file draws substantially on <a
+href="https://www.nconemap.gov/pages/parcels">data from OneMap</a>, a
+state initiative to standardize county property records. [h/t <a
+href="https://twitter.com/mtdukes/status/1520735400897265666">Tyler
+Dukes</a>]</p>
+<p> </p>
+<p><strong>Bats in caves.</strong> <a
+href="https://www.nature.com/articles/s41597-022-01234-4">Krizler C.
+Tanalgo et al.</a>’s <a href="https://darkcides.org/">DarkCideS</a> “is
+by far the largest database for cave-dwelling bats,” <a
+href="https://figshare.com/articles/dataset/Metadata_for_DarkCideS_1_0_a_global_database_for_bats_in_karsts_and_caves/16413405">providing</a>
+“geographical location, ecological status, species traits, and parasites
+and hyperparasites for 679 bat species,” plus 6,700+ observation records
+from 2,000+ caves in 40+ countries. <strong>Read more</strong>: <a
+href="https://twitter.com/tkrizler/status/1511341433856606212">An
+introductory Twitter thread</a>. [h/t <a
+href="https://twitter.com/MuyRe/status/1511450863659020288">Renata
+Muylaert</a> + <a
+href="https://twitter.com/wormmaps/status/1511492549768355844">Colin J.
+Carlson</a>]</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send upside-down feedback
+to jsvine@gmail.com, or just reply to this email. Looking for past
+datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions.</em></p>
+]]></content:encoded>
+      <guid isPermaLink="false">dip-2022-05-04</guid>
+      <pubDate>Wed, 04 May 2022 08:00:00 -0400</pubDate>
+    </item>
     <item>
       <title>Data Is Plural — 2022.04.27 edition</title>
       <link>http://www.data-is-plural.com/archive/2022-04-27-edition</link>
@@ -960,115 +1078,6 @@ subscribe and browse past editions.</em></p>
 ]]></content:encoded>
       <guid isPermaLink="false">dip-2022-02-09</guid>
       <pubDate>Wed, 09 Feb 2022 08:00:00 -0500</pubDate>
-    </item>
-    <item>
-      <title>Data Is Plural — 2022.02.02 edition</title>
-      <link>http://www.data-is-plural.com/archive/2022-02-02-edition</link>
-      <description>Abortion facility distances, China’s tech giants abroad, House committee witnesses, immigrant populations in 1900, and borrowed words.</description>
-      <content:encoded><![CDATA[<p><em>Abortion facility distances, China’s tech giants abroad, House
-committee witnesses, immigrant populations in 1900, and borrowed
-words.</em></p>
-<p> </p>
-<p><em>👋 Data Is Plural isn’t officially on Twitter. But if you want a
-smörgåsbord of past datasets in your feed, you can follow <a
-href="https://twitter.com/DataispluralBot">@DataIsPluralBot</a>, <a
-href="https://twitter.com/OscarBaruffa/status/1487830101664407552">recently
-created</a> by DIP subscriber <a
-href="https://twitter.com/OscarBaruffa">Oscar Baruffa</a>.</em></p>
-<p> </p>
-<p><strong>Abortion facility distances.</strong> <a
-href="https://cmyers.middcreate.net/">Caitlin Knowles Myers</a>, an
-economist with a <a
-href="https://cmyers.middcreate.net/scholarship/">focus on reproductive
-policy</a>, has <a href="https://osf.io/8dg7r/">compiled a dataset</a>
-that calculates — for every county in the contiguous US, every month
-between January 2009 and June 2021 — the distance you would have to
-travel to the nearest abortion facility. Researchers can also <a
-href="https://osf.io/tj4ud/">request access to Myers’s underlying
-database of the facilities themselves</a>. As described in her working
-paper, “<a href="https://www.iza.org/publications/dp/14556">Measuring
-the Burden: The Effect of Travel Distance on Abortions and Births</a>,”
-Myers gathered the information from a range of sources, including state
-licensing databases, facility websites, and Planned Parenthood
-directories. <strong>As seen in</strong>: “<a
-href="https://www.axios.com/distance-abortion-roe-supreme-court-texas-17ae0d8c-7882-408c-b6f9-bf6ece0f22a2.html">Abortions
-could require 200-mile trips if Roe is overturned</a>” (Axios). [h/t <a
-href="https://blog.datawrapper.de/data-vis-dispatch-december-7-2021/">Rose
-Mintzer-Sweeney</a>]</p>
-<p> </p>
-<p><strong>Chinese technology companies abroad.</strong> <a
-href="https://chinatechmap.aspi.org.au/">Mapping China’s Tech
-Giants</a>, a project relaunched by the <a
-href="https://en.wikipedia.org/wiki/Australian_Strategic_Policy_Institute">Australian
-Strategic Policy Institute</a> last year, examines the overseas
-expansion of 27 major Chinese technology companies, from Alibaba to ZTE.
-The <a href="https://chinatechmap.aspi.org.au/#/data/">project’s
-dataset</a> includes 3,900+ entries, each describing and locating an
-operation or connection abroad. They’re grouped into a couple dozen
-categories, such as commercial partnerships, overseas offices, data
-centers, 5G relationships, training, and donations. [h/t <a
-href="https://twitter.com/He_Shumei/status/1402114458793635844">Samantha
-Hoffman</a>]</p>
-<p> </p>
-<p><strong>House committee witnesses.</strong> Political scientists <a
-href="https://www.rmc.edu/departments/political-science/faculty/lauren-bell">Lauren
-C. Bell</a> and <a href="https://jdrackey.com/">J.D. Rackey</a> have
-compiled a <a
-href="https://www.rmc.edu/departments/political-science/faculty/lauren-bell/dataset-information">spreadsheet
-of 435,000+ people testifying</a> before the US House of Representatives
-from 1971 to 2016. They began with a text file scraped from <a
-href="https://about.proquest.com/en/products-services/ProQuest-Congressional-Hearings-Digital-Collection/">a
-ProQuest database</a>, provided by the authors of <a
-href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0230104">a
-dataset that focused on social scientists’ testimony</a> (<a
-href="https://www.data-is-plural.com/archive/2020-12-23-edition/">DIP
-2020.12.23</a>). Then, they determined each witness’s first and last
-name; type of organization; the committee, date, title, and summary of
-the relevant hearing; and more. [h/t <a
-href="https://twitter.com/derekwillis">Derek Willis</a>]</p>
-<p> </p>
-<p><strong>Immigrant populations in 1900.</strong> The 1900 US Census’s
-<a
-href="https://www.census.gov/programs-surveys/decennial-census/decade/decennial-publications.1900.html">public
-report</a> includes a table counting the foreign-born residents of each
-state and territory — overall and disaggregated into a few dozen
-origins, which range from subdivisions of countries (Poland is split
-into “Austrian,” “German,” “Russian,” and “unknown” columns) to entire
-continents (“Africa”). It’s officially available as <a
-href="https://www2.census.gov/library/publications/decennial/1900/volume-1/volume-1-p13.pdf">a
-low-resolution PDF</a>. Reporters at <a
-href="https://stacker.com/">Stacker</a>, however, recently <a
-href="https://github.com/stacker-media/data/tree/main/1900-census-immigrant-state">transcribed
-it</a> into <a
-href="https://github.com/stacker-media/data/blob/main/1900-census-immigrant-state/1900-census-immigrant-pop-state.csv">a
-CSV file</a> for easier use. [h/t <a
-href="https://emiliaruzicka.com">Emilia Ruzicka</a>]</p>
-<p> </p>
-<p><strong>Borrowed words.</strong> The <a
-href="https://wold.clld.org/">World Loanword Database</a>, a project
-from the <a
-href="https://en.wikipedia.org/wiki/Max_Planck_Institute_for_Evolutionary_Anthropology">Max
-Planck Institute for Evolutionary Anthropology</a>, examines how
-languages have borrowed words from each other. For 41 historical and
-contemporary languages, it lists 1,000–2,500 words, experts’ judgment of
-whether they were borrowed, from what language, and <a
-href="https://wold.clld.org/terms">other etymological details</a>.
-<strong>Previously</strong>: <a href="https://wals.info/">The World
-Atlas of Language Structures</a> (<a
-href="https://www.data-is-plural.com/archive/2016-01-06-edition/">DIP
-2016.01.06</a>). [h/t <a
-href="https://news.ycombinator.com/item?id=29867638">blopeur</a>]</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send borrowed feedback to
-jsvine@gmail.com, or just reply to this email. Looking for past
-datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and browse past editions.</em></p>
-]]></content:encoded>
-      <guid isPermaLink="false">dip-2022-02-02</guid>
-      <pubDate>Wed, 02 Feb 2022 08:00:00 -0500</pubDate>
     </item>
   </channel>
 </rss>
