@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.data-is-plural.com</id>
   <title>Data Is Plural</title>
-  <updated>2022-05-04T08:00:00-04:00</updated>
+  <updated>2022-05-11T08:00:00-04:00</updated>
   <author>
     <name>Jeremy Singer-Vine</name>
     <email>jsvine@gmail.com</email>
@@ -10,6 +10,114 @@
   <link href="https://www.data-is-plural.com" rel="alternate"/>
   <generator>https://github.com/data-is-plural/newsletter-archive</generator>
   <subtitle>A weekly newsletter of useful/curious datasets.</subtitle>
+  <entry>
+    <id>dip-2022-05-11</id>
+    <title>Data Is Plural — 2022.05.11 edition</title>
+    <updated>2022-05-11T08:00:00-04:00</updated>
+    <content type="CDATA"><![CDATA[<p><em>Drugs for rare diseases, LGBTQI+ elected officials, tornadoes,
+mask-wearing on NYC transit, and Milwaukee house styles.</em></p>
+<p> </p>
+<p><strong>Drugs for rare diseases.</strong> The US <a
+href="https://en.wikipedia.org/wiki/Orphan_Drug_Act_of_1983">Orphan Drug
+Act of 1983</a> provided <a
+href="https://www.fda.gov/industry/orphan-products-development-events/story-behind-orphan-drug-act">incentives
+for pharmaceutical companies</a> to develop treatments for <a
+href="https://www.fda.gov/patients/rare-diseases-fda">rare diseases</a>.
+The Food and Drug Administration <a
+href="https://www.fda.gov/about-fda/office-clinical-policy-and-programs/office-orphan-products-development">reviews
+applications</a> for treatments seeking this “orphan” status, decides
+whether to designate them as such, and maintains a <a
+href="https://www.accessdata.fda.gov/scripts/opdlisting/oopd/">database
+of all 6,000+ designations since 1983</a>. The database lists each
+treatment’s generic name, trade name (if any), “sponsor” company,
+designated use(s), date(s) of designation, and whether/when the FDA
+approved it for sale. <strong>Previously</strong>: <a
+href="https://www.orpha.net/">Rare disease data from Orphanet</a> (<a
+href="https://www.data-is-plural.com/archive/2022-04-20-edition/">DIP
+2022.04.20</a>) and <a
+href="https://www.fda.gov/drugs/drug-approvals-and-databases/approved-drug-products-therapeutic-equivalence-evaluations-orange-book">the
+FDA’s “Orange Book” of drug approvals</a> (<a
+href="https://www.data-is-plural.com/archive/2017-03-08-edition/">DIP
+2017.03.08</a>). [h/t <a
+href="https://www.sciencedirect.com/science/article/abs/pii/S0167629621001077">Simona
+Gamba et al.</a> + <a
+href="https://www.nationalaffairs.com/blog/detail/findings-a-daily-roundup/careful">Kevin
+Lewis</a>]</p>
+<p> </p>
+<p><strong>LGBTQI+ elected officials.</strong> The <a
+href="https://queerpolitics.princeton.edu/">Queer Politics at
+Princeton</a> research program <a
+href="https://www.princeton.edu/news/2022/04/25/new-scholarly-database-publicly-identifying-lgbtqi-elected-officials-across-globe">has
+assembled</a> an <a
+href="https://queerpolitics.princeton.edu/data">international map and
+database</a> of 1,000+ officials elected since the 1970s “who publicly
+identify as lesbian, gay, bisexual, pansexual, transgender, non-binary,
+gender-non-conforming, queer or intersex.” The project focuses on
+candidates elected to national, state, and mayoral offices. Entries
+indicate each official’s name, country, party affiliation, level of
+government, position held, year first elected, sexual and gender
+identity, whether they were out when first elected, the year they came
+out, and more. [h/t <a
+href="https://twitter.com/TomSmit18350119/status/1518631589072318465">Tom
+Smith</a>]</p>
+<p> </p>
+<p><strong>Tornadoes.</strong> Although the <a
+href="https://www.spc.noaa.gov/misc/aboutus.html">primary mission</a> of
+the National Weather Service’s <a href="https://www.spc.noaa.gov/">Storm
+Prediction Center</a> is forward-looking, the center also <a
+href="https://www.spc.noaa.gov/wcm/">provides historical maps, charts,
+and datasets</a>. Among them: the Severe Weather Database, which
+contains all tornado reports for the contiguous US from 1950 to 2020,
+plus major hail storms and “damaging wind” events since 1955. It lists
+each incident’s date, starting and ending locations, intensity, injury
+count, fatality count, property loss, and more. [h/t <a
+href="https://twitter.com/WxPatel/status/1523049198836346880">Kaylan
+Patel</a> + <a
+href="https://twitter.com/LebelLuke/status/1523055110758281218">Luke
+LeBel</a>]</p>
+<p> </p>
+<p><strong>Mask-wearing on NYC transit.</strong> Since June 2020, New
+York’s Metropolitan Transportation Authority has surveyed mask usage in
+a sample of subways and at its busiest bus stops. The results, available
+to <a
+href="https://new.mta.info/safety-and-security/nyct-mask-compliance">view</a>
+and <a
+href="https://data.ny.gov/Transportation/MTA-Subway-and-Bus-Mask-Compliance-Statistics-Begi/ijxr-nffj">download</a>,
+indicate the number of people observed (nearly 5 million so far) during
+each biweekly survey cycle and the percentages of them found to be
+wearing a mask correctly, incorrectly, or not at all. [h/t <a
+href="https://www.amny.com/transit/subway-mask-slip-new-low-despite-mandate/">Kevin
+Duggan</a> + <a
+href="https://coviddatadispatch.com/2022/04/03/sources-and-updates-april-3/">Betsy
+Ladyzhets</a>]</p>
+<p> </p>
+<p><strong>Milwaukee house styles.</strong> Milwaukee’s <a
+href="https://data.milwaukee.gov/dataset/mprop">Master Property
+File</a>, first assembled in 1975, “contains more than 90 elements of
+data describing each of the approximately 160,000 properties in the
+city.” The elements include each home’s city-assessed architectural
+style — Tudor, for instance, or Cape Cod, or bungalow. <strong>As seen
+in</strong>: <a
+href="https://www.jsonline.com/in-depth/news/local/2022/03/31/milwaukee-home-styles-architecture-reveal-citys-history-bungalows-craftsman-duplex/6835671001/">This
+story-map by the Milwaukee Journal Sentinel</a>, based on <a
+href="https://github.com/jdjohn215/milwaukee-house-styles">an
+analysis</a> by <a href="https://johndjohnson.info/">John D.
+Johnson</a>. [h/t <a
+href="https://blog.datawrapper.de/data-vis-dispatch-april-5-2022/">Rose
+Mintzer-Sweeney</a>]</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send Tudoresque feedback
+to jsvine@gmail.com, or just reply to this email. Looking for past
+datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions.</em></p>
+]]></content>
+    <link href="http://www.data-is-plural.com/archive/2022-05-11-edition" rel="alternate"/>
+    <summary>Drugs for rare diseases, LGBTQI+ elected officials, tornadoes, mask-wearing on NYC transit, and Milwaukee house styles.</summary>
+    <published>2022-05-11T08:00:00-04:00</published>
+  </entry>
   <entry>
     <id>dip-2022-05-04</id>
     <title>Data Is Plural — 2022.05.04 edition</title>
@@ -971,125 +1079,5 @@ subscribe and browse past editions.</em></p>
     <link href="http://www.data-is-plural.com/archive/2022-03-09-edition" rel="alternate"/>
     <summary>Refugees fleeing Ukraine, international crises, foreign ministry statements, prison COVID policies, and medieval prices.</summary>
     <published>2022-03-09T08:00:00-05:00</published>
-  </entry>
-  <entry>
-    <id>dip-2022-02-09</id>
-    <title>Data Is Plural — 2022.02.09 edition</title>
-    <updated>2022-02-09T08:00:00-05:00</updated>
-    <content type="CDATA"><![CDATA[<p><em>People affected by Trump’s travel ban, Erasmus exchanges,
-national climate funds, sites that support HTTPs, and board
-games.</em></p>
-<p> </p>
-<p><em>👋 In a similar vein as last week’s link to the unofficial <a
-href="https://twitter.com/DataispluralBot">@DataIsPluralBot</a>: You
-might also enjoy <a href="https://wattenberger.com/">Amelia
-Wattenberger</a>’s <a
-href="https://dataset-finder.netlify.app/random">DIP-randomizing
-webpage</a>, stocked with <a
-href="https://twitter.com/Wattenberger/status/1425593128153751554">3D
-gift boxes and custom illustrations</a>.</em></p>
-<p> </p>
-<p><strong>People affected by Trump’s travel ban.</strong> On January
-27, 2017, then–President Trump issued <a
-href="https://ballotpedia.org/Donald_Trump%27s_immigration_executive_order_issued_January_27,_2017">an
-executive order</a> suspending entry to the United States by citizens of
-seven Muslim-majority countries. For a <a
-href="https://www.huffpost.com/entry/trump-travel-ban-muslims-changed-lives_n_61e86498e4b01f707dabbdcd">recent,
-year-long HuffPost investigation</a>, reporter <a
-href="https://twitter.com/Rowaida_Abdel">Rowaida Abdelaziz</a> led a
-team that collected and categorized the stories of 874 people affected
-by the travel ban, such as those who separated from a parent or child.
-An <a
-href="https://docs.google.com/spreadsheets/d/11w02tTBHguxfQljb2--fN-c3kEaiSpHhnpW6CYkBgQY/edit#gid=135755090">anonymized
-spreadsheet</a> indicates the types of loss each person experienced,
-their nationalities, and other relevant details.
-<strong>Related</strong>: Between September 2019 and January 2021, the
-State Department published <a
-href="https://travel.state.gov/content/travel/en/us-visas/visa-information-resources/presidential-proclamation-archive/presidential-proclamation9645.html?wcmmode=disabled">monthly,
-cumulative statistics</a> about visa applications affected by later
-versions of the travel ban, but only as PDF reports. [h/t <a
-href="http://www.davidvine.net/">David Vine</a>]</p>
-<p> </p>
-<p><strong>Erasmus exchanges.</strong> The European Union publishes <a
-href="https://data.europa.eu/data/datasets?locale=en&amp;catalog=eac&amp;query=erasmus&amp;page=1&amp;sort=issued%2Bdesc,%20relevance%2Bdesc,%20title.en%2Basc">data
-on the movement of students, staff, and trainees</a> through its <a
-href="https://en.wikipedia.org/wiki/Erasmus_Programme">Erasmus+</a>
-exchange program. The <a
-href="https://data.europa.eu/data/datasets/erasmus-mobility-statistics-2014-2019-v2?locale=en">most
-recent dataset</a> covers academic years 2014–15 through 2019–20,
-detailing the international transfer of millions of participants. Each
-row lists a combination of variables and the number of participants who
-matched that description. The variables include the field of education,
-participant gender and nationality, duration of the exchange, sending
-and receiving cities and organizations, and more. <strong>As seen
-in</strong>: <a
-href="https://www.elconfidencial.com/mundo/europa/2021-12-28/erasmus-dos-velocidades-programa-ue-desigualdad_3348913/">Erasmus
-a dos velocidades</a> (El Confidencial). [h/t <a
-href="https://blog.datawrapper.de/data-vis-dispatch-january-4-2022/">Rose
-Mintzer-Sweeney</a>]</p>
-<p> </p>
-<p><strong>National climate funds.</strong> Boston University’s <a
-href="https://www.bu.edu/gdp/profile/rishikesh-ram-bhandary/">Rishikesh
-Ram Bhandary</a> has <a
-href="https://www.tandfonline.com/doi/full/10.1080/14693062.2022.2027223">constructed
-an inventory</a> of national funds for financing action on climate
-change. The dataset, which you can <a
-href="https://figshare.com/articles/dataset/National_climate_funds_a_new_dataset_on_national_financing_vehicles_for_climate_change/18865640">download</a>
-or <a
-href="https://www.bu.edu/gdp/national-climate-funds-tracker/">browse
-interactively</a>, currently covers 46 funds in 39 developing countries.
-It lists each fund’s title, year established, source of funding, host
-entity, scope, and more.</p>
-<p> </p>
-<p><strong>Sites that support HTTPS.</strong> DuckDuckGo’s <a
-href="https://spreadprivacy.com/duckduckgo-smarter-encryption/">Smarter
-Encryption</a> project <a
-href="https://github.com/duckduckgo/smarter-encryption">provides a big
-text file</a> that lists every website that the company knows supports
-HTTPS, the internet encryption protocol. The list contains 31+ million
-entries, updated via a web crawler. <strong>Related</strong>: Last year,
-the <a href="https://www.eff.org/about">Electronic Frontier
-Foundation</a> <a
-href="https://www.eff.org/deeplinks/2021/04/https-everywhere-now-uses-duckduckgos-smarter-encryption">began
-incorporating the data</a> into its <a
-href="https://www.eff.org/https-everywhere">HTTPS Everywhere</a> browser
-extension. (It has since <a
-href="https://www.eff.org/deeplinks/2021/09/https-actually-everywhere">announced
-plans to retire</a> the decade-in-service extension, now that “HTTPS is
-truly just about everywhere.”) [h/t <a
-href="https://news.ycombinator.com/item?id=26821333">Giulio
-Magnifico</a>]</p>
-<p> </p>
-<p><strong>Board games.</strong> <a
-href="https://boardgamegeek.com/">BoardGameGeek</a> users have submitted
-millions of <a
-href="https://boardgamegeek.com/wiki/page/ratings">ratings</a> over the
-past two decades, <a
-href="https://fivethirtyeight.com/features/designing-the-best-board-game-on-the-planet/">judging</a>
-<a href="https://boardgamegeek.com/browse/boardgame/">tens of thousands
-of games</a>. The website <a
-href="https://boardgamegeek.com/wiki/page/BGG_XML_API2">provides an
-API</a> that lets you search for games and retrieve detailed information
-about their attributes and ratings. <strong>As seen in</strong>: “<a
-href="https://jvanelteren.github.io/blog/2022/01/19/boardgames.html">Diving
-into BoardGameGeek</a>,” by <a
-href="https://jvanelteren.github.io/blog/">Jesse van Elteren</a>, who
-crawled the API to compile a <a
-href="https://www.kaggle.com/jvanelteren/boardgamegeek-reviews">dataset
-of 19 million ratings from 410,000+ users</a>. [h/t <a
-href="https://news.ycombinator.com/item?id=30040739">Jordan
-Isip</a>]</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send tabletop feedback to
-jsvine@gmail.com, or just reply to this email. Looking for past
-datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and browse past editions.</em></p>
-]]></content>
-    <link href="http://www.data-is-plural.com/archive/2022-02-09-edition" rel="alternate"/>
-    <summary>People affected by Trump’s travel ban, Erasmus exchanges, national climate funds, sites that support HTTPs, and board games.</summary>
-    <published>2022-02-09T08:00:00-05:00</published>
   </entry>
 </feed>
