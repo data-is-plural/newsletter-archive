@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.data-is-plural.com</id>
   <title>Data Is Plural</title>
-  <updated>2022-05-11T08:00:00-04:00</updated>
+  <updated>2022-05-18T08:00:00-04:00</updated>
   <author>
     <name>Jeremy Singer-Vine</name>
     <email>jsvine@gmail.com</email>
@@ -10,6 +10,125 @@
   <link href="https://www.data-is-plural.com" rel="alternate"/>
   <generator>https://github.com/data-is-plural/newsletter-archive</generator>
   <subtitle>A weekly newsletter of useful/curious datasets.</subtitle>
+  <entry>
+    <id>dip-2022-05-18</id>
+    <title>Data Is Plural — 2022.05.18 edition</title>
+    <updated>2022-05-18T08:00:00-04:00</updated>
+    <content type="CDATA"><![CDATA[<p><em>Religion and government, municipal pandemic responses, open data
+governance, Europe prison populations, and banknote people.</em></p>
+<p> </p>
+<p><strong>Religion and government.</strong> To compile the <a
+href="https://www.thearda.com/Archive/Files/Descriptions/GRPCOMP.asp">Government
+Religious Preference dataset</a>, researchers scrutinized primary
+documents and secondary sources “for information on the existence,
+origination, change, or discontinuation of a law or policy directed
+toward” any of 30 religious denominations in 200+ countries. Then they
+<a
+href="https://www.thearda.com/archive/files/codebooks/origCB/GRP%202.0%20Codebook.pdf">assessed</a>
+the degree to which those policies reflected institutional favor or
+disfavor across 28 variables, themselves grouped into “five broad
+components of state-religion”: <a
+href="https://www.thearda.com/Archive/Files/Descriptions/GRPOFFCL.asp">official
+status</a>, <a
+href="https://www.thearda.com/Archive/Files/Descriptions/GRPFINSP.asp">financial
+support</a>, <a
+href="https://www.thearda.com/Archive/Files/Descriptions/GRPREG.asp">regulatory
+burdens</a>, <a
+href="https://www.thearda.com/Archive/Files/Descriptions/GRPRELED.asp">religious
+education</a>, and <a
+href="https://www.thearda.com/Archive/Files/Descriptions/GRPFREE.asp">free
+exercise</a>. The project provides individual and composite scores for
+each country-year-denomination, from as early as 1800 through 2015.
+<strong>Related</strong>: <a
+href="https://www.thearda.com/Archive/Files/Descriptions/RCSDEM2.asp">Country-level
+religious demographics</a>, from the same principal investigators. [h/t
+<a
+href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/IWXIDL">Ariel
+Zellman and Davis Brown</a>]</p>
+<p> </p>
+<p><strong>Municipal pandemic responses.</strong> The <a
+href="https://www.nlc.org/about/">National League of Cities</a>’ <a
+href="https://www.nlc.org/resource/covid-19-local-action-tracker/">Local
+Action Tracker</a> describes itself as “the most complete collection of
+municipal responses to COVID-19.” It contains information about 4,800+
+policies undertaken or planned in roughly 800 US cities between February
+2020 and February 2022, listing each response’s date, policy area (e.g.,
+housing, utilities, vaccinations), type of action (e.g., ordinance,
+emergency declaration), a brief description, and more. [h/t <a
+href="https://nightingaledvs.com/telling-the-story-of-urban-innovation-and-pandemic-response-with-data/">Joshua
+Pine</a>]</p>
+<p> </p>
+<p><strong>Open data governance.</strong> To develop the <a
+href="https://globaldatabarometer.org/">Global Data Barometer</a>, a
+network of local experts and regional organizations evaluated “the state
+of data for public good” in 109 countries between May 2019 and May 2021.
+The project’s initial results, released last week as a <a
+href="https://globaldatabarometer.org/the-global-data-barometer-report-first-edition/">report</a>
+and <a href="https://globaldatabarometer.org/open-data/">downloadable
+dataset</a>, reflect 60,000+ of their observations, which focused on
+data <a
+href="https://globaldatabarometer.org/module/governance/">governance</a>
+and <a
+href="https://globaldatabarometer.org/module/capabilities/">capabilities</a>,
+plus the <a
+href="https://globaldatabarometer.org/research/countries-and-themes/">availability
+and use of data on specific topics</a>, such as <a
+href="https://globaldatabarometer.org/module/public-finance/">public
+finance</a>, <a
+href="https://globaldatabarometer.org/module/climate/">climate
+action</a>, and <a
+href="https://globaldatabarometer.org/module/company/">company
+ownership</a>. [h/t <a href="https://www.catc0r.com/">cat
+cortes</a>]</p>
+<p> </p>
+<p><strong>Europe prison populations.</strong> The <a
+href="https://en.wikipedia.org/wiki/Council_of_Europe">Council of
+Europe</a> publishes <a
+href="https://wp.unil.ch/space/space-i/annual-reports/">annual
+statistical reports on prison populations and facilities</a>, based on
+surveys sent to its member states. The council publishes most of the
+data only in the report PDFs, but does <a
+href="https://wp.unil.ch/space/space-i/prison-stock-on-1-january/">provide
+HTML tables</a> of country-level inmate counts and facility capacity <a
+href="https://wp.unil.ch/space/space-i/prison-stock-on-1-january/prison-stock-on-1-january-2018/">from
+2018</a> <a
+href="https://wp.unil.ch/space/space-i/prison-stock-on-1-january/prison-stock-on-1st-january-2022/">to
+2022</a>. <strong>As seen in</strong>: <a
+href="https://civio.es/2022/05/10/use-and-abuse-of-preventive-detention-in-the-european-union/">A
+Civio.es-led analysis of pretrial detention rates</a>, for which
+reporters extracted (<a
+href="https://datos.civio.es/dataset/porcentaje-de-personas-en-prision-provisional-en-2020/">and
+have shared</a>) the numbers of untried and unsentenced prisoners in
+early 2021. [h/t <a href="https://twitter.com/oargueso">Olaya Argüeso
+Pérez</a>]</p>
+<p> </p>
+<p><strong>Banknote people.</strong> The visual essay “<a
+href="https://pudding.cool/2022/04/banknotes/">Who’s in Your
+Wallet?</a>” examines the famous faces that appear on 38 countries’
+paper money. To do that, <a
+href="https://alejandra-arevalo.com/">Alejandra Arevalo</a> and <a
+href="https://twitter.com/EricHausken">Eric Hausken</a> built a <a
+href="https://github.com/the-pudding/banknotes/tree/master/src/data">dataset
+describing 279 person-banknote combinations</a>. It lists the banknote’s
+currency and value, plus the person’s name, gender, profession, year
+first on the bill, year deceased, and more. <strong>Related</strong>: <a
+href="https://en.wikipedia.org/wiki/List_of_people_on_banknotes">Wikipedia’s
+lists of people on banknotes</a> and <a
+href="https://en.wikipedia.org/wiki/List_of_people_on_coins">on
+coins</a>.</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send crisp feedback to
+jsvine@gmail.com, or just reply to this email. Looking for past
+datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions.</em></p>
+]]></content>
+    <link href="http://www.data-is-plural.com/archive/2022-05-18-edition" rel="alternate"/>
+    <summary>Religion and government, municipal pandemic responses, open data governance, Europe prison populations, and banknote people.</summary>
+    <published>2022-05-18T08:00:00-04:00</published>
+  </entry>
   <entry>
     <id>dip-2022-05-11</id>
     <title>Data Is Plural — 2022.05.11 edition</title>
@@ -976,108 +1095,5 @@ subscribe and to browse past editions.</em></p>
     <link href="http://www.data-is-plural.com/archive/2022-03-16-edition" rel="alternate"/>
     <summary>European energy imports/exports, Ukraine border crossing sites, conspiracy theory language, ISS photo locations, and software sunsets.</summary>
     <published>2022-03-16T08:00:00-04:00</published>
-  </entry>
-  <entry>
-    <id>dip-2022-03-09</id>
-    <title>Data Is Plural — 2022.03.09 edition</title>
-    <updated>2022-03-09T08:00:00-05:00</updated>
-    <content type="CDATA"><![CDATA[<p><em>Refugees fleeing Ukraine, international crises, foreign ministry
-statements, prison COVID policies, and medieval prices.</em></p>
-<p> </p>
-<p><strong>Refugees fleeing Ukraine.</strong> The UN’s refugee agency
-last week <a
-href="https://www.unhcr.org/news/announc/2022/3/621f5e334/launch-unhcr-data-portal-ukraine-refugee-situation.html">launched</a>
-a data portal <a
-href="https://data2.unhcr.org/en/situations/ukraine">tracking the
-arrival of refugees from Ukraine in other countries</a>. The
-daily-updated maps, charts, and structured data provide counts and
-estimates of arrivals by date, by receiving country, and overall.
-<strong>Related</strong>: The UN’s <a
-href="https://www.unhcr.org/refugee-statistics-uat/">Refugee Population
-Statistics Database</a>, which “contains information about forcibly
-displaced populations spanning more than 70 years of statistical
-activities.”</p>
-<p> </p>
-<p><strong>International crises.</strong> The <a
-href="https://sites.duke.edu/icbdata/">International Crisis Behavior
-Project</a>, <a
-href="https://sites.duke.edu/icbdata/project-info/">initiated in
-1975</a>, collects detailed data about interstate military-security
-crises such as the <a
-href="http://www.icb.umd.edu/dataviewer/?crisno=39">Mukden Incident</a>,
-<a href="http://www.icb.umd.edu/dataviewer/?crisno=196">Cuban Missile
-Crisis</a>, and <a
-href="http://www.icb.umd.edu/dataviewer/?crisno=471">Russia’s 2014
-invasion of Crimea</a>. The <a
-href="https://sites.duke.edu/icbdata/data-collections/">project’s
-datasets</a> and <a href="http://www.icb.umd.edu/dataviewer/">online
-catalog</a>, now in their 14th version, have come to cover 487 crises
-between 1918 and 2017. The dozens of variables include the start and end
-dates, type of triggering event, centrality of violence, use of
-mediation, type of outcome, and more. <strong>Related</strong>: The <a
-href="https://www.crisisevents.org/">International Crisis Behavior
-Events</a> project, developed by a <a
-href="https://arxiv.org/abs/2202.07081">separate group of
-researchers</a>, has translated the sub-events within ICB’s summaries
-into structured data. [h/t <a href="https://pinboard.in/u:arnicas">Lynn
-Cherny</a>]</p>
-<p> </p>
-<p><strong>Foreign ministry statements.</strong> The <a
-href="https://focusdataproject.com/">FOCUSdata project</a>, led by New
-Jersey City University’s <a
-href="https://www.njcu.edu/academics/schools-colleges/college-professional-studies/departments/professional-security-studies">National
-Security Studies Department</a>, <a
-href="https://academic.oup.com/fpa/article/18/2/orac002/6527272">has
-compiled</a> English-language statements and articles from the foreign
-ministries and state media in Russia, North Korea, China, and Iran. Many
-of <a
-href="https://dataverse.harvard.edu/dataverse/focusdataproject">the
-collections</a> span more than a decade, and typically extend to 2019 or
-2020. The project also presents interactive charts showing estimated
-sentiment trends and topic frequencies. [h/t <a
-href="https://twitter.com/GraigKlein/status/1493617381712834564">Graig
-Klein</a> + <a
-href="https://twitter.com/J_Codjo/status/1493627145645703172">Juste
-Codjo</a>]</p>
-<p> </p>
-<p><strong>Prison COVID policies.</strong> Between April 2020 and April
-2021, researchers at the <a href="https://uclacovidbehindbars.org/">UCLA
-Law COVID Behind Bars Data Project</a> gathered 3,500+ policy
-announcements from federal and state prison agencies in the US. Their <a
-href="https://uclacovidbehindbars.org/policy-index">Prison Policy Index
-spreadsheet</a>, <a
-href="https://uclacovidbehindbars.org/prison-policy-index">published
-earlier this year</a>, describes the announcements they gathered through
-April 2021. It indicates the state, date publicized, and date collected,
-and provides an archival link, a short summary, and a series of columns
-classifying the policies announced.</p>
-<p> </p>
-<p><strong>Medieval prices.</strong> The <a
-href="https://memdb.libraries.rutgers.edu/">Medieval and Early Modern
-Data Bank</a>, an effort that dates back to the 1980s, contains six
-datasets relating to currency exchanges, prices, wages, and textile
-production in Europe “circa 800-1815 C.E.” The records, which have been
-compiled from prior publications (<a
-href="https://memdb.libraries.rutgers.edu/metz-prices">such as a
-statistical compendium of grain sales in Cologne</a>), can be queried
-online or <a
-href="https://search.gesis.org/research_data/ZA8150">downloaded in
-bulk</a>. [h/t <a
-href="https://medium.com/@zavidovych/what-we-can-learn-by-looking-at-prices-and-wages-in-medieval-england-8dc207cfd20a">Vlad
-Zavidovych</a> + <a
-href="https://blog.datawrapper.de/medieval-prices-wages/">Mirko
-Lorenz</a>]</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send guilder-denominated
-feedback to jsvine@gmail.com, or just reply to this email. Looking for
-past datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and browse past editions.</em></p>
-]]></content>
-    <link href="http://www.data-is-plural.com/archive/2022-03-09-edition" rel="alternate"/>
-    <summary>Refugees fleeing Ukraine, international crises, foreign ministry statements, prison COVID policies, and medieval prices.</summary>
-    <published>2022-03-09T08:00:00-05:00</published>
   </entry>
 </feed>
