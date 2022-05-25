@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.data-is-plural.com</id>
   <title>Data Is Plural</title>
-  <updated>2022-05-18T08:00:00-04:00</updated>
+  <updated>2022-05-25T08:00:00-04:00</updated>
   <author>
     <name>Jeremy Singer-Vine</name>
     <email>jsvine@gmail.com</email>
@@ -10,6 +10,108 @@
   <link href="https://www.data-is-plural.com" rel="alternate"/>
   <generator>https://github.com/data-is-plural/newsletter-archive</generator>
   <subtitle>A weekly newsletter of useful/curious datasets.</subtitle>
+  <entry>
+    <id>dip-2022-05-25</id>
+    <title>Data Is Plural — 2022.05.25 edition</title>
+    <updated>2022-05-25T08:00:00-04:00</updated>
+    <content type="CDATA"><![CDATA[<p><em>Supercomputers, infrastructure permitting, European election
+results, Moreno and Jennings’ sociograms, and Art Garfunkel’s
+library.</em></p>
+<p> </p>
+<p><strong>Supercomputers.</strong> Since 1993, a <a
+href="https://www.top500.org/project/authors/">team of researchers</a>
+has regularly assessed the most powerful computers in the world. The
+resulting <a href="https://www.top500.org/">TOP500 lists</a> are
+published twice a year, in June and November, using a <a
+href="https://www.top500.org/project/linpack/">performance benchmark
+developed by team member Jack Dongarra</a>, who <a
+href="https://www.acm.org/media-center/2022/march/turing-award-2021">became
+a Turing Award laureate this year</a>. Downloadable versions indicate
+each supercomputer’s name, rank, location, manufacturer, year built,
+power consumption, technical specifications, and more. <strong>As seen
+in</strong>: “<a
+href="https://blog.datawrapper.de/the-race-to-build-the-fastest-supercomputer/">The
+race to build the fastest supercomputer</a>,” by Datawrapper’s <a
+href="https://twitter.com/EdurneMG">Edurne Morillo</a>, who recommends
+visiting Barcelona’s <a
+href="https://www.bsc.es/marenostrum/marenostrum">MareNostrum</a>, which
+ranked 74th on the <a
+href="https://www.top500.org/lists/top500/list/2021/11/">latest list</a>
+and is housed in a former chapel.</p>
+<p> </p>
+<p><strong>Infrastructure permitting.</strong> The US government’s <a
+href="https://www.permits.performance.gov/">Federal Infrastructure
+Permitting Dashboard</a> tracks the “environmental review and
+authorization processes for large or complex infrastructure projects,”
+<a href="https://www.permits.performance.gov/about">particularly</a>
+those funded by the Department of Transportation and those participating
+in a <a
+href="https://www.epa.gov/sustainability/fast-41-coordination">voluntary
+review-coordination effort known as FAST-41</a>. The dashboard’s <a
+href="https://data.permits.performance.gov/Permitting-Project/Permitting-Dashboard-Full-Dataset/mcm3-xbid">full
+dataset</a> describes 12,000+ milestones relating to nearly 1,000
+projects, roughly half of which have been completed. Online, you can <a
+href="https://www.permits.performance.gov/projects">search across
+projects</a> and browse their characteristics and timetables.</p>
+<p> </p>
+<p><strong>European election results.</strong> <a
+href="https://journals.sagepub.com/doi/full/10.1177/13540688221083553">Dominik
+Schraff et al.</a> have built <a href="https://eu-ned.com/">EU-NED</a>,
+a dataset that harmonizes European election results at a subnational
+level, providing party vote totals for 31 countries’ <a
+href="https://ec.europa.eu/eurostat/web/nuts/background">NUTS 2 and NUTS
+3 geographic units</a>. The <a
+href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/IQRYP5">dataset</a>
+covers 1990 to 2020 and uses party identifiers from <a
+href="https://partyfacts.herokuapp.com/">PartyFacts</a> (<a
+href="https://www.data-is-plural.com/archive/2019-01-16-edition/">DIP
+2019.01.16</a>), making it easier to link the records to other projects.
+[h/t <a
+href="https://twitter.com/chris_breu/status/1524486517103734786">Christian
+Breuer</a>]</p>
+<p> </p>
+<p><strong>Moreno and Jennings’ sociograms.</strong> In the 1930s, <a
+href="https://en.wikipedia.org/wiki/Jacob_L._Moreno">Jacob Moreno</a>
+and <a href="https://en.wikipedia.org/wiki/Helen_Hall_Jennings">Helen
+Hall Jennings</a> created a series of “<a
+href="https://en.wikipedia.org/wiki/Sociogram">sociograms</a>”
+representing the seating preferences of grade-school classmates. These
+graphics “are frequently considered as the first examples of social
+network analysis and visualization,” <a
+href="http://www.martingrandjean.ch/social-network-analysis-visualization-morenos-sociograms-revisited/">according
+to</a> historian and network analysis practitioner <a
+href="http://www.martingrandjean.ch/">Martin Grandjean</a>, who has <a
+href="https://github.com/grandjeanmartin/sociograms">translated them
+into simple data files</a>. [h/t <a
+href="https://sourcetarget.email/editions/41/">Christian Miles</a> + <a
+href="https://www.mcdbooks.com/books/living-in-data">Jer Thorp</a>]</p>
+<p> </p>
+<p><strong>Art Garfunkel’s library.</strong> The <a
+href="https://en.wikipedia.org/wiki/Art_Garfunkel">legendary folk
+singer</a>’s <a href="https://www.artgarfunkel.com/">official
+website</a> includes <a
+href="https://www.artgarfunkel.com/library.html">a catalog</a> of “every
+book Art has read since 1968.” It lists each book’s title, author, year
+published, month/year read, page count, and whether it was <a
+href="https://www.artgarfunkel.com/books.html">one of the musician’s
+favorites</a>. Recently, AI engineer <a
+href="https://www.kaggle.com/chrico03">Corey Christensen</a> converted
+the HTML pages into a <a
+href="https://www.kaggle.com/datasets/chrico03/art-garfunkels-library">downloadable
+dataset</a>.</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send shelves of feedback
+to jsvine@gmail.com, or just reply to this email. Looking for past
+datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions.</em></p>
+]]></content>
+    <link href="http://www.data-is-plural.com/archive/2022-05-25-edition" rel="alternate"/>
+    <summary>Supercomputers, infrastructure permitting, European election results, Moreno and Jennings’ sociograms, and Art Garfunkel’s library.</summary>
+    <published>2022-05-25T08:00:00-04:00</published>
+  </entry>
   <entry>
     <id>dip-2022-05-18</id>
     <title>Data Is Plural — 2022.05.18 edition</title>
@@ -988,112 +1090,5 @@ subscribe and to browse past editions.</em></p>
     <link href="http://www.data-is-plural.com/archive/2022-03-23-edition" rel="alternate"/>
     <summary>HealthCare.gov plans, political apologies, border changes, PISA results and responses, and born-digital artworks.</summary>
     <published>2022-03-23T08:00:00-04:00</published>
-  </entry>
-  <entry>
-    <id>dip-2022-03-16</id>
-    <title>Data Is Plural — 2022.03.16 edition</title>
-    <updated>2022-03-16T08:00:00-04:00</updated>
-    <content type="CDATA"><![CDATA[<p><em>European energy imports/exports, Ukraine border crossing sites,
-conspiracy theory language, ISS photo locations, and software
-sunsets.</em></p>
-<p> </p>
-<p><strong>European energy imports/exports.</strong> The EU’s <a
-href="https://en.wikipedia.org/wiki/Eurostat">Eurostat</a> office
-publishes a range of statistical datasets on <a
-href="https://ec.europa.eu/eurostat/databrowser/explore/all/envir?lang=en&amp;subtheme=nrg&amp;display=list&amp;sort=category&amp;extractionId=NRG_TI_SFF__custom_2293925">energy
-usage and economics</a>, including annual <a
-href="https://ec.europa.eu/eurostat/databrowser/explore/all/envir?lang=en&amp;subtheme=nrg.nrg_quant.nrg_quanta.nrg_t.nrg_ti&amp;display=list&amp;sort=category&amp;extractionId=NRG_TI_SFF__custom_2293925">imports</a>
-and <a
-href="https://ec.europa.eu/eurostat/databrowser/explore/all/envir?lang=en&amp;subtheme=nrg.nrg_quant.nrg_quanta.nrg_t.nrg_te&amp;display=list&amp;sort=category&amp;extractionId=NRG_TI_SFF__custom_2293925">exports</a>
-of petroleum, natural gas, and coal between European countries and their
-trading partners. <strong>Related</strong>: The <a
-href="https://www.eia.gov/">Energy Information Administration</a> tracks
-US imports and exports of <a
-href="https://www.eia.gov/petroleum/data.php#imports">petroleum</a>, <a
-href="https://www.eia.gov/naturalgas/data.php#imports">natural gas</a>,
-and <a href="https://www.eia.gov/coal/data.php#imports">coal</a>.
-<strong>As seen in</strong>: <a
-href="https://www.newstatesman.com/chart-of-the-day/2022/02/how-europe-is-dependent-on-russian-gas">How
-Europe is dependent on Russian gas</a> (New Statesman) and <a
-href="https://www.nytimes.com/2022/02/25/business/economy/russia-europe-sanctions-gas-oil.html">Why
-the Toughest Sanctions on Russia Are the Hardest for Europe to Wield</a>
-(New York Times). <strong>Previously</strong>: <a
-href="https://agsi.gie.eu/">European gas storage</a> (<a
-href="https://www.data-is-plural.com/archive/2022-01-26-edition/">DIP
-2022.01.26</a>), <a
-href="https://www.nationaloilcompanydata.org/">state-owned oil
-companies</a> (<a
-href="https://www.data-is-plural.com/archive/2019-05-01-edition/">DIP
-2019.05.01</a>), and <a
-href="https://edx.netl.doe.gov/dataset/global-oil-gas-features-database">global
-and gas infrastructure</a> (<a
-href="https://www.data-is-plural.com/archive/2018-06-06-edition/">DIP
-2018.06.06</a>). [h/t <a
-href="https://blog.datawrapper.de/data-vis-dispatch-march-1-2022/">Lisa
-Charlotte Muth</a>]</p>
-<p> </p>
-<p><strong>Ukraine border crossing sites.</strong> The UN’s <a
-href="https://www.unocha.org/ukraine">Office for the Coordination of
-Humanitarian Affairs in Ukraine</a> has combined information from
-multiple sources to create a <a
-href="https://data.humdata.org/dataset/ukraine-border-crossings">geospatial
-dataset of the country’s international border crossings</a> with Moldova
-(11 crossings listed), Poland (8), Hungary (5), Romania (4), and
-Slovakia (2). It provides each crossing’s latitude, longitude, border
-country, and name in both Ukrainian and English. The associated metadata
-indicates an “expected update frequency” of weekly.</p>
-<p> </p>
-<p><strong>Conspiracy theory language.</strong> <a
-href="https://link.springer.com/article/10.3758/s13428-021-01698-z">Alessandro
-Miani et al.</a> have built a <a
-href="https://osf.io/snpcg/">dataset</a> to study the language of
-conspiracy theories. Starting with a set of phrases associated with
-major conspiracy theories (e.g., those surrounding Princess Diana’s
-death), the authors searched online for sources that mentioned them
-often, ultimately selecting 150 websites — both mainstream and
-conspiracy-laden — that met their criteria. Then, in mid-2020, they
-collected 72,000+ topical articles from those sites. For each article,
-the project includes its text, lexical features, and metadata. [h/t <a
-href="https://www.reddit.com/r/datasets/comments/rzufy9/loco_the_88millionword_language_of_conspiracy/">Gwern
-Branwen</a>]</p>
-<p> </p>
-<p><strong>ISS photo locations.</strong> In 2013, <a
-href="https://natronics.org/">Nathan Bergey</a> crawled NASA’s <a
-href="https://eol.jsc.nasa.gov/">website of International Space Station
-imagery</a>, <a
-href="https://natronics.github.io/ISS-photo-locations/">creating a
-dataset</a> that listed the mission, roll, frame, latitude, and
-longitude of each of the million-plus photographs ever taken from the
-habitable satellite. <strong>Related</strong>: NASA itself also provides
-tools for <a
-href="https://eol.jsc.nasa.gov/SearchPhotos/">searching</a>, <a
-href="https://eol.jsc.nasa.gov/SearchPhotos/ShowQueryResults-Lightcycle.pl?results=Latest_ISS_Imagery">browsing</a>,
-and <a href="https://issearthserv.jsc.nasa.gov/i4.html">mapping</a> ISS
-imagery. [h/t <a
-href="https://twitter.com/sasha_trub/status/1466961926441914372">Sasha
-Trubetskoy</a>]</p>
-<p> </p>
-<p><strong>Software sunsets.</strong> The website <a
-href="https://endoflife.date/">endoflife.date</a> tracks “end of life”
-dates and “support lifecycles” for roughly 100 software products
-— languages, frameworks, operating systems, and more. It indicates, for
-example, that <a href="https://endoflife.date/python">Python 3.10
-appeared in October 2021</a> and will lose security support in October
-2026. You can access the project’s machine-readable data <a
-href="https://github.com/endoflife-date/endoflife.date/tree/master/products">through
-its GitHub repository</a> and <a
-href="https://endoflife.date/docs/api">API</a>.</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send unsupported feedback
-to jsvine@gmail.com, or just reply to this email. Looking for past
-datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and to browse past editions.</em></p>
-]]></content>
-    <link href="http://www.data-is-plural.com/archive/2022-03-16-edition" rel="alternate"/>
-    <summary>European energy imports/exports, Ukraine border crossing sites, conspiracy theory language, ISS photo locations, and software sunsets.</summary>
-    <published>2022-03-16T08:00:00-04:00</published>
   </entry>
 </feed>
