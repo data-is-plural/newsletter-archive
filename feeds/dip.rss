@@ -6,7 +6,126 @@
     <description>A weekly newsletter of useful/curious datasets.</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>https://github.com/data-is-plural/newsletter-archive</generator>
-    <lastBuildDate>Wed, 25 May 2022 08:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jun 2022 08:00:00 -0400</lastBuildDate>
+    <item>
+      <title>Data Is Plural — 2022.06.01 edition</title>
+      <link>http://www.data-is-plural.com/archive/2022-06-01-edition</link>
+      <description>School shootings, congressional districts and legislators, wind and solar power, Olympic accounting, and “What Middletown Read.”</description>
+      <content:encoded><![CDATA[<p><em>School shootings, congressional districts and legislators, wind
+and solar power, Olympic accounting, and “What Middletown
+Read.”</em></p>
+<p> </p>
+<p><strong>School shootings, continued.</strong> The <a
+href="https://www.chds.us/ssdb/">K-12 School Shooting Database</a>, <a
+href="https://www.chds.us/ssdb/about/">housed at the Naval Postgraduate
+School</a>, “documents each and every instance a gun is brandished, is
+fired, or a bullet hits school property for any reason, regardless of
+the number of victims, time, day of the week.” It <a
+href="https://www.chds.us/ssdb/methods/">describes</a> 2,000+ incidents
+from 1970 to the present and links them to information regarding 3,000+
+victims killed and wounded, 2,200+ shooters, and 2,000+ weapons.
+<strong>Related</strong>: A few years ago, CNN <a
+href="https://www.cnn.com/interactive/2019/07/us/ten-years-of-school-shootings-trnd/">compiled</a>
+a <a href="https://github.com/cnnlabs/cnn-school-shooting-data">dataset
+of 180 school shootings from 2009 to 2018</a>, focusing on incidents
+where at least one person was shot. <strong>Previously</strong>: <a
+href="https://github.com/washingtonpost/data-school-shootings">Data on
+school shootings</a> <a
+href="https://www.washingtonpost.com/graphics/2018/local/school-shootings-database/">from
+The Washington Post</a> (<a
+href="https://www.data-is-plural.com/archive/2018-04-25-edition/">DIP
+2018.04.25</a>), and on mass shootings from <a
+href="https://www.theviolenceproject.org/mass-shooter-database/">The
+Violence Project</a>, <a href="https://www.gunviolencearchive.org/">Gun
+Violence Archive</a>, and <a
+href="https://www.motherjones.com/politics/2012/12/mass-shootings-mother-jones-full-data/">Mother
+Jones</a> (<a
+href="https://www.data-is-plural.com/archive/2021-03-24-edition/">DIP
+2021.03.24</a>, <a
+href="https://www.data-is-plural.com/archive/2015-12-09-edition/">DIP
+2015.12.09</a>). [h/t Michael A. Rice + <a
+href="https://twitter.com/spetulla">Sam Petulla</a>]</p>
+<p> </p>
+<p><strong>Congress, consolidated.</strong> <a
+href="https://congress.ippsr.msu.edu/congress/">CongressData</a>, <a
+href="https://twitter.com/MattGrossmann/status/1527287170515410945">published
+last month</a> by political scientists at the <a
+href="https://ippsr.msu.edu/about-ippsr">Institute for Public Policy and
+Social Research</a>, “compiles information about all US congressional
+districts,” the legislators representing them, and those legislators’
+policymaking behavior (such as committee memberships and number of bills
+sponsored). The dataset spans 1789-2021, although many of <a
+href="https://raw.githubusercontent.com/IPPSR/congressData/main/congress_codebook_1.pdf">the
+variables</a> (such those derived from the Census Bureau’s American
+Community Survey) are only available for more recent years. [h/t <a
+href="https://github.com/erikgahner/PolData/commit/c32e833d777b5f2ffd1a9056abcb87632df13834">Erik
+Gahner Larsen</a>]</p>
+<p> </p>
+<p><strong>Wind and solar power.</strong> The <a
+href="https://globalenergymonitor.org/about/our-story/">Global Energy
+Monitor</a>’s <a
+href="https://globalenergymonitor.org/projects/global-wind-power-tracker/">Global
+Wind Power Tracker</a> is “a worldwide dataset of utility-scale wind
+facilities,” focusing on those with planned or installed capacities of
+at least 10 megawatts. It provides each facility’s name, location,
+status, capacity, installation type, owner, and other details. The
+project <a
+href="https://globalenergymonitor.org/press-release/new-trackers-showing-country-by-country-build-out-of-utility-scale-solar-and-wind/">launched
+last week</a> alongside a sibling dataset, the <a
+href="https://globalenergymonitor.org/projects/global-solar-power-tracker/">Global
+Solar Power Tracker</a>. They <a
+href="https://globalenergymonitor.org/about/our-story/">join</a> a <a
+href="https://globalenergymonitor.org/projects/">growing collection of
+trackers</a> from the organization, including those examining <a
+href="https://globalenergymonitor.org/projects/global-coal-tracker/">coal
+infrastructure</a>, <a
+href="https://globalenergymonitor.org/projects/global-steel-plant-tracker/">steel
+plants</a>, and <a
+href="https://globalenergymonitor.org/projects/global-oil-gas-extraction-tracker/">oil
+and gas resources</a>. [h/t <a
+href="https://twitter.com/paleomedia">Nathaniel Hoffman</a>]</p>
+<p> </p>
+<p><strong>Olympic accounting.</strong> <a
+href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3873972">Martin
+Müller et al.</a> have <a
+href="https://dataverse.harvard.edu/dataverse/mega-events;jsessionid=ac44ac785d9741f492283c74df49">compiled</a>
+a <a
+href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/F0MNC9">dataset
+of the costs and revenues</a> of three recurring “mega-events”: the
+Summer Olympic Games, Winter Olympic Games, and FIFA Men’s World Cup.
+For each event between 1964 and 2018, it indicates the number of
+athletes, number of accredited media, venue costs, organization costs,
+ticketing revenue, broadcast revenue, and sponsorship revenue.</p>
+<p> </p>
+<p><strong>”What Middletown Read.”</strong> Thanks to <a
+href="https://lib.bsu.edu/wmr/about.php">the discovery</a> of “a
+collection of dusty ledgers” in 2003, researchers have built a <a
+href="https://lib.bsu.edu/wmr/index.php">database of (nearly) every
+checkout from Muncie, Indiana’s public library</a> from November 1891 to
+December 1902. The project, a collaboration between the library and <a
+href="https://www.bsu.edu/Academics/CentersandInstitutes/Middletown.aspx">Ball
+State University</a>, takes its name from a <a
+href="https://en.wikipedia.org/wiki/Middletown_studies">famous
+sociological study</a> that <a
+href="https://www.theguardian.com/membership/2016/oct/18/view-from-middletown-us-muncie-america">pseudonymized
+Muncie as Middletown</a>. <strong>Previously</strong>: <a
+href="https://shelftalkblog.wordpress.com/2017/02/14/for-the-love-of-data-an-open-data-release/">Seattle
+Public Library checkouts since 2005</a> (<a
+href="https://www.data-is-plural.com/archive/2017-03-01-edition/">DIP
+2017.03.01</a>). [h/t <a href="https://twitter.com/mattbrown_econ">Matt
+Brown</a>]</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send dusty ledgers of
+feedback to jsvine@gmail.com, or just reply to this email. Looking for
+past datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions.</em></p>
+]]></content:encoded>
+      <guid isPermaLink="false">dip-2022-06-01</guid>
+      <pubDate>Wed, 01 Jun 2022 08:00:00 -0400</pubDate>
+    </item>
     <item>
       <title>Data Is Plural — 2022.05.25 edition</title>
       <link>http://www.data-is-plural.com/archive/2022-05-25-edition</link>
@@ -980,103 +1099,6 @@ subscribe and to browse past editions.</em></p>
 ]]></content:encoded>
       <guid isPermaLink="false">dip-2022-03-30</guid>
       <pubDate>Wed, 30 Mar 2022 08:00:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Data Is Plural — 2022.03.23 edition</title>
-      <link>http://www.data-is-plural.com/archive/2022-03-23-edition</link>
-      <description>HealthCare.gov plans, political apologies, border changes, PISA results and responses, and born-digital artworks.</description>
-      <content:encoded><![CDATA[<p><em>HealthCare.gov plans, political apologies, border changes, PISA
-results and responses, and born-digital artworks.</em></p>
-<p> </p>
-<p><strong>HealthCare.gov plans.</strong> A <a
-href="https://www.cms.gov/CCIIO/Resources/Data-Resources/marketplace-puf">series
-of datasets</a> from the US Centers for Medicare &amp; Medicaid Services
-describes all the plans available through the government’s health
-insurance marketplace. The information resembles that available through
-<a href="https://www.healthcare.gov/">HealthCare.gov</a>, but is
-provided as structured, downloadable files. The datasets describe the
-costs, benefits, networks, service areas, and other aspects of 27,000+
-plans offered by hundreds insurers in 2022, plus similar data for each
-year since 2014. [h/t <a
-href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3966751">Qiang
-Liu et al.</a> + <a
-href="https://www.nationalaffairs.com/blog/detail/findings-a-daily-roundup/healing-powers">Kevin
-Lewis</a>]</p>
-<p> </p>
-<p><strong>Political apologies.</strong> The <a
-href="https://www.politicalapologies.com/?page_id=74">Political
-Apologies Database</a>, part of a <a
-href="https://www.politicalapologies.com/">broader research project on
-the theme</a>, is “an inventory of political apologies offered by states
-or state representatives to a collective for human rights violations
-that happened in the recent or distant past.” The current version
-describes 300+ apologies offered between 1947 and 2021, indicating the
-countries and officials who offered them, the countries and groups that
-received them, classifications of the apologized-for violations, and
-other context. <strong>Read more</strong>: “<a
-href="https://journals.sagepub.com/doi/10.1177/00223433211024696">Examining
-the ‘age of apology,’</a>” a study summarizing <a
-href="https://www.politicalapologies.com/?page_id=234">the
-researchers</a>’ findings. [h/t <a
-href="https://github.com/erikgahner/PolData/commit/177cde6b811e08867e24c00f42ea8a58112d04f0">Erik
-Gahner Larsen</a>]</p>
-<p> </p>
-<p><strong>Border changes.</strong> The <a
-href="https://icr.ethz.ch/data/cshapes/">CShapes 2.0</a> dataset “maps
-the borders and capitals of independent states and dependent territories
-from 1886 to 2019,” and includes the specific dates of each change. It’s
-available in a range of formats and <a
-href="https://cshapes.ethz.ch/">as an interactive graphic</a>.
-<strong>Read more</strong>: <a
-href="https://icr.ethz.ch/publications/cshapes-2/">Guy Schvitz et
-al.</a> describe the dataset’s creation and how it compares to others.
-<strong>Related</strong>: <a href="http://svmiller.com/">Steven V.
-Miller</a>’s <a
-href="https://correlatesofwar.org/data-sets/territorial-change">Territorial
-Change</a> dataset, which “records all peaceful and violent changes of
-territory from 1816-2018.” [h/t <a
-href="https://twitter.com/Pmojmir/status/1481577831582736384">Mojmír
-Polák</a> + <a
-href="https://www.cambridge.org/core/journals/american-political-science-review/article/historical-border-changes-state-building-and-contemporary-trust-in-europe/363B969350A764C68914A48276B44252">Scott
-F. Abramson et al.</a>]</p>
-<p> </p>
-<p><strong>PISA results and responses.</strong> Through tests and
-questionnaires, the OECD’s <a
-href="https://www.oecd.org/pisa/">Programme for International Student
-Assessment</a> examines the math, science, and reading proficiency,
-learning environments, and attitudes of hundreds of thousands
-15-year-olds in <a
-href="http://www.oecd.org/pisa/aboutpisa/pisa-participants.htm">dozens
-of countries around the world</a>. Its <a
-href="https://www.oecd.org/pisa/data/">public datasets</a> include
-students’ results and responses from seven assessment waves, dating from
-2000 to 2018. <strong>As seen in</strong>: “<a
-href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0261438">Sex
-differences in adolescents’ occupational aspirations: Variations across
-time and place</a>,” a study using 2018 PISA data. [h/t <a
-href="https://twitter.com/xangregg">Xan Gregg</a>]</p>
-<p> </p>
-<p><strong>Born-digital artworks.</strong> In 1999, the new-media-art
-nonprofit <a href="https://rhizome.org/">Rhizome</a> launched <a
-href="https://artbase.rhizome.org/">ArtBase</a>, “an archive of
-born-digital artworks.” Last year, it <a
-href="https://rhizome.org/editorial/2021/apr/26/the-artbase-relaunches-welcome-to-linked-open-data/">relaunched
-the project</a> as a <a
-href="https://artbase.rhizome.org/wiki/About#Linked_Open_Data">linked
-data</a> resource, allowing you <a
-href="https://artbase.rhizome.org/wiki/Query">run complex and detailed
-queries</a> across the collection’s 2,200+ entries.</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send born-digital
-feedback to jsvine@gmail.com, or just reply to this email. Looking for
-past datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and to browse past editions.</em></p>
-]]></content:encoded>
-      <guid isPermaLink="false">dip-2022-03-23</guid>
-      <pubDate>Wed, 23 Mar 2022 08:00:00 -0400</pubDate>
     </item>
   </channel>
 </rss>
