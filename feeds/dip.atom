@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.data-is-plural.com</id>
   <title>Data Is Plural</title>
-  <updated>2022-06-01T08:00:00-04:00</updated>
+  <updated>2022-06-08T08:00:00-04:00</updated>
   <author>
     <name>Jeremy Singer-Vine</name>
     <email>jsvine@gmail.com</email>
@@ -10,6 +10,101 @@
   <link href="https://www.data-is-plural.com" rel="alternate"/>
   <generator>https://github.com/data-is-plural/newsletter-archive</generator>
   <subtitle>A weekly newsletter of useful/curious datasets.</subtitle>
+  <entry>
+    <id>dip-2022-06-08</id>
+    <title>Data Is Plural — 2022.06.08 edition</title>
+    <updated>2022-06-08T08:00:00-04:00</updated>
+    <content type="CDATA"><![CDATA[<p><em>House primaries, where college grads go, Hong Kong political
+prisoners, mercenaries, and Roman amphitheaters.</em></p>
+<p> </p>
+<p><strong>Six decades of House primaries.</strong> In 2014, <a
+href="https://www.stephenpettigrew.com/">Stephen Pettigrew</a>, <a
+href="https://www.westga.edu/profile.php?emp_id=91943">Karen Owen</a>,
+and <a
+href="https://www.augie.edu/academics/majors-and-programs/government-and-international-affairs/political-science/faculty">Emily
+Wanless</a> published a <a
+href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/26448">dataset
+of all Democratic and Republican primary election results</a> for the US
+House of Representatives between 1956 and 2010. It indicates each
+election’s year, state, redistricting status, primary system (open,
+closed, semi-open, multiparty), and more. The dataset also lists each
+candidate’s name, gender, prior office, and votes received. In 2020, <a
+href="https://www.michaelgmiller.com/">Michael G. Miller</a> and <a
+href="https://twitter.com/nickicamberg">Nicki Camberg</a> published a <a
+href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/CXVMSY">follow-up
+dataset</a>, adding coverage for 2012 through 2018. It uses the same
+variable names and structure as the earlier dataset, so that the two
+files can be easily combined.</p>
+<p> </p>
+<p><strong>Where college grads go.</strong> <a
+href="https://www.nber.org/papers/w30088">Johnathan Conzelmann et
+al.</a> have created a <a
+href="https://www.openicpsr.org/openicpsr/project/170381/version/V3/view">dataset</a>
+that estimates the geographic distribution of recent graduates from
+2,600 US colleges and universities, calculated from information on the
+schools’ official LinkedIn landing pages. For each institution, the
+dataset indicates the proportions of alumni in each of the 278 specific
+US locations in LinkedIn’s geographic lexicon and cross-references them
+with government-defined <a
+href="https://en.wikipedia.org/wiki/List_of_core-based_statistical_areas">metropolitan
+and micropolitan statistical areas</a>. <strong>Read more</strong>: <a
+href="https://twitter.com/JohnConz/status/1531633773103677448">An
+introductory Twitter thread</a>. [h/t <a
+href="https://twitter.com/sharon000">Sharon Machlis</a>]</p>
+<p> </p>
+<p><strong>Hong Kong political prisoners.</strong> The <a
+href="https://hkdc.us/about/">Hong Kong Democracy Council</a>, a
+US-based advocacy group, last month published the first version of its
+<a href="https://hkdc.us/political-prisoners-latest-update/">Hong Kong
+Political Prisoners Database</a>, which contains information about
+1,000+ protesters, opposition leaders, and <a
+href="https://en.wikipedia.org/wiki/Hong_Kong_national_security_law">national
+security law</a> defendants incarcerated since the city’s pro-democracy
+mass protests in mid-2019. It lists each defendant’s age, arrest date,
+arrest location, conviction date, convicted offenses, sentencing date,
+sentence length, and other details. An <a
+href="https://hkdc.us/political-prisoners-research-report/">accompanying
+report</a> describes the database’s context and methodology. [h/t <a
+href="https://twitter.com/SamuelBickett/status/1528756196089507840">Samuel
+Bickett</a>]</p>
+<p> </p>
+<p><strong>Mercenaries.</strong> <a
+href="https://journals.sagepub.com/doi/full/10.1177/00220027211072528">Ulrich
+Petersohn et al.</a>’s <a
+href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/TOFZ09">Commercial
+Military Actor Database</a> examines “the market for force” in 72
+countries from 1980 to 2016. It contains information, primarily sourced
+from news reports, on thousands of contractual relationships between
+providers (mercenaries and private military/security companies) and
+their clients (governments, opposition groups, NGOs, and transnational
+corporations). The contracted work ranges “from combat services and
+support services (e.g., communication, maintenance), to logistics,
+security, consultancy, training, and reconstruction.”</p>
+<p> </p>
+<p><strong>Roman amphitheaters.</strong> <a
+href="https://isaw.nyu.edu/people/faculty/isaw-faculty/sebastian-heath">Sebastian
+Heath</a>, a professor of computational humanities and Roman
+archaeology, has <a
+href="https://dlib.nyu.edu/awdl/isaw/isaw-papers/20-13/">constructed</a>
+a <a
+href="https://github.com/roman-amphitheaters/roman-amphitheaters">dataset
+of 260+ amphitheaters in the Roman Empire</a>. It provides the
+structures’ known names, coordinates, orientations, and capacities,
+among other characteristics, and links the entries to external data
+sources.</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send open-air feedback to
+jsvine@gmail.com, or just reply to this email. Looking for past
+datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions.</em></p>
+]]></content>
+    <link href="http://www.data-is-plural.com/archive/2022-06-08-edition" rel="alternate"/>
+    <summary>House primaries, where college grads go, Hong Kong political prisoners, mercenaries, and Roman amphitheaters.</summary>
+    <published>2022-06-08T08:00:00-04:00</published>
+  </entry>
   <entry>
     <id>dip-2022-06-01</id>
     <title>Data Is Plural — 2022.06.01 edition</title>
@@ -1021,96 +1116,5 @@ subscribe and to browse past editions.</em></p>
     <link href="http://www.data-is-plural.com/archive/2022-04-06-edition" rel="alternate"/>
     <summary>COVID-19 therapeutics, the 1950 Census, electric vehicle registrations, military alliances, and white sharks.</summary>
     <published>2022-04-06T08:00:00-04:00</published>
-  </entry>
-  <entry>
-    <id>dip-2022-03-30</id>
-    <title>Data Is Plural — 2022.03.30 edition</title>
-    <updated>2022-03-30T08:00:00-04:00</updated>
-    <content type="CDATA"><![CDATA[<p><em>WHO outbreak alerts, census tract urbanization, local digital
-news, research organizations, and teenagers on TV.</em></p>
-<p> </p>
-<p><strong>WHO outbreak alerts.</strong> The World Health Organization’s
-<a href="https://www.who.int/emergencies/disease-outbreak-news">Disease
-Outbreak News</a> provides “information on confirmed acute public health
-events or potential events of concern,” with reports issued when those
-events meet certain criteria. <a
-href="https://www.medrxiv.org/content/10.1101/2022.03.22.22272790v1">Colin
-J. Carlson et al.</a> have assembled a <a
-href="https://github.com/cghss/dons">dataset of all 2,700+ reports</a>
-published between January 1996 and December 2019; it includes report
-metadata (date and headline, for example), as well as variables drawn
-from the descriptive text, such as the diseases discussed, countries
-affected, case counts, whether the report implicates mass gatherings,
-and more.</p>
-<p> </p>
-<p><strong>Census tract urbanization.</strong> Studies of US
-urbanization often examine census tracts, but those boundaries have
-changed over time and <a
-href="https://twitter.com/snmarkley/status/1502268920593592321">are
-relatively new</a> in <a
-href="https://www.census.gov/history/www/programs/geography/tracts_and_block_numbering_areas.html">many
-parts of the country</a>. To aid longitudinal analyses, <a
-href="https://www.nature.com/articles/s41597-022-01184-x">Scott N.
-Markley et al.</a> have taken 2010’s tract boundaries and used several
-techniques to estimate the number of housing units within them every
-decade from 1940 to 2010, plus 2019. The <a
-href="https://osf.io/fzv5e/">dataset</a> also estimates each tract’s
-“urbanization year,” when it surpassed 200 units per square mile.
-<strong>Read more</strong>: <a
-href="https://twitter.com/snmarkley/status/1502234165521092610">An
-introductory Twitter thread</a>. <strong>Related</strong>: The <a
-href="https://s4.ad.brown.edu/Projects/Diversity/Researcher/Bridging.htm">Longitudinal
-Tract Data Base</a>, which also provides historical estimates of housing
-units (and other Census variables) matched to 2010 tracts, going back to
-1970.</p>
-<p> </p>
-<p><strong>Local digital news.</strong> <a
-href="https://www.projectnewsoasis.com/">Project Oasis</a>, which aims
-to “map and showcase the growing number of locally focused digital news
-publications in the U.S. and Canada,” has collected data on 700+ such
-organizations. Its <a
-href="https://www.projectnewsoasis.com/publications">downloadable,
-browsable dataset</a> describes their ownership, tax status, years in
-operation, communities served, and other characteristics. A <a
-href="https://www.sembramedia.org/projectoasis/">parallel effort is
-underway in Europe</a>, with plans to publish a final report in early
-2023. [h/t <a
-href="https://mailchi.mp/hackshackers/nicar-is-back">Hacks/Hackers</a>]</p>
-<p> </p>
-<p><strong>Research organizations.</strong> The <a
-href="https://ror.org/">Research Organization Registry</a> is “a
-community-led project to develop an open, sustainable, usable, and
-unique identifier for every research organization in the world.” Earlier
-this month, the project <a
-href="https://zenodo.org/record/6347575">published</a> its <a
-href="https://ror.org/blog/2022-03-17-2022-first-independent-release/">first
-“independent” release</a>, expanding on data seeded from a <a
-href="https://www.digital-science.com/press-release/grid-passes-torch-to-ror/">prior
-initiative</a>. It contains the names, location, contact information,
-and <a href="https://ror.readme.io/docs/ror-data-structure">other
-structured information</a> for 100,000+ organizations.</p>
-<p> </p>
-<p><strong>Teenagers on TV.</strong> In search of “a better
-understanding of the age differences between teen characters in TV shows
-and the actors who portray them,” <a
-href="https://amber.rbind.io/">Amber Thomas</a> last year manually
-compiled <a
-href="https://data.world/amberthomas/age-of-characters-and-actors-in-teen-tv-shows">data
-on 240+ characters</a> in 33 series that premiered between 2000 and
-2021. For each character, Thomas’s dataset lists their name, fictional
-age/grade, gender, and love interests, as well as the actor’s name and
-birth date.</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send Glee-ful feedback to
-jsvine@gmail.com, or just reply to this email. Looking for past
-datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and to browse past editions.</em></p>
-]]></content>
-    <link href="http://www.data-is-plural.com/archive/2022-03-30-edition" rel="alternate"/>
-    <summary>WHO outbreak alerts, census tract urbanization, local digital news, research organizations, and teenagers on TV.</summary>
-    <published>2022-03-30T08:00:00-04:00</published>
   </entry>
 </feed>
