@@ -6,7 +6,113 @@
     <description>A weekly newsletter of useful/curious datasets.</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>https://github.com/data-is-plural/newsletter-archive</generator>
-    <lastBuildDate>Wed, 15 Jun 2022 08:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 22 Jun 2022 08:00:00 -0400</lastBuildDate>
+    <item>
+      <title>Data Is Plural — 2022.06.22 edition</title>
+      <link>http://www.data-is-plural.com/archive/2022-06-22-edition</link>
+      <description>Monkeypox cases, Ukraine air raid alerts, central bank interest rates, inclusive crossword names, and NYC tree plantings.</description>
+      <content:encoded><![CDATA[<p><em>Monkeypox cases, Ukraine air raid alerts, central bank interest
+rates, inclusive crossword names, and NYC tree plantings.</em></p>
+<p> </p>
+<p><em>👋 As some eagle-eyed readers have noticed, last month I started
+syndicating Data Is Plural at <a
+href="https://themarkup.org/series/data-is-plural">The Markup</a> and <a
+href="https://fivethirtyeight.com/tag/data-is-plural/">FiveThirtyEight</a>.
+I’m enjoying the experiment and I’d like to try expanding the roster. If
+you’re interested, <a href="https://www.jsvine.com/">get in
+touch</a>.</em></p>
+<p> </p>
+<p><strong>Monkeypox cases.</strong> <a
+href="https://global.health/">Global.health</a>, a <a
+href="https://global.health/about/">data-sharing initiative</a> launched
+during the COVID-19 pandemic, has compiled a <a
+href="https://github.com/globaldothealth/monkeypox">dataset of 2,500+
+confirmed cases</a> from this year’s <a
+href="https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON385">monkeypox
+outbreak</a>. Drawing from government and media sources, the <a
+href="https://docs.google.com/spreadsheets/d/1CEBhao3rMe-qtCbAgJTn5ZKQMRFWeAeaiXFpBY3gbHE/edit#gid=0">dataset</a>
+lists each case’s country and publicly known characteristics, such as
+the patient’s gender, age range, date of confirmation, and/or symptoms.
+<strong>As seen in</strong>: <a
+href="https://www.monkeypox.global.health/">Charts and maps from the
+Global.health team</a> and <a
+href="https://ourworldindata.org/monkeypox">from Our World In
+Data</a>.</p>
+<p> </p>
+<p><strong>Ukraine air raid alerts.</strong> <a
+href="https://agafonkin.com/">Volodymyr Agafonkin</a>, a Kyiv-based
+software engineer, has been <a
+href="https://observablehq.com/@mourner/sirens">scraping and
+charting</a> the emergency notifications published through <a
+href="https://t.me/air_alert_ua">Air Alert Ukraine</a>, a Telegram
+channel. The notifications serve as a digital counterpart to the sirens
+that warn residents of potentially-imminent Russian air attacks.
+Agafonkin’s <a
+href="https://observablehq.com/@mourner/sirens#data">dataset</a>
+indicates the starting and ending times of 8,000+ alerts for 240
+locations since March 15. <strong>Read more</strong>: <a
+href="https://s2.washingtonpost.com/camp-rw/?s=62addaedcfe8a21601b1353a">An
+interview with Agafonkin</a> in <a
+href="https://www.washingtonpost.com/newsletters/how-to-read-this-chart/">How
+To Read This Chart</a>, a Washington Post newsletter.</p>
+<p> </p>
+<p><strong>Central bank interest rates.</strong> The <a
+href="https://www.bis.org/about/index.htm">Bank for International
+Settlements</a> maintains a <a
+href="https://www.bis.org/statistics/cbpol.htm">longitudinal dataset</a>
+of <a
+href="https://www.focus-economics.com/economic-indicator/policy-interest-rate">policy
+interest rates</a>, which central banks adjust to influence inflation
+and other aspects of the economy. The dataset, which includes both
+official policy rates and analogous precursors, covers three dozen
+countries plus the European Central Bank. The records span decades,
+going as far back as 1946 for Denmark, India, Japan, Sweden,
+Switzerland, and the UK; 1954 for the US; 1960 for Canada; and 1976 for
+Australia.</p>
+<p> </p>
+<p><strong>Inclusive crossword names.</strong> In a <a
+href="https://www.nytimes.com/2022/03/15/crosswords/wojcik-diverse-crossword-puzzles.html">post</a>
+for <a
+href="https://www.nytimes.com/2022/02/18/crosswords/introducing-gameplay.html">The
+New York Times’ Gameplay section</a>, psychology professor <a
+href="https://twitter.com/ewojcik">Erica Hsiung Wojcik</a> describes her
+motivations for creating the <a
+href="https://sites.google.com/view/expandedcrosswordnamedatabase/home">Expanded
+Crossword Name Database</a>, “a free and regularly updated list of
+names, places and things that represent groups, identities and people
+often excluded from crossword grids,” with a particular focus on “names
+of women, non-binary, trans, and/or people of color.” It contains 2,400+
+potential entries — from AALIYAH to ZORANEALEHURSTON — that correspond
+to 900+ distinct proper nouns, each briefly described in the project’s
+<a
+href="https://docs.google.com/spreadsheets/d/1fc6thrwFTPKwP0PlBTvzKjfiGlnM37JXLPaR8_In3fw/edit#gid=578940851">main
+spreadsheet</a>. [h/t <a href="https://www.georgeho.org/">George
+Ho</a>]</p>
+<p> </p>
+<p><strong>NYC tree plantings.</strong> New York City’s Department of
+Parks &amp; Recreation publishes a <a
+href="https://www.nycgovparks.org/trees/street-tree-planting/locations">map
+and dataset</a> of recent and likely-upcoming street tree plantings. The
+information includes each location’s coordinates, nearest street
+address, ZIP code, city council district, and borough, as well as the
+dates of completed plantings. <strong>Previously</strong>: <a
+href="https://tree-map.nycgovparks.org/">Every street tree in NYC</a>
+(<a
+href="https://www.data-is-plural.com/archive/2016-11-16-edition/">DIP
+2016.11.16</a>). [h/t <a href="https://twitter.com/sophiewarnes">Soph
+Warnes</a>]</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send transplanted
+feedback to jsvine@gmail.com, or just reply to this email. Looking for
+past datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions.</em></p>
+]]></content:encoded>
+      <guid isPermaLink="false">dip-2022-06-22</guid>
+      <pubDate>Wed, 22 Jun 2022 08:00:00 -0400</pubDate>
+    </item>
     <item>
       <title>Data Is Plural — 2022.06.15 edition</title>
       <link>http://www.data-is-plural.com/archive/2022-06-15-edition</link>
@@ -1008,113 +1114,6 @@ subscribe and to browse past editions.</em></p>
 ]]></content:encoded>
       <guid isPermaLink="false">dip-2022-04-20</guid>
       <pubDate>Wed, 20 Apr 2022 08:00:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Data Is Plural — 2022.04.13 edition</title>
-      <link>http://www.data-is-plural.com/archive/2022-04-13-edition</link>
-      <description>Constitutions, EU asylum, critical infrastructure density, Brazilian news outlets, and carnivore diets.</description>
-      <content:encoded><![CDATA[<p><em>Constitutions, EU asylum, critical infrastructure density,
-Brazilian news outlets, and carnivore diets.</em></p>
-<p> </p>
-<p><strong>Constitutions.</strong> The <a
-href="https://comparativeconstitutionsproject.org/">Comparative
-Constitutions Project</a>, a nonprofit originally <a
-href="https://comparativeconstitutionsproject.org/about-ccp/">launched
-at the University of Illinois in 2005</a>, “produces comprehensive data
-about the world’s constitutions.” Its <a
-href="https://comparativeconstitutionsproject.org/download-data/">downloadable
-datasets</a> cover both <a
-href="https://comparativeconstitutionsproject.org/chronology/">chronology</a>
-(years of creation, amendment, dissolution, and other events from 1789
-to 2019) and characteristics (hundreds of variables on topics ranging
-from citizenship and electoral oversight to whether the text discusses a
-national flag or motto). A sibling site, <a
-href="https://www.constituteproject.org/">Constitute</a>, provides <a
-href="https://constituteproject.org/constitutions?lang=en&amp;status=in_force">annotated
-text of all national constitutions currently in force</a>, as well as <a
-href="https://www.constituteproject.org/content/data?lang=en">Linked
-Data files and an API</a>. <strong>As seen in</strong>: <a
-href="https://andreborges.org/">André Borges</a>’s <a
-href="https://andreborges.org/datasets/">dataset tracking presidential
-powers in 79 democracies with elected presidents</a>. [h/t <a
-href="https://twitter.com/fhollenbach/status/1489532506093334529">Florian
-Hollenbach</a>]</p>
-<p> </p>
-<p><strong>EU asylum.</strong> The European Union <a
-href="https://ec.europa.eu/eurostat/cache/metadata/en/migr_asyapp_esms.htm">requires
-members to submit</a> a range of asylum-related figures to <a
-href="https://en.wikipedia.org/wiki/Eurostat">Eurostat</a>, which it
-then <a
-href="https://ec.europa.eu/eurostat/databrowser/explore/all/popul?lang=en&amp;subtheme=migr.migr_asy">compiles
-into standardized datasets</a>. These include monthly and annual counts
-of asylum applications submitted, pending, withdrawn, processed under
-the EU’s “accelerated procedure,” and filed by unaccompanied minors,
-disaggregated by age, sex, and citizenship. <strong>As seen in</strong>:
-“<a
-href="https://www.europeandatajournalism.eu/eng/News/Data-news/Is-the-EU-s-asylum-system-ready-to-welcome-Ukrainian-refugees">Europe
-welcomes Ukrainian refugees with an asylum system that averages more
-than 15 months of delay</a>,” published by Civio.es, with <a
-href="https://datos.civio.es/dataset/meses-de-retraso-en-la-resolucion-de-solicitudes-de-asilo-en-la-ue/">data</a>
-and an <a
-href="https://observablehq.com/@civio/682-backlog-in-asylum-applications-in-the-european-union-as">Observable
-notebook</a>. [h/t <a
-href="https://buttondown.email/puntofisso/archive/463-quantum-of-sollazzo/">Giuseppe
-Sollazzo</a>]</p>
-<p> </p>
-<p><strong>Critical infrastructure density.</strong> <a
-href="https://www.nature.com/articles/s41597-022-01218-4">Sadhana
-Nirandjan et al.</a> have developed “a first-of-its-kind globally
-harmonized spatial dataset” representing the density of critical
-infrastructure, built with <a
-href="https://www.openstreetmap.org/">OpenStreetMap</a> data (and <a
-href="https://www.nature.com/articles/s41597-022-01218-4#Sec16">noting
-its limitations</a>). The researchers selected 39 kinds of structures
-(railways, landfills, pharmacies, etc.), grouped into seven categories:
-education, energy, health, telecommunication, transportation, waste, and
-water. Then they <a
-href="https://github.com/snirandjan/CISI">calculated</a> those
-categories’ <a href="https://zenodo.org/record/4957647">concentrations
-at 0.10°- and 0.25°-grid resolutions</a>. <strong>Previously</strong>:
-<a href="https://hifld-geoplatform.opendata.arcgis.com/">US
-infrastructure, from the Department of Homeland Security</a> (<a
-href="https://www.data-is-plural.com/archive/2016-03-02-edition/">DIP
-2016.03.02</a>). [h/t <a href="http://aeturrell.com/">Arthur
-Turrell</a>]</p>
-<p> </p>
-<p><strong>Brazilian news outlets.</strong> <a
-href="https://www.atlas.jor.br/">Atlas da Notícia</a> (⎘<a
-href="https://www.atlas.jor.br/en/">English homepage</a>) aims to
-catalog Brazil’s print, online, television, and radio news outlets.
-Created by the <a href="https://www.projor.org.br/en">Instituto para o
-Desenvolvimento do Jornalismo</a> and <a
-href="https://voltdata.info/en/">Volt Data Lab</a>, the <a
-href="https://www.atlas.jor.br/dados/app/">dataset’s 14,000+ entries</a>
-list each outlet’s name, medium, distribution frequency, municipality,
-state, open/closed status, and (in some cases) approximate staff size.
-[h/t <a href="https://twitter.com/mdafontoura">Marcelo Fontoura</a> + <a
-href="https://twitter.com/sergiospagnuolo">Sérgio Spagnuolo</a>]</p>
-<p> </p>
-<p><strong>Carnivore diets.</strong> <a
-href="https://onlinelibrary.wiley.com/doi/10.1111/geb.13296">Owen
-Middleton et al.</a>’s <a
-href="https://github.com/osmiddleton/CarniDIET-Database">CarniDIET
-1.0</a> provides “data on the diet compositions for 103 species of
-terrestrial, carnivorous mammals from (mostly) peer-reviewed scientific
-papers.” Each of its 29,000+ rows represents a “diet record,” describing
-a component of the species’ consumption, for a particular population,
-geography, and study. [h/t <a
-href="https://news.ycombinator.com/item?id=26637450">finphil</a>]</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send flesh-eating
-feedback to jsvine@gmail.com, or just reply to this email. Looking for
-past datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and to browse past editions.</em></p>
-]]></content:encoded>
-      <guid isPermaLink="false">dip-2022-04-13</guid>
-      <pubDate>Wed, 13 Apr 2022 08:00:00 -0400</pubDate>
     </item>
   </channel>
 </rss>
