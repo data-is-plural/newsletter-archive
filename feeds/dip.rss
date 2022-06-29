@@ -6,7 +6,116 @@
     <description>A weekly newsletter of useful/curious datasets.</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>https://github.com/data-is-plural/newsletter-archive</generator>
-    <lastBuildDate>Wed, 22 Jun 2022 08:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 29 Jun 2022 08:00:00 -0400</lastBuildDate>
+    <item>
+      <title>Data Is Plural — 2022.06.29 edition</title>
+      <link>http://www.data-is-plural.com/archive/2022-06-29-edition</link>
+      <description>State abortion laws, diaspora voting policies, automated driving crashes, Bay Area rents, and dendrochronology.</description>
+      <content:encoded><![CDATA[<p><em>State abortion laws, diaspora voting policies, automated driving
+crashes, Bay Area rents, and dendrochronology.</em></p>
+<p> </p>
+<p><strong>State abortion laws.</strong> The <a
+href="https://www.guttmacher.org/about">Guttmacher Institute</a>, a
+“research and policy organization committed to advancing sexual and
+reproductive health and rights,” maintains a <a
+href="https://www.guttmacher.org/state-policy/explore/overview-abortion-laws">table
+summarizing each US state’s abortion laws</a>. It examines key aspects
+of the legal landscape — such as gestational age limits, mandated
+counseling, and whether an abortion must be performed by a licensed
+physician — and links to topic-specific tables with <a
+href="https://www.guttmacher.org/united-states/abortion/state-policies-abortion">additional
+detail</a>. A <a
+href="https://www.guttmacher.org/state-policy/explore/abortion-policy-absence-roe">separate
+table</a> categorizes, as of June 1, the policy implications in each
+state of overturning <em>Roe v. Wade</em>. <strong>Previously</strong>:
+Guttmacher’s <a href="https://osf.io/kthnf/">state-level statistics on
+pregnancy, birth, and abortion</a> (<a
+href="https://www.data-is-plural.com/archive/2020-10-28-edition/">DIP
+2020.10.28</a>) and <a href="https://osf.io/5k7fp/">Global Abortion
+Incidence Dataset</a> (<a
+href="https://www.data-is-plural.com/archive/2021-04-14-edition/">DIP
+2021.04.14</a>), the World Health Organization’s <a
+href="https://abortion-policies.srhr.org/">Global Abortion Policies
+Database</a> (<a
+href="https://www.data-is-plural.com/archive/2021-10-13-edition/">DIP
+2021.10.13</a>), and Caitlin Knowles Myers’s <a
+href="https://osf.io/8dg7r/">dataset of abortion facility distances</a>
+(<a
+href="https://www.data-is-plural.com/archive/2022-02-02-edition/">DIP
+2022.02.02</a>).</p>
+<p> </p>
+<p><strong>Diaspora voting policies.</strong> If you don’t live in your
+country of citizenship, can you still vote there? <a
+href="https://www.evrrdataset.com/team">Nathan Allen et al.</a>’s <a
+href="https://www.evrrdataset.com/">Extraterritorial Voting Rights and
+Restrictions Dataset</a> examines 20+ characteristics of 195 countries’
+policies from 1950 to 2020. The <a
+href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/DIJQ3H">dataset</a>’s
+<a
+href="https://dataverse.harvard.edu/file.xhtml?fileId=6337042">variables</a>
+relate to dual citizenship, voter registration, mail-in ballots, and
+more. <strong>Read more</strong>: <a
+href="https://twitter.com/bethiamswellman/status/1539264747643756546">An
+introductory Twitter thread from coauthor Elizabeth Iams Wellman</a>.
+[h/t <a
+href="https://twitter.com/rabbiatariq11/status/1539347240090755076">Rabbia
+Tariq</a>]</p>
+<p> </p>
+<p><strong>Automated driving crashes.</strong> Last June, the National
+Highway Traffic Safety Administration <a
+href="https://www.nhtsa.gov/laws-regulations/standing-general-order-crash-reporting">issued
+a directive</a> requiring manufacturers and fleet operators to report
+certain crashes involving either <a
+href="https://www.nhtsa.gov/equipment/driver-assistance-technologies">advanced
+driver assistance</a> or higher-level “automated driving systems.”
+Earlier this month, the agency <a
+href="https://www.nhtsa.gov/press-releases/initial-data-release-advanced-vehicle-technologies">published
+its first release</a> of <a
+href="https://www.nhtsa.gov/laws-regulations/standing-general-order-crash-reporting">crash
+report data</a>, which it says “will be updated on a monthly basis.” The
+files describe each report and include information about the car,
+location, circumstances, and injury level. [h/t <a
+href="https://www.washingtonpost.com/technology/2022/06/15/tesla-autopilot-crashes/">Faiz
+Siddiqui et al.</a>]</p>
+<p> </p>
+<p><strong>Bay Area rents.</strong> In 2018, economist <a
+href="https://www.katepennington.org/">Kate Pennington</a> used the <a
+href="https://archive.org/web/">Wayback Machine</a> to <a
+href="https://www.katepennington.org/clmethod">collect data</a> on two
+decades of Craiglist posts advertising housing in the San Francisco Bay
+Area. The <a href="https://www.katepennington.org/data">results span
+200,000+ listings between 2000 and 2018</a>, from which Pennington
+extracted each post’s date, price, bedroom count, location, and more.
+<strong>Previously</strong>: Twentieth-century San Francisco rents <a
+href="https://sfrb.org/san-francisco-housing-study-databook">from the
+city’s Housing Study DataBook</a> and <a
+href="https://experimental-geography.blogspot.com/2016/05/employment-construction-and-cost-of-san.html">transcribed
+from newspaper listings</a> (<a
+href="https://www.data-is-plural.com/archive/2016-05-25-edition/">DIP
+2016.05.25</a>). [h/t <a href="https://www.albrightalex.com/">Alex
+Albright</a>]</p>
+<p> </p>
+<p><strong>Dendrochronology.</strong> The <a
+href="https://www.vag.org.uk/">Vernacular Architecture Group</a>’s <a
+href="https://archaeologydataservice.ac.uk/archives/view/vag_dendro/index.cfm">Dendrochronology
+Database</a> “provides the tree-ring dates for over 4500 buildings in
+the United Kingdom, ranging from cathedrals to cottages and barns.” Each
+<a
+href="https://archaeologydataservice.ac.uk/archives/view/vag_dendro/overview.cfm">entry</a>
+lists a date range, dating method, location, building type, and
+descriptive notes.</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send carbon-dated
+feedback to jsvine@gmail.com, or just reply to this email. Looking for
+past datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions.</em></p>
+]]></content:encoded>
+      <guid isPermaLink="false">dip-2022-06-29</guid>
+      <pubDate>Wed, 29 Jun 2022 08:00:00 -0400</pubDate>
+    </item>
     <item>
       <title>Data Is Plural — 2022.06.22 edition</title>
       <link>http://www.data-is-plural.com/archive/2022-06-22-edition</link>
@@ -1002,118 +1111,6 @@ subscribe and to browse past editions.</em></p>
 ]]></content:encoded>
       <guid isPermaLink="false">dip-2022-04-27</guid>
       <pubDate>Wed, 27 Apr 2022 08:00:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Data Is Plural — 2022.04.20 edition</title>
-      <link>http://www.data-is-plural.com/archive/2022-04-20-edition</link>
-      <description>Rare diseases, solar panels, electoral interventions, open source security, and spider news.</description>
-      <content:encoded><![CDATA[<p><em>Rare diseases, solar panels, electoral interventions, open source
-security, and spider news.</em></p>
-<p> </p>
-<p><strong>Rare diseases.</strong> <a
-href="https://www.orpha.net/">Orphanet</a>, established in 1997 by the
-<a href="https://en.wikipedia.org/wiki/Inserm">French National Institute
-for Health and Medical Research</a>, “aims to provide high-quality
-information on rare diseases,” <a
-href="https://www.orpha.net/consor/cgi-bin/Disease_Search_List.php?lng=EN">defined
-as</a> those affecting no more than 1 in 2,000 people in Europe. You can
-search <a
-href="https://www.orpha.net/consor/cgi-bin/Disease.php?lng=EN">the
-diseases</a>, <a
-href="https://www.orpha.net/consor/cgi-bin/Drugs.php?lng=EN">relevant
-drugs</a>, <a
-href="https://www.orpha.net/consor/cgi-bin/SupportGroup.php?lng=EN">patient
-organizations</a>, and other resources. The affiliated <a
-href="http://www.orphadata.org">Orphdata</a> provides public <a
-href="https://github.com/Orphanet/Orphadata_aggregated">downloads</a>
-and <a href="https://api.orphadata.com/">an API</a> for certain data,
-including <a
-href="http://www.orphadata.org/cgi-bin/epidemio.html">disease
-prevalence</a>, symptoms, and genetic links. <strong>Related</strong>:
-Orphanet and the <a href="https://www.ebi.ac.uk/about">European
-Bioinformatics Institute</a> have <a
-href="https://www.ebi.ac.uk/ols/ontologies/ordo">developed a structured
-vocabulary</a> defining relevant terms and their relations to one
-another. [h/t <a
-href="https://www.sciencedirect.com/science/article/abs/pii/S0167629621001077">Simona
-Gamba et al.</a> + <a
-href="https://www.nationalaffairs.com/blog/detail/findings-a-daily-roundup/careful">Kevin
-Lewis</a>]</p>
-<p> </p>
-<p><strong>Solar panels.</strong> The <a
-href="https://www.lbl.gov/about/">Berkeley Lab</a>’s <a
-href="https://emp.lbl.gov/tracking-the-sun">Tracking the Sun</a> project
-examines US trends in residential and small non-residential solar panel
-installations. Its latest report describes more than 2 million such
-projects, based on records provided by state governments, utility
-companies, and other organizations. It features <a
-href="https://emp.lbl.gov/tracking-sun-tool">an interactive
-dashboard</a>, summary tables, and a public dataset that lists each
-installation’s location, capacity, price, cost rebated, owner type,
-installer, physical orientation, component details, and other
-characteristics. A <a
-href="https://emp.lbl.gov/utility-scale-solar">companion report and
-dataset</a> examine utility-scale solar plants. [h/t <a
-href="https://www.linkedin.com/in/ed-vine-a480347">Ed Vine</a>]</p>
-<p> </p>
-<p><strong>Electoral interventions.</strong> Political scientist <a
-href="https://www.dovhlevin.com/">Dov H. Levin</a>’s <a
-href="https://journals.sagepub.com/doi/10.1177/0738894216661190">Partisan
-Electoral Intervention by the Great Powers</a> <a
-href="https://www.dovhlevin.com/datasets">dataset</a> describes 117
-attempts by the US and Russia/USSR to influence foreign elections
-between 1946 and 2000, drawing on congressional investigations,
-declassified histories, academic publications, and other sources. For
-each election, it indicates the intervening nation(s), whether their
-acts were overt or covert, whether they involved campaign funding, and
-more. <strong>Related</strong>: <a
-href="https://politics.utoronto.ca/faculty/profile/95/">Lucan A. Way</a>
-and <a href="https://adamecasey.com/">Adam E. Casey</a>’s <a
-href="https://dataverse.scholarsportal.info/dataset.xhtml?persistentId=doi:10.5683/SP/BYRQQS">dataset</a>
-of <a
-href="https://www.ponarseurasia.org/russian-foreign-election-interventions-since-1991/">Russian
-electoral interventions from 1991 to 2017</a>. [h/t <a
-href="https://twitter.com/Idl3/status/1508112516009926656">@Idl3</a>]</p>
-<p> </p>
-<p><strong>Open source security.</strong> GitHub recently <a
-href="https://github.blog/2022-02-22-github-advisory-database-now-open-to-community-contributions/">open-sourced</a>
-its <a href="https://github.com/advisories">database of open
-source–related security advisories</a>. Now the public can <a
-href="https://github.com/github/advisory-database">download its full
-contents</a> and contribute additions and improvements. The database
-uses <a href="https://ossf.github.io/osv-schema/">a standardized
-schema</a> that <a
-href="https://security.googleblog.com/2021/06/announcing-unified-vulnerability-schema.html">Google
-staff introduced last year</a> and that <a
-href="https://github.com/ossf/osv-schema#open-source-vulnerability-schema">other
-major services have adopted</a>; the <a
-href="https://osv.dev/">osv.dev</a> project aggregates their reports.
-[h/t <a href="https://news.ycombinator.com/item?id=30480862">Grey
-Baker</a>]</p>
-<p> </p>
-<p><strong>Spider news.</strong> <a
-href="https://www.nature.com/articles/s41597-022-01197-6">Stefano
-Mammola et al.</a> have “compiled an expert-curated global database on
-the online newspaper coverage of human-spider encounters” from 2010 to
-2020, spanning 5,300+ articles from 81 countries. The <a
-href="https://figshare.com/articles/dataset/Global_Spider_News_Database/14822301">database</a>
-provides the location of each encounter, plus information about the
-“presence of photographs of spiders and bites, number and type of
-errors, consultation of experts, and a subjective assessment of
-sensationalism.” <strong>Read more</strong>: “<a
-href="https://www.researchsquare.com/article/rs-1383492/v1">The global
-spread of (mis)information on spiders</a>,” by the researchers.</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send eight-legged
-feedback to jsvine@gmail.com, or just reply to this email. Looking for
-past datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and to browse past editions.</em></p>
-]]></content:encoded>
-      <guid isPermaLink="false">dip-2022-04-20</guid>
-      <pubDate>Wed, 20 Apr 2022 08:00:00 -0400</pubDate>
     </item>
   </channel>
 </rss>
