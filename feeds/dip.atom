@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.data-is-plural.com</id>
   <title>Data Is Plural</title>
-  <updated>2022-06-29T08:00:00-04:00</updated>
+  <updated>2022-07-06T08:00:00-04:00</updated>
   <author>
     <name>Jeremy Singer-Vine</name>
     <email>jsvine@gmail.com</email>
@@ -10,6 +10,113 @@
   <link href="https://www.data-is-plural.com" rel="alternate"/>
   <generator>https://github.com/data-is-plural/newsletter-archive</generator>
   <subtitle>A weekly newsletter of useful/curious datasets.</subtitle>
+  <entry>
+    <id>dip-2022-07-06</id>
+    <title>Data Is Plural — 2022.07.06 edition</title>
+    <updated>2022-07-06T08:00:00-04:00</updated>
+    <content type="CDATA"><![CDATA[<p><em>Banned and challenged books, mass expulsions, European air
+traffic, Shakespeare, and Saturday Night Live.</em></p>
+<p> </p>
+<p><strong>Banned and challenged books.</strong> A <a
+href="https://pen.org/press-release/report-1586-school-book-bans-and-restrictions-in-86-school-districts-across-26-states/">recent</a>
+<a href="https://pen.org/banned-in-the-usa/">report</a> from <a
+href="https://pen.org/about-us/">PEN America</a> identified 1,500+
+decisions, made between July 2021 and March 2022, to ban books from
+classrooms and school libraries. A <a
+href="https://docs.google.com/spreadsheets/d/1hTs_PB7KuTMBtNMESFEGuK-0abzhNxVv4tgpI5-iKe8/edit#gid=1623346099">spreadsheet
+accompanying the report</a> lists each decision’s date, type, state, and
+school district, as well as each banned book’s title, authors,
+illustrators, and translators. <strong>Related</strong>: Independent
+researcher <a href="https://twitter.com/TasslynM">Tasslyn Magnusson</a>,
+in <a
+href="https://www.everylibraryinstitute.org/book_censorship_database_magnusson">partnership</a>
+with <a
+href="https://www.everylibrary.org/about-everylibrary">EveryLibrary</a>,
+maintains a <a
+href="https://docs.google.com/spreadsheets/d/1LqhGcvFDdT4izvoXRrz95BTDUzLr7M3IHf-2HGKhX7I/edit#gid=1604785798">spreadsheet</a>
+of both book bans and book challenges, with 3,000+ entries since the
+2021–22 school year. [h/t <a
+href="https://www.infodocket.com/2022/06/16/everylibrary-launches-banned-book-store-internets-most-comprehensive-store-of-banned-books/">Gary
+Price</a>]</p>
+<p> </p>
+<p><strong>Mass expulsions.</strong> Political scientist <a
+href="https://www.meghanmgarrity.com/">Meghan M. Garrity</a>’s <a
+href="https://journals.sagepub.com/doi/abs/10.1177/00223433211068633">Government-Sponsored
+Mass Expulsion dataset</a> focuses on “policies in which governments
+systematically remove ethnic, racial, religious or national groups, en
+masse.” Using a combination of archival research and secondary sources,
+Garrity documents 139 such events, estimated to have expelled more than
+30 million people between 1900 and 2020. For each expulsion, the dataset
+provides “information on the expelling country, onset, duration, region,
+scale, category of persons expelled, and frequency.” To download it,
+visit the Journal of Peace Research’s <a
+href="https://www.prio.org/journals/jpr/replicationdata">replication
+data portal</a> and search for “mass expulsion.”</p>
+<p> </p>
+<p><strong>European air traffic.</strong> <a
+href="https://www.eurocontrol.int/about-us">Eurocontrol</a>, the main
+organization coordinating Europe’s air traffic management, publishes an
+“<a href="https://ansperformance.eu/">aviation intelligence portal</a>”
+with a range of industry metrics, including <a
+href="https://ansperformance.eu/traffic/">traffic reports</a> that count
+the daily number of flights <a
+href="https://www.eurocontrol.int/Economics/DailyTrafficVariation-States.html">by
+country</a>, <a
+href="https://www.eurocontrol.int/Economics/DailyTrafficVariation-Airports.html">by
+airport</a>, and <a
+href="https://www.eurocontrol.int/Economics/DailyTrafficVariation-AOs.html">by
+operator</a>. The portal also offers <a
+href="https://ansperformance.eu/data/">bulk datasets</a> on topics such
+as <a
+href="https://ansperformance.eu/reference/dataset/airport-traffic/">airport
+traffic</a>, <a
+href="https://ansperformance.eu/reference/dataset/horizontal-flight-efficiency/">flight
+efficiency</a>, <a
+href="https://ansperformance.eu/reference/dataset/emissions/">estimated
+CO2 emissions</a>, and more. [h/t <a
+href="https://twitter.com/puntofisso">Giuseppe Sollazzo</a>]</p>
+<p> </p>
+<p><strong>Shakespeare.</strong> <a
+href="https://shakespeare.folger.edu/about-the-folger-shakespeare/">The
+Folger Shakespeare</a> “brings you the complete works of the world’s
+greatest playwright, edited for modern readers.” Its digital editions of
+the Bard’s plays and poems are available <a
+href="https://shakespeare.folger.edu/shakespeares-works/">to read
+online</a> and <a href="https://shakespeare.folger.edu/download/">to
+download</a> in various file formats. It also <a
+href="https://shakespeare.folger.edu/the-folger-shakespeare-api/">provides
+an API</a>, with <a
+href="https://www.folgerdigitaltexts.org/api">endpoints</a> for
+synopses, roles, monologues, word frequencies, and more. [h/t <a
+href="https://news.ycombinator.com/item?id=31906490">Cameron
+Armstrong</a>]</p>
+<p> </p>
+<p><strong>Saturday Night Live.</strong> <a
+href="https://twitter.com/snlmedia">Joel Navaroli</a>’s <a
+href="http://www.snlarchives.net/">snlarchives.net</a> aims to catalog
+and cross-reference every episode, cast member, host, character, sketch,
+impression, and other aspects of Saturday Night Live’s 47-and-counting
+seasons. An <a href="https://github.com/hhllcks/snldb">open-source
+project</a> by <a href="https://www.hhllcks.de/">Hendrik Hilleckes</a>
+and <a href="https://colinmorris.github.io/">Colin Morris</a> scrapes
+much of that information into <a
+href="https://github.com/hhllcks/snldb/tree/master/output">structured
+data files</a>. <strong>As seen in</strong>: <a
+href="https://colinmorris.github.io/blog/snl-sketch-gender">Morris’s
+2017 analysis of gender representation in SNL sketches</a>.</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send impersonated
+feedback to jsvine@gmail.com, or just reply to this email. Looking for
+past datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions.</em></p>
+]]></content>
+    <link href="http://www.data-is-plural.com/archive/2022-07-06-edition" rel="alternate"/>
+    <summary>Banned and challenged books, mass expulsions, European air traffic, Shakespeare, and Saturday Night Live.</summary>
+    <published>2022-07-06T08:00:00-04:00</published>
+  </entry>
   <entry>
     <id>dip-2022-06-29</id>
     <title>Data Is Plural — 2022.06.29 edition</title>
@@ -1009,120 +1116,5 @@ subscribe and to browse past editions.</em></p>
     <link href="http://www.data-is-plural.com/archive/2022-05-04-edition" rel="alternate"/>
     <summary>Wastewater treatment plants, COVID and wastewater, regulatory agencies, NC corporate landlords, and bats in caves.</summary>
     <published>2022-05-04T08:00:00-04:00</published>
-  </entry>
-  <entry>
-    <id>dip-2022-04-27</id>
-    <title>Data Is Plural — 2022.04.27 edition</title>
-    <updated>2022-04-27T08:00:00-04:00</updated>
-    <content type="CDATA"><![CDATA[<p><em>Earmarks, intermediate care facilities, more county-level
-mortality data, alpine snow, and the meta-Dataverse.</em></p>
-<p> </p>
-<p><strong>Earmarks.</strong> The US government’s <a
-href="https://www.congress.gov/bill/117th-congress/house-bill/2471">spending
-bill for FY 2022</a>, enacted last month, <a
-href="https://www.axios.com/congressional-earmarks-new-constraints-44b0551d-bdfc-4e1e-b465-e1d2962c90b7.html">heralded
-the return</a> of <a
-href="https://en.wikipedia.org/wiki/Earmark_(politics)">earmarks</a>,
-which were banned for a decade. This time around, Congress <a
-href="https://appropriations.house.gov/transparency/fiscal-year-2022">is
-publishing a set of documents</a> that describe legislators’ specific
-funding requests — but <a
-href="https://twitter.com/danielschuman/status/1511322851932000260">as
-sideways PDFs instead of structured data</a>. So the Bipartisan Policy
-Center has <a
-href="https://bipartisanpolicy.org/blog/congressionally-directed-spending-fy2022-dataset/">converted
-the PDFs into a spreadsheet</a> listing the 4,975 approved earmarks
-within them. Bloomberg Government has also <a
-href="https://about.bgov.com/news/colleges-cops-airports-among-earmark-winners-in-2022-funding/">compiled
-and shared</a> a similar spreadsheet. Both files list each earmarked
-project’s name, recipient, state, and price tag, as well as the
-legislator(s) who made the request and the subcommittee that approved
-it; BPC’s file additionally includes the location, agency,
-agency-account, and legislators’ <a
-href="https://www.congress.gov/help/field-values/member-bioguide-ids">Bioguide
-IDs</a>. [h/t <a
-href="https://firstbranchforecast.com/2022/04/11/first-branch-forecast-for-april-11-2022-fox-on-stocks/">First
-Branch Forecast</a>]</p>
-<p> </p>
-<p><strong>Intermediate care facilities.</strong> In the US, <a
-href="https://www.cms.gov/Medicare/Provider-Enrollment-and-Certification/CertificationandComplianc/ICFIID">intermediate
-care facilities</a> provide residential, long-term care to people whose
-intellectual or developmental disabilities require active treatment and
-continuous supervision. On Monday, colleagues at BuzzFeed News published
-an <a
-href="https://www.buzzfeednews.com/article/kendalltaggart/kkr-brightspring-disability-private-equity-abuse">investigation
-into one of the largest ICF owners</a>, supplemented by an <a
-href="https://github.com/BuzzFeedNews/2022-04-icf-analysis">analysis of
-inspection data</a> gathered through the Centers for Medicare &amp;
-Medicaid Services’ <a href="https://qcor.cms.gov/">QCOR portal</a>.
-(Disclosure: I helped to write an initial version of the data-collection
-code.) The records, <a
-href="https://github.com/BuzzFeedNews/2022-04-icf-analysis/tree/main/data/qcor">available
-in bulk</a> for the first time, <a
-href="https://github.com/BuzzFeedNews/2022-04-icf-analysis#survey-data">enumerate</a>
-surveys conducted between 2010 and 2021, the facilities examined, and
-the types of deficiencies inspectors found. [h/t <a
-href="https://twitter.com/jtemplon/status/1518551383833731072">John
-Templon</a>]</p>
-<p> </p>
-<p><strong>More county-level, COVID-related mortality data.</strong> The
-CDC provides <a
-href="https://wonder.cdc.gov/mcd-icd10-provisional.html">provisional,
-county-level mortality data for 2018 to the near-present</a> (<a
-href="https://www.data-is-plural.com/archive/2021-12-15-edition/">DIP
-2021.12.15</a>), but requires you to build specific, targeted queries.
-So researchers at <a href="https://documentingcovid19.io/">Documenting
-COVID-19</a> used the agency’s <a
-href="https://wonder.cdc.gov/wonder/help/WONDER-API.html">WONDER API</a>
-to gather key stats for every county, such as <a
-href="https://github.com/MuckRock/uncounted_data/tree/main/data/race_ethnicity_and_cause_breakdowns">breakdowns
-of deaths</a> among causes the <a
-href="https://www.cdc.gov/nchs/nvss/vsrr/covid19/excess_deaths.htm">CDC
-says are commonly comorbid with COVID-19</a>, and have <a
-href="https://www.muckrock.com/news/archives/2022/apr/04/muckrock-and-the-documenting-covid-19-project/">shared
-them</a> in a <a
-href="https://github.com/MuckRock/uncounted_data">downloadable
-repository</a>. [h/t <a href="https://betsyladyzhets.com/">Betsy
-Ladyzhets</a> + <a href="https://www.juanfrans.com/">Juan Francisco
-Saldarriaga</a>]</p>
-<p> </p>
-<p><strong>Alpine snow.</strong> <a
-href="https://tc.copernicus.org/articles/15/1343/2021/">Michael Matiu et
-al. (2021)</a> compiled a <a
-href="https://zenodo.org/record/5109574">dataset of daily snowfall and
-snow depths</a> at 2,000+ measurement stations in the European Alps,
-spanning the years 1970 to 2019. They gathered records from open data
-portals and through requests to authorities in five countries,
-standardized them into a consistent format, and filled in gaps where
-possible. [h/t <a
-href="https://dataisthenewoil.substack.com/p/data-is-the-new-oil-04032021-update">Olivier
-Lejeune</a>]</p>
-<p> </p>
-<p><strong>The meta-Dataverse.</strong> The <a
-href="https://dataverse.org/">Dataverse</a> project is <a
-href="https://dataverse.org/about">an open-source platform for data
-sharing</a>. (This newsletter has linked to dozens of Dataverse-hosted
-datasets, mostly on the original <a
-href="https://dataverse.harvard.edu/">Harvard Dataverse</a>.) It <a
-href="https://guides.dataverse.org/en/latest/api/index.html">offers an
-API</a> for fetching metadata on <a
-href="https://dataverse.org/metrics">each known installation</a> and the
-datasets within them, which project member <a
-href="https://scholar.harvard.edu/juliangautier/home">Julian Gautier</a>
-has been using to assemble and update <a
-href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/DCDKZQ">bulk
-snapshots</a>.</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send meta-meta-metadata
-feedback to jsvine@gmail.com, or just reply to this email. Looking for
-past datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and to browse past editions.</em></p>
-]]></content>
-    <link href="http://www.data-is-plural.com/archive/2022-04-27-edition" rel="alternate"/>
-    <summary>Earmarks, intermediate care facilities, more county-level mortality data, alpine snow, and the meta-Dataverse.</summary>
-    <published>2022-04-27T08:00:00-04:00</published>
   </entry>
 </feed>
