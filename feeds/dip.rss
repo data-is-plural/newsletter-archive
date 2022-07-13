@@ -6,7 +6,108 @@
     <description>A weekly newsletter of useful/curious datasets.</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>https://github.com/data-is-plural/newsletter-archive</generator>
-    <lastBuildDate>Wed, 06 Jul 2022 08:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 13 Jul 2022 08:00:00 -0400</lastBuildDate>
+    <item>
+      <title>Data Is Plural — 2022.07.13 edition</title>
+      <link>http://www.data-is-plural.com/archive/2022-07-13-edition</link>
+      <description>Heat metrics, technology adoption, a pile of law, digital payments in India, and early movie theaters in Oregon.</description>
+      <content:encoded><![CDATA[<p><em>Heat metrics, technology adoption, a pile of law, digital
+payments in India, and early movie theaters in Oregon.</em></p>
+<p> </p>
+<p><strong>Heat metrics.</strong> When you talk about outdoor heat,
+you’re likely referring to “dry-bulb” temperatures, measured by a
+thermometer shielded from the sun and moisture. But other factors also
+contribute to the physiological experience of hot weather. To that end,
+<a href="https://www.nature.com/articles/s41597-022-01405-3">Keith R.
+Spangler et al.</a> have created a <a
+href="https://doi.org/10.6084/m9.figshare.19419836">dataset</a>
+containing daily estimates of the <a
+href="https://www.weather.gov/tsa/wbgt">wet-bulb globe temperature</a>,
+<a href="http://www.utci.org/">Universal Thermal Climate Index</a>, <a
+href="https://www.weather.gov/ama/heatindex">heat index</a>, <a
+href="https://www.canada.ca/en/environment-climate-change/services/seasonal-weather-hazards/warm-season-weather-hazards.html#toc7">humidex</a>,
+and <a
+href="https://www.nature.com/articles/s41597-022-01405-3/tables/4">other
+heat metrics</a> for every county in the contiguous United States from
+2000 through 2020. That first metric, for instance, was “originally
+developed in the 1950s to establish epidemiologically relevant thermal
+thresholds to prevent heat-related illnesses at US military training
+camps,” and takes humidity, solar radiation, and wind speed into
+account.</p>
+<p> </p>
+<p><strong>Technology adoption.</strong> <a
+href="https://www.dcomin.host.dartmouth.edu/">Diego A. Comin</a> and <a
+href="https://www.barthobijn.net/">Bart Hobijn</a>’s <a
+href="https://www.nber.org/papers/w15319">Cross-country Historical
+Adoption of Technology</a> dataset, published in 2009, <a
+href="https://data.nber.org/data-appendix/w15319/">compiles
+statistics</a> “on the adoption of over 100 technologies in more than
+150 countries since 1800.” Examples include the number of telegrams
+sent, television sets in use, knee replacement surgeries performed, and
+metric tons of freight carried on railways. Last month, <a
+href="https://www.cgdev.org/expert/charles-kenny">Charles Kenney</a> and
+<a href="https://www.cgdev.org/staff/george-yang">George Yang</a>
+published a <a
+href="https://www.cgdev.org/publication/technology-and-development-exploration-data">dataset
+and accompanying working paper</a> that updates those numbers and
+expands the technologies covered. [h/t <a
+href="https://twitter.com/scepticalranil/status/1534953212326854657">Ranil
+Dissanayake</a>]</p>
+<p> </p>
+<p><strong>Legal language.</strong> <a
+href="https://arxiv.org/abs/2207.00220">Peter Henderson et al.</a>’s <a
+href="https://huggingface.co/datasets/pile-of-law/pile-of-law">Pile of
+Law</a> is “a 256GB (and growing) dataset of open-source
+English-language legal and administrative data, covering court opinions,
+contracts, administrative rules, and legislative records.” Its texts
+come from <a href="https://www.courtlistener.com/">CourtListener</a> (<a
+href="https://www.data-is-plural.com/archive/2016-04-13-edition/">DIP
+2016.04.13</a>), the <a
+href="https://www.constituteproject.org/">Constitute Project</a> (<a
+href="https://www.data-is-plural.com/archive/2022-04-13-edition/">DIP
+2022.04.13</a>), the European Court of Human Rights’ <a
+href="https://hudoc.echr.coe.int/eng">published</a> <a
+href="https://archive.org/details/ECHR-ACL2019">opinions</a>, the
+Consumer Financial Protection Bureau’s <a
+href="https://www.consumerfinance.gov/credit-cards/agreements/">collection
+of credit card agreements</a>, and many other sources. [h/t <a
+href="https://pinboard.in/u:arnicas">Lynn Cherny</a>]</p>
+<p> </p>
+<p><strong>Digital payments in India.</strong> <a
+href="https://en.wikipedia.org/wiki/PhonePe">PhonePe</a>, a digital
+payments company serving India, publishes <a
+href="https://github.com/PhonePe/pulse">quarterly aggregated data</a> on
+users and transactions. The statistics, which go back to 2018 and power
+an <a href="https://www.phonepe.com/pulse/explore/">interactive map</a>,
+are available on a national, state, and district level. User counts are
+provided as totals, as well as grouped by device brand. Transactions are
+measured by count and total value, with the counts also disaggregated
+into a few categories.</p>
+<p> </p>
+<p><strong>Early movie theaters in Oregon.</strong> The <a
+href="https://oregontheaterproject.uoregon.edu/">Oregon Theater
+Project</a>, <a
+href="https://oregontheaterproject.uoregon.edu/about-project">developed
+as part of a cinema studies course</a>, “aims to document the history of
+moviegoing in Oregon – why people went to the movies, where people
+watched them, and what people thought about them,” with a current focus
+on the silent film era. Its directory of 200+ theaters is available to
+<a
+href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/FGOUZ3">download</a>
+and <a href="https://oregontheaterproject.uoregon.edu/theaters">explore
+online</a>.</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send silent feedback to
+jsvine@gmail.com, or just reply to this email. Looking for past
+datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions.</em></p>
+]]></content:encoded>
+      <guid isPermaLink="false">dip-2022-07-13</guid>
+      <pubDate>Wed, 13 Jul 2022 08:00:00 -0400</pubDate>
+    </item>
     <item>
       <title>Data Is Plural — 2022.07.06 edition</title>
       <link>http://www.data-is-plural.com/archive/2022-07-06-edition</link>
@@ -985,124 +1086,6 @@ subscribe and to browse past editions.</em></p>
 ]]></content:encoded>
       <guid isPermaLink="false">dip-2022-05-11</guid>
       <pubDate>Wed, 11 May 2022 08:00:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Data Is Plural — 2022.05.04 edition</title>
-      <link>http://www.data-is-plural.com/archive/2022-05-04-edition</link>
-      <description>Wastewater treatment plants, COVID and wastewater, regulatory agencies, NC corporate landlords, and bats in caves.</description>
-      <content:encoded><![CDATA[<p><em>Wastewater treatment plants, COVID and wastewater, regulatory
-agencies, NC corporate landlords, and bats in caves.</em></p>
-<p> </p>
-<p><em>👋 Do you have <strong>piles of PDFs</strong> you’d like to turn
-into <strong>structured data</strong>? I’m trying something new and <a
-href="https://www.jsvine.com/consulting/pdf-data-extraction">starting a
-PDF-data-extraction consulting practice</a>. Interested? Just respond to
-this email with a brief summary of your project. Fees will depend on the
-specifics, but I plan on giving deep discounts to early
-clients.</em></p>
-<p> </p>
-<p><strong>Wastewater treatment plants.</strong> The <a
-href="https://figshare.com/articles/dataset/HydroWASTE_version_1_0/14847786/1">HydroWASTE</a>
-dataset, developed by McGill University geographers and engineers, <a
-href="https://essd.copernicus.org/articles/14/559/2022/">describes
-58,000+ wastewater treatment plants around the world</a> and links them
-to downstream <a href="https://www.hydrosheds.org/hydroatlas">river
-networks</a>. Compiled from national and regional sources, HydroWASTE
-lists each facility’s name, country, status, estimated or official
-population served, geocoordinates, estimated discharge location, level
-of treatment, volume of discharge, and more. The US accounts for the
-most entries, with 14,000+, followed by Germany, Italy, France, and
-Brazil. [h/t <a
-href="https://twitter.com/mishafredmeyer/status/1499422901380038656">Michael
-F. Meyer</a> + <a
-href="https://twitter.com/NVergopolan/status/1499765836189356033">Noemi
-Vergopolan</a>]</p>
-<p> </p>
-<p><strong>COVID and wastewater, continued.</strong> <a
-href="https://www.data-is-plural.com/archive/2022-01-26-edition/">Earlier
-this year</a>, DIP featured <a
-href="https://github.com/biobotanalytics/covid19-wastewater-data">wastewater
-sampling data from Biobot Analytics</a>, which partners with local
-governments to monitor SARS-CoV-2 in sewage. Since then, the CDC has <a
-href="https://coviddatadispatch.com/2022/02/06/the-cdc-is-finally-publishing-wastewater-data-but-only-ten-states-are-well-represented/">launched</a>
-and <a
-href="https://coviddatadispatch.com/2022/02/06/the-cdc-is-finally-publishing-wastewater-data-but-only-ten-states-are-well-represented/">expanded</a>
-a <a
-href="https://covid.cdc.gov/covid-data-tracker/#wastewater-surveillance">wastewater
-surveillance module within its COVID data tracker</a>, displaying
-historically-relative virus concentrations from hundreds of sampling
-sites that participate in the agency’s <a
-href="https://www.cdc.gov/healthywater/surveillance/wastewater-surveillance/wastewater-surveillance.html">National
-Wastewater Surveillance System</a>; you can also <a
-href="https://data.cdc.gov/Public-Health-Surveillance/NWSS-Public-SARS-CoV-2-Wastewater-Data/2ew6-ywp6">download
-the data in bulk</a>. <strong>Read more</strong>: <a
-href="https://betsyladyzhets.com/">Betsy Ladyzhets</a>, who runs the <a
-href="https://coviddatadispatch.com/">COVID-19 Data Dispatch</a> (the
-source of most of the links above), recently <a
-href="https://fivethirtyeight.com/features/the-national-fight-against-covid-19-isnt-ready-to-go-to-the-sewers/">examined
-the state of wastewater monitoring for FiveThirtyEight</a> and <a
-href="https://coviddatadispatch.com/2022/04/24/how-one-wastewater-plant-became-a-leading-covid-19-forecasting-source/">interviewed
-a Twin Cities scientist about it</a>. <strong>Also</strong>: “<a
-href="https://www.rockefellerfoundation.org/report/the-role-of-wastewater-data-in-pandemic-management/">The
-Role of Wastewater Data in Pandemic Management</a>,” a report from The
-Rockefeller Foundation and partners.</p>
-<p> </p>
-<p><strong>Regulatory agencies.</strong> <a
-href="https://www.globalreg.info/">GlobalReg</a>, a research group at
-the <a href="https://www.ibei.org/en/the-institution_25976">Institut
-Barcelona d’Estudis Internacionals</a>, <a
-href="https://www.globalreg.info/who-we-are.html">studies</a> “the
-spread of independent regulatory agencies worldwide.” Among its
-publications: <a
-href="https://www.globalreg.info/institutional-features-of-regulatory-agencies.html">a
-dataset of 799 such agencies</a>, spanning 100+ countries and 17
-sectors. It lists each agency’s name, country, and sector as of 2010;
-groups each into one of six typological “clusters”; and scores them on
-political independence, public accountability, managerial autonomy, and
-regulatory capabilities.</p>
-<p> </p>
-<p><strong>NC corporate landlords.</strong> At least 40,000
-single-family homes in North Carolina are owned by only roughly 20
-investment corporations, according to a <a
-href="https://www.newsobserver.com/topics/security_for_sale">new
-investigation by The News &amp; Observer</a> and <a
-href="https://www.charlotteobserver.com/topics/security_for_sale">The
-Charlotte Observer</a>. In some neighborhoods, the companies own
-one-fifth of all such homes. To reach these findings, reporters used
-manual research and machine learning to compile a <a
-href="https://github.com/mcclatchy-southeast/security_for_sale">now-public
-dataset</a> of the companies, their subsidiaries, and the parcels they
-control. The parcel file draws substantially on <a
-href="https://www.nconemap.gov/pages/parcels">data from OneMap</a>, a
-state initiative to standardize county property records. [h/t <a
-href="https://twitter.com/mtdukes/status/1520735400897265666">Tyler
-Dukes</a>]</p>
-<p> </p>
-<p><strong>Bats in caves.</strong> <a
-href="https://www.nature.com/articles/s41597-022-01234-4">Krizler C.
-Tanalgo et al.</a>’s <a href="https://darkcides.org/">DarkCideS</a> “is
-by far the largest database for cave-dwelling bats,” <a
-href="https://figshare.com/articles/dataset/Metadata_for_DarkCideS_1_0_a_global_database_for_bats_in_karsts_and_caves/16413405">providing</a>
-“geographical location, ecological status, species traits, and parasites
-and hyperparasites for 679 bat species,” plus 6,700+ observation records
-from 2,000+ caves in 40+ countries. <strong>Read more</strong>: <a
-href="https://twitter.com/tkrizler/status/1511341433856606212">An
-introductory Twitter thread</a>. [h/t <a
-href="https://twitter.com/MuyRe/status/1511450863659020288">Renata
-Muylaert</a> + <a
-href="https://twitter.com/wormmaps/status/1511492549768355844">Colin J.
-Carlson</a>]</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send upside-down feedback
-to jsvine@gmail.com, or just reply to this email. Looking for past
-datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and to browse past editions.</em></p>
-]]></content:encoded>
-      <guid isPermaLink="false">dip-2022-05-04</guid>
-      <pubDate>Wed, 04 May 2022 08:00:00 -0400</pubDate>
     </item>
   </channel>
 </rss>
