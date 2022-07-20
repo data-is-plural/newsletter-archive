@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.data-is-plural.com</id>
   <title>Data Is Plural</title>
-  <updated>2022-07-13T08:00:00-04:00</updated>
+  <updated>2022-07-20T08:00:00-04:00</updated>
   <author>
     <name>Jeremy Singer-Vine</name>
     <email>jsvine@gmail.com</email>
@@ -10,6 +10,112 @@
   <link href="https://www.data-is-plural.com" rel="alternate"/>
   <generator>https://github.com/data-is-plural/newsletter-archive</generator>
   <subtitle>A weekly newsletter of useful/curious datasets.</subtitle>
+  <entry>
+    <id>dip-2022-07-20</id>
+    <title>Data Is Plural — 2022.07.20 edition</title>
+    <updated>2022-07-20T08:00:00-04:00</updated>
+    <content type="CDATA"><![CDATA[<p><em>New voting laws, notable people, budget apportionments, digital
+trade provisions, and the World Cup.</em></p>
+<p> </p>
+<p><strong>New voting laws.</strong> The <a
+href="https://votingrightslab.org/">Voting Rights Lab</a> has been <a
+href="https://tracker.votingrightslab.org/pending/search">tracking
+2,000+ laws proposed in US state legislatures</a> since 2021. The
+tracker focuses on “12 major issue areas relating to voter access and
+representation,” such as early voting, same-day registration, and ID
+requirements. It lists each bill’s state, number, author, date
+introduced, current status, and issue areas, plus a summary and the
+lab’s “assessment of whether the legislation is likely to improve or
+interfere with voter access or the administration of elections.”
+<strong>As seen in</strong>: “<a
+href="https://projects.fivethirtyeight.com/voting-restrictions-by-state/">Has
+Your State Made It Harder To Vote?</a>” (FiveThirtyEight)
+<strong>Related</strong>: <a
+href="https://statesnewsroom.com/about/">States Newsroom</a>’s <a
+href="https://twitter.com/kira_lerner/status/1547630451140882434">Kira
+Lerner</a> has <a
+href="https://www.newsfromthestates.com/article/criminalizing-vote-gop-led-states-enacted-102-new-election-penalties-after-2020">compiled</a>
+a <a
+href="https://docs.google.com/spreadsheets/d/1wtN6RpLW_-g1gBYwWd5HaYiL6MtmG_nwC6kpIhzickU/edit#gid=0">spreadsheet
+of 120 new election-related criminal penalties</a>, based partly on the
+tracker’s data.</p>
+<p> </p>
+<p><strong>Notable people.</strong> “A new strand of literature aims at
+building the most comprehensive and accurate database of notable
+individuals,” observe <a
+href="https://www.nature.com/articles/s41597-022-01369-4">Morgane
+Laouenan et al.</a>, who contribute a “cross-verified database of 2.29
+million individuals” mined from Wikidata and the English, French,
+German, Italian, Spanish, Portuguese and Swedish editions of Wikipedia.
+For each person, the <a
+href="https://data.sciencespo.fr/dataset.xhtml?persistentId=doi:10.21410/7E4/RDAG3O">dataset</a>
+provides their birth and death dates, gender, citizenship, occupations,
+and other details. <strong>Previously</strong>: <a
+href="https://www.nature.com/articles/sdata201575">The MIT-based
+Pantheon dataset</a> (<a
+href="https://www.data-is-plural.com/archive/2016-02-03-edition/">DIP
+2016.02.03</a>), also based on Wikipedia and <a
+href="https://pantheon.world/data/faq">since updated</a>. [h/t <a
+href="https://twitter.com/makro_philip/status/1536286496101105666">Philip
+Jung</a>]</p>
+<p> </p>
+<p><strong>Budget apportionments.</strong> Congress, through a process
+called appropriations, chooses how much money goes to each US federal
+agency and program. But the <a
+href="https://www.whitehouse.gov/omb/">Office of Management and
+Budget</a>, through a process called apportionment, ultimately <a
+href="https://www.whitehouse.gov/wp-content/uploads/2018/06/s120.pdf">sets
+the rules for spending those funds</a>, “typically limiting the
+obligations [an agency] may incur for specified time periods, programs,
+activities, projects, objects, or any combination thereof.” Those <a
+href="https://twitter.com/cerin/status/1387815656717012992">binding
+decisions</a> have <a
+href="https://thehill.com/opinion/finance/3537156-federal-government-getting-ready-to-open-its-books-and-show-us-the-receipts/">generally
+not been available to the public</a> — <a
+href="https://budget.house.gov/news/press-releases/chairs-yarmuth-and-delauro-achieve-historic-progress-transparency-executive">until
+last week</a>, when OMB launched a <a
+href="https://apportionment-public.max.gov/">database of apportionments
+for FY 2022</a>, per a requirement in Congress’s 2022 spending bill.
+[h/t <a
+href="https://twitter.com/caitlinzemma/status/1547267038590238722">Caitlin
+Emma</a>]</p>
+<p> </p>
+<p><strong>Digital trade provisions.</strong> <a
+href="https://digitaltradelaw.ch/taped/">Mira Burri et al.</a>’s <a
+href="https://www.unilu.ch/en/faculties/faculty-of-law/professorships/burri-mira/research/taped/">TAPED
+dataset</a>, which “seeks to comprehensively trace developments in the
+area of digital trade governance,” categorizes 100+ relevant aspects of
+300+ <a
+href="https://mediawiki.middlebury.edu/IPE/Preferential_Trade_Agreement">preferential
+trade agreements</a> signed since 2000. The dataset indicates, for
+instance, that the <a
+href="https://www.dfat.gov.au/trade/agreements/in-force/pafta/Pages/peru-australia-fta">Peru-Australia
+Free Trade Agreement</a> contains binding agreements on personal data
+protection, nonbinding language on cybersecurity, and no provisions
+regarding net neutrality.</p>
+<p> </p>
+<p><strong>The World Cup.</strong> <a
+href="http://www.joshuafjelstul.com/">Josh Fjelstul</a>’s <a
+href="https://github.com/jfjelstul/worldcup">World Cup Database</a>, <a
+href="https://twitter.com/joshfjelstul/status/1546471056642375680">published
+this month</a>, provides “extensively cleaned and cross-validated”
+information about each of the 21 FIFA World Cup tournaments played so
+far. Its 27 tables contain “approximately 1.1 million data points”
+regarding the teams that participated, their players and managers, the
+referees, match outcomes, goals, penalties, and more.</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send onside feedback to
+jsvine@gmail.com, or just reply to this email. Looking for past
+datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions.</em></p>
+]]></content>
+    <link href="http://www.data-is-plural.com/archive/2022-07-20-edition" rel="alternate"/>
+    <summary>New voting laws, notable people, budget apportionments, digital trade provisions, and the World Cup.</summary>
+    <published>2022-07-20T08:00:00-04:00</published>
+  </entry>
   <entry>
     <id>dip-2022-07-13</id>
     <title>Data Is Plural — 2022.07.13 edition</title>
@@ -48,7 +154,7 @@ statistics</a> “on the adoption of over 100 technologies in more than
 150 countries since 1800.” Examples include the number of telegrams
 sent, television sets in use, knee replacement surgeries performed, and
 metric tons of freight carried on railways. Last month, <a
-href="https://www.cgdev.org/expert/charles-kenny">Charles Kenney</a> and
+href="https://www.cgdev.org/expert/charles-kenny">Charles Kenny</a> and
 <a href="https://www.cgdev.org/staff/george-yang">George Yang</a>
 published a <a
 href="https://www.cgdev.org/publication/technology-and-development-exploration-data">dataset
@@ -991,113 +1097,5 @@ subscribe and to browse past editions.</em></p>
     <link href="http://www.data-is-plural.com/archive/2022-05-18-edition" rel="alternate"/>
     <summary>Religion and government, municipal pandemic responses, open data governance, Europe prison populations, and banknote people.</summary>
     <published>2022-05-18T08:00:00-04:00</published>
-  </entry>
-  <entry>
-    <id>dip-2022-05-11</id>
-    <title>Data Is Plural — 2022.05.11 edition</title>
-    <updated>2022-05-11T08:00:00-04:00</updated>
-    <content type="CDATA"><![CDATA[<p><em>Drugs for rare diseases, LGBTQI+ elected officials, tornadoes,
-mask-wearing on NYC transit, and Milwaukee house styles.</em></p>
-<p> </p>
-<p><strong>Drugs for rare diseases.</strong> The US <a
-href="https://en.wikipedia.org/wiki/Orphan_Drug_Act_of_1983">Orphan Drug
-Act of 1983</a> provided <a
-href="https://www.fda.gov/industry/orphan-products-development-events/story-behind-orphan-drug-act">incentives
-for pharmaceutical companies</a> to develop treatments for <a
-href="https://www.fda.gov/patients/rare-diseases-fda">rare diseases</a>.
-The Food and Drug Administration <a
-href="https://www.fda.gov/about-fda/office-clinical-policy-and-programs/office-orphan-products-development">reviews
-applications</a> for treatments seeking this “orphan” status, decides
-whether to designate them as such, and maintains a <a
-href="https://www.accessdata.fda.gov/scripts/opdlisting/oopd/">database
-of all 6,000+ designations since 1983</a>. The database lists each
-treatment’s generic name, trade name (if any), “sponsor” company,
-designated use(s), date(s) of designation, and whether/when the FDA
-approved it for sale. <strong>Previously</strong>: <a
-href="https://www.orpha.net/">Rare disease data from Orphanet</a> (<a
-href="https://www.data-is-plural.com/archive/2022-04-20-edition/">DIP
-2022.04.20</a>) and <a
-href="https://www.fda.gov/drugs/drug-approvals-and-databases/approved-drug-products-therapeutic-equivalence-evaluations-orange-book">the
-FDA’s “Orange Book” of drug approvals</a> (<a
-href="https://www.data-is-plural.com/archive/2017-03-08-edition/">DIP
-2017.03.08</a>). [h/t <a
-href="https://www.sciencedirect.com/science/article/abs/pii/S0167629621001077">Simona
-Gamba et al.</a> + <a
-href="https://www.nationalaffairs.com/blog/detail/findings-a-daily-roundup/careful">Kevin
-Lewis</a>]</p>
-<p> </p>
-<p><strong>LGBTQI+ elected officials.</strong> The <a
-href="https://queerpolitics.princeton.edu/">Queer Politics at
-Princeton</a> research program <a
-href="https://www.princeton.edu/news/2022/04/25/new-scholarly-database-publicly-identifying-lgbtqi-elected-officials-across-globe">has
-assembled</a> an <a
-href="https://queerpolitics.princeton.edu/data">international map and
-database</a> of 1,000+ officials elected since the 1970s “who publicly
-identify as lesbian, gay, bisexual, pansexual, transgender, non-binary,
-gender-non-conforming, queer or intersex.” The project focuses on
-candidates elected to national, state, and mayoral offices. Entries
-indicate each official’s name, country, party affiliation, level of
-government, position held, year first elected, sexual and gender
-identity, whether they were out when first elected, the year they came
-out, and more. [h/t <a
-href="https://twitter.com/TomSmit18350119/status/1518631589072318465">Tom
-Smith</a>]</p>
-<p> </p>
-<p><strong>Tornadoes.</strong> Although the <a
-href="https://www.spc.noaa.gov/misc/aboutus.html">primary mission</a> of
-the National Weather Service’s <a href="https://www.spc.noaa.gov/">Storm
-Prediction Center</a> is forward-looking, the center also <a
-href="https://www.spc.noaa.gov/wcm/">provides historical maps, charts,
-and datasets</a>. Among them: the Severe Weather Database, which
-contains all tornado reports for the contiguous US from 1950 to 2020,
-plus major hail storms and “damaging wind” events since 1955. It lists
-each incident’s date, starting and ending locations, intensity, injury
-count, fatality count, property loss, and more. [h/t <a
-href="https://twitter.com/WxPatel/status/1523049198836346880">Kaylan
-Patel</a> + <a
-href="https://twitter.com/LebelLuke/status/1523055110758281218">Luke
-LeBel</a>]</p>
-<p> </p>
-<p><strong>Mask-wearing on NYC transit.</strong> Since June 2020, New
-York’s Metropolitan Transportation Authority has surveyed mask usage in
-a sample of subways and at its busiest bus stops. The results, available
-to <a
-href="https://new.mta.info/safety-and-security/nyct-mask-compliance">view</a>
-and <a
-href="https://data.ny.gov/Transportation/MTA-Subway-and-Bus-Mask-Compliance-Statistics-Begi/ijxr-nffj">download</a>,
-indicate the number of people observed (nearly 5 million so far) during
-each biweekly survey cycle and the percentages of them found to be
-wearing a mask correctly, incorrectly, or not at all. [h/t <a
-href="https://www.amny.com/transit/subway-mask-slip-new-low-despite-mandate/">Kevin
-Duggan</a> + <a
-href="https://coviddatadispatch.com/2022/04/03/sources-and-updates-april-3/">Betsy
-Ladyzhets</a>]</p>
-<p> </p>
-<p><strong>Milwaukee house styles.</strong> Milwaukee’s <a
-href="https://data.milwaukee.gov/dataset/mprop">Master Property
-File</a>, first assembled in 1975, “contains more than 90 elements of
-data describing each of the approximately 160,000 properties in the
-city.” The elements include each home’s city-assessed architectural
-style — Tudor, for instance, or Cape Cod, or bungalow. <strong>As seen
-in</strong>: <a
-href="https://www.jsonline.com/in-depth/news/local/2022/03/31/milwaukee-home-styles-architecture-reveal-citys-history-bungalows-craftsman-duplex/6835671001/">This
-story-map by the Milwaukee Journal Sentinel</a>, based on <a
-href="https://github.com/jdjohn215/milwaukee-house-styles">an
-analysis</a> by <a href="https://johndjohnson.info/">John D.
-Johnson</a>. [h/t <a
-href="https://blog.datawrapper.de/data-vis-dispatch-april-5-2022/">Rose
-Mintzer-Sweeney</a>]</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send Tudoresque feedback
-to jsvine@gmail.com, or just reply to this email. Looking for past
-datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and to browse past editions.</em></p>
-]]></content>
-    <link href="http://www.data-is-plural.com/archive/2022-05-11-edition" rel="alternate"/>
-    <summary>Drugs for rare diseases, LGBTQI+ elected officials, tornadoes, mask-wearing on NYC transit, and Milwaukee house styles.</summary>
-    <published>2022-05-11T08:00:00-04:00</published>
   </entry>
 </feed>
