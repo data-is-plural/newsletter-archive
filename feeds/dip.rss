@@ -6,7 +6,111 @@
     <description>A weekly newsletter of useful/curious datasets.</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>https://github.com/data-is-plural/newsletter-archive</generator>
-    <lastBuildDate>Wed, 20 Jul 2022 08:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 27 Jul 2022 08:00:00 -0400</lastBuildDate>
+    <item>
+      <title>Data Is Plural — 2022.07.27 edition</title>
+      <link>http://www.data-is-plural.com/archive/2022-07-27-edition</link>
+      <description>Wildfires around the world, hospital price lists, monkeypox strains, startup factories, and shark incidents.</description>
+      <content:encoded><![CDATA[<p><em>Wildfires around the world, hospital price lists, monkeypox
+strains, startup factories, and shark incidents.</em></p>
+<p> </p>
+<p><strong>Wildfires around the world.</strong> The <a
+href="https://gwis.jrc.ec.europa.eu/">Global Wildfire Information
+System</a>, expanding on the work of <a
+href="https://effis.jrc.ec.europa.eu/">European Forest Fire Information
+System</a>, uses satellite data to provide <a
+href="https://gwis.jrc.ec.europa.eu/apps/gwis.statistics/">weekly and
+annual estimates</a> of the number of fires and area burned in 200+
+countries. Its <a
+href="https://gwis.jrc.ec.europa.eu/apps/country.profile/downloads">bulk
+data</a> indicates monthly burned hectares by country, sub-country unit,
+and land type from 2002 to 2019, as well as the boundaries of individual
+fires from 2001 to 2020. It also publishes <a
+href="https://gwis.jrc.ec.europa.eu/applications/data-and-services">gridded
+spatial data</a> relating to fire danger forecasts, active fires,
+emissions, and more. <strong>As seen in</strong>: <a
+href="https://www.eldiario.es/sociedad/peor-ano-superficie-quemada-30-anos-evolucionan-incendios-activos-espana-julio-26_1_9189252.html">El
+Diario’s analysis of forest fires in Spain</a>. [h/t <a
+href="https://twitter.com/oargueso">Olaya Argüeso Pérez</a>]</p>
+<p> </p>
+<p><strong>Hospital price lists.</strong> Since January 2021, the US
+government <a href="https://www.cms.gov/hospital-price-transparency">has
+required hospitals to publish</a> machine-readable files listing the
+standard charges for all items and services they provide. But there’s no
+standard format for these price lists (also known as “chargemasters”),
+no official central repository of them, and <a
+href="https://www.patientrightsadvocate.org/semi-annual-compliance-report-2022">compliance
+has been lacking</a>. Seeing those problems, the versioned-data platform
+<a href="https://www.dolthub.com/">DoltHub</a> earlier this year ran a
+<a
+href="https://www.dolthub.com/blog/2022-04-22-hospital-price-transparency-retrospective/">paid
+crowdsourcing campaign</a> that pulled <a
+href="https://www.dolthub.com/blog/2022-07-01-hospitals-compliance/">nearly
+300 million prices from the published lists of roughly 1,800
+hospitals</a> into a <a
+href="https://www.dolthub.com/repositories/dolthub/hospital-price-transparency-v3">single
+database</a>. <strong>Related</strong>: Thanks to an <a
+href="https://hcai.ca.gov/data-and-reports/cost-transparency/hospital-chargemasters/">earlier
+price transparency rule</a>, California posts <a
+href="https://data.chhs.ca.gov/dataset/chargemasters">chargemasters for
+hundreds of hospitals</a>, with records going back to 2011.</p>
+<p> </p>
+<p><strong>Monkeypox strains.</strong> <a
+href="https://nextstrain.org/">Nextstrain</a>, “an open-source project
+to harness the scientific and public health potential of pathogen genome
+data,” has begun analyzing <a
+href="https://nextstrain.org/monkeypox/hmpxv1">genetic sequences from
+hundreds of monkeypox virus samples</a>, the vast majority from
+infections in the past few months. The project provides metadata on each
+sample, including the date, country, variant, and mutation metrics, as
+well as detailed sequencing data <a
+href="https://www.ncbi.nlm.nih.gov/labs/virus/vssi/#/virus?SeqType_s=Nucleotide&amp;VirusLineage_ss=Monkeypox%20virus,%20taxid:10244">from
+NCBI Virus</a>. <strong>Previously</strong>: <a
+href="https://outbreak.info/situation-reports">Coronavirus variant data
+from outbreak.info</a> (<a
+href="https://www.data-is-plural.com/archive/2021-03-10-edition/">DIP
+2021.03.10</a>). [h/t <a href="https://ksaj.inlisp.org">Karsten
+Johansson</a>]</p>
+<p> </p>
+<p><strong>Startup factories.</strong> Venture studios are firms that
+build and launch startups. <a href="https://twitter.com/jdmoran">Jim
+Moran</a>’s <a
+href="https://www.venturestudioindex.com/p/the-venture-studio-index">Venture
+Studio Index</a> tracks 260+ of them, plus 1,200+ of the startups
+they’ve launched. The <a
+href="https://docs.google.com/spreadsheets/d/1DgDu8rJaVCvbzDW49u74vEIPdRH8ElJUVoiqt1O6LVc/edit#gid=499262177">dataset</a>,
+“collected manually by a team of researchers familiar with venture
+capital and the technology startup ecosystem,” <a
+href="https://www.venturestudioindex.com/p/data-methodology-and-limitations">includes</a>
+founding years, locations, employee counts, relevant URLs, and more.</p>
+<p> </p>
+<p><strong>Shark bites.</strong> <a
+href="https://www.nature.com/articles/s41597-022-01453-9">Madeline Riley
+et al.</a> describe the <a
+href="https://zenodo.org/record/6672829">Australian Shark-Incident
+Database</a>, which contains <a
+href="https://github.com/cjabradshaw/AustralianSharkIncidentDatabase">details</a>
+about 1,100+ shark bites (and attempted shark bites) between 1791 and
+early 2022, gathered by the <a
+href="https://www.taronga.org.au/about">Taronga Conservation Society</a>
+using “questionnaires provided to shark-bite victims or witnesses, media
+reports,” and information from state agencies. <strong>Read
+more</strong>: “<a
+href="https://www.theguardian.com/news/datablog/2022/jul/07/new-dataset-shows-shark-attacks-in-australia-are-increasing-and-researchers-want-to-know-why">New
+dataset shows shark bites in Australia are increasing and researchers
+want to know why</a>” (The Guardian).</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send provoked and
+unprovoked feedback to jsvine@gmail.com, or just reply to this email.
+Looking for past datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions.</em></p>
+]]></content:encoded>
+      <guid isPermaLink="false">dip-2022-07-27</guid>
+      <pubDate>Wed, 27 Jul 2022 08:00:00 -0400</pubDate>
+    </item>
     <item>
       <title>Data Is Plural — 2022.07.20 edition</title>
       <link>http://www.data-is-plural.com/archive/2022-07-20-edition</link>
@@ -966,124 +1070,6 @@ subscribe and to browse past editions.</em></p>
 ]]></content:encoded>
       <guid isPermaLink="false">dip-2022-05-25</guid>
       <pubDate>Wed, 25 May 2022 08:00:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Data Is Plural — 2022.05.18 edition</title>
-      <link>http://www.data-is-plural.com/archive/2022-05-18-edition</link>
-      <description>Religion and government, municipal pandemic responses, open data governance, Europe prison populations, and banknote people.</description>
-      <content:encoded><![CDATA[<p><em>Religion and government, municipal pandemic responses, open data
-governance, Europe prison populations, and banknote people.</em></p>
-<p> </p>
-<p><strong>Religion and government.</strong> To compile the <a
-href="https://www.thearda.com/Archive/Files/Descriptions/GRPCOMP.asp">Government
-Religious Preference dataset</a>, researchers scrutinized primary
-documents and secondary sources “for information on the existence,
-origination, change, or discontinuation of a law or policy directed
-toward” any of 30 religious denominations in 200+ countries. Then they
-<a
-href="https://www.thearda.com/archive/files/codebooks/origCB/GRP%202.0%20Codebook.pdf">assessed</a>
-the degree to which those policies reflected institutional favor or
-disfavor across 28 variables, themselves grouped into “five broad
-components of state-religion”: <a
-href="https://www.thearda.com/Archive/Files/Descriptions/GRPOFFCL.asp">official
-status</a>, <a
-href="https://www.thearda.com/Archive/Files/Descriptions/GRPFINSP.asp">financial
-support</a>, <a
-href="https://www.thearda.com/Archive/Files/Descriptions/GRPREG.asp">regulatory
-burdens</a>, <a
-href="https://www.thearda.com/Archive/Files/Descriptions/GRPRELED.asp">religious
-education</a>, and <a
-href="https://www.thearda.com/Archive/Files/Descriptions/GRPFREE.asp">free
-exercise</a>. The project provides individual and composite scores for
-each country-year-denomination, from as early as 1800 through 2015.
-<strong>Related</strong>: <a
-href="https://www.thearda.com/Archive/Files/Descriptions/RCSDEM2.asp">Country-level
-religious demographics</a>, from the same principal investigators. [h/t
-<a
-href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/IWXIDL">Ariel
-Zellman and Davis Brown</a>]</p>
-<p> </p>
-<p><strong>Municipal pandemic responses.</strong> The <a
-href="https://www.nlc.org/about/">National League of Cities</a>’ <a
-href="https://www.nlc.org/resource/covid-19-local-action-tracker/">Local
-Action Tracker</a> describes itself as “the most complete collection of
-municipal responses to COVID-19.” It contains information about 4,800+
-policies undertaken or planned in roughly 800 US cities between February
-2020 and February 2022, listing each response’s date, policy area (e.g.,
-housing, utilities, vaccinations), type of action (e.g., ordinance,
-emergency declaration), a brief description, and more. [h/t <a
-href="https://nightingaledvs.com/telling-the-story-of-urban-innovation-and-pandemic-response-with-data/">Joshua
-Pine</a>]</p>
-<p> </p>
-<p><strong>Open data governance.</strong> To develop the <a
-href="https://globaldatabarometer.org/">Global Data Barometer</a>, a
-network of local experts and regional organizations evaluated “the state
-of data for public good” in 109 countries between May 2019 and May 2021.
-The project’s initial results, released last week as a <a
-href="https://globaldatabarometer.org/the-global-data-barometer-report-first-edition/">report</a>
-and <a href="https://globaldatabarometer.org/open-data/">downloadable
-dataset</a>, reflect 60,000+ of their observations, which focused on
-data <a
-href="https://globaldatabarometer.org/module/governance/">governance</a>
-and <a
-href="https://globaldatabarometer.org/module/capabilities/">capabilities</a>,
-plus the <a
-href="https://globaldatabarometer.org/research/countries-and-themes/">availability
-and use of data on specific topics</a>, such as <a
-href="https://globaldatabarometer.org/module/public-finance/">public
-finance</a>, <a
-href="https://globaldatabarometer.org/module/climate/">climate
-action</a>, and <a
-href="https://globaldatabarometer.org/module/company/">company
-ownership</a>. [h/t <a href="https://www.catc0r.com/">cat
-cortes</a>]</p>
-<p> </p>
-<p><strong>Europe prison populations.</strong> The <a
-href="https://en.wikipedia.org/wiki/Council_of_Europe">Council of
-Europe</a> publishes <a
-href="https://wp.unil.ch/space/space-i/annual-reports/">annual
-statistical reports on prison populations and facilities</a>, based on
-surveys sent to its member states. The council publishes most of the
-data only in the report PDFs, but does <a
-href="https://wp.unil.ch/space/space-i/prison-stock-on-1-january/">provide
-HTML tables</a> of country-level inmate counts and facility capacity <a
-href="https://wp.unil.ch/space/space-i/prison-stock-on-1-january/prison-stock-on-1-january-2018/">from
-2018</a> <a
-href="https://wp.unil.ch/space/space-i/prison-stock-on-1-january/prison-stock-on-1st-january-2022/">to
-2022</a>. <strong>As seen in</strong>: <a
-href="https://civio.es/2022/05/10/use-and-abuse-of-preventive-detention-in-the-european-union/">A
-Civio.es-led analysis of pretrial detention rates</a>, for which
-reporters extracted (<a
-href="https://datos.civio.es/dataset/porcentaje-de-personas-en-prision-provisional-en-2020/">and
-have shared</a>) the numbers of untried and unsentenced prisoners in
-early 2021. [h/t <a href="https://twitter.com/oargueso">Olaya Argüeso
-Pérez</a>]</p>
-<p> </p>
-<p><strong>Banknote people.</strong> The visual essay “<a
-href="https://pudding.cool/2022/04/banknotes/">Who’s in Your
-Wallet?</a>” examines the famous faces that appear on 38 countries’
-paper money. To do that, <a
-href="https://alejandra-arevalo.com/">Alejandra Arevalo</a> and <a
-href="https://twitter.com/EricHausken">Eric Hausken</a> built a <a
-href="https://github.com/the-pudding/banknotes/tree/master/src/data">dataset
-describing 279 person-banknote combinations</a>. It lists the banknote’s
-currency and value, plus the person’s name, gender, profession, year
-first on the bill, year deceased, and more. <strong>Related</strong>: <a
-href="https://en.wikipedia.org/wiki/List_of_people_on_banknotes">Wikipedia’s
-lists of people on banknotes</a> and <a
-href="https://en.wikipedia.org/wiki/List_of_people_on_coins">on
-coins</a>.</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send crisp feedback to
-jsvine@gmail.com, or just reply to this email. Looking for past
-datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and to browse past editions.</em></p>
-]]></content:encoded>
-      <guid isPermaLink="false">dip-2022-05-18</guid>
-      <pubDate>Wed, 18 May 2022 08:00:00 -0400</pubDate>
     </item>
   </channel>
 </rss>
