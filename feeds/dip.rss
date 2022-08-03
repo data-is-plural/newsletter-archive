@@ -6,7 +6,104 @@
     <description>A weekly newsletter of useful/curious datasets.</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>https://github.com/data-is-plural/newsletter-archive</generator>
-    <lastBuildDate>Wed, 27 Jul 2022 08:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 03 Aug 2022 08:00:00 -0400</lastBuildDate>
+    <item>
+      <title>Data Is Plural — 2022.08.03 edition</title>
+      <link>http://www.data-is-plural.com/archive/2022-08-03-edition</link>
+      <description>Employee benefit plans, European cropland, Christianity in China, data governance ratings, and diplomatic gifts.</description>
+      <content:encoded><![CDATA[<p><em>Employee benefit plans, European cropland, Christianity in China,
+data governance ratings, and diplomatic gifts.</em></p>
+<p> </p>
+<p><strong>Employee benefit plans.</strong> US companies that offer
+their employees a retirement plan, such as a pension or 401(k), must
+report the particulars of those plans through <a
+href="https://www.dol.gov/agencies/ebsa/employers-and-advisers/plan-administration-and-compliance/reporting-and-filing/form-5500">Form
+5500</a> — a creation of the IRS, Department of Labor, and <a
+href="https://www.pbgc.gov/">Pension Benefit Guaranty Corporation</a>.
+Employers offering health plans, vacation, or other welfare benefits to
+100+ workers must typically report those, too. The Department of Labor
+publishes <a
+href="https://www.dol.gov/agencies/ebsa/about-ebsa/our-activities/public-disclosure/foia/form-5500-datasets">datasets
+with details from all Form 5500 submissions</a> going back to 1999, as
+well as a <a href="https://www.efast.dol.gov/5500search/">search
+tool</a> that goes back to 2010. <strong>Related</strong>: Through a
+FOIA request, <a href="https://dan-bauman.com/">Dan Bauman</a> has <a
+href="https://github.com/danbauman77/tophat">obtained decades of
+metadata on 80,000+ “top hat” statements</a>, which <a
+href="https://www.dol.gov/sites/dolgov/files/EBSA/about-ebsa/about-us/erisa-advisory-council/2020-examining-top-hat-plan-participation-and-reporting.pdf">concern
+plans</a> “providing deferred compensation for a select group of
+management or highly compensated employees.” [h/t <a
+href="https://www.quora.com/401-k-Is-there-a-database-of-401k-information-that-is-publicly-available/answer/Vincent-Cocula">Vincent
+Cocula</a>]</p>
+<p> </p>
+<p><strong>European cropland.</strong> <a
+href="https://arxiv.org/abs/2106.08151">Maja Schneider et al.</a>’s <a
+href="https://github.com/maja601/EuroCrops">EuroCrops</a> project
+combines “all publicly available self-declared crop reporting datasets
+from countries of the European Union.” So far, that universe corresponds
+to the entirety or parts of 16 countries. The project’s datasets include
+various attributes from the original data files, geographic coordinates
+for each agricultural parcel, and each parcel’s primary crop type, which
+the authors have standardized using a taxonomy they devised.</p>
+<p> </p>
+<p><strong>Christianity in China.</strong> The <a
+href="https://chcdatabase.com/">China Historical Christian Database</a>,
+a project based at Boston University’s School of Theology, spans the
+years 1550 to 1950. Launched <a
+href="https://www.bu.edu/cgcm/2022/07/19/11962/">last week</a>, it
+provides “tools to discover where every Christian church, school,
+hospital, orphanage, publishing house, and the like were located in
+China,” plus “who worked inside those buildings, both foreign and
+Chinese.” The database, available to <a
+href="https://github.com/chcdatabase/data">download</a> and <a
+href="https://data.chcdatabase.com/map">explore online</a>, <a
+href="https://chcdatabase.github.io/data-documentation/">describes</a>
+33,000+ people, 7,000+ organizations, the relationships between those
+entities, and more.</p>
+<p> </p>
+<p><strong>Data governance ratings</strong>. A <a
+href="https://datagovhub.letsnod.com/">new report</a> from George
+Washington University’s <a
+href="https://datagovhub.elliott.gwu.edu/">Digital Trade and Data
+Governance Hub</a> rates 68 countries on their approaches to data
+governance. It scores each country on 26 indicators across 6 categories
+— for instance, whether it has a personal data protection law, publishes
+an open data portal, and/or says it adheres to the <a
+href="https://oecd.ai/en/ai-principles">OECD AI Principles</a>.
+<strong>Previously</strong>: <a
+href="https://globaldatabarometer.org">The Global Data Barometer</a> (<a
+href="https://www.data-is-plural.com/archive/2022-05-18-edition/">DIP
+2022.05.18</a>). [h/t <a href="https://twitter.com/AaronsonSusan">Susan
+Ariel Aaronson</a>]</p>
+<p> </p>
+<p><strong>Diplomatic gifts.</strong> Federal employees are <a
+href="https://www.law.cornell.edu/uscode/text/5/7342">not supposed to
+accept major gifts</a> from foreign governments. But exceptions occur,
+such as “when it appears that to refuse the gift would likely cause
+offense or embarrassment,” and agencies must annually report those
+exceptions in the Federal Register. In 2020, <a
+href="https://www.alexcookson.com/about/">Alex Cookson</a> <a
+href="https://www.alexcookson.com/post/what-can-we-learn-from-diplomatic-gifts/">fetched
+and parsed those reports</a>, yielding information (donor name and
+country, recipient name and agency, gift description and value) on <a
+href="https://github.com/tacookson/data/tree/master/us-government-gifts">8,300+
+gifts from 1999 to 2018</a>. <strong>Previously</strong>: <a
+href="https://disclosures-clerk.house.gov/PublicDisclosure/GiftTravelFilings">Congressional
+“gift travel”</a> (<a
+href="https://www.data-is-plural.com/archive/2016-04-27-edition/">DIP
+2016.04.27</a>).</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send unrefusable feedback
+to jsvine@gmail.com, or just reply to this email. Looking for past
+datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions.</em></p>
+]]></content:encoded>
+      <guid isPermaLink="false">dip-2022-08-03</guid>
+      <pubDate>Wed, 03 Aug 2022 08:00:00 -0400</pubDate>
+    </item>
     <item>
       <title>Data Is Plural — 2022.07.27 edition</title>
       <link>http://www.data-is-plural.com/archive/2022-07-27-edition</link>
@@ -969,107 +1066,6 @@ subscribe and to browse past editions.</em></p>
 ]]></content:encoded>
       <guid isPermaLink="false">dip-2022-06-01</guid>
       <pubDate>Wed, 01 Jun 2022 08:00:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Data Is Plural — 2022.05.25 edition</title>
-      <link>http://www.data-is-plural.com/archive/2022-05-25-edition</link>
-      <description>Supercomputers, infrastructure permitting, European election results, Moreno and Jennings’ sociograms, and Art Garfunkel’s library.</description>
-      <content:encoded><![CDATA[<p><em>Supercomputers, infrastructure permitting, European election
-results, Moreno and Jennings’ sociograms, and Art Garfunkel’s
-library.</em></p>
-<p> </p>
-<p><strong>Supercomputers.</strong> Since 1993, a <a
-href="https://www.top500.org/project/authors/">team of researchers</a>
-has regularly assessed the most powerful computers in the world. The
-resulting <a href="https://www.top500.org/">TOP500 lists</a> are
-published twice a year, in June and November, using a <a
-href="https://www.top500.org/project/linpack/">performance benchmark
-developed by team member Jack Dongarra</a>, who <a
-href="https://www.acm.org/media-center/2022/march/turing-award-2021">became
-a Turing Award laureate this year</a>. Downloadable versions indicate
-each supercomputer’s name, rank, location, manufacturer, year built,
-power consumption, technical specifications, and more. <strong>As seen
-in</strong>: “<a
-href="https://blog.datawrapper.de/the-race-to-build-the-fastest-supercomputer/">The
-race to build the fastest supercomputer</a>,” by Datawrapper’s <a
-href="https://twitter.com/EdurneMG">Edurne Morillo</a>, who recommends
-visiting Barcelona’s <a
-href="https://www.bsc.es/marenostrum/marenostrum">MareNostrum</a>, which
-ranked 74th on the <a
-href="https://www.top500.org/lists/top500/list/2021/11/">latest list</a>
-and is housed in a former chapel.</p>
-<p> </p>
-<p><strong>Infrastructure permitting.</strong> The US government’s <a
-href="https://www.permits.performance.gov/">Federal Infrastructure
-Permitting Dashboard</a> tracks the “environmental review and
-authorization processes for large or complex infrastructure projects,”
-<a href="https://www.permits.performance.gov/about">particularly</a>
-those funded by the Department of Transportation and those participating
-in a <a
-href="https://www.epa.gov/sustainability/fast-41-coordination">voluntary
-review-coordination effort known as FAST-41</a>. The dashboard’s <a
-href="https://data.permits.performance.gov/Permitting-Project/Permitting-Dashboard-Full-Dataset/mcm3-xbid">full
-dataset</a> describes 12,000+ milestones relating to nearly 1,000
-projects, roughly half of which have been completed. Online, you can <a
-href="https://www.permits.performance.gov/projects">search across
-projects</a> and browse their characteristics and timetables.</p>
-<p> </p>
-<p><strong>European election results.</strong> <a
-href="https://journals.sagepub.com/doi/full/10.1177/13540688221083553">Dominik
-Schraff et al.</a> have built <a href="https://eu-ned.com/">EU-NED</a>,
-a dataset that harmonizes European election results at a subnational
-level, providing party vote totals for 31 countries’ <a
-href="https://ec.europa.eu/eurostat/web/nuts/background">NUTS 2 and NUTS
-3 geographic units</a>. The <a
-href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/IQRYP5">dataset</a>
-covers 1990 to 2020 and uses party identifiers from <a
-href="https://partyfacts.herokuapp.com/">PartyFacts</a> (<a
-href="https://www.data-is-plural.com/archive/2019-01-16-edition/">DIP
-2019.01.16</a>), making it easier to link the records to other projects.
-[h/t <a
-href="https://twitter.com/chris_breu/status/1524486517103734786">Christian
-Breuer</a>]</p>
-<p> </p>
-<p><strong>Moreno and Jennings’ sociograms.</strong> In the 1930s, <a
-href="https://en.wikipedia.org/wiki/Jacob_L._Moreno">Jacob Moreno</a>
-and <a href="https://en.wikipedia.org/wiki/Helen_Hall_Jennings">Helen
-Hall Jennings</a> created a series of “<a
-href="https://en.wikipedia.org/wiki/Sociogram">sociograms</a>”
-representing the seating preferences of grade-school classmates. These
-graphics “are frequently considered as the first examples of social
-network analysis and visualization,” <a
-href="http://www.martingrandjean.ch/social-network-analysis-visualization-morenos-sociograms-revisited/">according
-to</a> historian and network analysis practitioner <a
-href="http://www.martingrandjean.ch/">Martin Grandjean</a>, who has <a
-href="https://github.com/grandjeanmartin/sociograms">translated them
-into simple data files</a>. [h/t <a
-href="https://sourcetarget.email/editions/41/">Christian Miles</a> + <a
-href="https://www.mcdbooks.com/books/living-in-data">Jer Thorp</a>]</p>
-<p> </p>
-<p><strong>Art Garfunkel’s library.</strong> The <a
-href="https://en.wikipedia.org/wiki/Art_Garfunkel">legendary folk
-singer</a>’s <a href="https://www.artgarfunkel.com/">official
-website</a> includes <a
-href="https://www.artgarfunkel.com/library.html">a catalog</a> of “every
-book Art has read since 1968.” It lists each book’s title, author, year
-published, month/year read, page count, and whether it was <a
-href="https://www.artgarfunkel.com/books.html">one of the musician’s
-favorites</a>. Recently, AI engineer <a
-href="https://www.kaggle.com/chrico03">Corey Christensen</a> converted
-the HTML pages into a <a
-href="https://www.kaggle.com/datasets/chrico03/art-garfunkels-library">downloadable
-dataset</a>.</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send shelves of feedback
-to jsvine@gmail.com, or just reply to this email. Looking for past
-datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and to browse past editions.</em></p>
-]]></content:encoded>
-      <guid isPermaLink="false">dip-2022-05-25</guid>
-      <pubDate>Wed, 25 May 2022 08:00:00 -0400</pubDate>
     </item>
   </channel>
 </rss>
