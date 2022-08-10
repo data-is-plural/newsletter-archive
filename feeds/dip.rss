@@ -6,7 +6,112 @@
     <description>A weekly newsletter of useful/curious datasets.</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>https://github.com/data-is-plural/newsletter-archive</generator>
-    <lastBuildDate>Wed, 03 Aug 2022 08:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 10 Aug 2022 08:00:00 -0400</lastBuildDate>
+    <item>
+      <title>Data Is Plural — 2022.08.10 edition</title>
+      <link>http://www.data-is-plural.com/archive/2022-08-10-edition</link>
+      <description>Young adult migration, social capital, CPUs and GPUs, trade in post-unification Italy, and Star Trek computer-talk.</description>
+      <content:encoded><![CDATA[<p><em>Young adult migration, social capital, CPUs and GPUs, trade in
+post-unification Italy, and Star Trek computer-talk.</em></p>
+<p> </p>
+<p><strong>Young adult migration.</strong> Researchers at Harvard
+University and the Census Bureau have linked federal tax filings, Census
+records, and other government data to track the <a
+href="https://migrationpatterns.org/">migration patterns of young US
+residents</a>. Specifically, for each person born in the US between 1984
+and 1992, the researchers compared where they lived at age 16 to where
+they lived at age 26. The project’s public dataset counts the
+approximate number who moved to/from each pair of <a
+href="https://www.data-is-plural.com/archive/2022-01-19-edition/">commuting
+zones</a> — overall and disaggregated by race/ethnicity and parental
+income level. <strong>Read more</strong>: <a
+href="https://source.opennews.org/articles/story-recipe-census-migration-data-young-adults/">A
+reporting recipe</a> from <a href="https://bjones.net/">Brent Jones</a>
+and <a href="https://www.ericdschmid.com/">Eric Schmid</a>, <a
+href="https://news.stlpublicradio.org/economy-business/2022-07-25/new-census-bureau-study-confirms-what-we-already-knew-st-louisans-dont-move-away">who
+analyzed the data for St. Louis Public Radio</a>.</p>
+<p> </p>
+<p><strong>Social capital.</strong> Using data on billions of Facebook
+connections and group memberships, <a
+href="https://www.nature.com/articles/s41586-022-04996-4">Raj Chetty et
+al.</a>’s <a href="https://socialcapital.org/">Social Capital Atlas</a>
+calculates <a
+href="https://data.humdata.org/dataset/social-capital-atlas">three
+metrics for US counties, ZIP codes, high schools, and colleges</a>:
+economic connectedness (friendships between low-income and high-income
+users), cohesiveness (how often users’ friends are also friends with one
+another), and civic engagement (membership in volunteer groups).
+<strong>Read more</strong>: <a
+href="https://www.nytimes.com/interactive/2022/08/01/upshot/rich-poor-friendships.html">The
+Upshot explores and explains the project’s findings</a>.
+<strong>Previously</strong>: Measurements of <a
+href="https://dataforgood.facebook.com/dfg/tools/social-connectedness-index">social
+connectedness</a> (<a
+href="https://www.data-is-plural.com/archive/2020-09-30-edition/">DIP
+2020.09.30</a>) and <a href="https://opportunityinsights.org/">economic
+mobility</a> (<a
+href="https://www.data-is-plural.com/archive/2019-06-12-edition/">DIP
+2019.06.12</a>), from some of the same researchers. [h/t <a
+href="https://twitter.com/stroebel_econ">Johannes Stroebel</a>]</p>
+<p> </p>
+<p><strong>CPUs and GPUs.</strong> <a
+href="https://arxiv.org/abs/1911.11313">Yifan Sun et al.</a>, seeking to
+test <a href="https://en.wikipedia.org/wiki/Moore%27s_law">Moore’s
+Law</a> and <a
+href="https://en.wikipedia.org/wiki/Dennard_scaling">Dennard
+scaling</a>, “have collected data for all CPU and GPU products (to our
+best knowledge) that have been released by Intel, AMD [...], and NVIDIA
+since January 1st, 2000.” The authors’ <a
+href="https://chip-dataset.vercel.app/">dataset and charting tool</a>,
+describing 4,800+ processors through early 2021, uses information
+gathered from <a href="https://www.techpowerup.com/">TechPowerUp</a>, <a
+href="https://en.wikichip.org/wiki/WikiChip">WikiChip</a>, and company
+websites. They identify each product’s vendor, release date, transistor
+count, base frequency, and other details. [h/t <a
+href="https://news.ycombinator.com/item?id=32124613">matt_d</a>]</p>
+<p> </p>
+<p><strong>Trade in post-unification Italy.</strong> The <a
+href="https://lost-highway.unisi.it/project/aims-and-purposes">Lost
+Highway project</a>, a collaboration between <a
+href="https://lost-highway.unisi.it/units">researchers at four Italian
+universities</a>, aims “to test a number of broad historical conjectures
+about the long term shortcomings of the Italian development path by
+collecting as much quantitative evidence as possible.” Their <a
+href="https://lost-highway.unisi.it/data">Bankit-FTV database</a>
+provides annual import and export totals for 1862 to 1939, by product
+and trading partner, with 6,000+ product descriptions <a
+href="https://docenti-deps.unisi.it/michelangelovasta/wp-content/uploads/sites/2/2014/08/Legend-FTV-Bankit.pdf">standardized</a>
+into approximately 600 commodity groupings. [h/t <a
+href="https://danumbers.substack.com/">Francesco Piccinelli
+Casagrande</a>]</p>
+<p> </p>
+<p><strong>“Tea, Earl Grey, hot.”</strong> Combing the full transcripts
+of <a href="https://www.imdb.com/title/tt0092455/">Star Trek: The Next
+Generation</a>, <a href="https://www.cs.toronto.edu/~baxtell/">Benett
+Axtell</a> and <a href="https://www.cs.utoronto.ca/~mcosmin/">Cosmin
+Munteanu</a> found more than 1,000 lines of dialogue between the show’s
+characters and the starship Enterprise’s computer. Their <a
+href="https://www.speechinteraction.org/TNG/index.html">dataset of these
+interactions</a> lists each line’s phrasing, character, interaction
+type, stage directions, and more. [h/t <a
+href="https://jollydata.blog/posts/2021-08-22-tea-earl-grey-hot-tidytuesday-2021-week-34/">Christian
+A. Gebhard</a> + <a
+href="https://github.com/rfordatascience/tidytuesday/issues/346">Sara
+Stoudt</a> + <a
+href="https://github.com/rfordatascience/tidytuesday/tree/master/data/2021/2021-08-17">Tidy
+Tuesday</a>]</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send the next generation
+of feedback to jsvine@gmail.com, or just reply to this email. Looking
+for past datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions.</em></p>
+]]></content:encoded>
+      <guid isPermaLink="false">dip-2022-08-10</guid>
+      <pubDate>Wed, 10 Aug 2022 08:00:00 -0400</pubDate>
+    </item>
     <item>
       <title>Data Is Plural — 2022.08.03 edition</title>
       <link>http://www.data-is-plural.com/archive/2022-08-03-edition</link>
@@ -947,125 +1052,6 @@ subscribe and to browse past editions.</em></p>
 ]]></content:encoded>
       <guid isPermaLink="false">dip-2022-06-08</guid>
       <pubDate>Wed, 08 Jun 2022 08:00:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Data Is Plural — 2022.06.01 edition</title>
-      <link>http://www.data-is-plural.com/archive/2022-06-01-edition</link>
-      <description>School shootings, congressional districts and legislators, wind and solar power, Olympic accounting, and “What Middletown Read.”</description>
-      <content:encoded><![CDATA[<p><em>School shootings, congressional districts and legislators, wind
-and solar power, Olympic accounting, and “What Middletown
-Read.”</em></p>
-<p> </p>
-<p><strong>School shootings, continued.</strong> The <a
-href="https://www.chds.us/ssdb/">K-12 School Shooting Database</a>, <a
-href="https://www.chds.us/ssdb/about/">housed at the Naval Postgraduate
-School</a>, “documents each and every instance a gun is brandished, is
-fired, or a bullet hits school property for any reason, regardless of
-the number of victims, time, day of the week.” It <a
-href="https://www.chds.us/ssdb/methods/">describes</a> 2,000+ incidents
-from 1970 to the present and links them to information regarding 3,000+
-victims killed and wounded, 2,200+ shooters, and 2,000+ weapons.
-<strong>Related</strong>: A few years ago, CNN <a
-href="https://www.cnn.com/interactive/2019/07/us/ten-years-of-school-shootings-trnd/">compiled</a>
-a <a href="https://github.com/cnnlabs/cnn-school-shooting-data">dataset
-of 180 school shootings from 2009 to 2018</a>, focusing on incidents
-where at least one person was shot. <strong>Previously</strong>: <a
-href="https://github.com/washingtonpost/data-school-shootings">Data on
-school shootings</a> <a
-href="https://www.washingtonpost.com/graphics/2018/local/school-shootings-database/">from
-The Washington Post</a> (<a
-href="https://www.data-is-plural.com/archive/2018-04-25-edition/">DIP
-2018.04.25</a>), and on mass shootings from <a
-href="https://www.theviolenceproject.org/mass-shooter-database/">The
-Violence Project</a>, <a href="https://www.gunviolencearchive.org/">Gun
-Violence Archive</a>, and <a
-href="https://www.motherjones.com/politics/2012/12/mass-shootings-mother-jones-full-data/">Mother
-Jones</a> (<a
-href="https://www.data-is-plural.com/archive/2021-03-24-edition/">DIP
-2021.03.24</a>, <a
-href="https://www.data-is-plural.com/archive/2015-12-09-edition/">DIP
-2015.12.09</a>). [h/t Michael A. Rice + <a
-href="https://twitter.com/spetulla">Sam Petulla</a>]</p>
-<p> </p>
-<p><strong>Congress, consolidated.</strong> <a
-href="https://congress.ippsr.msu.edu/congress/">CongressData</a>, <a
-href="https://twitter.com/MattGrossmann/status/1527287170515410945">published
-last month</a> by political scientists at the <a
-href="https://ippsr.msu.edu/about-ippsr">Institute for Public Policy and
-Social Research</a>, “compiles information about all US congressional
-districts,” the legislators representing them, and those legislators’
-policymaking behavior (such as committee memberships and number of bills
-sponsored). The dataset spans 1789-2021, although many of <a
-href="https://raw.githubusercontent.com/IPPSR/congressData/main/congress_codebook_1.pdf">the
-variables</a> (such those derived from the Census Bureau’s American
-Community Survey) are only available for more recent years. [h/t <a
-href="https://github.com/erikgahner/PolData/commit/c32e833d777b5f2ffd1a9056abcb87632df13834">Erik
-Gahner Larsen</a>]</p>
-<p> </p>
-<p><strong>Wind and solar power.</strong> The <a
-href="https://globalenergymonitor.org/about/our-story/">Global Energy
-Monitor</a>’s <a
-href="https://globalenergymonitor.org/projects/global-wind-power-tracker/">Global
-Wind Power Tracker</a> is “a worldwide dataset of utility-scale wind
-facilities,” focusing on those with planned or installed capacities of
-at least 10 megawatts. It provides each facility’s name, location,
-status, capacity, installation type, owner, and other details. The
-project <a
-href="https://globalenergymonitor.org/press-release/new-trackers-showing-country-by-country-build-out-of-utility-scale-solar-and-wind/">launched
-last week</a> alongside a sibling dataset, the <a
-href="https://globalenergymonitor.org/projects/global-solar-power-tracker/">Global
-Solar Power Tracker</a>. They <a
-href="https://globalenergymonitor.org/about/our-story/">join</a> a <a
-href="https://globalenergymonitor.org/projects/">growing collection of
-trackers</a> from the organization, including those examining <a
-href="https://globalenergymonitor.org/projects/global-coal-tracker/">coal
-infrastructure</a>, <a
-href="https://globalenergymonitor.org/projects/global-steel-plant-tracker/">steel
-plants</a>, and <a
-href="https://globalenergymonitor.org/projects/global-oil-gas-extraction-tracker/">oil
-and gas resources</a>. [h/t <a
-href="https://twitter.com/paleomedia">Nathaniel Hoffman</a>]</p>
-<p> </p>
-<p><strong>Olympic accounting.</strong> <a
-href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3873972">Martin
-Müller et al.</a> have <a
-href="https://dataverse.harvard.edu/dataverse/mega-events;jsessionid=ac44ac785d9741f492283c74df49">compiled</a>
-a <a
-href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/F0MNC9">dataset
-of the costs and revenues</a> of three recurring “mega-events”: the
-Summer Olympic Games, Winter Olympic Games, and FIFA Men’s World Cup.
-For each event between 1964 and 2018, it indicates the number of
-athletes, number of accredited media, venue costs, organization costs,
-ticketing revenue, broadcast revenue, and sponsorship revenue.</p>
-<p> </p>
-<p><strong>“What Middletown Read.”</strong> Thanks to <a
-href="https://lib.bsu.edu/wmr/about.php">the discovery</a> of “a
-collection of dusty ledgers” in 2003, researchers have built a <a
-href="https://lib.bsu.edu/wmr/index.php">database of (nearly) every
-checkout from Muncie, Indiana’s public library</a> from November 1891 to
-December 1902. The project, a collaboration between the library and <a
-href="https://www.bsu.edu/Academics/CentersandInstitutes/Middletown.aspx">Ball
-State University</a>, takes its name from a <a
-href="https://en.wikipedia.org/wiki/Middletown_studies">famous
-sociological study</a> that <a
-href="https://www.theguardian.com/membership/2016/oct/18/view-from-middletown-us-muncie-america">pseudonymized
-Muncie as Middletown</a>. <strong>Previously</strong>: <a
-href="https://shelftalkblog.wordpress.com/2017/02/14/for-the-love-of-data-an-open-data-release/">Seattle
-Public Library checkouts since 2005</a> (<a
-href="https://www.data-is-plural.com/archive/2017-03-01-edition/">DIP
-2017.03.01</a>). [h/t <a href="https://twitter.com/mattbrown_econ">Matt
-Brown</a>]</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send dusty ledgers of
-feedback to jsvine@gmail.com, or just reply to this email. Looking for
-past datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and to browse past editions.</em></p>
-]]></content:encoded>
-      <guid isPermaLink="false">dip-2022-06-01</guid>
-      <pubDate>Wed, 01 Jun 2022 08:00:00 -0400</pubDate>
     </item>
   </channel>
 </rss>
