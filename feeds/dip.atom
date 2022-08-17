@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.data-is-plural.com</id>
   <title>Data Is Plural</title>
-  <updated>2022-08-10T08:00:00-04:00</updated>
+  <updated>2022-08-17T08:00:00-04:00</updated>
   <author>
     <name>Jeremy Singer-Vine</name>
     <email>jsvine@gmail.com</email>
@@ -10,6 +10,107 @@
   <link href="https://www.data-is-plural.com" rel="alternate"/>
   <generator>https://github.com/data-is-plural/newsletter-archive</generator>
   <subtitle>A weekly newsletter of useful/curious datasets.</subtitle>
+  <entry>
+    <id>dip-2022-08-17</id>
+    <title>Data Is Plural — 2022.08.17 edition</title>
+    <updated>2022-08-17T08:00:00-04:00</updated>
+    <content type="CDATA"><![CDATA[<p><em>Recessions and expansions, consumer finances, pro-government
+militias, pollinationships, and atomic gardening.</em></p>
+<p> </p>
+<p><strong>Recessions and expansions.</strong> The US has no official
+definition of a recession, but many observers look to the
+non-governmental <a href="https://www.nber.org/about-nber">National
+Bureau of Economic Research</a>, whose <a
+href="https://www.nber.org/research/business-cycle-dating">Business
+Cycle Dating Committee</a> tries to determine “the dates of peaks and
+troughs that frame economic recessions and expansions.” The committee <a
+href="https://www.nber.org/research/data/us-business-cycle-expansions-and-contractions">publishes
+a table and data files</a> listing those dates for dozens of cycles
+since the mid-1800s. But <a
+href="https://www.nber.org/research/business-cycle-dating/business-cycle-dating-procedure-frequently-asked-questions">be
+prepared to wait</a>: “Our determination of the trough date in April
+2020 occurred 15 months after that date, in July 2021. Earlier
+determinations took between 4 and 21 months.” [h/t <a
+href="https://usafacts.org/articles/what-is-a-recession-what-have-recessions-looked-like-in-the-past/">USAFacts</a>]</p>
+<p> </p>
+<p><strong>Consumer finances.</strong> Every three years since 1983, the
+US Federal Reserve has conducted its <a
+href="https://www.federalreserve.gov/econres/aboutscf.htm">Survey of
+Consumer Finances</a>, which asks a sample of families detailed
+questions about their income, savings, assets, pensions, loans, credit
+lines, demographics, and more. “No other study for the country collects
+comparable information,” according to the Fed. The <a
+href="https://www.federalreserve.gov/econres/scfindex.htm">most recent
+edition</a> interviewed 5,783 families <a
+href="https://www.federalreserve.gov/publications/2020-bulletin-changes-in-us-family-finances-from-2016-to-2019.htm">between
+May 2019 and April 2020</a>. <strong>Related</strong>: <a
+href="https://www.minneapolisfed.org/research/institute-working-papers/income-and-wealth-inequality-in-america-1949-2016">Moritz
+Kuhn et al.</a> (<a
+href="https://www.moritzschularick.com/academic/datasets-and-codes/">data
+available here</a>) have merged results from the modern survey with
+those from an earlier incarnation conducted from 1948 to 1977.
+<strong>As seen in</strong>: “<a
+href="https://economics.princeton.edu/working-papers/wealth-of-two-nations-the-u-s-racial-wealth-gap-1860-2020/">Wealth
+of Two Nations: The U.S. Racial Wealth Gap, 1860-2020</a>” (Ellora
+Derenoncourt et al.). [h/t <a
+href="https://twitter.com/sharon000">Sharon Machlis</a>]</p>
+<p> </p>
+<p><strong>Pro-government militias.</strong> <a
+href="https://journals.sagepub.com/doi/10.1177/20531680211062772">Sabine
+Carey et al.</a>’s <a
+href="https://www.sabinecarey.com/militias-data">Pro-Government Militias
+Database</a> focuses on armed, organized groups that align themselves
+with a government but are not part of its official security forces. The
+<a
+href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/YK8L4I">latest
+version</a>, published earlier this year and <a
+href="https://militiasdb.sowi.uni-mannheim.de/militias-public">browsable
+online</a>, provides a wide range of structured information about 504
+such groups active between 1981 and 2014, including their purpose,
+membership, targets, government links, material support, and more.</p>
+<p> </p>
+<p><strong>Pollinationships.</strong> <a
+href="https://esajournals.onlinelibrary.wiley.com/doi/10.1002/ecy.3801">Nicholas
+Balfour et al.</a>’s <a href="https://www.dopi.org.uk/">Database of
+Pollinator Interactions</a> “documents British pollinator-plant
+associations,” <a
+href="https://staff.sussex.ac.uk/news/article/58399-new-online-resource-can-help-users-bee-friendly-when-it-comes-to-planting-for-pollinators">bringing
+together</a> records from “disparate publications currently scattered
+throughout the scientific literature” (and other sources) into a <a
+href="https://www.dopi.org.uk/search">queryable depository</a>. Its
+100,000+ entries document 320,000+ interactions observed between 1,800+
+insect species and 1,200+ plant species, some published as early as
+1895. [h/t <a href="https://www.reddit.com/user/tk-data">Tyler
+Knight</a>]</p>
+<p> </p>
+<p><strong>Atomic gardening.</strong> The <a
+href="https://nucleus.iaea.org/sites/mvd/SitePages/Home.aspx">Mutant
+Variety Database</a>, <a
+href="https://www.fao.org/agriculture/fao-iaea-nuclear-techniques/en/">jointly
+maintained</a> the International Atomic Energy Agency and the UN’s Food
+and Agriculture Organization, tracks the metaphorical and literal fruits
+of <a href="https://www.atomicgardening.com/">atomic gardening</a>, a <a
+href="https://www.nytimes.com/2007/08/28/science/28crop.html">decades-old
+practice also known as radiation breeding</a>. The <a
+href="https://nucleus.iaea.org/sites/mvd/SitePages/Search.aspx">database’s
+3,400+ entries</a> indicate each known variety’s crop type, species,
+targeted characteristics, mutation development method, country,
+registration year, and more. [h/t <a
+href="https://theprepared.org/newsletter-archive/2022-08-01">Lee
+Wilkins</a>]</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send mutant feedback to
+jsvine@gmail.com, or just reply to this email. Looking for past
+datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions.</em></p>
+]]></content>
+    <link href="http://www.data-is-plural.com/archive/2022-08-17-edition" rel="alternate"/>
+    <summary>Recessions and expansions, consumer finances, pro-government militias, pollinationships, and atomic gardening.</summary>
+    <published>2022-08-17T08:00:00-04:00</published>
+  </entry>
   <entry>
     <id>dip-2022-08-10</id>
     <title>Data Is Plural — 2022.08.10 edition</title>
@@ -970,100 +1071,5 @@ subscribe and to browse past editions.</em></p>
     <link href="http://www.data-is-plural.com/archive/2022-06-15-edition" rel="alternate"/>
     <summary>Consumer prices, incarceration and redistricting, drug combinations, airplane laser incidents, and European royal families.</summary>
     <published>2022-06-15T08:00:00-04:00</published>
-  </entry>
-  <entry>
-    <id>dip-2022-06-08</id>
-    <title>Data Is Plural — 2022.06.08 edition</title>
-    <updated>2022-06-08T08:00:00-04:00</updated>
-    <content type="CDATA"><![CDATA[<p><em>House primaries, where college grads go, Hong Kong political
-prisoners, mercenaries, and Roman amphitheaters.</em></p>
-<p> </p>
-<p><strong>Six decades of House primaries.</strong> In 2014, <a
-href="https://www.stephenpettigrew.com/">Stephen Pettigrew</a>, <a
-href="https://www.westga.edu/profile.php?emp_id=91943">Karen Owen</a>,
-and <a
-href="https://www.augie.edu/academics/majors-and-programs/government-and-international-affairs/political-science/faculty">Emily
-Wanless</a> published a <a
-href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/26448">dataset
-of all Democratic and Republican primary election results</a> for the US
-House of Representatives between 1956 and 2010. It indicates each
-election’s year, state, redistricting status, primary system (open,
-closed, semi-open, multiparty), and more. The dataset also lists each
-candidate’s name, gender, prior office, and votes received. In 2020, <a
-href="https://www.michaelgmiller.com/">Michael G. Miller</a> and <a
-href="https://twitter.com/nickicamberg">Nicki Camberg</a> published a <a
-href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/CXVMSY">follow-up
-dataset</a>, adding coverage for 2012 through 2018. It uses the same
-variable names and structure as the earlier dataset, so that the two
-files can be easily combined.</p>
-<p> </p>
-<p><strong>Where college grads go.</strong> <a
-href="https://www.nber.org/papers/w30088">Johnathan Conzelmann et
-al.</a> have created a <a
-href="https://www.openicpsr.org/openicpsr/project/170381/version/V3/view">dataset</a>
-that estimates the geographic distribution of recent graduates from
-2,600 US colleges and universities, calculated from information on the
-schools’ official LinkedIn landing pages. For each institution, the
-dataset indicates the proportions of alumni in each of the 278 specific
-US locations in LinkedIn’s geographic lexicon and cross-references them
-with government-defined <a
-href="https://en.wikipedia.org/wiki/List_of_core-based_statistical_areas">metropolitan
-and micropolitan statistical areas</a>. <strong>Read more</strong>: <a
-href="https://twitter.com/JohnConz/status/1531633773103677448">An
-introductory Twitter thread</a>. [h/t <a
-href="https://twitter.com/sharon000">Sharon Machlis</a>]</p>
-<p> </p>
-<p><strong>Hong Kong political prisoners.</strong> The <a
-href="https://hkdc.us/about/">Hong Kong Democracy Council</a>, a
-US-based advocacy group, last month published the first version of its
-<a href="https://hkdc.us/political-prisoners-latest-update/">Hong Kong
-Political Prisoners Database</a>, which contains information about
-1,000+ protesters, opposition leaders, and <a
-href="https://en.wikipedia.org/wiki/Hong_Kong_national_security_law">national
-security law</a> defendants incarcerated since the city’s pro-democracy
-mass protests in mid-2019. It lists each defendant’s age, arrest date,
-arrest location, conviction date, convicted offenses, sentencing date,
-sentence length, and other details. An <a
-href="https://hkdc.us/political-prisoners-research-report/">accompanying
-report</a> describes the database’s context and methodology. [h/t <a
-href="https://twitter.com/SamuelBickett/status/1528756196089507840">Samuel
-Bickett</a>]</p>
-<p> </p>
-<p><strong>Mercenaries.</strong> <a
-href="https://journals.sagepub.com/doi/full/10.1177/00220027211072528">Ulrich
-Petersohn et al.</a>’s <a
-href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/TOFZ09">Commercial
-Military Actor Database</a> examines “the market for force” in 72
-countries from 1980 to 2016. It contains information, primarily sourced
-from news reports, on thousands of contractual relationships between
-providers (mercenaries and private military/security companies) and
-their clients (governments, opposition groups, NGOs, and transnational
-corporations). The contracted work ranges “from combat services and
-support services (e.g., communication, maintenance), to logistics,
-security, consultancy, training, and reconstruction.”</p>
-<p> </p>
-<p><strong>Roman amphitheaters.</strong> <a
-href="https://isaw.nyu.edu/people/faculty/isaw-faculty/sebastian-heath">Sebastian
-Heath</a>, a professor of computational humanities and Roman
-archaeology, has <a
-href="https://dlib.nyu.edu/awdl/isaw/isaw-papers/20-13/">constructed</a>
-a <a
-href="https://github.com/roman-amphitheaters/roman-amphitheaters">dataset
-of 260+ amphitheaters in the Roman Empire</a>. It provides the
-structures’ known names, coordinates, orientations, and capacities,
-among other characteristics, and links the entries to external data
-sources.</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send open-air feedback to
-jsvine@gmail.com, or just reply to this email. Looking for past
-datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and to browse past editions.</em></p>
-]]></content>
-    <link href="http://www.data-is-plural.com/archive/2022-06-08-edition" rel="alternate"/>
-    <summary>House primaries, where college grads go, Hong Kong political prisoners, mercenaries, and Roman amphitheaters.</summary>
-    <published>2022-06-08T08:00:00-04:00</published>
   </entry>
 </feed>
