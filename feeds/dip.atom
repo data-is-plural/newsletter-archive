@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.data-is-plural.com</id>
   <title>Data Is Plural</title>
-  <updated>2022-08-17T08:00:00-04:00</updated>
+  <updated>2022-08-24T08:00:00-04:00</updated>
   <author>
     <name>Jeremy Singer-Vine</name>
     <email>jsvine@gmail.com</email>
@@ -10,6 +10,119 @@
   <link href="https://www.data-is-plural.com" rel="alternate"/>
   <generator>https://github.com/data-is-plural/newsletter-archive</generator>
   <subtitle>A weekly newsletter of useful/curious datasets.</subtitle>
+  <entry>
+    <id>dip-2022-08-24</id>
+    <title>Data Is Plural — 2022.08.24 edition</title>
+    <updated>2022-08-24T08:00:00-04:00</updated>
+    <content type="CDATA"><![CDATA[<p><em>Beneficial owners, administrative boundaries, legislative limits
+on teaching, Census tract population changes, and Bryan’s whistle-stop
+tour.</em></p>
+<p> </p>
+<p><strong>Beneficial owners.</strong> <a
+href="https://www.openownership.org/">Open Ownership</a>, a nonprofit
+aiming to improve “transparency over who owns and controls companies,”
+<a href="https://www.openownership.org/en/about/what-we-do/">works</a>
+directly <a href="https://www.openownership.org/en/map/">with countries
+to implement reforms</a> and has developed a <a
+href="https://standard.openownership.org/">standard format for
+publishing such information</a>. It also runs the <a
+href="https://register.openownership.org/">Open Ownership Register</a>,
+a database identifying the <a
+href="https://standard.openownership.org/en/latest/primer/whatisbo.html">beneficial
+owners</a> of <a
+href="https://twitter.com/OpenOwnership/status/1552975083811004416">8.4
+million companies so far</a>, drawn primarily from <a
+href="https://register.openownership.org/data_sources">records published
+by Denmark, Slovakia, the UK, and Ukraine</a>. You can search, <a
+href="https://register.openownership.org/download">download</a>, and <a
+href="https://bods-data.openownership.org/source/register">query</a>
+those records, which include the companies’ names, addresses, and other
+details, as well as the owners’ names, nationalities, and interests in
+those companies. [h/t <a
+href="https://www.datasketch.co/newsletter/open-government/issue-17-beneficial-ownership-and-censored-journalism/">Datasketch</a>]</p>
+<p> </p>
+<p><strong>Administrative boundaries.</strong> The <a
+href="https://www.geoboundaries.org/">geoBoundaries</a> project,
+maintained by the <a href="https://geolab.wm.edu/">William &amp; Mary
+geoLab</a> and <a
+href="https://github.com/wmgeolab/geoBoundaries/graphs/contributors">volunteer
+contributors</a> since 2017, calls itself “the world’s largest open,
+free and research-ready database of political administrative
+boundaries.” It provides <a
+href="https://www.geoboundaries.org/api.html">an API</a> and <a
+href="https://www.geoboundaries.org/index.html#getdata">downloadable
+datasets</a> of those boundaries at up to six levels per country,
+ranging from the entire nation to progressively smaller entities —
+outlining, for instance, approximately 650,000 villages in India and
+2,900 Portuguese <a
+href="https://en.wikipedia.org/wiki/Freguesia">freguesias</a>.
+<strong>Previously</strong>: <a href="https://gadm.org/">The Database of
+Global Administrative Areas</a> (<a
+href="https://www.data-is-plural.com/archive/2019-07-17-edition/">DIP
+2019.07.17</a>) and <a href="https://icr.ethz.ch/data/cshapes/">national
+borders from 1886 to 2019</a> (<a
+href="https://www.data-is-plural.com/archive/2022-03-23-edition/">DIP
+2022.03.23</a>).</p>
+<p> </p>
+<p><strong>Legislative limits on teaching.</strong> A <a
+href="https://pen.org/report/Americas-censored-classrooms/">PEN America
+report</a> released last week examines recent developments in
+“educational gag orders,” which it defines as “state legislative efforts
+to restrict teaching about topics such as race, gender, American
+history, and LGBTQ+ identities in K–12 and higher education.” The study
+follows an <a
+href="https://pen.org/report/educational-gag-orders/">initial report
+published in November 2021</a> and is supplemented by a <a
+href="https://docs.google.com/spreadsheets/d/1Tj5WQVBmB6SQg-zP_M8uZsQQGH09TxmBY73v23zpyr0/edit#gid=1505554870">weekly-updated
+spreadsheet</a> that describes and tracks successful, failed, and
+pending bills since January 2021. [h/t <a
+href="https://www.infodocket.com/2022/08/17/report-educational-gag-order-proposals-spike-by-250-in-2022-pen-america-finds-announcing-the-2022-core-forum-keynote-speakers-and-more-news-headlines/">Gary
+Price</a>]</p>
+<p> </p>
+<p><strong>Census tract population changes.</strong> Researchers at the
+University of Tennessee <a
+href="https://tnsdc.utk.edu/2022/05/16/new-interactive-map-details-population-change-across-us-last-decade/">have
+built</a> a <a
+href="https://myutk.maps.arcgis.com/home/item.html?id=dfb01c34015d4e149dcbbf3fbbdfc88b">dataset</a>
+and <a
+href="https://myutk.maps.arcgis.com/apps/instant/sidebar/index.html?appid=b6cf315a28aa4089873ee3442d4a2597">interactive
+map</a> comparing each US Census tract’s population in 2020 versus 2010.
+Because the Census Bureau routinely adds and modifies tracts between
+decennial surveys, the team used <a
+href="https://www.nhgis.org/geographic-crosswalks">geographic
+“crosswalk” files from the National Historic Geographic Information
+System</a> to <a
+href="https://tnsdc.utk.edu/2022/05/16/producing-maps-of-detailed-population-change-between-2010-and-2020/">make
+the comparisons</a>. [h/t <a
+href="https://haslam.utk.edu/experts/timothy-kuhn">Tim Kuhn</a>]</p>
+<p> </p>
+<p><strong>Bryan’s whistle-stop tour.</strong> In 1896, Democratic Party
+presidential candidate William Jennings Bryan <a
+href="https://railroads.unl.edu/views/item/bryan_speech">took four key
+campaign trips via rail</a>, giving speeches in hundreds of cities along
+the way. The <a href="https://railroads.unl.edu/">Railroads and the
+Making of Modern America</a> project, based at the University of
+Nebraska, has compiled a <a
+href="https://railroads.unl.edu/topics/bryanTriplog1896.php?trip=all">table
+of those itineraries</a>; it lists each event’s date and location and
+links to many of the speeches. <strong>As seen in</strong>: “<a
+href="https://broadstreet.blog/2022/07/15/do-local-campaign-visits-by-a-populist-politician-matter-in-elections/">Do
+Local Campaign Visits by a Populist Politician Matter in Elections?</a>”
+(<a href="http://www.johannesbuggle.com/">Johannes Buggle</a> and <a
+href="http://www.stephanosvlachos.com/">Stephanos Vlachos</a>).</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send locomotive feedback
+to jsvine@gmail.com, or just reply to this email. Looking for past
+datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions.</em></p>
+]]></content>
+    <link href="http://www.data-is-plural.com/archive/2022-08-24-edition" rel="alternate"/>
+    <summary>Beneficial owners, administrative boundaries, legislative limits on teaching, Census tract population changes, and Bryan’s whistle-stop tour.</summary>
+    <published>2022-08-24T08:00:00-04:00</published>
+  </entry>
   <entry>
     <id>dip-2022-08-17</id>
     <title>Data Is Plural — 2022.08.17 edition</title>
@@ -952,125 +1065,5 @@ subscribe and to browse past editions.</em></p>
     <link href="http://www.data-is-plural.com/archive/2022-06-22-edition" rel="alternate"/>
     <summary>Monkeypox cases, Ukraine air raid alerts, central bank interest rates, inclusive crossword names, and NYC tree plantings.</summary>
     <published>2022-06-22T08:00:00-04:00</published>
-  </entry>
-  <entry>
-    <id>dip-2022-06-15</id>
-    <title>Data Is Plural — 2022.06.15 edition</title>
-    <updated>2022-06-15T08:00:00-04:00</updated>
-    <content type="CDATA"><![CDATA[<p><em>Consumer prices, incarceration and redistricting, drug
-combinations, airplane laser incidents, and European royal
-families.</em></p>
-<p> </p>
-<p><strong>Consumer prices.</strong> The US Bureau of Labor Statistics’
-widely-cited <a href="https://www.bls.gov/cpi/">Consumer Price Index</a>
-measures “the average change over time in the prices paid by urban
-consumers for a market basket of consumer goods and services.” In
-addition to overall averages, the index provides <a
-href="https://www.bls.gov/cpi/data.htm">decades of detailed data</a> on
-monthly price changes for <a
-href="https://www.bls.gov/cpi/additional-resources/index-publication-level.htm">hundreds
-of sub-baskets</a>, ranging from broad groupings (e.g., apparel,
-housing, education) to narrower categories (e.g., frozen vegetables,
-window coverings, veterinarian services). [h/t <a
-href="https://journaliststoolbox.substack.com/p/journalists-toolbox-business-part-ca8">Mike
-Reilley</a>]</p>
-<p> </p>
-<p><strong>Incarceration and redistricting.</strong> The US Census
-counts prisoners as residing where they are incarcerated. In 2010,
-however, <a
-href="https://www.prisonersofthecensus.org/NYS_A9710-D.html">New York
-passed a law</a> requiring the state to adjust these figures for
-redistricting purposes, reassigning people in state and federal prisons
-to their pre-incarceration addresses. Those adjusted counts, down to the
-Census block level, are available for <a
-href="https://latfor.state.ny.us/data/?sec=2010amendpop">2010</a> and <a
-href="https://latfor.state.ny.us/data/?sec=2020amendpop">2020</a>. A <a
-href="https://www.prisonpolicy.org/origin/ny/2020/report.html">new
-report</a> from the <a
-href="https://www.prisonpolicy.org/about.html">Prison Policy
-Initiative</a> and <a href="https://vocal-ny.org/about-us/">VOCAL-NY</a>
-cross-references the 2020 data with the original Census numbers to
-determine <a
-href="https://www.prisonpolicy.org/origin/ny/2020/report.html#appendix">state
-prison incarceration rates</a> for each <a
-href="https://www.prisonpolicy.org/origin/ny/2020/county.html">county</a>,
-<a
-href="https://www.prisonpolicy.org/origin/ny/2020/city.html">city</a>,
-<a href="https://www.prisonpolicy.org/origin/ny/2020/zipcode.html">ZIP
-code</a>, and other geographies. PPI says it <a
-href="https://www.prisonpolicy.org/origin/">plans to issue similar
-reports</a> for other states that have <a
-href="https://www.prisonersofthecensus.org/news/2021/10/26/state_count/">enacted
-comparable reforms</a>. [h/t <a
-href="https://www.prisonpolicy.org/staff.html#wessler">Mike
-Wessler</a>]</p>
-<p> </p>
-<p><strong>Drug combinations.</strong> <a
-href="https://www.nature.com/articles/s41597-022-01360-z">Guy Shtar et
-al.</a>’s <a
-href="https://icc.ise.bgu.ac.il/medical_ai/CDCDB/">Continuous Drug
-Combination Database</a> identifies 17,000+ unique medical drug
-combinations that have generated clinical interest, “curated
-automatically” from <a
-href="https://clinicaltrials.gov/">ClinicalTrials.gov</a> (<a
-href="https://www.data-is-plural.com/archive/2018-05-09-edition/">DIP
-2018.05.09</a>), the FDA’s <a
-href="https://www.fda.gov/drugs/drug-approvals-and-databases/approved-drug-products-therapeutic-equivalence-evaluations-orange-book">Orange
-Book</a> (<a
-href="https://www.data-is-plural.com/archive/2017-03-08-edition/">DIP
-2017.03.08</a>), and international patent records. The automated
-approach allows the database to be “continuously updated,” with new
-versions published weekly.</p>
-<p> </p>
-<p><strong>Airplane laser incidents.</strong> “Aiming a laser at an
-aircraft is a serious safety risk and violates federal law,” <a
-href="https://www.faa.gov/about/initiatives/lasers">according</a> to the
-Federal Aviation Administration, which encourages flight staff and the
-public <a
-href="https://www.faa.gov/aircraft/safety/report/laserinfo/">to submit
-reports of such incidents</a>. The agency publishes <a
-href="https://www.faa.gov/about/initiatives/lasers/laws">annual
-spreadsheets</a> of each reported incident since 2010, listing the date
-and time, flight number, aircraft model, altitude, local airport, laser
-color, and an injury indicator.</p>
-<p> </p>
-<p><strong>European royal families.</strong> In “<a
-href="https://www.aeaweb.org/articles?id=10.1257/app.20180521">A Network
-of Thrones</a>,” economists <a href="https://www.sethgbenzell.com/">Seth
-G. Benzell</a> and <a href="http://kmcooke.weebly.com/">Kevin Cooke</a>
-describe building a <a
-href="https://www.openicpsr.org/openicpsr/project/117045/version/V2/view">dataset</a>
-that links “European royal kinship networks, monarchies, and wars to
-study the effect of family ties on conflict” between 1495 and 1918. The
-kinship records come from <a
-href="https://www.hull.ac.uk/staff-directory/brian-tompsett">Brian
-Tompsett</a>’s <a
-href="http://web.archive.org/web/20120505084622/http://www3.dcs.hull.ac.uk/genealogy/royal/">Directory
-of Royal Genealogical Data</a>, which covers “almost every ruling house
-in the western world.” <strong>Related</strong>: <a
-href="https://www.journals.uchicago.edu/doi/pdf/10.1086/715065">Andrej
-Kokkonen et al.</a> have compiled a <a
-href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/M2E5OI">dataset</a>
-of “royal offspring, siblings, and paternal uncles and aunts” for 27
-European monarchies from 1000 to 1799. <strong>Previously</strong>: <a
-href="https://thebackend.dev/monarchs/">European monarchs</a> (<a
-href="https://www.data-is-plural.com/archive/2019-06-19-edition/">DIP
-2019.06.19</a>). [h/t <a
-href="https://www.phenomenalworld.org/sources/inextinguishable-fire/">Phenomenal
-World</a> + <a
-href="https://www.nationalaffairs.com/blog/detail/findings-a-daily-roundup/course-of-human-events">Kevin
-Lewis</a>]</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send dynastic feedback to
-jsvine@gmail.com, or just reply to this email. Looking for past
-datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and to browse past editions.</em></p>
-]]></content>
-    <link href="http://www.data-is-plural.com/archive/2022-06-15-edition" rel="alternate"/>
-    <summary>Consumer prices, incarceration and redistricting, drug combinations, airplane laser incidents, and European royal families.</summary>
-    <published>2022-06-15T08:00:00-04:00</published>
   </entry>
 </feed>
