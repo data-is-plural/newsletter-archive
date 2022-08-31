@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.data-is-plural.com</id>
   <title>Data Is Plural</title>
-  <updated>2022-08-24T08:00:00-04:00</updated>
+  <updated>2022-08-31T08:00:00-04:00</updated>
   <author>
     <name>Jeremy Singer-Vine</name>
     <email>jsvine@gmail.com</email>
@@ -10,6 +10,113 @@
   <link href="https://www.data-is-plural.com" rel="alternate"/>
   <generator>https://github.com/data-is-plural/newsletter-archive</generator>
   <subtitle>A weekly newsletter of useful/curious datasets.</subtitle>
+  <entry>
+    <id>dip-2022-08-31</id>
+    <title>Data Is Plural — 2022.08.31 edition</title>
+    <updated>2022-08-31T08:00:00-04:00</updated>
+    <content type="CDATA"><![CDATA[<p><em>Billion-dollar disasters, business formations, attempted repairs,
+Luftwaffe locations, and a fern tree of life.</em></p>
+<p> </p>
+<p><em>👋 A reader recently asked what criteria I use to evaluate
+datasets for DIP. I’ve received similar questions in the past, so I
+decided to write an FAQ-style public response, which you can <a
+href="https://www.data-is-plural.com/faq/criteria/">find here</a>. It’s
+a rough draft; feedback very much welcome.</em></p>
+<p> </p>
+<p><strong>Billion-dollar disasters.</strong> As “the Nation’s
+Scorekeeper in terms of addressing severe weather and climate events in
+their historical perspective,” the US <a
+href="https://www.ncei.noaa.gov/">National Centers for Environmental
+Information</a> maintains an <a
+href="https://www.ncei.noaa.gov/access/billions/">inventory of the most
+costly such disasters in the US</a> — those that have caused at least $1
+billion in estimated direct losses. The quarterly-updated dataset
+contains more than 330 severe storms, floods, droughts, wildfires,
+freezes, and other extreme events since 1980. You can <a
+href="https://www.ncei.noaa.gov/access/billions/events">download,
+filter, and sort the list</a> (by disaster type, start/end dates,
+inflation-adjusted cost, and total deaths), as well as <a
+href="https://www.ncei.noaa.gov/access/billions/mapping">map</a>, <a
+href="https://www.ncei.noaa.gov/access/billions/time-series">chart</a>,
+and <a
+href="https://www.ncei.noaa.gov/access/billions/summary-stats">summarize</a>
+it. [h/t <a
+href="https://www.infodocket.com/2022/07/27/research-resources-noaa-releases-a-comprehensive-update-to-billion-dollar-disasters-mapping-tool/">Gary
+Price</a>]</p>
+<p> </p>
+<p><strong>Business formations.</strong> To compile its <a
+href="https://www.census.gov/econ/bfs/index.html">Business Formation
+Statistics</a>, the US Census Bureau <a
+href="https://www.census.gov/econ/bfs/methodology.html">analyzes several
+sources</a>, including every application to the IRS for an Employer
+Identification Number (EIN) and those applicants’ first payroll tax
+filings. This allows the Bureau to provide monthly counts of business
+applications and formations by <a
+href="https://www.census.gov/econ/bfs/about_the_data.html">business
+type</a>, industrial sector, and state. They also publish weekly
+datasets of application counts by state and an annual dataset that
+drills down to individual counties; both, however, lack business
+formation counts and other details <a
+href="https://www.census.gov/econ/bfs/about_the_data.html">found only in
+the monthly files</a>. [h/t <a
+href="https://www.nber.org/papers/w28912">John C. Haltiwanger</a>]</p>
+<p> </p>
+<p><strong>Attempted repairs.</strong> The <a
+href="https://openrepair.org/">Open Repair Alliance</a>, “an
+international group of organisations committed to working towards a
+world where electrical and electronic products are more durable and
+easier to repair,” is developing <a
+href="https://openrepair.org/open-data/open-standard/">an open standard
+for sharing data about those repairs</a>. So far, they’ve <a
+href="https://openrepair.org/open-data/downloads/">gathered 62,000+
+records from five partners</a>. Each entry represents a repair session:
+its date and country, the product’s brand and <a
+href="https://standard.openrepair.org/standard.html#product-category-values">category</a>,
+the repair status, a description of the problem, barriers to repair, and
+more.</p>
+<p> </p>
+<p><strong>Luftwaffe locations.</strong> Data scientist <a
+href="https://scweiss.blogspot.com/">Sam Weiss</a> has constructed a <a
+href="https://github.com/samcarlos/luftwaffe_locations">dataset tracking
+the World War II movements of the Luftwaffe</a>, Nazi Germany’s air
+force. The information, scraped and geocoded from the Luftwaffe-history
+website <a href="https://ww2.dk/">ww2.dk</a>, includes monthly locations
+and aggregate statistics (total size, additions, losses) by aircraft
+type and unit. <strong>Read more</strong>: A <a
+href="https://scweiss.blogspot.com/2022/02/a-high-altitude-overview-of-european.html">blog
+post</a> and <a
+href="https://twitter.com/boaty__mc/status/1562218213093412864">Twitter
+thread</a> from Weiss.</p>
+<p> </p>
+<p><strong>Fern phylogenetics.</strong> <a
+href="https://www.biorxiv.org/content/10.1101/2022.03.31.486640v3.full">Joel
+H. Nitta et al.</a>’s <a href="https://fernphy.github.io/">Fern Tree of
+Life</a> uses “a mostly automated, reproducible, open pipeline” to
+convert fern DNA sequences from the National Institutes of Health’s <a
+href="https://www.ncbi.nlm.nih.gov/genbank/">GenBank</a> into an <a
+href="https://fernphy.github.io/viewer.html">interactive</a>, <a
+href="https://fernphy.shinyapps.io/ftol_explorer/">browsable</a>, and <a
+href="https://fernphy.github.io/downloads.html">downloadable</a>
+evolutionary tree. It currently covers 5,500+ species, from <em><a
+href="https://www.inaturalist.org/taxa/1405236-Abacopteris-aspera">Abacopteris
+aspera</a></em> to <em><a
+href="https://en.wikipedia.org/wiki/Zealandia_vieillardii">Zealandia
+vieillardii</a></em>. [h/t <a
+href="https://twitter.com/LabSpiritu/status/1562444771041619969">Santiago
+Ramírez Barahona</a>]</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send fiddleheaded
+feedback to jsvine@gmail.com, or just reply to this email. Looking for
+past datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions.</em></p>
+]]></content>
+    <link href="http://www.data-is-plural.com/archive/2022-08-31-edition" rel="alternate"/>
+    <summary>Billion-dollar disasters, business formations, attempted repairs, Luftwaffe locations, and a fern tree of life.</summary>
+    <published>2022-08-31T08:00:00-04:00</published>
+  </entry>
   <entry>
     <id>dip-2022-08-24</id>
     <title>Data Is Plural — 2022.08.24 edition</title>
@@ -958,112 +1065,5 @@ subscribe and to browse past editions.</em></p>
     <link href="http://www.data-is-plural.com/archive/2022-06-29-edition" rel="alternate"/>
     <summary>State abortion laws, diaspora voting policies, automated driving crashes, Bay Area rents, and dendrochronology.</summary>
     <published>2022-06-29T08:00:00-04:00</published>
-  </entry>
-  <entry>
-    <id>dip-2022-06-22</id>
-    <title>Data Is Plural — 2022.06.22 edition</title>
-    <updated>2022-06-22T08:00:00-04:00</updated>
-    <content type="CDATA"><![CDATA[<p><em>Monkeypox cases, Ukraine air raid alerts, central bank interest
-rates, inclusive crossword names, and NYC tree plantings.</em></p>
-<p> </p>
-<p><em>👋 As some eagle-eyed readers have noticed, last month I started
-syndicating Data Is Plural at <a
-href="https://themarkup.org/series/data-is-plural">The Markup</a> and <a
-href="https://fivethirtyeight.com/tag/data-is-plural/">FiveThirtyEight</a>.
-I’m enjoying the experiment and I’d like to try expanding the roster. If
-you’re interested, <a href="https://www.jsvine.com/">get in
-touch</a>.</em></p>
-<p> </p>
-<p><strong>Monkeypox cases.</strong> <a
-href="https://global.health/">Global.health</a>, a <a
-href="https://global.health/about/">data-sharing initiative</a> launched
-during the COVID-19 pandemic, has compiled a <a
-href="https://github.com/globaldothealth/monkeypox">dataset of 2,500+
-confirmed cases</a> from this year’s <a
-href="https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON385">monkeypox
-outbreak</a>. Drawing from government and media sources, the <a
-href="https://docs.google.com/spreadsheets/d/1CEBhao3rMe-qtCbAgJTn5ZKQMRFWeAeaiXFpBY3gbHE/edit#gid=0">dataset</a>
-lists each case’s country and publicly known characteristics, such as
-the patient’s gender, age range, date of confirmation, and/or symptoms.
-<strong>As seen in</strong>: <a
-href="https://www.monkeypox.global.health/">Charts and maps from the
-Global.health team</a> and <a
-href="https://ourworldindata.org/monkeypox">from Our World In
-Data</a>.</p>
-<p> </p>
-<p><strong>Ukraine air raid alerts.</strong> <a
-href="https://agafonkin.com/">Volodymyr Agafonkin</a>, a Kyiv-based
-software engineer, has been <a
-href="https://observablehq.com/@mourner/sirens">scraping and
-charting</a> the emergency notifications published through <a
-href="https://t.me/air_alert_ua">Air Alert Ukraine</a>, a Telegram
-channel. The notifications serve as a digital counterpart to the sirens
-that warn residents of potentially-imminent Russian air attacks.
-Agafonkin’s <a
-href="https://observablehq.com/@mourner/sirens#data">dataset</a>
-indicates the starting and ending times of 8,000+ alerts for 240
-locations since March 15. <strong>Read more</strong>: <a
-href="https://s2.washingtonpost.com/camp-rw/?s=62addaedcfe8a21601b1353a">An
-interview with Agafonkin</a> in <a
-href="https://www.washingtonpost.com/newsletters/how-to-read-this-chart/">How
-To Read This Chart</a>, a Washington Post newsletter.</p>
-<p> </p>
-<p><strong>Central bank interest rates.</strong> The <a
-href="https://www.bis.org/about/index.htm">Bank for International
-Settlements</a> maintains a <a
-href="https://www.bis.org/statistics/cbpol.htm">longitudinal dataset</a>
-of <a
-href="https://www.focus-economics.com/economic-indicator/policy-interest-rate">policy
-interest rates</a>, which central banks adjust to influence inflation
-and other aspects of the economy. The dataset, which includes both
-official policy rates and analogous precursors, covers three dozen
-countries plus the European Central Bank. The records span decades,
-going as far back as 1946 for Denmark, India, Japan, Sweden,
-Switzerland, and the UK; 1954 for the US; 1960 for Canada; and 1976 for
-Australia.</p>
-<p> </p>
-<p><strong>Inclusive crossword names.</strong> In a <a
-href="https://www.nytimes.com/2022/03/15/crosswords/wojcik-diverse-crossword-puzzles.html">post</a>
-for <a
-href="https://www.nytimes.com/2022/02/18/crosswords/introducing-gameplay.html">The
-New York Times’ Gameplay section</a>, psychology professor <a
-href="https://twitter.com/ewojcik">Erica Hsiung Wojcik</a> describes her
-motivations for creating the <a
-href="https://sites.google.com/view/expandedcrosswordnamedatabase/home">Expanded
-Crossword Name Database</a>, “a free and regularly updated list of
-names, places and things that represent groups, identities and people
-often excluded from crossword grids,” with a particular focus on “names
-of women, non-binary, trans, and/or people of color.” It contains 2,400+
-potential entries — from AALIYAH to ZORANEALEHURSTON — that correspond
-to 900+ distinct proper nouns, each briefly described in the project’s
-<a
-href="https://docs.google.com/spreadsheets/d/1fc6thrwFTPKwP0PlBTvzKjfiGlnM37JXLPaR8_In3fw/edit#gid=578940851">main
-spreadsheet</a>. [h/t <a href="https://www.georgeho.org/">George
-Ho</a>]</p>
-<p> </p>
-<p><strong>NYC tree plantings.</strong> New York City’s Department of
-Parks &amp; Recreation publishes a <a
-href="https://www.nycgovparks.org/trees/street-tree-planting/locations">map
-and dataset</a> of recent and likely-upcoming street tree plantings. The
-information includes each location’s coordinates, nearest street
-address, ZIP code, city council district, and borough, as well as the
-dates of completed plantings. <strong>Previously</strong>: <a
-href="https://tree-map.nycgovparks.org/">Every street tree in NYC</a>
-(<a
-href="https://www.data-is-plural.com/archive/2016-11-16-edition/">DIP
-2016.11.16</a>). [h/t <a href="https://twitter.com/sophiewarnes">Soph
-Warnes</a>]</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send transplanted
-feedback to jsvine@gmail.com, or just reply to this email. Looking for
-past datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and to browse past editions.</em></p>
-]]></content>
-    <link href="http://www.data-is-plural.com/archive/2022-06-22-edition" rel="alternate"/>
-    <summary>Monkeypox cases, Ukraine air raid alerts, central bank interest rates, inclusive crossword names, and NYC tree plantings.</summary>
-    <published>2022-06-22T08:00:00-04:00</published>
   </entry>
 </feed>
