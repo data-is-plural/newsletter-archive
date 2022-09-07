@@ -6,7 +6,121 @@
     <description>A weekly newsletter of useful/curious datasets.</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>https://github.com/data-is-plural/newsletter-archive</generator>
-    <lastBuildDate>Wed, 31 Aug 2022 08:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 07 Sep 2022 08:00:00 -0400</lastBuildDate>
+    <item>
+      <title>Data Is Plural — 2022.09.07 edition</title>
+      <link>http://www.data-is-plural.com/archive/2022-09-07-edition</link>
+      <description>LGBTQ+ rights, the General Social Survey, most buildings in Spain, battles and sieges, and even more street trees.</description>
+      <content:encoded><![CDATA[<p><em>LGBTQ+ rights, the General Social Survey, most buildings in
+Spain, battles and sieges, and even more street trees.</em></p>
+<p> </p>
+<p><strong>LGBTQ+ rights.</strong> <a
+href="https://www.equaldex.com/">Equaldex</a> tracks LGBTQ+ rights
+around the world, categorizing the liberties and restrictions that
+relate to more than a dozen issues, such as same-sex marriage, blood
+donation, military service, employment discrimination, and the right to
+change one’s legal gender. The <a
+href="https://www.equaldex.com/help">collaboratively-edited</a> database
+<a
+href="https://equaldex.stoplight.io/docs/equaldex/YXBpOjE1NjI0OTIw-equaldex-json-api">provides
+an API</a> to <a
+href="https://equaldex.stoplight.io/docs/equaldex/b3A6MTU2MjQ5MjE-get-lgtbq-rights-by-region-id">retrieve
+those categorizations and contextual notes</a> by country and/or US
+state. The project also keeps tabs on <a
+href="https://www.equaldex.com/timeline">developments that alter those
+rights</a> and <a href="https://www.equaldex.com/surveys">public opinion
+polling</a>. [h/t <a
+href="https://buttondown.email/puntofisso/archive/430-quantum-of-sollazzo/">Giuseppe
+Sollazzo</a>]</p>
+<p> </p>
+<p><strong>Five decades of US public opinion.</strong> This year marks
+the <a href="https://gss.norc.org/pages/GSS50.aspx">50th anniversary</a>
+of the <a href="https://gss.norc.org/">General Social Survey</a>, which
+<a href="https://gss.norc.org/About-The-GSS">calls itself</a> “the only
+full-probability, personal-interview survey designed to monitor changes
+in both social characteristics and attitudes currently being conducted
+in the United States.” It combines a “standard core of demographic,
+behavioral, and attitudinal questions” with shorter-lived modules on
+topics such as religion, gun control, and mental health. You can <a
+href="https://gssdataexplorer.norc.org/">explore the results online</a>
+and also <a href="https://gss.norc.org/get-the-data">download</a> the <a
+href="https://gss.norc.org/Get-Documentation">thoroughly documented</a>,
+anonymized microdata. <strong>Related</strong>: <a
+href="https://issp.org/">The International Social Survey Program</a>,
+co-founded by the GSS team.</p>
+<p> </p>
+<p><strong>Most buildings in Spain.</strong> The Spanish government’s <a
+href="https://www.sedecatastro.gob.es/">cadastral service</a> provides
+<a
+href="https://www.sedecatastro.gob.es/Accesos/SECAccDescargaDatos.aspx">geospatial
+data on every parcel, address, and building</a> for “the entire
+territory under its jurisdiction (the entire national territory except
+the Basque Country and Navarre).” The records, <a
+href="https://www.catastro.minhap.es/webinspire/index_eng.html">available
+to download programmatically</a>, include each building’s year of
+construction, total floor area, number of dwellings, and more.
+<strong>As seen in</strong>: “<a
+href="https://especiales.eldiario.es/spain-lives-in-flats/">Spain lives
+in flats: why we have built our cities vertically</a>” (El Diario, <a
+href="https://especiales.eldiario.es/espana-vive-en-pisos/">original in
+Spanish</a>), and <a
+href="https://twitter.com/raulsanchezglez/status/1443469518307799044">associated
+Twitter thread</a>. [h/t <a
+href="https://blog.datawrapper.de/data-vis-dispatch-january-18-2022/">Rose
+Mintzer-Sweeney</a>]</p>
+<p> </p>
+<p><strong>Battles and sieges.</strong> <a
+href="https://journals.sagepub.com/doi/10.1177/00220027221119085">Charles
+Miller and K. Shuvo Bakar</a>’s <a
+href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/6ZFC0V">Historical
+Conflict Event Dataset</a> covers 8,800+ military clashes spanning
+thousands of years, from <a
+href="https://www.britannica.com/place/Megiddo">Egypt’s capture of
+Megiddo c. 1468 BC</a> to the 2003 invasion of Iraq. The authors draw
+primarily from <a
+href="https://www.issueoutcomes.com.au/about.html">Tony Jaques</a>’s <a
+href="https://openlibrary.org/works/OL9393993W/Dictionary_of_Battles_and_Sieges">Dictionary
+of Battles and Sieges</a>, which they augment with additional research
+and sources. The <a
+href="https://dataverse.harvard.edu/file.xhtml?fileId=6434093&amp;version=1.0">resulting
+spreadsheet</a> provides each event’s name, year, relevant war,
+narrative, participant list, location, and more. [h/t <a
+href="https://twitter.com/MicahZenko/status/1559381053705445376">Micah
+Zenko</a>]</p>
+<p> </p>
+<p><strong>Even more street trees.</strong> <a
+href="https://www.biorxiv.org/content/10.1101/2022.03.18.484862v1.full">Dakota
+E. McCoy et al.</a> have built a <a
+href="https://datadryad.org/stash/dataset/doi:10.5061/dryad.2jm63xsrf">dataset
+of 5,000,000+ urban trees</a>, <a
+href="https://github.com/ReallyMcCoy/CityTreesProject">gathered and
+harmonized</a> from 63 US cities’ inventories. The level of detail
+differs by city, but can include the tree’s species, date planted,
+location, height, trunk diameter, condition, and more. The authors also
+provide <a
+href="https://github.com/ReallyMcCoy/CityTreesProject/blob/main/DataS2_Tree_Data_Summary_By_City_REV1.csv">range
+of summary statistics for each city</a> <strong>Previously</strong>:
+Street trees in <a
+href="https://www.data-is-plural.com/archive/2020-11-18-edition/">DIP
+2020.11.18</a>, <a
+href="https://www.data-is-plural.com/archive/2018-08-08-edition/">DIP
+2018.08.08</a>, and <a
+href="https://www.data-is-plural.com/archive/2016-11-16-edition/">DIP
+2016.11.16</a>. [h/t <a
+href="https://twitter.com/compatibilism/status/1562907507160645632">Clayton
+Page Aldern</a>]</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send firmly-rooted
+feedback to jsvine@gmail.com, or just reply to this email. Looking for
+past datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions.</em></p>
+]]></content:encoded>
+      <guid isPermaLink="false">dip-2022-09-07</guid>
+      <pubDate>Wed, 07 Sep 2022 08:00:00 -0400</pubDate>
+    </item>
     <item>
       <title>Data Is Plural — 2022.08.31 edition</title>
       <link>http://www.data-is-plural.com/archive/2022-08-31-edition</link>
@@ -943,115 +1057,6 @@ subscribe and to browse past editions.</em></p>
 ]]></content:encoded>
       <guid isPermaLink="false">dip-2022-07-06</guid>
       <pubDate>Wed, 06 Jul 2022 08:00:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Data Is Plural — 2022.06.29 edition</title>
-      <link>http://www.data-is-plural.com/archive/2022-06-29-edition</link>
-      <description>State abortion laws, diaspora voting policies, automated driving crashes, Bay Area rents, and dendrochronology.</description>
-      <content:encoded><![CDATA[<p><em>State abortion laws, diaspora voting policies, automated driving
-crashes, Bay Area rents, and dendrochronology.</em></p>
-<p> </p>
-<p><strong>State abortion laws.</strong> The <a
-href="https://www.guttmacher.org/about">Guttmacher Institute</a>, a
-“research and policy organization committed to advancing sexual and
-reproductive health and rights,” maintains a <a
-href="https://www.guttmacher.org/state-policy/explore/overview-abortion-laws">table
-summarizing each US state’s abortion laws</a>. It examines key aspects
-of the legal landscape — such as gestational age limits, mandated
-counseling, and whether an abortion must be performed by a licensed
-physician — and links to topic-specific tables with <a
-href="https://www.guttmacher.org/united-states/abortion/state-policies-abortion">additional
-detail</a>. A <a
-href="https://www.guttmacher.org/state-policy/explore/abortion-policy-absence-roe">separate
-table</a> categorizes, as of June 1, the policy implications in each
-state of overturning <em>Roe v. Wade</em>. <strong>Previously</strong>:
-Guttmacher’s <a href="https://osf.io/kthnf/">state-level statistics on
-pregnancy, birth, and abortion</a> (<a
-href="https://www.data-is-plural.com/archive/2020-10-28-edition/">DIP
-2020.10.28</a>) and <a href="https://osf.io/5k7fp/">Global Abortion
-Incidence Dataset</a> (<a
-href="https://www.data-is-plural.com/archive/2021-04-14-edition/">DIP
-2021.04.14</a>), the World Health Organization’s <a
-href="https://abortion-policies.srhr.org/">Global Abortion Policies
-Database</a> (<a
-href="https://www.data-is-plural.com/archive/2021-10-13-edition/">DIP
-2021.10.13</a>), and Caitlin Knowles Myers’s <a
-href="https://osf.io/8dg7r/">dataset of abortion facility distances</a>
-(<a
-href="https://www.data-is-plural.com/archive/2022-02-02-edition/">DIP
-2022.02.02</a>).</p>
-<p> </p>
-<p><strong>Diaspora voting policies.</strong> If you don’t live in your
-country of citizenship, can you still vote there? <a
-href="https://www.evrrdataset.com/team">Nathan Allen et al.</a>’s <a
-href="https://www.evrrdataset.com/">Extraterritorial Voting Rights and
-Restrictions Dataset</a> examines 20+ characteristics of 195 countries’
-policies from 1950 to 2020. The <a
-href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/DIJQ3H">dataset</a>’s
-<a
-href="https://dataverse.harvard.edu/file.xhtml?fileId=6337042">variables</a>
-relate to dual citizenship, voter registration, mail-in ballots, and
-more. <strong>Read more</strong>: <a
-href="https://twitter.com/bethiamswellman/status/1539264747643756546">An
-introductory Twitter thread from coauthor Elizabeth Iams Wellman</a>.
-[h/t <a
-href="https://twitter.com/rabbiatariq11/status/1539347240090755076">Rabbia
-Tariq</a>]</p>
-<p> </p>
-<p><strong>Automated driving crashes.</strong> Last June, the National
-Highway Traffic Safety Administration <a
-href="https://www.nhtsa.gov/laws-regulations/standing-general-order-crash-reporting">issued
-a directive</a> requiring manufacturers and fleet operators to report
-certain crashes involving either <a
-href="https://www.nhtsa.gov/equipment/driver-assistance-technologies">advanced
-driver assistance</a> or higher-level “automated driving systems.”
-Earlier this month, the agency <a
-href="https://www.nhtsa.gov/press-releases/initial-data-release-advanced-vehicle-technologies">published
-its first release</a> of <a
-href="https://www.nhtsa.gov/laws-regulations/standing-general-order-crash-reporting">crash
-report data</a>, which it says “will be updated on a monthly basis.” The
-files describe each report and include information about the car,
-location, circumstances, and injury level. [h/t <a
-href="https://www.washingtonpost.com/technology/2022/06/15/tesla-autopilot-crashes/">Faiz
-Siddiqui et al.</a>]</p>
-<p> </p>
-<p><strong>Bay Area rents.</strong> In 2018, economist <a
-href="https://www.katepennington.org/">Kate Pennington</a> used the <a
-href="https://archive.org/web/">Wayback Machine</a> to <a
-href="https://www.katepennington.org/clmethod">collect data</a> on two
-decades of Craigslist posts advertising housing in the San Francisco Bay
-Area. The <a href="https://www.katepennington.org/data">results span
-200,000+ listings between 2000 and 2018</a>, from which Pennington
-extracted each post’s date, price, bedroom count, location, and more.
-<strong>Previously</strong>: Twentieth-century San Francisco rents <a
-href="https://sfrb.org/san-francisco-housing-study-databook">from the
-city’s Housing Study DataBook</a> and <a
-href="https://experimental-geography.blogspot.com/2016/05/employment-construction-and-cost-of-san.html">transcribed
-from newspaper listings</a> (<a
-href="https://www.data-is-plural.com/archive/2016-05-25-edition/">DIP
-2016.05.25</a>). [h/t <a href="https://www.albrightalex.com/">Alex
-Albright</a>]</p>
-<p> </p>
-<p><strong>Dendrochronology.</strong> The <a
-href="https://www.vag.org.uk/">Vernacular Architecture Group</a>’s <a
-href="https://archaeologydataservice.ac.uk/archives/view/vag_dendro/index.cfm">Dendrochronology
-Database</a> “provides the tree-ring dates for over 4500 buildings in
-the United Kingdom, ranging from cathedrals to cottages and barns.” Each
-<a
-href="https://archaeologydataservice.ac.uk/archives/view/vag_dendro/overview.cfm">entry</a>
-lists a date range, dating method, location, building type, and
-descriptive notes.</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send carbon-dated
-feedback to jsvine@gmail.com, or just reply to this email. Looking for
-past datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and to browse past editions.</em></p>
-]]></content:encoded>
-      <guid isPermaLink="false">dip-2022-06-29</guid>
-      <pubDate>Wed, 29 Jun 2022 08:00:00 -0400</pubDate>
     </item>
   </channel>
 </rss>
