@@ -103,8 +103,8 @@ also published a subset of the records as <a
 href="https://github.com/thegetty/provenance-index-csv">open data</a>.
 The <a
 href="https://github.com/thegetty/provenance-index-csv/tree/main/sales_catalogs">largest
-of those datasets</a> describes more than 1 million sales in eight
-European countries, with dates ranging from the 1600s to 1945. [h/t <a
+of those datasets</a> describes more than 1 million sales in Europe from
+the 1600s to 1945. [h/t <a
 href="https://www.degruyter.com/document/doi/10.1515/9780271079462-008/html">Richard
 E. Spear</a>]</p>
 <p> </p>
@@ -145,6 +145,14 @@ href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMem
 spreadsheet contains them all</a>. Visit <a
 href="https://www.data-is-plural.com">data-is-plural.com</a> to
 subscribe and to browse past editions.</em></p>
+<p> </p>
+<hr />
+<p> </p>
+<ul>
+<li><strong>Correction, 2022.09.14</strong>: In the art-sales item
+above, the emailed edition referred to “eight European countries,”
+incorrectly implying that Scandinavia is a country.</li>
+</ul>
 ]]></content>
     <link href="http://www.data-is-plural.com/archive/2022-09-14-edition" rel="alternate"/>
     <summary>An official Congress API, voter ID laws, local internet speeds, the Getty Provenance Index, and space weather.</summary>
