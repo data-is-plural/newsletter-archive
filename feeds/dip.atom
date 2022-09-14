@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.data-is-plural.com</id>
   <title>Data Is Plural</title>
-  <updated>2022-09-07T08:00:00-04:00</updated>
+  <updated>2022-09-14T08:00:00-04:00</updated>
   <author>
     <name>Jeremy Singer-Vine</name>
     <email>jsvine@gmail.com</email>
@@ -10,6 +10,146 @@
   <link href="https://www.data-is-plural.com" rel="alternate"/>
   <generator>https://github.com/data-is-plural/newsletter-archive</generator>
   <subtitle>A weekly newsletter of useful/curious datasets.</subtitle>
+  <entry>
+    <id>dip-2022-09-14</id>
+    <title>Data Is Plural — 2022.09.14 edition</title>
+    <updated>2022-09-14T08:00:00-04:00</updated>
+    <content type="CDATA"><![CDATA[<p><em>An official Congress API, voter ID laws, local internet speeds,
+the Getty Provenance Index, and space weather.</em></p>
+<p> </p>
+<p><em>👋 Welcome to the 300th(!) edition of Data Is Plural. To mark the
+occasion, I’ve published a <a
+href="https://github.com/data-is-plural/feedback-phrases">bonus,
+self-referential, ultra-niche dataset of the newsletter’s
+feedback-soliciting phrases</a>.</em></p>
+<p> </p>
+<p><strong>Congress gets an official API.</strong> The United States’
+legislative branch now has <a href="https://api.congress.gov/">an
+official API</a>, <a
+href="https://blogs.loc.gov/law/2022/09/introducing-the-congress-gov-api/">the
+Library of Congress announced last week</a>. It <a
+href="https://github.com/LibraryOfCongress/api.congress.gov/">provides</a>
+structured data on legislators, bills, bill summaries, amendments,
+committee reports, appointee nominations, international treaties, and
+more. To use the service, you’ll need to <a
+href="https://api.congress.gov/sign-up/">sign up for a free API key</a>.
+<strong>Read more</strong>: <a
+href="https://congressionaldata.org/library-of-congress-launches-congress-gov-api/">Some
+context from the Congressional Data Coalition</a>.
+<strong>Related</strong>: The Government Publishing Office’s <a
+href="https://www.govinfo.gov/bulkdata">bulk data on bills and bill
+summaries</a> (<a
+href="https://www.data-is-plural.com/archive/2020-08-26-edition/">DIP
+2020.08.26</a>) and <a
+href="https://projects.propublica.org/api-docs/congress-api/">ProPublica’s
+Congress API</a>. [h/t <a
+href="https://www.linkedin.com/in/jackiekazil/">Jackie Kazil</a>]</p>
+<p> </p>
+<p><strong>Voter ID laws.</strong> As part of his PhD research, <a
+href="https://pure.royalholloway.ac.uk/portal/en/persons/thomas-barton(8a862a25-f335-4c52-9986-6c094b613b55).html">Tom
+Barton</a> has <a
+href="https://www.tandfonline.com/doi/full/10.1080/00344893.2022.2113117">constructed</a>
+a <a
+href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/RU2F9A">dataset
+of voter identification requirements around the world</a>. For each
+country and US state, the dataset indicates the type of identification
+needed to vote (a photo ID, non-photo ID, or just basic personal
+details), how many forms of identification the voter must provide, and
+more. <strong>Related</strong>: <a
+href="https://www.ncsl.org/research/elections-and-campaigns/voter-id.aspx">A
+detailed examination of US voter ID laws</a> from the National
+Conference of State Legislatures. <strong>Previously</strong>: <a
+href="https://tracker.votingrightslab.org/pending/search">Recent US
+voting legislation</a> tracked by the <a
+href="https://votingrightslab.org/">Voting Rights Lab</a> (<a
+href="https://www.data-is-plural.com/archive/2022-07-20-edition/">DIP
+2022.07.20</a>).</p>
+<p> </p>
+<p><strong>Local internet speeds.</strong> If you’ve tried measuring
+your internet speed, you might have used <a
+href="https://www.ookla.com/">Ookla</a>’s <a
+href="https://www.speedtest.net/">testing service</a>. The company <a
+href="https://www.ookla.com/ookla-for-good/open-data">releases</a> a
+series of <a
+href="https://github.com/teamookla/ookla-open-data">quarterly datasets
+that summarize the test results</a>, aggregated into geospatial tiles.
+(The tile sizes vary by latitude but measure roughly 2,000 feet by 2,000
+feet at the equator.) For each tile, the datasets list the number of
+tests performed and devices tested, plus the average download speed,
+upload speed, and latency. <strong>As seen in</strong>: “<a
+href="https://www.europeandatajournalism.eu/eng/News/Data-news/Europe-s-internet-speeds-are-faster-than-ever-but-not-for-everyone">Europe’s
+internet speeds are faster than ever, but not for everyone</a>” (EDJNet)
+and <a
+href="https://datavis.europeandatajournalism.eu/obct/connectivity/">associated
+dashboard</a>. <strong>Previously</strong>: <a
+href="https://www.measurementlab.net/data/">Internet speeds from the
+Measurement Lab</a> (<a
+href="https://www.data-is-plural.com/archive/2019-05-22-edition/">DIP
+2019.05.22</a>). [h/t <a
+href="https://twitter.com/_federicocaruso">Federico Caruso</a>]</p>
+<p> </p>
+<p><strong>Art sales and ownership.</strong> The <a
+href="https://www.getty.edu/research/tools/provenance/">Getty Provenance
+Index</a> contains more than 2.3 million <a
+href="https://www.getty.edu/research/tools/provenance/charts.html">historical
+records</a> relating to the sale and ownership of artworks, <a
+href="https://piprod.getty.edu/starweb/pi/servlet.starweb?path=pi/pi.web">searchable
+online</a> by artist, owner, auction house, date, and other
+characteristics. As part of an <a
+href="https://www.getty.edu/research/tools/provenance/provenance_remodel/index.html">ongoing
+project to remodel the index</a>, the <a
+href="https://www.getty.edu/research/">Getty Research Institute</a> has
+also published a subset of the records as <a
+href="https://github.com/thegetty/provenance-index-csv">open data</a>.
+The <a
+href="https://github.com/thegetty/provenance-index-csv/tree/main/sales_catalogs">largest
+of those datasets</a> describes more than 1 million sales in eight
+European countries, with dates ranging from the 1600s to 1945. [h/t <a
+href="https://www.degruyter.com/document/doi/10.1515/9780271079462-008/html">Richard
+E. Spear</a>]</p>
+<p> </p>
+<p><strong>Space weather.</strong> NOAA’s <a
+href="https://www.spaceweather.gov/">Space Weather Prediction Center</a>
+keeps tabs on a <a href="https://www.spaceweather.gov/phenomena">variety
+of phenomena</a>, such as <a
+href="https://www.spaceweather.gov/phenomena/coronal-mass-ejections">coronal
+mass ejections</a>, <a
+href="https://www.spaceweather.gov/phenomena/geomagnetic-storms">geomagnetic
+storms</a>, and <a
+href="https://www.spaceweather.gov/phenomena/solar-flares-radio-blackouts">solar
+flares</a>. The agency’s <a
+href="https://www.spaceweather.gov/products-and-data">reports and
+datasets</a> include <a
+href="https://www.spaceweather.gov/products/3-day-forecast">three-day
+forecasts</a>, <a
+href="https://www.spaceweather.gov/products/predicted-sunspot-number-and-radio-flux">sunspot
+predictions</a>, <a
+href="https://www.spaceweather.gov/products/real-time-solar-wind">solar
+wind observations</a>, and <a
+href="https://www.spaceweather.gov/content/data-access">more</a>. The
+agency also provides <a
+href="https://www.spaceweather.gov/dashboards">dashboards for several
+audiences</a>, such as the <a
+href="https://www.spaceweather.gov/communities/aviation-community-dashboard">aviation
+community</a>, <a
+href="https://www.spaceweather.gov/communities/emergency-management">emergency
+management</a>, and “<a
+href="https://www.spaceweather.gov/communities/space-weather-enthusiasts-dashboard">space
+weather enthusiasts</a>.” [h/t <a
+href="https://news.ycombinator.com/item?id=32707051">oblib</a>]</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send auroral feedback to
+jsvine@gmail.com, or just reply to this email. Looking for past
+datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions.</em></p>
+]]></content>
+    <link href="http://www.data-is-plural.com/archive/2022-09-14-edition" rel="alternate"/>
+    <summary>An official Congress API, voter ID laws, local internet speeds, the Getty Provenance Index, and space weather.</summary>
+    <published>2022-09-14T08:00:00-04:00</published>
+  </entry>
   <entry>
     <id>dip-2022-09-07</id>
     <title>Data Is Plural — 2022.09.07 edition</title>
@@ -963,112 +1103,5 @@ subscribe and to browse past editions.</em></p>
     <link href="http://www.data-is-plural.com/archive/2022-07-13-edition" rel="alternate"/>
     <summary>Heat metrics, technology adoption, a pile of law, digital payments in India, and early movie theaters in Oregon.</summary>
     <published>2022-07-13T08:00:00-04:00</published>
-  </entry>
-  <entry>
-    <id>dip-2022-07-06</id>
-    <title>Data Is Plural — 2022.07.06 edition</title>
-    <updated>2022-07-06T08:00:00-04:00</updated>
-    <content type="CDATA"><![CDATA[<p><em>Banned and challenged books, mass expulsions, European air
-traffic, Shakespeare, and Saturday Night Live.</em></p>
-<p> </p>
-<p><strong>Banned and challenged books.</strong> A <a
-href="https://pen.org/press-release/report-1586-school-book-bans-and-restrictions-in-86-school-districts-across-26-states/">recent</a>
-<a href="https://pen.org/banned-in-the-usa/">report</a> from <a
-href="https://pen.org/about-us/">PEN America</a> identified 1,500+
-decisions, made between July 2021 and March 2022, to ban books from
-classrooms and school libraries. A <a
-href="https://docs.google.com/spreadsheets/d/1hTs_PB7KuTMBtNMESFEGuK-0abzhNxVv4tgpI5-iKe8/edit#gid=1623346099">spreadsheet
-accompanying the report</a> lists each decision’s date, type, state, and
-school district, as well as each banned book’s title, authors,
-illustrators, and translators. <strong>Related</strong>: Independent
-researcher <a href="https://twitter.com/TasslynM">Tasslyn Magnusson</a>,
-in <a
-href="https://www.everylibraryinstitute.org/book_censorship_database_magnusson">partnership</a>
-with <a
-href="https://www.everylibrary.org/about-everylibrary">EveryLibrary</a>,
-maintains a <a
-href="https://docs.google.com/spreadsheets/d/1LqhGcvFDdT4izvoXRrz95BTDUzLr7M3IHf-2HGKhX7I/edit#gid=1604785798">spreadsheet</a>
-of both book bans and book challenges, with 3,000+ entries since the
-2021–22 school year. [h/t <a
-href="https://www.infodocket.com/2022/06/16/everylibrary-launches-banned-book-store-internets-most-comprehensive-store-of-banned-books/">Gary
-Price</a>]</p>
-<p> </p>
-<p><strong>Mass expulsions.</strong> Political scientist <a
-href="https://www.meghanmgarrity.com/">Meghan M. Garrity</a>’s <a
-href="https://journals.sagepub.com/doi/abs/10.1177/00223433211068633">Government-Sponsored
-Mass Expulsion dataset</a> focuses on “policies in which governments
-systematically remove ethnic, racial, religious or national groups, en
-masse.” Using a combination of archival research and secondary sources,
-Garrity documents 139 such events, estimated to have expelled more than
-30 million people between 1900 and 2020. For each expulsion, the dataset
-provides “information on the expelling country, onset, duration, region,
-scale, category of persons expelled, and frequency.” To download it,
-visit the Journal of Peace Research’s <a
-href="https://www.prio.org/journals/jpr/replicationdata">replication
-data portal</a> and search for “mass expulsion.”</p>
-<p> </p>
-<p><strong>European air traffic.</strong> <a
-href="https://www.eurocontrol.int/about-us">Eurocontrol</a>, the main
-organization coordinating Europe’s air traffic management, publishes an
-“<a href="https://ansperformance.eu/">aviation intelligence portal</a>”
-with a range of industry metrics, including <a
-href="https://ansperformance.eu/traffic/">traffic reports</a> that count
-the daily number of flights <a
-href="https://www.eurocontrol.int/Economics/DailyTrafficVariation-States.html">by
-country</a>, <a
-href="https://www.eurocontrol.int/Economics/DailyTrafficVariation-Airports.html">by
-airport</a>, and <a
-href="https://www.eurocontrol.int/Economics/DailyTrafficVariation-AOs.html">by
-operator</a>. The portal also offers <a
-href="https://ansperformance.eu/data/">bulk datasets</a> on topics such
-as <a
-href="https://ansperformance.eu/reference/dataset/airport-traffic/">airport
-traffic</a>, <a
-href="https://ansperformance.eu/reference/dataset/horizontal-flight-efficiency/">flight
-efficiency</a>, <a
-href="https://ansperformance.eu/reference/dataset/emissions/">estimated
-CO2 emissions</a>, and more. [h/t <a
-href="https://twitter.com/puntofisso">Giuseppe Sollazzo</a>]</p>
-<p> </p>
-<p><strong>Shakespeare.</strong> <a
-href="https://shakespeare.folger.edu/about-the-folger-shakespeare/">The
-Folger Shakespeare</a> “brings you the complete works of the world’s
-greatest playwright, edited for modern readers.” Its digital editions of
-the Bard’s plays and poems are available <a
-href="https://shakespeare.folger.edu/shakespeares-works/">to read
-online</a> and <a href="https://shakespeare.folger.edu/download/">to
-download</a> in various file formats. It also <a
-href="https://shakespeare.folger.edu/the-folger-shakespeare-api/">provides
-an API</a>, with <a
-href="https://www.folgerdigitaltexts.org/api">endpoints</a> for
-synopses, roles, monologues, word frequencies, and more. [h/t <a
-href="https://news.ycombinator.com/item?id=31906490">Cameron
-Armstrong</a>]</p>
-<p> </p>
-<p><strong>Saturday Night Live.</strong> <a
-href="https://twitter.com/snlmedia">Joel Navaroli</a>’s <a
-href="http://www.snlarchives.net/">snlarchives.net</a> aims to catalog
-and cross-reference every episode, cast member, host, character, sketch,
-impression, and other aspects of Saturday Night Live’s 47-and-counting
-seasons. An <a href="https://github.com/hhllcks/snldb">open-source
-project</a> by <a href="https://www.hhllcks.de/">Hendrik Hilleckes</a>
-and <a href="https://colinmorris.github.io/">Colin Morris</a> scrapes
-much of that information into <a
-href="https://github.com/hhllcks/snldb/tree/master/output">structured
-data files</a>. <strong>As seen in</strong>: <a
-href="https://colinmorris.github.io/blog/snl-sketch-gender">Morris’s
-2017 analysis of gender representation in SNL sketches</a>.</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send impersonated
-feedback to jsvine@gmail.com, or just reply to this email. Looking for
-past datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and to browse past editions.</em></p>
-]]></content>
-    <link href="http://www.data-is-plural.com/archive/2022-07-06-edition" rel="alternate"/>
-    <summary>Banned and challenged books, mass expulsions, European air traffic, Shakespeare, and Saturday Night Live.</summary>
-    <published>2022-07-06T08:00:00-04:00</published>
   </entry>
 </feed>
