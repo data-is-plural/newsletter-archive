@@ -6,7 +6,115 @@
     <description>A weekly newsletter of useful/curious datasets.</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>https://github.com/data-is-plural/newsletter-archive</generator>
-    <lastBuildDate>Wed, 14 Sep 2022 08:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 21 Sep 2022 08:00:00 -0400</lastBuildDate>
+    <item>
+      <title>Data Is Plural — 2022.09.21 edition</title>
+      <link>http://www.data-is-plural.com/archive/2022-09-21-edition</link>
+      <description>Labor turnover, biodiversity trends, probabilistic predictions, working artists, and Atari emails.</description>
+      <content:encoded><![CDATA[<p><em>Labor turnover, biodiversity trends, probabilistic predictions,
+working artists, and Atari emails.</em></p>
+<p> </p>
+<p><strong>Labor turnover.</strong> The US Bureau of Labor Statistics’
+monthly <a href="https://www.bls.gov/jlt/">Job Openings and Labor
+Turnover Survey</a> estimates the number of jobs that people quit, how
+many people were fired or laid off, the number new hires, and the
+current number of open positions. Those estimates, based on data <a
+href="https://www.bls.gov/opub/hom/jlt/data.htm">gathered from a sample
+of businesses across the country</a>, are available to <a
+href="https://www.bls.gov/jlt/data.htm">download and query</a> by state,
+industry, and business size. They <a
+href="https://www.bls.gov/jlt/jltdef.htm">include most types of
+workers</a>, regardless of whether they’re full-time or part-time,
+permanent or seasonal, salaried or hourly.</p>
+<p> </p>
+<p><strong>Biodiversity trends.</strong> <a
+href="https://onlinelibrary.wiley.com/doi/10.1111/geb.12729">Maria
+Dornelas et al.</a>’s <a
+href="https://biotime.st-andrews.ac.uk/">BioTIME</a> project has
+collected and standardized data from hundreds of studies examining
+ecological communities over time. You can <a
+href="https://biotime.st-andrews.ac.uk/download.php">browse and search
+the studies</a> by year, taxa, species, and biome. You can also <a
+href="https://biotime.st-andrews.ac.uk/downloadFull.php">download the
+full dataset</a>, which provides information about each study (biome,
+start/end years, number of species tallied, and much more) and each
+sample collected (date, location, species, abundance, and biomass).
+<strong>As seen in</strong>: “<a
+href="https://osf.io/preprints/socarxiv/qy76a/">Economic Production and
+Biodiversity in the United States</a>,” by Yuanning Liang et al.</p>
+<p> </p>
+<p><strong>Probabilistic predictions.</strong> <a
+href="https://www.metaculus.com/about/">Metaculus</a> is a forecasting
+platform whose community has registered <a
+href="https://twitter.com/fianxu/status/1569537658103431168">more than 1
+million predictions</a> on questions such as “<a
+href="https://www.metaculus.com/questions/10004/german-nuclear-power/">Will
+a major nuclear power plant in Germany be operational on June 1,
+2023?</a>” The <a href="https://www.metaculus.com/api2/">website’s
+API</a> provides data on <a
+href="https://www.metaculus.com/questions/">questions posed</a>, <a
+href="https://www.metaculus.com/rankings/">user rankings</a>, and other
+aspects of the platform. For each question, you can see its phrasing,
+date posed, creator, prediction type, the distribution of predictions,
+and more. <strong>Related</strong>: <a
+href="https://zoltardata.com/">Zoltar</a>, a forecast archive assembled
+by <a href="https://www.nature.com/articles/s41597-021-00839-5">Nicholas
+G. Reich et al</a>. <strong>Previously</strong>: <a
+href="https://projects.fivethirtyeight.com/checking-our-work/">FiveThirtyEight’s
+assessment of its own predictions</a> (<a
+href="https://www.data-is-plural.com/archive/2019-04-10-edition/">DIP
+2019.04.10</a>).</p>
+<p> </p>
+<p><strong>Working artists.</strong> The <a
+href="https://www.arts.gov/about">National Endowment for the Arts</a>
+regularly produces <a
+href="https://www.arts.gov/impact/research/arts-data-profile-series">statistical
+profiles of the arts in the United States</a>. The latest, “<a
+href="https://www.arts.gov/impact/research/arts-data-profile-series/adp-31">Artists
+in the Workforce: National and State Estimates for 2015-2019</a>,” is
+tabulated from the Census Bureau’s American Community Survey. It <a
+href="https://www.arts.gov/impact/research/arts-data-profile-series/adp-31/data-tables">provides</a>
+employment and earning estimates by artistic occupation and demographic.
+Additional tabulations, including for the country’s 25 largest metro
+areas, are <a
+href="https://www.icpsr.umich.edu/web/NADAC/studies/38389/summary">available</a>
+through the <a
+href="https://www.icpsr.umich.edu/web/pages/NADAC/index.html">National
+Archive of Data on Arts and Culture</a>. [h/t <a
+href="https://www.infodocket.com/2022/08/31/new-data-alert-labor-force-estimates-for-artist-occupations/">Gary
+Price</a>]</p>
+<p> </p>
+<p><strong>Atari emails.</strong> A couple of decades ago, <a
+href="https://www.jmargolin.com/">Jed Margolin</a> posted a <a
+href="https://www.jmargolin.com/vmail/vmail.htm">cache of electronic
+mail messages</a> from his time as a video game hardware engineer at
+Atari (and Atari Games, a successor company). In 2017, with Margolin’s
+permission, <a href="https://twitter.com/voberoi">Vikram Oberoi</a>
+scraped the 4,000+ emails and built <a
+href="https://atariemailarchive.org/">atariemailarchive.org</a>, which
+groups the messages into <a
+href="https://atariemailarchive.org/all-threads">threads</a>, <a
+href="https://atariemailarchive.org/categories">categories</a>, and a <a
+href="https://atariemailarchive.org/top-threads">list of favorites</a>.
+The project also includes a <a
+href="https://github.com/voberoi/atariemailarchive-data">database
+file</a> containing each message’s sender, recipients, timestamp,
+subject, body, and Oberoi’s thread grouping. <strong>Related</strong>:
+“<a
+href="https://vikramoberoi.com/how-i-made-atariemailarchive-org/">How I
+made atariemailarchive.org</a>.”</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send coin-operated
+feedback to jsvine@gmail.com, or just reply to this email. Looking for
+past datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions.</em></p>
+]]></content:encoded>
+      <guid isPermaLink="false">dip-2022-09-21</guid>
+      <pubDate>Wed, 21 Sep 2022 08:00:00 -0400</pubDate>
+    </item>
     <item>
       <title>Data Is Plural — 2022.09.14 edition</title>
       <link>http://www.data-is-plural.com/archive/2022-09-14-edition</link>
@@ -997,107 +1105,6 @@ subscribe and to browse past editions.</em></p>
 ]]></content:encoded>
       <guid isPermaLink="false">dip-2022-07-20</guid>
       <pubDate>Wed, 20 Jul 2022 08:00:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Data Is Plural — 2022.07.13 edition</title>
-      <link>http://www.data-is-plural.com/archive/2022-07-13-edition</link>
-      <description>Heat metrics, technology adoption, a pile of law, digital payments in India, and early movie theaters in Oregon.</description>
-      <content:encoded><![CDATA[<p><em>Heat metrics, technology adoption, a pile of law, digital
-payments in India, and early movie theaters in Oregon.</em></p>
-<p> </p>
-<p><strong>Heat metrics.</strong> When you talk about outdoor heat,
-you’re likely referring to “dry-bulb” temperatures, measured by a
-thermometer shielded from the sun and moisture. But other factors also
-contribute to the physiological experience of hot weather. To that end,
-<a href="https://www.nature.com/articles/s41597-022-01405-3">Keith R.
-Spangler et al.</a> have created a <a
-href="https://doi.org/10.6084/m9.figshare.19419836">dataset</a>
-containing daily estimates of the <a
-href="https://www.weather.gov/tsa/wbgt">wet-bulb globe temperature</a>,
-<a href="http://www.utci.org/">Universal Thermal Climate Index</a>, <a
-href="https://www.weather.gov/ama/heatindex">heat index</a>, <a
-href="https://www.canada.ca/en/environment-climate-change/services/seasonal-weather-hazards/warm-season-weather-hazards.html#toc7">humidex</a>,
-and <a
-href="https://www.nature.com/articles/s41597-022-01405-3/tables/4">other
-heat metrics</a> for every county in the contiguous United States from
-2000 through 2020. That first metric, for instance, was “originally
-developed in the 1950s to establish epidemiologically relevant thermal
-thresholds to prevent heat-related illnesses at US military training
-camps,” and takes humidity, solar radiation, and wind speed into
-account.</p>
-<p> </p>
-<p><strong>Technology adoption.</strong> <a
-href="https://www.dcomin.host.dartmouth.edu/">Diego A. Comin</a> and <a
-href="https://www.barthobijn.net/">Bart Hobijn</a>’s <a
-href="https://www.nber.org/papers/w15319">Cross-country Historical
-Adoption of Technology</a> dataset, published in 2009, <a
-href="https://data.nber.org/data-appendix/w15319/">compiles
-statistics</a> “on the adoption of over 100 technologies in more than
-150 countries since 1800.” Examples include the number of telegrams
-sent, television sets in use, knee replacement surgeries performed, and
-metric tons of freight carried on railways. Last month, <a
-href="https://www.cgdev.org/expert/charles-kenny">Charles Kenny</a> and
-<a href="https://www.cgdev.org/staff/george-yang">George Yang</a>
-published a <a
-href="https://www.cgdev.org/publication/technology-and-development-exploration-data">dataset
-and accompanying working paper</a> that updates those numbers and
-expands the technologies covered. [h/t <a
-href="https://twitter.com/scepticalranil/status/1534953212326854657">Ranil
-Dissanayake</a>]</p>
-<p> </p>
-<p><strong>Legal language.</strong> <a
-href="https://arxiv.org/abs/2207.00220">Peter Henderson et al.</a>’s <a
-href="https://huggingface.co/datasets/pile-of-law/pile-of-law">Pile of
-Law</a> is “a 256GB (and growing) dataset of open-source
-English-language legal and administrative data, covering court opinions,
-contracts, administrative rules, and legislative records.” Its texts
-come from <a href="https://www.courtlistener.com/">CourtListener</a> (<a
-href="https://www.data-is-plural.com/archive/2016-04-13-edition/">DIP
-2016.04.13</a>), the <a
-href="https://www.constituteproject.org/">Constitute Project</a> (<a
-href="https://www.data-is-plural.com/archive/2022-04-13-edition/">DIP
-2022.04.13</a>), the European Court of Human Rights’ <a
-href="https://hudoc.echr.coe.int/eng">published</a> <a
-href="https://archive.org/details/ECHR-ACL2019">opinions</a>, the
-Consumer Financial Protection Bureau’s <a
-href="https://www.consumerfinance.gov/credit-cards/agreements/">collection
-of credit card agreements</a>, and many other sources. [h/t <a
-href="https://pinboard.in/u:arnicas">Lynn Cherny</a>]</p>
-<p> </p>
-<p><strong>Digital payments in India.</strong> <a
-href="https://en.wikipedia.org/wiki/PhonePe">PhonePe</a>, a digital
-payments company serving India, publishes <a
-href="https://github.com/PhonePe/pulse">quarterly aggregated data</a> on
-users and transactions. The statistics, which go back to 2018 and power
-an <a href="https://www.phonepe.com/pulse/explore/">interactive map</a>,
-are available on a national, state, and district level. User counts are
-provided as totals, as well as grouped by device brand. Transactions are
-measured by count and total value, with the counts also disaggregated
-into a few categories.</p>
-<p> </p>
-<p><strong>Early movie theaters in Oregon.</strong> The <a
-href="https://oregontheaterproject.uoregon.edu/">Oregon Theater
-Project</a>, <a
-href="https://oregontheaterproject.uoregon.edu/about-project">developed
-as part of a cinema studies course</a>, “aims to document the history of
-moviegoing in Oregon – why people went to the movies, where people
-watched them, and what people thought about them,” with a current focus
-on the silent film era. Its directory of 200+ theaters is available to
-<a
-href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/FGOUZ3">download</a>
-and <a href="https://oregontheaterproject.uoregon.edu/theaters">explore
-online</a>.</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send silent feedback to
-jsvine@gmail.com, or just reply to this email. Looking for past
-datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and to browse past editions.</em></p>
-]]></content:encoded>
-      <guid isPermaLink="false">dip-2022-07-13</guid>
-      <pubDate>Wed, 13 Jul 2022 08:00:00 -0400</pubDate>
     </item>
   </channel>
 </rss>
