@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.data-is-plural.com</id>
   <title>Data Is Plural</title>
-  <updated>2022-09-21T08:00:00-04:00</updated>
+  <updated>2022-09-28T08:00:00-04:00</updated>
   <author>
     <name>Jeremy Singer-Vine</name>
     <email>jsvine@gmail.com</email>
@@ -10,6 +10,131 @@
   <link href="https://www.data-is-plural.com" rel="alternate"/>
   <generator>https://github.com/data-is-plural/newsletter-archive</generator>
   <subtitle>A weekly newsletter of useful/curious datasets.</subtitle>
+  <entry>
+    <id>dip-2022-09-28</id>
+    <title>Data Is Plural — 2022.09.28 edition</title>
+    <updated>2022-09-28T08:00:00-04:00</updated>
+    <content type="CDATA"><![CDATA[<p><em>FDA inspections, academic citations, university endowments, and
+tech products promoted.</em></p>
+<p> </p>
+<p><em>👋 On Monday I launched the <a
+href="https://www.data-liberation-project.org/">Data Liberation
+Project</a>, a new initiative to identify, obtain, reformat, clean,
+document, publish, and disseminate government datasets of public
+interest. I invite you to <a
+href="https://www.data-liberation-project.org/about">read more about
+it</a>, <a href="https://www.data-liberation-project.org/requests">see
+the first batch of FOIA requests</a>, and <a
+href="https://www.data-liberation-project.org/newsletter">sign up for
+the project’s newsletter</a>. Questions and feedback very much
+welcome!</em></p>
+<p> </p>
+<p><strong>FDA inspections.</strong> The US Food and Drug
+Administration’s <a
+href="https://datadashboard.fda.gov/ora/cd/inspections.htm">inspections
+dashboard</a> lists 264,000+ assessments of facilities (primarily those
+manufacturing food, drugs, and other FDA-regulated products) and
+227,000+ problems the inspectors found. The fields include the facility
+owner, location, product type, inspection completion date, and outcomes.
+The records, which go back to fiscal year 2009, can be bulk-downloaded
+from the dashboard and queried via <a
+href="https://datadashboard.fda.gov/ora/api/index.htm">an API</a>. They
+come with certain caveats; they exclude, for instance, “inspections
+waiting for a final enforcement action” and those conducted by state
+(rather than federal) inspectors. <strong>Related</strong>: <a
+href="https://datadashboard.fda.gov/ora/cd/index.htm">More
+compliance-related data dashboards from the FDA</a>.</p>
+<p> </p>
+<p><strong>Academic citations.</strong> Since 2017, the <a
+href="https://i4oc.org/">Initiative for Open Citations</a> has <a
+href="https://www.nature.com/articles/nature.2017.21800">urged academic
+publishers</a> to share their papers’ reference lists as open data. Last
+month, the group <a
+href="https://twitter.com/i4oc_org/status/1560274192620085251">announced</a>
+it had <a href="https://www.nature.com/articles/d41586-022-02926-y">hit
+a major milestone</a>: Of the 61 million papers that have references and
+are indexed by <a
+href="https://en.wikipedia.org/wiki/Digital_object_identifier">DOI</a>-registrar
+<a href="https://www.crossref.org/">Crossref</a>, “100% [...] have made
+their citations openly available.” You can access the data through <a
+href="https://www.crossref.org/documentation/retrieve-metadata/rest-api/">Crossref’s
+API</a> and in bulk through <a
+href="https://opencitations.net/">OpenCitations</a>. <strong>Read
+more</strong>: “<a
+href="https://www.nature.com/articles/d41586-022-02915-1">Citation data
+are now open, but that’s far from enough</a>” (Nature).
+<strong>Previously</strong>: <a
+href="https://medium.com/freely-sharing-the-sum-of-all-knowledge/what-are-the-ten-most-cited-sources-on-wikipedia-lets-ask-the-data-34071478785a">Wikipedia
+citations</a> (<a
+href="https://www.data-is-plural.com/archive/2018-05-23-edition/">DIP
+2018.05.23</a>), <a
+href="https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3000385">biomedical
+citations</a> (<a
+href="https://www.data-is-plural.com/archive/2019-10-23-edition/">DIP
+2019.10.23</a>), and <a
+href="https://case.law/download/citation_graph/">legal citations</a> (<a
+href="https://www.data-is-plural.com/archive/2020-07-15-edition/">DIP
+2020.07.15</a>). [h/t <a
+href="https://mailchi.mp/f1a7e5522f4b/dscn-251-academic-inequality-in-3-parts-inequality-on-the-planet-humans-vs-the-rest">Data
+Science Community Newsletter</a>]</p>
+<p> </p>
+<p><strong>Old and New Testament locations.</strong> <a
+href="https://www.openbible.info/">OpenBible.info</a>’s <a
+href="https://www.openbible.info/geo/">Bible Geocoding</a> project “(1)
+comprehensively identifies the possible modern locations of every place
+mentioned in the Bible as precisely as possible, (2) expresses a
+data-backed confidence level in each identification, and (3) links to
+open data to fit into a broader data ecosystem.” You can browse by book,
+chapter, and location, as well as <a
+href="https://github.com/openbibleinfo/Bible-Geocoding-Data">download
+the full dataset</a>. <strong>Read more</strong>: <a
+href="https://www.openbible.info/blog/2021/11/rethinking-the-bible-atlas/">The
+project’s author explains the backstory and methodology</a>. [h/t <a
+href="https://twitter.com/Arithmomaniac">Avi Levin</a>]</p>
+<p> </p>
+<p><strong>University endowments.</strong> Earlier this month, the <a
+href="https://www.nacubo.org/About/Who-We-Are">National Association of
+College and University Business Officers</a> released the <a
+href="https://www.nacubo.org/Research/2021/NACUBO-TIAA-Study-of-Endowments">latest</a>
+of its <a
+href="https://www.nacubo.org/Research/2021/Public-NTSE-Tables">annual
+studies of college and university endowments in the US and Canada</a>.
+For 700+ institutions, the study’s public tables indicate their total
+enrollment, endowment market value, previous year’s value, and more. A
+<a
+href="https://www.nacubo.org/research/2021/historic%20endowment%20study%20data">page
+of historical datasets</a> includes a spreadsheet listing many
+endowments’ sizes going back to the mid-1970s. [h/t <a
+href="https://app.openaxis.com/visualizations/3698">Factle</a>]</p>
+<p> </p>
+<p><strong>Tech products promoted.</strong> For “<a
+href="https://components.one/posts/gamer-and-nihilist-product-hunt">The
+Gamer and the Nihilist</a>,” an essay in <a
+href="https://components.one/">Components</a>, <a
+href="https://twitter.com/asthompson">Andrew Thompson</a> and
+collaborators created a <a
+href="https://components.one/datasets/product-hunt-products">dataset of
+76,000+ tech products</a> on <a
+href="https://www.producthunt.com/about">Product Hunt</a>, a popular
+social network for launching and promoting such things. The dataset
+includes the name, description, launch date, upvote count, and other
+details for every product from 2014 to 2021 in the platform’s <a
+href="https://www.sitemaps.org/index.html">sitemap</a>. (“Based on
+experience, not every product that appears on Product Hunt seems to
+appear on the sitemap,” the authors caution.)</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send launch-day feedback
+to jsvine@gmail.com, or just reply to this email. Looking for past
+datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions.</em></p>
+]]></content>
+    <link href="http://www.data-is-plural.com/archive/2022-09-28-edition" rel="alternate"/>
+    <summary>FDA inspections, academic citations, university endowments, and tech products promoted.</summary>
+    <published>2022-09-28T08:00:00-04:00</published>
+  </entry>
   <entry>
     <id>dip-2022-09-21</id>
     <title>Data Is Plural — 2022.09.21 edition</title>
@@ -1012,111 +1137,5 @@ subscribe and to browse past editions.</em></p>
     <link href="http://www.data-is-plural.com/archive/2022-07-27-edition" rel="alternate"/>
     <summary>Wildfires around the world, hospital price lists, monkeypox strains, startup factories, and shark incidents.</summary>
     <published>2022-07-27T08:00:00-04:00</published>
-  </entry>
-  <entry>
-    <id>dip-2022-07-20</id>
-    <title>Data Is Plural — 2022.07.20 edition</title>
-    <updated>2022-07-20T08:00:00-04:00</updated>
-    <content type="CDATA"><![CDATA[<p><em>New voting laws, notable people, budget apportionments, digital
-trade provisions, and the World Cup.</em></p>
-<p> </p>
-<p><strong>New voting laws.</strong> The <a
-href="https://votingrightslab.org/">Voting Rights Lab</a> has been <a
-href="https://tracker.votingrightslab.org/pending/search">tracking
-2,000+ laws proposed in US state legislatures</a> since 2021. The
-tracker focuses on “12 major issue areas relating to voter access and
-representation,” such as early voting, same-day registration, and ID
-requirements. It lists each bill’s state, number, author, date
-introduced, current status, and issue areas, plus a summary and the
-lab’s “assessment of whether the legislation is likely to improve or
-interfere with voter access or the administration of elections.”
-<strong>As seen in</strong>: “<a
-href="https://projects.fivethirtyeight.com/voting-restrictions-by-state/">Has
-Your State Made It Harder To Vote?</a>” (FiveThirtyEight)
-<strong>Related</strong>: <a
-href="https://statesnewsroom.com/about/">States Newsroom</a>’s <a
-href="https://twitter.com/kira_lerner/status/1547630451140882434">Kira
-Lerner</a> has <a
-href="https://www.newsfromthestates.com/article/criminalizing-vote-gop-led-states-enacted-102-new-election-penalties-after-2020">compiled</a>
-a <a
-href="https://docs.google.com/spreadsheets/d/1wtN6RpLW_-g1gBYwWd5HaYiL6MtmG_nwC6kpIhzickU/edit#gid=0">spreadsheet
-of 120 new election-related criminal penalties</a>, based partly on the
-tracker’s data.</p>
-<p> </p>
-<p><strong>Notable people.</strong> “A new strand of literature aims at
-building the most comprehensive and accurate database of notable
-individuals,” observe <a
-href="https://www.nature.com/articles/s41597-022-01369-4">Morgane
-Laouenan et al.</a>, who contribute a “cross-verified database of 2.29
-million individuals” mined from Wikidata and the English, French,
-German, Italian, Spanish, Portuguese and Swedish editions of Wikipedia.
-For each person, the <a
-href="https://data.sciencespo.fr/dataset.xhtml?persistentId=doi:10.21410/7E4/RDAG3O">dataset</a>
-provides their birth and death dates, gender, citizenship, occupations,
-and other details. <strong>Previously</strong>: <a
-href="https://www.nature.com/articles/sdata201575">The MIT-based
-Pantheon dataset</a> (<a
-href="https://www.data-is-plural.com/archive/2016-02-03-edition/">DIP
-2016.02.03</a>), also based on Wikipedia and <a
-href="https://pantheon.world/data/faq">since updated</a>. [h/t <a
-href="https://twitter.com/makro_philip/status/1536286496101105666">Philip
-Jung</a>]</p>
-<p> </p>
-<p><strong>Budget apportionments.</strong> Congress, through a process
-called appropriations, chooses how much money goes to each US federal
-agency and program. But the <a
-href="https://www.whitehouse.gov/omb/">Office of Management and
-Budget</a>, through a process called apportionment, ultimately <a
-href="https://www.whitehouse.gov/wp-content/uploads/2018/06/s120.pdf">sets
-the rules for spending those funds</a>, “typically limit[ing] the
-obligations [an agency] may incur for specified time periods, programs,
-activities, projects, objects, or any combination thereof.” Those <a
-href="https://twitter.com/cerin/status/1387815656717012992">binding
-decisions</a> have <a
-href="https://thehill.com/opinion/finance/3537156-federal-government-getting-ready-to-open-its-books-and-show-us-the-receipts/">generally
-not been available to the public</a> — <a
-href="https://budget.house.gov/news/press-releases/chairs-yarmuth-and-delauro-achieve-historic-progress-transparency-executive">until
-last week</a>, when OMB launched a <a
-href="https://apportionment-public.max.gov/">database of apportionments
-for FY 2022</a>, per a requirement in Congress’s 2022 spending bill.
-[h/t <a
-href="https://twitter.com/caitlinzemma/status/1547267038590238722">Caitlin
-Emma</a>]</p>
-<p> </p>
-<p><strong>Digital trade provisions.</strong> <a
-href="https://digitaltradelaw.ch/taped/">Mira Burri et al.</a>’s <a
-href="https://www.unilu.ch/en/faculties/faculty-of-law/professorships/burri-mira/research/taped/">TAPED
-dataset</a>, which “seeks to comprehensively trace developments in the
-area of digital trade governance,” categorizes 100+ relevant aspects of
-300+ <a
-href="https://mediawiki.middlebury.edu/IPE/Preferential_Trade_Agreement">preferential
-trade agreements</a> signed since 2000. The dataset indicates, for
-instance, that the <a
-href="https://www.dfat.gov.au/trade/agreements/in-force/pafta/Pages/peru-australia-fta">Peru-Australia
-Free Trade Agreement</a> contains binding agreements on personal data
-protection, nonbinding language on cybersecurity, and no provisions
-regarding net neutrality.</p>
-<p> </p>
-<p><strong>The World Cup.</strong> <a
-href="http://www.joshuafjelstul.com/">Josh Fjelstul</a>’s <a
-href="https://github.com/jfjelstul/worldcup">World Cup Database</a>, <a
-href="https://twitter.com/joshfjelstul/status/1546471056642375680">published
-this month</a>, provides “extensively cleaned and cross-validated”
-information about each of the 21 FIFA World Cup tournaments played so
-far. Its 27 tables contain “approximately 1.1 million data points”
-regarding the teams that participated, their players and managers, the
-referees, match outcomes, goals, penalties, and more.</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send onside feedback to
-jsvine@gmail.com, or just reply to this email. Looking for past
-datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and to browse past editions.</em></p>
-]]></content>
-    <link href="http://www.data-is-plural.com/archive/2022-07-20-edition" rel="alternate"/>
-    <summary>New voting laws, notable people, budget apportionments, digital trade provisions, and the World Cup.</summary>
-    <published>2022-07-20T08:00:00-04:00</published>
   </entry>
 </feed>
