@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.data-is-plural.com</id>
   <title>Data Is Plural</title>
-  <updated>2022-09-28T08:00:00-04:00</updated>
+  <updated>2022-10-05T08:00:00-04:00</updated>
   <author>
     <name>Jeremy Singer-Vine</name>
     <email>jsvine@gmail.com</email>
@@ -10,6 +10,125 @@
   <link href="https://www.data-is-plural.com" rel="alternate"/>
   <generator>https://github.com/data-is-plural/newsletter-archive</generator>
   <subtitle>A weekly newsletter of useful/curious datasets.</subtitle>
+  <entry>
+    <id>dip-2022-10-05</id>
+    <title>Data Is Plural — 2022.10.05 edition</title>
+    <updated>2022-10-05T08:00:00-04:00</updated>
+    <content type="CDATA"><![CDATA[<p><em>Grid emissions, chain and indie restaurants, wildfire smoke
+pollution, federal audits, and a decade of tasks.</em></p>
+<p> </p>
+<p><strong>Grid emissions.</strong> <a
+href="https://ember-climate.org/">Ember</a>, an “energy think tank that
+uses data-driven insights to shift the world from coal to clean
+electricity,” has <a
+href="https://twitter.com/nicolasfulghum/status/1572974235932364800">begun</a>
+compiling <a
+href="https://ember-climate.org/data-catalogue/yearly-electricity-data/">annual</a>
+and <a
+href="https://ember-climate.org/data-catalogue/monthly-electricity-data/">monthly</a>
+statistics on electricity demand, generation, and estimated greenhouse
+gas emissions by country, standardized from national and international
+sources. The annual estimates span two decades and 200+ countries and
+territories; the monthly dataset provides somewhat less coverage. Both
+can also be <a
+href="https://ember-climate.org/data/data-explorer/">explored
+online</a>. <strong>Related</strong>: <a
+href="https://singularity.energy/">Singularity</a>’s <a
+href="https://singularity.energy/open-grid-emissions">Open Grid
+Emissions</a> initiative <a
+href="https://medium.com/singularity-energy/validating-real-time-electricity-emissions-rates-with-an-hourly-historical-benchmark-a9990a2c9049">estimates</a>
+the hourly grid emissions of <a
+href="https://www.eia.gov/todayinenergy/detail.php?id=27152">balancing
+authorities</a> and power plants in the US, currently for 2019 and 2020.
+<strong>Previously</strong>: <a
+href="https://www.data-is-plural.com/collections/energy">Other
+energy-related datasets</a>. [h/t <a
+href="https://twitter.com/pquirion1/status/1572997074207006720">Philippe
+Quirion</a>]</p>
+<p> </p>
+<p><strong>Chain and indie restaurants.</strong> <a
+href="https://www.xiaofanliang.com/">Xiaofan Liang</a> and <a
+href="https://www.cc.gatech.edu/people/clio-andris">Clio Andris</a> of
+Georgia Tech’s <a
+href="https://friendlycities.gatech.edu/team/">Friendly Cities Lab</a>
+have published a <a
+href="https://friendlycities-gatech.github.io/chainness/">map</a> and <a
+href="https://github.com/friendlycities-gatech/chainness">dataset</a>
+examining the “chainness” of 700,000+ US restaurants. Starting with
+records provided by <a href="https://leadsdeposit.com/">a marketing-data
+company</a>, the researchers standardized the restaurants’ names,
+counted their frequencies, and classified them as chains (those with
+more than five outlets) or not. The dataset also lists each restaurant’s
+cuisine and location. <strong>As seen in</strong>: <a
+href="https://www.washingtonpost.com/business/2022/09/29/chain-restaurant-capitals/">Andrew
+Van Dam’s exploration of the data</a> for his new-ish Washington Post
+column, <a
+href="https://www.washingtonpost.com/business/2022/06/29/dept-of-data/">Department
+of Data</a>.</p>
+<p> </p>
+<p><strong>Wildfire smoke pollution.</strong> <a
+href="https://pubs.acs.org/doi/10.1021/acs.est.2c02934">Marissa L.
+Childs et al.</a> have developed a “machine learning model of daily
+wildfire-driven PM<sub>2.5</sub> concentrations using a combination of
+ground, satellite, and reanalysis data sources that are easy to update.”
+(PM<sub>2.5</sub> refers to <a
+href="https://www.epa.gov/pm-pollution/particulate-matter-pm-basics">particulate
+matter 2.5 micrometers in diameter or smaller</a>.) The researchers then
+used that model to generate <a
+href="https://github.com/echolab-stanford/daily-10km-smokePM">daily
+smoke PM<sub>2.5</sub> estimates</a> for each county, Census tract, and
+10-kilometer-grid tile in the contiguous US, for 2006–2020. <strong>Read
+more</strong>: <a
+href="https://www.nytimes.com/interactive/2022/09/22/climate/wildfire-smoke-pollution.html">Coverage
+and maps in the New York Times</a>. [h/t <a
+href="https://www.linkedin.com/in/georgelevines">George LeVines</a>]</p>
+<p> </p>
+<p><strong>Federal audits.</strong> Nonprofits, state/local governments,
+and other noncommercial entities expending $750,000+ of federal funds in
+a year are <a href="https://facweb.census.gov/Resources.aspx">required
+to undergo</a> a <a
+href="https://en.wikipedia.org/wiki/Single_Audit">standardized audit</a>
+of their financials and compliance. The US <a
+href="https://www.census.gov/programs-surveys/fac.html">Federal Audit
+Clearinghouse</a> maintains a public database of those audits; it offers
+<a href="https://facdissem.census.gov/PublicDataDownloads.aspx">bulk
+downloads</a> of the report data (about the auditee, auditor, findings,
+and more), as well a <a
+href="https://facdissem.census.gov/Main.aspx">tool to search and access
+individual reports</a>. [h/t <a
+href="https://biglocalnews.org/content/news/2022/09/28/introducing-audit-watch.html">Big
+Local News</a>]</p>
+<p> </p>
+<p><strong>A decade of tasks.</strong> Between April 2009 and February
+2019, software engineer <a href="https://twitter.com/reborg">Renzo
+Borgatti</a> set 17,000+ daily tasks for himself. He completed slightly
+less than half of them. He labeled them with tags such as “@meeting”,
+“@talk”, and “@clojure”. He estimated how many “<a
+href="https://en.wikipedia.org/wiki/Pomodoro_Technique">pomodoros</a>”
+each would take, and how many they really did. We know this because
+Borgatti allowed <a href="https://shape-of-code.com/">Derek M. Jones</a>
+to <a
+href="https://shape-of-code.com/2019/12/15/the-renzo-pomodoro-dataset/">publish</a>
+a <a
+href="https://github.com/Derek-Jones/renzo-pomodoro">partially-redacted
+dataset of his tracked tasks</a>. <strong>Previously</strong>: <a
+href="https://github.com/Derek-Jones/SiP_dataset">One software company’s
+task estimates</a> (<a
+href="https://www.data-is-plural.com/archive/2019-04-24-edition/">DIP
+2019.04.24</a>), also published by Jones.</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send todo lists and
+feedback to jsvine@gmail.com, or just reply to this email. Looking for
+past datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions.</em></p>
+]]></content>
+    <link href="http://www.data-is-plural.com/archive/2022-10-05-edition" rel="alternate"/>
+    <summary>Grid emissions, chain and indie restaurants, wildfire smoke pollution, federal audits, and a decade of tasks.</summary>
+    <published>2022-10-05T08:00:00-04:00</published>
+  </entry>
   <entry>
     <id>dip-2022-09-28</id>
     <title>Data Is Plural — 2022.09.28 edition</title>
@@ -1032,110 +1151,5 @@ subscribe and to browse past editions.</em></p>
     <link href="http://www.data-is-plural.com/archive/2022-08-03-edition" rel="alternate"/>
     <summary>Employee benefit plans, European cropland, Christianity in China, data governance ratings, and diplomatic gifts.</summary>
     <published>2022-08-03T08:00:00-04:00</published>
-  </entry>
-  <entry>
-    <id>dip-2022-07-27</id>
-    <title>Data Is Plural — 2022.07.27 edition</title>
-    <updated>2022-07-27T08:00:00-04:00</updated>
-    <content type="CDATA"><![CDATA[<p><em>Wildfires around the world, hospital price lists, monkeypox
-strains, startup factories, and shark incidents.</em></p>
-<p> </p>
-<p><strong>Wildfires around the world.</strong> The <a
-href="https://gwis.jrc.ec.europa.eu/">Global Wildfire Information
-System</a>, expanding on the work of <a
-href="https://effis.jrc.ec.europa.eu/">European Forest Fire Information
-System</a>, uses satellite data to provide <a
-href="https://gwis.jrc.ec.europa.eu/apps/gwis.statistics/">weekly and
-annual estimates</a> of the number of fires and area burned in 200+
-countries. Its <a
-href="https://gwis.jrc.ec.europa.eu/apps/country.profile/downloads">bulk
-data</a> indicates monthly burned hectares by country, sub-country unit,
-and land type from 2002 to 2019, as well as the boundaries of individual
-fires from 2001 to 2020. It also publishes <a
-href="https://gwis.jrc.ec.europa.eu/applications/data-and-services">gridded
-spatial data</a> relating to fire danger forecasts, active fires,
-emissions, and more. <strong>As seen in</strong>: <a
-href="https://www.eldiario.es/sociedad/peor-ano-superficie-quemada-30-anos-evolucionan-incendios-activos-espana-julio-26_1_9189252.html">El
-Diario’s analysis of forest fires in Spain</a>. [h/t <a
-href="https://twitter.com/oargueso">Olaya Argüeso Pérez</a>]</p>
-<p> </p>
-<p><strong>Hospital price lists.</strong> Since January 2021, the US
-government <a href="https://www.cms.gov/hospital-price-transparency">has
-required hospitals to publish</a> machine-readable files listing the
-standard charges for all items and services they provide. But there’s no
-standard format for these price lists (also known as “chargemasters”),
-no official central repository of them, and <a
-href="https://www.patientrightsadvocate.org/semi-annual-compliance-report-2022">compliance
-has been lacking</a>. Seeing those problems, the versioned-data platform
-<a href="https://www.dolthub.com/">DoltHub</a> earlier this year ran a
-<a
-href="https://www.dolthub.com/blog/2022-04-22-hospital-price-transparency-retrospective/">paid
-crowdsourcing campaign</a> that pulled <a
-href="https://www.dolthub.com/blog/2022-07-01-hospitals-compliance/">nearly
-300 million prices from the published lists of roughly 1,800
-hospitals</a> into a <a
-href="https://www.dolthub.com/repositories/dolthub/hospital-price-transparency-v3">single
-database</a>. <strong>Related</strong>: Thanks to an <a
-href="https://hcai.ca.gov/data-and-reports/cost-transparency/hospital-chargemasters/">earlier
-price transparency rule</a>, California posts <a
-href="https://data.chhs.ca.gov/dataset/chargemasters">chargemasters for
-hundreds of hospitals</a>, with records going back to 2011.</p>
-<p> </p>
-<p><strong>Monkeypox strains.</strong> <a
-href="https://nextstrain.org/">Nextstrain</a>, “an open-source project
-to harness the scientific and public health potential of pathogen genome
-data,” has begun analyzing <a
-href="https://nextstrain.org/monkeypox/hmpxv1">genetic sequences from
-hundreds of monkeypox virus samples</a>, the vast majority from
-infections in the past few months. The project provides metadata on each
-sample, including the date, country, variant, and mutation metrics, as
-well as detailed sequencing data <a
-href="https://www.ncbi.nlm.nih.gov/labs/virus/vssi/#/virus?SeqType_s=Nucleotide&amp;VirusLineage_ss=Monkeypox%20virus,%20taxid:10244">from
-NCBI Virus</a>. <strong>Previously</strong>: <a
-href="https://outbreak.info/situation-reports">Coronavirus variant data
-from outbreak.info</a> (<a
-href="https://www.data-is-plural.com/archive/2021-03-10-edition/">DIP
-2021.03.10</a>). [h/t <a href="https://ksaj.inlisp.org">Karsten
-Johansson</a>]</p>
-<p> </p>
-<p><strong>Startup factories.</strong> Venture studios are firms that
-build and launch startups. <a href="https://twitter.com/jdmoran">Jim
-Moran</a>’s <a
-href="https://www.venturestudioindex.com/p/the-venture-studio-index">Venture
-Studio Index</a> tracks 260+ of them, plus 1,200+ of the startups
-they’ve launched. The <a
-href="https://docs.google.com/spreadsheets/d/1DgDu8rJaVCvbzDW49u74vEIPdRH8ElJUVoiqt1O6LVc/edit#gid=499262177">dataset</a>,
-“collected manually by a team of researchers familiar with venture
-capital and the technology startup ecosystem,” <a
-href="https://www.venturestudioindex.com/p/data-methodology-and-limitations">includes</a>
-founding years, locations, employee counts, relevant URLs, and more.</p>
-<p> </p>
-<p><strong>Shark bites.</strong> <a
-href="https://www.nature.com/articles/s41597-022-01453-9">Madeline Riley
-et al.</a> describe the <a
-href="https://zenodo.org/record/6672829">Australian Shark-Incident
-Database</a>, which contains <a
-href="https://github.com/cjabradshaw/AustralianSharkIncidentDatabase">details</a>
-about 1,100+ shark bites (and attempted shark bites) between 1791 and
-early 2022, gathered by the <a
-href="https://www.taronga.org.au/about">Taronga Conservation Society</a>
-using “questionnaires provided to shark-bite victims or witnesses, media
-reports,” and information from state agencies. <strong>Read
-more</strong>: “<a
-href="https://www.theguardian.com/news/datablog/2022/jul/07/new-dataset-shows-shark-attacks-in-australia-are-increasing-and-researchers-want-to-know-why">New
-dataset shows shark bites in Australia are increasing and researchers
-want to know why</a>” (The Guardian).</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send provoked and
-unprovoked feedback to jsvine@gmail.com, or just reply to this email.
-Looking for past datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and to browse past editions.</em></p>
-]]></content>
-    <link href="http://www.data-is-plural.com/archive/2022-07-27-edition" rel="alternate"/>
-    <summary>Wildfires around the world, hospital price lists, monkeypox strains, startup factories, and shark incidents.</summary>
-    <published>2022-07-27T08:00:00-04:00</published>
   </entry>
 </feed>
