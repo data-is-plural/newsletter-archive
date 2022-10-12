@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.data-is-plural.com</id>
   <title>Data Is Plural</title>
-  <updated>2022-10-05T08:00:00-04:00</updated>
+  <updated>2022-10-12T08:00:00-04:00</updated>
   <author>
     <name>Jeremy Singer-Vine</name>
     <email>jsvine@gmail.com</email>
@@ -10,6 +10,122 @@
   <link href="https://www.data-is-plural.com" rel="alternate"/>
   <generator>https://github.com/data-is-plural/newsletter-archive</generator>
   <subtitle>A weekly newsletter of useful/curious datasets.</subtitle>
+  <entry>
+    <id>dip-2022-10-12</id>
+    <title>Data Is Plural — 2022.10.12 edition</title>
+    <updated>2022-10-12T08:00:00-04:00</updated>
+    <content type="CDATA"><![CDATA[<p><em>Work-related injury counts, US hydrography, rebel leaders, file
+formats, and wine economics.</em></p>
+<p> </p>
+<p><strong>Work-related injury counts.</strong> The US Occupational
+Safety and Health Administration <a
+href="https://www.osha.gov/recordkeeping">requires many</a> (<a
+href="https://www.osha.gov/recordkeeping/presentations/exempttable">but
+not all</a>) businesses to <a
+href="https://www.osha.gov/recordkeeping/forms">track employees’
+work-related injuries and illnesses</a>. Larger companies and those in
+high-risk industries must <a
+href="https://www.osha.gov/injuryreporting/">electronically submit
+annual counts</a> to the agency. Thanks to freedom-of-information
+lawsuits by <a
+href="https://revealnews.org/blog/federal-judge-sides-with-reveal-ruling-injury-and-illness-data-is-public/">Reveal</a>
+and <a
+href="https://www.citizen.org/litigation/public-citizen-foundation-v-department-of-labor-osha-form-300a-records/">Public
+Citizen</a>, OSHA <a
+href="https://www.dol.gov/newsroom/releases/osha/osha20200904">began</a>
+to publish <a
+href="https://www.osha.gov/Establishment-Specific-Injury-and-Illness-Data">business-level
+data from those electronic submissions</a> in 2020. The records, which
+go back to 2016, include each business’s name, location, industry,
+employee count, and employee hours worked, plus their reported number of
+deaths, injuries, skin disorders, respiratory conditions, poisonings,
+hearing loss, and other illnesses.</p>
+<p> </p>
+<p><strong>US hydrography.</strong> The <a
+href="https://www.usgs.gov/core-science-systems/ngp/national-hydrography/national-hydrography-dataset">National
+Hydrography Dataset</a>, maintained by the US Geological Survey,
+“represents the water drainage network of the United States with
+features such as rivers, streams, canals, lakes, ponds, coastline, dams,
+and streamgages.” You can <a
+href="https://www.usgs.gov/national-hydrography/access-national-hydrography-products">download</a>
+the NHD geospatial files by <a
+href="https://water.usgs.gov/GIS/huc.html">hydrologic unit</a> or state,
+or for the entire nation. <strong>Related</strong>: <a
+href="https://www.sciencebase.gov/catalog/item/5e8d2b5982cee42d13466001">A
+dataset of waterfalls and rapids in the contiguous US</a>, linked to the
+NHD and sourced partly from <a
+href="https://www.worldwaterfalldatabase.com/about">Bryan Swan and Dean
+Goss</a>’s <a href="https://www.worldwaterfalldatabase.com/">World
+Waterfall Database</a>. [h/t <a
+href="https://www.reddit.com/r/dataisbeautiful/comments/pcc3qr/comment/hahumk7/">Malcolm
+Tunnell</a> + <a
+href="https://thewhyaxis.substack.com/p/map-every-waterfall-in-the-lower">Christopher
+Ingraham</a>]</p>
+<p> </p>
+<p><strong>Rebel leaders.</strong> <a
+href="https://www.rebelleaders.org/publications-research">Benjamin
+Acosta et al.</a>’s <a href="https://www.rebelleaders.org/">Rebel
+Organization Leaders Database</a> “provides a wide range of biographical
+information on all top rebel, insurgent, and terrorist leaders who were
+active in civil wars between 1980 and 2011.” It includes each leader’s
+name, gender, education, religion, languages spoken, number of children,
+years in role, country fought against, cause of death, and <a
+href="https://www.rebelleaders.org/download">much more</a>. The database
+covers 425 individuals fighting against 80+ countries; the project also
+features <a
+href="https://www.rebelleaders.org/leader-profile-examples">written
+profiles for a sample of them</a>.</p>
+<p> </p>
+<p><strong>File formats.</strong> The US National Archives’ <a
+href="https://www.archives.gov/preservation/digital-preservation/risk">Digital
+Preservation Framework</a> describes the agency’s <a
+href="https://github.com/usnationalarchives/digital-preservation/tree/master/Digital_Preservation_Risk_Matrix">risk
+assessments</a> and <a
+href="https://github.com/usnationalarchives/digital-preservation/tree/master/Digital_Preservation_Plan_Spreadsheet">recommended
+preservation plans</a> for 600+ file formats. The <a
+href="https://github.com/usnationalarchives/digital-preservation">framework’s
+documentation</a> places each format into one of 16 categories, such as
+“digital audio,” “spreadsheets,” “navigational charts,” and “software
+and code.” In August, the agency added <a
+href="https://www.archives.gov/preservation/digital-preservation/linked-data">“linked
+open data” representations</a> of the <a
+href="https://www.archives.gov/preservation/digital-preservation/linked-data/browse">plans
+for each format</a>. [h/t <a
+href="https://twitter.com/eengland__/status/1562819377204195328">Elizabeth
+England</a>]</p>
+<p> </p>
+<p><strong>Wine economics.</strong> Researchers at the University of
+Adelaide’s <a
+href="https://economics.adelaide.edu.au/wine-economics/">Wine Economics
+Research Centre</a> have compiled <a
+href="https://economics.adelaide.edu.au/wine-economics/databases">several
+longitudinal datasets</a>. One, for example, quantifies the <a
+href="https://economics.adelaide.edu.au/wine-economics/databases#database-of-regional-national-and-global-winegrape-bearing-areas-by-variety-1960-to-2016">total
+area devoted to growing each grape variety in each country</a>,
+1960–2016. Another compiles <a
+href="https://economics.adelaide.edu.au/wine-economics/databases#annual-database-of-global-wine-markets-1835-to-2019">various
+market statistics</a> (e.g., national wine production, imports, exports)
+going back to 1835. <strong>Related</strong>: The <a
+href="https://www.oiv.int/">International Organisation of Vine and
+Wine</a> maintains a <a
+href="https://www.oiv.int/en/statistiques/recherche">database of global
+and national statistics</a> going back to 1995. <strong>As seen
+in</strong>: <a
+href="https://blog.smallmultiples.com.au/2020/12/09/the-origins-and-production-of-wine-grapes/">Jack
+Zhao’s exploration of the Adelaide data</a>.</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send red and white
+feedback to jsvine@gmail.com, or just reply to this email. Looking for
+past datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions.</em></p>
+]]></content>
+    <link href="http://www.data-is-plural.com/archive/2022-10-12-edition" rel="alternate"/>
+    <summary>Work-related injury counts, US hydrography, rebel leaders, file formats, and wine economics.</summary>
+    <published>2022-10-12T08:00:00-04:00</published>
+  </entry>
   <entry>
     <id>dip-2022-10-05</id>
     <title>Data Is Plural — 2022.10.05 edition</title>
@@ -1053,103 +1169,5 @@ subscribe and to browse past editions.</em></p>
     <link href="http://www.data-is-plural.com/archive/2022-08-10-edition" rel="alternate"/>
     <summary>Young adult migration, social capital, CPUs and GPUs, trade in post-unification Italy, and Star Trek computer-talk.</summary>
     <published>2022-08-10T08:00:00-04:00</published>
-  </entry>
-  <entry>
-    <id>dip-2022-08-03</id>
-    <title>Data Is Plural — 2022.08.03 edition</title>
-    <updated>2022-08-03T08:00:00-04:00</updated>
-    <content type="CDATA"><![CDATA[<p><em>Employee benefit plans, European cropland, Christianity in China,
-data governance ratings, and diplomatic gifts.</em></p>
-<p> </p>
-<p><strong>Employee benefit plans.</strong> US companies that offer
-their employees a retirement plan, such as a pension or 401(k), must
-report the particulars of those plans through <a
-href="https://www.dol.gov/agencies/ebsa/employers-and-advisers/plan-administration-and-compliance/reporting-and-filing/form-5500">Form
-5500</a> — a creation of the IRS, Department of Labor, and <a
-href="https://www.pbgc.gov/">Pension Benefit Guaranty Corporation</a>.
-Employers offering health plans, vacation, or other welfare benefits to
-100+ workers must typically report those, too. The Department of Labor
-publishes <a
-href="https://www.dol.gov/agencies/ebsa/about-ebsa/our-activities/public-disclosure/foia/form-5500-datasets">datasets
-with details from all Form 5500 submissions</a> going back to 1999, as
-well as a <a href="https://www.efast.dol.gov/5500search/">search
-tool</a> that goes back to 2010. <strong>Related</strong>: Through a
-FOIA request, <a href="https://dan-bauman.com/">Dan Bauman</a> has <a
-href="https://github.com/danbauman77/tophat">obtained decades of
-metadata on 80,000+ “top hat” statements</a>, which <a
-href="https://www.dol.gov/sites/dolgov/files/EBSA/about-ebsa/about-us/erisa-advisory-council/2020-examining-top-hat-plan-participation-and-reporting.pdf">concern
-plans</a> “providing deferred compensation for a select group of
-management or highly compensated employees.” [h/t <a
-href="https://www.quora.com/401-k-Is-there-a-database-of-401k-information-that-is-publicly-available/answer/Vincent-Cocula">Vincent
-Cocula</a>]</p>
-<p> </p>
-<p><strong>European cropland.</strong> <a
-href="https://arxiv.org/abs/2106.08151">Maja Schneider et al.</a>’s <a
-href="https://github.com/maja601/EuroCrops">EuroCrops</a> project
-combines “all publicly available self-declared crop reporting datasets
-from countries of the European Union.” So far, that universe corresponds
-to the entirety or parts of 16 countries. The project’s datasets include
-various attributes from the original data files, geographic coordinates
-for each agricultural parcel, and each parcel’s primary crop type, which
-the authors have standardized using a taxonomy they devised.</p>
-<p> </p>
-<p><strong>Christianity in China.</strong> The <a
-href="https://chcdatabase.com/">China Historical Christian Database</a>,
-a project based at Boston University’s School of Theology, spans the
-years 1550 to 1950. Launched <a
-href="https://www.bu.edu/cgcm/2022/07/19/11962/">last week</a>, it
-provides “tools to discover where every Christian church, school,
-hospital, orphanage, publishing house, and the like were located in
-China,” plus “who worked inside those buildings, both foreign and
-Chinese.” The database, available to <a
-href="https://github.com/chcdatabase/data">download</a> and <a
-href="https://data.chcdatabase.com/map">explore online</a>, <a
-href="https://chcdatabase.github.io/data-documentation/">describes</a>
-33,000+ people, 7,000+ organizations, the relationships between those
-entities, and more.</p>
-<p> </p>
-<p><strong>Data governance ratings</strong>. A <a
-href="https://datagovhub.letsnod.com/">new report</a> from George
-Washington University’s <a
-href="https://datagovhub.elliott.gwu.edu/">Digital Trade and Data
-Governance Hub</a> rates 68 countries on their approaches to data
-governance. It scores each country on 26 indicators across 6 categories
-— for instance, whether it has a personal data protection law, publishes
-an open data portal, and/or says it adheres to the <a
-href="https://oecd.ai/en/ai-principles">OECD AI Principles</a>.
-<strong>Previously</strong>: <a
-href="https://globaldatabarometer.org">The Global Data Barometer</a> (<a
-href="https://www.data-is-plural.com/archive/2022-05-18-edition/">DIP
-2022.05.18</a>). [h/t <a href="https://twitter.com/AaronsonSusan">Susan
-Ariel Aaronson</a>]</p>
-<p> </p>
-<p><strong>Diplomatic gifts.</strong> Federal employees are <a
-href="https://www.law.cornell.edu/uscode/text/5/7342">not supposed to
-accept major gifts</a> from foreign governments. But exceptions occur,
-such as “when it appears that to refuse the gift would likely cause
-offense or embarrassment,” and agencies must annually report those
-exceptions in the Federal Register. In 2020, <a
-href="https://www.alexcookson.com/about/">Alex Cookson</a> <a
-href="https://www.alexcookson.com/post/what-can-we-learn-from-diplomatic-gifts/">fetched
-and parsed those reports</a>, yielding information (donor name and
-country, recipient name and agency, gift description and value) on <a
-href="https://github.com/tacookson/data/tree/master/us-government-gifts">8,300+
-gifts from 1999 to 2018</a>. <strong>Previously</strong>: <a
-href="https://disclosures-clerk.house.gov/PublicDisclosure/GiftTravelFilings">Congressional
-“gift travel”</a> (<a
-href="https://www.data-is-plural.com/archive/2016-04-27-edition/">DIP
-2016.04.27</a>).</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send unrefusable feedback
-to jsvine@gmail.com, or just reply to this email. Looking for past
-datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and to browse past editions.</em></p>
-]]></content>
-    <link href="http://www.data-is-plural.com/archive/2022-08-03-edition" rel="alternate"/>
-    <summary>Employee benefit plans, European cropland, Christianity in China, data governance ratings, and diplomatic gifts.</summary>
-    <published>2022-08-03T08:00:00-04:00</published>
   </entry>
 </feed>
