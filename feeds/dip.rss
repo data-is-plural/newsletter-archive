@@ -6,7 +6,122 @@
     <description>A weekly newsletter of useful/curious datasets.</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>https://github.com/data-is-plural/newsletter-archive</generator>
-    <lastBuildDate>Wed, 12 Oct 2022 08:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 19 Oct 2022 08:00:00 -0400</lastBuildDate>
+    <item>
+      <title>Data Is Plural — 2022.10.19 edition</title>
+      <link>http://www.data-is-plural.com/archive/2022-10-19-edition</link>
+      <description>Carbon pricing, UNICEF’s operations, community-moderated tweets, UK museums, and cattle brands.</description>
+      <content:encoded><![CDATA[<p><em>Carbon pricing, UNICEF’s operations, community-moderated tweets,
+UK museums, and cattle brands.</em></p>
+<p> </p>
+<p><strong>Carbon pricing.</strong> In a <a
+href="https://www.nature.com/articles/s41597-022-01659-x">paper
+published last month</a>, <a href="http://geoffroydolphin.eu/">Geoffroy
+Dolphin</a> and <a
+href="https://www.linkedin.com/in/qinrui-xiahou-13a211110/a">Qinrui
+Xiahou</a> describe their <a
+href="https://github.com/g-dolphin/WorldCarbonPricingDatabase">World
+Carbon Pricing Database</a>. For each country (as well as each US state
+and certain other subnational jurisdictions), the database indicates the
+price per metric ton of <a
+href="https://www.theguardian.com/environment/2011/apr/27/co2e-global-warming-potential">CO<sub>2</sub>
+equivalent</a> associated with any carbon taxes and cap-and-trade
+mechanisms in place, for each year going back to 1990. It lists these
+prices for each combination of type of fuel and <a
+href="https://www.ipcc-nggip.iges.or.jp/public/2006gl/">sectoral
+classification</a>. <strong>Previously</strong>: The <a
+href="https://gspp.berkeley.edu/faculty-and-impact/centers/cepp/projects/berkeley-carbon-trading-project/offsets-database">Voluntary
+Registry Offsets Database</a> and the <a
+href="https://carbonpricingdashboard.worldbank.org/map_data">World
+Bank’s database of carbon pricing initiatives</a> (<a
+href="https://www.data-is-plural.com/archive/2021-11-17-edition/">DIP
+2021.11.17</a>).</p>
+<p> </p>
+<p><strong>UNICEF’s operations.</strong> The United Nations Children’s
+Fund is a signatory to the <a
+href="https://iatistandard.org/en/">International Aid Transparency
+Initiative</a> and, as such, publishes <a
+href="https://www.iatiregistry.org/publisher/unicef">detailed data
+files</a> describing its programs and activities around the world. The
+files are organized by country, updated monthly, and follow <a
+href="https://iatistandard.org/en/iati-standard/203/activity-standard/">the
+initiative’s prescribed XML structure</a>. They list each program’s
+name, organizations involved, locations, dates, budgets, spending,
+results, and more. You can also use <a
+href="https://open.unicef.org/">UNICEF’s transparency portal</a> to <a
+href="https://open.unicef.org/index.php/program-fund-goal">explore the
+data by program focus and country</a>. [h/t <a
+href="https://twitter.com/Alexa_Ighodaro/status/1530147268791238660">Alexa
+Ighodaro</a>]</p>
+<p> </p>
+<p><strong>Community-moderated tweets.</strong> Twitter <a
+href="https://www.theverge.com/2022/10/6/23390761/twitter-birdwatch-community-moderation-expansion-misinformation-qanon">recently
+expanded</a> its <a
+href="https://twitter.github.io/birdwatch/">Birdwatch</a> pilot program,
+which allows <a
+href="https://twitter.github.io/birdwatch/signing-up/">certain users</a>
+to anonymously “identify Tweets they believe are misleading, write notes
+that provide context to the Tweet, and rate the quality of other
+contributors’ notes.” The company provides <a
+href="https://twitter.github.io/birdwatch/overview/">data on all
+submitted notes, ratings of notes, and note status histories</a>, though
+it requires you to be logged-in and US-based to <a
+href="https://twitter.com/i/birdwatch/download-data">download the
+files</a>. <strong>As seen in</strong>: “<a
+href="https://www.theverge.com/2022/10/10/23393021/twitter-birdwatch-covid-misinformation-data-analysis-misinformation-fact-check">COVID
+misinfo is the biggest challenge for Twitter’s Birdwatch program, data
+shows</a>,” from The Verge’s <a
+href="https://twitter.com/corintxt">Corin Faife</a>, who has published
+an <a
+href="https://theverge-bird-watch.herokuapp.com/Birdwatch/Birdwatch_Notes">interactive</a>,
+<a
+href="https://theverge-bird-watch.herokuapp.com/Birdwatch">downloadable</a>
+table of the notes.</p>
+<p> </p>
+<p><strong>UK museums.</strong> The <a
+href="https://museweb.dcs.bbk.ac.uk/home">Mapping Museums</a> project
+has assembled a <a
+href="https://museweb.dcs.bbk.ac.uk/search">searchable</a>, <a
+href="https://museweb.dcs.bbk.ac.uk/browseproperties">browsable</a>, and
+<a href="https://museweb.dcs.bbk.ac.uk/data">downloadable</a> dataset of
+4,000+ museums active in the United Kingdom between 1960 and 2020. It
+includes museums dedicated to art, war, local history, transport,
+drinks, and many other subjects. The records, <a
+href="https://museweb.dcs.bbk.ac.uk/sources">collected and refined from
+a range of sources</a>, indicate each museum’s name, location, size
+(small, medium, large, huge), topic, year opened/closed, accreditation,
+type of governance, and more.</p>
+<p> </p>
+<p><strong>Cattle brands.</strong> Kansas ranchers must register their
+<a
+href="https://en.wikipedia.org/wiki/Livestock_branding">cattle-branding
+symbols</a> with the state’s agriculture department. For decades, the
+department <a
+href="https://cdm16884.contentdm.oclc.org/digital/search/searchterm/A53-8-B817-part/order/dated/ad/asc">published
+books listing all the registered brands</a>, indexed using a custom
+coding system. <a href="https://psyarxiv.com/h5t7b/">Mason Youngblood et
+al.</a> have assembled a <a
+href="https://github.com/masonyoungblood/cattle_brand_data">dataset of
+90,000+ such entries</a> from the 1990, 2008, 2014, 2015, and 2016
+books. <strong>Related</strong>: “<a
+href="https://www.govtech.com/computing/kansas-moves-cattle-brand-registration-to-the-cloud.html">Kansas
+Moves Cattle Brand Registration to the Cloud</a>” (GovTech). [h/t <a
+href="https://twitter.com/ARCHAEOfelix/status/1573592198238666752">Felix
+Riede</a> + <a
+href="https://twitter.com/DugaldFoster/status/1574436942112079874">Dugald
+Foster</a>]</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send branded feedback to
+jsvine@gmail.com, or just reply to this email. Looking for past
+datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions.</em></p>
+]]></content:encoded>
+      <guid isPermaLink="false">dip-2022-10-19</guid>
+      <pubDate>Wed, 19 Oct 2022 08:00:00 -0400</pubDate>
+    </item>
     <item>
       <title>Data Is Plural — 2022.10.12 edition</title>
       <link>http://www.data-is-plural.com/archive/2022-10-12-edition</link>
@@ -1051,111 +1166,6 @@ subscribe and to browse past editions.</em></p>
 ]]></content:encoded>
       <guid isPermaLink="false">dip-2022-08-17</guid>
       <pubDate>Wed, 17 Aug 2022 08:00:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Data Is Plural — 2022.08.10 edition</title>
-      <link>http://www.data-is-plural.com/archive/2022-08-10-edition</link>
-      <description>Young adult migration, social capital, CPUs and GPUs, trade in post-unification Italy, and Star Trek computer-talk.</description>
-      <content:encoded><![CDATA[<p><em>Young adult migration, social capital, CPUs and GPUs, trade in
-post-unification Italy, and Star Trek computer-talk.</em></p>
-<p> </p>
-<p><strong>Young adult migration.</strong> Researchers at Harvard
-University and the Census Bureau have linked federal tax filings, Census
-records, and other government data to track the <a
-href="https://migrationpatterns.org/">migration patterns of young US
-residents</a>. Specifically, for each person born in the US between 1984
-and 1992, the researchers compared where they lived at age 16 to where
-they lived at age 26. The project’s public dataset counts the
-approximate number who moved to/from each pair of <a
-href="https://www.data-is-plural.com/archive/2022-01-19-edition/">commuting
-zones</a> — overall and disaggregated by race/ethnicity and parental
-income level. <strong>Read more</strong>: <a
-href="https://source.opennews.org/articles/story-recipe-census-migration-data-young-adults/">A
-reporting recipe</a> from <a href="https://bjones.net/">Brent Jones</a>
-and <a href="https://www.ericdschmid.com/">Eric Schmid</a>, <a
-href="https://news.stlpublicradio.org/economy-business/2022-07-25/new-census-bureau-study-confirms-what-we-already-knew-st-louisans-dont-move-away">who
-analyzed the data for St. Louis Public Radio</a>.</p>
-<p> </p>
-<p><strong>Social capital.</strong> Using data on billions of Facebook
-connections and group memberships, <a
-href="https://www.nature.com/articles/s41586-022-04996-4">Raj Chetty et
-al.</a>’s <a href="https://socialcapital.org/">Social Capital Atlas</a>
-calculates <a
-href="https://data.humdata.org/dataset/social-capital-atlas">three
-metrics for US counties, ZIP codes, high schools, and colleges</a>:
-economic connectedness (friendships between low-income and high-income
-users), cohesiveness (how often users’ friends are also friends with one
-another), and civic engagement (membership in volunteer groups).
-<strong>Read more</strong>: <a
-href="https://www.nytimes.com/interactive/2022/08/01/upshot/rich-poor-friendships.html">The
-Upshot explores and explains the project’s findings</a>.
-<strong>Previously</strong>: Measurements of <a
-href="https://dataforgood.facebook.com/dfg/tools/social-connectedness-index">social
-connectedness</a> (<a
-href="https://www.data-is-plural.com/archive/2020-09-30-edition/">DIP
-2020.09.30</a>) and <a href="https://opportunityinsights.org/">economic
-mobility</a> (<a
-href="https://www.data-is-plural.com/archive/2019-06-12-edition/">DIP
-2019.06.12</a>), from some of the same researchers. [h/t <a
-href="https://twitter.com/stroebel_econ">Johannes Stroebel</a>]</p>
-<p> </p>
-<p><strong>CPUs and GPUs.</strong> <a
-href="https://arxiv.org/abs/1911.11313">Yifan Sun et al.</a>, seeking to
-test <a href="https://en.wikipedia.org/wiki/Moore%27s_law">Moore’s
-Law</a> and <a
-href="https://en.wikipedia.org/wiki/Dennard_scaling">Dennard
-scaling</a>, “have collected data for all CPU and GPU products (to our
-best knowledge) that have been released by Intel, AMD [...], and NVIDIA
-since January 1st, 2000.” The authors’ <a
-href="https://chip-dataset.vercel.app/">dataset and charting tool</a>,
-describing 4,800+ processors through early 2021, uses information
-gathered from <a href="https://www.techpowerup.com/">TechPowerUp</a>, <a
-href="https://en.wikichip.org/wiki/WikiChip">WikiChip</a>, and company
-websites. They identify each product’s vendor, release date, transistor
-count, base frequency, and other details. [h/t <a
-href="https://news.ycombinator.com/item?id=32124613">matt_d</a>]</p>
-<p> </p>
-<p><strong>Trade in post-unification Italy.</strong> The <a
-href="https://lost-highway.unisi.it/project/aims-and-purposes">Lost
-Highway project</a>, a collaboration between <a
-href="https://lost-highway.unisi.it/units">researchers at four Italian
-universities</a>, aims “to test a number of broad historical conjectures
-about the long term shortcomings of the Italian development path by
-collecting as much quantitative evidence as possible.” Their <a
-href="https://lost-highway.unisi.it/data">Bankit-FTV database</a>
-provides annual import and export totals for 1862 to 1939, by product
-and trading partner, with 6,000+ product descriptions <a
-href="https://docenti-deps.unisi.it/michelangelovasta/wp-content/uploads/sites/2/2014/08/Legend-FTV-Bankit.pdf">standardized</a>
-into approximately 600 commodity groupings. [h/t <a
-href="https://danumbers.substack.com/">Francesco Piccinelli
-Casagrande</a>]</p>
-<p> </p>
-<p><strong>“Tea, Earl Grey, hot.”</strong> Combing the full transcripts
-of <a href="https://www.imdb.com/title/tt0092455/">Star Trek: The Next
-Generation</a>, <a href="https://www.cs.toronto.edu/~baxtell/">Benett
-Axtell</a> and <a href="https://www.cs.utoronto.ca/~mcosmin/">Cosmin
-Munteanu</a> found more than 1,000 lines of dialogue between the show’s
-characters and the starship Enterprise’s computer. Their <a
-href="https://www.speechinteraction.org/TNG/index.html">dataset of these
-interactions</a> lists each line’s phrasing, character, interaction
-type, stage directions, and more. [h/t <a
-href="https://jollydata.blog/posts/2021-08-22-tea-earl-grey-hot-tidytuesday-2021-week-34/">Christian
-A. Gebhard</a> + <a
-href="https://github.com/rfordatascience/tidytuesday/issues/346">Sara
-Stoudt</a> + <a
-href="https://github.com/rfordatascience/tidytuesday/tree/master/data/2021/2021-08-17">Tidy
-Tuesday</a>]</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send the next generation
-of feedback to jsvine@gmail.com, or just reply to this email. Looking
-for past datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and to browse past editions.</em></p>
-]]></content:encoded>
-      <guid isPermaLink="false">dip-2022-08-10</guid>
-      <pubDate>Wed, 10 Aug 2022 08:00:00 -0400</pubDate>
     </item>
   </channel>
 </rss>
