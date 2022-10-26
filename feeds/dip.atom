@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.data-is-plural.com</id>
   <title>Data Is Plural</title>
-  <updated>2022-10-19T08:00:00-04:00</updated>
+  <updated>2022-10-26T08:00:00-04:00</updated>
   <author>
     <name>Jeremy Singer-Vine</name>
     <email>jsvine@gmail.com</email>
@@ -10,6 +10,119 @@
   <link href="https://www.data-is-plural.com" rel="alternate"/>
   <generator>https://github.com/data-is-plural/newsletter-archive</generator>
   <subtitle>A weekly newsletter of useful/curious datasets.</subtitle>
+  <entry>
+    <id>dip-2022-10-26</id>
+    <title>Data Is Plural — 2022.10.26 edition</title>
+    <updated>2022-10-26T08:00:00-04:00</updated>
+    <content type="CDATA"><![CDATA[<p><em>Strategic petroleum, internet service offers, Boston’s first
+women voters, Euro-area securities, and gargantuan gourds.</em></p>
+<p> </p>
+<p><em>📣 <strong>Ad:</strong> Hightouch is the leading Reverse ETL
+platform. Sync customer data from your warehouse into 100+ tools your
+business teams rely on in minutes…just with SQL. No custom code or APIs.
+Check out <a
+href="https://hightouch.com/blog/reverse-etl/?utm_medium=aff&amp;utm_source=substack&amp;utm_campaign=data_is_plural">What
+is Reverse ETL, The Definitive Guide</a> to learn more or <a
+href="https://app.hightouch.com/?utm_medium=aff&amp;utm_source=substack&amp;utm_campaign=data_is_plural">get
+started for free</a>.</em></p>
+<p> </p>
+<p><strong>Strategic petroleum.</strong> The US Energy Information
+Administration maintains a <a
+href="https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&amp;s=MCSSTUS1&amp;f=M">dataset
+tracking the monthly volume</a> of the country’s <a
+href="https://www.energy.gov/ceser/strategic-petroleum-reserve">Strategic
+Petroleum Reserve</a>, measured in the thousands of barrels. The figures
+go back to 1977, <a
+href="https://www.energy.gov/ceser/spr-quick-facts">the year the first
+crude oil was delivered to the reserve</a>, but lag by a couple of
+months; the end-of-August volume is scheduled for publication on October
+31. <strong>Read more</strong>: <a
+href="https://www.energy.gov/ceser/history-spr-releases">The Department
+of Energy’s history of reserve releases</a>.
+<strong>Previously</strong>: <a
+href="https://www.eia.gov/petroleum/supply/monthly/">Petroleum Supply
+Monthly reports</a> (<a
+href="https://www.data-is-plural.com/archive/2017-08-16-edition/">DIP
+2017.08.16</a>) and <a
+href="https://www.eia.gov/petroleum/gasdiesel/">weekly gas prices</a>
+(<a
+href="https://www.data-is-plural.com/archive/2021-06-09-edition/">DIP
+2021.06.09</a>), both also published by the EIA. [h/t <a
+href="https://www.reddit.com/r/dataisbeautiful/comments/xyxfgh/us_strategic_petroleum_reserves_percent_change_oc/">u/CountBayesie</a>]</p>
+<p> </p>
+<p><strong>Internet service offers.</strong> For an <a
+href="https://themarkup.org/still-loading/2022/10/19/dollars-to-megabits-you-may-be-paying-400-times-as-much-as-your-neighbor-for-internet-service">investigation
+into speed disparities in internet service offers</a>, published last
+week at The Markup, reporters Leon Yin and Aaron Sankin <a
+href="https://themarkup.org/show-your-work/2022/10/19/how-we-uncovered-disparities-in-internet-deals">examined</a>
+more than 1 million address-specific offers across dozens of US cities.
+To support the findings, they’ve <a
+href="https://github.com/the-markup/investigation-isp">shared</a> the
+raw data gathered from ISPs’ websites, as well as tabular files that
+summarize each offer and attach the contextual variables used for the
+analysis. (Disclosure: I served, and am credited, as a “Data Coach” for
+this project.)</p>
+<p> </p>
+<p><strong>Boston’s first women voters.</strong> The City of Boston’s <a
+href="https://www.boston.gov/departments/archives-and-records-management/mary-eliza-project-boston-women-voters-1920">Mary
+Eliza Project</a> has been <a
+href="https://www.boston.gov/departments/archives-and-records-management/mary-eliza-project-boston-women-voters-1920">compiling</a>
+a dataset of <a
+href="https://data.boston.gov/dataset/1920-women-s-voter-register">women
+who registered to vote in 1920</a>, the year the 19th Amendment granted
+them that right. The dataset, <a
+href="https://www.boston.gov/news/mary-eliza-project-ward-8-voter-records-now-available">transcribed</a>
+from the original registration books, “is updated periodically as
+additional voter registers are transcribed.” It contains 6,000+ entries
+so far, each listing a voter’s name, registration date, ward, precinct,
+address, age, country of birth, occupation, husband’s information, and
+more. [h/t <a
+href="https://twitter.com/redthreadtweets/status/1577008369227157504">Julie
+Rosier</a>]</p>
+<p> </p>
+<p><strong>Euro-area securities.</strong> The European Central Bank
+collects detailed records concerning the <a
+href="https://www.ecb.europa.eu/stats/financial_markets_and_interest_rates/securities/html/index.en.html">financial
+instruments issued and held</a> by organizations and individuals under
+its jurisdiction. Its quarterly-updated <a
+href="https://www.ecb.europa.eu/stats/financial_markets_and_interest_rates/securities/html/index.en.html#holdings">Securities
+Holdings Statistics dataset</a>, <a
+href="https://sdw.ecb.europa.eu/browseSelection.do?node=9700835">available
+through the ECB’s data warehouse</a>, aggregates the latter by investor
+type (bank, non-bank company, pension fund, household, et cetera),
+investor country of residence, issuer country, type of financial
+instrument, <a
+href="https://sdw.ecb.europa.eu/browseExplanation.do?node=9700835">and
+more</a>. [h/t <a
+href="https://www.suerf.org/suer-policy-brief/53201/country-biases-in-equity-portfolios-are-less-pronounced-and-less-irrational-than-one-might-think">Martijn
+Boermans et al.</a>]</p>
+<p> </p>
+<p><strong>Gargantuan gourds.</strong> At <a
+href="http://www.bigpumpkins.com/">BigPumpkins.com</a>, you can find <a
+href="http://www.bigpumpkins.com/ViewArticle.asp?id=132">annual
+“weigh-off” results</a> from 100+ local competitions affiliated with the
+<a href="https://gpc1.org/">Great Pumpkin Commonwealth</a>, an
+international standards-setting organization. Although pumpkins
+represent the titular attraction, the site also publishes results for
+the squash, long gourd, watermelon, tomato, field pumpkin, bushel gourd,
+and marrow competition classes. HTML tables list each specimen’s weight,
+grower, location, weigh-off site, and lineage. [h/t <a
+href="https://juliasilge.com/blog/giant-pumpkins/">Julia Silge</a> + <a
+href="https://github.com/rfordatascience/tidytuesday/tree/master/data/2021/2021-10-19">Tidy
+Tuesday</a>]</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send scale-busting
+feedback to jsvine@gmail.com, or just reply to this email. Looking for
+past datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions.</em></p>
+]]></content>
+    <link href="http://www.data-is-plural.com/archive/2022-10-26-edition" rel="alternate"/>
+    <summary>Strategic petroleum, internet service offers, Boston’s first women voters, Euro-area securities, and gargantuan gourds.</summary>
+    <published>2022-10-26T08:00:00-04:00</published>
+  </entry>
   <entry>
     <id>dip-2022-10-19</id>
     <title>Data Is Plural — 2022.10.19 edition</title>
@@ -1077,107 +1190,5 @@ subscribe and to browse past editions.</em></p>
     <link href="http://www.data-is-plural.com/archive/2022-08-24-edition" rel="alternate"/>
     <summary>Beneficial owners, administrative boundaries, legislative limits on teaching, Census tract population changes, and Bryan’s whistle-stop tour.</summary>
     <published>2022-08-24T08:00:00-04:00</published>
-  </entry>
-  <entry>
-    <id>dip-2022-08-17</id>
-    <title>Data Is Plural — 2022.08.17 edition</title>
-    <updated>2022-08-17T08:00:00-04:00</updated>
-    <content type="CDATA"><![CDATA[<p><em>Recessions and expansions, consumer finances, pro-government
-militias, pollinationships, and atomic gardening.</em></p>
-<p> </p>
-<p><strong>Recessions and expansions.</strong> The US has no official
-definition of a recession, but many observers look to the
-non-governmental <a href="https://www.nber.org/about-nber">National
-Bureau of Economic Research</a>, whose <a
-href="https://www.nber.org/research/business-cycle-dating">Business
-Cycle Dating Committee</a> tries to determine “the dates of peaks and
-troughs that frame economic recessions and expansions.” The committee <a
-href="https://www.nber.org/research/data/us-business-cycle-expansions-and-contractions">publishes
-a table and data files</a> listing those dates for dozens of cycles
-since the mid-1800s. But <a
-href="https://www.nber.org/research/business-cycle-dating/business-cycle-dating-procedure-frequently-asked-questions">be
-prepared to wait</a>: “Our determination of the trough date in April
-2020 occurred 15 months after that date, in July 2021. Earlier
-determinations took between 4 and 21 months.” [h/t <a
-href="https://usafacts.org/articles/what-is-a-recession-what-have-recessions-looked-like-in-the-past/">USAFacts</a>]</p>
-<p> </p>
-<p><strong>Consumer finances.</strong> Every three years since 1983, the
-US Federal Reserve has conducted its <a
-href="https://www.federalreserve.gov/econres/aboutscf.htm">Survey of
-Consumer Finances</a>, which asks a sample of families detailed
-questions about their income, savings, assets, pensions, loans, credit
-lines, demographics, and more. “No other study for the country collects
-comparable information,” according to the Fed. The <a
-href="https://www.federalreserve.gov/econres/scfindex.htm">most recent
-edition</a> interviewed 5,783 families <a
-href="https://www.federalreserve.gov/publications/2020-bulletin-changes-in-us-family-finances-from-2016-to-2019.htm">between
-May 2019 and April 2020</a>. <strong>Related</strong>: <a
-href="https://www.minneapolisfed.org/research/institute-working-papers/income-and-wealth-inequality-in-america-1949-2016">Moritz
-Kuhn et al.</a> (<a
-href="https://www.moritzschularick.com/academic/datasets-and-codes/">data
-available here</a>) have merged results from the modern survey with
-those from an earlier incarnation conducted from 1948 to 1977.
-<strong>As seen in</strong>: “<a
-href="https://economics.princeton.edu/working-papers/wealth-of-two-nations-the-u-s-racial-wealth-gap-1860-2020/">Wealth
-of Two Nations: The U.S. Racial Wealth Gap, 1860-2020</a>” (Ellora
-Derenoncourt et al.). [h/t <a
-href="https://twitter.com/sharon000">Sharon Machlis</a>]</p>
-<p> </p>
-<p><strong>Pro-government militias.</strong> <a
-href="https://journals.sagepub.com/doi/10.1177/20531680211062772">Sabine
-Carey et al.</a>’s <a
-href="https://www.sabinecarey.com/militias-data">Pro-Government Militias
-Database</a> focuses on armed, organized groups that align themselves
-with a government but are not part of its official security forces. The
-<a
-href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/YK8L4I">latest
-version</a>, published earlier this year and <a
-href="https://militiasdb.sowi.uni-mannheim.de/militias-public">browsable
-online</a>, provides a wide range of structured information about 504
-such groups active between 1981 and 2014, including their purpose,
-membership, targets, government links, material support, and more.</p>
-<p> </p>
-<p><strong>Pollinationships.</strong> <a
-href="https://esajournals.onlinelibrary.wiley.com/doi/10.1002/ecy.3801">Nicholas
-Balfour et al.</a>’s <a href="https://www.dopi.org.uk/">Database of
-Pollinator Interactions</a> “documents British pollinator-plant
-associations,” <a
-href="https://staff.sussex.ac.uk/news/article/58399-new-online-resource-can-help-users-bee-friendly-when-it-comes-to-planting-for-pollinators">bringing
-together</a> records from “disparate publications currently scattered
-throughout the scientific literature” (and other sources) into a <a
-href="https://www.dopi.org.uk/search">queryable depository</a>. Its
-100,000+ entries document 320,000+ interactions observed between 1,800+
-insect species and 1,200+ plant species, some published as early as
-1895. [h/t <a href="https://www.reddit.com/user/tk-data">Tyler
-Knight</a>]</p>
-<p> </p>
-<p><strong>Atomic gardening.</strong> The <a
-href="https://nucleus.iaea.org/sites/mvd/SitePages/Home.aspx">Mutant
-Variety Database</a>, <a
-href="https://www.fao.org/agriculture/fao-iaea-nuclear-techniques/en/">jointly
-maintained</a> by the International Atomic Energy Agency and the UN’s
-Food and Agriculture Organization, tracks the metaphorical and literal
-fruits of <a href="https://www.atomicgardening.com/">atomic
-gardening</a>, a <a
-href="https://www.nytimes.com/2007/08/28/science/28crop.html">decades-old
-practice also known as radiation breeding</a>. The <a
-href="https://nucleus.iaea.org/sites/mvd/SitePages/Search.aspx">database’s
-3,400+ entries</a> indicate each known variety’s crop type, species,
-targeted characteristics, mutation development method, country,
-registration year, and more. [h/t <a
-href="https://theprepared.org/newsletter-archive/2022-08-01">Lee
-Wilkins</a>]</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send mutant feedback to
-jsvine@gmail.com, or just reply to this email. Looking for past
-datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and to browse past editions.</em></p>
-]]></content>
-    <link href="http://www.data-is-plural.com/archive/2022-08-17-edition" rel="alternate"/>
-    <summary>Recessions and expansions, consumer finances, pro-government militias, pollinationships, and atomic gardening.</summary>
-    <published>2022-08-17T08:00:00-04:00</published>
   </entry>
 </feed>
