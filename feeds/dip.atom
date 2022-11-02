@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.data-is-plural.com</id>
   <title>Data Is Plural</title>
-  <updated>2022-10-26T08:00:00-04:00</updated>
+  <updated>2022-11-02T08:00:00-04:00</updated>
   <author>
     <name>Jeremy Singer-Vine</name>
     <email>jsvine@gmail.com</email>
@@ -10,6 +10,118 @@
   <link href="https://www.data-is-plural.com" rel="alternate"/>
   <generator>https://github.com/data-is-plural/newsletter-archive</generator>
   <subtitle>A weekly newsletter of useful/curious datasets.</subtitle>
+  <entry>
+    <id>dip-2022-11-02</id>
+    <title>Data Is Plural — 2022.11.02 edition</title>
+    <updated>2022-11-02T08:00:00-04:00</updated>
+    <content type="CDATA"><![CDATA[<p><em>Nuclear stockpiles, decades of river widths, flood insurance
+changes, the weight of the web, and Swiss apartment layouts.</em></p>
+<p> </p>
+<p><em>👋 Want to advertise in Data Is Plural? I’m auctioning off a few
+ad slots. <a
+href="https://docs.google.com/document/d/1XrqQlDfcduQ4zHOyOvjC3TF9lfCc5bSNUPyemJ3AIf4">Click
+here to learn more and to bid</a>.</em></p>
+<p> </p>
+<p><strong>Nuclear stockpiles.</strong> As of early 2022, a total of
+nine countries possessed approximately 12,700 nuclear warheads,
+according to <a
+href="https://fas.org/issues/nuclear-weapons/status-world-nuclear-forces/">estimates
+from the Federation of American Scientists</a>. Although “the exact
+number of nuclear weapons in each country’s possession is a closely held
+national secret,” the researchers say that “publicly available
+information, careful analysis of historical records, and occasional
+leaks” make the estimates possible, albeit “with significant
+uncertainty.” The report includes each country’s current warhead count
+and subtotals by status, as well as annual totals for each country since
+1945. <strong>As seen in</strong>: <a
+href="https://ourworldindata.org/nuclear-weapons">Our World In Data</a>.
+<strong>Previously</strong>: Nuclear <a
+href="http://www.matthewfuhrmann.com/datasets.html">capabilities</a> (<a
+href="https://www.data-is-plural.com/archive/2016-02-24-edition/">DIP
+2016.02.24</a>) and <a
+href="https://github.com/data-is-plural/nuclear-explosions">explosions</a>
+(<a
+href="https://www.data-is-plural.com/archive/2016-03-23-edition/">DIP
+2016.03.23</a>). [h/t <a
+href="https://www.reddit.com/r/dataisbeautiful/comments/y3o00f/oc_the_global_stockpile_of_nuclear_weapons/">u/jcceagle</a>]</p>
+<p> </p>
+<p><strong>Decades of river widths.</strong> <a
+href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2021WR031712">Dongmei
+Feng et al.</a> have applied an algorithmic approach to calculating the
+<a href="https://zenodo.org/record/6425657#.Y2AxIILMI-Q">widths of the
+world’s largest rivers over time</a>. Their dataset contains more than 1
+billion measurements of 2.7 million fluvial cross-sections (focusing on
+those wider than 90 meters), based on 1.2 million satellite images
+captured between 1984 and 2020. <strong>Previously</strong>: <a
+href="https://www.nature.com/articles/s41586-019-1111-9">Free-flowing
+rivers</a> (<a
+href="https://www.data-is-plural.com/archive/2019-07-24-edition/">DIP
+2019.07.24</a>) and <a
+href="https://www.usgs.gov/core-science-systems/ngp/national-hydrography/national-hydrography-dataset">US
+hydrography</a> (<a
+href="https://www.data-is-plural.com/archive/2022-10-12-edition/">DIP
+2022.10.12</a>). [h/t <a
+href="https://twitter.com/TheGeogrineer/status/1579857845759397894">Colin
+Gleason</a>]</p>
+<p> </p>
+<p><strong>Flood insurance changes.</strong> FEMA <a
+href="https://www.fema.gov/flood-insurance/risk-rating">recently
+revamped</a> its method of pricing US flood insurance, aiming for “rates
+that are actuarily sound, equitable, easier to understand and better
+reflect a property’s flood risk.” A <a
+href="https://www.fema.gov/flood-insurance/risk-rating/profiles">series
+of datasets and dashboards</a> from the agency summarize the expected
+changes in premiums, which began taking effect last year. They count the
+number of policies for which monthly payments were projected to
+increase/decrease by a given amount, bucketed into ten-dollar
+increments, for each state, county, and ZIP code. <strong>As seen
+in</strong>: “<a
+href="https://usafacts.org/articles/how-have-flood-insurance-premiums-changed/">How
+have flood insurance premiums changed?</a>” (USAFacts).</p>
+<p> </p>
+<p><strong>The weight of the web.</strong> Researchers at the <a
+href="https://httparchive.org/">HTTP Archive</a>, a project of the <a
+href="https://archive.org/">Internet Archive</a>, “periodically crawl
+the top sites on the web and record detailed information about fetched
+resources, used web platform APIs and features, and execution traces of
+each page.” They make the raw data <a
+href="https://github.com/HTTPArchive/httparchive.org/blob/main/docs/gettingstarted_bigquery.md">available
+via Google BigQuery</a>, and also publish <a
+href="https://httparchive.org/reports">aggregate data</a> tracking
+metrics such as <a
+href="https://httparchive.org/reports/loading-speed">loading speed</a>
+and <a href="https://httparchive.org/reports/page-weight">page
+weight</a> (measured in kilobytes transferred). <strong>As seen
+in</strong>: “<a
+href="https://blog.datawrapper.de/why-web-pages-can-have-a-size-problem/">Why
+web pages can have a size problem</a>” (Datawrapper).</p>
+<p> </p>
+<p><strong>Swiss apartment layouts.</strong> <a
+href="https://zenodo.org/record/7215005">Swiss Dwellings</a> “contains
+detailed data on over 42,500 apartments (250,000 rooms) in ~3,100
+buildings including their geometries, room typology as well as their
+visual, acoustical, topological and daylight characteristics,” collected
+by <a href="https://www.archilyse.com/">Archilyse AG</a>, a company that
+analyzes building plans. The details include the placement of rooms,
+features (e.g., sinks and bathtubs), walls, windows, doors, and more.
+[h/t <a
+href="https://twitter.com/MStandfest/status/1583745625341894656">Matthias
+Standfest</a> + <a
+href="https://twitter.com/indiainpixels/status/1578502689851592704">India
+in Pixels</a>]</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send feedback and first
+month’s rent to jsvine@gmail.com, or just reply to this email. Looking
+for past datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions.</em></p>
+]]></content>
+    <link href="http://www.data-is-plural.com/archive/2022-11-02-edition" rel="alternate"/>
+    <summary>Nuclear stockpiles, decades of river widths, flood insurance changes, the weight of the web, and Swiss apartment layouts.</summary>
+    <published>2022-11-02T08:00:00-04:00</published>
+  </entry>
   <entry>
     <id>dip-2022-10-26</id>
     <title>Data Is Plural — 2022.10.26 edition</title>
@@ -1077,118 +1189,5 @@ subscribe and to browse past editions.</em></p>
     <link href="http://www.data-is-plural.com/archive/2022-08-31-edition" rel="alternate"/>
     <summary>Billion-dollar disasters, business formations, attempted repairs, Luftwaffe locations, and a fern tree of life.</summary>
     <published>2022-08-31T08:00:00-04:00</published>
-  </entry>
-  <entry>
-    <id>dip-2022-08-24</id>
-    <title>Data Is Plural — 2022.08.24 edition</title>
-    <updated>2022-08-24T08:00:00-04:00</updated>
-    <content type="CDATA"><![CDATA[<p><em>Beneficial owners, administrative boundaries, legislative limits
-on teaching, Census tract population changes, and Bryan’s whistle-stop
-tour.</em></p>
-<p> </p>
-<p><strong>Beneficial owners.</strong> <a
-href="https://www.openownership.org/">Open Ownership</a>, a nonprofit
-aiming to improve “transparency over who owns and controls companies,”
-<a href="https://www.openownership.org/en/about/what-we-do/">works</a>
-directly <a href="https://www.openownership.org/en/map/">with countries
-to implement reforms</a> and has developed a <a
-href="https://standard.openownership.org/">standard format for
-publishing such information</a>. It also runs the <a
-href="https://register.openownership.org/">Open Ownership Register</a>,
-a database identifying the <a
-href="https://standard.openownership.org/en/latest/primer/whatisbo.html">beneficial
-owners</a> of <a
-href="https://twitter.com/OpenOwnership/status/1552975083811004416">8.4
-million companies so far</a>, drawn primarily from <a
-href="https://register.openownership.org/data_sources">records published
-by Denmark, Slovakia, the UK, and Ukraine</a>. You can search, <a
-href="https://register.openownership.org/download">download</a>, and <a
-href="https://bods-data.openownership.org/source/register">query</a>
-those records, which include the companies’ names, addresses, and other
-details, as well as the owners’ names, nationalities, and interests in
-those companies. [h/t <a
-href="https://www.datasketch.co/newsletter/open-government/issue-17-beneficial-ownership-and-censored-journalism/">Datasketch</a>]</p>
-<p> </p>
-<p><strong>Administrative boundaries.</strong> The <a
-href="https://www.geoboundaries.org/">geoBoundaries</a> project,
-maintained by the <a href="https://geolab.wm.edu/">William &amp; Mary
-geoLab</a> and <a
-href="https://github.com/wmgeolab/geoBoundaries/graphs/contributors">volunteer
-contributors</a> since 2017, calls itself “the world’s largest open,
-free and research-ready database of political administrative
-boundaries.” It provides <a
-href="https://www.geoboundaries.org/api.html">an API</a> and <a
-href="https://www.geoboundaries.org/index.html#getdata">downloadable
-datasets</a> of those boundaries at up to six levels per country,
-ranging from the entire nation to progressively smaller entities —
-outlining, for instance, approximately 650,000 villages in India and
-2,900 Portuguese <a
-href="https://en.wikipedia.org/wiki/Freguesia">freguesias</a>.
-<strong>Previously</strong>: <a href="https://gadm.org/">The Database of
-Global Administrative Areas</a> (<a
-href="https://www.data-is-plural.com/archive/2019-07-17-edition/">DIP
-2019.07.17</a>) and <a href="https://icr.ethz.ch/data/cshapes/">national
-borders from 1886 to 2019</a> (<a
-href="https://www.data-is-plural.com/archive/2022-03-23-edition/">DIP
-2022.03.23</a>).</p>
-<p> </p>
-<p><strong>Legislative limits on teaching.</strong> A <a
-href="https://pen.org/report/Americas-censored-classrooms/">PEN America
-report</a> released last week examines recent developments in
-“educational gag orders,” which it defines as “state legislative efforts
-to restrict teaching about topics such as race, gender, American
-history, and LGBTQ+ identities in K–12 and higher education.” The study
-follows an <a
-href="https://pen.org/report/educational-gag-orders/">initial report
-published in November 2021</a> and is supplemented by a <a
-href="https://docs.google.com/spreadsheets/d/1Tj5WQVBmB6SQg-zP_M8uZsQQGH09TxmBY73v23zpyr0/edit#gid=1505554870">weekly-updated
-spreadsheet</a> that describes and tracks successful, failed, and
-pending bills since January 2021. [h/t <a
-href="https://www.infodocket.com/2022/08/17/report-educational-gag-order-proposals-spike-by-250-in-2022-pen-america-finds-announcing-the-2022-core-forum-keynote-speakers-and-more-news-headlines/">Gary
-Price</a>]</p>
-<p> </p>
-<p><strong>Census tract population changes.</strong> Researchers at the
-University of Tennessee <a
-href="https://tnsdc.utk.edu/2022/05/16/new-interactive-map-details-population-change-across-us-last-decade/">have
-built</a> a <a
-href="https://myutk.maps.arcgis.com/home/item.html?id=dfb01c34015d4e149dcbbf3fbbdfc88b">dataset</a>
-and <a
-href="https://myutk.maps.arcgis.com/apps/instant/sidebar/index.html?appid=b6cf315a28aa4089873ee3442d4a2597">interactive
-map</a> comparing each US Census tract’s population in 2020 versus 2010.
-Because the Census Bureau routinely adds and modifies tracts between
-decennial surveys, the team used <a
-href="https://www.nhgis.org/geographic-crosswalks">geographic
-“crosswalk” files from the National Historic Geographic Information
-System</a> to <a
-href="https://tnsdc.utk.edu/2022/05/16/producing-maps-of-detailed-population-change-between-2010-and-2020/">make
-the comparisons</a>. [h/t <a
-href="https://haslam.utk.edu/experts/timothy-kuhn">Tim Kuhn</a>]</p>
-<p> </p>
-<p><strong>Bryan’s whistle-stop tour.</strong> In 1896, Democratic Party
-presidential candidate William Jennings Bryan <a
-href="https://railroads.unl.edu/views/item/bryan_speech">took four key
-campaign trips via rail</a>, giving speeches in hundreds of cities along
-the way. The <a href="https://railroads.unl.edu/">Railroads and the
-Making of Modern America</a> project, based at the University of
-Nebraska, has compiled a <a
-href="https://railroads.unl.edu/topics/bryanTriplog1896.php?trip=all">table
-of those itineraries</a>; it lists each event’s date and location and
-links to many of the speeches. <strong>As seen in</strong>: “<a
-href="https://broadstreet.blog/2022/07/15/do-local-campaign-visits-by-a-populist-politician-matter-in-elections/">Do
-Local Campaign Visits by a Populist Politician Matter in Elections?</a>”
-(<a href="http://www.johannesbuggle.com/">Johannes Buggle</a> and <a
-href="http://www.stephanosvlachos.com/">Stephanos Vlachos</a>).</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send locomotive feedback
-to jsvine@gmail.com, or just reply to this email. Looking for past
-datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and to browse past editions.</em></p>
-]]></content>
-    <link href="http://www.data-is-plural.com/archive/2022-08-24-edition" rel="alternate"/>
-    <summary>Beneficial owners, administrative boundaries, legislative limits on teaching, Census tract population changes, and Bryan’s whistle-stop tour.</summary>
-    <published>2022-08-24T08:00:00-04:00</published>
   </entry>
 </feed>
