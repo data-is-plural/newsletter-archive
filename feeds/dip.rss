@@ -6,7 +6,123 @@
     <description>A weekly newsletter of useful/curious datasets.</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>https://github.com/data-is-plural/newsletter-archive</generator>
-    <lastBuildDate>Wed, 09 Nov 2022 08:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 16 Nov 2022 08:00:00 -0500</lastBuildDate>
+    <item>
+      <title>Data Is Plural — 2022.11.16 edition</title>
+      <link>http://www.data-is-plural.com/archive/2022-11-16-edition</link>
+      <description>Big emitters, disease outbreaks, permissively-licensed code, impact craters, and tinned fish.</description>
+      <content:encoded><![CDATA[<p><em>Big emitters, disease outbreaks, permissively-licensed code,
+impact craters, and tinned fish.</em></p>
+<p> </p>
+<p><em>📣 <strong>Ad:</strong> It takes longer to read this ad than it
+takes to create and share a free <a
+href="https://bit.io/?utm_source=data-is-plural&amp;utm_medium=newsletter&amp;utm_campaign=plural_20221116">serverless
+postgres</a> database on <a
+href="https://bit.io/?utm_source=data-is-plural&amp;utm_medium=newsletter&amp;utm_campaign=plural_20221116">bit.io</a>.
+Drag. Drop. <a
+href="https://bit.io/?utm_source=data-is-plural&amp;utm_medium=newsletter&amp;utm_campaign=plural_20221116">Database</a>.</em></p>
+<p> </p>
+<p><strong>Big emitters.</strong> <a
+href="https://climatetrace.org/">Climate TRACE</a>, a <a
+href="https://climatetrace.org/our-story">nonprofit coalition</a>
+launched in 2020, uses satellite imagery, sector-specific datasets, and
+<a
+href="https://climatetrace.org/public/upload/files/62f50cfb415f6.pdf?v=1667641844">other
+sources</a> to estimate greenhouse gas emissions in detail. Their most
+recent inventory, <a
+href="https://climatetrace.org/news/more-than-70000-of-the-highest-emitting-greenhouse-gas">released
+last week</a>, highlights 70,000+ individual sites that “represent the
+top known sources of emissions in the power sector, oil and gas
+production and refining, shipping, aviation, mining, waste, agriculture,
+road transportation, and the production of steel, cement, and aluminum.”
+You can <a href="https://climatetrace.org/downloads">download the
+data</a>, <a href="https://climatetrace.org/inventory">explore sector-
+and country-level estimates</a>, and <a
+href="https://climatetrace.org/map">browse a map of the sites</a>.
+<strong>Read more</strong>: <a
+href="https://www.nytimes.com/2022/11/09/climate/climate-change-emissions-satellites.html">Coverage
+in the New York Times</a>. [h/t <a href="https://enjalot.github.io/">Ian
+Johnson</a>]</p>
+<p> </p>
+<p><strong>Disease outbreaks.</strong> <a
+href="https://www.nature.com/articles/s41597-022-01797-2">Juan Armando
+Torres Munguía et al.</a> have built a <a
+href="https://figshare.com/articles/dataset/A_global_dataset_of_pandemic-_and_epidemic-prone_disease_outbreaks/17207183/2">dataset
+of infectious disease outbreaks</a>, based on information extracted from
+the World Health Organization’s <a
+href="https://www.who.int/emergencies/disease-outbreak-news">Disease
+Outbreak News alerts</a> (<a
+href="https://www.data-is-plural.com/archive/2022-03-30-edition/">DIP
+2022.03.30</a>) and its <a href="https://covid19.who.int/">coronavirus
+dashboard</a>. The authors have clustered the outbreaks by disease
+(classified by <a href="https://icd.who.int/browse10/2019/en">ICD-10</a>
+and <a href="https://icd.who.int/browse11/l-m/en">ICD-11</a> codes),
+country, and year. Excluding the COVID-19 pandemic, this leads to 1,500+
+total combinations between January 1996 and March 2022, spanning 60+
+diseases and 200+ countries/territories. [h/t <a
+href="https://twitter.com/KM_Wacker/status/1590766979501420544">Konstantin
+M. Wacker</a>]</p>
+<p> </p>
+<p><strong>Permissively-licensed code.</strong> <a
+href="https://huggingface.co/datasets/bigcode/the-stack">The Stack</a>,
+a new dataset from the <a
+href="https://www.bigcode-project.org/">BigCode project</a>, “contains
+over 3TB of permissively-licensed source code files covering 30
+programming languages crawled from GitHub.” Those terabytes hold more
+than 300 million files extracted from repositories whose licenses place
+“minimal restrictions on how the software can be copied, modified, and
+redistributed.” The dataset provides the contents of each file along
+with its repository name, path, size, programming language, detected
+licenses, and several high-level metrics. <strong>Read more</strong>: <a
+href="https://twitter.com/BigCodeProject/status/1585631176353796097">An
+introductory Twitter thread</a> and <a
+href="https://ml4code.github.io/publications/kocetkov2022stack/">preprint
+paper</a>. [h/t <a href="https://ksaj.inlisp.org">Karsten
+Johansson</a>]</p>
+<p> </p>
+<p><strong>Impact craters.</strong> The <a
+href="http://www.passc.net/EarthImpactDatabase/New%20website_05-2018/Index.html">Earth
+Impact Database</a>, maintained by the University of New Brunswick’s <a
+href="http://www.passc.net/AboutUs/index.html">Planetary and Space
+Science Centre</a>, catalogs nearly 200 <a
+href="http://www.passc.net/EarthImpactDatabase/New%20website_05-2018/IntrotoImpacts.html">impact
+craters</a> caused by meteorites that have crashed into the planet. It
+presents the name, location, diameter, estimated age, geology, and other
+features of the craters, as well as photographs and bibliographies.
+<strong>Related</strong>: <a href="https://codywinchester.com/">Cody
+Winchester</a> has <a
+href="https://github.com/cjwinchester/earth-impact-data">scraped the
+crater characteristics into CSV and GeoJSON files</a>.</p>
+<p> </p>
+<p><strong>Tinned fish.</strong> <a
+href="https://rainbowtomatoesgarden.com/">Rainbow Tomatoes Garden</a> is
+a farm in East Greenville, Pennsylvania, that also happens to run an <a
+href="https://rainbowtomatoesgarden.com/index.php/product-category/conservas/">online
+store</a> selling “the largest selection of tinned seafood in the
+world.” <a
+href="https://rainbowtomatoesgarden.com/index.php/product/ten-tins-to-try-and-why-by-dan-waber/">Curator</a>-owner
+<a
+href="https://phillygrub.blog/2022/06/18/tomatoes-and-tinned-fish/">Dan
+Waber</a> publishes a <a
+href="https://docs.google.com/spreadsheets/d/1zjfwXVsGPfWw4ag3EHkT6ismDZhj8dlFwwahD7SG7gQ/edit">spreadsheet</a>
+of the store’s 630+ offerings, <a
+href="https://rainbowtomatoesgarden.com/index.php/choosing-a-tin/">listing</a>
+each product’s name, type of seafood, brand, country of origin, tin
+size, and price; whether it’s organic, certified kosher, smoked,
+boneless, and/or skinless; and more. [h/t <a
+href="https://www.georgeho.org/">George Ho</a>]</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send tinned feedback to
+jsvine@gmail.com, or just reply to this email. Looking for past
+datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions.</em></p>
+]]></content:encoded>
+      <guid isPermaLink="false">dip-2022-11-16</guid>
+      <pubDate>Wed, 16 Nov 2022 08:00:00 -0500</pubDate>
+    </item>
     <item>
       <title>Data Is Plural — 2022.11.09 edition</title>
       <link>http://www.data-is-plural.com/archive/2022-11-09-edition</link>
@@ -1065,120 +1181,6 @@ incorrectly implying that Scandinavia is a country.</li>
 ]]></content:encoded>
       <guid isPermaLink="false">dip-2022-09-14</guid>
       <pubDate>Wed, 14 Sep 2022 08:00:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Data Is Plural — 2022.09.07 edition</title>
-      <link>http://www.data-is-plural.com/archive/2022-09-07-edition</link>
-      <description>LGBTQ+ rights, the General Social Survey, most buildings in Spain, battles and sieges, and even more street trees.</description>
-      <content:encoded><![CDATA[<p><em>LGBTQ+ rights, the General Social Survey, most buildings in
-Spain, battles and sieges, and even more street trees.</em></p>
-<p> </p>
-<p><strong>LGBTQ+ rights.</strong> <a
-href="https://www.equaldex.com/">Equaldex</a> tracks LGBTQ+ rights
-around the world, categorizing the liberties and restrictions that
-relate to more than a dozen issues, such as same-sex marriage, blood
-donation, military service, employment discrimination, and the right to
-change one’s legal gender. The <a
-href="https://www.equaldex.com/help">collaboratively-edited</a> database
-<a
-href="https://equaldex.stoplight.io/docs/equaldex/YXBpOjE1NjI0OTIw-equaldex-json-api">provides
-an API</a> to <a
-href="https://equaldex.stoplight.io/docs/equaldex/b3A6MTU2MjQ5MjE-get-lgtbq-rights-by-region-id">retrieve
-those categorizations and contextual notes</a> by country and/or US
-state. The project also keeps tabs on <a
-href="https://www.equaldex.com/timeline">developments that alter those
-rights</a> and <a href="https://www.equaldex.com/surveys">public opinion
-polling</a>. [h/t <a
-href="https://buttondown.email/puntofisso/archive/430-quantum-of-sollazzo/">Giuseppe
-Sollazzo</a>]</p>
-<p> </p>
-<p><strong>Five decades of US public opinion.</strong> This year marks
-the <a href="https://gss.norc.org/pages/GSS50.aspx">50th anniversary</a>
-of the <a href="https://gss.norc.org/">General Social Survey</a>, which
-<a href="https://gss.norc.org/About-The-GSS">calls itself</a> “the only
-full-probability, personal-interview survey designed to monitor changes
-in both social characteristics and attitudes currently being conducted
-in the United States.” It combines a “standard core of demographic,
-behavioral, and attitudinal questions” with shorter-lived modules on
-topics such as religion, gun control, and mental health. You can <a
-href="https://gssdataexplorer.norc.org/">explore the results online</a>
-and also <a href="https://gss.norc.org/get-the-data">download</a> the <a
-href="https://gss.norc.org/Get-Documentation">thoroughly documented</a>,
-anonymized microdata. <strong>Related</strong>: <a
-href="https://issp.org/">The International Social Survey Program</a>,
-co-founded by the GSS team.</p>
-<p> </p>
-<p><strong>Most buildings in Spain.</strong> The Spanish government’s <a
-href="https://www.sedecatastro.gob.es/">cadastral service</a> provides
-<a
-href="https://www.sedecatastro.gob.es/Accesos/SECAccDescargaDatos.aspx">geospatial
-data on every parcel, address, and building</a> for “the entire
-territory under its jurisdiction (the entire national territory except
-the Basque Country and Navarre).” The records, <a
-href="https://www.catastro.minhap.es/webinspire/index_eng.html">available
-to download programmatically</a>, include each building’s year of
-construction, total floor area, number of dwellings, and more.
-<strong>As seen in</strong>: “<a
-href="https://especiales.eldiario.es/spain-lives-in-flats/">Spain lives
-in flats: why we have built our cities vertically</a>” (El Diario, <a
-href="https://especiales.eldiario.es/espana-vive-en-pisos/">original in
-Spanish</a>), and <a
-href="https://twitter.com/raulsanchezglez/status/1443469518307799044">associated
-Twitter thread</a>. [h/t <a
-href="https://blog.datawrapper.de/data-vis-dispatch-january-18-2022/">Rose
-Mintzer-Sweeney</a>]</p>
-<p> </p>
-<p><strong>Battles and sieges.</strong> <a
-href="https://journals.sagepub.com/doi/10.1177/00220027221119085">Charles
-Miller and K. Shuvo Bakar</a>’s <a
-href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/6ZFC0V">Historical
-Conflict Event Dataset</a> covers 8,800+ military clashes spanning
-thousands of years, from <a
-href="https://www.britannica.com/place/Megiddo">Egypt’s capture of
-Megiddo c. 1468 BC</a> to the 2003 invasion of Iraq. The authors draw
-primarily from <a
-href="https://www.issueoutcomes.com.au/about.html">Tony Jaques</a>’s <a
-href="https://openlibrary.org/works/OL9393993W/Dictionary_of_Battles_and_Sieges">Dictionary
-of Battles and Sieges</a>, which they augment with additional research
-and sources. The <a
-href="https://dataverse.harvard.edu/file.xhtml?fileId=6434093&amp;version=1.0">resulting
-spreadsheet</a> provides each event’s name, year, relevant war,
-narrative, participant list, location, and more. [h/t <a
-href="https://twitter.com/MicahZenko/status/1559381053705445376">Micah
-Zenko</a>]</p>
-<p> </p>
-<p><strong>Even more street trees.</strong> <a
-href="https://www.biorxiv.org/content/10.1101/2022.03.18.484862v1.full">Dakota
-E. McCoy et al.</a> have built a <a
-href="https://datadryad.org/stash/dataset/doi:10.5061/dryad.2jm63xsrf">dataset
-of 5,000,000+ urban trees</a>, <a
-href="https://github.com/ReallyMcCoy/CityTreesProject">gathered and
-harmonized</a> from 63 US cities’ inventories. The level of detail
-differs by city, but can include the tree’s species, date planted,
-location, height, trunk diameter, condition, and more. The authors also
-provide a <a
-href="https://github.com/ReallyMcCoy/CityTreesProject/blob/main/DataS2_Tree_Data_Summary_By_City_REV1.csv">range
-of summary statistics for each city</a>. <strong>Previously</strong>:
-Street trees in <a
-href="https://www.data-is-plural.com/archive/2020-11-18-edition/">DIP
-2020.11.18</a>, <a
-href="https://www.data-is-plural.com/archive/2018-08-08-edition/">DIP
-2018.08.08</a>, and <a
-href="https://www.data-is-plural.com/archive/2016-11-16-edition/">DIP
-2016.11.16</a>. [h/t <a
-href="https://twitter.com/compatibilism/status/1562907507160645632">Clayton
-Page Aldern</a>]</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send firmly-rooted
-feedback to jsvine@gmail.com, or just reply to this email. Looking for
-past datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and to browse past editions.</em></p>
-]]></content:encoded>
-      <guid isPermaLink="false">dip-2022-09-07</guid>
-      <pubDate>Wed, 07 Sep 2022 08:00:00 -0400</pubDate>
     </item>
   </channel>
 </rss>
