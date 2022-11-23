@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.data-is-plural.com</id>
   <title>Data Is Plural</title>
-  <updated>2022-11-16T08:00:00-05:00</updated>
+  <updated>2022-11-23T08:00:00-05:00</updated>
   <author>
     <name>Jeremy Singer-Vine</name>
     <email>jsvine@gmail.com</email>
@@ -10,6 +10,127 @@
   <link href="https://www.data-is-plural.com" rel="alternate"/>
   <generator>https://github.com/data-is-plural/newsletter-archive</generator>
   <subtitle>A weekly newsletter of useful/curious datasets.</subtitle>
+  <entry>
+    <id>dip-2022-11-23</id>
+    <title>Data Is Plural — 2022.11.23 edition</title>
+    <updated>2022-11-23T08:00:00-05:00</updated>
+    <content type="CDATA"><![CDATA[<p><em>Presidential pardons, radioactive waste, songs of the world,
+semiconductor logistics, and “every Star Trek ever.”</em></p>
+<p> </p>
+<p><em>👋 Do you want to know more about what fellow DIP subscribers are
+doing? Do you want to announce DIP-related projects to others? Do you
+dislike these ideas? I’ve created a <a
+href="https://docs.google.com/forms/d/e/1FAIpQLSemUwOBIccDOvJEhZx57laugJfL71fllf1__mLC91g2ScfPpg/viewform">short
+survey</a> and would be grateful if you could <a
+href="https://docs.google.com/forms/d/e/1FAIpQLSemUwOBIccDOvJEhZx57laugJfL71fllf1__mLC91g2ScfPpg/viewform">fill
+it out</a>, regardless of your level of interest. Many thanks.</em></p>
+<p> </p>
+<p><strong>Presidential pardons.</strong> The US Department of Justice’s
+<a href="https://www.justice.gov/pardon">Office of the Pardon
+Attorney</a> reviews all federal clemency requests and advises the
+president on such matters. The office provides a <a
+href="https://www.justice.gov/pardon/search-clemency-case-status-since-1989">search
+tool and spreadsheet</a> with the names, case statuses, and decision
+dates for all 76,000+ pardon and commutation requests since 1989. It
+also publishes a <a
+href="https://www.justice.gov/pardon/clemency-recipients">series of
+tables</a>, with varying structure, listing the people who received
+clemency from each president since Richard Nixon. Those tables
+additionally include recipients who did not submit formal requests and,
+for more recent presidents, details about the recipients’ offenses and
+sentences. <a
+href="https://www.justice.gov/pardon/clemency-statistics">Another
+page</a> contains clemency statistics for each year and president since
+William McKinley.</p>
+<p> </p>
+<p><strong>Radioactive waste.</strong> Through its <a
+href="https://www.eia.gov/Survey/#gc-859">Nuclear Fuel Data Survey</a>,
+the US Energy Information Administration “collects data on spent nuclear
+fuel from all utilities that operate commercial nuclear reactors and
+from all others that possess irradiated fuel from commercial nuclear
+reactors.” The agency’s <a
+href="https://www.eia.gov/nuclear/spent_fuel/">latest release</a>, <a
+href="https://www.eia.gov/todayinenergy/detail.php?id=47796">published
+last year</a> with data through 2017, includes several basic tables. One
+tallies the <a
+href="https://www.eia.gov/nuclear/spent_fuel/ussnftab3.php">annual
+amount of nuclear fuel discharged and stored at commercial sites</a>
+since 1968, measured by <a
+href="https://www.nrc.gov/reading-rm/basic-ref/glossary/fuel-assembly-fuel-bundle-fuel-element.html">assembly</a>
+count and metric tons of uranium. <strong>As seen in</strong>: “<a
+href="https://cen.acs.org/environment/pollution/nuclear-waste-pilesscientists-seek-best/98/i12">As
+nuclear waste piles up, scientists seek the best long-term storage
+solutions</a>” (Chemical &amp; Engineering News, 2020).</p>
+<p> </p>
+<p><strong>Songs of the world.</strong> In a <a
+href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0275469">paper
+published this month</a>, researchers describe <a
+href="https://theglobaljukebox.org/">the Global Jukebox</a> — an
+interactive map and <a
+href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0275469#pone-0275469-t001">compilation
+of datasets</a> focused on traditional songs from around the world. The
+project traces its history back to initial prototypes in the 1980s by <a
+href="https://www.culturalequity.org/alan-lomax/about-alan">Alan
+Lomax</a>, a musicologist who collected many of the recordings. The <a
+href="https://github.com/theglobaljukebox/cantometrics">core
+dataset</a>, called Cantometrics, encodes “37 aspects of musical style
+for 5,776 traditional songs from 1,026 societies.” Others <a
+href="https://github.com/theglobaljukebox">include</a>, for example,
+datasets of <a
+href="https://github.com/theglobaljukebox/instruments">song
+instruments</a> and <a
+href="https://github.com/theglobaljukebox/minutage">phrasing
+patterns</a>. [h/t <a
+href="https://twitter.com/PatrickESavage/status/1587914982028906496">Pat
+Savage</a>]</p>
+<p> </p>
+<p><strong>Semiconductor logistics.</strong> The <a
+href="https://eto.tech/">Emerging Technology Observatory</a>, a <a
+href="https://eto.tech/blog/introducing-emerging-technology-observatory/">new
+initiative</a> based at Georgetown University, aims to provide a “public
+platform for high-quality, actionable data resources on the global
+emerging technology landscape.” Its <a
+href="https://eto.tech/dataset-docs/chipexplorer/">Advanced
+Semiconductor Supply Chain Dataset</a>, which you can <a
+href="https://github.com/georgetown-cset/eto-supply-chain/tree/main/data">download</a>
+and <a href="https://chipexplorer.eto.tech/">explore online</a>,
+contains “manually compiled, high-level information about the tools,
+materials, processes, countries, and firms involved in the production of
+advanced logic chips.” [h/t <a
+href="https://cset.georgetown.edu/staff/zachary-arnold/">Zach
+Arnold</a>]</p>
+<p> </p>
+<p><strong>“Every Star Trek ever.”</strong> <a
+href="https://www.airtable.com/universe/expsZ6vRPGwedtNfq/every-star-trek-book-ever?explore=true">The
+dataset</a>: <a href="https://www.flourishklink.com/">Flourish
+Klink</a>’s <a
+href="https://www.airtable.com/universe/expsZ6vRPGwedtNfq/every-star-trek-book-ever">compilation</a>
+of every official Star Trek book, audiobook, comic, episode, movie, and
+more. “My continuing mission: To consume every piece of <em>Star
+Trek</em> content ever made!” <strong>Previously</strong>: <a
+href="https://www.speechinteraction.org/TNG/index.html">Star Trek
+computer-talk</a> (<a
+href="https://www.data-is-plural.com/archive/2022-08-10-edition/">DIP
+2022.08.10</a>) and <a href="http://stapi.co/">a Star Trek API</a> (<a
+href="https://www.data-is-plural.com/archive/2018-11-07-edition/">DIP
+2018.11.07</a>). [h/t <a
+href="https://twitter.com/LisaCee14/status/1589410428060565504">Lisa
+Cee</a>]</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send completionist
+feedback to jsvine@gmail.com, or just reply to this email. ★ Looking for
+past datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. ★ Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions. ★ <a
+href="https://docs.google.com/document/d/e/2PACX-1vSP5xYrhqEvoGTi2aFzrsYQXadG8Gv0Y6YGWjib1e4qcXG45Sq5TSvngvh342DdcAEyEDIVd5V3RYcc/pub">Learn
+how to place an ad in Data Is Plural</a>.</em></p>
+]]></content>
+    <link href="http://www.data-is-plural.com/archive/2022-11-23-edition" rel="alternate"/>
+    <summary>Presidential pardons, radioactive waste, songs of the world, semiconductor logistics, and “every Star Trek ever.”</summary>
+    <published>2022-11-23T08:00:00-05:00</published>
+  </entry>
   <entry>
     <id>dip-2022-11-16</id>
     <title>Data Is Plural — 2022.11.16 edition</title>
@@ -1046,153 +1167,5 @@ subscribe and to browse past editions.</em></p>
     <link href="http://www.data-is-plural.com/archive/2022-09-21-edition" rel="alternate"/>
     <summary>Labor turnover, biodiversity trends, probabilistic predictions, working artists, and Atari emails.</summary>
     <published>2022-09-21T08:00:00-04:00</published>
-  </entry>
-  <entry>
-    <id>dip-2022-09-14</id>
-    <title>Data Is Plural — 2022.09.14 edition</title>
-    <updated>2022-09-14T08:00:00-04:00</updated>
-    <content type="CDATA"><![CDATA[<p><em>An official Congress API, voter ID laws, local internet speeds,
-the Getty Provenance Index, and space weather.</em></p>
-<p> </p>
-<p><em>👋 Welcome to the 300th(!) edition of Data Is Plural. To mark the
-occasion, I’ve published a <a
-href="https://github.com/data-is-plural/feedback-phrases">bonus,
-self-referential, ultra-niche dataset of the newsletter’s
-feedback-soliciting phrases</a>.</em></p>
-<p> </p>
-<p><strong>Congress gets an official API.</strong> The United States’
-legislative branch now has <a href="https://api.congress.gov/">an
-official API</a>, <a
-href="https://blogs.loc.gov/law/2022/09/introducing-the-congress-gov-api/">the
-Library of Congress announced last week</a>. It <a
-href="https://github.com/LibraryOfCongress/api.congress.gov/">provides</a>
-structured data on legislators, bills, bill summaries, amendments,
-committee reports, appointee nominations, international treaties, and
-more. To use the service, you’ll need to <a
-href="https://api.congress.gov/sign-up/">sign up for a free API key</a>.
-<strong>Read more</strong>: <a
-href="https://congressionaldata.org/library-of-congress-launches-congress-gov-api/">Some
-context from the Congressional Data Coalition</a>.
-<strong>Related</strong>: The Government Publishing Office’s <a
-href="https://www.govinfo.gov/bulkdata">bulk data on bills and bill
-summaries</a> (<a
-href="https://www.data-is-plural.com/archive/2020-08-26-edition/">DIP
-2020.08.26</a>) and <a
-href="https://projects.propublica.org/api-docs/congress-api/">ProPublica’s
-Congress API</a>. [h/t <a
-href="https://www.linkedin.com/in/jackiekazil/">Jackie Kazil</a>]</p>
-<p> </p>
-<p><strong>Voter ID laws.</strong> As part of his PhD research, <a
-href="https://pure.royalholloway.ac.uk/portal/en/persons/thomas-barton(8a862a25-f335-4c52-9986-6c094b613b55).html">Tom
-Barton</a> has <a
-href="https://www.tandfonline.com/doi/full/10.1080/00344893.2022.2113117">constructed</a>
-a <a
-href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/RU2F9A">dataset
-of voter identification requirements around the world</a>. For each
-country and US state, the dataset indicates the type of identification
-needed to vote (a photo ID, non-photo ID, or just basic personal
-details), how many forms of identification the voter must provide, and
-more. <strong>Related</strong>: <a
-href="https://www.ncsl.org/research/elections-and-campaigns/voter-id.aspx">A
-detailed examination of US voter ID laws</a> from the National
-Conference of State Legislatures. <strong>Previously</strong>: <a
-href="https://tracker.votingrightslab.org/pending/search">Recent US
-voting legislation</a> tracked by the <a
-href="https://votingrightslab.org/">Voting Rights Lab</a> (<a
-href="https://www.data-is-plural.com/archive/2022-07-20-edition/">DIP
-2022.07.20</a>).</p>
-<p> </p>
-<p><strong>Local internet speeds.</strong> If you’ve tried measuring
-your internet speed, you might have used <a
-href="https://www.ookla.com/">Ookla</a>’s <a
-href="https://www.speedtest.net/">testing service</a>. The company <a
-href="https://www.ookla.com/ookla-for-good/open-data">releases</a> a
-series of <a
-href="https://github.com/teamookla/ookla-open-data">quarterly datasets
-that summarize the test results</a>, aggregated into geospatial tiles.
-(The tile sizes vary by latitude but measure roughly 2,000 feet by 2,000
-feet at the equator.) For each tile, the datasets list the number of
-tests performed and devices tested, plus the average download speed,
-upload speed, and latency. <strong>As seen in</strong>: “<a
-href="https://www.europeandatajournalism.eu/eng/News/Data-news/Europe-s-internet-speeds-are-faster-than-ever-but-not-for-everyone">Europe’s
-internet speeds are faster than ever, but not for everyone</a>” (EDJNet)
-and <a
-href="https://datavis.europeandatajournalism.eu/obct/connectivity/">associated
-dashboard</a>. <strong>Previously</strong>: <a
-href="https://www.measurementlab.net/data/">Internet speeds from the
-Measurement Lab</a> (<a
-href="https://www.data-is-plural.com/archive/2019-05-22-edition/">DIP
-2019.05.22</a>). [h/t <a
-href="https://twitter.com/_federicocaruso">Federico Caruso</a>]</p>
-<p> </p>
-<p><strong>Art sales and ownership.</strong> The <a
-href="https://www.getty.edu/research/tools/provenance/">Getty Provenance
-Index</a> contains more than 2.3 million <a
-href="https://www.getty.edu/research/tools/provenance/charts.html">historical
-records</a> relating to the sale and ownership of artworks, <a
-href="https://piprod.getty.edu/starweb/pi/servlet.starweb?path=pi/pi.web">searchable
-online</a> by artist, owner, auction house, date, and other
-characteristics. As part of an <a
-href="https://www.getty.edu/research/tools/provenance/provenance_remodel/index.html">ongoing
-project to remodel the index</a>, the <a
-href="https://www.getty.edu/research/">Getty Research Institute</a> has
-also published a subset of the records as <a
-href="https://github.com/thegetty/provenance-index-csv">open data</a>.
-The <a
-href="https://github.com/thegetty/provenance-index-csv/tree/main/sales_catalogs">largest
-of those datasets</a> describes more than 1 million sales in Europe from
-the 1600s to 1945. [h/t <a
-href="https://www.degruyter.com/document/doi/10.1515/9780271079462-008/html">Richard
-E. Spear</a>]</p>
-<p> </p>
-<p><strong>Space weather.</strong> NOAA’s <a
-href="https://www.spaceweather.gov/">Space Weather Prediction Center</a>
-keeps tabs on a <a href="https://www.spaceweather.gov/phenomena">variety
-of phenomena</a>, such as <a
-href="https://www.spaceweather.gov/phenomena/coronal-mass-ejections">coronal
-mass ejections</a>, <a
-href="https://www.spaceweather.gov/phenomena/geomagnetic-storms">geomagnetic
-storms</a>, and <a
-href="https://www.spaceweather.gov/phenomena/solar-flares-radio-blackouts">solar
-flares</a>. The agency’s <a
-href="https://www.spaceweather.gov/products-and-data">reports and
-datasets</a> include <a
-href="https://www.spaceweather.gov/products/3-day-forecast">three-day
-forecasts</a>, <a
-href="https://www.spaceweather.gov/products/predicted-sunspot-number-and-radio-flux">sunspot
-predictions</a>, <a
-href="https://www.spaceweather.gov/products/real-time-solar-wind">solar
-wind observations</a>, and <a
-href="https://www.spaceweather.gov/content/data-access">more</a>. The
-agency also provides <a
-href="https://www.spaceweather.gov/dashboards">dashboards for several
-audiences</a>, such as the <a
-href="https://www.spaceweather.gov/communities/aviation-community-dashboard">aviation
-community</a>, <a
-href="https://www.spaceweather.gov/communities/emergency-management">emergency
-management</a>, and “<a
-href="https://www.spaceweather.gov/communities/space-weather-enthusiasts-dashboard">space
-weather enthusiasts</a>.” [h/t <a
-href="https://news.ycombinator.com/item?id=32707051">oblib</a>]</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send auroral feedback to
-jsvine@gmail.com, or just reply to this email. Looking for past
-datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and to browse past editions.</em></p>
-<p> </p>
-<hr />
-<p> </p>
-<ul>
-<li><strong>Correction, 2022.09.14</strong>: In the art-sales item
-above, the emailed edition referred to “eight European countries,”
-incorrectly implying that Scandinavia is a country.</li>
-</ul>
-]]></content>
-    <link href="http://www.data-is-plural.com/archive/2022-09-14-edition" rel="alternate"/>
-    <summary>An official Congress API, voter ID laws, local internet speeds, the Getty Provenance Index, and space weather.</summary>
-    <published>2022-09-14T08:00:00-04:00</published>
   </entry>
 </feed>
