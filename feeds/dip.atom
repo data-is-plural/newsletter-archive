@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.data-is-plural.com</id>
   <title>Data Is Plural</title>
-  <updated>2022-11-23T08:00:00-05:00</updated>
+  <updated>2022-11-30T08:00:00-05:00</updated>
   <author>
     <name>Jeremy Singer-Vine</name>
     <email>jsvine@gmail.com</email>
@@ -10,6 +10,126 @@
   <link href="https://www.data-is-plural.com" rel="alternate"/>
   <generator>https://github.com/data-is-plural/newsletter-archive</generator>
   <subtitle>A weekly newsletter of useful/curious datasets.</subtitle>
+  <entry>
+    <id>dip-2022-11-30</id>
+    <title>Data Is Plural — 2022.11.30 edition</title>
+    <updated>2022-11-30T08:00:00-05:00</updated>
+    <content type="CDATA"><![CDATA[<p><em>Pills, per-pupil spending, travelers’ coronavirus variants,
+Indonesia earthquake intensities, and more roadkill.</em></p>
+<p> </p>
+<p><em>📣 <strong>Ad:</strong> Help Sarah find the family holiday
+tapestry before her father notices it’s missing! Sharpen your
+SQL/Python/<a href="https://visidata.org">VisiData</a> skills with <a
+href="https://hanukkah.bluebird.sh">Hanukkah of Data</a>, a series of 8
+free data puzzles to be released starting on December 18th. <a
+href="https://hanukkah.bluebird.sh/register">Register now</a> to be
+notified when puzzles become available!</em></p>
+<p> </p>
+<p><strong>Pills.</strong> From its launch in 2009 until its <a
+href="https://web.archive.org/web/20201021105954/https://www.nlm.nih.gov/pubs/techbull/ja20/ja20_pillbox_discontinue.html">retirement
+last year</a>, the National Library of Medicine’s <a
+href="https://web.archive.org/web/20201021105954/https://pillbox.nlm.nih.gov/index.html">Pillbox
+project</a> collected and created 8,600+ photographs of medical pills.
+The images, which are still <a
+href="https://www.nlm.nih.gov/databases/download/pill_image.html">available
+to download</a>, are <a
+href="https://datadiscovery.nlm.nih.gov/Drugs-and-Chemicals/Pillbox-retired-January-28-2021-/crzr-uvwg">accompanied
+by a dataset</a> that provides information on 83,000+ pills’ shape,
+size, color, markings, dosage, and other characteristics derived from
+drug labels. <strong>Related</strong>: The library’s <a
+href="https://dailymed.nlm.nih.gov/dailymed/">DailyMed service</a>
+provides frequently-updated <a
+href="https://dailymed.nlm.nih.gov/dailymed/spl-resources.cfm">images
+and data from 140,000+ labels</a> submitted to the FDA for <a
+href="https://dailymed.nlm.nih.gov/dailymed/about-dailymed.cfm">drugs
+and other regulated products</a>. <strong>As seen in</strong>: <a
+href="https://mastodon.social/@jonkeegan">Jon Keegan</a>’s <a
+href="https://www.beautifulpublicdata.com/the-pillbox-database/">Pillbox
+overview</a> in <a href="https://www.beautifulpublicdata.com/">Beautiful
+Public Data</a>. [h/t <a
+href="https://buttondown.email/puntofisso/archive/492-quantum-of-sollazzo/">Giuseppe
+Sollazzo</a>]</p>
+<p> </p>
+<p><strong>Per-pupil spending.</strong> The <a
+href="https://edunomicslab.org/nerds/">National Education Resource
+Database on Schools</a> (“<em>NERD$</em>”) describes itself as the
+“first-ever national dataset of public K-12 spending by school.” Its
+researchers, based at Georgetown University, aggregate and standardize
+the <a
+href="https://edunomicslab.org/2018/03/28/interstate-financial-reporting/">expenditure
+disclosures</a> that the <a href="https://www.ed.gov/ESSA/">Every
+Student Succeeds Act</a> requires states to publish. You can explore and
+download the data they’ve processed for fiscal year 2019, including
+spending totals, enrollment counts, and normalized figures that
+facilitate cross-state comparisons. For 2020–22, you can access “the raw
+files we obtain from states while our team conducts validation checks
+and norms the data.” <strong>As seen in</strong>: “<a
+href="https://usafacts.org/articles/how-much-money-do-states-spend-on-education/">How
+much money do states spend on education?</a>” (USAFacts). [h/t <a
+href="https://twitter.com/DataDHP/status/1564333211261476864">Douglas
+Hummel-Price</a>]</p>
+<p> </p>
+<p><strong>Travelers’ coronavirus variants.</strong> In the past year,
+the CDC’s <a
+href="https://wwwnc.cdc.gov/travel/page/travel-genomic-surveillance">Traveler-Based
+Genomic Surveillance program</a> has collected 60,000+ voluntary nasal
+swabs from people disembarking international flights at four major US
+airports. The agency uses the samples as an “early warning system” to
+detect emerging SARS-CoV-2 variants and <a
+href="https://covid.cdc.gov/covid-data-tracker/#traveler-genomic-surveillance">publishes
+weekly metrics</a> that include participation counts, positivity rates
+(per pooled sample), and variant distributions. <strong>Read
+more</strong>: <a
+href="https://coviddatadispatch.com/2022/11/06/how-testing-international-travelers-helps-the-cdc-keep-tabs-on-new-variants/">An
+interview with two private-industry experts working on the program</a>,
+by the <a href="https://coviddatadispatch.com/">COVID-19 Data
+Dispatch</a>’s <a href="https://betsyladyzhets.com/">Betsy
+Ladyzhets</a>.</p>
+<p> </p>
+<p><strong>Indonesia earthquake intensities.</strong> <a
+href="https://github.com/7point1/GempaNusantara">Gempa Nusantara</a>, a
+database compiled by <a href="https://doi.org/10.1785/0120220047">Martin
+et al.</a>, uses historical documents to catalog 7,300+ “macroseismic
+effects” of 1,200 earthquakes near Indonesia during four-century span,
+from 1546 to 1950. It provides summaries of the local reports and
+categorizes the effects according to the <a
+href="https://www.gfz-potsdam.de/en/section/seismic-hazard-and-risk-dynamics/data-products-services/ems-98-european-macroseismic-scale/">European
+Macroseismic Scale</a>, which focuses on the intensity of ground-shaking
+and <a
+href="https://en.wikipedia.org/wiki/European_macroseismic_scale">potential
+impacts on buildings and terrain</a>.</p>
+<p> </p>
+<p><strong>More roadkill.</strong> <a
+href="https://www.nature.com/articles/s41597-022-01599-6">Florian Heigl
+et al.</a> have compiled a <a
+href="https://www.gbif.org/dataset/d0d5ef85-71b2-4da6-b6f6-c1c3d60987d3">pair</a>
+of <a href="https://zenodo.org/record/5878813">datasets</a> containing
+15,000+ reports of vertebrate roadkill from 2014 to 2020, submitted by
+900+ people <a href="https://roadkill.at/en">through a phone app</a>.
+The datasets differ in identification confidence, but both provide
+locations, dates, and taxonomic classifications. Although the records
+span 40+ countries, the majority come from Austria, where the project is
+<a href="https://roadkill.at/en/about/faqsen">now focused</a>.
+<strong>Previously</strong>: <a
+href="https://datadryad.org/stash/dataset/doi:10.5061/dryad.xwdbrv1cp">Andean
+roadkill</a> (<a
+href="https://www.data-is-plural.com/archive/2021-07-07-edition/">DIP
+2021.07.07</a>).</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send flattened feedback
+to jsvine@gmail.com, or just reply to this email. ★ Looking for past
+datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. ★ Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions. ★ <a
+href="https://docs.google.com/document/d/e/2PACX-1vSP5xYrhqEvoGTi2aFzrsYQXadG8Gv0Y6YGWjib1e4qcXG45Sq5TSvngvh342DdcAEyEDIVd5V3RYcc/pub">Learn
+how to place an ad in Data Is Plural</a>.</em></p>
+]]></content>
+    <link href="http://www.data-is-plural.com/archive/2022-11-30-edition" rel="alternate"/>
+    <summary>Pills, per-pupil spending, travelers’ coronavirus variants, Indonesia earthquake intensities, and more roadkill.</summary>
+    <published>2022-11-30T08:00:00-05:00</published>
+  </entry>
   <entry>
     <id>dip-2022-11-23</id>
     <title>Data Is Plural — 2022.11.23 edition</title>
@@ -1058,114 +1178,5 @@ subscribe and to browse past editions.</em></p>
     <link href="http://www.data-is-plural.com/archive/2022-09-28-edition" rel="alternate"/>
     <summary>FDA inspections, academic citations, Old and New Testament locations, university endowments, and tech products promoted.</summary>
     <published>2022-09-28T08:00:00-04:00</published>
-  </entry>
-  <entry>
-    <id>dip-2022-09-21</id>
-    <title>Data Is Plural — 2022.09.21 edition</title>
-    <updated>2022-09-21T08:00:00-04:00</updated>
-    <content type="CDATA"><![CDATA[<p><em>Labor turnover, biodiversity trends, probabilistic predictions,
-working artists, and Atari emails.</em></p>
-<p> </p>
-<p><strong>Labor turnover.</strong> The US Bureau of Labor Statistics’
-monthly <a href="https://www.bls.gov/jlt/">Job Openings and Labor
-Turnover Survey</a> estimates the number of jobs that people quit, how
-many people were fired or laid off, the number of new hires, and the
-current number of open positions. Those estimates, based on data <a
-href="https://www.bls.gov/opub/hom/jlt/data.htm">gathered from a sample
-of businesses across the country</a>, are available to <a
-href="https://www.bls.gov/jlt/data.htm">download and query</a> by state,
-industry, and business size. They <a
-href="https://www.bls.gov/jlt/jltdef.htm">include most types of
-workers</a>, regardless of whether they’re full-time or part-time,
-permanent or seasonal, salaried or hourly.</p>
-<p> </p>
-<p><strong>Biodiversity trends.</strong> <a
-href="https://onlinelibrary.wiley.com/doi/10.1111/geb.12729">Maria
-Dornelas et al.</a>’s <a
-href="https://biotime.st-andrews.ac.uk/">BioTIME</a> project has
-collected and standardized data from hundreds of studies examining
-ecological communities over time. You can <a
-href="https://biotime.st-andrews.ac.uk/download.php">browse and search
-the studies</a> by year, taxa, species, and biome. You can also <a
-href="https://biotime.st-andrews.ac.uk/downloadFull.php">download the
-full dataset</a>, which provides information about each study (biome,
-start/end years, number of species tallied, and much more) and each
-sample collected (date, location, species, abundance, and biomass).
-<strong>As seen in</strong>: “<a
-href="https://osf.io/preprints/socarxiv/qy76a/">Economic Production and
-Biodiversity in the United States</a>,” by Yuanning Liang et al.</p>
-<p> </p>
-<p><strong>Probabilistic predictions.</strong> <a
-href="https://www.metaculus.com/about/">Metaculus</a> is a forecasting
-platform whose community has registered <a
-href="https://twitter.com/fianxu/status/1569537658103431168">more than 1
-million predictions</a> on questions such as “<a
-href="https://www.metaculus.com/questions/10004/german-nuclear-power/">Will
-a major nuclear power plant in Germany be operational on June 1,
-2023?</a>” The <a href="https://www.metaculus.com/api2/">website’s
-API</a> provides data on <a
-href="https://www.metaculus.com/questions/">questions posed</a>, <a
-href="https://www.metaculus.com/rankings/">user rankings</a>, and other
-aspects of the platform. For each question, you can see its phrasing,
-date posed, creator, prediction type, the distribution of predictions,
-and more. <strong>Related</strong>: <a
-href="https://zoltardata.com/">Zoltar</a>, a forecast archive assembled
-by <a href="https://www.nature.com/articles/s41597-021-00839-5">Nicholas
-G. Reich et al</a>. <strong>Previously</strong>: <a
-href="https://projects.fivethirtyeight.com/checking-our-work/">FiveThirtyEight’s
-assessment of its own predictions</a> (<a
-href="https://www.data-is-plural.com/archive/2019-04-10-edition/">DIP
-2019.04.10</a>).</p>
-<p> </p>
-<p><strong>Working artists.</strong> The <a
-href="https://www.arts.gov/about">National Endowment for the Arts</a>
-regularly produces <a
-href="https://www.arts.gov/impact/research/arts-data-profile-series">statistical
-profiles of the arts in the United States</a>. The latest, “<a
-href="https://www.arts.gov/impact/research/arts-data-profile-series/adp-31">Artists
-in the Workforce: National and State Estimates for 2015-2019</a>,” is
-tabulated from the Census Bureau’s American Community Survey. It <a
-href="https://www.arts.gov/impact/research/arts-data-profile-series/adp-31/data-tables">provides</a>
-employment and earning estimates by artistic occupation and demographic.
-Additional tabulations, including for the country’s 25 largest metro
-areas, are <a
-href="https://www.icpsr.umich.edu/web/NADAC/studies/38389/summary">available</a>
-through the <a
-href="https://www.icpsr.umich.edu/web/pages/NADAC/index.html">National
-Archive of Data on Arts and Culture</a>. [h/t <a
-href="https://www.infodocket.com/2022/08/31/new-data-alert-labor-force-estimates-for-artist-occupations/">Gary
-Price</a>]</p>
-<p> </p>
-<p><strong>Atari emails.</strong> A couple of decades ago, <a
-href="https://www.jmargolin.com/">Jed Margolin</a> posted a <a
-href="https://www.jmargolin.com/vmail/vmail.htm">cache of electronic
-mail messages</a> from his time as a video game hardware engineer at
-Atari (and Atari Games, a successor company). In 2017, with Margolin’s
-permission, <a href="https://twitter.com/voberoi">Vikram Oberoi</a>
-scraped the 4,000+ emails and built <a
-href="https://atariemailarchive.org/">atariemailarchive.org</a>, which
-groups the messages into <a
-href="https://atariemailarchive.org/all-threads">threads</a>, <a
-href="https://atariemailarchive.org/categories">categories</a>, and a <a
-href="https://atariemailarchive.org/top-threads">list of favorites</a>.
-The project also includes a <a
-href="https://github.com/voberoi/atariemailarchive-data">database
-file</a> containing each message’s sender, recipients, timestamp,
-subject, body, and Oberoi’s thread grouping. <strong>Related</strong>:
-“<a
-href="https://vikramoberoi.com/how-i-made-atariemailarchive-org/">How I
-made atariemailarchive.org</a>.”</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send coin-operated
-feedback to jsvine@gmail.com, or just reply to this email. Looking for
-past datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and to browse past editions.</em></p>
-]]></content>
-    <link href="http://www.data-is-plural.com/archive/2022-09-21-edition" rel="alternate"/>
-    <summary>Labor turnover, biodiversity trends, probabilistic predictions, working artists, and Atari emails.</summary>
-    <published>2022-09-21T08:00:00-04:00</published>
   </entry>
 </feed>
