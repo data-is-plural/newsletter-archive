@@ -88,11 +88,11 @@ Ladyzhets</a>.</p>
 <p> </p>
 <p><strong>Indonesia earthquake intensities.</strong> <a
 href="https://github.com/7point1/GempaNusantara">Gempa Nusantara</a>, a
-database compiled by <a href="https://doi.org/10.1785/0120220047">Martin
-et al.</a>, uses historical documents to catalog 7,300+ “macroseismic
-effects” of 1,200 earthquakes near Indonesia during a four-century span,
-from 1546 to 1950. It provides summaries of the local reports and
-categorizes the effects according to the <a
+database compiled by <a href="https://doi.org/10.1785/0120220047">Stacey
+S. Martin et al.</a>, uses historical documents to catalog 7,300+
+“macroseismic effects” of 1,200 earthquakes near Indonesia during a
+four-century span, from 1546 to 1950. It provides summaries of the local
+reports and categorizes the effects according to the <a
 href="https://www.gfz-potsdam.de/en/section/seismic-hazard-and-risk-dynamics/data-products-services/ems-98-european-macroseismic-scale/">European
 Macroseismic Scale</a>, which focuses on the intensity of ground-shaking
 and <a
