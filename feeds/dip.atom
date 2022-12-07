@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.data-is-plural.com</id>
   <title>Data Is Plural</title>
-  <updated>2022-11-30T08:00:00-05:00</updated>
+  <updated>2022-12-07T08:00:00-05:00</updated>
   <author>
     <name>Jeremy Singer-Vine</name>
     <email>jsvine@gmail.com</email>
@@ -10,6 +10,116 @@
   <link href="https://www.data-is-plural.com" rel="alternate"/>
   <generator>https://github.com/data-is-plural/newsletter-archive</generator>
   <subtitle>A weekly newsletter of useful/curious datasets.</subtitle>
+  <entry>
+    <id>dip-2022-12-07</id>
+    <title>Data Is Plural — 2022.12.07 edition</title>
+    <updated>2022-12-07T08:00:00-05:00</updated>
+    <content type="CDATA"><![CDATA[<p><em>Work stoppages, avian flu detections, social media suppression,
+literature prizewinners, and video games.</em></p>
+<p> </p>
+<p><em>📣 <strong>Ad:</strong> Tired: Data in the Silicon Valley
+for-profit bubble. Wired: Data for social impact, helping tackle tough
+problems like climate, income inequality, and racial justice. <a
+href="https://data.org/subscribe-to-our-mailing-list/opportunities/?utm_source=newsletter&amp;utm_medium=email&amp;utm_campaign=data_is_plural">Start
+at data.org</a>.</em></p>
+<p> </p>
+<p><strong>Work stoppages.</strong> The US Bureau of Labor Statistics’
+<a href="https://www.bls.gov/wsp/home.htm">Work Stoppages</a> program <a
+href="https://www.bls.gov/opub/hom/wsp/data.htm">collects</a> and
+publishes data on “major work stoppages involving 1,000 or more workers
+lasting one full shift or longer.” The program’s <a
+href="https://www.bls.gov/web/wkstp/monthly-listing.htm">main
+dataset</a> lists each <a
+href="https://www.bls.gov/opub/hom/wsp/concepts.htm">major strike or
+lockout</a> since 1993, the organizations involved, employer industry
+and ownership type, start and end dates, number of workers
+participating, and total worker-days idle. Its <a
+href="https://www.bls.gov/web/wkstp/annual-listing.htm">annual
+dataset</a> counts the number of major stoppages, workers involved, and
+worker-days idle for each year since 1947. <strong>Related</strong>: The
+Federal Mediation and Conciliation Service <a
+href="https://web.archive.org/web/20210105232710/https://www.fmcs.gov/resources/documents-and-data/#tab-490260b30b23e527b80">used
+to publish data</a> on all stoppages that its mediators entered into its
+case system (regardless of number of workers involved), but stopped
+doing so in late 2020. <a href="https://mastodon.social/@fgregg">Forest
+Gregg</a> has <a
+href="https://github.com/labordata/fmcs-work-stoppage">rescued and
+standardized the archived records</a>. [h/t <a
+href="https://read.chartr.co/newsletters/2022/11/25/plowing-on">Chartr</a>]</p>
+<p> </p>
+<p><strong>Avian flu detections.</strong> The USDA’s Animal and Plant
+Health Inspection Service has been tracking <a
+href="https://www.aphis.usda.gov/aphis/ourfocus/animalhealth/animal-disease-information/avian/avian-influenza/2022-hpai">local
+cases of avian influenza detected</a> this year <a
+href="https://www.aphis.usda.gov/aphis/ourfocus/animalhealth/animal-disease-information/avian/avian-influenza/hpai-2022/2022-hpai-commercial-backyard-flocks">in
+commercial and backyard flocks</a>, as well as <a
+href="https://www.aphis.usda.gov/aphis/ourfocus/animalhealth/animal-disease-information/avian/avian-influenza/hpai-2022/2022-hpai-wild-birds">in
+wild birds</a> and <a
+href="https://www.aphis.usda.gov/aphis/ourfocus/animalhealth/animal-disease-information/avian/avian-influenza/hpai-2022/2022-hpai-mammals">in
+mammals</a>. For each infected flock, the agency’s public data indicate
+the flock’s state, county, producer type, number of birds affected, and
+confirmation date. The mammal and wild bird data indicate the state,
+county, date detected, flu strain, and species. <strong>Read
+more</strong>: “<a
+href="https://www.smithsonianmag.com/smart-news/more-than-52-million-birds-dead-because-of-avian-flu-in-us-180981215/">More
+Than 52 Million Birds in the U.S. Are Dead Because of Avian Flu</a>”
+(Smithsonian Magazine). [h/t <a
+href="https://www.linkedin.com/in/ed-vine-a480347">Ed Vine</a>]</p>
+<p> </p>
+<p><strong>Social media suppression.</strong> Researchers at <a
+href="https://surfshark.com/about-us">Surfshark</a> have been monitoring
+<a
+href="https://surfshark.com/research/internet-censorship/social-media">government-imposed
+social media shutdowns and restrictions</a>, drawing on reports from <a
+href="https://netblocks.org/">NetBlocks</a>, <a
+href="https://www.accessnow.org/">AccessNow</a> (<a
+href="https://www.data-is-plural.com/archive/2021-11-03-edition/">DIP
+2021.11.03</a>), news publications, and other sources. The <a
+href="https://docs.google.com/spreadsheets/d/122netE-cbusPi00GzXqfSvKPjFDxW_9LKeVfPqWyv04/edit#gid=1765756421">project’s
+spreadsheet</a> highlights each case from 2015 to the present; it lists
+the country, start/end date, particular services affected (Facebook,
+Twitter, YouTube, etc.), and observed connections to political events
+(e.g., elections, protests, other turmoil). [h/t <a
+href="https://www.linkedin.com/in/agnesab/">Agneska Sablovskaja</a>]</p>
+<p> </p>
+<p><strong>Literature prizewinners.</strong> <a
+href="https://www.publicbooks.org/who-gets-to-be-a-writer/">Claire
+Grossman et al.</a> have compiled a <a
+href="https://view.data.post45.org/mlpwinners">dataset</a> of “the
+winners and judges of prizes for prose, poetry, or unspecified genre
+between 1918 and 2020 with a purse of $10,000 and over.” The 7,100+
+entries, shared through the <a href="https://data.post45.org/">Post45
+Data Collective</a>, relate to 50 awards and fellowships, plus the
+Library of Congress’s poet laureateship. Each entry indicates the prize
+name, institution, type, genre, year, and dollar amount, plus the
+winner/judge name, gender, and educational affiliations. [h/t <a
+href="https://twitter.com/mellymeldubs/status/1599793416019513344">Melanie
+Walsh</a>]</p>
+<p> </p>
+<p><strong>Video games.</strong> Developer <a
+href="https://github.com/leinstay">Vladimir Belyaev</a> has constructed
+a <a href="https://github.com/leinstay/steamdb">dataset</a> representing
+“all games available” on <a
+href="https://store.steampowered.com/">Steam</a>, the massively popular
+<a href="https://en.wikipedia.org/wiki/Steam_(service)">video game
+platform and store</a>. It indicates each game’s name, price, developer,
+languages, genre categories, ratings from third-party websites, and
+more. [h/t <a href="https://www.saul.pw/">Saul Pwanson</a>]</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send streaming feedback
+to jsvine@gmail.com, or just reply to this email. ★ Looking for past
+datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. ★ Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions. ★ <a
+href="https://docs.google.com/document/d/e/2PACX-1vSP5xYrhqEvoGTi2aFzrsYQXadG8Gv0Y6YGWjib1e4qcXG45Sq5TSvngvh342DdcAEyEDIVd5V3RYcc/pub">Place
+an ad in Data Is Plural</a>.</em></p>
+]]></content>
+    <link href="http://www.data-is-plural.com/archive/2022-12-07-edition" rel="alternate"/>
+    <summary>Work stoppages, avian flu detections, social media suppression, literature prizewinners, and video games.</summary>
+    <published>2022-12-07T08:00:00-05:00</published>
+  </entry>
   <entry>
     <id>dip-2022-11-30</id>
     <title>Data Is Plural — 2022.11.30 edition</title>
@@ -1053,130 +1163,5 @@ subscribe and to browse past editions.</em></p>
     <link href="http://www.data-is-plural.com/archive/2022-10-05-edition" rel="alternate"/>
     <summary>Grid emissions, chain and indie restaurants, wildfire smoke pollution, federal audits, and a decade of tasks.</summary>
     <published>2022-10-05T08:00:00-04:00</published>
-  </entry>
-  <entry>
-    <id>dip-2022-09-28</id>
-    <title>Data Is Plural — 2022.09.28 edition</title>
-    <updated>2022-09-28T08:00:00-04:00</updated>
-    <content type="CDATA"><![CDATA[<p><em>FDA inspections, academic citations, Old and New Testament
-locations, university endowments, and tech products promoted.</em></p>
-<p> </p>
-<p><em>👋 On Monday I launched the <a
-href="https://www.data-liberation-project.org/">Data Liberation
-Project</a>, a new initiative to identify, obtain, reformat, clean,
-document, publish, and disseminate government datasets of public
-interest. I invite you to <a
-href="https://www.data-liberation-project.org/about">read more about
-it</a>, <a href="https://www.data-liberation-project.org/requests">see
-the first batch of FOIA requests</a>, and <a
-href="https://www.data-liberation-project.org/newsletter">sign up for
-the project’s newsletter</a>. Questions and feedback very much
-welcome!</em></p>
-<p> </p>
-<p><strong>FDA inspections.</strong> The US Food and Drug
-Administration’s <a
-href="https://datadashboard.fda.gov/ora/cd/inspections.htm">inspections
-dashboard</a> lists 264,000+ assessments of facilities (primarily those
-manufacturing food, drugs, and other FDA-regulated products) and
-227,000+ problems the inspectors found. The fields include the facility
-owner, location, product type, inspection completion date, and outcomes.
-The records, which go back to fiscal year 2009, can be bulk-downloaded
-from the dashboard and queried via <a
-href="https://datadashboard.fda.gov/ora/api/index.htm">an API</a>. They
-come with certain caveats; they exclude, for instance, “inspections
-waiting for a final enforcement action” and those conducted by state
-(rather than federal) inspectors. <strong>Related</strong>: <a
-href="https://datadashboard.fda.gov/ora/cd/index.htm">More
-compliance-related data dashboards from the FDA</a>.</p>
-<p> </p>
-<p><strong>Academic citations.</strong> Since 2017, the <a
-href="https://i4oc.org/">Initiative for Open Citations</a> has <a
-href="https://www.nature.com/articles/nature.2017.21800">urged academic
-publishers</a> to share their papers’ reference lists as open data. Last
-month, the group <a
-href="https://twitter.com/i4oc_org/status/1560274192620085251">announced</a>
-it had <a href="https://www.nature.com/articles/d41586-022-02926-y">hit
-a major milestone</a>: Of the 61 million papers that have references and
-are indexed by <a
-href="https://en.wikipedia.org/wiki/Digital_object_identifier">DOI</a>-registrar
-<a href="https://www.crossref.org/">Crossref</a>, “100% [...] have made
-their citations openly available.” You can access the data through <a
-href="https://www.crossref.org/documentation/retrieve-metadata/rest-api/">Crossref’s
-API</a> and in bulk through <a
-href="https://opencitations.net/">OpenCitations</a>. <strong>Read
-more</strong>: “<a
-href="https://www.nature.com/articles/d41586-022-02915-1">Citation data
-are now open, but that’s far from enough</a>” (Nature).
-<strong>Previously</strong>: <a
-href="https://medium.com/freely-sharing-the-sum-of-all-knowledge/what-are-the-ten-most-cited-sources-on-wikipedia-lets-ask-the-data-34071478785a">Wikipedia
-citations</a> (<a
-href="https://www.data-is-plural.com/archive/2018-05-23-edition/">DIP
-2018.05.23</a>), <a
-href="https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3000385">biomedical
-citations</a> (<a
-href="https://www.data-is-plural.com/archive/2019-10-23-edition/">DIP
-2019.10.23</a>), and <a
-href="https://case.law/download/citation_graph/">legal citations</a> (<a
-href="https://www.data-is-plural.com/archive/2020-07-15-edition/">DIP
-2020.07.15</a>). [h/t <a
-href="https://mailchi.mp/f1a7e5522f4b/dscn-251-academic-inequality-in-3-parts-inequality-on-the-planet-humans-vs-the-rest">Data
-Science Community Newsletter</a>]</p>
-<p> </p>
-<p><strong>Old and New Testament locations.</strong> <a
-href="https://www.openbible.info/">OpenBible.info</a>’s <a
-href="https://www.openbible.info/geo/">Bible Geocoding</a> project “(1)
-comprehensively identifies the possible modern locations of every place
-mentioned in the Bible as precisely as possible, (2) expresses a
-data-backed confidence level in each identification, and (3) links to
-open data to fit into a broader data ecosystem.” You can browse by book,
-chapter, and location, as well as <a
-href="https://github.com/openbibleinfo/Bible-Geocoding-Data">download
-the full dataset</a>. <strong>Read more</strong>: <a
-href="https://www.openbible.info/blog/2021/11/rethinking-the-bible-atlas/">The
-project’s author explains the backstory and methodology</a>. [h/t <a
-href="https://twitter.com/Arithmomaniac">Avi Levin</a>]</p>
-<p> </p>
-<p><strong>University endowments.</strong> Earlier this month, the <a
-href="https://www.nacubo.org/About/Who-We-Are">National Association of
-College and University Business Officers</a> released the <a
-href="https://www.nacubo.org/Research/2021/NACUBO-TIAA-Study-of-Endowments">latest</a>
-of its <a
-href="https://www.nacubo.org/Research/2021/Public-NTSE-Tables">annual
-studies of college and university endowments in the US and Canada</a>.
-For 700+ institutions, the study’s public tables indicate their total
-enrollment, endowment market value, previous year’s value, and more. A
-<a
-href="https://www.nacubo.org/research/2021/historic%20endowment%20study%20data">page
-of historical datasets</a> includes a spreadsheet listing many
-endowments’ sizes going back to the mid-1970s. [h/t <a
-href="https://app.openaxis.com/visualizations/3698">Factle</a>]</p>
-<p> </p>
-<p><strong>Tech products promoted.</strong> For “<a
-href="https://components.one/posts/gamer-and-nihilist-product-hunt">The
-Gamer and the Nihilist</a>,” an essay in <a
-href="https://components.one/">Components</a>, <a
-href="https://twitter.com/asthompson">Andrew Thompson</a> and
-collaborators created a <a
-href="https://components.one/datasets/product-hunt-products">dataset of
-76,000+ tech products</a> on <a
-href="https://www.producthunt.com/about">Product Hunt</a>, a popular
-social network for launching and promoting such things. The dataset
-includes the name, description, launch date, upvote count, and other
-details for every product from 2014 to 2021 in the platform’s <a
-href="https://www.sitemaps.org/index.html">sitemap</a>. (“Based on
-experience, not every product that appears on Product Hunt seems to
-appear on the sitemap,” the authors caution.)</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send launch-day feedback
-to jsvine@gmail.com, or just reply to this email. Looking for past
-datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and to browse past editions.</em></p>
-]]></content>
-    <link href="http://www.data-is-plural.com/archive/2022-09-28-edition" rel="alternate"/>
-    <summary>FDA inspections, academic citations, Old and New Testament locations, university endowments, and tech products promoted.</summary>
-    <published>2022-09-28T08:00:00-04:00</published>
   </entry>
 </feed>
