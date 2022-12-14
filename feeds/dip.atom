@@ -73,8 +73,8 @@ href="https://www.sefaria.org/texts">include</a> the Torah itself, plus
 rabbinic scholarship, legal works, prayer books, historical
 dictionaries, and more. In all, the project <a
 href="https://www.sefaria.org/metrics">contains</a> more than 300
-million words and has generated generated 3 million intertextual links
-between them. The initiative provides its data via <a
+million words and has generated 3 million intertextual links between
+them. The initiative provides its data via <a
 href="https://github.com/Sefaria/Sefaria-Project/wiki/API-Documentation">an
 API</a> and <a href="https://github.com/Sefaria/Sefaria-Export">bulk
 download</a>, and its code is <a
