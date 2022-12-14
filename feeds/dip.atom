@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.data-is-plural.com</id>
   <title>Data Is Plural</title>
-  <updated>2022-12-07T08:00:00-05:00</updated>
+  <updated>2022-12-14T08:00:00-05:00</updated>
   <author>
     <name>Jeremy Singer-Vine</name>
     <email>jsvine@gmail.com</email>
@@ -10,6 +10,120 @@
   <link href="https://www.data-is-plural.com" rel="alternate"/>
   <generator>https://github.com/data-is-plural/newsletter-archive</generator>
   <subtitle>A weekly newsletter of useful/curious datasets.</subtitle>
+  <entry>
+    <id>dip-2022-12-14</id>
+    <title>Data Is Plural — 2022.12.14 edition</title>
+    <updated>2022-12-14T08:00:00-05:00</updated>
+    <content type="CDATA"><![CDATA[<p><em>Flu trends, university enrollments, Jewish texts, women’s college
+basketball rosters, and Mastodon membership.</em></p>
+<p> </p>
+<p><em>📣 <strong>Ad:</strong> <a
+href="https://www.datachat.ai/?utm_campaign=Data%20is%20Plural&amp;utm_source=email&amp;utm_medium=Data_is_Plural&amp;utm_content=Data_is_Plural">DataChat’s</a> analytics
+platform provides all the tools you need to explore your data, from
+charts to models, without having to program. Whether you work alone or
+with others, DataChat keeps everybody on the same page. Check out <a
+href="https://www.youtube.com/watch?v=26vcjAXTVSU">this video</a> to
+learn more. Then, <a
+href="https://apps.datachat.ai/web/register?utm_campaign=Data%20is%20Plural&amp;utm_source=email&amp;utm_medium=Data_is_Plural&amp;utm_content=Data_is_Plural">get
+started</a> for free.</em></p>
+<p> </p>
+<p><strong>Flu trends.</strong> The CDC’s Influenza Division
+collaborates with state and local health departments, hospitals,
+laboratories, and other partners to <a
+href="https://www.cdc.gov/flu/weekly/overview.htm">keep tabs on flu
+trends</a>. Its <a
+href="https://www.cdc.gov/flu/weekly/index.htm">Weekly U.S. Influenza
+Surveillance Report</a> tracks case counts, positivity rates, strain
+distribution, and other metrics that you can <a
+href="https://www.cdc.gov/flu/weekly/fluviewinteractive.htm">explore and
+download</a> through an <a
+href="https://gis.cdc.gov/grasp/fluview/fluportaldashboard.html">interactive
+dashboard</a>. The records go back to the 1997–98 flu season and are
+available at a national, regional, and state level. <strong>Read
+more</strong>: “<a
+href="https://www.vox.com/2022/12/6/23494948/flu-influenza-rsv-covid-vaccine-chart-tripledemic-tridemic">The
+US has never recorded this many positive flu tests in one week</a>”
+(Vox). [h/t <a
+href="https://www.qimacros.com/lean-six-sigma-blog/category/improvement-insights/">Jay
+Arthur</a>]</p>
+<p> </p>
+<p><strong>University enrollments.</strong> <a
+href="https://elizabethbuckner.com/">Elizabeth Buckner</a>’s <a
+href="https://ejournals.bc.edu/index.php/ihe/article/view/15729">Global
+Longitudinal University Enrollment Dataset</a> “compiles and estimates
+institution-level enrollment data on universities worldwide from 1950 to
+2020” at five-year intervals — 17,000+ institutions in all, across 180+
+countries. In addition to enrollment figures, the <a
+href="https://borealisdata.ca/dataset.xhtml?persistentId=doi:10.5683/SP3/P0D1KE&amp;version=1.0">dataset</a>
+“includes a number of other useful variables on institutional
+characteristics, merged from various sources, including sector (i.e.,
+public/private), founding year, and whether the institution is PhD
+granting or not.” It also forms the basis of an <a
+href="https://borealisdata.ca/dataset.xhtml?persistentId=doi:10.5683/SP3/AJGTC9">accompanying,
+country-level dataset</a>.</p>
+<p> </p>
+<p><strong>Jewish texts.</strong> <a
+href="https://www.sefaria.org/">Sefaria</a>, a <a
+href="https://www.sefaria.org/about">nonprofit co-founded a decade
+ago</a> by author <a href="https://joshuafoer.com/">Joshua Foer</a> and
+engineer <a href="https://brettlockspeiser.com/">Brett Lockspeiser</a>,
+is “assembling a free living library of Jewish texts and their
+interconnections, in Hebrew and in translation.” Those texts <a
+href="https://www.sefaria.org/texts">include</a> the Torah itself, plus
+rabbinic scholarship, legal works, prayer books, historical
+dictionaries, and more. In all, the project <a
+href="https://www.sefaria.org/metrics">contains</a> more than 300
+million words and has generated generated 3 million intertextual links
+between them. The initiative provides its data via <a
+href="https://github.com/Sefaria/Sefaria-Project/wiki/API-Documentation">an
+API</a> and <a href="https://github.com/Sefaria/Sefaria-Export">bulk
+download</a>, and its code is <a
+href="https://github.com/Sefaria/Sefaria-Project">open-source</a>.
+<strong>Read more</strong>: “<a
+href="https://www.washingtonpost.com/religion/2018/09/18/quest-put-talmud-online/">The
+quest to put the Talmud online</a>” (Washington Post, 2018). [h/t <a
+href="https://twitter.com/Arithmomaniac">Avi Levin</a>]</p>
+<p> </p>
+<p><strong>Women’s college basketball rosters.</strong> Students in <a
+href="https://merrill.umd.edu/directory/derek-willis">Derek Willis</a>’s
+“<a href="https://app.testudo.umd.edu/soc/202208/JOUR/JOUR479X">Sports
+Data Analysis &amp; Visualization</a>” course at the University of
+Maryland’s journalism school have <a
+href="https://twitter.com/derekwillis/status/1600946516272861185">assembled</a>
+data on <a
+href="https://github.com/Sports-Roster-Data/womens-college-basketball">13,000+
+players on women’s college basketball teams</a>, sourced from 900+
+rosters for the 2022–23 NCAA season. Their main dataset lists each
+player’s name, team, position, jersey number, height, year, hometown,
+high school, and more.</p>
+<p> </p>
+<p><strong>Mastodon membership.</strong> The <a
+href="https://github.com/TheKinrar/instances">open-source</a> website <a
+href="https://instances.social/">instances.social</a> tracks 16,000+
+servers running <a href="https://joinmastodon.org/">Mastodon</a>, the
+most prominent of the decentralized social networks seen as alternatives
+to Twitter. It collects each server’s domain, name, description, user
+count, status count, and more. Since late November, <a
+href="https://simonwillison.net/">Simon Willison</a> has been <a
+href="https://simonwillison.net/2022/Nov/20/tracking-mastodon/">creating
+a longitudinal record of the site’s directory</a> and <a
+href="https://observablehq.com/@simonw/mastodon-users-and-statuses-over-time">charting
+the overall trend</a>.</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send federated feedback
+to jsvine@gmail.com, or just reply to this email. ★ Looking for past
+datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. ★ Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions. ★ <a
+href="https://docs.google.com/document/d/e/2PACX-1vSP5xYrhqEvoGTi2aFzrsYQXadG8Gv0Y6YGWjib1e4qcXG45Sq5TSvngvh342DdcAEyEDIVd5V3RYcc/pub">Place
+an ad in Data Is Plural</a>.</em></p>
+]]></content>
+    <link href="http://www.data-is-plural.com/archive/2022-12-14-edition" rel="alternate"/>
+    <summary>Flu trends, university enrollments, Jewish texts, women’s college basketball rosters, and Mastodon membership.</summary>
+    <published>2022-12-14T08:00:00-05:00</published>
+  </entry>
   <entry>
     <id>dip-2022-12-07</id>
     <title>Data Is Plural — 2022.12.07 edition</title>
@@ -1044,124 +1158,5 @@ subscribe and to browse past editions.</em></p>
     <link href="http://www.data-is-plural.com/archive/2022-10-12-edition" rel="alternate"/>
     <summary>Work-related injury counts, US hydrography, rebel leaders, file formats, and wine economics.</summary>
     <published>2022-10-12T08:00:00-04:00</published>
-  </entry>
-  <entry>
-    <id>dip-2022-10-05</id>
-    <title>Data Is Plural — 2022.10.05 edition</title>
-    <updated>2022-10-05T08:00:00-04:00</updated>
-    <content type="CDATA"><![CDATA[<p><em>Grid emissions, chain and indie restaurants, wildfire smoke
-pollution, federal audits, and a decade of tasks.</em></p>
-<p> </p>
-<p><strong>Grid emissions.</strong> <a
-href="https://ember-climate.org/">Ember</a>, an “energy think tank that
-uses data-driven insights to shift the world from coal to clean
-electricity,” has <a
-href="https://twitter.com/nicolasfulghum/status/1572974235932364800">begun</a>
-compiling <a
-href="https://ember-climate.org/data-catalogue/yearly-electricity-data/">annual</a>
-and <a
-href="https://ember-climate.org/data-catalogue/monthly-electricity-data/">monthly</a>
-statistics on electricity demand, generation, and estimated greenhouse
-gas emissions by country, standardized from national and international
-sources. The annual estimates span two decades and 200+ countries and
-territories; the monthly dataset provides somewhat less coverage. Both
-can also be <a
-href="https://ember-climate.org/data/data-explorer/">explored
-online</a>. <strong>Related</strong>: <a
-href="https://singularity.energy/">Singularity</a>’s <a
-href="https://singularity.energy/open-grid-emissions">Open Grid
-Emissions</a> initiative <a
-href="https://medium.com/singularity-energy/validating-real-time-electricity-emissions-rates-with-an-hourly-historical-benchmark-a9990a2c9049">estimates</a>
-the hourly grid emissions of <a
-href="https://www.eia.gov/todayinenergy/detail.php?id=27152">balancing
-authorities</a> and power plants in the US, currently for 2019 and 2020.
-<strong>Previously</strong>: <a
-href="https://www.data-is-plural.com/collections/energy">Other
-energy-related datasets</a>. [h/t <a
-href="https://twitter.com/pquirion1/status/1572997074207006720">Philippe
-Quirion</a>]</p>
-<p> </p>
-<p><strong>Chain and indie restaurants.</strong> <a
-href="https://www.xiaofanliang.com/">Xiaofan Liang</a> and <a
-href="https://www.cc.gatech.edu/people/clio-andris">Clio Andris</a> of
-Georgia Tech’s <a
-href="https://friendlycities.gatech.edu/team/">Friendly Cities Lab</a>
-have published a <a
-href="https://friendlycities-gatech.github.io/chainness/">map</a> and <a
-href="https://github.com/friendlycities-gatech/chainness">dataset</a>
-examining the “chainness” of 700,000+ US restaurants. Starting with
-records provided by <a href="https://leadsdeposit.com/">a marketing-data
-company</a>, the researchers standardized the restaurants’ names,
-counted their frequencies, and classified them as chains (those with
-more than five outlets) or not. The dataset also lists each restaurant’s
-cuisine and location. <strong>As seen in</strong>: <a
-href="https://www.washingtonpost.com/business/2022/09/29/chain-restaurant-capitals/">Andrew
-Van Dam’s exploration of the data</a> for his new-ish Washington Post
-column, <a
-href="https://www.washingtonpost.com/business/2022/06/29/dept-of-data/">Department
-of Data</a>.</p>
-<p> </p>
-<p><strong>Wildfire smoke pollution.</strong> <a
-href="https://pubs.acs.org/doi/10.1021/acs.est.2c02934">Marissa L.
-Childs et al.</a> have developed a “machine learning model of daily
-wildfire-driven PM<sub>2.5</sub> concentrations using a combination of
-ground, satellite, and reanalysis data sources that are easy to update.”
-(PM<sub>2.5</sub> refers to <a
-href="https://www.epa.gov/pm-pollution/particulate-matter-pm-basics">particulate
-matter 2.5 micrometers in diameter or smaller</a>.) The researchers then
-used that model to generate <a
-href="https://github.com/echolab-stanford/daily-10km-smokePM">daily
-smoke PM<sub>2.5</sub> estimates</a> for each county, Census tract, and
-10-kilometer-grid tile in the contiguous US, for 2006–2020. <strong>Read
-more</strong>: <a
-href="https://www.nytimes.com/interactive/2022/09/22/climate/wildfire-smoke-pollution.html">Coverage
-and maps in the New York Times</a>. [h/t <a
-href="https://www.linkedin.com/in/georgelevines">George LeVines</a>]</p>
-<p> </p>
-<p><strong>Federal audits.</strong> Nonprofits, state/local governments,
-and other noncommercial entities expending $750,000+ of federal funds in
-a year are <a href="https://facweb.census.gov/Resources.aspx">required
-to undergo</a> a <a
-href="https://en.wikipedia.org/wiki/Single_Audit">standardized audit</a>
-of their financials and compliance. The US <a
-href="https://www.census.gov/programs-surveys/fac.html">Federal Audit
-Clearinghouse</a> maintains a public database of those audits; it offers
-<a href="https://facdissem.census.gov/PublicDataDownloads.aspx">bulk
-downloads</a> of the report data (about the auditee, auditor, findings,
-and more), as well a <a
-href="https://facdissem.census.gov/Main.aspx">tool to search and access
-individual reports</a>. [h/t <a
-href="https://biglocalnews.org/content/news/2022/09/28/introducing-audit-watch.html">Big
-Local News</a>]</p>
-<p> </p>
-<p><strong>A decade of tasks.</strong> Between April 2009 and February
-2019, software engineer <a href="https://twitter.com/reborg">Renzo
-Borgatti</a> set 17,000+ daily tasks for himself. He completed slightly
-less than half of them. He labeled them with tags such as “@meeting”,
-“@talk”, and “@clojure”. He estimated how many “<a
-href="https://en.wikipedia.org/wiki/Pomodoro_Technique">pomodoros</a>”
-each would take, and how many they really did. We know this because
-Borgatti allowed <a href="https://shape-of-code.com/">Derek M. Jones</a>
-to <a
-href="https://shape-of-code.com/2019/12/15/the-renzo-pomodoro-dataset/">publish</a>
-a <a
-href="https://github.com/Derek-Jones/renzo-pomodoro">partially-redacted
-dataset of his tracked tasks</a>. <strong>Previously</strong>: <a
-href="https://github.com/Derek-Jones/SiP_dataset">One software company’s
-task estimates</a> (<a
-href="https://www.data-is-plural.com/archive/2019-04-24-edition/">DIP
-2019.04.24</a>), also published by Jones.</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send todo lists and
-feedback to jsvine@gmail.com, or just reply to this email. Looking for
-past datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and to browse past editions.</em></p>
-]]></content>
-    <link href="http://www.data-is-plural.com/archive/2022-10-05-edition" rel="alternate"/>
-    <summary>Grid emissions, chain and indie restaurants, wildfire smoke pollution, federal audits, and a decade of tasks.</summary>
-    <published>2022-10-05T08:00:00-04:00</published>
   </entry>
 </feed>
