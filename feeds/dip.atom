@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.data-is-plural.com</id>
   <title>Data Is Plural</title>
-  <updated>2022-12-14T08:00:00-05:00</updated>
+  <updated>2022-12-21T08:00:00-05:00</updated>
   <author>
     <name>Jeremy Singer-Vine</name>
     <email>jsvine@gmail.com</email>
@@ -10,6 +10,142 @@
   <link href="https://www.data-is-plural.com" rel="alternate"/>
   <generator>https://github.com/data-is-plural/newsletter-archive</generator>
   <subtitle>A weekly newsletter of useful/curious datasets.</subtitle>
+  <entry>
+    <id>dip-2022-12-21</id>
+    <title>Data Is Plural — 2022.12.21 edition</title>
+    <updated>2022-12-21T08:00:00-05:00</updated>
+    <content type="CDATA"><![CDATA[<p><em>Inmate call costs, state-authorized sports betting, drone
+registrations, folklore motifs, and ski trails.</em></p>
+<p> </p>
+<p><em>📣 <strong>Ad:</strong> Data too big for Excel or Sheets?
+Gigasheet is the cloud big data analysis spreadsheet. Sort, filter, and
+pivot up to a billion rows. <a
+href="https://www.gigasheet.com/free/online-csv-viewer?utm_source=data-is-plural&amp;utm_medium=ad-email-list&amp;utm_campaign=SignUp&amp;utm_id=202212221-DIP&amp;utm_term=csv-viewer">View
+big CSVs</a>, <a
+href="https://www.gigasheet.com/post/convert-json-to-csv?utm_source=data-is-plural&amp;utm_medium=ad-email-list&amp;utm_campaign=SignUp&amp;utm_id=202212221-DIP&amp;utm_term=convert-json-to-csv">convert
+JSON to CSV</a>, or merge hundreds of files. Database power, cloud
+scale. <a
+href="https://app.gigasheet.com/sign-up?utm_source=data-is-plural&amp;utm_medium=ad-email-list&amp;utm_campaign=SignUp&amp;utm_id=202212221-DIP&amp;utm_term=sign-up">Sign
+up</a> for 10GB of storage, free!</em></p>
+<p> </p>
+<p><strong>Inmate call costs.</strong> In its latest “<a
+href="https://www.prisonpolicy.org/phones/state_of_phone_justice_2022.html">State
+of Phone Justice</a>” report, the <a
+href="https://www.prisonpolicy.org/">Prison Policy Initiative</a> has
+compiled <a
+href="https://www.prisonpolicy.org/phones/state_of_phone_justice_2022.html#appendices">data
+on the price of inmate phone calls</a> “for almost every jail and prison
+in the country.” <a
+href="https://www.prisonpolicy.org/phones/appendices2022_3.html">One
+table</a> lists each jail’s name, state, type, average daily population,
+telecom company, and the per-minute cost of in-state and out-of-state
+calls in 2021. As the <a
+href="https://www.prisonpolicy.org/phones/state_of_phone_justice_2022.html#methodology">report’s
+methodology</a> explains, those figures are based on <a
+href="https://www.fcc.gov/general/ics-data-collections">forms that
+telecom providers must submit</a> to the Federal Communications
+Commission, with “additional corrections and updates based on our
+research.” Additional tables examine <a
+href="https://www.prisonpolicy.org/phones/appendices2022_1.html">phone
+rates in state prisons over time</a> (supplemented by previous
+collection efforts), <a
+href="https://www.prisonpolicy.org/phones/appendices2022_5.html">state
+averages for local jails</a>, and more. [h/t <a
+href="https://www.prisonpolicy.org/staff.html#wessler">Mike
+Wessler</a>]</p>
+<p> </p>
+<p><strong>State-authorized sports betting.</strong> <a
+href="https://www.legalsportsreport.com/">Legal Sports Report</a>, a
+gambling industry publication, has been tracking the <a
+href="https://www.legalsportsreport.com/sports-betting/revenue/">amount
+of money legally wagered on sports in each US state</a>, the amount kept
+by sportsbooks, and how much the government collected in taxes or
+revenue-sharing. Monthly figures, drawn from linked official sources,
+are available as HTML tables for more than two dozen states. The site
+also <a
+href="https://www.legalsportsreport.com/sportsbetting-bill-tracker/">tracks
+state legislation on sports betting</a>. <strong>As seen in</strong>:
+“<a
+href="https://www.bloomberg.com/news/articles/2022-12-02/how-a-lobbying-frenzy-helped-sports-betting-apps-write-their-own-rules">How
+an Arizona Lobbying Frenzy Helped Sports App Bookies Write Their Own
+Rules</a>” (Bloomberg). [h/t <a
+href="https://blog.datawrapper.de/data-vis-dispatch-december-6-2022/">Veronika
+Halamková</a>]</p>
+<p> </p>
+<p><strong>Drone registrations.</strong> Through a FOIA request to the
+Federal Aviation Administration, <a
+href="https://palewi.re/who-is-ben-welsh/">Ben Welsh</a> has <a
+href="https://www.muckrock.com/foi/united-states-of-america-10/database-of-14-cfr-part-48-registered-drones-132943/">obtained
+data</a> on all “small unmanned aircraft” (popularly known as drones)
+actively <a
+href="https://www.faa.gov/uas/getting_started/register_drone">registered</a>
+with the agency through 2021 — nearly 900,000 registrations in all. The
+spreadsheets, provided separately for <a
+href="https://www.faa.gov/newsroom/small-unmanned-aircraft-systems-uas-regulations-part-107">commercial</a>
+and <a
+href="https://www.faa.gov/uas/recreational_flyers">recreational</a>
+registrations, list each drone’s type and model, <a
+href="https://www.faa.gov/uas/getting_started/remote_id/drone_pilots">Remote
+ID</a> capability, and registration date, plus the registrant’s city,
+state, and postcode. <strong>Related</strong>: Welsh, a journalist and
+<a
+href="https://www.reddit.com/r/drones/comments/xprv3n/comment/iq5ggqq/">newly-licensed</a>
+commercial drone pilot, has <a
+href="https://www.muckrock.com/foi/list/?user=7842&amp;sort=date_submitted&amp;order=desc">filed
+many data FOIA requests</a>, including <a
+href="https://www.muckrock.com/foi/united-states-of-america-10/database-of-suas-drone-accident-reports-132824/">one</a>
+that pried loose the <a
+href="https://www.reddit.com/r/drones/comments/z1xtmq/faa_drone_accident_report_database_released_via/">FAA’s
+drone accident database</a> (released, alas, as a PDF). [h/t <a
+href="https://us2.campaign-archive.com/?u=74862d74361490eca930f4384&amp;id=3c6d3a8554">MuckRock</a>]</p>
+<p> </p>
+<p><strong>Folklore motifs.</strong> <a
+href="https://www.helsinki.fi/assets/drupal/2022-12/rmn_10_2015.pdf?page=58">Decades
+ago</a>, anthropologist <a
+href="https://www.kunstkamera.ru/en/research/academic_board/yuri_e_berezkin">Yuri
+Berezkin</a> began systematically assembling what would later become the
+<a href="https://www.ruthenia.ru/folklore/berezkin/">Electronic
+Analytical Catalogue of Folklore and Mythological Motifs</a>, which
+identifies thousands of recurring narrative elements and their presence
+within nearly 1,000 societies’ stories. In a <a
+href="https://academic.oup.com/qje/article/136/4/1993/6124640">paper
+published last year</a>, <a
+href="https://sites.google.com/site/steliosecon/">Stelios
+Michalopoulos</a> and <a href="https://www.melaniexue.net/">Melanie Meng
+Xue</a> describe the resource, <a
+href="https://broadstreet.blog/2021/05/14/folklore-a-window-into-the-past/">analyze
+it</a>, and <a
+href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/IXOHKB">share
+a database snapshot from October 2019</a>.</p>
+<p> </p>
+<p><strong>Ski trails.</strong> Contributors to <a
+href="https://skimap.org/">skimap.org</a> have posted 16,000+ maps of
+ski trails <a href="https://skimap.org/Regions/view">across the
+world</a>. You can <a
+href="https://skimap.org/pages/Developers">programmatically access</a>
+the (mostly image-based) maps as well as data on individual regions and
+ski areas. <a href="https://openskimap.org/">OpenSkiMap</a>, meanwhile,
+combines that information with <a
+href="https://www.openstreetmap.org/about">OpenStreetMap</a> records to
+provide an interactive map (and <a
+href="https://openskimap.org/?about">structured data</a>) of ski areas,
+lifts, and runs. [h/t <a
+href="https://databayou.com/ski/resorts.html">Luz K. Molina</a>]</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send downhill and
+cross-country feedback to jsvine@gmail.com, or just reply to this email.
+★ Looking for past datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. ★ Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions. ★ <a
+href="https://docs.google.com/document/d/e/2PACX-1vSP5xYrhqEvoGTi2aFzrsYQXadG8Gv0Y6YGWjib1e4qcXG45Sq5TSvngvh342DdcAEyEDIVd5V3RYcc/pub">Place
+an ad in Data Is Plural</a>.</em></p>
+]]></content>
+    <link href="http://www.data-is-plural.com/archive/2022-12-21-edition" rel="alternate"/>
+    <summary>Inmate call costs, state-authorized sports betting, drone registrations, folklore motifs, and ski trails.</summary>
+    <published>2022-12-21T08:00:00-05:00</published>
+  </entry>
   <entry>
     <id>dip-2022-12-14</id>
     <title>Data Is Plural — 2022.12.14 edition</title>
@@ -1042,121 +1178,5 @@ subscribe and to browse past editions.</em></p>
     <link href="http://www.data-is-plural.com/archive/2022-10-19-edition" rel="alternate"/>
     <summary>Carbon pricing, UNICEF’s operations, community-moderated tweets, UK museums, and cattle brands.</summary>
     <published>2022-10-19T08:00:00-04:00</published>
-  </entry>
-  <entry>
-    <id>dip-2022-10-12</id>
-    <title>Data Is Plural — 2022.10.12 edition</title>
-    <updated>2022-10-12T08:00:00-04:00</updated>
-    <content type="CDATA"><![CDATA[<p><em>Work-related injury counts, US hydrography, rebel leaders, file
-formats, and wine economics.</em></p>
-<p> </p>
-<p><strong>Work-related injury counts.</strong> The US Occupational
-Safety and Health Administration <a
-href="https://www.osha.gov/recordkeeping">requires many</a> (<a
-href="https://www.osha.gov/recordkeeping/presentations/exempttable">but
-not all</a>) businesses to <a
-href="https://www.osha.gov/recordkeeping/forms">track employees’
-work-related injuries and illnesses</a>. Larger companies and those in
-high-risk industries must <a
-href="https://www.osha.gov/injuryreporting/">electronically submit
-annual counts</a> to the agency. Thanks to freedom-of-information
-lawsuits by <a
-href="https://revealnews.org/blog/federal-judge-sides-with-reveal-ruling-injury-and-illness-data-is-public/">Reveal</a>
-and <a
-href="https://www.citizen.org/litigation/public-citizen-foundation-v-department-of-labor-osha-form-300a-records/">Public
-Citizen</a>, OSHA <a
-href="https://www.dol.gov/newsroom/releases/osha/osha20200904">began</a>
-to publish <a
-href="https://www.osha.gov/Establishment-Specific-Injury-and-Illness-Data">business-level
-data from those electronic submissions</a> in 2020. The records, which
-go back to 2016, include each business’s name, location, industry,
-employee count, and employee hours worked, plus their reported number of
-deaths, injuries, skin disorders, respiratory conditions, poisonings,
-hearing loss, and other illnesses.</p>
-<p> </p>
-<p><strong>US hydrography.</strong> The <a
-href="https://www.usgs.gov/core-science-systems/ngp/national-hydrography/national-hydrography-dataset">National
-Hydrography Dataset</a>, maintained by the US Geological Survey,
-“represents the water drainage network of the United States with
-features such as rivers, streams, canals, lakes, ponds, coastline, dams,
-and streamgages.” You can <a
-href="https://www.usgs.gov/national-hydrography/access-national-hydrography-products">download</a>
-the NHD geospatial files by <a
-href="https://water.usgs.gov/GIS/huc.html">hydrologic unit</a> or state,
-or for the entire nation. <strong>Related</strong>: <a
-href="https://www.sciencebase.gov/catalog/item/5e8d2b5982cee42d13466001">A
-dataset of waterfalls and rapids in the contiguous US</a>, linked to the
-NHD and sourced partly from <a
-href="https://www.worldwaterfalldatabase.com/about">Bryan Swan and Dean
-Goss</a>’s <a href="https://www.worldwaterfalldatabase.com/">World
-Waterfall Database</a>. [h/t <a
-href="https://www.reddit.com/r/dataisbeautiful/comments/pcc3qr/comment/hahumk7/">Malcolm
-Tunnell</a> + <a
-href="https://thewhyaxis.substack.com/p/map-every-waterfall-in-the-lower">Christopher
-Ingraham</a>]</p>
-<p> </p>
-<p><strong>Rebel leaders.</strong> <a
-href="https://www.rebelleaders.org/publications-research">Benjamin
-Acosta et al.</a>’s <a href="https://www.rebelleaders.org/">Rebel
-Organization Leaders Database</a> “provides a wide range of biographical
-information on all top rebel, insurgent, and terrorist leaders who were
-active in civil wars between 1980 and 2011.” It includes each leader’s
-name, gender, education, religion, languages spoken, number of children,
-years in role, country fought against, cause of death, and <a
-href="https://www.rebelleaders.org/download">much more</a>. The database
-covers 425 individuals fighting against 80+ countries; the project also
-features <a
-href="https://www.rebelleaders.org/leader-profile-examples">written
-profiles for a sample of them</a>.</p>
-<p> </p>
-<p><strong>File formats.</strong> The US National Archives’ <a
-href="https://www.archives.gov/preservation/digital-preservation/risk">Digital
-Preservation Framework</a> describes the agency’s <a
-href="https://github.com/usnationalarchives/digital-preservation/tree/master/Digital_Preservation_Risk_Matrix">risk
-assessments</a> and <a
-href="https://github.com/usnationalarchives/digital-preservation/tree/master/Digital_Preservation_Plan_Spreadsheet">recommended
-preservation plans</a> for 600+ file formats. The <a
-href="https://github.com/usnationalarchives/digital-preservation">framework’s
-documentation</a> places each format into one of 16 categories, such as
-“digital audio,” “spreadsheets,” “navigational charts,” and “software
-and code.” In August, the agency added <a
-href="https://www.archives.gov/preservation/digital-preservation/linked-data">“linked
-open data” representations</a> of the <a
-href="https://www.archives.gov/preservation/digital-preservation/linked-data/browse">plans
-for each format</a>. [h/t <a
-href="https://twitter.com/eengland__/status/1562819377204195328">Elizabeth
-England</a>]</p>
-<p> </p>
-<p><strong>Wine economics.</strong> Researchers at the University of
-Adelaide’s <a
-href="https://economics.adelaide.edu.au/wine-economics/">Wine Economics
-Research Centre</a> have compiled <a
-href="https://economics.adelaide.edu.au/wine-economics/databases">several
-longitudinal datasets</a>. One, for example, quantifies the <a
-href="https://economics.adelaide.edu.au/wine-economics/databases#database-of-regional-national-and-global-winegrape-bearing-areas-by-variety-1960-to-2016">total
-area devoted to growing each grape variety in each country</a>,
-1960–2016. Another compiles <a
-href="https://economics.adelaide.edu.au/wine-economics/databases#annual-database-of-global-wine-markets-1835-to-2019">various
-market statistics</a> (e.g., national wine production, imports, exports)
-going back to 1835. <strong>Related</strong>: The <a
-href="https://www.oiv.int/">International Organisation of Vine and
-Wine</a> maintains a <a
-href="https://www.oiv.int/en/statistiques/recherche">database of global
-and national statistics</a> going back to 1995. <strong>As seen
-in</strong>: <a
-href="https://blog.smallmultiples.com.au/2020/12/09/the-origins-and-production-of-wine-grapes/">Jack
-Zhao’s exploration of the Adelaide data</a>.</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send red and white
-feedback to jsvine@gmail.com, or just reply to this email. Looking for
-past datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and to browse past editions.</em></p>
-]]></content>
-    <link href="http://www.data-is-plural.com/archive/2022-10-12-edition" rel="alternate"/>
-    <summary>Work-related injury counts, US hydrography, rebel leaders, file formats, and wine economics.</summary>
-    <published>2022-10-12T08:00:00-04:00</published>
   </entry>
 </feed>
