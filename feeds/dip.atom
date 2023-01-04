@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.data-is-plural.com</id>
   <title>Data Is Plural</title>
-  <updated>2022-12-21T08:00:00-05:00</updated>
+  <updated>2023-01-04T08:00:00-05:00</updated>
   <author>
     <name>Jeremy Singer-Vine</name>
     <email>jsvine@gmail.com</email>
@@ -10,6 +10,114 @@
   <link href="https://www.data-is-plural.com" rel="alternate"/>
   <generator>https://github.com/data-is-plural/newsletter-archive</generator>
   <subtitle>A weekly newsletter of useful/curious datasets.</subtitle>
+  <entry>
+    <id>dip-2023-01-04</id>
+    <title>Data Is Plural — 2023.01.04 edition</title>
+    <updated>2023-01-04T08:00:00-05:00</updated>
+    <content type="CDATA"><![CDATA[<p><em>Prison-banned books, severe weather warnings, congregations and
+adherents, UAE art establishments, and one billionaire’s
+donations.</em></p>
+<p> </p>
+<p><strong>Prison-banned books.</strong> The Marshall Project is
+building a <a
+href="https://www.themarshallproject.org/2022/12/21/prison-banned-books-list-find-your-state">database
+of books banned from state prisons</a>, based on official lists that
+reporters requested from each state’s correctional agency. The browsable
+and <a
+href="https://observablehq.com/@themarshallproject/prison-banned-books">downloadable</a>
+database includes roughly 50,000 entries from 18 states so far, with
+plans for expansion. The fields include the book’s title, author, date
+banned, and reason for banning, although availability varies by state.
+(Disclosure: I did some <a
+href="https://www.jsvine.com/consulting/pdf-data-extraction/">contract
+work</a> for this project, extracting data from PDFs.) <strong>Read
+more</strong>: “<a
+href="https://www.themarshallproject.org/2022/12/21/prison-banned-books-new-york-florida-censorship">Why
+Would Prisons Ban My Book? Absurdities Rule the System</a>,” by Marshall
+Project reporter Keri Blakinger. <strong>Previously</strong>: <a
+href="https://pen.org/banned-in-the-usa/">School-banned books</a> (<a
+href="https://www.data-is-plural.com/archive/2022-07-06-edition/">DIP
+2022.07.06</a>).</p>
+<p> </p>
+<p><strong>Severe weather warnings.</strong> Among its many services,
+the <a href="https://mesonet.agron.iastate.edu/">Iowa Environmental
+Mesonet</a> provides a range of <a
+href="https://mesonet.agron.iastate.edu/nws/">National Weather Service
+data interfaces and downloads</a>, including current and historical <a
+href="https://mesonet.agron.iastate.edu/request/gis/watchwarn.phtml">severe
+weather warnings, watches, and advisories</a>. Coverage for tornado,
+severe thunderstorm, flash flood, and marine warnings goes back to 1986;
+in more recent decades, the data include <a
+href="https://github.com/akrherz/pyIEM/blob/d7afb8de354775e922cb8ce3d8f865871e78f179/src/pyiem/nws/vtec.py#L43">dozens
+of additional phenomena</a>, such as <em>freezing fog</em>, <em>high
+surf</em>, <em>dense smoke</em>, and <em>excessive heat</em>. The
+records <a
+href="https://mesonet.agron.iastate.edu/info/datasets/vtec.html">indicate</a>
+each alert’s geospatial boundaries, time of issuance and expiration,
+forecast office, status, and more.</p>
+<p> </p>
+<p><strong>Congregations and adherents.</strong> A <a
+href="https://www.usreligioncensus.org/index.php/about-census">successor</a>
+to the federal government’s <a
+href="https://www.pewresearch.org/religion/2010/01/26/a-brief-history-of-religion-and-the-u-s-census/">Census
+of Religious Bodies</a> (1890–1936), the <a
+href="https://www.usreligioncensus.org/">US Religion Census</a> is now
+conducted every 10 years by the <a
+href="http://www.asarb.org/">Association of Statisticians of American
+Religious Bodies</a>. The researchers <a
+href="https://www.usreligioncensus.org/index.php/methods">approach</a>
+“formal denominations and religious groups,” from which they <a
+href="https://www.usreligioncensus.org/index.php/data_collected">collect</a>
+“data on the number of congregations, members, adherents, and attendees”
+at a county level. Results for the 2021 study, <a
+href="https://www.usreligioncensus.org/node/1639">available as
+spreadsheets and maps</a>, include responses from 370+ faith groups.
+<strong>Previously</strong>: <a
+href="https://sites.duke.edu/ncsweb/">The National Congregations
+Study</a> (<a
+href="https://www.data-is-plural.com/archive/2021-12-29-edition/">DIP
+2021.12.29</a>). [h/t <a
+href="https://www.reddit.com/r/dataisbeautiful/comments/zh4358/but_where_do_folks_actually_attend_church_oc/">Adam
+Porter</a>]</p>
+<p> </p>
+<p><strong>UAE art establishments.</strong> As part of her doctoral
+research into the role of women in the United Arab Emirates’ art scene,
+<a href="https://ihmc.ens.psl.eu/-GRINSTEAD-Eve-.html?lang=en">Eve
+Grinstead</a> has compiled <a
+href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/SWDKKK">three
+tables of relevant data</a>, listing 99 galleries, nine fairs, and eight
+auction houses in the country. Each row includes the establishment’s
+name, date founded, specialty, owners/founders, city (or Dubai
+neighborhood), and Grinstead’s notes.</p>
+<p> </p>
+<p><strong>One billionaire’s donations.</strong> Last month, billionaire
+<a href="https://en.wikipedia.org/wiki/MacKenzie_Scott">MacKenzie
+Scott</a> unveiled a <a href="https://yieldgiving.com/">website for her
+philanthropic efforts</a>. It features a <a
+href="https://yieldgiving.com/gifts/">downloadable table</a> that lists
+1,600+ donations doled out since 2019, with each gift’s year, amount
+(replaced with “disclosure delayed for benefit of recipient” for 28% of
+entries), and recipient organization. <strong>Read more</strong>: “<a
+href="https://www.theguardian.com/society/2022/dec/15/mackenzie-scott-billionaire-donations-non-profits">MacKenzie
+Scott reveals details of her $14bn in donations to 1,600
+non-profits</a>” (The Guardian). [h/t <a
+href="https://themorningnews.org/post/saturday-headlines-keep-your-twin-up">The
+Morning News</a>]</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Donate your feedback to
+jsvine@gmail.com, or just reply to this email. • Looking for past
+datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. • Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions. • <a
+href="https://docs.google.com/document/d/e/2PACX-1vSP5xYrhqEvoGTi2aFzrsYQXadG8Gv0Y6YGWjib1e4qcXG45Sq5TSvngvh342DdcAEyEDIVd5V3RYcc/pub">Place
+an ad in Data Is Plural</a>.</em></p>
+]]></content>
+    <link href="http://www.data-is-plural.com/archive/2023-01-04-edition" rel="alternate"/>
+    <summary>Prison-banned books, severe weather warnings, congregations and adherents, UAE art establishments, and one billionaire’s donations.</summary>
+    <published>2023-01-04T08:00:00-05:00</published>
+  </entry>
   <entry>
     <id>dip-2022-12-21</id>
     <title>Data Is Plural — 2022.12.21 edition</title>
@@ -1062,121 +1170,5 @@ subscribe and to browse past editions.</em></p>
     <link href="http://www.data-is-plural.com/archive/2022-10-26-edition" rel="alternate"/>
     <summary>Strategic petroleum, internet service offers, Boston’s first women voters, Euro-area securities, and gargantuan gourds.</summary>
     <published>2022-10-26T08:00:00-04:00</published>
-  </entry>
-  <entry>
-    <id>dip-2022-10-19</id>
-    <title>Data Is Plural — 2022.10.19 edition</title>
-    <updated>2022-10-19T08:00:00-04:00</updated>
-    <content type="CDATA"><![CDATA[<p><em>Carbon pricing, UNICEF’s operations, community-moderated tweets,
-UK museums, and cattle brands.</em></p>
-<p> </p>
-<p><strong>Carbon pricing.</strong> In a <a
-href="https://www.nature.com/articles/s41597-022-01659-x">paper
-published last month</a>, <a href="http://geoffroydolphin.eu/">Geoffroy
-Dolphin</a> and <a
-href="https://www.linkedin.com/in/qinrui-xiahou-13a211110/a">Qinrui
-Xiahou</a> describe their <a
-href="https://github.com/g-dolphin/WorldCarbonPricingDatabase">World
-Carbon Pricing Database</a>. For each country (as well as each US state
-and certain other subnational jurisdictions), the database indicates the
-price per metric ton of <a
-href="https://www.theguardian.com/environment/2011/apr/27/co2e-global-warming-potential">CO<sub>2</sub>
-equivalent</a> associated with any carbon taxes and cap-and-trade
-mechanisms in place, for each year going back to 1990. It lists these
-prices for each combination of type of fuel and <a
-href="https://www.ipcc-nggip.iges.or.jp/public/2006gl/">sectoral
-classification</a>. <strong>Previously</strong>: The <a
-href="https://gspp.berkeley.edu/faculty-and-impact/centers/cepp/projects/berkeley-carbon-trading-project/offsets-database">Voluntary
-Registry Offsets Database</a> and the <a
-href="https://carbonpricingdashboard.worldbank.org/map_data">World
-Bank’s database of carbon pricing initiatives</a> (<a
-href="https://www.data-is-plural.com/archive/2021-11-17-edition/">DIP
-2021.11.17</a>).</p>
-<p> </p>
-<p><strong>UNICEF’s operations.</strong> The United Nations Children’s
-Fund is a signatory to the <a
-href="https://iatistandard.org/en/">International Aid Transparency
-Initiative</a> and, as such, publishes <a
-href="https://www.iatiregistry.org/publisher/unicef">detailed data
-files</a> describing its programs and activities around the world. The
-files are organized by country, updated monthly, and follow <a
-href="https://iatistandard.org/en/iati-standard/203/activity-standard/">the
-initiative’s prescribed XML structure</a>. They list each program’s
-name, organizations involved, locations, dates, budgets, spending,
-results, and more. You can also use <a
-href="https://open.unicef.org/">UNICEF’s transparency portal</a> to <a
-href="https://open.unicef.org/index.php/program-fund-goal">explore the
-data by program focus and country</a>. [h/t <a
-href="https://twitter.com/Alexa_Ighodaro/status/1530147268791238660">Alexa
-Ighodaro</a>]</p>
-<p> </p>
-<p><strong>Community-moderated tweets.</strong> Twitter <a
-href="https://www.theverge.com/2022/10/6/23390761/twitter-birdwatch-community-moderation-expansion-misinformation-qanon">recently
-expanded</a> its <a
-href="https://twitter.github.io/birdwatch/">Birdwatch</a> pilot program,
-which allows <a
-href="https://twitter.github.io/birdwatch/signing-up/">certain users</a>
-to anonymously “identify Tweets they believe are misleading, write notes
-that provide context to the Tweet, and rate the quality of other
-contributors’ notes.” The company provides <a
-href="https://twitter.github.io/birdwatch/overview/">data on all
-submitted notes, ratings of notes, and note status histories</a>, though
-it requires you to be logged-in and US-based to <a
-href="https://twitter.com/i/birdwatch/download-data">download the
-files</a>. <strong>As seen in</strong>: “<a
-href="https://www.theverge.com/2022/10/10/23393021/twitter-birdwatch-covid-misinformation-data-analysis-misinformation-fact-check">COVID
-misinfo is the biggest challenge for Twitter’s Birdwatch program, data
-shows</a>,” from The Verge’s <a
-href="https://twitter.com/corintxt">Corin Faife</a>, who has published
-an <a
-href="https://theverge-bird-watch.herokuapp.com/Birdwatch/Birdwatch_Notes">interactive</a>,
-<a
-href="https://theverge-bird-watch.herokuapp.com/Birdwatch">downloadable</a>
-table of the notes.</p>
-<p> </p>
-<p><strong>UK museums.</strong> The <a
-href="https://museweb.dcs.bbk.ac.uk/home">Mapping Museums</a> project
-has assembled a <a
-href="https://museweb.dcs.bbk.ac.uk/search">searchable</a>, <a
-href="https://museweb.dcs.bbk.ac.uk/browseproperties">browsable</a>, and
-<a href="https://museweb.dcs.bbk.ac.uk/data">downloadable</a> dataset of
-4,000+ museums active in the United Kingdom between 1960 and 2020. It
-includes museums dedicated to art, war, local history, transport,
-drinks, and many other subjects. The records, <a
-href="https://museweb.dcs.bbk.ac.uk/sources">collected and refined from
-a range of sources</a>, indicate each museum’s name, location, size
-(small, medium, large, huge), topic, year opened/closed, accreditation,
-type of governance, and more.</p>
-<p> </p>
-<p><strong>Cattle brands.</strong> Kansas ranchers must register their
-<a
-href="https://en.wikipedia.org/wiki/Livestock_branding">cattle-branding
-symbols</a> with the state’s agriculture department. For decades, the
-department <a
-href="https://cdm16884.contentdm.oclc.org/digital/search/searchterm/A53-8-B817-part/order/dated/ad/asc">published
-books listing all the registered brands</a>, indexed using a custom
-coding system. <a href="https://psyarxiv.com/h5t7b/">Mason Youngblood et
-al.</a> have assembled a <a
-href="https://github.com/masonyoungblood/cattle_brand_data">dataset of
-90,000+ such entries</a> from the 1990, 2008, 2014, 2015, and 2016
-books. <strong>Related</strong>: “<a
-href="https://www.govtech.com/computing/kansas-moves-cattle-brand-registration-to-the-cloud.html">Kansas
-Moves Cattle Brand Registration to the Cloud</a>” (GovTech). [h/t <a
-href="https://twitter.com/ARCHAEOfelix/status/1573592198238666752">Felix
-Riede</a> + <a
-href="https://twitter.com/DugaldFoster/status/1574436942112079874">Dugald
-Foster</a>]</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send branded feedback to
-jsvine@gmail.com, or just reply to this email. Looking for past
-datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and to browse past editions.</em></p>
-]]></content>
-    <link href="http://www.data-is-plural.com/archive/2022-10-19-edition" rel="alternate"/>
-    <summary>Carbon pricing, UNICEF’s operations, community-moderated tweets, UK museums, and cattle brands.</summary>
-    <published>2022-10-19T08:00:00-04:00</published>
   </entry>
 </feed>
