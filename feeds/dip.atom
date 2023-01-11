@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.data-is-plural.com</id>
   <title>Data Is Plural</title>
-  <updated>2023-01-04T08:00:00-05:00</updated>
+  <updated>2023-01-11T08:00:00-05:00</updated>
   <author>
     <name>Jeremy Singer-Vine</name>
     <email>jsvine@gmail.com</email>
@@ -10,6 +10,117 @@
   <link href="https://www.data-is-plural.com" rel="alternate"/>
   <generator>https://github.com/data-is-plural/newsletter-archive</generator>
   <subtitle>A weekly newsletter of useful/curious datasets.</subtitle>
+  <entry>
+    <id>dip-2023-01-11</id>
+    <title>Data Is Plural — 2023.01.11 edition</title>
+    <updated>2023-01-11T08:00:00-05:00</updated>
+    <content type="CDATA"><![CDATA[<p><em>Automobile recalls, small-business loans, European
+Parliamentarians, variable stars, and NYC pizza slices.</em></p>
+<p> </p>
+<p><em>📣 <strong>Ad:</strong> Will your 2023 include a project that
+needs geocoding? Check out OpenCage’s <a
+href="https://opencagedata.com/guides/how-to-compare-and-test-geocoding-services?ocs=dip">geocoding
+buyer’s guide</a> to learn all the factors to consider when deciding on
+which geocoding service to use, and thus avoid “I wish I had known that
+before we started.”</em></p>
+<p> </p>
+<p><strong>Automobile recalls.</strong> In the US, the <a
+href="https://www.nhtsa.gov/">National Highway Traffic Safety
+Administration</a> oversees all recalls of vehicles, tires, child safety
+seats, and other auto equipment. Through the agency’s <a
+href="https://www.nhtsa.gov/recalls">recall portal</a>, you can search
+by <a
+href="https://en.wikipedia.org/wiki/Vehicle_identification_number">vehicle
+identification number</a>, make, model, and year; for other types of
+recalls, you can search by brand and model. The agency also provides a
+<a
+href="https://datahub.transportation.gov/Automobiles/Recalls-Data/6axg-epim">dataset
+of all 26,000+ recalls since 1966</a>. It lists the recall type,
+manufacturer’s name, component, number of units potentially affected,
+and date the manufacturer notified NHTSA, plus descriptions of the
+problem, recall action, and remedy. [h/t <a
+href="https://read.chartr.co/newsletters/2022/11/23/total-recalls">Chartr</a>]</p>
+<p> </p>
+<p><strong>Small-business loans.</strong> The US Small Business
+Administration publishes <a
+href="https://data.sba.gov/dataset/7-a-504-foia">loan-level data from
+two of its major lending programs</a>, known as <a
+href="https://www.sba.gov/funding-programs/loans/7a-loans">7(a)</a> and
+<a href="https://www.sba.gov/funding-programs/loans/504-loans">504</a>,
+going back to the early 1990s. The records, updated quarterly, indicate
+each loan’s amount, term, interest rate, approval date, and current
+status; borrower type, name, and location; bank name and location; and
+more. <strong>As seen in</strong>: The <a
+href="https://blackwealthdata.org/">Black Wealth Data Center</a>’s <a
+href="https://blackwealthdata.org/explore/business">business ownership
+indicators</a>. <strong>Previously</strong>: <a
+href="https://www.sba.gov/funding-programs/loans/covid-19-relief-options/paycheck-protection-program/ppp-data">SBA
+data</a> on loans provided through the pandemic-instigated <a
+href="https://www.sba.gov/funding-programs/loans/covid-19-relief-options/paycheck-protection-program">Paycheck
+Protection Program</a> (<a
+href="https://www.data-is-plural.com/archive/2020-07-08-edition/">DIP
+2020.07.08</a>).</p>
+<p> </p>
+<p><strong>European Parliamentarians.</strong> Political scientist <a
+href="https://www.researchgate.net/profile/Eugenio-Salvati">Eugenio
+Salvati</a> has <a
+href="https://journals.sagepub.com/doi/10.1177/14789299221135239">created</a>
+a dataset of <a
+href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/V2FJEF">all
+European Parliament members</a> who’ve held office for at least one
+month since 1979, the EU legislative body’s first year of direct
+elections. For each five-year cycle, Salvati’s spreadsheets list each
+member’s name, country, gender, parliament role, <a
+href="https://en.wikipedia.org/wiki/Political_groups_of_the_European_Parliament">EP
+political group</a>, local political party, previous political
+experience, and more. Entries for the 2019–2024 cohort also indicate
+committee membership. <strong>Previously</strong>: <a
+href="https://www.lobbyfacts.eu/">LobbyFacts.eu</a> (<a
+href="https://www.data-is-plural.com/archive/2017-08-02-edition/">DIP
+2017.08.02</a>).</p>
+<p> </p>
+<p><strong>Star light, star bright.</strong> A <a
+href="https://www.atnf.csiro.au/outreach/education/senior/astrophysics/variable_types.html">variable
+star</a> is one whose brightness appears (from Earth) to vary over time.
+The <a href="https://www.aavso.org/">American Association of Variable
+Star Observers</a>, founded in 1911, maintains a <a
+href="https://www.aavso.org/aavso-international-database-aid">database</a>
+of “tens of millions variable star observations going back over one
+hundred years,” making it “the largest and most comprehensive digital
+variable star database of its kind in the world.” You can download star
+details from the association’s <a
+href="https://www.aavso.org/vsx/index.php">star index</a>, and also <a
+href="https://www.aavso.org/data-download">download any given star’s set
+of observations</a>. [h/t <a
+href="https://news.ycombinator.com/item?id=29802393">Peter
+Corless</a>]</p>
+<p> </p>
+<p><strong>NYC pizza slices.</strong> “Starting in 2014, I logged every
+slice of pizza I ate in New York City on the Instagram account <a
+href="https://www.instagram.com/nycslice/">NYC Slice</a>,” writes
+reporter <a href="https://elkue.com/">Liam Quigley</a>, who <a
+href="https://elkue.com/nyc-slice/">has published</a> a map, price
+chart, searchable table, and <a
+href="https://docs.google.com/spreadsheets/d/1EY3oi9ttxybG0A0Obtwey6BFu7QLqdHe02JApijgztg/edit">spreadsheet</a>
+of the first 464 slices. The data include each slice’s date, location,
+style, and price. “I did not rate the slices to avoid controversy and
+bribes. The biggest thing I have noticed is the decline in the amount of
+sauce put on slices.”</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send saucy feedback to
+jsvine@gmail.com, or just reply to this email. • Looking for past
+datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. • Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions. • <a
+href="https://docs.google.com/document/d/e/2PACX-1vSP5xYrhqEvoGTi2aFzrsYQXadG8Gv0Y6YGWjib1e4qcXG45Sq5TSvngvh342DdcAEyEDIVd5V3RYcc/pub">Learn
+how to place an ad in Data Is Plural</a>.</em></p>
+]]></content>
+    <link href="http://www.data-is-plural.com/archive/2023-01-11-edition" rel="alternate"/>
+    <summary>Automobile recalls, small-business loans, European Parliamentarians, variable stars, and NYC pizza slices.</summary>
+    <published>2023-01-11T08:00:00-05:00</published>
+  </entry>
   <entry>
     <id>dip-2023-01-04</id>
     <title>Data Is Plural — 2023.01.04 edition</title>
@@ -1057,118 +1168,5 @@ subscribe and to browse past editions.</em></p>
     <link href="http://www.data-is-plural.com/archive/2022-11-02-edition" rel="alternate"/>
     <summary>Nuclear stockpiles, decades of river widths, flood insurance changes, the weight of the web, and Swiss apartment layouts.</summary>
     <published>2022-11-02T08:00:00-04:00</published>
-  </entry>
-  <entry>
-    <id>dip-2022-10-26</id>
-    <title>Data Is Plural — 2022.10.26 edition</title>
-    <updated>2022-10-26T08:00:00-04:00</updated>
-    <content type="CDATA"><![CDATA[<p><em>Strategic petroleum, internet service offers, Boston’s first
-women voters, Euro-area securities, and gargantuan gourds.</em></p>
-<p> </p>
-<p><em>📣 <strong>Ad:</strong> Hightouch is the leading Reverse ETL
-platform. Sync customer data from your warehouse into 100+ tools your
-business teams rely on in minutes…just with SQL. No custom code or APIs.
-Check out <a
-href="https://hightouch.com/blog/reverse-etl/?utm_medium=aff&amp;utm_source=substack&amp;utm_campaign=data_is_plural">What
-is Reverse ETL, The Definitive Guide</a> to learn more or <a
-href="https://app.hightouch.com/?utm_medium=aff&amp;utm_source=substack&amp;utm_campaign=data_is_plural">get
-started for free</a>.</em></p>
-<p> </p>
-<p><strong>Strategic petroleum.</strong> The US Energy Information
-Administration maintains a <a
-href="https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&amp;s=MCSSTUS1&amp;f=M">dataset
-tracking the monthly volume</a> of the country’s <a
-href="https://www.energy.gov/ceser/strategic-petroleum-reserve">Strategic
-Petroleum Reserve</a>, measured in the thousands of barrels. The figures
-go back to 1977, <a
-href="https://www.energy.gov/ceser/spr-quick-facts">the year the first
-crude oil was delivered to the reserve</a>, but lag by a couple of
-months; the end-of-August volume is scheduled for publication on October
-31. <strong>Read more</strong>: <a
-href="https://www.energy.gov/ceser/history-spr-releases">The Department
-of Energy’s history of reserve releases</a>.
-<strong>Previously</strong>: <a
-href="https://www.eia.gov/petroleum/supply/monthly/">Petroleum Supply
-Monthly reports</a> (<a
-href="https://www.data-is-plural.com/archive/2017-08-16-edition/">DIP
-2017.08.16</a>) and <a
-href="https://www.eia.gov/petroleum/gasdiesel/">weekly gas prices</a>
-(<a
-href="https://www.data-is-plural.com/archive/2021-06-09-edition/">DIP
-2021.06.09</a>), both also published by the EIA. [h/t <a
-href="https://www.reddit.com/r/dataisbeautiful/comments/xyxfgh/us_strategic_petroleum_reserves_percent_change_oc/">u/CountBayesie</a>]</p>
-<p> </p>
-<p><strong>Internet service offers.</strong> For an <a
-href="https://themarkup.org/still-loading/2022/10/19/dollars-to-megabits-you-may-be-paying-400-times-as-much-as-your-neighbor-for-internet-service">investigation
-into speed disparities in internet service offers</a>, published last
-week at The Markup, reporters Leon Yin and Aaron Sankin <a
-href="https://themarkup.org/show-your-work/2022/10/19/how-we-uncovered-disparities-in-internet-deals">examined</a>
-more than 1 million address-specific offers across dozens of US cities.
-To support the findings, they’ve <a
-href="https://github.com/the-markup/investigation-isp">shared</a> the
-raw data gathered from ISPs’ websites, as well as tabular files that
-summarize each offer and attach the contextual variables used for the
-analysis. (Disclosure: I served, and am credited, as a “Data Coach” for
-this project.)</p>
-<p> </p>
-<p><strong>Boston’s first women voters.</strong> The City of Boston’s <a
-href="https://www.boston.gov/departments/archives-and-records-management/mary-eliza-project-boston-women-voters-1920">Mary
-Eliza Project</a> has been <a
-href="https://www.boston.gov/departments/archives-and-records-management/mary-eliza-project-boston-women-voters-1920">compiling</a>
-a dataset of <a
-href="https://data.boston.gov/dataset/1920-women-s-voter-register">women
-who registered to vote in 1920</a>, the year the 19th Amendment granted
-them that right. The dataset, <a
-href="https://www.boston.gov/news/mary-eliza-project-ward-8-voter-records-now-available">transcribed</a>
-from the original registration books, “is updated periodically as
-additional voter registers are transcribed.” It contains 6,000+ entries
-so far, each listing a voter’s name, registration date, ward, precinct,
-address, age, country of birth, occupation, husband’s information, and
-more. [h/t <a
-href="https://twitter.com/redthreadtweets/status/1577008369227157504">Julie
-Rosier</a>]</p>
-<p> </p>
-<p><strong>Euro-area securities.</strong> The European Central Bank
-collects detailed records concerning the <a
-href="https://www.ecb.europa.eu/stats/financial_markets_and_interest_rates/securities/html/index.en.html">financial
-instruments issued and held</a> by organizations and individuals under
-its jurisdiction. Its quarterly-updated <a
-href="https://www.ecb.europa.eu/stats/financial_markets_and_interest_rates/securities/html/index.en.html#holdings">Securities
-Holdings Statistics dataset</a>, <a
-href="https://sdw.ecb.europa.eu/browseSelection.do?node=9700835">available
-through the ECB’s data warehouse</a>, aggregates the latter by investor
-type (bank, non-bank company, pension fund, household, et cetera),
-investor country of residence, issuer country, type of financial
-instrument, <a
-href="https://sdw.ecb.europa.eu/browseExplanation.do?node=9700835">and
-more</a>. [h/t <a
-href="https://www.suerf.org/suer-policy-brief/53201/country-biases-in-equity-portfolios-are-less-pronounced-and-less-irrational-than-one-might-think">Martijn
-Boermans et al.</a>]</p>
-<p> </p>
-<p><strong>Gargantuan gourds.</strong> At <a
-href="http://www.bigpumpkins.com/">BigPumpkins.com</a>, you can find <a
-href="http://www.bigpumpkins.com/ViewArticle.asp?id=132">annual
-“weigh-off” results</a> from 100+ local competitions affiliated with the
-<a href="https://gpc1.org/">Great Pumpkin Commonwealth</a>, an
-international standards-setting organization. Although pumpkins
-represent the titular attraction, the site also publishes results for
-the squash, long gourd, watermelon, tomato, field pumpkin, bushel gourd,
-and marrow competition classes. HTML tables list each specimen’s weight,
-grower, location, weigh-off site, and lineage. [h/t <a
-href="https://juliasilge.com/blog/giant-pumpkins/">Julia Silge</a> + <a
-href="https://github.com/rfordatascience/tidytuesday/tree/master/data/2021/2021-10-19">Tidy
-Tuesday</a>]</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send scale-busting
-feedback to jsvine@gmail.com, or just reply to this email. Looking for
-past datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and to browse past editions.</em></p>
-]]></content>
-    <link href="http://www.data-is-plural.com/archive/2022-10-26-edition" rel="alternate"/>
-    <summary>Strategic petroleum, internet service offers, Boston’s first women voters, Euro-area securities, and gargantuan gourds.</summary>
-    <published>2022-10-26T08:00:00-04:00</published>
   </entry>
 </feed>
