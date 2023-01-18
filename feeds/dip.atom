@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.data-is-plural.com</id>
   <title>Data Is Plural</title>
-  <updated>2023-01-11T08:00:00-05:00</updated>
+  <updated>2023-01-18T08:00:00-05:00</updated>
   <author>
     <name>Jeremy Singer-Vine</name>
     <email>jsvine@gmail.com</email>
@@ -10,6 +10,126 @@
   <link href="https://www.data-is-plural.com" rel="alternate"/>
   <generator>https://github.com/data-is-plural/newsletter-archive</generator>
   <subtitle>A weekly newsletter of useful/curious datasets.</subtitle>
+  <entry>
+    <id>dip-2023-01-18</id>
+    <title>Data Is Plural — 2023.01.18 edition</title>
+    <updated>2023-01-18T08:00:00-05:00</updated>
+    <content type="CDATA"><![CDATA[<p><em>Unreturned remains, money in UK politics, Brazilian biodiversity,
+government open-source policies, and food coloring.</em></p>
+<p> </p>
+<p><em>👋 Will you be attending <a
+href="https://www.ire.org/training/conferences/nicar-2023/">NICAR
+2023</a>? If so, <a
+href="https://docs.google.com/forms/d/e/1FAIpQLScflesJGWaChVJp1OokDpX3m7Ob8p_ZIqPakboD_BnC5MH_5g/viewform">click
+here</a> to propose a “Data Blitz” presentation; I’ll be moderating the
+event.</em></p>
+<p> </p>
+<p><strong>Unreturned remains.</strong> “The remains of more than
+110,000 Native American, Native Hawaiian and Alaska Natives’ ancestors
+are still held by museums, universities and federal agencies,” <a
+href="https://www.propublica.org/article/repatriation-nagpra-museums-human-remains">according
+to The Repatriation Project</a>, a ProPublica <a
+href="https://www.propublica.org/series/the-repatriation-project">investigative
+series</a> launched last week. The project’s <a
+href="https://projects.propublica.org/repatriation-nagpra-database/">interactive
+database</a> provides more detailed figures — such as counts by
+institution, tribe, and geography. It builds upon <a
+href="https://www.nps.gov/subjects/nagpra/databases.htm">National Park
+Service databases</a> that track institutional compliance with the <a
+href="https://www.nps.gov/subjects/nagpra/index.htm">Native American
+Graves Protection and Repatriation Act</a>, including each institution’s
+<a
+href="https://grantsdev.cr.nps.gov/NagpraPublic/Home/Inventory">self-reported
+counts of human remains and funerary objects not yet made available for
+return</a> and <a
+href="https://grantsdev.cr.nps.gov/NagpraPublic/Home/Notice">compliance
+updates published in the Federal Register</a>. <strong>Event</strong>:
+<a href="https://www.propublica.org/events/repatriation">ProPublica is
+hosting a webinar</a> at <a
+href="https://time.is/compare/4pm_18_Jan_2023_in_New_York">4pm US
+Eastern today</a>.</p>
+<p> </p>
+<p><strong>Money in UK politics.</strong> <a
+href="https://news.sky.com/story/the-westminster-accounts-12786091">The
+Westminster Accounts</a>, a recent collaboration between Sky News and
+Tortoise Media, examines the flow of money through UK politics. It does
+so by <a
+href="https://www.tortoisemedia.com/2023/01/08/letting-the-light-in/">combining</a>
+data from three key sources: the <a
+href="https://www.parliament.uk/mps-lords-and-offices/standards-and-financial-interests/parliamentary-commissioner-for-standards/registers-of-interests/register-of-members-financial-interests/">Register
+of Members’ Financial Interests</a>, <a
+href="http://search.electoralcommission.org.uk/English/Search/Donations">Electoral
+Commission records of donations to parties</a>, and the <a
+href="https://www.parliament.uk/mps-lords-and-offices/standards-and-financial-interests/parliamentary-commissioner-for-standards/registers-of-interests/register-of-all-party-party-parliamentary-groups/">Register
+of All-Party Parliamentary Groups</a>. You can search and explore the
+results through the collaboration’s <a
+href="https://www.tortoisemedia.com/westminster-accounts-explore/">interactive</a>
+<a
+href="https://news.sky.com/story/westminster-accounts-search-for-your-mp-or-enter-your-full-postcode-12771627">database</a>.
+They haven’t published a downloadable version yet, but <a
+href="https://til.simonwillison.net/shot-scraper/scraping-flourish">Simon
+Willison has extracted one</a>. <strong>Read more</strong>: <a
+href="https://www.tortoisemedia.com/2023/01/08/the-westminster-accounts-methodology/">The
+project’s methodology</a>.</p>
+<p> </p>
+<p><strong>Brazilian biodiversity.</strong> <a
+href="https://floradobrasil.jbrj.gov.br/reflora/listaBrasil/ConsultaPublicaUC/ConsultaPublicaUC.do#CondicaoTaxonCP">Flora
+e Funga do Brasil</a>, a project led by the Rio de Janeiro Botanical
+Garden Research Institute, aims to collect “morphological descriptions,
+identification keys and illustrations for all species of plants, algae
+and fungi known to the country.” With <a
+href="https://onlinelibrary.wiley.com/doi/10.1002/tax.12640">the help of
+hundreds of scientists</a>, the project currently covers 50,000+
+species. A <a
+href="https://ipt.jbrj.gov.br/jbrj/resource?r=lista_especies_flora_brasil">downloadable
+dataset</a> links each species’ various names and synonyms, geographic
+distribution, reference citations, and more. [h/t <a
+href="https://www.getgrist.com/blog/relational-spreadsheets-protect-brazil-plants-conservation/">Grist
+Labs</a>]</p>
+<p> </p>
+<p><strong>Government open-source policies.</strong> Researchers at the
+<a href="https://www.csis.org/programs/about-us">Center for Strategic
+and International Studies</a> have <a
+href="https://www.csis.org/programs/strategic-technologies-program/government-open-source-software-policies">compiled
+a dataset</a> of <a
+href="https://github.com/github/government-open-source-policies">660+
+government policies regarding open-source software</a> proposed at the
+national level since 1999. The <a
+href="https://github.com/github/government-open-source-policies/tree/main/data">dataset</a>
+indicates each proposed policy’s country, year, title, issuing
+authority, stated objective, status, and more. The countries with <a
+href="https://github.github.io/government-open-source-policies/">the
+largest number of entries</a>: Argentina, the US, and South Korea. [h/t
+<a href="https://github.com/khxu">Kevin Xu</a>]</p>
+<p> </p>
+<p><strong>Food coloring.</strong> <a
+href="https://www.sciencedirect.com/science/article/pii/S2352340922010095">Arlie
+L. Lehmkuhler et al.</a> have used <a
+href="https://en.wikipedia.org/wiki/High-performance_liquid_chromatography">high-performance
+liquid chromatography</a> to assemble a <a
+href="https://data.mendeley.com/datasets/7rpwxrphws/1">dataset</a>
+measuring the levels of <a
+href="https://www.fda.gov/industry/color-additive-inventories/summary-color-additives-use-united-states-foods-drugs-cosmetics-and-medical-devices#table1B">“FD&amp;C”
+color additives</a> (e.g., Yellow 5 and Red 40) in foods and drinks
+popular with children, such as breakfast cereals and fruit-flavored soft
+drinks. The results, organized by product category, include product- and
+dye-specific measurements, but do not name the particular products or
+brands.</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send artificial feedback
+to jsvine@gmail.com, or just reply to this email. • Looking for past
+datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. • Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions. • <a
+href="https://docs.google.com/document/d/e/2PACX-1vSP5xYrhqEvoGTi2aFzrsYQXadG8Gv0Y6YGWjib1e4qcXG45Sq5TSvngvh342DdcAEyEDIVd5V3RYcc/pub">Learn
+how to place an ad in Data Is Plural</a>.</em></p>
+]]></content>
+    <link href="http://www.data-is-plural.com/archive/2023-01-18-edition" rel="alternate"/>
+    <summary>Unreturned remains, money in UK politics, Brazilian biodiversity, government open-source policies, and food coloring.</summary>
+    <published>2023-01-18T08:00:00-05:00</published>
+  </entry>
   <entry>
     <id>dip-2023-01-11</id>
     <title>Data Is Plural — 2023.01.11 edition</title>
@@ -1056,117 +1176,5 @@ subscribe and to browse past editions.</em></p>
     <link href="http://www.data-is-plural.com/archive/2022-11-09-edition" rel="alternate"/>
     <summary>Income patterns, mine safety, William Still’s freedom-seekers, Sierra snowpack, and the turkey industry.</summary>
     <published>2022-11-09T08:00:00-05:00</published>
-  </entry>
-  <entry>
-    <id>dip-2022-11-02</id>
-    <title>Data Is Plural — 2022.11.02 edition</title>
-    <updated>2022-11-02T08:00:00-04:00</updated>
-    <content type="CDATA"><![CDATA[<p><em>Nuclear stockpiles, decades of river widths, flood insurance
-changes, the weight of the web, and Swiss apartment layouts.</em></p>
-<p> </p>
-<p><em>👋 Want to advertise in Data Is Plural? I’m auctioning off a few
-ad slots. <a
-href="https://docs.google.com/document/d/1XrqQlDfcduQ4zHOyOvjC3TF9lfCc5bSNUPyemJ3AIf4">Click
-here to learn more and to bid</a>.</em></p>
-<p> </p>
-<p><strong>Nuclear stockpiles.</strong> As of early 2022, a total of
-nine countries possessed approximately 12,700 nuclear warheads,
-according to <a
-href="https://fas.org/issues/nuclear-weapons/status-world-nuclear-forces/">estimates
-from the Federation of American Scientists</a>. Although “the exact
-number of nuclear weapons in each country’s possession is a closely held
-national secret,” the researchers say that “publicly available
-information, careful analysis of historical records, and occasional
-leaks” make the estimates possible, albeit “with significant
-uncertainty.” The report includes each country’s current warhead count
-and subtotals by status, as well as annual totals for each country since
-1945. <strong>As seen in</strong>: <a
-href="https://ourworldindata.org/nuclear-weapons">Our World In Data</a>.
-<strong>Previously</strong>: Nuclear <a
-href="http://www.matthewfuhrmann.com/datasets.html">capabilities</a> (<a
-href="https://www.data-is-plural.com/archive/2016-02-24-edition/">DIP
-2016.02.24</a>) and <a
-href="https://github.com/data-is-plural/nuclear-explosions">explosions</a>
-(<a
-href="https://www.data-is-plural.com/archive/2016-03-23-edition/">DIP
-2016.03.23</a>). [h/t <a
-href="https://www.reddit.com/r/dataisbeautiful/comments/y3o00f/oc_the_global_stockpile_of_nuclear_weapons/">u/jcceagle</a>]</p>
-<p> </p>
-<p><strong>Decades of river widths.</strong> <a
-href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2021WR031712">Dongmei
-Feng et al.</a> have applied an algorithmic approach to calculating the
-<a href="https://zenodo.org/record/6425657#.Y2AxIILMI-Q">widths of the
-world’s largest rivers over time</a>. Their dataset contains more than 1
-billion measurements of 2.7 million fluvial cross-sections (focusing on
-those wider than 90 meters), based on 1.2 million satellite images
-captured between 1984 and 2020. <strong>Previously</strong>: <a
-href="https://www.nature.com/articles/s41586-019-1111-9">Free-flowing
-rivers</a> (<a
-href="https://www.data-is-plural.com/archive/2019-07-24-edition/">DIP
-2019.07.24</a>) and <a
-href="https://www.usgs.gov/core-science-systems/ngp/national-hydrography/national-hydrography-dataset">US
-hydrography</a> (<a
-href="https://www.data-is-plural.com/archive/2022-10-12-edition/">DIP
-2022.10.12</a>). [h/t <a
-href="https://twitter.com/TheGeogrineer/status/1579857845759397894">Colin
-Gleason</a>]</p>
-<p> </p>
-<p><strong>Flood insurance changes.</strong> FEMA <a
-href="https://www.fema.gov/flood-insurance/risk-rating">recently
-revamped</a> its method of pricing US flood insurance, aiming for “rates
-that are actuarily sound, equitable, easier to understand and better
-reflect a property’s flood risk.” A <a
-href="https://www.fema.gov/flood-insurance/risk-rating/profiles">series
-of datasets and dashboards</a> from the agency summarize the expected
-changes in premiums, which began taking effect last year. They count the
-number of policies for which monthly payments were projected to
-increase/decrease by a given amount, bucketed into ten-dollar
-increments, for each state, county, and ZIP code. <strong>As seen
-in</strong>: “<a
-href="https://usafacts.org/articles/how-have-flood-insurance-premiums-changed/">How
-have flood insurance premiums changed?</a>” (USAFacts).</p>
-<p> </p>
-<p><strong>The weight of the web.</strong> Researchers at the <a
-href="https://httparchive.org/">HTTP Archive</a>, a project of the <a
-href="https://archive.org/">Internet Archive</a>, “periodically crawl
-the top sites on the web and record detailed information about fetched
-resources, used web platform APIs and features, and execution traces of
-each page.” They make the raw data <a
-href="https://github.com/HTTPArchive/httparchive.org/blob/main/docs/gettingstarted_bigquery.md">available
-via Google BigQuery</a>, and also publish <a
-href="https://httparchive.org/reports">aggregate data</a> tracking
-metrics such as <a
-href="https://httparchive.org/reports/loading-speed">loading speed</a>
-and <a href="https://httparchive.org/reports/page-weight">page
-weight</a> (measured in kilobytes transferred). <strong>As seen
-in</strong>: “<a
-href="https://blog.datawrapper.de/why-web-pages-can-have-a-size-problem/">Why
-web pages can have a size problem</a>” (Datawrapper).</p>
-<p> </p>
-<p><strong>Swiss apartment layouts.</strong> <a
-href="https://zenodo.org/record/7215005">Swiss Dwellings</a> “contains
-detailed data on over 42,500 apartments (250,000 rooms) in ~3,100
-buildings including their geometries, room typology as well as their
-visual, acoustical, topological and daylight characteristics,” collected
-by <a href="https://www.archilyse.com/">Archilyse AG</a>, a company that
-analyzes building plans. The details include the placement of rooms,
-features (e.g., sinks and bathtubs), walls, windows, doors, and more.
-[h/t <a
-href="https://twitter.com/MStandfest/status/1583745625341894656">Matthias
-Standfest</a> + <a
-href="https://twitter.com/indiainpixels/status/1578502689851592704">India
-in Pixels</a>]</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send feedback and first
-month’s rent to jsvine@gmail.com, or just reply to this email. Looking
-for past datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and to browse past editions.</em></p>
-]]></content>
-    <link href="http://www.data-is-plural.com/archive/2022-11-02-edition" rel="alternate"/>
-    <summary>Nuclear stockpiles, decades of river widths, flood insurance changes, the weight of the web, and Swiss apartment layouts.</summary>
-    <published>2022-11-02T08:00:00-04:00</published>
   </entry>
 </feed>
