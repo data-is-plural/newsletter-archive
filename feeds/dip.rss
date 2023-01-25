@@ -6,7 +6,131 @@
     <description>A weekly newsletter of useful/curious datasets.</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>https://github.com/data-is-plural/newsletter-archive</generator>
-    <lastBuildDate>Wed, 18 Jan 2023 08:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 25 Jan 2023 08:00:00 -0500</lastBuildDate>
+    <item>
+      <title>Data Is Plural — 2023.01.25 edition</title>
+      <link>http://www.data-is-plural.com/archive/2023-01-25-edition</link>
+      <description>More recalls, jazz solos, overdose-related “Good Samaritan” laws, upcoming weather, and cats on the move.</description>
+      <content:encoded><![CDATA[<p><em>More recalls, jazz solos, overdose-related “Good Samaritan” laws,
+upcoming weather, and cats on the move.</em></p>
+<p> </p>
+<p><strong>More recalls.</strong> <a
+href="https://www.data-is-plural.com/archive/2023-01-11-edition/">DIP
+2023.01.11</a> featured <a href="https://www.nhtsa.gov/recalls">vehicle
+recall data</a> from the National Highway Traffic Safety Administration.
+Other US federal agencies publishing recall data include the Food and
+Drug Administration, whose <a
+href="https://datadashboard.fda.gov/ora/cd/recalls.htm">dataset</a>
+contains 81,000+ entries related to food, drugs, medical devices, and
+related products going back to 2012; the Consumer Product Safety
+Commission, whose <a href="https://www.cpsc.gov/Recalls">database</a>
+spans 8,500+ recalls since 1973; and the Coast Guard, whose <a
+href="https://uscgboating.org/content/recalls.php">listing of 1,600+
+boat recalls</a> is not downloadable but seems possible to scrape.
+<strong>Also</strong>: Vehicle recall data from <a
+href="https://open.canada.ca/data/en/dataset/1ec92326-47ef-4110-b7ca-959fab03f96d">Canadian</a>
+and <a
+href="https://www.check-vehicle-recalls.service.gov.uk/recall-type/vehicle/make">UK</a>
+regulators. <strong>Previously</strong>: <a
+href="https://medicaldevices.icij.org/p/about">International medical
+device recalls</a> from ICIJ’s <a
+href="https://medicaldevices.icij.org/">Implant Files</a> (<a
+href="https://www.data-is-plural.com/archive/2019-04-17-edition/">DIP
+2019.04.17</a>).</p>
+<p> </p>
+<p><strong>Jazz solos.</strong> The <a
+href="https://jazzomat.hfm-weimar.de/">Jazzomat Research Project</a>,
+hosted at the <a href="https://www.hfm-weimar.de/en/start">University of
+Music Franz Liszt Weimar</a>, aims “to investigate the creative
+processes underlying jazz solo improvisations with the help of
+statistical and computational methods.” The project’s <a
+href="https://jazzomat.hfm-weimar.de/dbformat/dboverview.html">main
+database</a> contains transcriptions and analyses of <a
+href="https://jazzomat.hfm-weimar.de/dbformat/dbcontent.html">450+
+solos</a> by John Coltrane, Charlie Parker, and dozens of other artists.
+The <a
+href="https://jazzomat.hfm-weimar.de/download/download.html">downloadable</a>
+version <a
+href="https://jazzomat.hfm-weimar.de/dbformat/dbformat.html">includes</a>
+each “event” in each solo: its pitch, loudness, time of onset, duration,
+and more. <strong>As seen in</strong>: “<a
+href="https://www.npr.org/sections/health-shots/2023/01/18/1139783203/what-makes-songs-swing-physicists-unravel-jazz-mystery">What
+makes that song swing? At last, physicists unravel a jazz mystery</a>”
+(NPR). [h/t <a href="https://twitter.com/jpmarindiaz">Juan Pablo Marín
+Díaz</a>]</p>
+<p> </p>
+<p><strong>Overdose-related “Good Samaritan” laws.</strong> <a
+href="https://www.sciencedirect.com/science/article/abs/pii/S0955395922003127">Shane
+W. Reader et al.</a> have <a
+href="https://data.mendeley.com/datasets/r65b6hrdhm/2">compiled data</a>
+on US state laws that “prevent or mitigate criminal consequences for
+activities pertaining to controlled substances for persons who call 911
+to report a drug overdose.” Their dataset spans April 2007 to June 2022
+and covers all 50 states, plus DC. The details include the types of
+people protected (e.g., the person overdosing, the caller,
+self-reporters), the kinds of protection conferred (e.g., with regard to
+arrests, charges, sentencing), the types of violations protected, and
+more.</p>
+<p> </p>
+<p><strong>Upcoming weather.</strong> <a
+href="https://alexanderrey.ca/">Alexander Rey</a>’s <a
+href="https://pirateweather.net/">Pirate Weather</a> aims to be a “drop
+in replacement” for <a href="https://darksky.net/dev">DarkSky’s weather
+forecast API</a>, <a
+href="https://blog.darksky.net/dark-sky-has-a-new-home/">which is
+shutting down</a>. It pulls data from <a
+href="https://docs.pirateweather.net/en/latest/#data-sources">several
+NOAA forecast models</a> in order to provide minute-level, hourly, and
+daily predictions of temperature, precipitation, cloud cover, and more.
+<strong>Note</strong>: The API is free to use but is limited to 20,000
+calls per month. <strong>Related</strong>: Pirate Weather powers <a
+href="https://merrysky.net/">Merry Sky</a>, a website <a
+href="https://www.houstonchronicle.com/business/tech/article/dwight-silverman-dark-sky-merry-sky-17728129.php">built</a>
+by <a href="https://github.com/guillaume">Guillaume Carbonneau</a>. [h/t
+<a
+href="https://buttondown.email/puntofisso/archive/501-quantum-of-sollazzo/">Giuseppe
+Sollazzo</a>]</p>
+<p> </p>
+<p><strong>Cats on the move.</strong> Between 2013 and 2017, <a
+href="https://zslpublications.onlinelibrary.wiley.com/doi/10.1111/acv.12563">Roland
+Kays et al.</a> convinced hundreds of volunteers in the <a
+href="https://www.datarepository.movebank.org/handle/10255/move.885">US</a>,
+<a
+href="https://www.datarepository.movebank.org/handle/10255/move.882">UK</a>,
+<a
+href="https://www.datarepository.movebank.org/handle/10255/move.876">Australia</a>,
+and <a
+href="https://www.datarepository.movebank.org/handle/10255/move.879">New
+Zealand</a> to strap GPS sensors on their pet cats. The aforelinked
+datasets include each cat’s characteristics (such as age, sex, neuter
+status, hunting habits) and timestamped GPS pings.
+<strong>Related</strong>: <a
+href="https://cattracker.org/">CatTracker.org</a>, the homepage for the
+US branch of the project, features a <a
+href="https://cattracker.org/tracks/">cat-track browser</a>.
+<strong>Previously</strong>: <a
+href="https://zenodo.org/record/4008297#.Y86t4uLMI-Q">Cat meows</a> (<a
+href="https://www.data-is-plural.com/archive/2021-06-30-edition/">DIP
+2021.06.30</a>). [h/t <a
+href="https://public.tableau.com/app/profile/rika.fujiwara/viz/CatsTripGPStrackingdataofdomesticcatsintheUS/board">Rika
+Fujiwara</a> + <a
+href="https://fairwarning.substack.com/p/fair-warning-why-not-have-bar-charts">Soph
+Warnes</a>]</p>
+<p> </p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send feline feedback to
+jsvine@gmail.com, or just reply to this email. • Looking for past
+datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. • Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions. • <a
+href="https://docs.google.com/document/d/e/2PACX-1vSP5xYrhqEvoGTi2aFzrsYQXadG8Gv0Y6YGWjib1e4qcXG45Sq5TSvngvh342DdcAEyEDIVd5V3RYcc/pub">Learn
+how to place an ad in Data Is Plural</a>.</em></p>
+]]></content:encoded>
+      <guid isPermaLink="false">dip-2023-01-25</guid>
+      <pubDate>Wed, 25 Jan 2023 08:00:00 -0500</pubDate>
+    </item>
     <item>
       <title>Data Is Plural — 2023.01.18 edition</title>
       <link>http://www.data-is-plural.com/archive/2023-01-18-edition</link>
@@ -1054,115 +1178,6 @@ subscribe and to browse past editions.</em></p>
 ]]></content:encoded>
       <guid isPermaLink="false">dip-2022-11-16</guid>
       <pubDate>Wed, 16 Nov 2022 08:00:00 -0500</pubDate>
-    </item>
-    <item>
-      <title>Data Is Plural — 2022.11.09 edition</title>
-      <link>http://www.data-is-plural.com/archive/2022-11-09-edition</link>
-      <description>Income patterns, mine safety, William Still’s freedom-seekers, Sierra snowpack, and the turkey industry.</description>
-      <content:encoded><![CDATA[<p><em>Income patterns, mine safety, William Still’s freedom-seekers,
-Sierra snowpack, and the turkey industry.</em></p>
-<p> </p>
-<p><em>👋 Just a friendly reminder that Data Is Plural’s <a
-href="https://docs.google.com/document/d/e/2PACX-1vTXIOxdgUUJN6v6QrWaexvcYXS_M8wlpt8VIEPMrYaqdfdFr9_K_mEo9cnYDkr2KHxDoXyu5e79TlBh/pub">ad-placement
-auction</a> concludes tomorrow, and that you can <a
-href="https://docs.google.com/forms/d/e/1FAIpQLSc_nGtpP8FHdLeI3V8LDhKCP1fOhZOrk1Yyngzy9EdE3wTsuw/viewform">submit
-your bid here</a>.</em></p>
-<p> </p>
-<p><strong>Income patterns.</strong> The <a
-href="https://www.grid-database.org/">Global Repository of Income
-Dynamics</a> is a <a
-href="https://twitter.com/fatihguvenen/status/1576960664534683648">new</a>
-“open-access international database that provides a wealth of micro
-statistics on income inequality and income dynamics.” It was <a
-href="https://www.grid-database.org/documentation">constructed</a> by an
-<a href="https://www.grid-database.org/team">international team of
-economists</a> using longitudinal administrative data and “designed from
-ground up with a focus on comparability across countries.” The project’s
-<a href="https://data.grid-database.org/">data access tool</a> provides
-stats ranging from the widely-understood (e.g., share of income going to
-the top 1%) to the more specialized (e.g., <a
-href="https://en.wikipedia.org/wiki/Kurtosis">kurtosis</a> coefficients
-of various income-change distributions). It currently covers 13
-countries (although access to the UK’s data is listed as “coming soon”),
-with timespans that typically stretch from the 1980s or 1990s to the
-mid/late-2010s.</p>
-<p> </p>
-<p><strong>Mine safety.</strong> The Department of Labor’s <a
-href="https://www.msha.gov/">Mine Safety and Health Administration</a>
-“develops and enforces safety and health rules for all U.S. mines
-regardless of size, number of employees, commodity mined, or method of
-extraction.” Its <a
-href="https://www.msha.gov/mine-data-retrieval-system">Mine Data
-Retrieval System</a> provides a search interface and downloads of
-records collected through this oversight role, including detailed
-information about individual accidents since January 2000, civil
-penalties, coal dust samples, mine owner and operator histories,
-employment and production levels, and more.</p>
-<p> </p>
-<p><strong>Still’s freedom-seekers.</strong> <a
-href="http://stillfamily.library.temple.edu/stillfamily/exhibits/show/william-still">William
-Still</a>, a Philadelphia-based abolitionist and key leader of the
-Underground Railroad, kept records of the freedom-seekers he helped to
-escape the South, details of which he recounted in <a
-href="https://archive.org/details/undergroundrailr00stil/page/n7/mode/2up">his
-1872 magnum opus</a>. In the early 2000s, the late <a
-href="http://web.archive.org/web/20160420195346/http://guides.temple.edu/c.php?g=77805&amp;p=515005">James
-A. McGowan compiled those descriptions into a spreadsheet</a> listing
-each runaway’s name, gender, age, date of escape, enslaver’s name, and
-more. <a href="https://www.historylive.net/">William C. Kashatus</a>’s
-<a href="https://undpress.nd.edu/9780268200367/william-still/">2021
-biography of Still</a> draws on McGowan’s efforts and other records to
-construct a listing of 995 runaways whom Still assisted, which historian
-<a href="https://pastexplore.wordpress.com/about/">Nick Sacco</a> has <a
-href="https://twitter.com/NickSacco55/status/1587582014974304261">converted</a>
-into <a
-href="https://docs.google.com/spreadsheets/d/1kwiUt3mO9ke96lgV9IoE9D3aq29MVgMC/edit">a
-spreadsheet</a>. [h/t <a
-href="https://www.linkedin.com/in/eric-gardner-0531aa9/">Eric
-Gardner</a>]</p>
-<p> </p>
-<p><strong>Sierra snowpack.</strong> For decades, UC Berkeley’s <a
-href="https://cssl.berkeley.edu/">Central Sierra Snow Lab</a> has been
-collecting daily temperature, snowfall, snowpack, and related
-measurements at its field station near Donner Pass. Until recently, the
-records were available only upon request. That <a
-href="https://www.lib.berkeley.edu/about/news/snowpack-data">changed
-last year</a>, when the lab published a <a
-href="https://datadryad.org/stash/dataset/doi:10.6078%2FD1941T">fully-public
-dataset of the daily measurements for October 1970 to September
-2019</a>.</p>
-<p> </p>
-<p><strong>The turkey industry.</strong> The USDA’s <a
-href="https://www.nass.usda.gov/">National Agricultural Statistics
-Service</a> publishes monthly and annual reports estimating the number
-of turkeys <a
-href="https://usda.library.cornell.edu/concern/publications/k643b117x?locale=en">incubating</a>,
-<a
-href="https://usda.library.cornell.edu/concern/publications/0g354f23n?locale=en">raised</a>,
-<a
-href="https://usda.library.cornell.edu/concern/publications/3197xm04j?locale=en">slaughtered</a>,
-and <a
-href="https://usda.library.cornell.edu/concern/publications/pg15bd892?locale=en">in
-cold storage</a>, based on surveys and food-safety inspections. The
-reports contain semi-structured data tables, while more-structured data
-can be fetched through the agency’s <a
-href="https://quickstats.nass.usda.gov/">Quick Stats tool</a> and <a
-href="https://quickstats.nass.usda.gov/api/">API</a>. [h/t <a
-href="https://www.vox.com/the-goods/22770592/2021-thanksgiving-turkey-shortage-prices">Emily
-Stewart</a> + <a
-href="https://numlock.substack.com/p/numlock-news-november-11-2021-bees">Walt
-Hickey</a>]</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send feedback and
-Thanksgiving plans to jsvine@gmail.com, or just reply to this email.
-Looking for past datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and to browse past editions.</em></p>
-]]></content:encoded>
-      <guid isPermaLink="false">dip-2022-11-09</guid>
-      <pubDate>Wed, 09 Nov 2022 08:00:00 -0500</pubDate>
     </item>
   </channel>
 </rss>
