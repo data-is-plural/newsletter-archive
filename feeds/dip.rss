@@ -151,7 +151,12 @@ Commission, whose <a href="https://www.cpsc.gov/Recalls">database</a>
 spans 8,500+ recalls since 1973; and the Coast Guard, whose <a
 href="https://uscgboating.org/content/recalls.php">listing of 1,600+
 boat recalls</a> is not downloadable but seems possible to scrape.
-<strong>Also</strong>: Vehicle recall data from <a
+<em>[Update, 2023-02-01: Reader <a
+href="https://m-nolan.github.io/">Michael Nolan</a> took up the
+boat-recall challenge; <a
+href="https://github.com/m-nolan/USCG_Boat_Recalls">here’s the dataset
+he extracted</a>.]</em> <strong>Also</strong>: Vehicle recall data from
+<a
 href="https://open.canada.ca/data/en/dataset/1ec92326-47ef-4110-b7ca-959fab03f96d">Canadian</a>
 and <a
 href="https://www.check-vehicle-recalls.service.gov.uk/recall-type/vehicle/make">UK</a>
