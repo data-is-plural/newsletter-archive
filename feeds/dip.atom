@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.data-is-plural.com</id>
   <title>Data Is Plural</title>
-  <updated>2023-01-25T08:00:00-05:00</updated>
+  <updated>2023-02-01T08:00:00-05:00</updated>
   <author>
     <name>Jeremy Singer-Vine</name>
     <email>jsvine@gmail.com</email>
@@ -10,6 +10,131 @@
   <link href="https://www.data-is-plural.com" rel="alternate"/>
   <generator>https://github.com/data-is-plural/newsletter-archive</generator>
   <subtitle>A weekly newsletter of useful/curious datasets.</subtitle>
+  <entry>
+    <id>dip-2023-02-01</id>
+    <title>Data Is Plural — 2023.02.01 edition</title>
+    <updated>2023-02-01T08:00:00-05:00</updated>
+    <content type="CDATA"><![CDATA[<p><em>Women’s well-being, radiation-contaminated waste, novel dialogue,
+browser capabilities, and more English football.</em></p>
+<p> </p>
+<p><em>📣 <strong>Ad:</strong> Access all the data your business needs,
+with <a href="https://get.brightdata.com/ofibrgx4uvty">Bright Data</a>;
+from complete structured datasets to developing web scrapers fast and on
+a mass scale. Take control of your data strategy with our all-in-one
+solution. <a href="https://get.brightdata.com/ofibrgx4uvty">Get a
+dataset sample today</a>!</em></p>
+<p> </p>
+<p><em>👋 In <a
+href="https://www.data-is-plural.com/archive/2023-01-25-edition/">last
+week’s newsletter</a>, I noted that the <a
+href="https://uscgboating.org/content/recalls.php">Coast Guard’s list of
+boat recalls</a> “seems possible to scrape.” Reader <a
+href="https://m-nolan.github.io/">Michael Nolan</a> took up the
+challenge; <a href="https://github.com/m-nolan/USCG_Boat_Recalls">here’s
+the dataset he extracted</a>. Thanks, Michael!</em></p>
+<p> </p>
+<p><strong>Women’s well-being.</strong> <a
+href="https://www.nature.com/articles/s41597-022-01824-2">Camille Belmin
+et al.</a>’s <a href="https://zenodo.org/record/7277104">LivWell
+dataset</a> presents “a set of key indicators on women’s socio-economic
+status, health and well-being, access to basic services and demographic
+outcomes” in 447 regions of 52 countries from 1990 to 2019. The
+indicators include, for example, rates of home ownership, educational
+attainment, and domestic violence; they’re based primarily on <a
+href="https://dhsprogram.com/data/">data</a> from the <a
+href="https://dhsprogram.com/">Demographic and Health Surveys
+Program</a>, a <a
+href="https://dhsprogram.com/Who-We-Are/About-Us.cfm">USAID-funded</a>
+initiative that, since 1984, “has provided technical assistance to more
+than 400 surveys in over 90 countries, advancing global understanding of
+health and population trends in developing countries.” <strong>Read
+more</strong>: <a
+href="https://twitter.com/BelminCamille/status/1597948618220384256">An
+introductory Twitter thread from Belmin</a>.</p>
+<p> </p>
+<p><strong>Radiation-contaminated waste.</strong> The US Nuclear
+Regulatory Commission <a
+href="https://www.nrc.gov/waste/llw-disposal.html">regulates the
+disposal</a> of <a
+href="https://www.nrc.gov/waste/low-level-waste.html">“low-level”
+radioactive waste</a> — “items that have become contaminated with
+radioactive material or have become radioactive through exposure to
+neutron radiation,” such as protective equipment and cleaning supplies.
+The NRC provides <a
+href="https://www.nrc.gov/waste/llw-disposal/licensing/statistics.html">annual
+statistics</a> (facility, volume, and total <a
+href="https://www.nrc.gov/reading-rm/basic-ref/glossary/curie-ci.html">curies</a>)
+for the country’s <a
+href="https://www.nrc.gov/waste/llw-disposal/licensing/locations.html">four
+active disposal sites</a>. The Department of Energy’s <a
+href="https://mims.doe.gov/Default.aspx">Manifest Information Management
+System</a> provides more detailed figures, with breakdowns by month,
+state of origin, <a
+href="https://www.nrc.gov/reading-rm/basic-ref/glossary/waste-classification-classes-of-waste.html">waste
+classification</a>, isotope, and more. <strong>Previously</strong>: <a
+href="https://www.eia.gov/nuclear/spent_fuel/">Data</a> from the <a
+href="https://www.eia.gov/Survey/#gc-859">Nuclear Fuel Data Survey</a>
+(<a
+href="https://www.data-is-plural.com/archive/2022-11-23-edition/">DIP
+2022.11.23</a>).</p>
+<p> </p>
+<p><strong>Novel dialogue.</strong> <a
+href="https://arxiv.org/abs/2204.05836">Krishnapriya Vishnubhotla et
+al.</a>’s <a
+href="https://github.com/Priya22/project-dialogism-novel-corpus">Project
+Dialogism Novel Corpus</a> contains every quotation from 22 novels, plus
+who speaks each line, who they’re addressing, the characters they
+mention, and more. With 35,000+ quotations, the corpus “is by an order
+of magnitude the largest dataset of annotated quotations for literary
+texts in English.” Jane Austen is the most-represented author (five
+novels), followed by E.M. Forster (two). The researchers have also <a
+href="https://docs.google.com/document/d/1eBsX2rjdLBkmA-kWB_jHCxC1nmbzinH04WUg9PeN_2A/edit">published
+a document</a> that they “hope will help standardize future annotation
+work in this domain.”</p>
+<p> </p>
+<p><strong>Browser capabilities.</strong> <a
+href="https://a.deveria.com/">Alexis Deveria</a>’s <a
+href="https://caniuse.com/">caniuse.com</a> indicates which versions of
+which web browsers support various web technologies, such as <a
+href="https://caniuse.com/css-grid">CSS’s grid layout</a>, the <a
+href="https://caniuse.com/webp">WebP image format</a>, and the <a
+href="https://caniuse.com/imagecapture">Image Capture API</a>. The <a
+href="https://github.com/Fyrd/caniuse">project’s dataset</a> covers 530+
+technologies and 19 browsers (6 desktop, 13 mobile). It also provides
+estimates of the percentage of all users whose browsers support a given
+technology. [h/t <a
+href="https://fedi.simonwillison.net/@simon/109733835468757632">Simon
+Willison</a>]</p>
+<p> </p>
+<p><strong>More English football.</strong> <a
+href="http://www.joshuafjelstul.com/">Josh Fjelstul</a>’s <a
+href="https://github.com/jfjelstul/englishfootball">English Football
+Database</a> “is a comprehensive database of football matches played in
+the Premier League and the English Football League from the inaugural
+season of the Football League (1888-89) through the most recent season
+(2021-22).” It records each season, team, match, and the standings table
+at the end of each season. <strong>Previously</strong>: <a
+href="http://curleylab.psych.columbia.edu/curley.html">James P.
+Curley</a>’s <a href="https://github.com/jalapic/engsoccerdata">English
+soccer dataset</a> (<a
+href="https://www.data-is-plural.com/archive/2016-05-04-edition/">DIP
+2016.05.04</a>), since expanded to leagues in a dozen more countries.
+[h/t <a href="http://knosof.co.uk/ESEUR/">Derek M. Jones</a>]</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send premier feedback to
+jsvine@gmail.com, or just reply to this email. • Looking for past
+datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. • Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions. • <a
+href="https://docs.google.com/document/d/e/2PACX-1vSP5xYrhqEvoGTi2aFzrsYQXadG8Gv0Y6YGWjib1e4qcXG45Sq5TSvngvh342DdcAEyEDIVd5V3RYcc/pub">Learn
+how to place an ad in Data Is Plural</a>.</em></p>
+]]></content>
+    <link href="http://www.data-is-plural.com/archive/2023-02-01-edition" rel="alternate"/>
+    <summary>Women’s well-being, radiation-contaminated waste, novel dialogue, browser capabilities, and more English football.</summary>
+    <published>2023-02-01T08:00:00-05:00</published>
+  </entry>
   <entry>
     <id>dip-2023-01-25</id>
     <title>Data Is Plural — 2023.01.25 edition</title>
@@ -1074,122 +1199,5 @@ how to place an ad in Data Is Plural</a>.</em></p>
     <link href="http://www.data-is-plural.com/archive/2022-11-23-edition" rel="alternate"/>
     <summary>Presidential pardons, radioactive waste, songs of the world, semiconductor logistics, and “every Star Trek ever.”</summary>
     <published>2022-11-23T08:00:00-05:00</published>
-  </entry>
-  <entry>
-    <id>dip-2022-11-16</id>
-    <title>Data Is Plural — 2022.11.16 edition</title>
-    <updated>2022-11-16T08:00:00-05:00</updated>
-    <content type="CDATA"><![CDATA[<p><em>Big emitters, disease outbreaks, permissively-licensed code,
-impact craters, and tinned fish.</em></p>
-<p> </p>
-<p><em>📣 <strong>Ad:</strong> It takes longer to read this ad than it
-takes to create and share a free <a
-href="https://bit.io/?utm_source=data-is-plural&amp;utm_medium=newsletter&amp;utm_campaign=plural_20221116">serverless
-postgres</a> database on <a
-href="https://bit.io/?utm_source=data-is-plural&amp;utm_medium=newsletter&amp;utm_campaign=plural_20221116">bit.io</a>.
-Drag. Drop. <a
-href="https://bit.io/?utm_source=data-is-plural&amp;utm_medium=newsletter&amp;utm_campaign=plural_20221116">Database</a>.</em></p>
-<p> </p>
-<p><strong>Big emitters.</strong> <a
-href="https://climatetrace.org/">Climate TRACE</a>, a <a
-href="https://climatetrace.org/our-story">nonprofit coalition</a>
-launched in 2020, uses satellite imagery, sector-specific datasets, and
-<a
-href="https://climatetrace.org/public/upload/files/62f50cfb415f6.pdf?v=1667641844">other
-sources</a> to estimate greenhouse gas emissions in detail. Their most
-recent inventory, <a
-href="https://climatetrace.org/news/more-than-70000-of-the-highest-emitting-greenhouse-gas">released
-last week</a>, highlights 70,000+ individual sites that “represent the
-top known sources of emissions in the power sector, oil and gas
-production and refining, shipping, aviation, mining, waste, agriculture,
-road transportation, and the production of steel, cement, and aluminum.”
-You can <a href="https://climatetrace.org/downloads">download the
-data</a>, <a href="https://climatetrace.org/inventory">explore sector-
-and country-level estimates</a>, and <a
-href="https://climatetrace.org/map">browse a map of the sites</a>.
-<strong>Read more</strong>: <a
-href="https://www.nytimes.com/2022/11/09/climate/climate-change-emissions-satellites.html">Coverage
-in the New York Times</a>. [h/t <a href="https://enjalot.github.io/">Ian
-Johnson</a>]</p>
-<p> </p>
-<p><strong>Disease outbreaks.</strong> <a
-href="https://www.nature.com/articles/s41597-022-01797-2">Juan Armando
-Torres Munguía et al.</a> have built a <a
-href="https://figshare.com/articles/dataset/A_global_dataset_of_pandemic-_and_epidemic-prone_disease_outbreaks/17207183/2">dataset
-of infectious disease outbreaks</a>, based on information extracted from
-the World Health Organization’s <a
-href="https://www.who.int/emergencies/disease-outbreak-news">Disease
-Outbreak News alerts</a> (<a
-href="https://www.data-is-plural.com/archive/2022-03-30-edition/">DIP
-2022.03.30</a>) and its <a href="https://covid19.who.int/">coronavirus
-dashboard</a>. The authors have clustered the outbreaks by disease
-(classified by <a href="https://icd.who.int/browse10/2019/en">ICD-10</a>
-and <a href="https://icd.who.int/browse11/l-m/en">ICD-11</a> codes),
-country, and year. Excluding the COVID-19 pandemic, this leads to 1,500+
-total combinations between January 1996 and March 2022, spanning 60+
-diseases and 200+ countries/territories. [h/t <a
-href="https://twitter.com/KM_Wacker/status/1590766979501420544">Konstantin
-M. Wacker</a>]</p>
-<p> </p>
-<p><strong>Permissively-licensed code.</strong> <a
-href="https://huggingface.co/datasets/bigcode/the-stack">The Stack</a>,
-a new dataset from the <a
-href="https://www.bigcode-project.org/">BigCode project</a>, “contains
-over 3TB of permissively-licensed source code files covering 30
-programming languages crawled from GitHub.” Those terabytes hold more
-than 300 million files extracted from repositories whose licenses place
-“minimal restrictions on how the software can be copied, modified, and
-redistributed.” The dataset provides the contents of each file along
-with its repository name, path, size, programming language, detected
-licenses, and several high-level metrics. <strong>Read more</strong>: <a
-href="https://twitter.com/BigCodeProject/status/1585631176353796097">An
-introductory Twitter thread</a> and <a
-href="https://ml4code.github.io/publications/kocetkov2022stack/">preprint
-paper</a>. [h/t <a href="https://ksaj.inlisp.org">Karsten
-Johansson</a>]</p>
-<p> </p>
-<p><strong>Impact craters.</strong> The <a
-href="http://www.passc.net/EarthImpactDatabase/New%20website_05-2018/Index.html">Earth
-Impact Database</a>, maintained by the University of New Brunswick’s <a
-href="http://www.passc.net/AboutUs/index.html">Planetary and Space
-Science Centre</a>, catalogs nearly 200 <a
-href="http://www.passc.net/EarthImpactDatabase/New%20website_05-2018/IntrotoImpacts.html">impact
-craters</a> caused by meteorites that have crashed into the planet. It
-presents the name, location, diameter, estimated age, geology, and other
-features of the craters, as well as photographs and bibliographies.
-<strong>Related</strong>: <a href="https://codywinchester.com/">Cody
-Winchester</a> has <a
-href="https://github.com/cjwinchester/earth-impact-data">scraped the
-crater characteristics into CSV and GeoJSON files</a>.</p>
-<p> </p>
-<p><strong>Tinned fish.</strong> <a
-href="https://rainbowtomatoesgarden.com/">Rainbow Tomatoes Garden</a> is
-a farm in East Greenville, Pennsylvania, that also happens to run an <a
-href="https://rainbowtomatoesgarden.com/index.php/product-category/conservas/">online
-store</a> selling “the largest selection of tinned seafood in the
-world.” <a
-href="https://rainbowtomatoesgarden.com/index.php/product/ten-tins-to-try-and-why-by-dan-waber/">Curator</a>-owner
-<a
-href="https://phillygrub.blog/2022/06/18/tomatoes-and-tinned-fish/">Dan
-Waber</a> publishes a <a
-href="https://docs.google.com/spreadsheets/d/1zjfwXVsGPfWw4ag3EHkT6ismDZhj8dlFwwahD7SG7gQ/edit">spreadsheet</a>
-of the store’s 630+ offerings, <a
-href="https://rainbowtomatoesgarden.com/index.php/choosing-a-tin/">listing</a>
-each product’s name, type of seafood, brand, country of origin, tin
-size, and price; whether it’s organic, certified kosher, smoked,
-boneless, and/or skinless; and more. [h/t <a
-href="https://www.georgeho.org/">George Ho</a>]</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send tinned feedback to
-jsvine@gmail.com, or just reply to this email. Looking for past
-datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and to browse past editions.</em></p>
-]]></content>
-    <link href="http://www.data-is-plural.com/archive/2022-11-16-edition" rel="alternate"/>
-    <summary>Big emitters, disease outbreaks, permissively-licensed code, impact craters, and tinned fish.</summary>
-    <published>2022-11-16T08:00:00-05:00</published>
   </entry>
 </feed>
