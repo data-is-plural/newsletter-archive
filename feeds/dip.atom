@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.data-is-plural.com</id>
   <title>Data Is Plural</title>
-  <updated>2023-02-01T08:00:00-05:00</updated>
+  <updated>2023-02-08T08:00:00-05:00</updated>
   <author>
     <name>Jeremy Singer-Vine</name>
     <email>jsvine@gmail.com</email>
@@ -10,6 +10,118 @@
   <link href="https://www.data-is-plural.com" rel="alternate"/>
   <generator>https://github.com/data-is-plural/newsletter-archive</generator>
   <subtitle>A weekly newsletter of useful/curious datasets.</subtitle>
+  <entry>
+    <id>dip-2023-02-08</id>
+    <title>Data Is Plural — 2023.02.08 edition</title>
+    <updated>2023-02-08T08:00:00-05:00</updated>
+    <content type="CDATA"><![CDATA[<p><em>African American biographies (1508–1865), foreign direct
+investment, India’s high-court judges, US aquifers, and prognosticating
+groundhogs.</em></p>
+<p> </p>
+<p><strong>African American biographies, 1508–1865.</strong> The <a
+href="https://hutchinscenter.fas.harvard.edu/AANB">African American
+National Biography</a>, first printed in 2008 and expanded to a <a
+href="https://global.oup.com/academic/product/african-american-national-biography-9780199920778">twelve-volume
+second edition in 2013</a>, is “the most extensive African American
+biographical encyclopedia ever compiled, including the widest range of
+historically significant black individuals possible.” Edited by <a
+href="https://en.wikipedia.org/wiki/Henry_Louis_Gates_Jr.">Henry Louis
+Gates, Jr.</a> and <a
+href="https://en.wikipedia.org/wiki/Evelyn_Brooks_Higginbotham">Evelyn
+Brooks Higginbotham</a>, the print volumes feature nearly 5,000 entries,
+with additional biographies published in an <a
+href="https://oxfordaasc.com/page/about">online collection</a> (<a
+href="https://oxfordaasc.com/page/subscribe#personal-subscriptions">subscription
+required</a>). Executive editor <a
+href="https://hutchinscenter.fas.harvard.edu/people/steven-j-niven">Steven
+J. Niven</a> has <a
+href="https://jsdp.enslaved.org/fullDataArticle/volume1-issue2-african-american-national-biography/">created</a>
+a <a
+href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/FIEYGJ">dataset</a>
+describing the 1,300+ people in the encyclopedia born before the US
+abolition of slavery. It includes their names, dates and places of
+birth, occupations, whether they were ever enslaved and/or freed before
+abolition, how they obtained freedom, and much more.</p>
+<p> </p>
+<p><strong>Foreign direct investment.</strong> Among its many
+activities, the <a href="https://www.bea.gov/">Bureau of Economic
+Analysis</a> collects data on <a
+href="https://www.bea.gov/surveys/diasurv">US-owned businesses’ direct
+investments abroad</a> and <a
+href="https://www.bea.gov/surveys/fdiusurv">those by foreign-owned
+businesses in the US</a>. The agency provides <a
+href="https://www.bea.gov/itable/direct-investment-multinational-enterprises">statistics
+based on that data</a>, aggregated by industry and country. The metrics,
+available as <a
+href="https://www.bea.gov/international/direct-investment-and-multinational-enterprises-comprehensive-data">spreadsheets</a>
+and <a
+href="https://apps.bea.gov/iTable/?ReqID=2&amp;step=1">interactive
+tables</a>, include cumulative investments, overall transaction flows,
+foreign affiliates’ employee counts, and more. <strong>As seen
+in</strong>: “<a
+href="https://usafacts.org/articles/why-are-us-companies-investing-more-abroad/">Why
+are US companies investing more abroad?</a>” (USAFacts).</p>
+<p> </p>
+<p><strong>India’s high-court judges.</strong> <a
+href="https://justicehub.in/initiatives/khoj-india">Know Your High Court
+Judges</a>, a multi-institution collaboration, has compiled biographical
+and professional data on all 1,700+ judges appointed to India’s <a
+href="https://en.wikipedia.org/wiki/High_courts_of_India">high
+courts</a> (each state and union territory’s top appellate court)
+between late 1993 and mid-2021. The details, based on a <a
+href="https://justicehub.in/dataset/khoj-india/resource/fa59eb2e-04a5-461f-94e3-1367f67c3a8c">range
+of official sources</a>, include each judge’s name, gender, date and
+place of birth, dates of appointment and retirement, courts served,
+prior experience, and more. [h/t <a
+href="https://github.com/apoorv74">Apoorv Anand</a> via <a
+href="https://csvconf.com/speakers/">csv,conf,v7</a>]</p>
+<p> </p>
+<p><strong>US aquifers.</strong> <a
+href="https://www.nature.com/articles/s41467-022-29678-7">Merhawi
+GebreEgziabher et al.</a>, seeing several shortcomings of the <a
+href="https://www.usgs.gov/mission-areas/water-resources/science/principal-aquifers-united-states">US
+Geological Survey’s aquifer location data</a> for “locally relevant”
+research, decided to build the <a
+href="https://www.hydroshare.org/resource/d2260651b51044d0b5cb2d293d21af08/">United
+States Aquifer Database</a>. It delineates the <a
+href="https://ucsb.maps.arcgis.com/apps/instant/nearby/index.html?appid=2a238e4ed2434d21b3b53c861a064d8f">boundaries</a>,
+constructed “after reviewing hundreds of primary literature sources,” of
+440 aquifer systems in the contiguous US — from the <a
+href="https://www.env.gov.bc.ca/wsd/plan_protect_sustain/groundwater/aquifers/absumas.html">Abbotsford-Sumas
+Aquifer</a> straddling the Washington-Canada border to the <a
+href="https://www.usgs.gov/centers/caribbean-florida-water-science-center-%28cfwsc%29/science/mapping-water-levels-biscayne">Biscayne
+Aquifer</a> in southern Florida. <strong>Read more</strong>: <a
+href="https://storymaps.arcgis.com/stories/a91f061759e64e44af38daf6cefa4259">A
+visual tour of twelve aquifers</a>.</p>
+<p> </p>
+<p><strong>Prognosticating groundhogs.</strong> <a
+href="https://pcraig3.ca/">Paul Craig</a>’s <a
+href="https://groundhog-day.com/">Groundhog-Day.com</a> calls <a
+href="https://groundhog-day.com/about">itself</a> “the leading data
+source for North America’s prognosticating groundhogs and their yearly
+predictions.” Its <a href="https://groundhog-day.com/api">structured
+data</a> lists the names, descriptions, locations, and prediction
+histories for <a href="https://groundhog-day.com/groundhogs">74 real and
+“alternative” groundhogs</a>, the latter of which include <a
+href="https://groundhog-day.com/groundhogs/lucy-the-lobster">Lucy the
+Lobster</a> and <a
+href="https://groundhog-day.com/groundhogs/dover-doug">Dover Doug</a>, a
+human in a groundhog suit.</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send six more weeks of
+feedback to jsvine@gmail.com, or just reply to this email. • Looking for
+past datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. • Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions. • <a
+href="https://docs.google.com/document/d/e/2PACX-1vSP5xYrhqEvoGTi2aFzrsYQXadG8Gv0Y6YGWjib1e4qcXG45Sq5TSvngvh342DdcAEyEDIVd5V3RYcc/pub">Learn
+how to place an ad in Data Is Plural</a>.</em></p>
+]]></content>
+    <link href="http://www.data-is-plural.com/archive/2023-02-08-edition" rel="alternate"/>
+    <summary>African American biographies (1508–1865), foreign direct investment, India’s high-court judges, US aquifers, and prognosticating groundhogs.</summary>
+    <published>2023-02-08T08:00:00-05:00</published>
+  </entry>
   <entry>
     <id>dip-2023-02-01</id>
     <title>Data Is Plural — 2023.02.01 edition</title>
@@ -1083,126 +1195,5 @@ how to place an ad in Data Is Plural</a>.</em></p>
     <link href="http://www.data-is-plural.com/archive/2022-11-30-edition" rel="alternate"/>
     <summary>Pills, per-pupil spending, travelers’ coronavirus variants, Indonesia earthquake intensities, and more roadkill.</summary>
     <published>2022-11-30T08:00:00-05:00</published>
-  </entry>
-  <entry>
-    <id>dip-2022-11-23</id>
-    <title>Data Is Plural — 2022.11.23 edition</title>
-    <updated>2022-11-23T08:00:00-05:00</updated>
-    <content type="CDATA"><![CDATA[<p><em>Presidential pardons, radioactive waste, songs of the world,
-semiconductor logistics, and “every Star Trek ever.”</em></p>
-<p> </p>
-<p><em>👋 Do you want to know more about what fellow DIP subscribers are
-doing? Do you want to announce DIP-related projects to others? Do you
-dislike these ideas? I’ve created a <a
-href="https://docs.google.com/forms/d/e/1FAIpQLSemUwOBIccDOvJEhZx57laugJfL71fllf1__mLC91g2ScfPpg/viewform">short
-survey</a> and would be grateful if you could <a
-href="https://docs.google.com/forms/d/e/1FAIpQLSemUwOBIccDOvJEhZx57laugJfL71fllf1__mLC91g2ScfPpg/viewform">fill
-it out</a>, regardless of your level of interest. Many thanks.</em></p>
-<p> </p>
-<p><strong>Presidential pardons.</strong> The US Department of Justice’s
-<a href="https://www.justice.gov/pardon">Office of the Pardon
-Attorney</a> reviews all federal clemency requests and advises the
-president on such matters. The office provides a <a
-href="https://www.justice.gov/pardon/search-clemency-case-status-since-1989">search
-tool and spreadsheet</a> with the names, case statuses, and decision
-dates for all 76,000+ pardon and commutation requests since 1989. It
-also publishes a <a
-href="https://www.justice.gov/pardon/clemency-recipients">series of
-tables</a>, with varying structure, listing the people who received
-clemency from each president since Richard Nixon. Those tables
-additionally include recipients who did not submit formal requests and,
-for more recent presidents, details about the recipients’ offenses and
-sentences. <a
-href="https://www.justice.gov/pardon/clemency-statistics">Another
-page</a> contains clemency statistics for each year and president since
-William McKinley.</p>
-<p> </p>
-<p><strong>Radioactive waste.</strong> Through its <a
-href="https://www.eia.gov/Survey/#gc-859">Nuclear Fuel Data Survey</a>,
-the US Energy Information Administration “collects data on spent nuclear
-fuel from all utilities that operate commercial nuclear reactors and
-from all others that possess irradiated fuel from commercial nuclear
-reactors.” The agency’s <a
-href="https://www.eia.gov/nuclear/spent_fuel/">latest release</a>, <a
-href="https://www.eia.gov/todayinenergy/detail.php?id=47796">published
-last year</a> with data through 2017, includes several basic tables. One
-tallies the <a
-href="https://www.eia.gov/nuclear/spent_fuel/ussnftab3.php">annual
-amount of nuclear fuel discharged and stored at commercial sites</a>
-since 1968, measured by <a
-href="https://www.nrc.gov/reading-rm/basic-ref/glossary/fuel-assembly-fuel-bundle-fuel-element.html">assembly</a>
-count and metric tons of uranium. <strong>As seen in</strong>: “<a
-href="https://cen.acs.org/environment/pollution/nuclear-waste-pilesscientists-seek-best/98/i12">As
-nuclear waste piles up, scientists seek the best long-term storage
-solutions</a>” (Chemical &amp; Engineering News, 2020).</p>
-<p> </p>
-<p><strong>Songs of the world.</strong> In a <a
-href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0275469">paper
-published this month</a>, researchers describe <a
-href="https://theglobaljukebox.org/">the Global Jukebox</a> — an
-interactive map and <a
-href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0275469#pone-0275469-t001">compilation
-of datasets</a> focused on traditional songs from around the world. The
-project traces its history back to initial prototypes in the 1980s by <a
-href="https://www.culturalequity.org/alan-lomax/about-alan">Alan
-Lomax</a>, a musicologist who collected many of the recordings. The <a
-href="https://github.com/theglobaljukebox/cantometrics">core
-dataset</a>, called Cantometrics, encodes “37 aspects of musical style
-for 5,776 traditional songs from 1,026 societies.” Others <a
-href="https://github.com/theglobaljukebox">include</a>, for example,
-datasets of <a
-href="https://github.com/theglobaljukebox/instruments">song
-instruments</a> and <a
-href="https://github.com/theglobaljukebox/minutage">phrasing
-patterns</a>. [h/t <a
-href="https://twitter.com/PatrickESavage/status/1587914982028906496">Pat
-Savage</a>]</p>
-<p> </p>
-<p><strong>Semiconductor logistics.</strong> The <a
-href="https://eto.tech/">Emerging Technology Observatory</a>, a <a
-href="https://eto.tech/blog/introducing-emerging-technology-observatory/">new
-initiative</a> based at Georgetown University, aims to provide a “public
-platform for high-quality, actionable data resources on the global
-emerging technology landscape.” Its <a
-href="https://eto.tech/dataset-docs/chipexplorer/">Advanced
-Semiconductor Supply Chain Dataset</a>, which you can <a
-href="https://github.com/georgetown-cset/eto-supply-chain/tree/main/data">download</a>
-and <a href="https://chipexplorer.eto.tech/">explore online</a>,
-contains “manually compiled, high-level information about the tools,
-materials, processes, countries, and firms involved in the production of
-advanced logic chips.” [h/t <a
-href="https://cset.georgetown.edu/staff/zachary-arnold/">Zach
-Arnold</a>]</p>
-<p> </p>
-<p><strong>“Every Star Trek ever.”</strong> <a
-href="https://www.airtable.com/universe/expsZ6vRPGwedtNfq/every-star-trek-book-ever?explore=true">The
-dataset</a>: <a href="https://www.flourishklink.com/">Flourish
-Klink</a>’s <a
-href="https://www.airtable.com/universe/expsZ6vRPGwedtNfq/every-star-trek-book-ever">compilation</a>
-of every official Star Trek book, audiobook, comic, episode, movie, and
-more. “My continuing mission: To consume every piece of <em>Star
-Trek</em> content ever made!” <strong>Previously</strong>: <a
-href="https://www.speechinteraction.org/TNG/index.html">Star Trek
-computer-talk</a> (<a
-href="https://www.data-is-plural.com/archive/2022-08-10-edition/">DIP
-2022.08.10</a>) and <a href="http://stapi.co/">a Star Trek API</a> (<a
-href="https://www.data-is-plural.com/archive/2018-11-07-edition/">DIP
-2018.11.07</a>). [h/t <a
-href="https://twitter.com/LisaCee14/status/1589410428060565504">Lisa
-Cee</a>]</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send completionist
-feedback to jsvine@gmail.com, or just reply to this email. ★ Looking for
-past datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. ★ Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and to browse past editions. ★ <a
-href="https://docs.google.com/document/d/e/2PACX-1vSP5xYrhqEvoGTi2aFzrsYQXadG8Gv0Y6YGWjib1e4qcXG45Sq5TSvngvh342DdcAEyEDIVd5V3RYcc/pub">Learn
-how to place an ad in Data Is Plural</a>.</em></p>
-]]></content>
-    <link href="http://www.data-is-plural.com/archive/2022-11-23-edition" rel="alternate"/>
-    <summary>Presidential pardons, radioactive waste, songs of the world, semiconductor logistics, and “every Star Trek ever.”</summary>
-    <published>2022-11-23T08:00:00-05:00</published>
   </entry>
 </feed>
