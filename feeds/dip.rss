@@ -6,7 +6,119 @@
     <description>A weekly newsletter of useful/curious datasets.</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>https://github.com/data-is-plural/newsletter-archive</generator>
-    <lastBuildDate>Wed, 08 Feb 2023 08:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 15 Feb 2023 08:00:00 -0500</lastBuildDate>
+    <item>
+      <title>Data Is Plural — 2023.02.15 edition</title>
+      <link>http://www.data-is-plural.com/archive/2023-02-15-edition</link>
+      <description>Fair market rents, humanitarian groups, diplomatic visits, bog bodies, and Open Data Day events.</description>
+      <content:encoded><![CDATA[<p><em>Fair market rents, humanitarian groups, diplomatic visits, bog
+bodies, and Open Data Day events.</em></p>
+<p> </p>
+<p><em>👋 Free workshop! I’m teaching a PDF-parsing class at <a
+href="https://www.ire.org/training/conferences/nicar-2023/">NICAR
+2023</a> in a couple of weeks. I’d like to test out the material by
+teaching it online first. If you’re interested (and have some experience
+with Python), <a
+href="https://docs.google.com/forms/d/e/1FAIpQLSdS2Z30DhzWN-3AwJZTECHYNmCbEtswDQ5s5K8IrLkqgC0oOA/viewform">click
+here</a>.</em></p>
+<p> </p>
+<p><strong>Fair market rents.</strong> Every year, the Department of
+Housing and Urban Development recalculates what it calls “fair market
+rents” <a href="https://www.huduser.gov/portal/datasets/fmr.html">for
+every county in the US</a> and <a
+href="https://www.huduser.gov/portal/datasets/fmr/smallarea/index.html">for
+individual ZIP codes in metropolitan counties</a>. The results, which
+factor into various housing subsidy programs, <a
+href="https://www.law.cornell.edu/cfr/text/24/888.113">represent</a> the
+40th percentile cost of monthly rent and (basic) utilities for “recent
+movers” in “standard quality” units, adjusted for the number of
+bedrooms. HUD’s annual spreadsheets go back to the early 2000s; you can
+also browse the estimates online and <a
+href="https://www.huduser.gov/portal/dataset/fmr-api.html">query them
+via an API</a>. <strong>As seen in</strong>: “<a
+href="https://usafacts.org/articles/where-are-rents-rising-post-covid-19/">Where
+are rents rising post COVID-19?</a>” (USAFacts).</p>
+<p> </p>
+<p><strong>Humanitarian groups.</strong> “Based on clear and
+reproducible criteria,” <a
+href="https://claramarieegger.wordpress.com/">Clara Egger</a> and <a
+href="http://www.ge2p2.org/people/2018/10/12/doris-schopper-md-dph">Doris
+Schopper</a>’s have <a
+href="https://academic.oup.com/isq/article/66/2/sqac009/6564592">compiled</a>
+the <a
+href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/52GFWC">Humanitarian
+Organizations Dataset</a>, which describes 2,500+ groups active in the
+sector. It includes the organizations’ founding years, structures,
+countries headquartered, regional scopes, types of activities, targets
+for assistance, and more. You can also <a
+href="https://humanitarianencyclopedia.org/community/organizations">explore
+a version of the dataset online</a>. <strong>Related</strong>: The <a
+href="https://www.humanitarianoutcomes.org/projects/gdho">Global
+Database of Humanitarian Organisations</a>, from <a
+href="https://www.humanitarianoutcomes.org/about">Humanitarian
+Outcomes</a>, “a team of specialist consultants providing research and
+policy advice for humanitarian aid agencies and donor governments.”</p>
+<p> </p>
+<p><strong>Diplomatic visits.</strong> The US Department of State’s <a
+href="https://history.state.gov/">Office of the Historian</a> maintains
+a <a href="https://github.com/HistoryAtState/visits">dataset</a> and <a
+href="https://history.state.gov/departmenthistory/visits">online
+directory</a> of every visit by a foreign leader from 1874 to 2020. The
+details include each visit’s starting and ending date, the visitor’s
+name, their country, and a brief description. The office publishes <a
+href="https://github.com/HistoryAtState/travels">similar data</a> on the
+<a href="https://history.state.gov/departmenthistory/travels">travels of
+US presidents and secretaries of state</a>. <strong>Related</strong>: <a
+href="https://mattmalis.github.io/">Matt Malis</a> and <a
+href="https://wp.nyu.edu/alastairsmith/">Alastair Smith</a> have <a
+href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/2ZNR5R">expanded
+the data for 1946–2019</a>, adding fields that indicate the type of
+visit, whether it involved a presidential meeting, the names of
+agreements signed, and more. <strong>Previously</strong>: <a
+href="https://github.com/tacookson/data/tree/master/us-government-gifts">Diplomatic
+gifts</a> (<a
+href="https://www.data-is-plural.com/archive/2022-08-03-edition/">DIP
+2022.08.03</a>).</p>
+<p> </p>
+<p><strong>Bog bodies.</strong> <a
+href="https://www.cambridge.org/core/journals/antiquity/article/bogs-bones-and-bodies-the-deposition-of-human-remains-in-northern-european-mires-9000-bcad-1900/B90A16A211894CB87906A7BCFC0B2FC7">Roy
+van Beek et al.</a> “present the first large-scale overview of
+well-dated human remains from northern European mires, based on a
+database of 266 sites and more than 1000 bog mummies, bog skeletons and
+disarticulated/partial skeletal remains.” The database, which can be
+found in the study’s <a
+href="https://www.cambridge.org/core/journals/antiquity/article/bogs-bones-and-bodies-the-deposition-of-human-remains-in-northern-european-mires-9000-bcad-1900/B90A16A211894CB87906A7BCFC0B2FC7#supplementary-materials">supplementary
+materials tab</a>, indicates the bog bodies’ location, year found,
+preservation level, sex, estimated age, assumed cause of death, and much
+more. [h/t <a
+href="https://dair-community.social/@miriamkp/109785940080210793">Miriam
+Posner</a> + <a href="https://www.robinsloan.com/">Robin Sloan</a>]</p>
+<p> </p>
+<p><strong>Open Data Day events.</strong> <a
+href="https://opendataday.org/">Open Data Day(s)</a>, scheduled for
+March 4–10 this year, “is an annual celebration of open data all over
+the world.” The <a href="https://okfn.org/">Open Knowledge
+Foundation</a>, which <a
+href="https://blog.okfn.org/2023/02/07/open-data-days-2023-will-take-place-from-4th-to-10th-march/">helps
+to coordinate</a> the locally-organized gatherings, hosts a <a
+href="https://opendataday.org/events/2023/">searchable list</a> of
+registered events, plus <a
+href="https://github.com/okfn/opendataday/tree/master/Datasets">datasets
+of each year’s events since 2014</a>.</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send open feedback to
+jsvine@gmail.com, or just reply to this email. // Looking for past
+datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. // Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions. // <a
+href="https://docs.google.com/document/d/e/2PACX-1vSP5xYrhqEvoGTi2aFzrsYQXadG8Gv0Y6YGWjib1e4qcXG45Sq5TSvngvh342DdcAEyEDIVd5V3RYcc/pub">Learn
+how to place an ad in Data Is Plural</a>.</em></p>
+]]></content:encoded>
+      <guid isPermaLink="false">dip-2023-02-15</guid>
+      <pubDate>Wed, 15 Feb 2023 08:00:00 -0500</pubDate>
+    </item>
     <item>
       <title>Data Is Plural — 2023.02.08 edition</title>
       <link>http://www.data-is-plural.com/archive/2023-02-08-edition</link>
@@ -1063,125 +1175,6 @@ an ad in Data Is Plural</a>.</em></p>
 ]]></content:encoded>
       <guid isPermaLink="false">dip-2022-12-07</guid>
       <pubDate>Wed, 07 Dec 2022 08:00:00 -0500</pubDate>
-    </item>
-    <item>
-      <title>Data Is Plural — 2022.11.30 edition</title>
-      <link>http://www.data-is-plural.com/archive/2022-11-30-edition</link>
-      <description>Pills, per-pupil spending, travelers’ coronavirus variants, Indonesia earthquake intensities, and more roadkill.</description>
-      <content:encoded><![CDATA[<p><em>Pills, per-pupil spending, travelers’ coronavirus variants,
-Indonesia earthquake intensities, and more roadkill.</em></p>
-<p> </p>
-<p><em>📣 <strong>Ad:</strong> Help Sarah find the family holiday
-tapestry before her father notices it’s missing! Sharpen your
-SQL/Python/<a href="https://visidata.org">VisiData</a> skills with <a
-href="https://hanukkah.bluebird.sh">Hanukkah of Data</a>, a series of 8
-free data puzzles to be released starting on December 18th. <a
-href="https://hanukkah.bluebird.sh/register">Register now</a> to be
-notified when puzzles become available!</em></p>
-<p> </p>
-<p><strong>Pills.</strong> From its launch in 2009 until its <a
-href="https://web.archive.org/web/20201021105954/https://www.nlm.nih.gov/pubs/techbull/ja20/ja20_pillbox_discontinue.html">retirement
-last year</a>, the National Library of Medicine’s <a
-href="https://web.archive.org/web/20201021105954/https://pillbox.nlm.nih.gov/index.html">Pillbox
-project</a> collected and created 8,600+ photographs of medical pills.
-The images, which are still <a
-href="https://www.nlm.nih.gov/databases/download/pill_image.html">available
-to download</a>, are <a
-href="https://datadiscovery.nlm.nih.gov/Drugs-and-Chemicals/Pillbox-retired-January-28-2021-/crzr-uvwg">accompanied
-by a dataset</a> that provides information on 83,000+ pills’ shape,
-size, color, markings, dosage, and other characteristics derived from
-drug labels. <strong>Related</strong>: The library’s <a
-href="https://dailymed.nlm.nih.gov/dailymed/">DailyMed service</a>
-provides frequently-updated <a
-href="https://dailymed.nlm.nih.gov/dailymed/spl-resources.cfm">images
-and data from 140,000+ labels</a> submitted to the FDA for <a
-href="https://dailymed.nlm.nih.gov/dailymed/about-dailymed.cfm">drugs
-and other regulated products</a>. <strong>As seen in</strong>: <a
-href="https://mastodon.social/@jonkeegan">Jon Keegan</a>’s <a
-href="https://www.beautifulpublicdata.com/the-pillbox-database/">Pillbox
-overview</a> in <a href="https://www.beautifulpublicdata.com/">Beautiful
-Public Data</a>. [h/t <a
-href="https://buttondown.email/puntofisso/archive/492-quantum-of-sollazzo/">Giuseppe
-Sollazzo</a>]</p>
-<p> </p>
-<p><strong>Per-pupil spending.</strong> The <a
-href="https://edunomicslab.org/nerds/">National Education Resource
-Database on Schools</a> (“<em>NERD$</em>”) describes itself as the
-“first-ever national dataset of public K-12 spending by school.” Its
-researchers, based at Georgetown University, aggregate and standardize
-the <a
-href="https://edunomicslab.org/2018/03/28/interstate-financial-reporting/">expenditure
-disclosures</a> that the <a href="https://www.ed.gov/ESSA/">Every
-Student Succeeds Act</a> requires states to publish. You can explore and
-download the data they’ve processed for fiscal year 2019, including
-spending totals, enrollment counts, and normalized figures that
-facilitate cross-state comparisons. For 2020–22, you can access “the raw
-files we obtain from states while our team conducts validation checks
-and norms the data.” <strong>As seen in</strong>: “<a
-href="https://usafacts.org/articles/how-much-money-do-states-spend-on-education/">How
-much money do states spend on education?</a>” (USAFacts). [h/t <a
-href="https://twitter.com/DataDHP/status/1564333211261476864">Douglas
-Hummel-Price</a>]</p>
-<p> </p>
-<p><strong>Travelers’ coronavirus variants.</strong> In the past year,
-the CDC’s <a
-href="https://wwwnc.cdc.gov/travel/page/travel-genomic-surveillance">Traveler-Based
-Genomic Surveillance program</a> has collected 60,000+ voluntary nasal
-swabs from people disembarking international flights at four major US
-airports. The agency uses the samples as an “early warning system” to
-detect emerging SARS-CoV-2 variants and <a
-href="https://covid.cdc.gov/covid-data-tracker/#traveler-genomic-surveillance">publishes
-weekly metrics</a> that include participation counts, positivity rates
-(per pooled sample), and variant distributions. <strong>Read
-more</strong>: <a
-href="https://coviddatadispatch.com/2022/11/06/how-testing-international-travelers-helps-the-cdc-keep-tabs-on-new-variants/">An
-interview with two private-industry experts working on the program</a>,
-by the <a href="https://coviddatadispatch.com/">COVID-19 Data
-Dispatch</a>’s <a href="https://betsyladyzhets.com/">Betsy
-Ladyzhets</a>.</p>
-<p> </p>
-<p><strong>Indonesia earthquake intensities.</strong> <a
-href="https://github.com/7point1/GempaNusantara">Gempa Nusantara</a>, a
-database compiled by <a href="https://doi.org/10.1785/0120220047">Stacey
-S. Martin et al.</a>, uses historical documents to catalog 7,300+
-“macroseismic effects” of 1,200 earthquakes near Indonesia during a
-four-century span, from 1546 to 1950. It provides summaries of the local
-reports and categorizes the effects according to the <a
-href="https://www.gfz-potsdam.de/en/section/seismic-hazard-and-risk-dynamics/data-products-services/ems-98-european-macroseismic-scale/">European
-Macroseismic Scale</a>, which focuses on the intensity of ground-shaking
-and <a
-href="https://en.wikipedia.org/wiki/European_macroseismic_scale">potential
-impacts on buildings and terrain</a>.</p>
-<p> </p>
-<p><strong>More roadkill.</strong> <a
-href="https://www.nature.com/articles/s41597-022-01599-6">Florian Heigl
-et al.</a> have compiled a <a
-href="https://www.gbif.org/dataset/d0d5ef85-71b2-4da6-b6f6-c1c3d60987d3">pair</a>
-of <a href="https://zenodo.org/record/5878813">datasets</a> containing
-15,000+ reports of vertebrate roadkill from 2014 to 2020, submitted by
-900+ people <a href="https://roadkill.at/en">through a phone app</a>.
-The datasets differ in identification confidence, but both provide
-locations, dates, and taxonomic classifications. Although the records
-span 40+ countries, the majority come from Austria, where the project is
-<a href="https://roadkill.at/en/about/faqsen">now focused</a>.
-<strong>Previously</strong>: <a
-href="https://datadryad.org/stash/dataset/doi:10.5061/dryad.xwdbrv1cp">Andean
-roadkill</a> (<a
-href="https://www.data-is-plural.com/archive/2021-07-07-edition/">DIP
-2021.07.07</a>).</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send flattened feedback
-to jsvine@gmail.com, or just reply to this email. ★ Looking for past
-datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. ★ Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and to browse past editions. ★ <a
-href="https://docs.google.com/document/d/e/2PACX-1vSP5xYrhqEvoGTi2aFzrsYQXadG8Gv0Y6YGWjib1e4qcXG45Sq5TSvngvh342DdcAEyEDIVd5V3RYcc/pub">Learn
-how to place an ad in Data Is Plural</a>.</em></p>
-]]></content:encoded>
-      <guid isPermaLink="false">dip-2022-11-30</guid>
-      <pubDate>Wed, 30 Nov 2022 08:00:00 -0500</pubDate>
     </item>
   </channel>
 </rss>
