@@ -6,7 +6,119 @@
     <description>A weekly newsletter of useful/curious datasets.</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>https://github.com/data-is-plural/newsletter-archive</generator>
-    <lastBuildDate>Wed, 15 Feb 2023 08:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 22 Feb 2023 08:00:00 -0500</lastBuildDate>
+    <item>
+      <title>Data Is Plural — 2023.02.22 edition</title>
+      <link>http://www.data-is-plural.com/archive/2023-02-22-edition</link>
+      <description>Facilities handling hazardous chemicals, Animal Welfare Act inspections, daily European gas imports, unclaimed estates, and data journalists.</description>
+      <content:encoded><![CDATA[<p><em>Facilities handling hazardous chemicals, Animal Welfare Act
+inspections, daily European gas imports, unclaimed estates, and data
+journalists.</em></p>
+<p> </p>
+<p><strong>Facilities handling hazardous chemicals.</strong> The US
+Environmental Protection Agency’s <a
+href="https://www.epa.gov/rmp/risk-management-program-rmp-rule-overview">Risk
+Management Program rule</a> requires facilities that handle “extremely
+hazardous substances” to tell the government, at least every five years,
+about those substances, their safety plans, their recent accident
+history, and more. Through a <a
+href="https://www.data-liberation-project.org/requests/epa-risk-management-program/">FOIA
+request to the EPA</a>, the <a
+href="https://www.data-liberation-project.org/">Data Liberation
+Project</a> (<a
+href="https://www.data-liberation-project.org/about/">which, disclosure,
+I run</a>) obtained a copy of the agency’s database of these filings
+(minus some parts the government deems non-disclosable), containing
+submissions by 21,000+ facilities from early 1999 to February 2022. You
+can now <a
+href="https://www.data-liberation-project.org/datasets/epa-risk-management-program-database/">access
+that data</a>, in various formats, along with <a
+href="https://docs.google.com/document/d/1jrLXtv0knnACiPXJ1ZRFXR1GaPWCHJWWjin4rsthFbQ/edit">documentation
+guiding you through it</a>.</p>
+<p> </p>
+<p><strong>Animal Welfare Act inspections.</strong> The USDA’s <a
+href="https://www.aphis.usda.gov/aphis/home/">Animal and Plant Health
+Inspection Service</a> checks whether animal dealers, exhibitors,
+research facilities, and transporters are complying with the care
+standards set by the <a
+href="https://www.aphis.usda.gov/aphis/ourfocus/animalwelfare/awa/ct_awa_program_information">Animal
+Welfare Act</a>. The agency provides <a
+href="https://efile.aphis.usda.gov/PublicSearchTool/s/inspection-reports">public
+access to the inspection reports</a> but no bulk data on them. So, in a
+<a
+href="https://biglocalnews.org/content/news/2023/02/21/usda-animal-inspection-database.html">collaboration</a>
+between <a href="https://biglocalnews.org/content/about/">Big Local
+News</a> and the <a href="https://www.data-liberation-project.org/">Data
+Liberation Project</a> (same disclosure as above), <a
+href="https://palewi.re/who-is-ben-welsh/">Ben Welsh</a> and I <a
+href="https://github.com/data-liberation-project/aphis-inspection-reports/blob/main/METHODOLOGY.md">wrote
+code</a> to fetch the 80,000+ (and counting) inspections going back to
+2014, parse their PDFs, and <a
+href="https://github.com/data-liberation-project/aphis-inspection-reports">make
+the data more accessible</a>. The information includes each inspection’s
+date, type, licensee, violation counts, species inspected, and more.</p>
+<p> </p>
+<p><strong>Daily European gas imports.</strong> Researchers at <a
+href="https://www.bruegel.org/bruegel-european-think-tank-specialises-economics">Bruegel</a>
+are <a
+href="https://www.bruegel.org/dataset/european-natural-gas-imports">tracking
+daily and weekly natural gas imports to Europe</a>, using data from the
+<a href="https://www.entsog.eu/">European Network of Transmission System
+Operators for Gas</a>’s <a
+href="https://transparency.entsog.eu/">transparency portal</a>.
+Alongside the imports, which they’re aggregating by source (e.g.,
+Russia, Norway, Algeria) and by route (e.g., Nord Stream, TurkStream),
+the researchers are also tracking <a href="https://agsi.gie.eu/">gas
+storage levels</a>, using data from <a href="https://www.gie.eu/">Gas
+Infrastructure Europe</a> (<a
+href="https://www.data-is-plural.com/archive/2022-01-26-edition/">DIP
+2022.01.26</a>). <strong>Previously</strong>: Eurostat’s data on annual
+European energy <a
+href="https://ec.europa.eu/eurostat/databrowser/explore/all/envir?lang=en&amp;subtheme=nrg.nrg_quant.nrg_quanta.nrg_t.nrg_ti&amp;display=list&amp;sort=category&amp;extractionId=NRG_TI_SFF__custom_2293925">imports</a>
+and <a
+href="https://ec.europa.eu/eurostat/databrowser/explore/all/envir?lang=en&amp;subtheme=nrg.nrg_quant.nrg_quanta.nrg_t.nrg_te&amp;display=list&amp;sort=category&amp;extractionId=NRG_TI_SFF__custom_2293925">exports</a>
+(<a
+href="https://www.data-is-plural.com/archive/2022-03-16-edition/">DIP
+2022.03.16</a>).</p>
+<p> </p>
+<p><strong>Unclaimed estates.</strong> The UK government’s <a
+href="https://www.gov.uk/government/organisations/bona-vacantia">Bona
+Vacantia division</a> publishes a <a
+href="https://www.gov.uk/government/statistical-data-sets/unclaimed-estates-list">dataset
+of unclaimed estates</a> — inheritances that nobody has claimed yet to
+inherit. The entries indicate the deceased person’s name, aliases,
+date/place of birth and death, marital status, and more.
+<strong>Related</strong>: California provides a <a
+href="https://sco.ca.gov/upd_download_property_records.html">dataset</a>
+of <a href="https://sco.ca.gov/upd_msg.html">unclaimed property</a>,
+such as “lost or forgotten” bank accounts, insurance benefits, and stock
+holdings.</p>
+<p> </p>
+<p><strong>Data journalists, surveyed.</strong> The <a
+href="https://ejc.net/">European Journalism Center</a>’s <a
+href="https://datajournalism.com/">DataJournalism.com</a> has published
+a <a href="https://github.com/ejcnet/stateofdatajournalism2022">dataset
+of 1,800+ anonymized responses</a> to its <a
+href="https://datajournalism.com/survey/2022/">second annual State of
+Data Journalism Survey</a>, including 50+ entries each from the US, UK,
+Italy, Germany, Spain, India, and Nigeria, plus double-digit counts from
+dozens of other countries. The questions touch on demographics,
+employment, training, skills, the COVID-19 pandemic, and more. [h/t <a
+href="https://twitter.com/BisianiSimona">Simona Bisiani</a>]</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send data-reported
+feedback to jsvine@gmail.com, or just reply to this email. // Looking
+for past datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. // Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions. // <a
+href="https://docs.google.com/document/d/e/2PACX-1vSP5xYrhqEvoGTi2aFzrsYQXadG8Gv0Y6YGWjib1e4qcXG45Sq5TSvngvh342DdcAEyEDIVd5V3RYcc/pub">Learn
+how to place an ad in Data Is Plural</a>.</em></p>
+]]></content:encoded>
+      <guid isPermaLink="false">dip-2023-02-22</guid>
+      <pubDate>Wed, 22 Feb 2023 08:00:00 -0500</pubDate>
+    </item>
     <item>
       <title>Data Is Plural — 2023.02.15 edition</title>
       <link>http://www.data-is-plural.com/archive/2023-02-15-edition</link>
@@ -1066,115 +1178,6 @@ an ad in Data Is Plural</a>.</em></p>
 ]]></content:encoded>
       <guid isPermaLink="false">dip-2022-12-14</guid>
       <pubDate>Wed, 14 Dec 2022 08:00:00 -0500</pubDate>
-    </item>
-    <item>
-      <title>Data Is Plural — 2022.12.07 edition</title>
-      <link>http://www.data-is-plural.com/archive/2022-12-07-edition</link>
-      <description>Work stoppages, avian flu detections, social media suppression, literature prizewinners, and video games.</description>
-      <content:encoded><![CDATA[<p><em>Work stoppages, avian flu detections, social media suppression,
-literature prizewinners, and video games.</em></p>
-<p> </p>
-<p><em>📣 <strong>Ad:</strong> Tired: Data in the Silicon Valley
-for-profit bubble. Wired: Data for social impact, helping tackle tough
-problems like climate, income inequality, and racial justice. <a
-href="https://data.org/subscribe-to-our-mailing-list/opportunities/?utm_source=newsletter&amp;utm_medium=email&amp;utm_campaign=data_is_plural">Start
-at data.org</a>.</em></p>
-<p> </p>
-<p><strong>Work stoppages.</strong> The US Bureau of Labor Statistics’
-<a href="https://www.bls.gov/wsp/home.htm">Work Stoppages</a> program <a
-href="https://www.bls.gov/opub/hom/wsp/data.htm">collects</a> and
-publishes data on “major work stoppages involving 1,000 or more workers
-lasting one full shift or longer.” The program’s <a
-href="https://www.bls.gov/web/wkstp/monthly-listing.htm">main
-dataset</a> lists each <a
-href="https://www.bls.gov/opub/hom/wsp/concepts.htm">major strike or
-lockout</a> since 1993, the organizations involved, employer industry
-and ownership type, start and end dates, number of workers
-participating, and total worker-days idle. Its <a
-href="https://www.bls.gov/web/wkstp/annual-listing.htm">annual
-dataset</a> counts the number of major stoppages, workers involved, and
-worker-days idle for each year since 1947. <strong>Related</strong>: The
-Federal Mediation and Conciliation Service <a
-href="https://web.archive.org/web/20210105232710/https://www.fmcs.gov/resources/documents-and-data/#tab-490260b30b23e527b80">used
-to publish data</a> on all stoppages that its mediators entered into its
-case system (regardless of number of workers involved), but stopped
-doing so in late 2020. <a href="https://mastodon.social/@fgregg">Forest
-Gregg</a> has <a
-href="https://github.com/labordata/fmcs-work-stoppage">rescued and
-standardized the archived records</a>. [h/t <a
-href="https://read.chartr.co/newsletters/2022/11/25/plowing-on">Chartr</a>]</p>
-<p> </p>
-<p><strong>Avian flu detections.</strong> The USDA’s Animal and Plant
-Health Inspection Service has been tracking <a
-href="https://www.aphis.usda.gov/aphis/ourfocus/animalhealth/animal-disease-information/avian/avian-influenza/2022-hpai">local
-cases of avian influenza detected</a> this year <a
-href="https://www.aphis.usda.gov/aphis/ourfocus/animalhealth/animal-disease-information/avian/avian-influenza/hpai-2022/2022-hpai-commercial-backyard-flocks">in
-commercial and backyard flocks</a>, as well as <a
-href="https://www.aphis.usda.gov/aphis/ourfocus/animalhealth/animal-disease-information/avian/avian-influenza/hpai-2022/2022-hpai-wild-birds">in
-wild birds</a> and <a
-href="https://www.aphis.usda.gov/aphis/ourfocus/animalhealth/animal-disease-information/avian/avian-influenza/hpai-2022/2022-hpai-mammals">in
-mammals</a>. For each infected flock, the agency’s public data indicate
-the flock’s state, county, producer type, number of birds affected, and
-confirmation date. The mammal and wild bird data indicate the state,
-county, date detected, flu strain, and species. <strong>Read
-more</strong>: “<a
-href="https://www.smithsonianmag.com/smart-news/more-than-52-million-birds-dead-because-of-avian-flu-in-us-180981215/">More
-Than 52 Million Birds in the U.S. Are Dead Because of Avian Flu</a>”
-(Smithsonian Magazine). [h/t <a
-href="https://www.linkedin.com/in/ed-vine-a480347">Ed Vine</a>]</p>
-<p> </p>
-<p><strong>Social media suppression.</strong> Researchers at <a
-href="https://surfshark.com/about-us">Surfshark</a> have been monitoring
-<a
-href="https://surfshark.com/research/internet-censorship/social-media">government-imposed
-social media shutdowns and restrictions</a>, drawing on reports from <a
-href="https://netblocks.org/">NetBlocks</a>, <a
-href="https://www.accessnow.org/">AccessNow</a> (<a
-href="https://www.data-is-plural.com/archive/2021-11-03-edition/">DIP
-2021.11.03</a>), news publications, and other sources. The <a
-href="https://docs.google.com/spreadsheets/d/122netE-cbusPi00GzXqfSvKPjFDxW_9LKeVfPqWyv04/edit#gid=1765756421">project’s
-spreadsheet</a> highlights each case from 2015 to the present; it lists
-the country, start/end date, particular services affected (Facebook,
-Twitter, YouTube, etc.), and observed connections to political events
-(e.g., elections, protests, other turmoil). [h/t <a
-href="https://www.linkedin.com/in/agnesab/">Agneska Sablovskaja</a>]</p>
-<p> </p>
-<p><strong>Literature prizewinners.</strong> <a
-href="https://www.publicbooks.org/who-gets-to-be-a-writer/">Claire
-Grossman et al.</a> have compiled a <a
-href="https://view.data.post45.org/mlpwinners">dataset</a> of “the
-winners and judges of prizes for prose, poetry, or unspecified genre
-between 1918 and 2020 with a purse of $10,000 and over.” The 7,100+
-entries, shared through the <a href="https://data.post45.org/">Post45
-Data Collective</a>, relate to 50 awards and fellowships, plus the
-Library of Congress’s poet laureateship. Each entry indicates the prize
-name, institution, type, genre, year, and dollar amount, plus the
-winner/judge name, gender, and educational affiliations. [h/t <a
-href="https://twitter.com/mellymeldubs/status/1599793416019513344">Melanie
-Walsh</a>]</p>
-<p> </p>
-<p><strong>Video games.</strong> Developer <a
-href="https://github.com/leinstay">Vladimir Belyaev</a> has constructed
-a <a href="https://github.com/leinstay/steamdb">dataset</a> representing
-“all games available” on <a
-href="https://store.steampowered.com/">Steam</a>, the massively popular
-<a href="https://en.wikipedia.org/wiki/Steam_(service)">video game
-platform and store</a>. It indicates each game’s name, price, developer,
-languages, genre categories, ratings from third-party websites, and
-more. [h/t <a href="https://www.saul.pw/">Saul Pwanson</a>]</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send streaming feedback
-to jsvine@gmail.com, or just reply to this email. ★ Looking for past
-datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. ★ Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and to browse past editions. ★ <a
-href="https://docs.google.com/document/d/e/2PACX-1vSP5xYrhqEvoGTi2aFzrsYQXadG8Gv0Y6YGWjib1e4qcXG45Sq5TSvngvh342DdcAEyEDIVd5V3RYcc/pub">Place
-an ad in Data Is Plural</a>.</em></p>
-]]></content:encoded>
-      <guid isPermaLink="false">dip-2022-12-07</guid>
-      <pubDate>Wed, 07 Dec 2022 08:00:00 -0500</pubDate>
     </item>
   </channel>
 </rss>
