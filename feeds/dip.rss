@@ -6,7 +6,106 @@
     <description>A weekly newsletter of useful/curious datasets.</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>https://github.com/data-is-plural/newsletter-archive</generator>
-    <lastBuildDate>Wed, 22 Feb 2023 08:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 01 Mar 2023 08:00:00 -0500</lastBuildDate>
+    <item>
+      <title>Data Is Plural — 2023.03.01 edition</title>
+      <link>http://www.data-is-plural.com/archive/2023-03-01-edition</link>
+      <description>Congressional votes and ideology, EPA-regulated facilities, programming languages, 20th-century occupations, and coconut thumps.</description>
+      <content:encoded><![CDATA[<p><em>Congressional votes and ideology, EPA-regulated facilities,
+programming languages, 20th-century occupations, and coconut
+thumps.</em></p>
+<p> </p>
+<p><strong>Congressional votes and ideology.</strong> The <a
+href="https://voteview.com/">Voteview</a> project “allows users to view
+every congressional roll call vote in American history,” and places
+those votes in the <a href="https://voteview.com/about">context of
+ideology estimates along a liberal-to-conservative spectrum</a>. The
+core estimates come from <a
+href="https://en.wikipedia.org/wiki/NOMINATE_(scaling_method)">DW-NOMINATE</a>,
+a method developed by the project’s directors emeritus, <a
+href="https://authors.library.caltech.edu/83232/">Keith T. Poole and
+Howard Rosenthal</a>. Voteview’s <a
+href="https://voteview.com/data">bulk data</a> includes <a
+href="https://voteview.com/articles/data_help_members">ideology
+estimates for every member</a> of the House and Senate since 1789, <a
+href="https://voteview.com/articles/data_help_rollcalls">every vote
+taken in either chamber</a>, and <a
+href="https://voteview.com/articles/data_help_votes">every member’s
+position on those votes</a>. [h/t <a
+href="https://s2.washingtonpost.com/camp-rw/?s=63f0e8661b79c61f879a5b01">Philip
+Bump</a>]</p>
+<p> </p>
+<p><strong>EPA-regulated facilities.</strong> The US Environmental
+Protection Agency’s <a href="https://www.epa.gov/frs">Facility Registry
+System</a> “provides Internet access to a single source of comprehensive
+information about facilities, sites or places subject to environmental
+regulations or of environmental interest.” It includes each entity’s
+name, type, location, industry, regulatory programs, and more. That
+information, which spans millions of facilities, is “subjected to
+rigorous verification and data management quality assurance procedures.”
+The records also provide facilities’ ID numbers from other EPA systems,
+such the agency’s <a
+href="https://www.data-liberation-project.org/datasets/epa-risk-management-program-database/">Risk
+Management Program database</a> featured in <a
+href="https://www.data-is-plural.com/archive/2023-02-22-edition/">last
+week’s edition</a>. [h/t <a
+href="https://carts.lsu.edu/about/staff/1">Michael Allen</a>]</p>
+<p> </p>
+<p><strong>Programming languages.</strong> <a
+href="https://pldb.com/">PLDB</a> is a database that describes several
+thousand programming languages, file formats, communications protocols,
+and <a href="https://pldb.com/pages/about.html">other related
+concepts</a>. Its <a
+href="https://pldb.com/docs/csv.html">downloads</a>, <a
+href="https://github.com/breck7/pldb">available in several formats</a>,
+provide information on the languages’ years announced, <a
+href="https://pldb.com/lists/features.html">technical features</a>,
+creators, countries and communities of origin, relevant books and URLs,
+popularity metrics, and more. [h/t <a
+href="http://knosof.co.uk/ESEUR/">Derek M. Jones</a>]</p>
+<p> </p>
+<p><strong>20th-century occupations.</strong> Between 1939 and 1991, the
+US government published several iterations of the now-discontinued <a
+href="https://www.oalj.dol.gov/PUBLIC/DOT/REFERENCES/DOTINTRO.HTM">Dictionary
+of Occupational Titles</a>, a precursor to the <a
+href="https://www.onetcenter.org/database.html">O*NET database</a> (<a
+href="https://www.data-is-plural.com/archive/2017-09-27-edition/">DIP
+2017.09.27</a>). The dictionaries included job descriptions,
+classification codes, and cross-references, but are mostly available
+only as scans. So <a href="https://arxiv.org/abs/2204.07073">Shahad
+Althobaiti et al.</a> organized the manual transcription of five major
+editions into <a
+href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/DQW8IP">structured
+text files</a>. A random sample of 1939’s titles: punch-press operator,
+seam dampener, base brander, box pleater, and necktie finisher.</p>
+<p> </p>
+<p><strong>Thump, thump, coconut.</strong> “Traditionally,” in the
+Philippines, “coconuts are classified into their maturity levels
+manually,” <a
+href="https://www.sciencedirect.com/science/article/pii/S2352340923000549">June
+Anne Caladcad and Eduardo Piedad Jr. write</a>. “Traders often use their
+fingernails, knuckles, or the blunt end of the knife to tap the coconuts
+before assessing the sounds produced.” The authors <a
+href="https://www.sciencedirect.com/science/article/abs/pii/S0168169919324767">and
+their colleagues</a> have developed hardware and software to emulate
+that process, and used it to collect <a
+href="https://data.mendeley.com/datasets/hxh8kd3snj">acoustic signal
+data</a> from 129 premature, mature, and overmature coconuts, each
+mechanically knocked on each of its three ridges.</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send overmature feedback
+to jsvine@gmail.com, or just reply to this email. // Looking for past
+datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. // Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions. // <a
+href="https://docs.google.com/document/d/e/2PACX-1vSP5xYrhqEvoGTi2aFzrsYQXadG8Gv0Y6YGWjib1e4qcXG45Sq5TSvngvh342DdcAEyEDIVd5V3RYcc/pub">Learn
+how to place an ad in Data Is Plural</a>.</em></p>
+]]></content:encoded>
+      <guid isPermaLink="false">dip-2023-03-01</guid>
+      <pubDate>Wed, 01 Mar 2023 08:00:00 -0500</pubDate>
+    </item>
     <item>
       <title>Data Is Plural — 2023.02.22 edition</title>
       <link>http://www.data-is-plural.com/archive/2023-02-22-edition</link>
@@ -1065,119 +1164,6 @@ an ad in Data Is Plural</a>.</em></p>
 ]]></content:encoded>
       <guid isPermaLink="false">dip-2022-12-21</guid>
       <pubDate>Wed, 21 Dec 2022 08:00:00 -0500</pubDate>
-    </item>
-    <item>
-      <title>Data Is Plural — 2022.12.14 edition</title>
-      <link>http://www.data-is-plural.com/archive/2022-12-14-edition</link>
-      <description>Flu trends, university enrollments, Jewish texts, women’s college basketball rosters, and Mastodon membership.</description>
-      <content:encoded><![CDATA[<p><em>Flu trends, university enrollments, Jewish texts, women’s college
-basketball rosters, and Mastodon membership.</em></p>
-<p> </p>
-<p><em>📣 <strong>Ad:</strong> <a
-href="https://www.datachat.ai/?utm_campaign=Data%20is%20Plural&amp;utm_source=email&amp;utm_medium=Data_is_Plural&amp;utm_content=Data_is_Plural">DataChat’s</a> analytics
-platform provides all the tools you need to explore your data, from
-charts to models, without having to program. Whether you work alone or
-with others, DataChat keeps everybody on the same page. Check out <a
-href="https://www.youtube.com/watch?v=26vcjAXTVSU">this video</a> to
-learn more. Then, <a
-href="https://apps.datachat.ai/web/register?utm_campaign=Data%20is%20Plural&amp;utm_source=email&amp;utm_medium=Data_is_Plural&amp;utm_content=Data_is_Plural">get
-started</a> for free.</em></p>
-<p> </p>
-<p><strong>Flu trends.</strong> The CDC’s Influenza Division
-collaborates with state and local health departments, hospitals,
-laboratories, and other partners to <a
-href="https://www.cdc.gov/flu/weekly/overview.htm">keep tabs on flu
-trends</a>. Its <a
-href="https://www.cdc.gov/flu/weekly/index.htm">Weekly U.S. Influenza
-Surveillance Report</a> tracks case counts, positivity rates, strain
-distribution, and other metrics that you can <a
-href="https://www.cdc.gov/flu/weekly/fluviewinteractive.htm">explore and
-download</a> through an <a
-href="https://gis.cdc.gov/grasp/fluview/fluportaldashboard.html">interactive
-dashboard</a>. The records go back to the 1997–98 flu season and are
-available at a national, regional, and state level. <strong>Read
-more</strong>: “<a
-href="https://www.vox.com/2022/12/6/23494948/flu-influenza-rsv-covid-vaccine-chart-tripledemic-tridemic">The
-US has never recorded this many positive flu tests in one week</a>”
-(Vox). [h/t <a
-href="https://www.qimacros.com/lean-six-sigma-blog/category/improvement-insights/">Jay
-Arthur</a>]</p>
-<p> </p>
-<p><strong>University enrollments.</strong> <a
-href="https://elizabethbuckner.com/">Elizabeth Buckner</a>’s <a
-href="https://ejournals.bc.edu/index.php/ihe/article/view/15729">Global
-Longitudinal University Enrollment Dataset</a> “compiles and estimates
-institution-level enrollment data on universities worldwide from 1950 to
-2020” at five-year intervals — 17,000+ institutions in all, across 180+
-countries. In addition to enrollment figures, the <a
-href="https://borealisdata.ca/dataset.xhtml?persistentId=doi:10.5683/SP3/P0D1KE&amp;version=1.0">dataset</a>
-“includes a number of other useful variables on institutional
-characteristics, merged from various sources, including sector (i.e.,
-public/private), founding year, and whether the institution is PhD
-granting or not.” It also forms the basis of an <a
-href="https://borealisdata.ca/dataset.xhtml?persistentId=doi:10.5683/SP3/AJGTC9">accompanying,
-country-level dataset</a>.</p>
-<p> </p>
-<p><strong>Jewish texts.</strong> <a
-href="https://www.sefaria.org/">Sefaria</a>, a <a
-href="https://www.sefaria.org/about">nonprofit co-founded a decade
-ago</a> by author <a href="https://joshuafoer.com/">Joshua Foer</a> and
-engineer <a href="https://brettlockspeiser.com/">Brett Lockspeiser</a>,
-is “assembling a free living library of Jewish texts and their
-interconnections, in Hebrew and in translation.” Those texts <a
-href="https://www.sefaria.org/texts">include</a> the Torah itself, plus
-rabbinic scholarship, legal works, prayer books, historical
-dictionaries, and more. In all, the project <a
-href="https://www.sefaria.org/metrics">contains</a> more than 300
-million words and has generated 3 million intertextual links between
-them. The initiative provides its data via <a
-href="https://github.com/Sefaria/Sefaria-Project/wiki/API-Documentation">an
-API</a> and <a href="https://github.com/Sefaria/Sefaria-Export">bulk
-download</a>, and its code is <a
-href="https://github.com/Sefaria/Sefaria-Project">open-source</a>.
-<strong>Read more</strong>: “<a
-href="https://www.washingtonpost.com/religion/2018/09/18/quest-put-talmud-online/">The
-quest to put the Talmud online</a>” (Washington Post, 2018). [h/t <a
-href="https://twitter.com/Arithmomaniac">Avi Levin</a>]</p>
-<p> </p>
-<p><strong>Women’s college basketball rosters.</strong> Students in <a
-href="https://merrill.umd.edu/directory/derek-willis">Derek Willis</a>’s
-“<a href="https://app.testudo.umd.edu/soc/202208/JOUR/JOUR479X">Sports
-Data Analysis &amp; Visualization</a>” course at the University of
-Maryland’s journalism school have <a
-href="https://twitter.com/derekwillis/status/1600946516272861185">assembled</a>
-data on <a
-href="https://github.com/Sports-Roster-Data/womens-college-basketball">13,000+
-players on women’s college basketball teams</a>, sourced from 900+
-rosters for the 2022–23 NCAA season. Their main dataset lists each
-player’s name, team, position, jersey number, height, year, hometown,
-high school, and more.</p>
-<p> </p>
-<p><strong>Mastodon membership.</strong> The <a
-href="https://github.com/TheKinrar/instances">open-source</a> website <a
-href="https://instances.social/">instances.social</a> tracks 16,000+
-servers running <a href="https://joinmastodon.org/">Mastodon</a>, the
-most prominent of the decentralized social networks seen as alternatives
-to Twitter. It collects each server’s domain, name, description, user
-count, status count, and more. Since late November, <a
-href="https://simonwillison.net/">Simon Willison</a> has been <a
-href="https://simonwillison.net/2022/Nov/20/tracking-mastodon/">creating
-a longitudinal record of the site’s directory</a> and <a
-href="https://observablehq.com/@simonw/mastodon-users-and-statuses-over-time">charting
-the overall trend</a>.</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send federated feedback
-to jsvine@gmail.com, or just reply to this email. ★ Looking for past
-datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. ★ Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and to browse past editions. ★ <a
-href="https://docs.google.com/document/d/e/2PACX-1vSP5xYrhqEvoGTi2aFzrsYQXadG8Gv0Y6YGWjib1e4qcXG45Sq5TSvngvh342DdcAEyEDIVd5V3RYcc/pub">Place
-an ad in Data Is Plural</a>.</em></p>
-]]></content:encoded>
-      <guid isPermaLink="false">dip-2022-12-14</guid>
-      <pubDate>Wed, 14 Dec 2022 08:00:00 -0500</pubDate>
     </item>
   </channel>
 </rss>
