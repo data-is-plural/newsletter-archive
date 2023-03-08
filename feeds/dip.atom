@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.data-is-plural.com</id>
   <title>Data Is Plural</title>
-  <updated>2023-03-01T08:00:00-05:00</updated>
+  <updated>2023-03-08T08:00:00-05:00</updated>
   <author>
     <name>Jeremy Singer-Vine</name>
     <email>jsvine@gmail.com</email>
@@ -10,6 +10,116 @@
   <link href="https://www.data-is-plural.com" rel="alternate"/>
   <generator>https://github.com/data-is-plural/newsletter-archive</generator>
   <subtitle>A weekly newsletter of useful/curious datasets.</subtitle>
+  <entry>
+    <id>dip-2023-03-08</id>
+    <title>Data Is Plural — 2023.03.08 edition</title>
+    <updated>2023-03-08T08:00:00-05:00</updated>
+    <content type="CDATA"><![CDATA[<p><em>Government contracting data, debt-to-income ratios, changes of
+address, decades of UK prices, and shows cut short.</em></p>
+<p> </p>
+<p><strong>Government contracting data, cataloged.</strong> The
+nonprofit <a href="https://www.open-contracting.org/about/">Open
+Contracting Partnership</a> has <a
+href="https://www.open-contracting.org/2023/02/23/a-new-registry-for-open-contracting-data/">launched</a>
+a <a href="https://data.open-contracting.org/en/">registry</a> of
+government procurement datasets that use its <a
+href="https://www.open-contracting.org/data-standard/">Open Contracting
+Data Standard</a> (featured in <a
+href="https://www.data-is-plural.com/archive/2020-02-26-edition/">DIP
+2020.02.26</a>). The registry contains 100+ entries so far, across 50+
+countries — from Argentina’s <a
+href="https://data.open-contracting.org/en/publication/18">national
+roads authority</a> and the <a
+href="https://data.open-contracting.org/en/publication/17">city of
+Buenos Aires</a> to Zambia’s <a
+href="https://data.open-contracting.org/en/publication/3">Public
+Procurement Authority</a>. You can <a
+href="https://data.open-contracting.org/en/search/">filter the
+listings</a> by dataset recency, update frequency, and the <a
+href="https://standard.open-contracting.org/latest/en/schema/reference/#release-structure">data
+types</a> included (parties, awards, documents, amendments, et cetera).
+[h/t <a href="https://twitter.com/georg_neu">Georg Neumann</a>]</p>
+<p> </p>
+<p><strong>Debt-to-income ratios.</strong> The US Federal Reserve <a
+href="https://www.federalreserve.gov/releases/z1/dataviz/household_debt/">generates
+quarterly statistics</a> estimating the median ratio of household debt
+to income in each state, county, and metro area. The published maps and
+datasets, which go back to 1999, don’t include precise figures, but
+rather place each geographic unit into one of ten ranges. The income
+calculations <a
+href="https://www.federalreserve.gov/econres/notes/feds-notes/household-debt-to-income-ratios-in-the-enhanced-financial-accounts-20180109.html">come
+from</a> the Bureau of Labor Statistics, while the debt estimates (which
+do not include student loans) come from the <a
+href="https://www.newyorkfed.org/research/staff_reports/sr479">New York
+Fed Consumer Credit Panel</a>, “an anonymized 5 percent random sample of
+Americans with credit files at the credit reporting bureau Equifax.”
+<strong>As seen in</strong>: “<a
+href="https://americaninequality.substack.com/p/debt-and-inequality">Debt
+and Inequality</a>” (<a
+href="https://www.americaninequality.io/">American Inequality</a>).</p>
+<p> </p>
+<p> </p>
+<p><strong>Changes of address.</strong> In the “Frequently Requested
+Records” section of its <a
+href="https://about.usps.com/who/legal/foia/library.htm">online FOIA
+library</a>, the US Postal Service provides datasets counting how many
+individuals, families, and businesses have registered for the agency’s
+change-of-address service, by month and ZIP code. The datasets tally the
+moves originating from a given ZIP code separately from those destined
+for it, although moves within the same ZIP code are counted on both
+sides of the ledger. <strong>Related</strong>: <a
+href="https://postalpro.usps.com/ncoalink/Full_Service_Provider_Licensees">The
+companies to which USPS sells mover-level data</a>. [h/t <a
+href="https://twitter.com/TimHendersonSL/status/1632119186540441603">Tim
+Henderson</a>]</p>
+<p> </p>
+<p><strong>Decades of UK prices.</strong> In January 2023, the UK’s
+Office for National Statistics collected 139,000+ price quotes from
+thousands of stores and across hundreds of products, from “A4 PRINTER
+PAPER (500 REAM)” to “YORKSHIRE PUDDING FROZEN”. The agency has
+collected this kind of <a
+href="https://www.ons.gov.uk/economy/inflationandpriceindices/datasets/consumerpriceindicescpiandretailpricesindexrpiitemindicesandpricequotes">price-quote
+data</a> for <a
+href="https://www.ons.gov.uk/economy/inflationandpriceindices/adhocs/007392consumerpriceinflationpricequotes1988to1996">decades</a>,
+using it to calculate <a
+href="https://www.ons.gov.uk/economy/inflationandpriceindices">inflation
+and price indices</a>. Economist <a
+href="https://richarddavies.io/about">Richard Davies</a> has <a
+href="https://richarddavies.io/research/prices">aggregated the data
+going back to 1988 and standardized it</a>, correcting misrecorded
+prices, offsetting measurement changes, among other efforts described in
+a <a
+href="https://cep.lse.ac.uk/pubs/download/occasional/op055.pdf">2021
+working paper</a>.</p>
+<p> </p>
+<p><strong>Shows cut short.</strong> <a
+href="https://www.isitcutshort.com/">IsItCutShort.com</a> provides a
+searchable list of television shows that were canceled (e.g., <a
+href="https://www.imdb.com/title/tt0083437/">Knight Rider</a>), ended on
+a cliffhanger (<a href="https://www.imdb.com/title/tt0141842/">The
+Sopranos</a>), or both (<a
+href="https://www.imdb.com/title/tt1389371/">Rubicon</a>). The <a
+href="https://github.com/xdpirate/isitcutshort.com">database</a>
+provides each series’s title, cliffhanger and cancellation status, IMDB
+identifier, and occasional extra notes. A handful of the 130+ entries
+fit another category: shows that “ended without a cliffhanger, but more
+show content exists outside the show itself.” [h/t <a
+href="https://danjbrady.com">Dan Brady</a>]</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send unrenewed feedback
+to jsvine@gmail.com, or just reply to this email. // Looking for past
+datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. // Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions. // <a
+href="https://docs.google.com/document/d/e/2PACX-1vSP5xYrhqEvoGTi2aFzrsYQXadG8Gv0Y6YGWjib1e4qcXG45Sq5TSvngvh342DdcAEyEDIVd5V3RYcc/pub">Place
+an ad in Data Is Plural</a>.</em></p>
+]]></content>
+    <link href="http://www.data-is-plural.com/archive/2023-03-08-edition" rel="alternate"/>
+    <summary>Government contracting data, debt-to-income ratios, changes of address, decades of UK prices, and shows cut short.</summary>
+    <published>2023-03-08T08:00:00-05:00</published>
+  </entry>
   <entry>
     <id>dip-2023-03-01</id>
     <title>Data Is Plural — 2023.03.01 edition</title>
@@ -1041,141 +1151,5 @@ an ad in Data Is Plural</a>.</em></p>
     <link href="http://www.data-is-plural.com/archive/2023-01-04-edition" rel="alternate"/>
     <summary>Prison-banned books, severe weather warnings, congregations and adherents, UAE art establishments, and one billionaire’s donations.</summary>
     <published>2023-01-04T08:00:00-05:00</published>
-  </entry>
-  <entry>
-    <id>dip-2022-12-21</id>
-    <title>Data Is Plural — 2022.12.21 edition</title>
-    <updated>2022-12-21T08:00:00-05:00</updated>
-    <content type="CDATA"><![CDATA[<p><em>Inmate call costs, state-authorized sports betting, drone
-registrations, folklore motifs, and ski trails.</em></p>
-<p> </p>
-<p><em>📣 <strong>Ad:</strong> Data too big for Excel or Sheets?
-Gigasheet is the cloud big data analysis spreadsheet. Sort, filter, and
-pivot up to a billion rows. <a
-href="https://www.gigasheet.com/free/online-csv-viewer?utm_source=data-is-plural&amp;utm_medium=ad-email-list&amp;utm_campaign=SignUp&amp;utm_id=202212221-DIP&amp;utm_term=csv-viewer">View
-big CSVs</a>, <a
-href="https://www.gigasheet.com/post/convert-json-to-csv?utm_source=data-is-plural&amp;utm_medium=ad-email-list&amp;utm_campaign=SignUp&amp;utm_id=202212221-DIP&amp;utm_term=convert-json-to-csv">convert
-JSON to CSV</a>, or merge hundreds of files. Database power, cloud
-scale. <a
-href="https://app.gigasheet.com/sign-up?utm_source=data-is-plural&amp;utm_medium=ad-email-list&amp;utm_campaign=SignUp&amp;utm_id=202212221-DIP&amp;utm_term=sign-up">Sign
-up</a> for 10GB of storage, free!</em></p>
-<p> </p>
-<p><strong>Inmate call costs.</strong> In its latest “<a
-href="https://www.prisonpolicy.org/phones/state_of_phone_justice_2022.html">State
-of Phone Justice</a>” report, the <a
-href="https://www.prisonpolicy.org/">Prison Policy Initiative</a> has
-compiled <a
-href="https://www.prisonpolicy.org/phones/state_of_phone_justice_2022.html#appendices">data
-on the price of inmate phone calls</a> “for almost every jail and prison
-in the country.” <a
-href="https://www.prisonpolicy.org/phones/appendices2022_3.html">One
-table</a> lists each jail’s name, state, type, average daily population,
-telecom company, and the per-minute cost of in-state and out-of-state
-calls in 2021. As the <a
-href="https://www.prisonpolicy.org/phones/state_of_phone_justice_2022.html#methodology">report’s
-methodology</a> explains, those figures are based on <a
-href="https://www.fcc.gov/general/ics-data-collections">forms that
-telecom providers must submit</a> to the Federal Communications
-Commission, with “additional corrections and updates based on our
-research.” Additional tables examine <a
-href="https://www.prisonpolicy.org/phones/appendices2022_1.html">phone
-rates in state prisons over time</a> (supplemented by previous
-collection efforts), <a
-href="https://www.prisonpolicy.org/phones/appendices2022_5.html">state
-averages for local jails</a>, and more. [h/t <a
-href="https://www.prisonpolicy.org/staff.html#wessler">Mike
-Wessler</a>]</p>
-<p> </p>
-<p><strong>State-authorized sports betting.</strong> <a
-href="https://www.legalsportsreport.com/">Legal Sports Report</a>, a
-gambling industry publication, has been tracking the <a
-href="https://www.legalsportsreport.com/sports-betting/revenue/">amount
-of money legally wagered on sports in each US state</a>, the amount kept
-by sportsbooks, and how much the government collected in taxes or
-revenue-sharing. Monthly figures, drawn from linked official sources,
-are available as HTML tables for more than two dozen states. The site
-also <a
-href="https://www.legalsportsreport.com/sportsbetting-bill-tracker/">tracks
-state legislation on sports betting</a>. <strong>As seen in</strong>:
-“<a
-href="https://www.bloomberg.com/news/articles/2022-12-02/how-a-lobbying-frenzy-helped-sports-betting-apps-write-their-own-rules">How
-an Arizona Lobbying Frenzy Helped Sports App Bookies Write Their Own
-Rules</a>” (Bloomberg). [h/t <a
-href="https://blog.datawrapper.de/data-vis-dispatch-december-6-2022/">Veronika
-Halamková</a>]</p>
-<p> </p>
-<p><strong>Drone registrations.</strong> Through a FOIA request to the
-Federal Aviation Administration, <a
-href="https://palewi.re/who-is-ben-welsh/">Ben Welsh</a> has <a
-href="https://www.muckrock.com/foi/united-states-of-america-10/database-of-14-cfr-part-48-registered-drones-132943/">obtained
-data</a> on all “small unmanned aircraft” (popularly known as drones)
-actively <a
-href="https://www.faa.gov/uas/getting_started/register_drone">registered</a>
-with the agency through 2021 — nearly 900,000 registrations in all. The
-spreadsheets, provided separately for <a
-href="https://www.faa.gov/newsroom/small-unmanned-aircraft-systems-uas-regulations-part-107">commercial</a>
-and <a
-href="https://www.faa.gov/uas/recreational_flyers">recreational</a>
-registrations, list each drone’s type and model, <a
-href="https://www.faa.gov/uas/getting_started/remote_id/drone_pilots">Remote
-ID</a> capability, and registration date, plus the registrant’s city,
-state, and postcode. <strong>Related</strong>: Welsh, a journalist and
-<a
-href="https://www.reddit.com/r/drones/comments/xprv3n/comment/iq5ggqq/">newly-licensed</a>
-commercial drone pilot, has <a
-href="https://www.muckrock.com/foi/list/?user=7842&amp;sort=date_submitted&amp;order=desc">filed
-many data FOIA requests</a>, including <a
-href="https://www.muckrock.com/foi/united-states-of-america-10/database-of-suas-drone-accident-reports-132824/">one</a>
-that pried loose the <a
-href="https://www.reddit.com/r/drones/comments/z1xtmq/faa_drone_accident_report_database_released_via/">FAA’s
-drone accident database</a> (released, alas, as a PDF). [h/t <a
-href="https://us2.campaign-archive.com/?u=74862d74361490eca930f4384&amp;id=3c6d3a8554">MuckRock</a>]</p>
-<p> </p>
-<p><strong>Folklore motifs.</strong> <a
-href="https://www.helsinki.fi/assets/drupal/2022-12/rmn_10_2015.pdf?page=58">Decades
-ago</a>, anthropologist <a
-href="https://www.kunstkamera.ru/en/research/academic_board/yuri_e_berezkin">Yuri
-Berezkin</a> began systematically assembling what would later become the
-<a href="https://www.ruthenia.ru/folklore/berezkin/">Electronic
-Analytical Catalogue of Folklore and Mythological Motifs</a>, which
-identifies thousands of recurring narrative elements and their presence
-within nearly 1,000 societies’ stories. In a <a
-href="https://academic.oup.com/qje/article/136/4/1993/6124640">paper
-published last year</a>, <a
-href="https://sites.google.com/site/steliosecon/">Stelios
-Michalopoulos</a> and <a href="https://www.melaniexue.net/">Melanie Meng
-Xue</a> describe the resource, <a
-href="https://broadstreet.blog/2021/05/14/folklore-a-window-into-the-past/">analyze
-it</a>, and <a
-href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/IXOHKB">share
-a database snapshot from October 2019</a>.</p>
-<p> </p>
-<p><strong>Ski trails.</strong> Contributors to <a
-href="https://skimap.org/">skimap.org</a> have posted 16,000+ maps of
-ski trails <a href="https://skimap.org/Regions/view">across the
-world</a>. You can <a
-href="https://skimap.org/pages/Developers">programmatically access</a>
-the (mostly image-based) maps as well as data on individual regions and
-ski areas. <a href="https://openskimap.org/">OpenSkiMap</a>, meanwhile,
-combines that information with <a
-href="https://www.openstreetmap.org/about">OpenStreetMap</a> records to
-provide an interactive map (and <a
-href="https://openskimap.org/?about">structured data</a>) of ski areas,
-lifts, and runs. [h/t <a
-href="https://databayou.com/ski/resorts.html">Luz K. Molina</a>]</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send downhill and
-cross-country feedback to jsvine@gmail.com, or just reply to this email.
-★ Looking for past datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. ★ Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and to browse past editions. ★ <a
-href="https://docs.google.com/document/d/e/2PACX-1vSP5xYrhqEvoGTi2aFzrsYQXadG8Gv0Y6YGWjib1e4qcXG45Sq5TSvngvh342DdcAEyEDIVd5V3RYcc/pub">Place
-an ad in Data Is Plural</a>.</em></p>
-]]></content>
-    <link href="http://www.data-is-plural.com/archive/2022-12-21-edition" rel="alternate"/>
-    <summary>Inmate call costs, state-authorized sports betting, drone registrations, folklore motifs, and ski trails.</summary>
-    <published>2022-12-21T08:00:00-05:00</published>
   </entry>
 </feed>
