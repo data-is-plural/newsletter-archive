@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.data-is-plural.com</id>
   <title>Data Is Plural</title>
-  <updated>2023-03-08T08:00:00-05:00</updated>
+  <updated>2023-03-15T08:00:00-04:00</updated>
   <author>
     <name>Jeremy Singer-Vine</name>
     <email>jsvine@gmail.com</email>
@@ -10,6 +10,126 @@
   <link href="https://www.data-is-plural.com" rel="alternate"/>
   <generator>https://github.com/data-is-plural/newsletter-archive</generator>
   <subtitle>A weekly newsletter of useful/curious datasets.</subtitle>
+  <entry>
+    <id>dip-2023-03-15</id>
+    <title>Data Is Plural — 2023.03.15 edition</title>
+    <updated>2023-03-15T08:00:00-04:00</updated>
+    <content type="CDATA"><![CDATA[<p><em>Recent bank financials, historical bank financials, policy
+categorizations, irrigation water use, and the market for
+X-Men.</em></p>
+<p> </p>
+<p><strong>Bank financials, 1976–present.</strong> The <a
+href="https://www.ffiec.gov/default.htm">Federal Financial Institutions
+Examination Council</a>’s <a
+href="https://www.ffiec.gov/npw/Home/About">National Information
+Center</a> “provides comprehensive financial and structure information
+on banks and other institutions for which the Federal Reserve has a
+supervisory, regulatory, or research interest.” Its datasets include <a
+href="https://www.ffiec.gov/npw/FinancialReport/FinancialDataDownload">quarterly
+financial statements</a> for <a
+href="https://www.ffiec.gov/npw/Help/InstitutionTypes#bhcs">bank holding
+companies</a>, going back to 2016, plus <a
+href="https://www.ffiec.gov/npw/FinancialReport/DataDownload">detailed
+attributes</a> of all active banks, 150,000+ banks closed since the
+mid-1930s (including <a
+href="https://en.wikipedia.org/wiki/Silicon_Valley_Bank">Silicon Valley
+Bank</a>), and 160,000+ bank branches. The agency also <a
+href="https://cdr.ffiec.gov/public/PWS/DownloadBulkData.aspx">provides</a>
+bank <a
+href="https://cdr.ffiec.gov/public/HelpFileContainers/FAQ.aspx">financials</a>
+in the form of “<a
+href="https://www.fdic.gov/resources/bankers/accounting/reports-of-condition-and-income/">call
+reports</a>” going back to 2001. Earlier call reports, going back to
+1976, are <a
+href="https://www.chicagofed.org/banking/financial-institution-reports/commercial-bank-data">available
+from the Chicago Fed</a>. <strong>Related</strong>: <a
+href="https://www.fdic.gov/resources/resolutions/bank-failures/failed-bank-list/">The
+FDIC’s list of failed banks since October 2000</a>. [h/t <a
+href="http://scorreia.com/">Sergio Correia</a>]</p>
+<p> </p>
+<p><strong>Bank financials, 1867–1904.</strong> Federal Reserve
+economists <a href="http://scorreia.com/">Sergio Correia</a> and <a
+href="https://sites.google.com/site/stephanluck/">Stephan Luck</a> have
+<a
+href="https://libertystreeteconomics.newyorkfed.org/2023/03/insights-from-newly-digitized-banking-data-1867-1904/">compiled</a>
+a <a
+href="https://www.newyorkfed.org/research/banking_research/balance-sheet-national-bank">dataset</a>
+of “annual national bank balance sheets for more than 7,000 unique
+national banks, covering the years 1867 to 1904.” They did so by
+“combining optical character recognition (OCR) techniques with modern
+layout separation techniques,” which allowed them to extract information
+from scans of the <a href="https://www.occ.treas.gov/">Office of the
+Comptroller of the Currency</a>’s <a
+href="https://fraser.stlouisfed.org/title/annual-report-comptroller-currency-56?browse=1860s">annual
+reports to Congress</a>. The data <a
+href="http://scorreia.com/data/call-reports.html">include</a> asset and
+liability subtotals, receivership dates, city-level variables, and more.
+<strong>Related</strong>: Correia and Luck describe their methodology in
+a <a
+href="https://www.sciencedirect.com/science/article/abs/pii/S0014498322000535">recent
+paper</a> and <a href="https://arxiv.org/abs/2204.00052">open-access
+preprint</a>.</p>
+<p> </p>
+<p><strong>Policies, categorized.</strong> The <a
+href="https://www.comparativeagendas.net/pages/About">Comparative
+Agendas Project</a> “assembles and codes information on the policy
+processes of governments from around the world,” <a
+href="https://www.comparativeagendas.net/pages/master-codebook">categorizing</a>
+them into 20+ topics (e.g., “Civil Rights”) and 200+ subtopics (e.g.,
+“Handicap Discrimination”). It “actively monitors thirty different data
+series,” which you can <a
+href="https://www.comparativeagendas.net/datasets_codebooks">download</a>
+and <a href="https://www.comparativeagendas.net/tool">explore
+online</a>, “all coded by this same predictable, reliable coding
+system.” <strong>Previously</strong>: <a
+href="http://www.amber-boydstun.com/supplementary-information-for-making-the-news.html">CAP
+categorizations for a decade of NYT front-page stories</a> (<a
+href="https://www.data-is-plural.com/archive/2018-04-25-edition/">DIP
+2018.04.25</a>). [h/t <a href="https://www.ejfagan.com/">E.J.
+Fagan</a>]</p>
+<p> </p>
+<p><strong>Irrigation by county and crop.</strong> <a
+href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2022WR032804">P.
+J. Ruess et al.</a> have developed <a
+href="https://databank.illinois.edu/datasets/IDB-4607538">annual,
+county-level estimates</a> of irrigation water use for 20 crop groups
+between 2008 and 2020. The calculations draw on <a
+href="https://water.usgs.gov/watuse/data/index.html">water use data from
+the US Geological Survey</a>, as well as high-resolution data on crop
+locations, climate, and more. They generate estimates for surface water
+withdrawals, groundwater withdrawals, and nonrenewable <a
+href="https://www.usgs.gov/special-topics/water-science-school/science/groundwater-decline-and-depletion">groundwater
+depletion</a>, making the findings “the first national-scale assessment
+of irrigation by crop, water source, and year.” [h/t <a
+href="https://twitter.com/MikeStucka">Mike Stucka</a>]</p>
+<p> </p>
+<p><strong>The market for X-Men.</strong> <a
+href="https://andersonevans.me/">Anderson Evans</a>’s <a
+href="https://rallyrd.com/mutant-moneyball-a-data-driven-ultimate-x-men/">Mutant
+Moneyball</a> project uses comic book market data to explore the
+financial value of individual X-Men characters. The project’s <a
+href="https://github.com/EliCash82/mutantmoneyball">dataset</a> provides
+<a
+href="https://github.com/EliCash82/mutantmoneyball/blob/main/MutantMoneyballOpenData.csv">decade-by-decade
+statistics</a> for 26 members of the team, drawn from sales histories
+and pricing guides, as well as a <a
+href="https://github.com/EliCash82/mutantmoneyball/blob/main/MutantMoneyballAppearanceData.csv">matrix
+indicating the issues in which each character appeared</a>.</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send marvelous feedback
+to jsvine@gmail.com, or just reply to this email. // Looking for past
+datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. // Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions. // <a
+href="https://docs.google.com/document/d/e/2PACX-1vSP5xYrhqEvoGTi2aFzrsYQXadG8Gv0Y6YGWjib1e4qcXG45Sq5TSvngvh342DdcAEyEDIVd5V3RYcc/pub">Advertise
+in Data Is Plural</a>.</em></p>
+]]></content>
+    <link href="http://www.data-is-plural.com/archive/2023-03-15-edition" rel="alternate"/>
+    <summary>Recent bank financials, historical bank financials, policy categorizations, irrigation water use, and the market for X-Men.</summary>
+    <published>2023-03-15T08:00:00-04:00</published>
+  </entry>
   <entry>
     <id>dip-2023-03-08</id>
     <title>Data Is Plural — 2023.03.08 edition</title>
@@ -1043,113 +1163,5 @@ how to place an ad in Data Is Plural</a>.</em></p>
     <link href="http://www.data-is-plural.com/archive/2023-01-11-edition" rel="alternate"/>
     <summary>Automobile recalls, small-business loans, European Parliamentarians, variable stars, and NYC pizza slices.</summary>
     <published>2023-01-11T08:00:00-05:00</published>
-  </entry>
-  <entry>
-    <id>dip-2023-01-04</id>
-    <title>Data Is Plural — 2023.01.04 edition</title>
-    <updated>2023-01-04T08:00:00-05:00</updated>
-    <content type="CDATA"><![CDATA[<p><em>Prison-banned books, severe weather warnings, congregations and
-adherents, UAE art establishments, and one billionaire’s
-donations.</em></p>
-<p> </p>
-<p><strong>Prison-banned books.</strong> The Marshall Project is
-building a <a
-href="https://www.themarshallproject.org/2022/12/21/prison-banned-books-list-find-your-state">database
-of books banned from state prisons</a>, based on official lists that
-reporters requested from each state’s correctional agency. The browsable
-and <a
-href="https://observablehq.com/@themarshallproject/prison-banned-books">downloadable</a>
-database includes roughly 50,000 entries from 18 states so far, with
-plans for expansion. The fields include the book’s title, author, date
-banned, and reason for banning, although availability varies by state.
-(Disclosure: I did some <a
-href="https://www.jsvine.com/consulting/pdf-data-extraction/">contract
-work</a> for this project, extracting data from PDFs.) <strong>Read
-more</strong>: “<a
-href="https://www.themarshallproject.org/2022/12/21/prison-banned-books-new-york-florida-censorship">Why
-Would Prisons Ban My Book? Absurdities Rule the System</a>,” by Marshall
-Project reporter Keri Blakinger. <strong>Previously</strong>: <a
-href="https://pen.org/banned-in-the-usa/">School-banned books</a> (<a
-href="https://www.data-is-plural.com/archive/2022-07-06-edition/">DIP
-2022.07.06</a>).</p>
-<p> </p>
-<p><strong>Severe weather warnings.</strong> Among its many services,
-the <a href="https://mesonet.agron.iastate.edu/">Iowa Environmental
-Mesonet</a> provides a range of <a
-href="https://mesonet.agron.iastate.edu/nws/">National Weather Service
-data interfaces and downloads</a>, including current and historical <a
-href="https://mesonet.agron.iastate.edu/request/gis/watchwarn.phtml">severe
-weather warnings, watches, and advisories</a>. Coverage for tornado,
-severe thunderstorm, flash flood, and marine warnings goes back to 1986;
-in more recent decades, the data include <a
-href="https://github.com/akrherz/pyIEM/blob/d7afb8de354775e922cb8ce3d8f865871e78f179/src/pyiem/nws/vtec.py#L43">dozens
-of additional phenomena</a>, such as <em>freezing fog</em>, <em>high
-surf</em>, <em>dense smoke</em>, and <em>excessive heat</em>. The
-records <a
-href="https://mesonet.agron.iastate.edu/info/datasets/vtec.html">indicate</a>
-each alert’s geospatial boundaries, time of issuance and expiration,
-forecast office, status, and more.</p>
-<p> </p>
-<p><strong>Congregations and adherents.</strong> A <a
-href="https://www.usreligioncensus.org/index.php/about-census">successor</a>
-to the federal government’s <a
-href="https://www.pewresearch.org/religion/2010/01/26/a-brief-history-of-religion-and-the-u-s-census/">Census
-of Religious Bodies</a> (1890–1936), the <a
-href="https://www.usreligioncensus.org/">US Religion Census</a> is now
-conducted every 10 years by the <a
-href="http://www.asarb.org/">Association of Statisticians of American
-Religious Bodies</a>. The researchers <a
-href="https://www.usreligioncensus.org/index.php/methods">approach</a>
-“formal denominations and religious groups,” from which they <a
-href="https://www.usreligioncensus.org/index.php/data_collected">collect</a>
-“data on the number of congregations, members, adherents, and attendees”
-at a county level. Results for the 2021 study, <a
-href="https://www.usreligioncensus.org/node/1639">available as
-spreadsheets and maps</a>, include responses from 370+ faith groups.
-<strong>Previously</strong>: <a
-href="https://sites.duke.edu/ncsweb/">The National Congregations
-Study</a> (<a
-href="https://www.data-is-plural.com/archive/2021-12-29-edition/">DIP
-2021.12.29</a>). [h/t <a
-href="https://www.reddit.com/r/dataisbeautiful/comments/zh4358/but_where_do_folks_actually_attend_church_oc/">Adam
-Porter</a>]</p>
-<p> </p>
-<p><strong>UAE art establishments.</strong> As part of her doctoral
-research into the role of women in the United Arab Emirates’ art scene,
-<a href="https://ihmc.ens.psl.eu/-GRINSTEAD-Eve-.html?lang=en">Eve
-Grinstead</a> has compiled <a
-href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/SWDKKK">three
-tables of relevant data</a>, listing 99 galleries, nine fairs, and eight
-auction houses in the country. Each row includes the establishment’s
-name, date founded, specialty, owners/founders, city (or Dubai
-neighborhood), and Grinstead’s notes.</p>
-<p> </p>
-<p><strong>One billionaire’s donations.</strong> Last month, billionaire
-<a href="https://en.wikipedia.org/wiki/MacKenzie_Scott">MacKenzie
-Scott</a> unveiled a <a href="https://yieldgiving.com/">website for her
-philanthropic efforts</a>. It features a <a
-href="https://yieldgiving.com/gifts/">downloadable table</a> that lists
-1,600+ donations doled out since 2019, with each gift’s year, amount
-(replaced with “disclosure delayed for benefit of recipient” for 28% of
-entries), and recipient organization. <strong>Read more</strong>: “<a
-href="https://www.theguardian.com/society/2022/dec/15/mackenzie-scott-billionaire-donations-non-profits">MacKenzie
-Scott reveals details of her $14bn in donations to 1,600
-non-profits</a>” (The Guardian). [h/t <a
-href="https://themorningnews.org/post/saturday-headlines-keep-your-twin-up">The
-Morning News</a>]</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Donate your feedback to
-jsvine@gmail.com, or just reply to this email. • Looking for past
-datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. • Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and to browse past editions. • <a
-href="https://docs.google.com/document/d/e/2PACX-1vSP5xYrhqEvoGTi2aFzrsYQXadG8Gv0Y6YGWjib1e4qcXG45Sq5TSvngvh342DdcAEyEDIVd5V3RYcc/pub">Place
-an ad in Data Is Plural</a>.</em></p>
-]]></content>
-    <link href="http://www.data-is-plural.com/archive/2023-01-04-edition" rel="alternate"/>
-    <summary>Prison-banned books, severe weather warnings, congregations and adherents, UAE art establishments, and one billionaire’s donations.</summary>
-    <published>2023-01-04T08:00:00-05:00</published>
   </entry>
 </feed>
