@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.data-is-plural.com</id>
   <title>Data Is Plural</title>
-  <updated>2023-03-22T08:00:00-04:00</updated>
+  <updated>2023-03-29T08:00:00-04:00</updated>
   <author>
     <name>Jeremy Singer-Vine</name>
     <email>jsvine@gmail.com</email>
@@ -10,6 +10,122 @@
   <link href="https://www.data-is-plural.com" rel="alternate"/>
   <generator>https://github.com/data-is-plural/newsletter-archive</generator>
   <subtitle>A weekly newsletter of useful/curious datasets.</subtitle>
+  <entry>
+    <id>dip-2023-03-29</id>
+    <title>Data Is Plural — 2023.03.29 edition</title>
+    <updated>2023-03-29T08:00:00-04:00</updated>
+    <content type="CDATA"><![CDATA[<p><em>Local public meetings, health workers, Kremlin posts, carbon
+capture projects, and Milan drinking fountains.</em></p>
+<p> </p>
+<p><em>👋 Surprise! Say hello to <a
+href="https://podcast.data-is-plural.com/">Data Is Plural: The
+Podcast</a>. The first season is <a
+href="https://podcast.data-is-plural.com/">now available in its
+entirety</a> — five concise episodes, each based on data previously
+featured in this newsletter. This is my first time creating a podcast,
+and I still have lots to learn. So please do let me know what you think;
+critiques and suggestions for improvement particularly appreciated. And
+a <strong>big, hearty thanks</strong> to this season’s guests (<a
+href="https://www.buygiantpumpkins.com/">Andy</a>, <a
+href="https://mattieburkert.com/">Mattie</a>, <a
+href="https://twitter.com/pmedranoviz">Pablo</a>, <a
+href="https://irenatfh.github.io/">Irena</a>, <a
+href="https://twitter.com/voberoi">Vikram</a>), who generously agreed to
+be interviewed for a podcast that, at the time, was just a vague
+idea.</em></p>
+<p> </p>
+<p><strong>Local public meetings.</strong> <a
+href="https://localview.net/">LocalView</a>, developed by <a
+href="https://soubhikbarari.com/">Soubhik Barari</a> and <a
+href="https://tylersimko.com/">Tyler Simko</a>, “is the largest dataset
+of local government public meetings — the central policy-making process
+in American local government — as they are captured on video.” In a <a
+href="https://www.nature.com/articles/s41597-023-02044-y">recent
+paper</a>, the authors describe how they built the <a
+href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/NJTBEM">dataset</a>,
+which is based on 130,000+ YouTube-hosted videos of such meetings in
+1,000+ US cities and counties, covering the years 2006 to 2022. The
+dataset lists each meeting’s date, jurisdiction, and government body
+(e.g., municipal council, school board, etc.), plus the video’s ID,
+title, channel, transcript, and more. [h/t <a
+href="https://twitter.com/cbgoodman/status/1636070353930682374">Chris
+Goodman</a>]</p>
+<p> </p>
+<p><strong>Health workers.</strong> The World Health Organization’s <a
+href="https://www.who.int/data/gho/data/themes/topics/health-workforce">Global
+Health Workforce Statistics database</a> presents annual, national
+estimates of the number of medical doctors, nursing and midwifery
+professionals, community health workers, and several other types of
+health personnel. The estimates come from the WHO’s <a
+href="https://www.who.int/activities/improving-health-workforce-data-and-evidence">National
+Health Workforce Accounts system</a>, national censuses, labor force
+surveys, and other sources. For medical doctors, the estimates span
+nearly 200 countries, with the majority having estimates as recent as
+2020 or 2021. Twenty countries’ estimates go back to the 1960s (and, for
+Spain, all the way back to 1952). [h/t <a
+href="https://www.datasketch.co/newsletter/data-journalism/issue-23-everything-is-getting-more-expensive/">Datasketch</a>]</p>
+<p> </p>
+<p><strong>Kremlin posts.</strong> <a
+href="https://giorgiocomai.eu/">Giorgio Comai</a>’s “<a
+href="https://tadadit.xyz/about/about.html">text as data &amp; data in
+the text</a>” <a href="https://tadadit.xyz/">project</a> “aims at
+facilitating structured analysis of on-line contents related to
+conflicts in the post-Soviet space by providing easier access to
+relevant datasets and tools.” <a
+href="https://tadadit.xyz/datasets/">Those datasets</a> include the URL,
+title, text, date, and other metadata of <a
+href="https://tadadit.xyz/datasets/kremlin.ru_en/">all posts published
+on the Kremlin’s English-language website</a> since the year 2000; <a
+href="https://tadadit.xyz/datasets/kremlin.ru_ru/">on the Kremlin’s
+Russian-language website</a>; <a
+href="https://tadadit.xyz/datasets/zavtra.ru_ru/">and by <em>Zavtra</em>
+since late 1996</a>. <strong>Previously</strong>: <a
+href="https://focusdataproject.com/">Foreign ministry statements</a> (<a
+href="https://www.data-is-plural.com/archive/2022-03-09-edition/">DIP
+2022.03.09</a>). [h/t <a
+href="https://mailchi.mp/4370094fc2e6/rtkppffzok-13646506">EDJNet</a>]</p>
+<p> </p>
+<p><strong>Carbon capture projects.</strong> The <a
+href="https://netl.doe.gov/about/mission-overview">National Energy
+Technology Laboratory</a> maintains a <a
+href="https://netl.doe.gov/carbon-management/carbon-storage/worldwide-ccs-database">map
+and dataset</a> of <a
+href="https://netl.doe.gov/carbon-management/carbon-storage/faqs/carbon-storage-faqs">carbon
+capture and storage</a> projects “active, proposed, and terminated” in
+30+ countries since the 1970s. The latest version of the dataset
+includes 400+ entries, slightly more than are on the map. It lists each
+project’s name, company, location, date, type, scope, magnitude, status,
+technology, cost, summary, and other details. <strong>As seen
+in</strong>: “<a
+href="https://usafacts.org/articles/what-is-carbon-capture-and-storage-where-is-it-happening-in-the-us/">What
+is carbon capture and storage? Where is it happening in the US?</a>”
+(USAFacts).</p>
+<p> </p>
+<p><strong>Milan drinking fountains.</strong> Milan’s government
+publishes a <a
+href="https://dati.comune.milano.it/it/dataset/ds502_fontanelle-nel-comune-di-milano">dataset
+of 600+ local vedovelle</a>, the <a
+href="https://memorialdrinkingfountains.wordpress.com/2019/03/30/vedovelle-fountains/">distinctive</a>
+(green, cast iron, dragon-headed) drinking fountains that dot the city.
+The dataset provides each fountain’s coordinates, <a
+href="https://en.wikipedia.org/wiki/Municipalities_of_Milan">municipal
+zone</a>, and neighborhood. <strong>As seen in</strong>: “<a
+href="https://www.ilpost.it/2022/06/27/fontanelle-vedovelle-milano/">Tutto
+sulle fontanelle di Milano</a>,” with a map of the locations, by Il
+Post’s <a href="https://twitter.com/easyinve">Isaia Invernizzi</a>.</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send potable feedback to
+jsvine@gmail.com, or just reply to this email. // Looking for past
+datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. // Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions.</em></p>
+]]></content>
+    <link href="http://www.data-is-plural.com/archive/2023-03-29-edition" rel="alternate"/>
+    <summary>Local public meetings, health workers, Kremlin posts, carbon capture projects, and Milan drinking fountains.</summary>
+    <published>2023-03-29T08:00:00-04:00</published>
+  </entry>
   <entry>
     <id>dip-2023-03-22</id>
     <title>Data Is Plural — 2023.03.22 edition</title>
@@ -1038,125 +1154,5 @@ how to place an ad in Data Is Plural</a>.</em></p>
     <link href="http://www.data-is-plural.com/archive/2023-01-25-edition" rel="alternate"/>
     <summary>More recalls, jazz solos, overdose-related “Good Samaritan” laws, upcoming weather, and cats on the move.</summary>
     <published>2023-01-25T08:00:00-05:00</published>
-  </entry>
-  <entry>
-    <id>dip-2023-01-18</id>
-    <title>Data Is Plural — 2023.01.18 edition</title>
-    <updated>2023-01-18T08:00:00-05:00</updated>
-    <content type="CDATA"><![CDATA[<p><em>Unreturned remains, money in UK politics, Brazilian biodiversity,
-government open-source policies, and food coloring.</em></p>
-<p> </p>
-<p><em>👋 Will you be attending <a
-href="https://www.ire.org/training/conferences/nicar-2023/">NICAR
-2023</a>? If so, <a
-href="https://docs.google.com/forms/d/e/1FAIpQLScflesJGWaChVJp1OokDpX3m7Ob8p_ZIqPakboD_BnC5MH_5g/viewform">click
-here</a> to propose a “Data Blitz” presentation; I’ll be moderating the
-event.</em></p>
-<p> </p>
-<p><strong>Unreturned remains.</strong> “The remains of more than
-110,000 Native American, Native Hawaiian and Alaska Natives’ ancestors
-are still held by museums, universities and federal agencies,” <a
-href="https://www.propublica.org/article/repatriation-nagpra-museums-human-remains">according
-to The Repatriation Project</a>, a ProPublica <a
-href="https://www.propublica.org/series/the-repatriation-project">investigative
-series</a> launched last week. The project’s <a
-href="https://projects.propublica.org/repatriation-nagpra-database/">interactive
-database</a> provides more detailed figures — such as counts by
-institution, tribe, and geography. It builds upon <a
-href="https://www.nps.gov/subjects/nagpra/databases.htm">National Park
-Service databases</a> that track institutional compliance with the <a
-href="https://www.nps.gov/subjects/nagpra/index.htm">Native American
-Graves Protection and Repatriation Act</a>, including each institution’s
-<a
-href="https://grantsdev.cr.nps.gov/NagpraPublic/Home/Inventory">self-reported
-counts of human remains and funerary objects not yet made available for
-return</a> and <a
-href="https://grantsdev.cr.nps.gov/NagpraPublic/Home/Notice">compliance
-updates published in the Federal Register</a>. <strong>Event</strong>:
-<a href="https://www.propublica.org/events/repatriation">ProPublica is
-hosting a webinar</a> at <a
-href="https://time.is/compare/4pm_18_Jan_2023_in_New_York">4pm US
-Eastern today</a>.</p>
-<p> </p>
-<p><strong>Money in UK politics.</strong> <a
-href="https://news.sky.com/story/the-westminster-accounts-12786091">The
-Westminster Accounts</a>, a recent collaboration between Sky News and
-Tortoise Media, examines the flow of money through UK politics. It does
-so by <a
-href="https://www.tortoisemedia.com/2023/01/08/letting-the-light-in/">combining</a>
-data from three key sources: the <a
-href="https://www.parliament.uk/mps-lords-and-offices/standards-and-financial-interests/parliamentary-commissioner-for-standards/registers-of-interests/register-of-members-financial-interests/">Register
-of Members’ Financial Interests</a>, <a
-href="http://search.electoralcommission.org.uk/English/Search/Donations">Electoral
-Commission records of donations to parties</a>, and the <a
-href="https://www.parliament.uk/mps-lords-and-offices/standards-and-financial-interests/parliamentary-commissioner-for-standards/registers-of-interests/register-of-all-party-party-parliamentary-groups/">Register
-of All-Party Parliamentary Groups</a>. You can search and explore the
-results through the collaboration’s <a
-href="https://www.tortoisemedia.com/westminster-accounts-explore/">interactive</a>
-<a
-href="https://news.sky.com/story/westminster-accounts-search-for-your-mp-or-enter-your-full-postcode-12771627">database</a>.
-They haven’t published a downloadable version yet, but <a
-href="https://til.simonwillison.net/shot-scraper/scraping-flourish">Simon
-Willison has extracted one</a>. <strong>Read more</strong>: <a
-href="https://www.tortoisemedia.com/2023/01/08/the-westminster-accounts-methodology/">The
-project’s methodology</a>.</p>
-<p> </p>
-<p><strong>Brazilian biodiversity.</strong> <a
-href="https://floradobrasil.jbrj.gov.br/reflora/listaBrasil/ConsultaPublicaUC/ConsultaPublicaUC.do#CondicaoTaxonCP">Flora
-e Funga do Brasil</a>, a project led by the Rio de Janeiro Botanical
-Garden Research Institute, aims to collect “morphological descriptions,
-identification keys and illustrations for all species of plants, algae
-and fungi known to the country.” With <a
-href="https://onlinelibrary.wiley.com/doi/10.1002/tax.12640">the help of
-hundreds of scientists</a>, the project currently covers 50,000+
-species. A <a
-href="https://ipt.jbrj.gov.br/jbrj/resource?r=lista_especies_flora_brasil">downloadable
-dataset</a> links each species’ various names and synonyms, geographic
-distribution, reference citations, and more. [h/t <a
-href="https://www.getgrist.com/blog/relational-spreadsheets-protect-brazil-plants-conservation/">Grist
-Labs</a>]</p>
-<p> </p>
-<p><strong>Government open-source policies.</strong> Researchers at the
-<a href="https://www.csis.org/programs/about-us">Center for Strategic
-and International Studies</a> have <a
-href="https://www.csis.org/programs/strategic-technologies-program/government-open-source-software-policies">compiled
-a dataset</a> of <a
-href="https://github.com/github/government-open-source-policies">660+
-government policies regarding open-source software</a> proposed at the
-national level since 1999. The <a
-href="https://github.com/github/government-open-source-policies/tree/main/data">dataset</a>
-indicates each proposed policy’s country, year, title, issuing
-authority, stated objective, status, and more. The countries with <a
-href="https://github.github.io/government-open-source-policies/">the
-largest number of entries</a>: Argentina, the US, and South Korea. [h/t
-<a href="https://github.com/khxu">Kevin Xu</a>]</p>
-<p> </p>
-<p><strong>Food coloring.</strong> <a
-href="https://www.sciencedirect.com/science/article/pii/S2352340922010095">Arlie
-L. Lehmkuhler et al.</a> have used <a
-href="https://en.wikipedia.org/wiki/High-performance_liquid_chromatography">high-performance
-liquid chromatography</a> to assemble a <a
-href="https://data.mendeley.com/datasets/7rpwxrphws/1">dataset</a>
-measuring the levels of <a
-href="https://www.fda.gov/industry/color-additive-inventories/summary-color-additives-use-united-states-foods-drugs-cosmetics-and-medical-devices#table1B">“FD&amp;C”
-color additives</a> (e.g., Yellow 5 and Red 40) in foods and drinks
-popular with children, such as breakfast cereals and fruit-flavored soft
-drinks. The results, organized by product category, include product- and
-dye-specific measurements, but do not name the particular products or
-brands.</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send artificial feedback
-to jsvine@gmail.com, or just reply to this email. • Looking for past
-datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. • Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and to browse past editions. • <a
-href="https://docs.google.com/document/d/e/2PACX-1vSP5xYrhqEvoGTi2aFzrsYQXadG8Gv0Y6YGWjib1e4qcXG45Sq5TSvngvh342DdcAEyEDIVd5V3RYcc/pub">Learn
-how to place an ad in Data Is Plural</a>.</em></p>
-]]></content>
-    <link href="http://www.data-is-plural.com/archive/2023-01-18-edition" rel="alternate"/>
-    <summary>Unreturned remains, money in UK politics, Brazilian biodiversity, government open-source policies, and food coloring.</summary>
-    <published>2023-01-18T08:00:00-05:00</published>
   </entry>
 </feed>
