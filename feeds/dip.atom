@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.data-is-plural.com</id>
   <title>Data Is Plural</title>
-  <updated>2023-03-29T08:00:00-04:00</updated>
+  <updated>2023-04-05T08:00:00-04:00</updated>
   <author>
     <name>Jeremy Singer-Vine</name>
     <email>jsvine@gmail.com</email>
@@ -10,6 +10,132 @@
   <link href="https://www.data-is-plural.com" rel="alternate"/>
   <generator>https://github.com/data-is-plural/newsletter-archive</generator>
   <subtitle>A weekly newsletter of useful/curious datasets.</subtitle>
+  <entry>
+    <id>dip-2023-04-05</id>
+    <title>Data Is Plural — 2023.04.05 edition</title>
+    <updated>2023-04-05T08:00:00-04:00</updated>
+    <content type="CDATA"><![CDATA[<p><em>Treasury transactions, more than 200 million European buildings,
+911 service areas, lists of medical codes, and Midwestern
+mollusks.</em></p>
+<p> </p>
+<p><em>🎤 In case you missed last week’s announcement: I’ve launched a
+<a href="https://podcast.data-is-plural.com/">Data Is Plural
+podcast</a>, and it’s <a
+href="https://podcast.data-is-plural.com/share">available in your
+favorite podcast app</a>.</em></p>
+<p> </p>
+<p><em>📸 Looking for something more ~visual~ from Data Is Plural? In
+the continued spirit of trying new things, I’ve created an <a
+href="https://www.instagram.com/dataisplural/">Instagram account</a> and
+<a href="https://mastodon.social/@dataisplural">Mastodon account</a>,
+where I’ll be sharing screenshots and other multimedia bits that don’t
+fit into the newsletter’s text-only format.</em></p>
+<p> </p>
+<p><strong>Treasury transactions.</strong> The US Treasury’s <a
+href="https://fiscaldata.treasury.gov/datasets/daily-treasury-statement/operating-cash-balance">Daily
+Treasury Statement dataset</a> paints a near-real-time picture of the
+federal government’s purse. The eight tables provide data on “operating
+cash balance, deposits and withdrawals of cash, public debt
+transactions, federal tax deposits, income tax refunds issued,” and
+more. The table of deposits and withdrawals, for example, indicates the
+total value (rounded to the nearest $1 million) of transactions each
+day, by type and category (e.g., “Economic Recovery Programs,” “Defense
+Vendor Payments,” etc.). The records, available to download in bulk or
+<a href="https://fiscaldata.treasury.gov/api-documentation/">via
+API</a>, go back to October 2005. <strong>As seen in</strong>: “<a
+href="https://qz.com/can-a-billionaire-die-without-anyone-noticing-1850268606">Can
+a billionaire die without anyone noticing? The mystery behind a
+remarkable $7 billion tax payment.</a>” (<a
+href="https://timfernholz.com/about">Tim Fernholz</a>, Quartz). [h/t <a
+href="https://www.numlock.com/p/numlock-news-march-28-2023-crocs">Walt
+Hickey</a>]</p>
+<p> </p>
+<p><strong>European buildings.</strong> <a
+href="https://eubucco.com/">EUBUCCO</a> is a “database of individual
+building footprints for 200+ million buildings across the 27 European
+Union countries and Switzerland, together with three main attributes –
+building type, height and construction year – included for respectively
+45%, 74%, 24% of the buildings.” The researchers, who describe their
+methodology in a <a
+href="https://www.nature.com/articles/s41597-023-02040-2">recent
+paper</a>, collected and standardized the information from 50 open
+government datasets and OpenStreetMap. They then “perform[ed] extensive
+validation analyses to assess the quality, consistency and completeness
+of the data in every country.” You can <a
+href="https://eubucco.com/data/map">browse the data online</a>, <a
+href="https://eubucco.com/data/">download it</a>, and <a
+href="https://github.com/ai4up/eubucco">access the underlying
+code</a>.</p>
+<p> </p>
+<p><strong>911 service areas.</strong> <a
+href="https://en.wikipedia.org/wiki/Public_safety_answering_point">Public
+Safety Answering Points</a> (PSAPs) are, essentially, the call centers
+to which 911 calls are routed. A while ago, the US government hired a
+contractor to compile a <a
+href="https://hifld-geoplatform.opendata.arcgis.com/datasets/geoplatform::psap-911-service-area-boundaries/explore">dataset
+of the service area boundaries</a> for each of the country’s PSAPs, “the
+geographic area within which a 911 call placed using a landline is
+answered at the associated PSAP.” Although some of that information has
+likely changed since the dataset’s publication in 2009, the records may
+still be useful for certain purposes. <strong>Related</strong>: The
+FCC’s <a
+href="https://www.fcc.gov/general/9-1-1-master-psap-registry">911 Master
+PSAP Registry</a>, which doesn’t include service boundaries but does
+provide the name, state, county, and ID of 6,000+ primary PSAPs, plus
+2,700+ PSAPs listed as “secondary,” “duplicate,” or “orphaned.” [h/t <a
+href="https://maddy.zone/">Maddy Varner</a> + <a
+href="https://www.linkedin.com/in/mike-thompson-871773a/">Mike
+Thompson</a>]</p>
+<p> </p>
+<p><strong>Lists of medical codes.</strong> <a
+href="https://www.opencodelists.org/">OpenCodelists</a> is “an open
+platform for creating and sharing codelists of clinical terms and
+drugs,” built by the University of Oxford’s <a
+href="https://www.opensafely.org/">OpenSAFELY</a> team. The platform <a
+href="https://www.opencodelists.org/docs/">supports</a> several coding
+systems, including <a
+href="https://en.wikipedia.org/wiki/ICD-10">ICD-10</a> and <a
+href="https://en.wikipedia.org/wiki/SNOMED_CT">SNOWMED CT</a>. The lists
+can refer to groups of symptoms, diagnoses, medications, and more.
+Public lists note their creators and coding system; you can view each
+list’s codes online, or download them as a CSV. [h/t <a
+href="https://twitter.com/bengoldacre/status/1393173321378844675">Ben
+Goldacre</a>]</p>
+<p> </p>
+<p><strong>Midwestern mollusks.</strong> The <a
+href="https://inhs.illinois.edu/about/about-inhs/">Illinois Natural
+History Survey</a>’s <a
+href="https://mollusk.inhs.illinois.edu/">mollusk collection</a>
+contains 500,000+ specimens, cataloged into 90,000+ lots, some gathered
+more than a century ago. “The collection is strong in freshwater mussels
+(Unionoida), freshwater and terrestrial snails from the Midwestern U.S.
+and cone shells (Conoidea),” as well as “freshwater bivalves and
+gastropods from the Southeastern U.S., Central, and South America.” For
+each lot, the <a
+href="https://biocoll.inhs.illinois.edu/portal/collections/misc/collprofiles.php?collid=49">collection’s
+dataset</a> lists the genus, species, number of specimens, date and
+location collected, and more. <strong>Related</strong>: <a
+href="https://biocoll.inhs.illinois.edu/portal/collections/misc/collprofiles.php">INHS’s
+other collections</a>. [h/t <a
+href="https://meredithbroussard.com/">Meredith Broussard</a>]</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send freshwater feedback
+to jsvine@gmail.com, or just reply to this email. // Looking for past
+datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. // Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions. // Listen to the <a
+href="https://podcast.data-is-plural.com">podcast</a> to hear humans. //
+Swing by the <a
+href="https://www.instagram.com/dataisplural/">Instagram</a> and/or <a
+href="https://mastodon.social/@dataisplural">Mastodon</a> account for
+multimedia.</em></p>
+]]></content>
+    <link href="http://www.data-is-plural.com/archive/2023-04-05-edition" rel="alternate"/>
+    <summary>Treasury transactions, more than 200 million European buildings, 911 service areas, lists of medical codes, and Midwestern mollusks.</summary>
+    <published>2023-04-05T08:00:00-04:00</published>
+  </entry>
   <entry>
     <id>dip-2023-03-29</id>
     <title>Data Is Plural — 2023.03.29 edition</title>
@@ -1024,135 +1150,5 @@ how to place an ad in Data Is Plural</a>.</em></p>
     <link href="http://www.data-is-plural.com/archive/2023-02-01-edition" rel="alternate"/>
     <summary>Women’s well-being, radiation-contaminated waste, novel dialogue, browser capabilities, and more English football.</summary>
     <published>2023-02-01T08:00:00-05:00</published>
-  </entry>
-  <entry>
-    <id>dip-2023-01-25</id>
-    <title>Data Is Plural — 2023.01.25 edition</title>
-    <updated>2023-01-25T08:00:00-05:00</updated>
-    <content type="CDATA"><![CDATA[<p><em>More recalls, jazz solos, overdose-related “Good Samaritan” laws,
-upcoming weather, and cats on the move.</em></p>
-<p> </p>
-<p><strong>More recalls.</strong> <a
-href="https://www.data-is-plural.com/archive/2023-01-11-edition/">DIP
-2023.01.11</a> featured <a href="https://www.nhtsa.gov/recalls">vehicle
-recall data</a> from the National Highway Traffic Safety Administration.
-Other US federal agencies publishing recall data include the Food and
-Drug Administration, whose <a
-href="https://datadashboard.fda.gov/ora/cd/recalls.htm">dataset</a>
-contains 81,000+ entries related to food, drugs, medical devices, and
-related products going back to 2012; the Consumer Product Safety
-Commission, whose <a href="https://www.cpsc.gov/Recalls">database</a>
-spans 8,500+ recalls since 1973; and the Coast Guard, whose <a
-href="https://uscgboating.org/content/recalls.php">listing of 1,600+
-boat recalls</a> is not downloadable but seems possible to scrape.
-<em>[Update, 2023-02-01: Reader <a
-href="https://m-nolan.github.io/">Michael Nolan</a> took up the
-boat-recall challenge; <a
-href="https://github.com/m-nolan/USCG_Boat_Recalls">here’s the dataset
-he extracted</a>.]</em> <strong>Also</strong>: Vehicle recall data from
-<a
-href="https://open.canada.ca/data/en/dataset/1ec92326-47ef-4110-b7ca-959fab03f96d">Canadian</a>
-and <a
-href="https://www.check-vehicle-recalls.service.gov.uk/recall-type/vehicle/make">UK</a>
-regulators. <strong>Previously</strong>: <a
-href="https://medicaldevices.icij.org/p/about">International medical
-device recalls</a> from ICIJ’s <a
-href="https://medicaldevices.icij.org/">Implant Files</a> (<a
-href="https://www.data-is-plural.com/archive/2019-04-17-edition/">DIP
-2019.04.17</a>).</p>
-<p> </p>
-<p><strong>Jazz solos.</strong> The <a
-href="https://jazzomat.hfm-weimar.de/">Jazzomat Research Project</a>,
-hosted at the <a href="https://www.hfm-weimar.de/en/start">University of
-Music Franz Liszt Weimar</a>, aims “to investigate the creative
-processes underlying jazz solo improvisations with the help of
-statistical and computational methods.” The project’s <a
-href="https://jazzomat.hfm-weimar.de/dbformat/dboverview.html">main
-database</a> contains transcriptions and analyses of <a
-href="https://jazzomat.hfm-weimar.de/dbformat/dbcontent.html">450+
-solos</a> by John Coltrane, Charlie Parker, and dozens of other artists.
-The <a
-href="https://jazzomat.hfm-weimar.de/download/download.html">downloadable</a>
-version <a
-href="https://jazzomat.hfm-weimar.de/dbformat/dbformat.html">includes</a>
-each “event” in each solo: its pitch, loudness, time of onset, duration,
-and more. <strong>As seen in</strong>: “<a
-href="https://www.npr.org/sections/health-shots/2023/01/18/1139783203/what-makes-songs-swing-physicists-unravel-jazz-mystery">What
-makes that song swing? At last, physicists unravel a jazz mystery</a>”
-(NPR). [h/t <a href="https://twitter.com/jpmarindiaz">Juan Pablo Marín
-Díaz</a>]</p>
-<p> </p>
-<p><strong>Overdose-related “Good Samaritan” laws.</strong> <a
-href="https://www.sciencedirect.com/science/article/abs/pii/S0955395922003127">Shane
-W. Reader et al.</a> have <a
-href="https://data.mendeley.com/datasets/r65b6hrdhm/2">compiled data</a>
-on US state laws that “prevent or mitigate criminal consequences for
-activities pertaining to controlled substances for persons who call 911
-to report a drug overdose.” Their dataset spans April 2007 to June 2022
-and covers all 50 states, plus DC. The details include the types of
-people protected (e.g., the person overdosing, the caller,
-self-reporters), the kinds of protection conferred (e.g., with regard to
-arrests, charges, sentencing), the types of violations protected, and
-more.</p>
-<p> </p>
-<p><strong>Upcoming weather.</strong> <a
-href="https://alexanderrey.ca/">Alexander Rey</a>’s <a
-href="https://pirateweather.net/">Pirate Weather</a> aims to be a “drop
-in replacement” for <a href="https://darksky.net/dev">DarkSky’s weather
-forecast API</a>, <a
-href="https://blog.darksky.net/dark-sky-has-a-new-home/">which is
-shutting down</a>. It pulls data from <a
-href="https://docs.pirateweather.net/en/latest/#data-sources">several
-NOAA forecast models</a> in order to provide minute-level, hourly, and
-daily predictions of temperature, precipitation, cloud cover, and more.
-<strong>Note</strong>: The API is free to use but is limited to 20,000
-calls per month. <strong>Related</strong>: Pirate Weather powers <a
-href="https://merrysky.net/">Merry Sky</a>, a website <a
-href="https://www.houstonchronicle.com/business/tech/article/dwight-silverman-dark-sky-merry-sky-17728129.php">built</a>
-by <a href="https://github.com/guillaume">Guillaume Carbonneau</a>. [h/t
-<a
-href="https://buttondown.email/puntofisso/archive/501-quantum-of-sollazzo/">Giuseppe
-Sollazzo</a>]</p>
-<p> </p>
-<p><strong>Cats on the move.</strong> Between 2013 and 2017, <a
-href="https://zslpublications.onlinelibrary.wiley.com/doi/10.1111/acv.12563">Roland
-Kays et al.</a> convinced hundreds of volunteers in the <a
-href="https://www.datarepository.movebank.org/handle/10255/move.885">US</a>,
-<a
-href="https://www.datarepository.movebank.org/handle/10255/move.882">UK</a>,
-<a
-href="https://www.datarepository.movebank.org/handle/10255/move.876">Australia</a>,
-and <a
-href="https://www.datarepository.movebank.org/handle/10255/move.879">New
-Zealand</a> to strap GPS sensors on their pet cats. The aforelinked
-datasets include each cat’s characteristics (such as age, sex, neuter
-status, hunting habits) and timestamped GPS pings.
-<strong>Related</strong>: <a
-href="https://cattracker.org/">CatTracker.org</a>, the homepage for the
-US branch of the project, features a <a
-href="https://cattracker.org/tracks/">cat-track browser</a>.
-<strong>Previously</strong>: <a
-href="https://zenodo.org/record/4008297#.Y86t4uLMI-Q">Cat meows</a> (<a
-href="https://www.data-is-plural.com/archive/2021-06-30-edition/">DIP
-2021.06.30</a>). [h/t <a
-href="https://public.tableau.com/app/profile/rika.fujiwara/viz/CatsTripGPStrackingdataofdomesticcatsintheUS/board">Rika
-Fujiwara</a> + <a
-href="https://fairwarning.substack.com/p/fair-warning-why-not-have-bar-charts">Soph
-Warnes</a>]</p>
-<p> </p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send feline feedback to
-jsvine@gmail.com, or just reply to this email. • Looking for past
-datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. • Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and to browse past editions. • <a
-href="https://docs.google.com/document/d/e/2PACX-1vSP5xYrhqEvoGTi2aFzrsYQXadG8Gv0Y6YGWjib1e4qcXG45Sq5TSvngvh342DdcAEyEDIVd5V3RYcc/pub">Learn
-how to place an ad in Data Is Plural</a>.</em></p>
-]]></content>
-    <link href="http://www.data-is-plural.com/archive/2023-01-25-edition" rel="alternate"/>
-    <summary>More recalls, jazz solos, overdose-related “Good Samaritan” laws, upcoming weather, and cats on the move.</summary>
-    <published>2023-01-25T08:00:00-05:00</published>
   </entry>
 </feed>
