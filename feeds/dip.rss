@@ -6,7 +6,134 @@
     <description>A weekly newsletter of useful/curious datasets.</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>https://github.com/data-is-plural/newsletter-archive</generator>
-    <lastBuildDate>Wed, 05 Apr 2023 08:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 12 Apr 2023 08:00:00 -0400</lastBuildDate>
+    <item>
+      <title>Data Is Plural — 2023.04.12 edition</title>
+      <link>http://www.data-is-plural.com/archive/2023-04-12-edition</link>
+      <description>Jail rosters, sanctions enforcement, border surveillance, flash flooding in urban England, and Dutch textile shipments.</description>
+      <content:encoded><![CDATA[<p><em>Jail rosters, sanctions enforcement, border surveillance, flash
+flooding in urban England, and Dutch textile shipments.</em></p>
+<p> </p>
+<p><em>👋 Have you published something (← an intentionally broad term)
+based on data you discovered through Data Is Plural? Let me know by
+responding to this email or by <a
+href="https://docs.google.com/forms/d/e/1FAIpQLSdXXD5eO05w0Xa7bwG3Ppia3uzr_o3y-xDEZuWRfXbCfCu_XA/viewform">filling
+out this form</a>. I’ll aim to share your work here and via DIP’s new <a
+href="https://mastodon.social/@dataisplural">Mastodon</a> and <a
+href="https://www.instagram.com/dataisplural/">Instagram</a>
+accounts.</em></p>
+<p> </p>
+<p><strong>Jail rosters.</strong> The <a
+href="https://publicsafetylab.org/">NYU Public Safety Lab</a>’s <a
+href="https://jaildatainitiative.org/">Jail Data Initiative</a> has <a
+href="https://jaildatainitiative.org/documentation/architecture">built</a>
+a <a href="https://jaildatainitiative.org/documentation/scrapers">fleet
+of web scrapers</a> to gather and process <a
+href="https://jaildatainitiative.org/documentation/about">daily roster
+data from 1,000+ US city and county jails</a>. The project’s <a
+href="https://jaildatainitiative.org/dashboards/population">aggregate
+metrics</a> include the number of people in these jails each day, the
+daily numbers of people newly incarcerated and released, and how long
+people have been held (among those released). You can filter and
+download these counts by age, gender, and race. <a
+href="https://jaildatainitiative.org/profile">Profiles of individual
+jails</a> also list the most common charges and the overall demographics
+of people held there. The time frames available vary by jail, but mostly
+begin in 2020 or 2021. You can also <a
+href="https://jaildatainitiative.org/dua">apply for access</a> to
+person-level records. [h/t <a
+href="https://twitter.com/cagefreerepair">Adam Vine</a> + <a
+href="https://twitter.com/orionjtaylor/status/1637878248230076417">Orion
+Taylor</a>]</p>
+<p> </p>
+<p><strong>Sanctions enforcement.</strong> Political scientists <a
+href="https://sites.google.com/site/bryanrearly/home">Bryan R. Early</a>
+and <a href="https://poliscikeith.com/">Keith A. Preble</a> have <a
+href="https://www.tandfonline.com/doi/full/10.1080/09636412.2020.1722850">assembled</a>
+a <a
+href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/TIFRTT">dataset</a>
+of the US <a href="https://ofac.treasury.gov/">Office of Foreign Assets
+Control</a>’s sanctions-related penalties, settlements, and findings of
+violation since 2003. To do so, they <a
+href="https://dataverse.harvard.edu/file.xhtml?fileId=6988628&amp;version=5.1">combed
+through</a> the agency’s <a
+href="https://ofac.treasury.gov/civil-penalties-and-enforcement-information">mostly-PDF-based
+archive of these enforcement actions</a>. Each of the dataset’s 1,000+
+entries indicates the action date, type, and monetary amount; entity
+name, type, location, and sector; the specific sanctions programs
+violated; and more. <strong>Previously</strong>: <a
+href="https://ofac.treasury.gov/other-ofac-sanctions-lists">OFAC’s
+sanctions lists</a> (<a
+href="https://www.data-is-plural.com/archive/2018-02-21-edition/">DIP
+2018.02.21</a>) and <a
+href="https://opensanctions.org/">OpenSanctions</a> (<a
+href="https://www.data-is-plural.com/archive/2021-09-08-edition/">DIP
+2021.09.08</a>).</p>
+<p> </p>
+<p><strong>Border surveillance.</strong> The <a
+href="https://www.eff.org/about">Electronic Frontier Foundation</a> has
+<a
+href="https://www.eff.org/deeplinks/2023/03/cbp-expanding-its-surveillance-tower-program-us-mexico-border-and-were-mapping-it">constructed</a>
+a <a
+href="https://www.google.com/maps/d/u/1/viewer?mid=1bxUGeOT6vVXu0jFQhDLxgktLFLVOKsI&amp;ll=29.681163559249427,-107.321836295&amp;z=5">map</a>
+and <a
+href="https://www.eff.org/document/us-mexico-border-surveillance-data">dataset</a>
+of 340+ Customs and Border Protection surveillance towers along the
+US-Mexico border. “Compiled using public records, satellite imagery,
+road trips, and even exploration in virtual reality,” the dataset
+indicates each tower’s location, name, type, and vendor; it also links
+to sources and satellite imagery. Separate entries list potential future
+towers proposed by CBP and <a
+href="https://www.eff.org/pages/automated-license-plate-readers-alpr">automated
+license plate readers</a> at CBP checkpoints. [h/t <a
+href="https://twitter.com/corintxt">Corin Faife</a>]</p>
+<p> </p>
+<p><strong>Flash flooding in urban England.</strong> <a
+href="https://www.climatenode.org/index.html">ClimateNode</a>’s <a
+href="https://www.linkedin.com/in/helen-jackson-28926285/">Helen
+Jackson</a> has created a <a
+href="https://www.climatenode.org/maps/about_UFF_maps.html">dataset and
+series of interactive maps</a> of recent summertime flash flooding in
+urban England. To <a
+href="https://www.climatenode.org/maps/UFFEdoc.pdf">construct the
+dataset</a>, Jackson “analysed approximately 17,400 articles about
+flooding from around 300 newspaper websites,” and then used <a
+href="https://en.wikipedia.org/wiki/Natural_language_processing">natural
+language processing</a> to “extract the names of streets, buildings and
+other places affected” — some 2,800+ locations in all, corresponding to
+56 flooding events since 2010. [h/t <a
+href="https://buttondown.email/puntofisso/archive/511-quantum-of-sollazzo/">Giuseppe
+Sollazzo</a>]</p>
+<p> </p>
+<p><strong>Dutch textile shipments.</strong> The <a
+href="https://dutchtextiletrade.org/">Dutch Textile Trade Project</a>
+“aims to understand the circulation of globally-sourced textiles on
+Dutch ships around the world in the seventeenth and eighteenth centuries
+by examining data drawn from trade records alongside samples of textiles
+and visual culture depicting textiles in use.” The 22,000+ entries in
+the project’s <a href="https://dutchtextiletrade.org/data/">main
+dataset</a> each represent a shipment from one port to another; they
+indicate the textile type, quantity, and value, shipment date, supplier,
+and more. [h/t <a
+href="https://www.shroudedincloaksofboringness.com/democracysdata/">Dan
+Bouk</a>]</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send fibrous feedback to
+jsvine@gmail.com, or just reply to this email. // Looking for past
+datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. // Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions. // Listen to the <a
+href="https://podcast.data-is-plural.com">podcast</a> to hear humans. //
+Swing by the <a
+href="https://www.instagram.com/dataisplural/">Instagram</a> and/or <a
+href="https://mastodon.social/@dataisplural">Mastodon</a> account for
+multimedia.</em></p>
+]]></content:encoded>
+      <guid isPermaLink="false">dip-2023-04-12</guid>
+      <pubDate>Wed, 12 Apr 2023 08:00:00 -0400</pubDate>
+    </item>
     <item>
       <title>Data Is Plural — 2023.04.05 edition</title>
       <link>http://www.data-is-plural.com/archive/2023-04-05-edition</link>
@@ -1013,130 +1140,6 @@ how to place an ad in Data Is Plural</a>.</em></p>
 ]]></content:encoded>
       <guid isPermaLink="false">dip-2023-02-08</guid>
       <pubDate>Wed, 08 Feb 2023 08:00:00 -0500</pubDate>
-    </item>
-    <item>
-      <title>Data Is Plural — 2023.02.01 edition</title>
-      <link>http://www.data-is-plural.com/archive/2023-02-01-edition</link>
-      <description>Women’s well-being, radiation-contaminated waste, novel dialogue, browser capabilities, and more English football.</description>
-      <content:encoded><![CDATA[<p><em>Women’s well-being, radiation-contaminated waste, novel dialogue,
-browser capabilities, and more English football.</em></p>
-<p> </p>
-<p><em>📣 <strong>Ad:</strong> Access all the data your business needs,
-with <a href="https://get.brightdata.com/ofibrgx4uvty">Bright Data</a>;
-from complete structured datasets to developing web scrapers fast and on
-a mass scale. Take control of your data strategy with our all-in-one
-solution. <a href="https://get.brightdata.com/ofibrgx4uvty">Get a
-dataset sample today</a>!</em></p>
-<p> </p>
-<p><em>👋 In <a
-href="https://www.data-is-plural.com/archive/2023-01-25-edition/">last
-week’s newsletter</a>, I noted that the <a
-href="https://uscgboating.org/content/recalls.php">Coast Guard’s list of
-boat recalls</a> “seems possible to scrape.” Reader <a
-href="https://m-nolan.github.io/">Michael Nolan</a> took up the
-challenge; <a href="https://github.com/m-nolan/USCG_Boat_Recalls">here’s
-the dataset he extracted</a>. Thanks, Michael!</em></p>
-<p> </p>
-<p><strong>Women’s well-being.</strong> <a
-href="https://www.nature.com/articles/s41597-022-01824-2">Camille Belmin
-et al.</a>’s <a href="https://zenodo.org/record/7277104">LivWell
-dataset</a> presents “a set of key indicators on women’s socio-economic
-status, health and well-being, access to basic services and demographic
-outcomes” in 447 regions of 52 countries from 1990 to 2019. The
-indicators include, for example, rates of home ownership, educational
-attainment, and domestic violence; they’re based primarily on <a
-href="https://dhsprogram.com/data/">data</a> from the <a
-href="https://dhsprogram.com/">Demographic and Health Surveys
-Program</a>, a <a
-href="https://dhsprogram.com/Who-We-Are/About-Us.cfm">USAID-funded</a>
-initiative that, since 1984, “has provided technical assistance to more
-than 400 surveys in over 90 countries, advancing global understanding of
-health and population trends in developing countries.” <strong>Read
-more</strong>: <a
-href="https://twitter.com/BelminCamille/status/1597948618220384256">An
-introductory Twitter thread from Belmin</a>.</p>
-<p> </p>
-<p><strong>Radiation-contaminated waste.</strong> The US Nuclear
-Regulatory Commission <a
-href="https://www.nrc.gov/waste/llw-disposal.html">regulates the
-disposal</a> of <a
-href="https://www.nrc.gov/waste/low-level-waste.html">“low-level”
-radioactive waste</a> — “items that have become contaminated with
-radioactive material or have become radioactive through exposure to
-neutron radiation,” such as protective equipment and cleaning supplies.
-The NRC provides <a
-href="https://www.nrc.gov/waste/llw-disposal/licensing/statistics.html">annual
-statistics</a> (facility, volume, and total <a
-href="https://www.nrc.gov/reading-rm/basic-ref/glossary/curie-ci.html">curies</a>)
-for the country’s <a
-href="https://www.nrc.gov/waste/llw-disposal/licensing/locations.html">four
-active disposal sites</a>. The Department of Energy’s <a
-href="https://mims.doe.gov/Default.aspx">Manifest Information Management
-System</a> provides more detailed figures, with breakdowns by month,
-state of origin, <a
-href="https://www.nrc.gov/reading-rm/basic-ref/glossary/waste-classification-classes-of-waste.html">waste
-classification</a>, isotope, and more. <strong>Previously</strong>: <a
-href="https://www.eia.gov/nuclear/spent_fuel/">Data</a> from the <a
-href="https://www.eia.gov/Survey/#gc-859">Nuclear Fuel Data Survey</a>
-(<a
-href="https://www.data-is-plural.com/archive/2022-11-23-edition/">DIP
-2022.11.23</a>).</p>
-<p> </p>
-<p><strong>Novel dialogue.</strong> <a
-href="https://arxiv.org/abs/2204.05836">Krishnapriya Vishnubhotla et
-al.</a>’s <a
-href="https://github.com/Priya22/project-dialogism-novel-corpus">Project
-Dialogism Novel Corpus</a> contains every quotation from 22 novels, plus
-who speaks each line, who they’re addressing, the characters they
-mention, and more. With 35,000+ quotations, the corpus “is by an order
-of magnitude the largest dataset of annotated quotations for literary
-texts in English.” Jane Austen is the most-represented author (five
-novels), followed by E.M. Forster (two). The researchers have also <a
-href="https://docs.google.com/document/d/1eBsX2rjdLBkmA-kWB_jHCxC1nmbzinH04WUg9PeN_2A/edit">published
-a document</a> that they “hope will help standardize future annotation
-work in this domain.”</p>
-<p> </p>
-<p><strong>Browser capabilities.</strong> <a
-href="https://a.deveria.com/">Alexis Deveria</a>’s <a
-href="https://caniuse.com/">caniuse.com</a> indicates which versions of
-which web browsers support various web technologies, such as <a
-href="https://caniuse.com/css-grid">CSS’s grid layout</a>, the <a
-href="https://caniuse.com/webp">WebP image format</a>, and the <a
-href="https://caniuse.com/imagecapture">Image Capture API</a>. The <a
-href="https://github.com/Fyrd/caniuse">project’s dataset</a> covers 530+
-technologies and 19 browsers (6 desktop, 13 mobile). It also provides
-estimates of the percentage of all users whose browsers support a given
-technology. [h/t <a
-href="https://fedi.simonwillison.net/@simon/109733835468757632">Simon
-Willison</a>]</p>
-<p> </p>
-<p><strong>More English football.</strong> <a
-href="http://www.joshuafjelstul.com/">Josh Fjelstul</a>’s <a
-href="https://github.com/jfjelstul/englishfootball">English Football
-Database</a> “is a comprehensive database of football matches played in
-the Premier League and the English Football League from the inaugural
-season of the Football League (1888-89) through the most recent season
-(2021-22).” It records each season, team, match, and the standings table
-at the end of each season. <strong>Previously</strong>: <a
-href="http://curleylab.psych.columbia.edu/curley.html">James P.
-Curley</a>’s <a href="https://github.com/jalapic/engsoccerdata">English
-soccer dataset</a> (<a
-href="https://www.data-is-plural.com/archive/2016-05-04-edition/">DIP
-2016.05.04</a>), since expanded to leagues in a dozen more countries.
-[h/t <a href="http://knosof.co.uk/ESEUR/">Derek M. Jones</a>]</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send premier feedback to
-jsvine@gmail.com, or just reply to this email. • Looking for past
-datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. • Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and to browse past editions. • <a
-href="https://docs.google.com/document/d/e/2PACX-1vSP5xYrhqEvoGTi2aFzrsYQXadG8Gv0Y6YGWjib1e4qcXG45Sq5TSvngvh342DdcAEyEDIVd5V3RYcc/pub">Learn
-how to place an ad in Data Is Plural</a>.</em></p>
-]]></content:encoded>
-      <guid isPermaLink="false">dip-2023-02-01</guid>
-      <pubDate>Wed, 01 Feb 2023 08:00:00 -0500</pubDate>
     </item>
   </channel>
 </rss>
