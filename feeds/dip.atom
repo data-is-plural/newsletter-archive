@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.data-is-plural.com</id>
   <title>Data Is Plural</title>
-  <updated>2023-04-19T08:00:00-04:00</updated>
+  <updated>2023-04-26T08:00:00-04:00</updated>
   <author>
     <name>Jeremy Singer-Vine</name>
     <email>jsvine@gmail.com</email>
@@ -10,6 +10,148 @@
   <link href="https://www.data-is-plural.com" rel="alternate"/>
   <generator>https://github.com/data-is-plural/newsletter-archive</generator>
   <subtitle>A weekly newsletter of useful/curious datasets.</subtitle>
+  <entry>
+    <id>dip-2023-04-26</id>
+    <title>Data Is Plural — 2023.04.26 edition</title>
+    <updated>2023-04-26T08:00:00-04:00</updated>
+    <content type="CDATA"><![CDATA[<p><em>Drinking water violations, childcare prices, kinship terms, art
+history allocations, and “the oldest experimental crop field in
+America.”</em></p>
+<p> </p>
+<p><em>📬 Reader <a href="https://data-folks.masto.host/@rmoff">Robin
+Moffatt</a> used the <a
+href="https://www.muckrock.com/foi/united-states-of-america-10/database-of-14-cfr-part-48-registered-drones-132943/">drone
+registration data Ben Welsh obtained via FOIA</a> (<a
+href="https://www.data-is-plural.com/archive/2022-12-21-edition/">DIP
+2022.12.21</a>) in a <a
+href="https://lakefs.io/blog/security-in-lakefs-understanding-role-based-access-control-rbac">blog
+post demonstrating lakeFS’ role-based access controls</a>. (Have you
+published something with data you found via DIP? <a
+href="https://docs.google.com/forms/d/e/1FAIpQLSdXXD5eO05w0Xa7bwG3Ppia3uzr_o3y-xDEZuWRfXbCfCu_XA/viewform">Fill
+out this form</a> to let me know.)</em></p>
+<p> </p>
+<p><strong>Drinking water violations.</strong> Through the <a
+href="https://www.epa.gov/sdwa">Safe Drinking Water Act</a>, the US
+Environmental Protection Agency sets baseline standards for the
+country’s <a
+href="https://www.epa.gov/dwreginfo/information-about-public-water-systems">~150,000
+public water systems</a>. Although enforcement is <a
+href="https://echo.epa.gov/help/sdwa-faqs">mostly delegated to the
+states and territories</a>, all monitoring, violation, and enforcement
+data is reported to the EPA and stored in its <a
+href="https://www.epa.gov/enviro/sdwis-overview">Safe Drinking Water
+Information System</a>. The agency provides <a
+href="https://echo.epa.gov/tools/data-downloads#dwdownloads">bulk
+downloads</a> of <a
+href="https://echo.epa.gov/tools/data-downloads/sdwa-download-summary">the
+data</a>, going back decades, plus a <a
+href="https://www.epa.gov/enviro/sdwis-search">search tool</a> and <a
+href="https://echo.epa.gov/trends/comparative-maps-dashboards/drinking-water-dashboard?state=National">dashboard</a>.
+<strong>As seen in</strong>: “<a
+href="https://usafacts.org/articles/which-cities-have-health-issues-with-their-drinking-water/">Which
+cities have health issues with their drinking water?</a>” (USAFacts).
+<strong>Related</strong>: <a
+href="https://journals.plos.org/water/article?id=10.1371/journal.pwat.0000081">Sara
+Hughes et al.</a>’s <a
+href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/DFB6NG">Municipal
+Drinking Water Database</a>, which connects information about 2,000+
+municipal water systems to local demographic, government, climate, and
+political indicators. [h/t <a
+href="https://twitter.com/gregspierce/status/1636090987738206208">Greg
+Pierce</a>]</p>
+<p> </p>
+<p><strong>Childcare prices.</strong> The <a
+href="https://www.dol.gov/agencies/wb/topics/featured-childcare">National
+Database of Childcare Prices</a>, launched <a
+href="https://www.dol.gov/newsroom/releases/wb/wb20230124">in
+January</a> by the Department of Labor’s <a
+href="https://www.dol.gov/agencies/wb">Women’s Bureau</a>, “is the most
+comprehensive federal source of childcare prices at the county level.”
+For each county and year from 2008 to 2018, the dataset provides
+estimates of the median and 75th-percentile weekly cost, disaggregated
+by provider type and child age. The estimates are <a
+href="https://www.dol.gov/sites/dolgov/files/WB/media/NationalDatabaseofChildcarePricesTechnicalGuideFinal.pdf">calculated
+from the market surveys</a> the federal Child Care and Development Fund
+<a
+href="https://childcareta.acf.hhs.gov/equal-access-and-market-rate-surveys">requires
+participating states to conduct</a>. [h/t <a
+href="https://github.com/erikgahner/PolData/commit/062d1fc66219f9f954ed66592d2633477a40c264">Erik
+Gahner Larsen</a>]</p>
+<p> </p>
+<p><strong>Kinship terms.</strong> <a
+href="http://www.kinbank.net/">Kinbank</a> is a browseable and <a
+href="https://github.com/kinbank/kinbank">downloadable</a> database of
+family-tree nomenclature for <a
+href="http://www.kinbank.net/languages/">1,000+ spoken languages</a>,
+across 100+ types of relationships. Examples include <em>ahätatum</em>
+(<a href="http://www.kinbank.net/languages/akka1240/">Akkadian</a> for
+one’s younger sister), <em>yerudê</em> (<a
+href="http://www.kinbank.net/languages/gali1262/">Galibi Carib</a> for
+one’s husband’s brother’s wife), and <em>ɗan’ùbā</em> (<a
+href="http://www.kinbank.net/languages/haus1257/">Hausa</a> for one’s
+paternal half-brother). As the <a
+href="https://excd.org/research-activities/kinbank/">project’s team</a>
+describes in a <a
+href="https://orca.cardiff.ac.uk/id/eprint/157986/">recent paper</a>,
+they’ve collected these “kinship terminologies” mostly from secondary
+sources, which “ranged from ethnographies and grammars, to simpler
+descriptions like wordlists”; those sources “are primarily in Roman
+script […] and can contain transcription inconsistencies across
+languages.”</p>
+<p> </p>
+<p><strong>Art history allocations.</strong> For her undergraduate
+thesis, “<a
+href="https://github.com/hollandstam1/thesis/blob/main/_book/Quantifying-Art-Historical-Narratives.pdf">Quantifying
+Art Historical Narratives</a>,” Holland Stam measured the amount of
+space (in text and in images) devoted to each artwork and artist in 25
+editions of two major art history textbooks: <a
+href="https://en.wikipedia.org/wiki/Gardner%27s_Art_Through_the_Ages"><em>Gardner’s
+Art Through the Ages</em></a> and <a
+href="https://www.worldcat.org/title/373059219"><em>Janson’s History of
+Art</em></a>. Stam’s <a
+href="https://github.com/hollandstam1/thesis">thesis repository</a>
+includes <a
+href="https://github.com/hollandstam1/thesis/tree/main/raw-data">the
+measurement data</a>, which also indicates each artist’s nationality,
+gender, race, and ethnicity. <strong>Related</strong>: <a
+href="https://saralemus7.github.io/arthistory/">An R package for the
+data</a>. <strong>As seen in</strong>: “<a
+href="https://juliasilge.com/blog/art-history/">Resampling to understand
+gender in #TidyTuesday art history data</a>,” a post and screencast by
+<a href="https://juliasilge.com/">Julia Silge</a>.</p>
+<p> </p>
+<p><strong>The Morrow Plots.</strong> The University of Illinois’ <a
+href="https://aces.illinois.edu/research/history/morrow-plots">Morrow
+Plots</a>, established in 1876, “are the oldest experimental crop field
+in America and the second oldest in the world.” An <a
+href="https://aces.illinois.edu/news/oldest-us-agricultural-plots-go-digital-130-years-data-now-online">interdisciplinary
+team</a> has <a
+href="https://github.com/SandiCal/morrow-plots-public">compiled,
+cleaned, and standardized</a> the experiment’s archival records (such as
+<a
+href="https://digital.library.illinois.edu/collections/259e2e70-3ed0-0138-717e-02d0d7bfd6e4-3">this
+notebook</a>). For each year and plot, their <a
+href="https://databank.illinois.edu/datasets/IDB-7865141">dataset</a>
+lists the crop, date of planting, treatment plan, amount of various
+substances applied, yield per acre, and more.</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send high-yield feedback
+to jsvine@gmail.com, or just reply to this email. // Looking for past
+datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. // Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions. // Listen to the <a
+href="https://podcast.data-is-plural.com">podcast</a> to hear humans. //
+Swing by the <a
+href="https://www.instagram.com/dataisplural/">Instagram</a> and/or <a
+href="https://mastodon.social/@dataisplural">Mastodon</a> account for
+visuals.</em></p>
+]]></content>
+    <link href="http://www.data-is-plural.com/archive/2023-04-26-edition" rel="alternate"/>
+    <summary>Drinking water violations, childcare prices, kinship terms, art history allocations, and “the oldest experimental crop field in America.”</summary>
+    <published>2023-04-26T08:00:00-04:00</published>
+  </entry>
   <entry>
     <id>dip-2023-04-19</id>
     <title>Data Is Plural — 2023.04.19 edition</title>
@@ -1058,118 +1200,5 @@ how to place an ad in Data Is Plural</a>.</em></p>
     <link href="http://www.data-is-plural.com/archive/2023-02-22-edition" rel="alternate"/>
     <summary>Facilities handling hazardous chemicals, Animal Welfare Act inspections, daily European gas imports, unclaimed estates, and data journalists.</summary>
     <published>2023-02-22T08:00:00-05:00</published>
-  </entry>
-  <entry>
-    <id>dip-2023-02-15</id>
-    <title>Data Is Plural — 2023.02.15 edition</title>
-    <updated>2023-02-15T08:00:00-05:00</updated>
-    <content type="CDATA"><![CDATA[<p><em>Fair market rents, humanitarian groups, diplomatic visits, bog
-bodies, and Open Data Day events.</em></p>
-<p> </p>
-<p><em>👋 Free workshop! I’m teaching a PDF-parsing class at <a
-href="https://www.ire.org/training/conferences/nicar-2023/">NICAR
-2023</a> in a couple of weeks. I’d like to test out the material by
-teaching it online first. If you’re interested (and have some experience
-with Python), <a
-href="https://docs.google.com/forms/d/e/1FAIpQLSdS2Z30DhzWN-3AwJZTECHYNmCbEtswDQ5s5K8IrLkqgC0oOA/viewform">click
-here</a>.</em></p>
-<p> </p>
-<p><strong>Fair market rents.</strong> Every year, the Department of
-Housing and Urban Development recalculates what it calls “fair market
-rents” <a href="https://www.huduser.gov/portal/datasets/fmr.html">for
-every county in the US</a> and <a
-href="https://www.huduser.gov/portal/datasets/fmr/smallarea/index.html">for
-individual ZIP codes in metropolitan counties</a>. The results, which
-factor into various housing subsidy programs, <a
-href="https://www.law.cornell.edu/cfr/text/24/888.113">represent</a> the
-40th percentile cost of monthly rent and (basic) utilities for “recent
-movers” in “standard quality” units, adjusted for the number of
-bedrooms. HUD’s annual spreadsheets go back to the early 2000s; you can
-also browse the estimates online and <a
-href="https://www.huduser.gov/portal/dataset/fmr-api.html">query them
-via an API</a>. <strong>As seen in</strong>: “<a
-href="https://usafacts.org/articles/where-are-rents-rising-post-covid-19/">Where
-are rents rising post COVID-19?</a>” (USAFacts).</p>
-<p> </p>
-<p><strong>Humanitarian groups.</strong> “Based on clear and
-reproducible criteria,” <a
-href="https://claramarieegger.wordpress.com/">Clara Egger</a> and <a
-href="http://www.ge2p2.org/people/2018/10/12/doris-schopper-md-dph">Doris
-Schopper</a> have <a
-href="https://academic.oup.com/isq/article/66/2/sqac009/6564592">compiled</a>
-the <a
-href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/52GFWC">Humanitarian
-Organizations Dataset</a>, which describes 2,500+ groups active in the
-sector. It includes the organizations’ founding years, structures,
-countries headquartered, regional scopes, types of activities, targets
-for assistance, and more. You can also <a
-href="https://humanitarianencyclopedia.org/community/organizations">explore
-a version of the dataset online</a>. <strong>Related</strong>: The <a
-href="https://www.humanitarianoutcomes.org/projects/gdho">Global
-Database of Humanitarian Organisations</a>, from <a
-href="https://www.humanitarianoutcomes.org/about">Humanitarian
-Outcomes</a>, “a team of specialist consultants providing research and
-policy advice for humanitarian aid agencies and donor governments.”</p>
-<p> </p>
-<p><strong>Diplomatic visits.</strong> The US Department of State’s <a
-href="https://history.state.gov/">Office of the Historian</a> maintains
-a <a href="https://github.com/HistoryAtState/visits">dataset</a> and <a
-href="https://history.state.gov/departmenthistory/visits">online
-directory</a> of every visit by a foreign leader from 1874 to 2020. The
-details include each visit’s starting and ending date, the visitor’s
-name, their country, and a brief description. The office publishes <a
-href="https://github.com/HistoryAtState/travels">similar data</a> on the
-<a href="https://history.state.gov/departmenthistory/travels">travels of
-US presidents and secretaries of state</a>. <strong>Related</strong>: <a
-href="https://mattmalis.github.io/">Matt Malis</a> and <a
-href="https://wp.nyu.edu/alastairsmith/">Alastair Smith</a> have <a
-href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/2ZNR5R">expanded
-the data for 1946–2019</a>, adding fields that indicate the type of
-visit, whether it involved a presidential meeting, the names of
-agreements signed, and more. <strong>Previously</strong>: <a
-href="https://github.com/tacookson/data/tree/master/us-government-gifts">Diplomatic
-gifts</a> (<a
-href="https://www.data-is-plural.com/archive/2022-08-03-edition/">DIP
-2022.08.03</a>).</p>
-<p> </p>
-<p><strong>Bog bodies.</strong> <a
-href="https://www.cambridge.org/core/journals/antiquity/article/bogs-bones-and-bodies-the-deposition-of-human-remains-in-northern-european-mires-9000-bcad-1900/B90A16A211894CB87906A7BCFC0B2FC7">Roy
-van Beek et al.</a> “present the first large-scale overview of
-well-dated human remains from northern European mires, based on a
-database of 266 sites and more than 1000 bog mummies, bog skeletons and
-disarticulated/partial skeletal remains.” The database, which can be
-found in the study’s <a
-href="https://www.cambridge.org/core/journals/antiquity/article/bogs-bones-and-bodies-the-deposition-of-human-remains-in-northern-european-mires-9000-bcad-1900/B90A16A211894CB87906A7BCFC0B2FC7#supplementary-materials">supplementary
-materials tab</a>, indicates the bog bodies’ location, year found,
-preservation level, sex, estimated age, assumed cause of death, and much
-more. [h/t <a
-href="https://dair-community.social/@miriamkp/109785940080210793">Miriam
-Posner</a> + <a href="https://www.robinsloan.com/">Robin Sloan</a>]</p>
-<p> </p>
-<p><strong>Open Data Day events.</strong> <a
-href="https://opendataday.org/">Open Data Day(s)</a>, scheduled for
-March 4–10 this year, “is an annual celebration of open data all over
-the world.” The <a href="https://okfn.org/">Open Knowledge
-Foundation</a>, which <a
-href="https://blog.okfn.org/2023/02/07/open-data-days-2023-will-take-place-from-4th-to-10th-march/">helps
-to coordinate</a> the locally-organized gatherings, hosts a <a
-href="https://opendataday.org/events/2023/">searchable list</a> of
-registered events, plus <a
-href="https://github.com/okfn/opendataday/tree/master/Datasets">datasets
-of each year’s events since 2014</a>.</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send open feedback to
-jsvine@gmail.com, or just reply to this email. // Looking for past
-datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. // Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and to browse past editions. // <a
-href="https://docs.google.com/document/d/e/2PACX-1vSP5xYrhqEvoGTi2aFzrsYQXadG8Gv0Y6YGWjib1e4qcXG45Sq5TSvngvh342DdcAEyEDIVd5V3RYcc/pub">Learn
-how to place an ad in Data Is Plural</a>.</em></p>
-]]></content>
-    <link href="http://www.data-is-plural.com/archive/2023-02-15-edition" rel="alternate"/>
-    <summary>Fair market rents, humanitarian groups, diplomatic visits, bog bodies, and Open Data Day events.</summary>
-    <published>2023-02-15T08:00:00-05:00</published>
   </entry>
 </feed>
