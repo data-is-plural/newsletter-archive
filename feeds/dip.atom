@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.data-is-plural.com</id>
   <title>Data Is Plural</title>
-  <updated>2023-04-26T08:00:00-04:00</updated>
+  <updated>2023-05-10T08:00:00-04:00</updated>
   <author>
     <name>Jeremy Singer-Vine</name>
     <email>jsvine@gmail.com</email>
@@ -10,6 +10,155 @@
   <link href="https://www.data-is-plural.com" rel="alternate"/>
   <generator>https://github.com/data-is-plural/newsletter-archive</generator>
   <subtitle>A weekly newsletter of useful/curious datasets.</subtitle>
+  <entry>
+    <id>dip-2023-05-10</id>
+    <title>Data Is Plural — 2023.05.10 edition</title>
+    <updated>2023-05-10T08:00:00-04:00</updated>
+    <content type="CDATA"><![CDATA[<p><em>Prison demographics, more AI incidents, blocked rail crossings,
+grammatical phenomena, and planetary nomenclature.</em></p>
+<p> </p>
+<p><em>📍 Reader <a href="https://github.com/emartin43">Evelyn
+Martin</a> has <a href="https://medium.com/@evelyn.martin">published
+explorations</a> of data on <a
+href="https://medium.com/@evelyn.martin/bevs-byte-1-monthly-electricity-demand-daf96eef4dad">electricity
+demand</a> (<a
+href="https://www.data-is-plural.com/archive/2022-10-05-edition/">DIP
+2022.10.05</a>), <a
+href="https://medium.com/@evelyn.martin/the-python-diaries-1-large-pumpkins-2c6d33b169b3">giant
+pumpkins</a> (<a
+href="https://www.data-is-plural.com/archive/2022-10-26-edition/">DIP
+2022.10.26</a>), and <a
+href="https://medium.com/@evelyn.martin/python-diaries-2-solitary-confinement-in-detention-facilities-d5289ab8b150">ICE
+solitary confinement</a> (<a
+href="https://www.data-is-plural.com/archive/2019-06-12-edition/">DIP
+2019.06.12</a>) discovered through Data Is Plural. (Have you published
+something with data you found via DIP? <a
+href="https://docs.google.com/forms/d/e/1FAIpQLSdXXD5eO05w0Xa7bwG3Ppia3uzr_o3y-xDEZuWRfXbCfCu_XA/viewform">Click
+here to let me know</a>.)</em></p>
+<p> </p>
+<p><strong>Prison demographics.</strong> In a recent paper in
+<em>Nature</em>, <a
+href="https://www.nature.com/articles/s41586-023-05980-2">Brennan Klein
+et al.</a> describe how they “manually assembled and validated a dataset
+covering all 50 US states, the District of Columbia and the Federal
+Bureau of Prisons to both quantify the widening racial disparity
+observed during the first year of the COVID-19 pandemic and uncover its
+plausible causes.” Their <a
+href="https://github.com/jkbren/incarcerated-populations-data">Dataset
+on Incarcerated Populations</a> provides the monthly number (<a
+href="https://www.nature.com/articles/s41586-023-05980-2#MOESM1">or
+interpolated estimates</a>) of people, by race/ethnicity, in each prison
+system. The dataset goes back at least to 2010 for most states; for 18
+states, it also includes admission/release counts.
+<strong>Related</strong>: The Bureau of Justice Statistics’ <a
+href="https://bjs.ojp.gov/library/publications/list?series_filter=Prisoners">annual
+data on prison demographics</a>, which provide state-level counts by sex
+but not race/ethnicity. <strong>Previously</strong>: <a
+href="https://github.com/vera-institute/incarceration-trends">The Vera
+Institute’s Incarceration Trends Dataset</a> (<a
+href="https://www.data-is-plural.com/archive/2019-01-02-edition/">DIP
+2019.01.02</a>) and <a href="https://jaildatainitiative.org/">NYU Public
+Safety Lab’s Jail Data Initiative</a> (<a
+href="https://www.data-is-plural.com/archive/2023-04-12-edition/">DIP
+2023.04.12</a>). [h/t <a
+href="https://twitter.com/ShawnMusgrave/status/1648729222817382401">Shawn
+Musgrave</a>]</p>
+<p> </p>
+<p><strong>More AI incidents.</strong> The <a
+href="https://www.aiaaic.org/">AI, Algorithmic, and Automation Incidents
+and Controversies</a> initiative, founded by <a
+href="https://www.linkedin.com/in/charliepownall/">Charlie Pownall</a>
+in 2019, <a
+href="https://www.aiaaic.org/aiaaic-repository/aiaaic-repository-governance">maintains</a>
+a <a
+href="https://www.aiaaic.org/aiaaic-repository/about-the-aiaaic-repository">repository</a>
+of such events, as well as related systems (e.g., <a
+href="https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/gpt-4-large-language-model">GPT-4</a>)
+and datasets (e.g., <a
+href="https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/labeled-faces-in-the-wild-lfw-dataset">Labeled
+Faces in the Wild</a>). The <a
+href="https://docs.google.com/spreadsheets/d/1Bn55B4xz21-_Rgdr8BBb2lt0n_4rzLGxFADMlVW0PYI/edit">project’s
+spreadsheet</a> features 1,000+ entries, each listing a title, type,
+year, country, sector, operator, purpose, and more — and linking to more
+detailed descriptions on AIAAIC’s website. <strong>Previously</strong>:
+<a href="https://incidentdatabase.ai/">The AI Incident Database</a> (<a
+href="https://www.data-is-plural.com/archive/2023-04-19-edition/">DIP
+2023.04.19</a>).</p>
+<p> </p>
+<p><strong>Blocked rail crossings.</strong> “As rail profits soar,
+blocked crossings force kids to crawl under trains to get to school,” a
+<a
+href="https://www.propublica.org/article/trains-crossing-blocked-kids-norfolk-southern">recent
+investigation</a> by <a
+href="https://www.propublica.org/">ProPublica</a> and <a
+href="https://www.investigatetv.com/">InvestigateTV</a> has found. In
+addition to on-the-ground reporting, photos, and video, the article
+cites the <a
+href="https://www.fra.dot.gov/blockedcrossings/incidents">Federal
+Railroad Administration’s database</a> of <a
+href="https://www.fra.dot.gov/blockedcrossings/">blocked crossing
+complaints</a>. The database’s ~70,000 reports, going back to December
+2019, each list a <a
+href="https://railroads.dot.gov/safety-data/crossing-and-inventory-data/crossing-inventory-lookup">crossing
+ID</a>, street, city, state, railroad, reported incident date, duration,
+reason, impacts, and additional comments. <strong>Related</strong>: <a
+href="https://railroads.dot.gov/crossing-and-inventory-data/grade-crossing-inventory/highwayrail-crossing-database-files">The
+FRA’s database of all rail crossings</a>. [h/t <a
+href="https://www.linkedin.com/in/tmh176/">Tom Hughes</a>]</p>
+<p> </p>
+<p><strong>Grammatical phenomena.</strong> <a
+href="https://grambank.clld.org/">Grambank</a>, the <a
+href="https://www.mpg.de/20186271/0418-evan-grambank-shows-the-diversity-of-the-world-s-languages-150495-x">result</a>
+of a <a href="https://grambank.clld.org/contributors">collaboration</a>
+involving 100+ linguists, examines a range of grammatical phenomena,
+“from word order to verbal tense, nominal plurals, and many other
+well-studied comparative linguistic variables.” The project’s dataset,
+available to <a href="https://github.com/grambank/grambank">download</a>
+and explore online, spans <a
+href="https://grambank.clld.org/parameters">195 such features</a> across
+<a href="https://grambank.clld.org/languages">2,400+ languages and
+dialects</a>. For instance, <a
+href="https://grambank.clld.org/parameters/GB030#2/21.0/152.1">here’s
+the page for feature GB030</a>, which asks, “Is there a gender
+distinction in independent 3rd person pronouns?” [h/t <a
+href="https://www.robinsloan.com/">Robin Sloan</a>]</p>
+<p> </p>
+<p><strong>Planetary nomenclature.</strong> The <a
+href="http://www.iau.org/">International Astronomical Union</a>’s <a
+href="https://planetarynames.wr.usgs.gov/">Gazetteer of Planetary
+Nomenclature</a> “provides a unique system of official names for
+planetary surface features, natural satellites, dwarf planets, and
+planetary rings for the benefit of the international science community,
+educators, and the general public.” You can browse, <a
+href="https://planetarynames.wr.usgs.gov/AdvancedSearch">search</a>, and
+the <a
+href="https://planetarynames.wr.usgs.gov/GIS_Downloads">download</a> the
+data, as well as <a
+href="https://planetarynames.wr.usgs.gov/Page/Images">view images of
+their locations</a>. <strong>As seen in</strong>: <a
+href="https://www.cinziabongino.com/">Cinzia Bongino</a>’s <a
+href="https://www.behance.net/gallery/168652141/The-Names-on-the-Moon">The
+Names on the Moon</a>. [h/t <a
+href="https://buttondown.email/duncangeere/archive/a-lot-of-light-a-little-refreshing/">Giuseppe
+Sollazzo</a>]</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send interplanetary
+feedback to jsvine@gmail.com, or just reply to this email. // Looking
+for past datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. // Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions. // Listen to the <a
+href="https://podcast.data-is-plural.com">podcast</a> to hear humans. //
+Swing by the <a
+href="https://www.instagram.com/dataisplural/">Instagram</a> and/or <a
+href="https://mastodon.social/@dataisplural">Mastodon</a> account for
+multimedia and bonus links.</em></p>
+]]></content>
+    <link href="http://www.data-is-plural.com/archive/2023-05-10-edition" rel="alternate"/>
+    <summary>Prison demographics, more AI incidents, blocked rail crossings, grammatical phenomena, and planetary nomenclature.</summary>
+    <published>2023-05-10T08:00:00-04:00</published>
+  </entry>
   <entry>
     <id>dip-2023-04-26</id>
     <title>Data Is Plural — 2023.04.26 edition</title>
@@ -1087,118 +1236,5 @@ how to place an ad in Data Is Plural</a>.</em></p>
     <link href="http://www.data-is-plural.com/archive/2023-03-01-edition" rel="alternate"/>
     <summary>Congressional votes and ideology, EPA-regulated facilities, programming languages, 20th-century occupations, and coconut thumps.</summary>
     <published>2023-03-01T08:00:00-05:00</published>
-  </entry>
-  <entry>
-    <id>dip-2023-02-22</id>
-    <title>Data Is Plural — 2023.02.22 edition</title>
-    <updated>2023-02-22T08:00:00-05:00</updated>
-    <content type="CDATA"><![CDATA[<p><em>Facilities handling hazardous chemicals, Animal Welfare Act
-inspections, daily European gas imports, unclaimed estates, and data
-journalists.</em></p>
-<p> </p>
-<p><strong>Facilities handling hazardous chemicals.</strong> The US
-Environmental Protection Agency’s <a
-href="https://www.epa.gov/rmp/risk-management-program-rmp-rule-overview">Risk
-Management Program rule</a> requires facilities that handle “extremely
-hazardous substances” to tell the government, at least every five years,
-about those substances, their safety plans, their recent accident
-history, and more. Through a <a
-href="https://www.data-liberation-project.org/requests/epa-risk-management-program/">FOIA
-request to the EPA</a>, the <a
-href="https://www.data-liberation-project.org/">Data Liberation
-Project</a> (<a
-href="https://www.data-liberation-project.org/about/">which, disclosure,
-I run</a>) obtained a copy of the agency’s database of these filings
-(minus some parts the government deems non-disclosable), containing
-submissions by 21,000+ facilities from early 1999 to February 2022. You
-can now <a
-href="https://www.data-liberation-project.org/datasets/epa-risk-management-program-database/">access
-that data</a>, in various formats, along with <a
-href="https://docs.google.com/document/d/1jrLXtv0knnACiPXJ1ZRFXR1GaPWCHJWWjin4rsthFbQ/edit">documentation
-guiding you through it</a>.</p>
-<p> </p>
-<p><strong>Animal Welfare Act inspections.</strong> The USDA’s <a
-href="https://www.aphis.usda.gov/aphis/home/">Animal and Plant Health
-Inspection Service</a> checks whether animal dealers, exhibitors,
-research facilities, and transporters are complying with the care
-standards set by the <a
-href="https://www.aphis.usda.gov/aphis/ourfocus/animalwelfare/awa/ct_awa_program_information">Animal
-Welfare Act</a>. The agency provides <a
-href="https://efile.aphis.usda.gov/PublicSearchTool/s/inspection-reports">public
-access to the inspection reports</a> but no bulk data on them. So, in a
-<a
-href="https://biglocalnews.org/content/news/2023/02/21/usda-animal-inspection-database.html">collaboration</a>
-between <a href="https://biglocalnews.org/content/about/">Big Local
-News</a> and the <a href="https://www.data-liberation-project.org/">Data
-Liberation Project</a> (same disclosure as above), <a
-href="https://palewi.re/who-is-ben-welsh/">Ben Welsh</a> and I <a
-href="https://github.com/data-liberation-project/aphis-inspection-reports/blob/main/METHODOLOGY.md">wrote
-code</a> to fetch the 80,000+ (and counting) inspections going back to
-2014, parse their PDFs, and <a
-href="https://github.com/data-liberation-project/aphis-inspection-reports">make
-the data more accessible</a>. The information includes each inspection’s
-date, type, licensee, violation counts, species inspected, and more.</p>
-<p> </p>
-<p><strong>Daily European gas imports.</strong> Researchers at <a
-href="https://www.bruegel.org/bruegel-european-think-tank-specialises-economics">Bruegel</a>
-are <a
-href="https://www.bruegel.org/dataset/european-natural-gas-imports">tracking
-daily and weekly natural gas imports to Europe</a>, using data from the
-<a href="https://www.entsog.eu/">European Network of Transmission System
-Operators for Gas</a>’s <a
-href="https://transparency.entsog.eu/">transparency portal</a>.
-Alongside the imports, which they’re aggregating by source (e.g.,
-Russia, Norway, Algeria) and by route (e.g., Nord Stream, TurkStream),
-the researchers are also tracking <a href="https://agsi.gie.eu/">gas
-storage levels</a>, using data from <a href="https://www.gie.eu/">Gas
-Infrastructure Europe</a> (<a
-href="https://www.data-is-plural.com/archive/2022-01-26-edition/">DIP
-2022.01.26</a>). <strong>Previously</strong>: Eurostat’s data on annual
-European energy <a
-href="https://ec.europa.eu/eurostat/databrowser/explore/all/envir?lang=en&amp;subtheme=nrg.nrg_quant.nrg_quanta.nrg_t.nrg_ti&amp;display=list&amp;sort=category&amp;extractionId=NRG_TI_SFF__custom_2293925">imports</a>
-and <a
-href="https://ec.europa.eu/eurostat/databrowser/explore/all/envir?lang=en&amp;subtheme=nrg.nrg_quant.nrg_quanta.nrg_t.nrg_te&amp;display=list&amp;sort=category&amp;extractionId=NRG_TI_SFF__custom_2293925">exports</a>
-(<a
-href="https://www.data-is-plural.com/archive/2022-03-16-edition/">DIP
-2022.03.16</a>).</p>
-<p> </p>
-<p><strong>Unclaimed estates.</strong> The UK government’s <a
-href="https://www.gov.uk/government/organisations/bona-vacantia">Bona
-Vacantia division</a> publishes a <a
-href="https://www.gov.uk/government/statistical-data-sets/unclaimed-estates-list">dataset
-of unclaimed estates</a> — inheritances that nobody has claimed yet to
-inherit. The entries indicate the deceased person’s name, aliases,
-date/place of birth and death, marital status, and more.
-<strong>Related</strong>: California provides a <a
-href="https://sco.ca.gov/upd_download_property_records.html">dataset</a>
-of <a href="https://sco.ca.gov/upd_msg.html">unclaimed property</a>,
-such as “lost or forgotten” bank accounts, insurance benefits, and stock
-holdings.</p>
-<p> </p>
-<p><strong>Data journalists, surveyed.</strong> The <a
-href="https://ejc.net/">European Journalism Center</a>’s <a
-href="https://datajournalism.com/">DataJournalism.com</a> has published
-a <a href="https://github.com/ejcnet/stateofdatajournalism2022">dataset
-of 1,800+ anonymized responses</a> to its <a
-href="https://datajournalism.com/survey/2022/">second annual State of
-Data Journalism Survey</a>, including 50+ entries each from the US, UK,
-Italy, Germany, Spain, India, and Nigeria, plus double-digit counts from
-dozens of other countries. The questions touch on demographics,
-employment, training, skills, the COVID-19 pandemic, and more. [h/t <a
-href="https://twitter.com/BisianiSimona">Simona Bisiani</a>]</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send data-reported
-feedback to jsvine@gmail.com, or just reply to this email. // Looking
-for past datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. // Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and to browse past editions. // <a
-href="https://docs.google.com/document/d/e/2PACX-1vSP5xYrhqEvoGTi2aFzrsYQXadG8Gv0Y6YGWjib1e4qcXG45Sq5TSvngvh342DdcAEyEDIVd5V3RYcc/pub">Learn
-how to place an ad in Data Is Plural</a>.</em></p>
-]]></content>
-    <link href="http://www.data-is-plural.com/archive/2023-02-22-edition" rel="alternate"/>
-    <summary>Facilities handling hazardous chemicals, Animal Welfare Act inspections, daily European gas imports, unclaimed estates, and data journalists.</summary>
-    <published>2023-02-22T08:00:00-05:00</published>
   </entry>
 </feed>
