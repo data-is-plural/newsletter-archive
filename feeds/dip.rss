@@ -6,7 +6,116 @@
     <description>A weekly newsletter of useful/curious datasets.</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>https://github.com/data-is-plural/newsletter-archive</generator>
-    <lastBuildDate>Wed, 10 May 2023 08:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 17 May 2023 08:00:00 -0400</lastBuildDate>
+    <item>
+      <title>Data Is Plural — 2023.05.17 edition</title>
+      <link>http://www.data-is-plural.com/archive/2023-05-17-edition</link>
+      <description>Controlled substances lost and stolen, international case law, ICE database misconduct, real effective exchange rates, and collective nouns.</description>
+      <content:encoded><![CDATA[<p><em>Controlled substances lost and stolen, international case law,
+ICE database misconduct, real effective exchange rates, and collective
+nouns.</em></p>
+<p> </p>
+<p><strong>Controlled substances lost and stolen.</strong> In response
+to a <a href="https://www.data-liberation-project.org/">Data Liberation
+Project</a> Freedom of Information Act <a
+href="https://www.data-liberation-project.org/requests/controlled-substance-theft-and-loss/">request</a>,
+the US Drug Enforcement Administration last week sent me <a
+href="https://github.com/data-liberation-project/dea-theft-and-loss-counts">data
+counting the thefts and other losses</a> of <a
+href="https://www.deadiversion.usdoj.gov/schedules/">controlled
+substances</a> and “<a
+href="https://www.deadiversion.usdoj.gov/chem_prog/34chems.htm">listed
+chemicals</a>” that regulated entities have reported to the agency. The
+DEA <a
+href="https://www.data-liberation-project.org/datasets/dea-theft-and-loss-counts/">provided
+the records</a> as <a
+href="https://github.com/data-liberation-project/dea-theft-and-loss-counts/tree/main/data/raw">two
+spreadsheet files</a>, which I’ve also <a
+href="https://github.com/data-liberation-project/dea-theft-and-loss-counts/tree/main/data/tidy">converted
+into tidy CSVs</a>. They indicate the number of incidents by state, type
+of business (pharmacy, importer, distributor, etc.), and type of loss
+(burglary, hijacking, natural disaster, etc.), plus the total quantities
+stolen/lost. <strong>Read more</strong>: <a
+href="https://buttondown.email/data-liberation-project/archive/dlp-dispatch-8/">Yesterday’s
+Data Liberation Project newsletter</a>, featuring some numbers that
+caught my eye.</p>
+<p> </p>
+<p><strong>International case law.</strong> “The quantitative analysis
+of international legal data is still in its infancy, a situation which
+is exacerbated by the lack of high-quality open access data sets,”
+writes <a href="https://seanfobbe.com/">Seán Fobbe</a> in a <a
+href="https://onlinelibrary.wiley.com/doi/10.1111/jels.12313">2022 paper
+in Journal of Empirical Legal Studies</a>. To this end, Fobbe’s
+“present[s] the first two of a new series” of such resources, “covering
+one hundred years of case law of the primary judicial organs of the
+United Nations and the League of Nations.” The datasets — <a
+href="https://zenodo.org/record/7051934">for the Permanent Court of
+International Justice</a> (covering 1922–1940) and <a
+href="https://zenodo.org/record/7876286">for the International Court of
+Justice</a> (1947–present) — include case metadata, linguistic metrics,
+and the full text (in English and French) of the courts’ opinions,
+orders, and other key documents.</p>
+<p> </p>
+<p><strong>ICE database misconduct.</strong> “Since 2016, hundreds of US
+Immigration and Customs Enforcement employees and contractors have faced
+internal investigations into abuse of confidential law enforcement
+databases and agency computers,” <a
+href="https://www.wired.com/story/ice-agent-database-abuse-records/">Dhruv
+Mehrotra reports in Wired</a>, based on <a
+href="https://airtable.com/shrodU77cgvD2e8dc/tblwELYkSA0fNXgKF">disciplinary
+database records</a> Mehrotra obtained via a Freedom of Information Act
+request. ICE provided 414 rows of records. Each represents an alleged
+misconduct incident and provides a summary, date of occurrence, date
+reported, location, several categorizations, case resolution, and more.
+Wired has also added a column identifying the database in question,
+based on the summary. [h/t <a
+href="https://mastodon.social/@couts/110213868275915332">Andrew
+Couts</a> + <a href="https://vis.social/@seblammers">Sebastian
+Lammers</a>]</p>
+<p> </p>
+<p><strong>Weighted, inflation-adjusted exchange rates.</strong> A
+country’s <a href="https://www.investopedia.com/terms/r/reer.asp">real
+effective exchange rate</a> is its average exchange rate with its
+trading partners, weighted by trade volume and adjusted for inflation.
+Economist <a href="https://www.bruegel.org/people/zsolt-darvas">Zsolt
+Darvas</a> maintains a <a
+href="https://www.bruegel.org/publications/datasets/real-effective-exchange-rates-for-178-countries-a-new-database">dataset</a>
+that <a
+href="https://www.bruegel.org/working-paper/timely-measurement-real-effective-exchange-rates">estimates</a>
+these rates for 178 countries and the eurozone, by month and year. The
+project, which updates a <a
+href="https://www.bruegel.org/working-paper/real-effective-exchange-rates-178-countries-new-database">dataset
+and methodology Darvas first published in 2012</a>, uses data from
+international organizations, national statistics offices, and central
+banks.</p>
+<p> </p>
+<p><strong>Collective nouns.</strong> <a
+href="https://sites.miamioh.edu/meyersde/">Daniel E. Meyers</a> has
+consulted dozens of sources to compile <a
+href="https://sites.miamioh.edu/meyersde/the-collective-noun-catalog/">The
+Collective Noun Catalog</a>, which presents an <em>inundation</em> of
+7,300+ such constructs, such as a <em>pulse</em> of cardiologists and a
+<em>warren</em> of wombats. The <a
+href="https://docs.google.com/spreadsheets/d/1xCYrcJYhZVHNaF2J5oIgiFsROF--ZDzl68VFS8HzNUQ/edit">project’s
+spreadsheet</a> lists each collective noun’s subject, category, notes,
+and primary sources — some of which date to the 1400s.</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send a pulse of feedback
+to jsvine@gmail.com, or just reply to this email. // Looking for past
+datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. // Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions. // Listen to the <a
+href="https://podcast.data-is-plural.com">podcast</a> to hear humans. //
+Swing by the <a
+href="https://www.instagram.com/dataisplural/">Instagram</a> and/or <a
+href="https://mastodon.social/@dataisplural">Mastodon</a> account for
+multimedia and bonus links.</em></p>
+]]></content:encoded>
+      <guid isPermaLink="false">dip-2023-05-17</guid>
+      <pubDate>Wed, 17 May 2023 08:00:00 -0400</pubDate>
+    </item>
     <item>
       <title>Data Is Plural — 2023.05.10 edition</title>
       <link>http://www.data-is-plural.com/archive/2023-05-10-edition</link>
@@ -1124,105 +1233,6 @@ an ad in Data Is Plural</a>.</em></p>
 ]]></content:encoded>
       <guid isPermaLink="false">dip-2023-03-08</guid>
       <pubDate>Wed, 08 Mar 2023 08:00:00 -0500</pubDate>
-    </item>
-    <item>
-      <title>Data Is Plural — 2023.03.01 edition</title>
-      <link>http://www.data-is-plural.com/archive/2023-03-01-edition</link>
-      <description>Congressional votes and ideology, EPA-regulated facilities, programming languages, 20th-century occupations, and coconut thumps.</description>
-      <content:encoded><![CDATA[<p><em>Congressional votes and ideology, EPA-regulated facilities,
-programming languages, 20th-century occupations, and coconut
-thumps.</em></p>
-<p> </p>
-<p><strong>Congressional votes and ideology.</strong> The <a
-href="https://voteview.com/">Voteview</a> project “allows users to view
-every congressional roll call vote in American history,” and places
-those votes in the <a href="https://voteview.com/about">context of
-ideology estimates along a liberal-to-conservative spectrum</a>. The
-core estimates come from <a
-href="https://en.wikipedia.org/wiki/NOMINATE_(scaling_method)">DW-NOMINATE</a>,
-a method developed by the project’s directors emeritus, <a
-href="https://authors.library.caltech.edu/83232/">Keith T. Poole and
-Howard Rosenthal</a>. Voteview’s <a
-href="https://voteview.com/data">bulk data</a> includes <a
-href="https://voteview.com/articles/data_help_members">ideology
-estimates for every member</a> of the House and Senate since 1789, <a
-href="https://voteview.com/articles/data_help_rollcalls">every vote
-taken in either chamber</a>, and <a
-href="https://voteview.com/articles/data_help_votes">every member’s
-position on those votes</a>. [h/t <a
-href="https://s2.washingtonpost.com/camp-rw/?s=63f0e8661b79c61f879a5b01">Philip
-Bump</a>]</p>
-<p> </p>
-<p><strong>EPA-regulated facilities.</strong> The US Environmental
-Protection Agency’s <a href="https://www.epa.gov/frs">Facility Registry
-System</a> “provides Internet access to a single source of comprehensive
-information about facilities, sites or places subject to environmental
-regulations or of environmental interest.” It includes each entity’s
-name, type, location, industry, regulatory programs, and more. That
-information, which spans millions of facilities, is “subjected to
-rigorous verification and data management quality assurance procedures.”
-The records also provide facilities’ ID numbers from other EPA systems,
-such as the agency’s <a
-href="https://www.data-liberation-project.org/datasets/epa-risk-management-program-database/">Risk
-Management Program database</a> featured in <a
-href="https://www.data-is-plural.com/archive/2023-02-22-edition/">last
-week’s edition</a>. [h/t <a
-href="https://carts.lsu.edu/about/staff/1">Michael Allen</a>]</p>
-<p> </p>
-<p><strong>Programming languages.</strong> <a
-href="https://pldb.com/">PLDB</a> is a database that describes several
-thousand programming languages, file formats, communications protocols,
-and <a href="https://pldb.com/pages/about.html">other related
-concepts</a>. Its <a
-href="https://pldb.com/docs/csv.html">downloads</a>, <a
-href="https://github.com/breck7/pldb">available in several formats</a>,
-provide information on the languages’ years announced, <a
-href="https://pldb.com/lists/features.html">technical features</a>,
-creators, countries and communities of origin, relevant books and URLs,
-popularity metrics, and more. [h/t <a
-href="http://knosof.co.uk/ESEUR/">Derek M. Jones</a>]</p>
-<p> </p>
-<p><strong>20th-century occupations.</strong> Between 1939 and 1991, the
-US government published several iterations of the now-discontinued <a
-href="https://www.oalj.dol.gov/PUBLIC/DOT/REFERENCES/DOTINTRO.HTM">Dictionary
-of Occupational Titles</a>, a precursor to the <a
-href="https://www.onetcenter.org/database.html">O*NET database</a> (<a
-href="https://www.data-is-plural.com/archive/2017-09-27-edition/">DIP
-2017.09.27</a>). The dictionaries included job descriptions,
-classification codes, and cross-references, but are mostly available
-only as scans. So <a href="https://arxiv.org/abs/2204.07073">Shahad
-Althobaiti et al.</a> organized the manual transcription of five major
-editions into <a
-href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/DQW8IP">structured
-text files</a>. A random sample of 1939’s titles: punch-press operator,
-seam dampener, base brander, box pleater, and necktie finisher.</p>
-<p> </p>
-<p><strong>Thump, thump, coconut.</strong> “Traditionally,” in the
-Philippines, “coconuts are classified into their maturity levels
-manually,” <a
-href="https://www.sciencedirect.com/science/article/pii/S2352340923000549">June
-Anne Caladcad and Eduardo Piedad Jr. write</a>. “Traders often use their
-fingernails, knuckles, or the blunt end of the knife to tap the coconuts
-before assessing the sounds produced.” The authors <a
-href="https://www.sciencedirect.com/science/article/abs/pii/S0168169919324767">and
-their colleagues</a> have developed hardware and software to emulate
-that process, and used it to collect <a
-href="https://data.mendeley.com/datasets/hxh8kd3snj">acoustic signal
-data</a> from 129 premature, mature, and overmature coconuts, each
-mechanically knocked on each of its three ridges.</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send overmature feedback
-to jsvine@gmail.com, or just reply to this email. // Looking for past
-datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. // Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and to browse past editions. // <a
-href="https://docs.google.com/document/d/e/2PACX-1vSP5xYrhqEvoGTi2aFzrsYQXadG8Gv0Y6YGWjib1e4qcXG45Sq5TSvngvh342DdcAEyEDIVd5V3RYcc/pub">Learn
-how to place an ad in Data Is Plural</a>.</em></p>
-]]></content:encoded>
-      <guid isPermaLink="false">dip-2023-03-01</guid>
-      <pubDate>Wed, 01 Mar 2023 08:00:00 -0500</pubDate>
     </item>
   </channel>
 </rss>
