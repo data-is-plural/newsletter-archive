@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.data-is-plural.com</id>
   <title>Data Is Plural</title>
-  <updated>2023-05-17T08:00:00-04:00</updated>
+  <updated>2023-05-24T08:00:00-04:00</updated>
   <author>
     <name>Jeremy Singer-Vine</name>
     <email>jsvine@gmail.com</email>
@@ -10,6 +10,123 @@
   <link href="https://www.data-is-plural.com" rel="alternate"/>
   <generator>https://github.com/data-is-plural/newsletter-archive</generator>
   <subtitle>A weekly newsletter of useful/curious datasets.</subtitle>
+  <entry>
+    <id>dip-2023-05-24</id>
+    <title>Data Is Plural — 2023.05.24 edition</title>
+    <updated>2023-05-24T08:00:00-04:00</updated>
+    <content type="CDATA"><![CDATA[<p><em>Aviation accident investigations, the top of BuzzFeed News, forty
+years of financial reforms, parking reforms, and protected European
+ham.</em></p>
+<p> </p>
+<p><strong>Aviation accident investigations.</strong> Through its <a
+href="https://data.ntsb.gov/carol-main-public/landing-page">Case
+Analysis and Reporting Online service</a>, the National Transportation
+Safety Board provides information about all US civil aviation accident
+investigations since 1983; <a
+href="https://www.ntsb.gov/Pages/AviationQuery.aspx">another NTSB
+tool</a> includes earlier cases, going back to 1963. The agency also
+provides <a href="https://data.ntsb.gov/avdata">bulk data downloads</a>,
+covering the full span. Those files link each investigated event to
+details regarding the aircraft involved, engines, crew,
+injuries/fatalities, narratives, findings, and more.
+<strong>Related</strong>: In February, the agency <a
+href="https://www.ntsb.gov/news/press-releases/Pages/NR20230215.aspx">launched</a>
+an <a
+href="https://www.ntsb.gov/safety/data/Pages/GeneralAviationDashboard.aspx">interactive
+dashboard</a> summarizing accidents from 2012 to 2021. [h/t <a
+href="https://www.infodocket.com/2023/02/17/new-research-resource-ntsb-releases-data-visualization-tool-for-general-aviation-accidents/">Gary
+Price</a>]</p>
+<p> </p>
+<p><strong>The top of BuzzFeed News.</strong> You’ve likely heard:
+BuzzFeed Inc. has <a
+href="https://www.sec.gov/ix?doc=/Archives/edgar/data/1828972/000182897223000062/bzfd-20230420.htm">shut
+down BuzzFeed News</a>, where I worked from 2014 to early 2022. In July
+2018, the newsroom launched its own website, <a
+href="http://web.archive.org/web/*/https://www.buzzfeednews.com/">BuzzFeedNews.com</a>,
+distinct from BuzzFeed.com. The top of the new homepage <a
+href="https://github.com/jsvine/buzzfeed-news-trending-strip/blob/main/misc/trending-strip-screenshot.png">featured</a>
+a “Trending” strip, with links to a handful of <a
+href="https://techcrunch.com/2018/07/18/buzzfeed-news/">editor-selected</a>
+articles. A few months later, I wrote a computer script to save the
+text, URL, and position of each link on the strip. My personal server
+ran that script every five minutes (with occasional interruptions) until
+the newsroom’s final day of operation on May 5. <a
+href="https://github.com/jsvine/buzzfeed-news-trending-strip/">Here’s
+what it saw</a>. <strong>Read more</strong>: “<a
+href="https://www.buzzfeednews.com/article/buzzfeednews/buzzfeed-news-oral-history-2012-2023">The
+Ultimate Oral History Of BuzzFeed News</a>,” as told by many of my
+wonderful former colleagues.</p>
+<p> </p>
+<p><strong>Forty years of financial reforms.</strong> A decade-plus ago,
+a team of IMF economists published “<a
+href="https://www.imf.org/en/Publications/WP/Issues/2016/12/31/A-New-Database-of-Financial-Reforms-22485">A
+New Database of Financial Reforms</a>,” recording changes to financial
+policy in 91 economies from 1973 to 2005. They did so “along seven
+different dimensions: credit controls and reserve requirements, interest
+rate controls, entry barriers, state ownership, policies on securities
+markets, banking regulations, and restrictions on the capital account.”
+Last year, <a href="https://sawaomori.jpn.org/">Sawa Omori</a>, a
+political scientist who assisted with that project, <a
+href="https://academic.oup.com/jfr/article/8/2/230/6627259">introduced</a>
+a <a href="https://sawaomori.jpn.org/data/">revised and updated
+version</a>, expanding the coverage to 100 economies, extending it
+through 2013, and refining the seven original dimensions into 20
+subdimensions.</p>
+<p> </p>
+<p><strong>Parking reforms.</strong> The <a
+href="https://parkingreform.org/">Parking Reform Network</a>, a US-based
+nonprofit that <a
+href="https://parkingreform.org/what-is-parking-reform/">aims</a> “to
+discourage the building of too much parking supply,” has compiled a <a
+href="https://parkingreform.org/resources/mandates-map/">map and dataset
+of ~1,400 relevant local mandates</a>. They focus on policies that
+reduce or eliminate <a
+href="https://en.wikipedia.org/wiki/Parking_minimums_and_maximums">minimum
+parking requirements</a> for new developments, or set maximums. For each
+mandate, the dataset provides a summary and indicates its location,
+status, category, geographic scope, affected land use, and more.
+<strong>Related</strong>: <a
+href="https://parkingreform.org/resources/parking-lot-map/">Parking lots
+in the central areas of 50+ cities</a>, as mapped by the organization.
+[h/t <a href="http://knosof.co.uk/ESEUR/">Derek M. Jones</a>]</p>
+<p> </p>
+<p><strong>Protected European ham.</strong> In the world of food and
+wine, <a
+href="https://policy.trade.ec.europa.eu/enforcement-and-protection/protecting-eu-creations-inventions-and-designs/geographical-indications_en">geographical
+indications</a> protect traditional local producers against imitators —
+<a href="https://en.wikipedia.org/wiki/Champagne">Champagne</a> being a
+famous example. To explore the relationship between protected region
+size and product price, <a
+href="https://www.tandfonline.com/doi/full/10.1080/00343404.2023.2187365">Gero
+Laurenz Höhn et al.</a> have collected the <a
+href="https://dataverse.nl/dataset.xhtml?persistentId=doi:10.34894/RX0QIN">prices
+of protected and non-protected European ham</a> from dozens of
+supermarket websites. The 22 protected varieties in the dataset (such as
+Italy’s <a
+href="https://agriculture.ec.europa.eu/farming/geographical-indications-and-quality-schemes/geographical-indications-food-and-drink/prosciutto-di-parma-pdo_en">Prosciutto
+di Parma</a> and Spain’s <a
+href="https://www.tmdn.org/giview/gi/EUGI00000013467">Jamón de
+Trevélez</a>) come from nine countries. <strong>Related</strong>: <a
+href="https://ec.europa.eu/info/food-farming-fisheries/food-safety-and-quality/certification/quality-labels/geographical-indications-register/">eAmbrosia</a>,
+the EU’s downloadable register of protected indications.</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send hammy feedback to
+jsvine@gmail.com, or just reply to this email. // Looking for past
+datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. // Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions. // Listen to the <a
+href="https://podcast.data-is-plural.com">podcast</a> to hear humans. //
+Swing by the <a
+href="https://www.instagram.com/dataisplural/">Instagram</a> and/or <a
+href="https://mastodon.social/@dataisplural">Mastodon</a> account for
+multimedia and bonus links.</em></p>
+]]></content>
+    <link href="http://www.data-is-plural.com/archive/2023-05-24-edition" rel="alternate"/>
+    <summary>Aviation accident investigations, the top of BuzzFeed News, forty years of financial reforms, parking reforms, and protected European ham.</summary>
+    <published>2023-05-24T08:00:00-04:00</published>
+  </entry>
   <entry>
     <id>dip-2023-05-17</id>
     <title>Data Is Plural — 2023.05.17 edition</title>
@@ -1136,115 +1253,5 @@ in Data Is Plural</a>.</em></p>
     <link href="http://www.data-is-plural.com/archive/2023-03-15-edition" rel="alternate"/>
     <summary>Recent bank financials, historical bank financials, policy categorizations, irrigation water use, and the market for X-Men.</summary>
     <published>2023-03-15T08:00:00-04:00</published>
-  </entry>
-  <entry>
-    <id>dip-2023-03-08</id>
-    <title>Data Is Plural — 2023.03.08 edition</title>
-    <updated>2023-03-08T08:00:00-05:00</updated>
-    <content type="CDATA"><![CDATA[<p><em>Government contracting data, debt-to-income ratios, changes of
-address, decades of UK prices, and shows cut short.</em></p>
-<p> </p>
-<p><strong>Government contracting data, cataloged.</strong> The
-nonprofit <a href="https://www.open-contracting.org/about/">Open
-Contracting Partnership</a> has <a
-href="https://www.open-contracting.org/2023/02/23/a-new-registry-for-open-contracting-data/">launched</a>
-a <a href="https://data.open-contracting.org/en/">registry</a> of
-government procurement datasets that use its <a
-href="https://www.open-contracting.org/data-standard/">Open Contracting
-Data Standard</a> (featured in <a
-href="https://www.data-is-plural.com/archive/2020-02-26-edition/">DIP
-2020.02.26</a>). The registry contains 100+ entries so far, across 50+
-countries — from Argentina’s <a
-href="https://data.open-contracting.org/en/publication/18">national
-roads authority</a> and the <a
-href="https://data.open-contracting.org/en/publication/17">city of
-Buenos Aires</a> to Zambia’s <a
-href="https://data.open-contracting.org/en/publication/3">Public
-Procurement Authority</a>. You can <a
-href="https://data.open-contracting.org/en/search/">filter the
-listings</a> by dataset recency, update frequency, and the <a
-href="https://standard.open-contracting.org/latest/en/schema/reference/#release-structure">data
-types</a> included (parties, awards, documents, amendments, et cetera).
-[h/t <a href="https://twitter.com/georg_neu">Georg Neumann</a>]</p>
-<p> </p>
-<p><strong>Debt-to-income ratios.</strong> The US Federal Reserve <a
-href="https://www.federalreserve.gov/releases/z1/dataviz/household_debt/">generates
-quarterly statistics</a> estimating the median ratio of household debt
-to income in each state, county, and metro area. The published maps and
-datasets, which go back to 1999, don’t include precise figures, but
-rather place each geographic unit into one of ten ranges. The income
-calculations <a
-href="https://www.federalreserve.gov/econres/notes/feds-notes/household-debt-to-income-ratios-in-the-enhanced-financial-accounts-20180109.html">come
-from</a> the Bureau of Labor Statistics, while the debt estimates (which
-do not include student loans) come from the <a
-href="https://www.newyorkfed.org/research/staff_reports/sr479">New York
-Fed Consumer Credit Panel</a>, “an anonymized 5 percent random sample of
-Americans with credit files at the credit reporting bureau Equifax.”
-<strong>As seen in</strong>: “<a
-href="https://americaninequality.substack.com/p/debt-and-inequality">Debt
-and Inequality</a>” (<a
-href="https://www.americaninequality.io/">American Inequality</a>).</p>
-<p> </p>
-<p> </p>
-<p><strong>Changes of address.</strong> In the “Frequently Requested
-Records” section of its <a
-href="https://about.usps.com/who/legal/foia/library.htm">online FOIA
-library</a>, the US Postal Service provides datasets counting how many
-individuals, families, and businesses have registered for the agency’s
-change-of-address service, by month and ZIP code. The datasets tally the
-moves originating from a given ZIP code separately from those destined
-for it, although moves within the same ZIP code are counted on both
-sides of the ledger. <strong>Related</strong>: <a
-href="https://postalpro.usps.com/ncoalink/Full_Service_Provider_Licensees">The
-companies to which USPS sells mover-level data</a>. [h/t <a
-href="https://twitter.com/TimHendersonSL/status/1632119186540441603">Tim
-Henderson</a>]</p>
-<p> </p>
-<p><strong>Decades of UK prices.</strong> In January 2023, the UK’s
-Office for National Statistics collected 139,000+ price quotes from
-thousands of stores and across hundreds of products, from “A4 PRINTER
-PAPER (500 REAM)” to “YORKSHIRE PUDDING FROZEN”. The agency has
-collected this kind of <a
-href="https://www.ons.gov.uk/economy/inflationandpriceindices/datasets/consumerpriceindicescpiandretailpricesindexrpiitemindicesandpricequotes">price-quote
-data</a> for <a
-href="https://www.ons.gov.uk/economy/inflationandpriceindices/adhocs/007392consumerpriceinflationpricequotes1988to1996">decades</a>,
-using it to calculate <a
-href="https://www.ons.gov.uk/economy/inflationandpriceindices">inflation
-and price indices</a>. Economist <a
-href="https://richarddavies.io/about">Richard Davies</a> has <a
-href="https://richarddavies.io/research/prices">aggregated the data
-going back to 1988 and standardized it</a>, correcting misrecorded
-prices, offsetting measurement changes, among other efforts described in
-a <a
-href="https://cep.lse.ac.uk/pubs/download/occasional/op055.pdf">2021
-working paper</a>.</p>
-<p> </p>
-<p><strong>Shows cut short.</strong> <a
-href="https://www.isitcutshort.com/">IsItCutShort.com</a> provides a
-searchable list of television shows that were canceled (e.g., <a
-href="https://www.imdb.com/title/tt0083437/">Knight Rider</a>), ended on
-a cliffhanger (<a href="https://www.imdb.com/title/tt0141842/">The
-Sopranos</a>), or both (<a
-href="https://www.imdb.com/title/tt1389371/">Rubicon</a>). The <a
-href="https://github.com/xdpirate/isitcutshort.com">database</a>
-provides each series’s title, cliffhanger and cancellation status, IMDB
-identifier, and occasional extra notes. A handful of the 130+ entries
-fit another category: shows that “ended without a cliffhanger, but more
-show content exists outside the show itself.” [h/t <a
-href="https://danjbrady.com">Dan Brady</a>]</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send unrenewed feedback
-to jsvine@gmail.com, or just reply to this email. // Looking for past
-datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. // Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and to browse past editions. // <a
-href="https://docs.google.com/document/d/e/2PACX-1vSP5xYrhqEvoGTi2aFzrsYQXadG8Gv0Y6YGWjib1e4qcXG45Sq5TSvngvh342DdcAEyEDIVd5V3RYcc/pub">Place
-an ad in Data Is Plural</a>.</em></p>
-]]></content>
-    <link href="http://www.data-is-plural.com/archive/2023-03-08-edition" rel="alternate"/>
-    <summary>Government contracting data, debt-to-income ratios, changes of address, decades of UK prices, and shows cut short.</summary>
-    <published>2023-03-08T08:00:00-05:00</published>
   </entry>
 </feed>
