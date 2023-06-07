@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.data-is-plural.com</id>
   <title>Data Is Plural</title>
-  <updated>2023-05-31T08:00:00-04:00</updated>
+  <updated>2023-06-07T08:00:00-04:00</updated>
   <author>
     <name>Jeremy Singer-Vine</name>
     <email>jsvine@gmail.com</email>
@@ -10,6 +10,144 @@
   <link href="https://www.data-is-plural.com" rel="alternate"/>
   <generator>https://github.com/data-is-plural/newsletter-archive</generator>
   <subtitle>A weekly newsletter of useful/curious datasets.</subtitle>
+  <entry>
+    <id>dip-2023-06-07</id>
+    <title>Data Is Plural — 2023.06.07 edition</title>
+    <updated>2023-06-07T08:00:00-04:00</updated>
+    <content type="CDATA"><![CDATA[<p><em>Pesticide use, commercial space launches, firearm suicide rates,
+Harvard’s library holdings, and ransomware negotiations.</em></p>
+<p> </p>
+<p><em>📬 Reader (<a
+href="https://podcast.data-is-plural.com/2159594/12535597-s1e5-atari-emails">and
+DIP podcast guest</a>) <a href="https://vikramoberoi.com/">Vikram
+Oberoi</a> has <a
+href="https://twitter.com/voberoi/status/1665454015906213890">analyzed</a>
+the <a
+href="https://github.com/jsvine/buzzfeed-news-trending-strip">BuzzFeed
+News “Trending”-strip dataset</a> featured in <a
+href="https://www.data-is-plural.com/archive/2023-05-24-edition/">DIP
+2023.05.24</a>, <a
+href="https://buzzfeed-trending.vikramoberoi.com/">identifying the
+longest-featured articles</a> — overall, by year, and by month. (Have
+you published something with data you found via DIP? <a
+href="https://docs.google.com/forms/d/e/1FAIpQLSdXXD5eO05w0Xa7bwG3Ppia3uzr_o3y-xDEZuWRfXbCfCu_XA/viewform">Click
+here to let me know</a>.)</em></p>
+<p> </p>
+<p><strong>Pesticide use.</strong> As part of its <a
+href="https://www.usgs.gov/mission-areas/water-resources/science/national-water-quality-assessment-nawqa">National
+Water-Quality Assessment Project</a>, the US Geological Survey publishes
+<a href="https://water.usgs.gov/nawqa/pnsp/usage/maps/">maps and
+datasets</a> that <a
+href="https://water.usgs.gov/nawqa/pnsp/usage/maps/about.php">estimate
+local pesticide usage</a>, <a
+href="https://pubs.usgs.gov/ds/0907/">based on</a> “proprietary surveys
+of farm operations.” The <a
+href="https://water.usgs.gov/nawqa/pnsp/usage/maps/county-level/">datasets</a>
+provide high/low estimates (measured in kilograms) by county, chemical,
+and year, as well as <a
+href="https://www.sciencebase.gov/catalog/item/6081ae7cd34e8564d6866222">by
+crop group for each state</a>. The most recent “preliminary” figures <a
+href="https://www.sciencebase.gov/catalog/item/6081a924d34e8564d68661a1">refer
+to 2019</a>, with the next release not scheduled until “late 2024.”
+<strong>Read more</strong>: “<a
+href="https://www.science.org/content/article/move-change-how-u-s-tracks-pesticide-use-sparks-protests">Move
+to change how U.S. tracks pesticide use sparks protest</a>,” an article
+by <a href="https://www.virginiagewin.com/">Virginia Gewin</a> in
+<em>Science</em>, reporting on the pushback against USGS’s decision “to
+reduce the number of chemicals it tracks and to release updates less
+frequently.” [h/t <a
+href="https://www.numlock.com/p/numlock-news-june-1-2023-coconuts">Walt
+Hickey</a>]</p>
+<p> </p>
+<p><strong>Commercial space launches.</strong> The Federal Aviation
+Administration <a href="https://www.faa.gov/space">regulates the United
+States’ commercial space transportation industry</a>. The agency <a
+href="https://www.faa.gov/data_research/commercial_space_data/">publishes
+HTML tables</a> listing <a
+href="https://www.faa.gov/data_research/commercial_space_data/licenses/">operator
+licenses</a>, <a
+href="https://www.faa.gov/data_research/commercial_space_data/launches/?type=Permitted">permits
+for experimental operations</a>, <a
+href="https://www.faa.gov/data_research/commercial_space_data/launches/">licensed
+launches</a>, and more. The 552 launches listed go back to 1989; each
+row indicates the date, payload, vehicle name, company, and site’s state
+(or “Pacific Ocean”). <strong>Related</strong>: The FAA’s <a
+href="https://www.faa.gov/sites/faa.gov/files/images/ast/AST-Spaceport-Map_Sept2022.jpg">map</a>
+and <a
+href="https://www.faa.gov/space/spaceports_by_state">descriptions</a> of
+the country’s <a
+href="https://www.faa.gov/space/office_spaceports">commercial
+spaceports</a>. [h/t <a
+href="https://www.chartr.co/newsletters/2023-05-22">Chartr</a>]</p>
+<p> </p>
+<p><strong>Firearm suicide rates.</strong> A recent <a
+href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4453698">paper</a>
+(<a
+href="https://www.ajpmonline.org/article/S0749-3797(23)00205-2/fulltext">published
+in the American Journal of Preventive Medicine</a>) and <a
+href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/QVYDUD">dataset</a>
+by <a href="https://www.megankang.com/">Megan Kang</a> and <a
+href="https://www.linkedin.com/in/elizabeth-rasich-087b1a144/">Elizabeth
+Rasich</a> “extends an existing proxy for household gun ownership rates
+— the rate of firearm suicide divided by suicide (FSS) — from 1949 to
+2020, including new coverage for the 1949 to 1972 period.” For each
+state and year, the dataset provides the count and population-adjusted
+rate of suicides, firearm suicides, homicides, and firearm homicides,
+among other figures. The first 30 years of firearm suicide/homicide
+counts had to be transcribed from scanned National Center for Health
+Statistics reports; later figures come from the CDC’s <a
+href="https://wonder.cdc.gov/">WONDER</a> and <a
+href="https://www.cdc.gov/injury/wisqars/index.html">WISQARS</a>
+systems.</p>
+<p> </p>
+<p><strong>Harvard’s library holdings.</strong> <a
+href="https://library.harvard.edu/visit-about/about-harvard-library">Harvard
+Library</a>, “the oldest library system in the United States and the
+world’s largest academic library,” <a
+href="https://library.harvard.edu/services-tools/harvard-library-apis-datasets">provides
+several ways to access</a> detailed metadata about its holdings,
+including its <a
+href="https://wiki.harvard.edu/confluence/display/LibraryStaffDoc/LibraryCloud">LibraryCloud
+API</a> and <a
+href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/I8L0ZZ">bulk
+downloads</a>. The millions of items <a
+href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/Y5WUTU">described</a>
+include not only books, but also “journals, scores, databases, sound
+recordings, films and video, images, maps,” and more.
+<strong>Previously</strong>: <a
+href="https://www.loc.gov/item/prn-17-068/">Metadata from the Library of
+Congress</a> (<a
+href="https://www.data-is-plural.com/archive/2017-05-24-edition/">DIP
+2017.05.24</a>).</p>
+<p> </p>
+<p><strong>Ransomware negotiations.</strong> Negotiations between <a
+href="https://en.wikipedia.org/wiki/Ransomware">ransomware</a> victims
+and their attackers “are usually not shared widely, limiting the
+understanding of the process,” writes journalist <a
+href="https://github.com/Casualtek">Valéry Marchive</a>, whose <a
+href="https://github.com/Casualtek/Ransomchats">repository of chat
+transcripts</a> “aims at changing that, in a respectful manner for the
+victims of cyberattacks: chats are anonymized as long as the victim
+hasn’t been publicly disclosed, either by the attackers or in the
+media.” [h/t <a href="https://www.duncangeere.com/">Duncan
+Geere</a>]</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send cryptovirological
+feedback to jsvine@gmail.com, or just reply to this email. // Looking
+for past datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. // Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions. // Listen to the <a
+href="https://podcast.data-is-plural.com">podcast</a> to hear humans. //
+Swing by <a href="https://www.instagram.com/dataisplural/">Instagram</a>
+and <a href="https://mastodon.social/@dataisplural">Mastodon</a> for
+screenshots.</em></p>
+]]></content>
+    <link href="http://www.data-is-plural.com/archive/2023-06-07-edition" rel="alternate"/>
+    <summary>Pesticide use, commercial space launches, firearm suicide rates, Harvard’s library holdings, and ransomware negotiations.</summary>
+    <published>2023-06-07T08:00:00-04:00</published>
+  </entry>
   <entry>
     <id>dip-2023-05-31</id>
     <title>Data Is Plural — 2023.05.31 edition</title>
@@ -1158,111 +1296,5 @@ subscribe and to browse past editions.</em></p>
     <link href="http://www.data-is-plural.com/archive/2023-03-29-edition" rel="alternate"/>
     <summary>Local public meetings, health workers, Kremlin posts, carbon capture projects, and Milan drinking fountains.</summary>
     <published>2023-03-29T08:00:00-04:00</published>
-  </entry>
-  <entry>
-    <id>dip-2023-03-22</id>
-    <title>Data Is Plural — 2023.03.22 edition</title>
-    <updated>2023-03-22T08:00:00-04:00</updated>
-    <content type="CDATA"><![CDATA[<p><em>Civilian harm in Ukraine, aid for Ukraine, municipal
-incorporations, political podcasts, and stop signs.</em></p>
-<p> </p>
-<p><strong>Civilian harm in Ukraine.</strong> Researchers at <a
-href="https://www.bellingcat.com/about/">Bellingcat</a> and contributors
-to its <a
-href="https://www.sidn.nl/en/news-and-blogs/bellingcat-uses-open-source-information-to-expose-wrongdoing">Global
-Authentication Project</a> have <a
-href="https://www.bellingcat.com/news/2023/02/24/russias-assault-on-daily-life-in-ukraine/">assembled</a>
-a <a href="https://ukraine.bellingcat.com/">map and dataset of 1,000+
-incidents</a> “that have resulted in potential civilian impact or harm
-since Russia began its invasion of Ukraine.” They include incidents
-“where rockets or missiles struck civilian areas,” “where attacks have
-resulted in the destruction of civilian infrastructure,” and/or where
-visual evidence depicts civilian injuries or “immobile civilian bodies.”
-The information, <a
-href="https://www.bellingcat.com/news/2022/03/17/hospitals-bombed-and-apartments-destroyed-mapping-incidents-of-civilian-harm-in-ukraine/">collected
-from public sources and vetted by Bellingcat</a>, includes each
-incident’s date, location, description, sources, type of area affected,
-and type of weapon system (if known). [h/t <a
-href="https://s2.washingtonpost.com/camp-rw/?s=63fa229e1b79c61f87a893e0">Philip
-Bump</a>]</p>
-<p> </p>
-<p><strong>Aid for Ukraine.</strong> <a
-href="https://www.ifw-kiel.de/publications/kiel-working-papers/2022/the-ukraine-support-tracker-which-countries-help-ukraine-and-how-17204/">Christoph
-Trebesch et al.</a>’s <a
-href="https://www.ifw-kiel.de/topics/war-against-ukraine/ukraine-support-tracker/">Ukraine
-Support Tracker</a> “lists and quantifies military, financial and
-humanitarian aid to Ukraine in the context of the Russia-Ukraine war.”
-The 1,400+ entries in the <a
-href="https://www.ifw-kiel.de/publications/data-sets/ukraine-support-tracker-data-17410/">tracker’s
-dataset</a> include contributions and commitments from 40 governments,
-plus several European Union institutions. (It does not include aid from
-NGOs and other non-state entities.) Each entry indicates the country,
-announcement date, type of aid, total value, description, sources, and
-more. The tracker’s next update is scheduled for March 29.</p>
-<p> </p>
-<p><strong>Municipal incorporations.</strong> <a
-href="https://cgoodman.com/">Christopher B. Goodman</a>, a professor of
-public administration, has consulted a range of state-level sources to
-compile a <a
-href="https://github.com/cbgoodman/muni-incorporation">dataset listing
-the year of incorporation</a> for 18,000+ municipalities in the United
-States. The dataset, which covers nearly 96% of all active
-municipalities, also provides each place’s name, state, coordinates,
-canonical ID in the Census, and more. <strong>Read more</strong>: In a
-<a
-href="https://twitter.com/cbgoodman/status/1631705180201943040">Twitter
-thread</a>, Goodman explains why he undertook the effort and shares a
-couple of visualizations. [h/t <a href="http://maggielee.net/">Maggie
-Lee</a>]</p>
-<p> </p>
-<p><strong>Political podcasts.</strong> The <a
-href="https://politicalpodcastproject.shinyapps.io/dataset/">Popular
-Political Podcast Dataset</a>, developed by the Brookings Institution’s
-<a href="https://www.brookings.edu/author/valerie-wirtschafter/">Valerie
-Wirtschafter</a> and <a
-href="https://www.brookings.edu/experts/chris-meserole/">Chris
-Meserole</a>, covers 50,000+ episodes from 100+ “prominent political
-podcast series” — the latter based on Apple Podcasts’ popularity
-rankings and its “You Might Also Like” recommendations. Updated daily
-and explorable online, the dataset provides each episode’s name,
-description, air date, and URL, plus the series name, partisan leaning,
-and Apple Podcasts category.</p>
-<p> </p>
-<p><strong>Stop signs.</strong> The City of Los Angeles publishes the <a
-href="https://geohub.lacity.org/datasets/lahub::stop-and-yield-signs/about">location
-and orientation of 50,000+ local stop signs</a> (plus a few yield
-signs). Other cities offering similar datasets include <a
-href="https://geohub.houstontx.gov/datasets/625faeaffe924a0c968f216bf3c321fc_1/about">Houston</a>,
-<a href="https://data.sfgov.org/Transportation/Stop-Signs/4542-gpa3">San
-Francisco</a>, <a
-href="https://data.detroitmi.gov/datasets/detroitmi::traffic-sign-locations/about">Detroit</a>,
-<a
-href="https://data.topeka.org/datasets/Topeka::topeka-stop-signs/about">Topeka</a>,
-<a
-href="https://data.menlopark.org/datasets/MenloPark::stop-signs/about">Menlo
-Park</a>, and <a
-href="https://opendata.london.ca/datasets/51b53a163cf64681a057c397208637d6_5/about">London,
-Ontario</a>. <strong>Related</strong>: <a
-href="https://www.openstreetmap.org/">OpenStreetMap</a>’s <a
-href="https://wiki.openstreetmap.org/wiki/Downloading_data">dataset</a>
-features <a
-href="https://wiki.openstreetmap.org/wiki/Tag:highway%3Dstop">nearly 1.4
-million stop signs</a> located <a
-href="https://taginfo.openstreetmap.org/tags/highway%3Dstop#map">across
-the world</a>. [h/t <a
-href="https://twitter.com/stiles/status/1627044761172602881">Matt
-Stiles</a>]</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send octagonal feedback
-to jsvine@gmail.com, or just reply to this email. // Looking for past
-datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. // Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and to browse past editions.</em></p>
-]]></content>
-    <link href="http://www.data-is-plural.com/archive/2023-03-22-edition" rel="alternate"/>
-    <summary>Civilian harm in Ukraine, aid for Ukraine, municipal incorporations, political podcasts, and stop signs.</summary>
-    <published>2023-03-22T08:00:00-04:00</published>
   </entry>
 </feed>
