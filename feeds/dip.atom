@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.data-is-plural.com</id>
   <title>Data Is Plural</title>
-  <updated>2023-06-07T08:00:00-04:00</updated>
+  <updated>2023-06-14T08:00:00-04:00</updated>
   <author>
     <name>Jeremy Singer-Vine</name>
     <email>jsvine@gmail.com</email>
@@ -10,6 +10,138 @@
   <link href="https://www.data-is-plural.com" rel="alternate"/>
   <generator>https://github.com/data-is-plural/newsletter-archive</generator>
   <subtitle>A weekly newsletter of useful/curious datasets.</subtitle>
+  <entry>
+    <id>dip-2023-06-14</id>
+    <title>Data Is Plural — 2023.06.14 edition</title>
+    <updated>2023-06-14T08:00:00-04:00</updated>
+    <content type="CDATA"><![CDATA[<p><em>Canadian wildfires, climate finance, Pennsylvania competency
+cases, ad-targeting labels, and food defect thresholds.</em></p>
+<p> </p>
+<p><em>📬 Reader <a href="https://www.carolinebeavon.com/">Caroline
+Beavon</a> built an <a
+href="https://www.carolinebeavon.com/experiments/significant-others">interactive,
+first-name-centric dataviz</a> based on <a
+href="https://www.nature.com/articles/s41597-022-01369-4">Morgane
+Laouenan et al.</a>’s <a
+href="https://data.sciencespo.fr/dataset.xhtml?persistentId=doi:10.21410/7E4/RDAG3O">dataset
+of Wikipedia-notable people</a>, featured in <a
+href="https://www.data-is-plural.com/archive/2022-07-20-edition/">DIP
+2022.07.20</a>. (Have you published something with data you found via
+DIP? <a
+href="https://docs.google.com/forms/d/e/1FAIpQLSdXXD5eO05w0Xa7bwG3Ppia3uzr_o3y-xDEZuWRfXbCfCu_XA/viewform">Click
+here to let me know</a>.)</em></p>
+<p> </p>
+<p><strong>Canadian wildfires.</strong> The <a
+href="https://cwfis.cfs.nrcan.gc.ca/home">Canadian Wildland Fire
+Information System</a> monitors wildfires and fire-conducive conditions
+across the country. It publishes daily maps of its <a
+href="https://cwfis.cfs.nrcan.gc.ca/maps/fw?type=fwi">Fire Weather
+Index</a>, <a
+href="https://cwfis.cfs.nrcan.gc.ca/maps/fm3?type=tri">satellite-detected
+hotspots</a>, and <a href="https://cwfis.cfs.nrcan.gc.ca/maps/fb">fire
+intensity predictions</a>, among other analyses. Its <a
+href="https://cwfis.cfs.nrcan.gc.ca/ha/nfdb">Canadian National Fire
+Database</a> provides the perimeters, dates, sizes, and other metadata
+for tens of thousands of fires, spanning decades. In the <a
+href="https://cwfis.cfs.nrcan.gc.ca/datamart">agency’s datamart</a>, you
+can find additional downloads of tabular and geospatial data, including
+<a
+href="https://cwfis.cfs.nrcan.gc.ca/datamart/metadata/nbac">burned-area
+statistics</a>, <a
+href="https://cwfis.cfs.nrcan.gc.ca/datamart/metadata/activefires">active
+fires</a>, and current conditions. <strong>Related</strong>: The <a
+href="https://www.ciffc.ca/">Canadian Interagency Forest Fire
+Centre</a>’s <a href="https://ciffc.net/">dashboard of active fires</a>.
+<strong>Previously</strong>: The <a
+href="https://gwis.jrc.ec.europa.eu/">Global Wildfire Information
+System</a> (<a
+href="https://www.data-is-plural.com/archive/2022-07-27-edition/">DIP
+2022.07.27</a>). [h/t <a href="https://m-nolan.github.io/">Michael
+Nolan</a>]</p>
+<p> </p>
+<p><strong>Climate finance.</strong> “Rich nations say they’re spending
+billions to fight climate change” in developing countries, notes a <a
+href="https://www.reuters.com/investigates/special-report/climate-change-finance/">recent
+Reuters investigation</a>, which found some of this climate finance <a
+href="https://www.reuters.com/graphics/CLIMATE-CHANGE/FINANCE/gdvzqlyjqpw/">going
+to “questionable” projects</a>, “including a coal plant, a hotel and
+chocolate shops.” To help find those examples, Reuters teamed up with <a
+href="https://biglocalnews.org/content/about/">Big Local News</a> to <a
+href="https://stacks.stanford.edu/file/druid:dx902xg3463/README_bln_reuters_climate_finance.pdf">extract</a>
+“43,844 records [from the] [Fifth](https://unfccc.int/BR5), <a
+href="https://unfccc.int/BR4">Fourth</a>, and <a
+href="https://unfccc.int/process-and-meetings/transparency-and-reporting/reporting-and-review-under-the-convention/national-communications-and-biennial-reports-annex-i-parties/biennial-report-submissions/third-biennial-reports-annex-i">Third</a>
+Biennial reports that developed countries submitted to the U.N. Climate
+Change secretariat.” Each of <a
+href="https://purl.stanford.edu/dx902xg3463">the records</a> represents
+a reported contribution, listing the recipient country/region, program
+funded, funding amount, sector, status, and more. <strong>Read
+more</strong>: “<a
+href="https://biglocalnews.org/content/news/2023/06/01/climate-finance-story-recipe.html">How
+you can use climate finance data we collected for local stories around
+the globe</a>” (Big Local News).</p>
+<p> </p>
+<p><strong>Pennsylvania competency cases.</strong> Earlier this year, <a
+href="https://www.spotlightpa.org/">Spotlight PA</a> and the <a
+href="https://pinjnews.org/">Pittsburgh Institute for Nonprofit
+Journalism</a> published an <a
+href="https://www.spotlightpa.org/news/2023/03/pa-mental-illness-jail-incompetent-treatment/">investigation</a>
+into Pennsylvania’s competency system, which is “supposed to protect
+people with mental health issues from prosecution if they cannot
+understand the legal system and cannot aid in their own defense.” The
+team has also published the <a
+href="https://github.com/spotlightpa/competency-data-2023/">data it
+received from the state’s court administrators</a>, with information
+about 697 cases that involved competency proceedings between 2018 to
+mid-2022. The records, available for 23 counties, indicate each case’s
+court, filing date, charges, disposition, sentencing, attorneys, plus
+the type and timing of 1,400+ competency-related docket filings. [h/t <a
+href="https://twitter.com/mizzousundevil">Matt Dempsey</a>]</p>
+<p> </p>
+<p><strong>Ad-targeting labels.</strong> <a
+href="https://themarkup.org/">The Markup</a> has <a
+href="https://themarkup.org/privacy/2023/06/08/from-heavy-purchasers-of-pregnancy-tests-to-the-depression-prone-we-found-650000-ways-advertisers-label-you">obtained,
+analyzed, and published</a> a <a
+href="https://github.com/the-markup/xandr-audience-segments">spreadsheet
+of 650,000+ ad-targetable “audience segments”</a> (described by labels
+such as “Depression Propensity - Reach Tier 2”) and their data
+suppliers. The spreadsheet — flagged to The Markup by privacy researcher
+<a href="https://wolfie.crackedlabs.org/en">Wolfie Christl</a> — was,
+until recently, linked from the website of a Microsoft-owned ad
+platform. “The Markup found thousands of rows in the file that indicate
+sensitive audience groupings,” including those related to medical
+issues, race/ethnicity, political activity, addiction, and more. [h/t <a
+href="https://fosstodon.org/@smach">Sharon Machlis</a>]</p>
+<p> </p>
+<p><strong>Food defect thresholds.</strong> “How many rat hairs in your
+macaroni before the FDA considers it adulterated?” asks <a
+href="https://codywinchester.com/">Cody Winchester</a>, who has found
+the answer in the Food and Drug Administration’s <a
+href="https://www.fda.gov/food/ingredients-additives-gras-packaging-guidance-documents-regulatory-information/food-defect-levels-handbook">Food
+Defect Levels Handbook</a>. That guide’s “action levels” table lists 180
+criteria for 111 commodities, indicating the “maximum levels of natural
+or unavoidable defects in foods for human use that present no health
+hazard.” Winchester has <a
+href="https://github.com/cjwinchester/fda-food-defect-action-levels">converted
+the table into a JSON file</a>. <strong>The answer</strong>: An “average
+of 4.5 rodent hairs or more per 225 grams in 6 or more subsamples.”</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send fewer than 4.5
+rodent hairs per 225 grams of feedback to jsvine@gmail.com, or just
+reply to this email. // Looking for past datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. // Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions. // Listen to the <a
+href="https://podcast.data-is-plural.com">podcast</a> to hear humans. //
+Swing by <a href="https://www.instagram.com/dataisplural/">Instagram</a>
+and <a href="https://mastodon.social/@dataisplural">Mastodon</a> for
+screenshots.</em></p>
+]]></content>
+    <link href="http://www.data-is-plural.com/archive/2023-06-14-edition" rel="alternate"/>
+    <summary>Canadian wildfires, climate finance, Pennsylvania competency cases, ad-targeting labels, and food defect thresholds.</summary>
+    <published>2023-06-14T08:00:00-04:00</published>
+  </entry>
   <entry>
     <id>dip-2023-06-07</id>
     <title>Data Is Plural — 2023.06.07 edition</title>
@@ -1180,121 +1312,5 @@ multimedia.</em></p>
     <link href="http://www.data-is-plural.com/archive/2023-04-05-edition" rel="alternate"/>
     <summary>Treasury transactions, more than 200 million European buildings, 911 service areas, lists of medical codes, and Midwestern mollusks.</summary>
     <published>2023-04-05T08:00:00-04:00</published>
-  </entry>
-  <entry>
-    <id>dip-2023-03-29</id>
-    <title>Data Is Plural — 2023.03.29 edition</title>
-    <updated>2023-03-29T08:00:00-04:00</updated>
-    <content type="CDATA"><![CDATA[<p><em>Local public meetings, health workers, Kremlin posts, carbon
-capture projects, and Milan drinking fountains.</em></p>
-<p> </p>
-<p><em>👋 Surprise! Say hello to <a
-href="https://podcast.data-is-plural.com/">Data Is Plural: The
-Podcast</a>. The first season is <a
-href="https://podcast.data-is-plural.com/">now available in its
-entirety</a> — five concise episodes, each based on data previously
-featured in this newsletter. This is my first time creating a podcast,
-and I still have lots to learn. So please do let me know what you think;
-critiques and suggestions for improvement particularly appreciated. And
-a <strong>big, hearty thanks</strong> to this season’s guests (<a
-href="https://www.buygiantpumpkins.com/">Andy</a>, <a
-href="https://mattieburkert.com/">Mattie</a>, <a
-href="https://twitter.com/pmedranoviz">Pablo</a>, <a
-href="https://irenatfh.github.io/">Irena</a>, <a
-href="https://twitter.com/voberoi">Vikram</a>), who generously agreed to
-be interviewed for a podcast that, at the time, was just a vague
-idea.</em></p>
-<p> </p>
-<p><strong>Local public meetings.</strong> <a
-href="https://localview.net/">LocalView</a>, developed by <a
-href="https://soubhikbarari.com/">Soubhik Barari</a> and <a
-href="https://tylersimko.com/">Tyler Simko</a>, “is the largest dataset
-of local government public meetings — the central policy-making process
-in American local government — as they are captured on video.” In a <a
-href="https://www.nature.com/articles/s41597-023-02044-y">recent
-paper</a>, the authors describe how they built the <a
-href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/NJTBEM">dataset</a>,
-which is based on 130,000+ YouTube-hosted videos of such meetings in
-1,000+ US cities and counties, covering the years 2006 to 2022. The
-dataset lists each meeting’s date, jurisdiction, and government body
-(e.g., municipal council, school board, etc.), plus the video’s ID,
-title, channel, transcript, and more. [h/t <a
-href="https://twitter.com/cbgoodman/status/1636070353930682374">Chris
-Goodman</a>]</p>
-<p> </p>
-<p><strong>Health workers.</strong> The World Health Organization’s <a
-href="https://www.who.int/data/gho/data/themes/topics/health-workforce">Global
-Health Workforce Statistics database</a> presents annual, national
-estimates of the number of medical doctors, nursing and midwifery
-professionals, community health workers, and several other types of
-health personnel. The estimates come from the WHO’s <a
-href="https://www.who.int/activities/improving-health-workforce-data-and-evidence">National
-Health Workforce Accounts system</a>, national censuses, labor force
-surveys, and other sources. For medical doctors, the estimates span
-nearly 200 countries, with the majority having estimates as recent as
-2020 or 2021. Twenty countries’ estimates go back to the 1960s (and, for
-Spain, all the way back to 1952). [h/t <a
-href="https://www.datasketch.co/newsletter/data-journalism/issue-23-everything-is-getting-more-expensive/">Datasketch</a>]</p>
-<p> </p>
-<p><strong>Kremlin posts.</strong> <a
-href="https://giorgiocomai.eu/">Giorgio Comai</a>’s “<a
-href="https://tadadit.xyz/about/about.html">text as data &amp; data in
-the text</a>” <a href="https://tadadit.xyz/">project</a> “aims at
-facilitating structured analysis of on-line contents related to
-conflicts in the post-Soviet space by providing easier access to
-relevant datasets and tools.” <a
-href="https://tadadit.xyz/datasets/">Those datasets</a> include the URL,
-title, text, date, and other metadata of <a
-href="https://tadadit.xyz/datasets/kremlin.ru_en/">all posts published
-on the Kremlin’s English-language website</a> since the year 2000; <a
-href="https://tadadit.xyz/datasets/kremlin.ru_ru/">on the Kremlin’s
-Russian-language website</a>; <a
-href="https://tadadit.xyz/datasets/zavtra.ru_ru/">and by <em>Zavtra</em>
-since late 1996</a>. <strong>Previously</strong>: <a
-href="https://focusdataproject.com/">Foreign ministry statements</a> (<a
-href="https://www.data-is-plural.com/archive/2022-03-09-edition/">DIP
-2022.03.09</a>). [h/t <a
-href="https://mailchi.mp/4370094fc2e6/rtkppffzok-13646506">EDJNet</a>]</p>
-<p> </p>
-<p><strong>Carbon capture projects.</strong> The <a
-href="https://netl.doe.gov/about/mission-overview">National Energy
-Technology Laboratory</a> maintains a <a
-href="https://netl.doe.gov/carbon-management/carbon-storage/worldwide-ccs-database">map
-and dataset</a> of <a
-href="https://netl.doe.gov/carbon-management/carbon-storage/faqs/carbon-storage-faqs">carbon
-capture and storage</a> projects “active, proposed, and terminated” in
-30+ countries since the 1970s. The latest version of the dataset
-includes 400+ entries, slightly more than are on the map. It lists each
-project’s name, company, location, date, type, scope, magnitude, status,
-technology, cost, summary, and other details. <strong>As seen
-in</strong>: “<a
-href="https://usafacts.org/articles/what-is-carbon-capture-and-storage-where-is-it-happening-in-the-us/">What
-is carbon capture and storage? Where is it happening in the US?</a>”
-(USAFacts).</p>
-<p> </p>
-<p><strong>Milan drinking fountains.</strong> Milan’s government
-publishes a <a
-href="https://dati.comune.milano.it/it/dataset/ds502_fontanelle-nel-comune-di-milano">dataset
-of 600+ local vedovelle</a>, the <a
-href="https://memorialdrinkingfountains.wordpress.com/2019/03/30/vedovelle-fountains/">distinctive</a>
-(green, cast iron, dragon-headed) drinking fountains that dot the city.
-The dataset provides each fountain’s coordinates, <a
-href="https://en.wikipedia.org/wiki/Municipalities_of_Milan">municipal
-zone</a>, and neighborhood. <strong>As seen in</strong>: “<a
-href="https://www.ilpost.it/2022/06/27/fontanelle-vedovelle-milano/">Tutto
-sulle fontanelle di Milano</a>,” with a map of the locations, by Il
-Post’s <a href="https://twitter.com/easyinve">Isaia Invernizzi</a>.</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send potable feedback to
-jsvine@gmail.com, or just reply to this email. // Looking for past
-datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. // Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and to browse past editions.</em></p>
-]]></content>
-    <link href="http://www.data-is-plural.com/archive/2023-03-29-edition" rel="alternate"/>
-    <summary>Local public meetings, health workers, Kremlin posts, carbon capture projects, and Milan drinking fountains.</summary>
-    <published>2023-03-29T08:00:00-04:00</published>
   </entry>
 </feed>
