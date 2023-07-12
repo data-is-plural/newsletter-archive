@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.data-is-plural.com</id>
   <title>Data Is Plural</title>
-  <updated>2023-06-28T08:00:00-04:00</updated>
+  <updated>2023-07-12T08:00:00-04:00</updated>
   <author>
     <name>Jeremy Singer-Vine</name>
     <email>jsvine@gmail.com</email>
@@ -10,6 +10,112 @@
   <link href="https://www.data-is-plural.com" rel="alternate"/>
   <generator>https://github.com/data-is-plural/newsletter-archive</generator>
   <subtitle>A weekly newsletter of useful/curious datasets.</subtitle>
+  <entry>
+    <id>dip-2023-07-12</id>
+    <title>Data Is Plural — 2023.07.12 edition</title>
+    <updated>2023-07-12T08:00:00-04:00</updated>
+    <content type="CDATA"><![CDATA[<p><em>US military interventions, the latest White House visitors, NY
+prison employee misconduct, Australian mine production, and “the global
+human day.”</em></p>
+<p> </p>
+<p><strong>US military interventions.</strong> For the <a
+href="https://sites.tufts.edu/css/mip-research/">Military Intervention
+Project</a>, <a href="https://www.siditakushi.com/">Sidita Kushi</a> and
+<a
+href="https://sites.tufts.edu/css/people/about/monica-duffy-toft/">Monica
+Duffy Toft</a> have <a
+href="https://journals.sagepub.com/doi/10.1177/00220027221117546">constructed</a>
+a <a
+href="https://sites.tufts.edu/css/mip-research/mip-dataset/">dataset</a>
+of “all instances of US military intervention from 1776 until 2019,
+alongside key drivers and consequences of these interventions.” The 392
+cases include wars, occupations, major troop deployments, humanitarian
+assistance, and other military actions abroad. The dataset categorizes
+their objectives, use of force, and outcomes; indicates their location,
+foreign states involved, starting/ending year, and human costs; and
+provides many additional variables. Its sources include government
+publications, media reports, other datasets (such as the <a
+href="https://www.icpsr.umich.edu/web/ICPSR/studies/21282">International
+Military Intervention</a> and <a
+href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=hdl:1902.1/15519">Military
+Intervention by Powerful States</a> projects), and more. [h/t <a
+href="https://www.davidvine.net/">David Vine</a>]</p>
+<p> </p>
+<p><strong>The latest White House visitors.</strong> In May 2021, the
+Biden-Harris administration <a
+href="https://www.whitehouse.gov/briefing-room/disclosures/2021/05/07/biden-harris-administration-reinstates-visitor-log-policy-will-be-first-administration-to-post-records-from-first-full-year-in-office/">began
+releasing</a> its <a
+href="https://www.whitehouse.gov/disclosures/visitor-logs/">logs of
+visitors to the White House</a>. The records now include 500,000+
+entries from January 2021 to March 2023, featuring 350,000+ distinct
+names and indicating the visit’s timing, visitee, meeting location, and
+more. <strong>Caveat</strong>: “However, a Bloomberg News analysis of
+the data found duplications, anomalies and missing names,” <a
+href="https://www.bloomberg.com/news/articles/2023-06-26/biden-re-opens-white-house-visitor-logs-but-some-names-are-missing">write
+Eric Fan and Josh Wingrove</a>. “For example, the records […] show just
+five visits from Nancy Pelosi when she was House Speaker, despite at
+least 20 known instances when she was there.”
+<strong>Previously</strong>: <a
+href="https://obamawhitehouse.archives.gov/goodgovernment/tools/visitor-records">Official
+logs from the Obama-Biden White House</a>, plus <a
+href="https://projects.propublica.org/graphics/wh-complex">ProPublica’s</a>
+and <a
+href="https://www.politico.com/interactives/databases/trump-white-house-visitor-logs-and-records/index.html">Politico’s</a>
+attempts to compile them for Trump-Pence (<a
+href="https://www.data-is-plural.com/archive/2017-11-29-edition/">DIP
+2017.11.29</a>).</p>
+<p> </p>
+<p><strong>NY prison employee misconduct.</strong> For a <a
+href="https://www.themarshallproject.org/tag/when-guards-abuse-prisoners">series
+of articles</a> (<a
+href="https://www.nytimes.com/2023/05/19/nyregion/ny-prison-guards-brutality-fired.html">co-published
+with the New York Times</a>) investigating abuse by prison guards in New
+York State, The Marshall Project <a
+href="https://www.themarshallproject.org/2023/05/19/new-york-prison-officer-abuse-how-we-investigated">obtained
+and analyzed</a> data representing 12 years of Department of Corrections
+and Community Supervision employee disciplinary notices. The newsroom is
+<a
+href="https://observablehq.com/@themarshallproject/new-york-prison-employee-discipline-data">publishing
+those records</a>, which they’ve converted from two PDFs into tabular
+data, along with additional context and caveats. The records contain
+~6,000 (non-redacted) notices; they indicate the employee name, title,
+facility, union, type of misconduct, case disposition, description, and
+penalty, among other details.</p>
+<p> </p>
+<p><strong>Australian mine production.</strong> “No […] study has ever
+compiled a national mine production data set which includes basic mining
+data such as ore processed, grades, extracted products (e.g., metals,
+concentrates, saleable ore) and waste rock,” <a
+href="https://www.nature.com/articles/s41597-023-02275-z">writes Gavin
+M. Mudd</a>, whose <a
+href="https://rmit.figshare.com/articles/dataset/A_Comprehensive_Dataset_for_Australian_Mine_Production_1799_to_2021/22724081/2">new
+dataset</a> aims to do exactly that for Australia from 1799 to 2021. It
+contains mine-by-mine metrics, as well as annual production by state and
+element/mineral.</p>
+<p> </p>
+<p><strong>“The global human day.”</strong> By harmonizing “data
+collected by national statistics agencies, international organizations,
+and researchers from over 140 countries,” <a
+href="https://www.pnas.org/doi/full/10.1073/pnas.2219564120">William
+Fajzel et al.</a> have “assemble[d] a complete estimate of what humans
+are doing, averaged over time and across the entire population, to
+provide [what] we refer to as the global human day.” Their <a
+href="https://zenodo.org/record/8040631">published data</a> include
+global and national estimates for 24 subcategories, such as sleep (~9
+hours) and childcare (~17 minutes).</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send globally-averaged
+feedback to jsvine@gmail.com, or just reply to this email. // Looking
+for past datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. // Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions.</em></p>
+]]></content>
+    <link href="http://www.data-is-plural.com/archive/2023-07-12-edition" rel="alternate"/>
+    <summary>US military interventions, the latest White House visitors, NY prison employee misconduct, Australian mine production, and “the global human day.”</summary>
+    <published>2023-07-12T08:00:00-04:00</published>
+  </entry>
   <entry>
     <id>dip-2023-06-28</id>
     <title>Data Is Plural — 2023.06.28 edition</title>
@@ -1187,133 +1293,5 @@ visuals.</em></p>
     <link href="http://www.data-is-plural.com/archive/2023-04-19-edition" rel="alternate"/>
     <summary>Municipal zoning rules, AI incidents, state bill trajectories, rare-earth mining projects, and “pirate radio” enforcement.</summary>
     <published>2023-04-19T08:00:00-04:00</published>
-  </entry>
-  <entry>
-    <id>dip-2023-04-12</id>
-    <title>Data Is Plural — 2023.04.12 edition</title>
-    <updated>2023-04-12T08:00:00-04:00</updated>
-    <content type="CDATA"><![CDATA[<p><em>Jail rosters, sanctions enforcement, border surveillance, flash
-flooding in urban England, and Dutch textile shipments.</em></p>
-<p> </p>
-<p><em>👋 Have you published something (← an intentionally broad term)
-based on data you discovered through Data Is Plural? Let me know by
-responding to this email or by <a
-href="https://docs.google.com/forms/d/e/1FAIpQLSdXXD5eO05w0Xa7bwG3Ppia3uzr_o3y-xDEZuWRfXbCfCu_XA/viewform">filling
-out this form</a>. I’ll aim to share your work here and via DIP’s new <a
-href="https://mastodon.social/@dataisplural">Mastodon</a> and <a
-href="https://www.instagram.com/dataisplural/">Instagram</a>
-accounts.</em></p>
-<p> </p>
-<p><strong>Jail rosters.</strong> The <a
-href="https://publicsafetylab.org/">NYU Public Safety Lab</a>’s <a
-href="https://jaildatainitiative.org/">Jail Data Initiative</a> has <a
-href="https://jaildatainitiative.org/documentation/architecture">built</a>
-a <a href="https://jaildatainitiative.org/documentation/scrapers">fleet
-of web scrapers</a> to gather and process <a
-href="https://jaildatainitiative.org/documentation/about">daily roster
-data from 1,000+ US city and county jails</a>. The project’s <a
-href="https://jaildatainitiative.org/dashboards/population">aggregate
-metrics</a> include the number of people in these jails each day, the
-daily numbers of people newly incarcerated and released, and how long
-people have been held (among those released). You can filter and
-download these counts by age, gender, and race. <a
-href="https://jaildatainitiative.org/profile">Profiles of individual
-jails</a> also list the most common charges and the overall demographics
-of people held there. The time frames available vary by jail, but mostly
-begin in 2020 or 2021. You can also <a
-href="https://jaildatainitiative.org/dua">apply for access</a> to
-person-level records. [h/t <a
-href="https://twitter.com/cagefreerepair">Adam Vine</a> + <a
-href="https://twitter.com/orionjtaylor/status/1637878248230076417">Orion
-Taylor</a>]</p>
-<p> </p>
-<p><strong>Sanctions enforcement.</strong> Political scientists <a
-href="https://sites.google.com/site/bryanrearly/home">Bryan R. Early</a>
-and <a href="https://poliscikeith.com/">Keith A. Preble</a> have <a
-href="https://www.tandfonline.com/doi/full/10.1080/09636412.2020.1722850">assembled</a>
-a <a
-href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/TIFRTT">dataset</a>
-of the US <a href="https://ofac.treasury.gov/">Office of Foreign Assets
-Control</a>’s sanctions-related penalties, settlements, and findings of
-violation since 2003. To do so, they <a
-href="https://dataverse.harvard.edu/file.xhtml?fileId=6988628&amp;version=5.1">combed
-through</a> the agency’s <a
-href="https://ofac.treasury.gov/civil-penalties-and-enforcement-information">mostly-PDF-based
-archive of these enforcement actions</a>. Each of the dataset’s 1,000+
-entries indicates the action date, type, and monetary amount; entity
-name, type, location, and sector; the specific sanctions programs
-violated; and more. <strong>Previously</strong>: <a
-href="https://ofac.treasury.gov/other-ofac-sanctions-lists">OFAC’s
-sanctions lists</a> (<a
-href="https://www.data-is-plural.com/archive/2018-02-21-edition/">DIP
-2018.02.21</a>) and <a
-href="https://opensanctions.org/">OpenSanctions</a> (<a
-href="https://www.data-is-plural.com/archive/2021-09-08-edition/">DIP
-2021.09.08</a>).</p>
-<p> </p>
-<p><strong>Border surveillance.</strong> The <a
-href="https://www.eff.org/about">Electronic Frontier Foundation</a> has
-<a
-href="https://www.eff.org/deeplinks/2023/03/cbp-expanding-its-surveillance-tower-program-us-mexico-border-and-were-mapping-it">constructed</a>
-a <a
-href="https://www.google.com/maps/d/u/1/viewer?mid=1bxUGeOT6vVXu0jFQhDLxgktLFLVOKsI&amp;ll=29.681163559249427,-107.321836295&amp;z=5">map</a>
-and <a
-href="https://www.eff.org/document/us-mexico-border-surveillance-data">dataset</a>
-of 340+ Customs and Border Protection surveillance towers along the
-US-Mexico border. “Compiled using public records, satellite imagery,
-road trips, and even exploration in virtual reality,” the dataset
-indicates each tower’s location, name, type, and vendor; it also links
-to sources and satellite imagery. Separate entries list potential future
-towers proposed by CBP and <a
-href="https://www.eff.org/pages/automated-license-plate-readers-alpr">automated
-license plate readers</a> at CBP checkpoints. [h/t <a
-href="https://twitter.com/corintxt">Corin Faife</a>]</p>
-<p> </p>
-<p><strong>Flash flooding in urban England.</strong> <a
-href="https://www.climatenode.org/index.html">ClimateNode</a>’s <a
-href="https://www.linkedin.com/in/helen-jackson-28926285/">Helen
-Jackson</a> has created a <a
-href="https://www.climatenode.org/maps/about_UFF_maps.html">dataset and
-series of interactive maps</a> of recent summertime flash flooding in
-urban England. To <a
-href="https://www.climatenode.org/maps/UFFEdoc.pdf">construct the
-dataset</a>, Jackson “analysed approximately 17,400 articles about
-flooding from around 300 newspaper websites,” and then used <a
-href="https://en.wikipedia.org/wiki/Natural_language_processing">natural
-language processing</a> to “extract the names of streets, buildings and
-other places affected” — some 2,800+ locations in all, corresponding to
-56 flooding events since 2010. [h/t <a
-href="https://buttondown.email/puntofisso/archive/511-quantum-of-sollazzo/">Giuseppe
-Sollazzo</a>]</p>
-<p> </p>
-<p><strong>Dutch textile shipments.</strong> The <a
-href="https://dutchtextiletrade.org/">Dutch Textile Trade Project</a>
-“aims to understand the circulation of globally-sourced textiles on
-Dutch ships around the world in the seventeenth and eighteenth centuries
-by examining data drawn from trade records alongside samples of textiles
-and visual culture depicting textiles in use.” The 22,000+ entries in
-the project’s <a href="https://dutchtextiletrade.org/data/">main
-dataset</a> each represent a shipment from one port to another; they
-indicate the textile type, quantity, and value, shipment date, supplier,
-and more. [h/t <a
-href="https://www.shroudedincloaksofboringness.com/democracysdata/">Dan
-Bouk</a>]</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send fibrous feedback to
-jsvine@gmail.com, or just reply to this email. // Looking for past
-datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. // Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and to browse past editions. // Listen to the <a
-href="https://podcast.data-is-plural.com">podcast</a> to hear humans. //
-Swing by the <a
-href="https://www.instagram.com/dataisplural/">Instagram</a> and/or <a
-href="https://mastodon.social/@dataisplural">Mastodon</a> account for
-multimedia.</em></p>
-]]></content>
-    <link href="http://www.data-is-plural.com/archive/2023-04-12-edition" rel="alternate"/>
-    <summary>Jail rosters, sanctions enforcement, border surveillance, flash flooding in urban England, and Dutch textile shipments.</summary>
-    <published>2023-04-12T08:00:00-04:00</published>
   </entry>
 </feed>
