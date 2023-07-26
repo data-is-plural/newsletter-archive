@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.data-is-plural.com</id>
   <title>Data Is Plural</title>
-  <updated>2023-07-12T08:00:00-04:00</updated>
+  <updated>2023-07-26T08:00:00-04:00</updated>
   <author>
     <name>Jeremy Singer-Vine</name>
     <email>jsvine@gmail.com</email>
@@ -10,6 +10,136 @@
   <link href="https://www.data-is-plural.com" rel="alternate"/>
   <generator>https://github.com/data-is-plural/newsletter-archive</generator>
   <subtitle>A weekly newsletter of useful/curious datasets.</subtitle>
+  <entry>
+    <id>dip-2023-07-26</id>
+    <title>Data Is Plural — 2023.07.26 edition</title>
+    <updated>2023-07-26T08:00:00-04:00</updated>
+    <content type="CDATA"><![CDATA[<p><em>Natural resources revenue, gender and diplomacy, nearly 8 million
+PDFs, Iberian orcas, and Taskmaster tasks.</em></p>
+<p> </p>
+<p><em>📬 “<a
+href="https://wisconsinwatch.org/2023/06/some-milwaukee-county-parents-leaving-workforce-due-to-sky-high-child-care-costs/">Some
+Milwaukee County parents leaving workforce due to sky-high child care
+costs</a>,” reader <a href="http://www.tmdedrick.com/">Tyler Dedrick</a>
+reported in Wisconsin Watch last month, referencing the <a
+href="https://www.dol.gov/agencies/wb/topics/featured-childcare">National
+Database of Childcare Prices</a> featured in <a
+href="https://www.data-is-plural.com/archive/2023-04-26-edition/">DIP
+2023.04.26</a>. (Have you published something with data you found via
+DIP? <a
+href="https://docs.google.com/forms/d/e/1FAIpQLSdXXD5eO05w0Xa7bwG3Ppia3uzr_o3y-xDEZuWRfXbCfCu_XA/viewform">Click
+here to let me know</a>.)</em></p>
+<p> </p>
+<p><strong>Natural resources revenue.</strong> To extract minerals,
+coal, oil, or gas from US federal land, Native American land, or the <a
+href="https://www.boem.gov/environment/outer-continental-shelf">Outer
+Continental Shelf</a>, companies must pay various royalties, rents, and
+bonuses to the <a href="https://onrr.gov/about">Office of Natural
+Resources Revenue</a>, which then distributes those payments — amounting
+to billions of dollars per year — to the federal government, local
+governments, tribes, and individuals. Through its <a
+href="https://revenuedata.doi.gov/">data portal</a>, the agency provides
+annual and monthly breakdowns of revenue, disbursements, and production,
+which you can <a
+href="https://revenuedata.doi.gov/downloads">download</a>, <a
+href="https://revenuedata.doi.gov/query-data">query</a>, and <a
+href="https://revenuedata.doi.gov/explore">visually explore</a>.
+<strong>Related</strong>: The <a href="https://www.blm.gov/about">Bureau
+of Land Management</a> also <a
+href="https://www.blm.gov/programs-energy-and-minerals-oil-and-gas-oil-and-gas-statistics">provides</a>
+“data that include the numbers of BLM-administered oil and gas leases,
+applications for permit to drill, and oil and gas wells” on federal
+land. <strong>As seen in</strong>: “<a
+href="https://usafacts.org/articles/how-much-oil-and-gas-comes-from-federal-territory/">How
+much oil and gas comes from federal territory</a>?” (USAFacts).</p>
+<p> </p>
+<p><strong>Gender and diplomacy.</strong> <a
+href="https://www.gu.se/en/about/find-staff/birgittaniklasson">Birgitta
+Niklasson</a> and <a
+href="https://www.gu.se/en/about/find-staff/anntowns">Ann Towns</a>’s <a
+href="https://www.gu.se/en/gendip/the-gendip-dataset-on-gender-and-diplomatic-representation">GenDip
+dataset</a> “maps the extent to which states appoint men, women and
+other diplomats to different kinds of bilateral ambassador postings.”
+The data cover 200+ countries and 10 specific years between 1968 and
+2021. For each diplomat and year, the dataset indicates their sending
+country, receiving country, type of diplomatic title (e.g., ambassador,
+minister, etc.), and gender, which is “based on titles (e.g. Mr/Mrs,
+prince/princess, baron/baroness, etc.), pronouns used when referring to
+the diplomat, or the recognition of names as either female or male.” The
+team has also produced a series of <a
+href="https://www.gu.se/en/gendip/the-gendip-dataset-on-gender-and-diplomatic-representation/visualization-tools">visualizations
+based on the data</a>.</p>
+<p> </p>
+<p><strong>Millions of PDFs.</strong> As <a
+href="https://www.darpa.mil/news-events/2023-06-14">part</a> of its <a
+href="https://www.darpa.mil/program/safe-documents">SafeDocs</a>
+project, <a href="https://en.wikipedia.org/wiki/DARPA">DARPA</a> has <a
+href="https://digitalcorpora.org/corpora/file-corpora/cc-main-2021-31-pdf-untruncated/">compiled
+a corpus</a> of “nearly 8 million PDFs gathered from across the web in
+July/August of 2021.” To create it, the authors began with the URLs of
+PDF files identified by <a href="https://commoncrawl.org/">Common
+Crawl</a> (<a
+href="https://www.data-is-plural.com/archive/2021-04-21-edition/">DIP
+2021.04.21</a>), fetched their complete contents, and recorded metadata
+about each file and where it was found. “At the time of its creation,
+this is the largest single corpus of real-world (extant) PDFs that is
+publicly available,” they write.</p>
+<p> </p>
+<p><strong>Iberian orcas.</strong> The website <a
+href="https://www.orcas.pt/">orcas.pt</a> publishes <a
+href="https://www.orcas.pt/maps">monthly, downloadable maps</a>
+indicating the date, time, and location of orca sightings and <a
+href="https://www.theguardian.com/environment/2023/jul/11/the-orca-uprising-whales-are-ramming-boats-but-are-they-inspired-by-revenge-grief-or-memory">attacks</a>
+off the coasts of Portugal and Spain. <a
+href="https://www.pbs.org/newshour/show/group-of-orcas-attack-and-sink-vessels-off-iberian-peninsula">Run
+by Rui Alves as a personal project</a>, the project gathers its data
+through a network of local sailors. <strong>Related</strong>: The <a
+href="https://www.theca.org.uk/">Cruising Association</a>, in
+collaboration with <a href="https://www.orcaiberica.org/">Grupo de
+Trabajo Orca Atlántica</a>, publishes <a
+href="https://www.theca.org.uk/orcas/reports">maps and detailed
+reports</a> of <a href="https://www.theca.org.uk/orcas">orca
+interactions</a>, including “uneventful passages.” [h/t <a
+href="https://fairwarning.substack.com/">Soph Warnes</a>]</p>
+<p> </p>
+<p><strong>Comedians, challenged.</strong> At <a
+href="https://taskmaster.info/">TaskMaster.Info</a>, <a
+href="https://www.linkedin.com/in/kandrewcraven/">Karl Craven</a> is
+“obsessively documenting the international Taskmaster franchise,” which
+<a href="https://en.wikipedia.org/wiki/Taskmaster_(TV_series)">began as
+a British game show</a> on which comedians compete to win challenges
+such as <a href="https://taskmaster.info/task.php?id=2">watermelon
+speed-eating</a> and <a
+href="https://taskmaster.info/task.php?id=8">high-fiving strangers</a>.
+Reddit user <a
+href="https://www.reddit.com/user/Alohamori/">Alohamori</a> has used the
+site and <a href="https://prettygr.im/tdlm/sources">other sources</a> to
+create a “<a
+href="https://www.reddit.com/r/taskmaster/comments/13zb9nl/i_put_together_a_ridiculously_comprehensive/">ridiculously
+comprehensive</a>” <a
+href="https://prettygr.im/tdlm/taskmaster">database of that
+information</a>, enabling queries such as <a
+href="https://prettygr.im/tdlm/taskmaster/measurements?_sort=measurement&amp;objective.target__exact=least&amp;measurement__notnull=1&amp;objective.unit__exact=time">the
+fastest-completed tasks</a>, <a
+href="https://prettygr.im/tdlm/taskmaster/tasks?points=0">tasks awarding
+zero points</a>, and <a
+href="https://prettygr.im/tdlm/taskmaster/episode_scores?rank=1%3D&amp;_sort_desc=episode">episodes
+ending in ties</a>. <strong>Bonus link</strong>: <a
+href="https://www.youtube.com/channel/UCT5C7yaO3RVuOgwP8JVAujQ">Taskmaster’s
+official YouTube channel</a>.</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send obsessively
+documented feedback to jsvine@gmail.com, or just reply to this email. //
+Looking for past datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. // Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions.</em></p>
+]]></content>
+    <link href="http://www.data-is-plural.com/archive/2023-07-26-edition" rel="alternate"/>
+    <summary>Natural resources revenue, gender and diplomacy, nearly 8 million PDFs, Iberian orcas, and Taskmaster tasks.</summary>
+    <published>2023-07-26T08:00:00-04:00</published>
+  </entry>
   <entry>
     <id>dip-2023-07-12</id>
     <title>Data Is Plural — 2023.07.12 edition</title>
@@ -1163,135 +1293,5 @@ visuals.</em></p>
     <link href="http://www.data-is-plural.com/archive/2023-04-26-edition" rel="alternate"/>
     <summary>Drinking water violations, childcare prices, kinship terms, art history allocations, and “the oldest experimental crop field in America.”</summary>
     <published>2023-04-26T08:00:00-04:00</published>
-  </entry>
-  <entry>
-    <id>dip-2023-04-19</id>
-    <title>Data Is Plural — 2023.04.19 edition</title>
-    <updated>2023-04-19T08:00:00-04:00</updated>
-    <content type="CDATA"><![CDATA[<p><em>Municipal zoning rules, AI incidents, state bill trajectories,
-rare-earth mining projects, and “pirate radio” enforcement.</em></p>
-<p> </p>
-<p><em>📬 Reader <a
-href="https://moneyzine.com/author/idil-woodall/">Idil</a> used the <a
-href="https://www.fdic.gov/resources/resolutions/bank-failures/failed-bank-list/">FDIC’s
-list of failed banks</a> (<a
-href="https://www.data-is-plural.com/archive/2023-03-15-edition/">DIP
-2023.03.15</a>) to <a
-href="https://moneyzine.com/news/2023/04/12/georgia-is-home-to-16percent-of-americas-failed-banks-since-the-2000s/">analyze
-and visualize trends in those failures by year and state</a>, for
-Moneyzine. (Have you published something with data you found via DIP? <a
-href="https://docs.google.com/forms/d/e/1FAIpQLSdXXD5eO05w0Xa7bwG3Ppia3uzr_o3y-xDEZuWRfXbCfCu_XA/viewform">Fill
-out this form</a> to let me know.)</em></p>
-<p> </p>
-<p><strong>Municipal zoning rules.</strong> <a
-href="https://mattmleczko.scholar.princeton.edu/">Matt Mleczko</a> and
-<a href="https://matthewdesmond.scholar.princeton.edu/">Matthew
-Desmond</a>, of Princeton’s <a href="https://evictionlab.org/">Eviction
-Lab</a> (<a
-href="https://www.data-is-plural.com/archive/2018-04-18-edition/">DIP
-2018.04.18</a>), have <a
-href="https://journals.sagepub.com/eprint/2YGAQ9JE5S6PYXHVTBZG/full">developed
-a method</a> for extracting structured information from the text of
-local zoning regulations. Their <a
-href="https://github.com/mtmleczko/nzlud">National Zoning and Land Use
-Database</a> covers 2,600+ cities, towns, and other municipalities — a
-sample drawn from the <a
-href="https://real-faculty.wharton.upenn.edu/gyourko/land-use-survey/">Wharton
-Residential Land Use Regulatory Index</a>’s prior, survey-based
-research. The database includes dozens of indicators, such as whether
-the rules specify annual limits on several types of permits, allow any
-<a href="https://en.wikipedia.org/wiki/Secondary_suite">accessory
-dwelling units</a>, require various review-board approvals, impose
-parking space minimums, and more. These factors then feed into the
-authors’ <a
-href="https://evictionlab.org/zoning-restrictiveness-index/">Zoning
-Restrictiveness Index</a>, which they calculate at a municipal and
-metro-area level.</p>
-<p> </p>
-<p><strong>AI incidents.</strong> The <a
-href="https://incidentdatabase.ai/">AI Incident Database</a> “is
-dedicated to indexing the collective history of harms or near harms
-realized in the real world by the deployment of artificial intelligence
-systems.” The <a
-href="https://github.com/responsible-ai-collaborative/aiid">open-source</a>
-project is “<a href="https://incidentdatabase.ai/about/">managed in a
-participatory manner</a>,” with a board of directors, submissions from
-the public, and a team of reviewers guided by a <a
-href="https://incidentdatabase.ai/editors-guide/">set of definitions and
-decision criteria</a>. So far, it has cataloged 500+ incidents and
-2,500+ reports, which you can <a
-href="https://incidentdatabase.ai/apps/discover/">search and filter</a>
-by <a href="https://incidentdatabase.ai/entities/">entity</a>, <a
-href="https://incidentdatabase.ai/taxonomies/">category</a>, date, and
-other facets. You can also <a
-href="https://incidentdatabase.ai/research/snapshots/">download full
-snapshots of the database</a>. [h/t <a
-href="https://twitter.com/sashananderson">Sasha Anderson</a>]</p>
-<p> </p>
-<p><strong>State bill trajectories.</strong> Political scientist <a
-href="https://www.alexgarlick.com/">Alex Garlick</a> has published a <a
-href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/8PTHXT">dataset
-categorizing bills’ trajectories in state legislatures</a>. It follows
-each proposed law’s journey along 23 possible steps, which range from
-“First Reading (first chamber)” to “Bill enacted.” The dataset spans
-more than 1 million bills tracked by <a
-href="https://openstates.org/">OpenStates</a> (<a
-href="https://www.data-is-plural.com/archive/2020-09-30-edition/">DIP
-2020.09.30</a>), with full coverage for all 50 states for 2011–18 and
-partial coverage for some earlier and later years. <strong>Read
-more</strong>: “<a
-href="https://onlinelibrary.wiley.com/doi/abs/10.1111/lsq.12422">Bicameralism
-Hinges on Legislative Professionalism</a>,” Garlick and <a
-href="https://adambrown.info/">Adam R. Brown</a>’s recent paper (and <a
-href="https://adambrown.info/docs/research/brown-garlick-2023-bicameralism.pdf">preprint</a>)
-using this data.</p>
-<p> </p>
-<p><strong>Rare-earth mining.</strong> <a
-href="https://www.sciencedirect.com/science/article/pii/S0169136823001439">Shuang-Liang
-Liu et al.</a> have compiled a <a
-href="https://www.sciencedirect.com/science/article/pii/S0169136823001439#s0060">dataset</a>
-of 146 mining projects targeting <a
-href="https://en.wikipedia.org/wiki/Rare-earth_element">rare-earth
-elements</a>, which serve as “critical raw materials in many low-carbon
-technologies.” The dataset lists each project’s name, company, location,
-status, deposit type, estimated tonnage of deposits, element
-composition, and other details sourced from “company annual reports and
-public presentations, government reports, and papers in various
-scientific journals.”</p>
-<p> </p>
-<p><strong>“Pirate radio” enforcement.</strong> The Federal
-Communications Commission <a
-href="https://www.fcc.gov/pirate-database">publishes</a> a <a
-href="https://opendata.fcc.gov/stories/s/wgq8-eb5c">dashboard</a> and <a
-href="https://opendata.fcc.gov/Pirate-Radio-Enforcement/Pirate-Radio-Broadcasting-Database/xqgr-24et">dataset</a>
-of its “pirate radio” enforcement actions, part of the agency’s <a
-href="https://www.fcc.gov/document/fcc-proposes-first-pirate-act-fines-totaling-more-2-million">crackdown
-against</a> the “unauthorized transmission of radio frequency signals on
-the frequencies in or adjacent to the FM and AM radio bands.” The 38
-entries list the entity targeted, state/territory, radio frequency,
-enforcement type, date issued, and penalty amount. They go back to early
-2020, when Congress passed the <a
-href="https://www.congress.gov/bill/116th-congress/house-bill/583">PIRATE
-Act</a>. <strong>Related</strong>: <a
-href="https://noahveltman.com/acronyms/">Congressional acronym abuse,
-1973-2013</a>. [h/t <a href="https://www.beautifulpublicdata.com/">Jon
-Keegan</a>]</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send unauthorized
-feedback to jsvine@gmail.com, or just reply to this email. // Looking
-for past datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. // Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and to browse past editions. // Listen to the <a
-href="https://podcast.data-is-plural.com">podcast</a> to hear humans. //
-Swing by the <a
-href="https://www.instagram.com/dataisplural/">Instagram</a> and/or <a
-href="https://mastodon.social/@dataisplural">Mastodon</a> account for
-visuals.</em></p>
-]]></content>
-    <link href="http://www.data-is-plural.com/archive/2023-04-19-edition" rel="alternate"/>
-    <summary>Municipal zoning rules, AI incidents, state bill trajectories, rare-earth mining projects, and “pirate radio” enforcement.</summary>
-    <published>2023-04-19T08:00:00-04:00</published>
   </entry>
 </feed>
