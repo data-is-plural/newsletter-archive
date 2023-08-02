@@ -6,7 +6,128 @@
     <description>A weekly newsletter of useful/curious datasets.</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>https://github.com/data-is-plural/newsletter-archive</generator>
-    <lastBuildDate>Wed, 26 Jul 2023 08:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 02 Aug 2023 08:00:00 -0400</lastBuildDate>
+    <item>
+      <title>Data Is Plural — 2023.08.02 edition</title>
+      <link>http://www.data-is-plural.com/archive/2023-08-02-edition</link>
+      <description>Nursing home inspections, local ideology, COVID-19 in deer, Colombian public-sector algorithms, and forageable fruit.</description>
+      <content:encoded><![CDATA[<p><em>Nursing home inspections, local ideology, COVID-19 in deer,
+Colombian public-sector algorithms, and forageable fruit.</em></p>
+<p> </p>
+<p><em>📬 Reader <a href="https://medium.com/@deabardhoshi">Dea B</a>
+used the <a href="https://globaldatabarometer.org/">Global Open Data
+Barometer</a>, featured in <a
+href="https://www.data-is-plural.com/archive/2022-05-18-edition/">DIP
+2022.05.18</a>, to create an <a
+href="https://towardsdatascience.com/global-data-barometer-whats-the-current-state-of-open-data-in-the-world-2841e80503c2">exploratory
+data story on the state of open data around the world</a>. (Have you
+published something with data you found via DIP? <a
+href="https://docs.google.com/forms/d/e/1FAIpQLSdXXD5eO05w0Xa7bwG3Ppia3uzr_o3y-xDEZuWRfXbCfCu_XA/viewform">Click
+here to let me know</a>.)</em></p>
+<p> </p>
+<p><strong>Nursing home inspections.</strong> A couple of weeks ago,
+ProPublica <a
+href="https://www.propublica.org/article/here-whats-new-in-nursing-home-inspect-database">launched
+a major update</a> to its <a
+href="https://projects.propublica.org/nursing-homes/">Nursing Home
+Inspect</a> database, originally published in 2012 (and briefly
+mentioned in <a
+href="https://www.data-is-plural.com/archive/2016-07-06-edition/">DIP
+2016.07.06</a>). The new version “includes more data, new views that
+summarize problems, and advanced search features.” As an <a
+href="https://www.propublica.org/article/how-to-use-updated-nursing-home-inspect">accompanying
+guide</a> explains, the database now “covers nearly 400,000 deficiencies
+from over 90,000 reports at over 15,000 homes.” The project links to its
+source data, including the federal government’s <a
+href="https://data.cms.gov/provider-data/dataset/4pq5-n9py">list of
+Medicare-certified nursing homes</a> and the date, regulation,
+scope/severity, and narrative text of all deficiencies.
+<strong>Tip</strong>: <a
+href="https://github.com/seattletimes/nursing_homes_staffing_20200925#deficiency-data">The
+Seattle Times provides guidance for downloading those deficiency
+records</a>. <strong>Later today</strong>: <a
+href="https://www.propublica.org/events/how-to-use-propublicas-updated-nursing-home-inspect-database">ProPublica
+is hosting a webinar about the updated database</a>.</p>
+<p> </p>
+<p><strong>Local ideology.</strong> “Little is known about the American
+public’s policy preferences at the level of Congressional districts,
+state legislative districts, and local municipalities,” <a
+href="https://ctausanovitch.com/">Chris Tausanovitch</a> and <a
+href="http://www.chriswarshaw.com/">Christopher Warshaw</a> wrote <a
+href="https://www.jstor.org/stable/10.1017/s0022381613000042?seq=1">in
+the Journal of Politics a decade ago</a>. To address the issue, the
+researchers applied Bayesian statistical methods to large public-opinion
+surveys to generate numeric “ideal point” (left-vs-right) estimates at
+many geographic levels. Through their <a
+href="https://americanideologyproject.com/">American Ideology
+Project</a>, they have since <a
+href="https://dataverse.harvard.edu/dataverse/americanideologyproject">updated
+these estimates</a>, including <a
+href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/BQKU4M">most
+recently with data through 2021</a>. <strong>Previously</strong>:
+Ideology estimates for <a
+href="https://americanlegislatures.wordpress.com/">state legislators</a>
+(<a
+href="https://www.data-is-plural.com/archive/2020-01-01-edition/">DIP
+2020.01.01</a>), <a
+href="https://americanlegislatures.wordpress.com/2023/04/14/april-2023-update-to-shor-mccarty-state-legislatures-data/">updated
+in April 2023</a>, and <a href="https://voteview.com/">members of
+Congress</a> (<a
+href="https://www.data-is-plural.com/archive/2023-03-01-edition/">DIP
+2023.03.01</a>). [h/t <a href="https://twitter.com/MikeStucka">Mike
+Stucka</a>]</p>
+<p> </p>
+<p><strong>COVID-19 in deer.</strong> <a
+href="https://www.nature.com/articles/s41467-023-39782-x">Aijing Feng et
+al.</a> “collected 8,830 respiratory samples from free-ranging
+white-tailed deer across Washington, D.C. and 26 states in the United
+States between November 2021 and April 2022.” The researchers sequenced
+the COVID-19 genomes from 391 of the samples that tested positive for
+the virus, finding that the infections “originated from at least 109
+independent spillovers from humans, which resulted in 39 cases of
+subsequent local deer-to-deer transmission and three cases of potential
+spillover from white-tailed deer back to humans.” The <a
+href="https://www.nature.com/articles/s41467-023-39782-x#Sec28">study’s
+public spreadsheets</a> include data about each sequenced sample
+(collection date, state, virus lineage, etc.), each spillover event, and
+more. [h/t <a href="http://www.tmdedrick.com/">Tyler Dedrick</a>]</p>
+<p> </p>
+<p><strong>Colombian public-sector algorithms.</strong> <a
+href="https://juangutierrez.co/2023/06/07/nueva-base-de-datos-caracteriza-113-algoritmos-utilizados-el-sector-publico-colombiano-para-orientar-o-tomar-decisiones/">Juan
+David Gutiérrez et al.</a> have compiled a <a
+href="https://research-data.urosario.edu.co/dataset.xhtml?persistentId=doi:10.34848/YN1CRT">spreadsheet
+listing 113 automated decision systems</a> (“sistemas de decisión
+automatizada”) in the Colombian public sector. Each entry lists the
+system’s name, government entity, level of government (national, <a
+href="https://en.wikipedia.org/wiki/Departments_of_Colombia">department</a>,
+municipal), sector, description, objectives, data used, various
+categorizations, and much more. The project also includes a spreadsheet
+of the 300+ sources used in the compilation.</p>
+<p> </p>
+<p><strong>Forageable fruit.</strong> The <a
+href="https://fallingfruit.org/">Falling Fruit</a> project “is a
+celebration of the overlooked culinary bounty of our city streets.” It
+<a href="https://fallingfruit.org/about">provides</a> a map — “not the
+first of its kind, but [aspiring] to be the world’s most comprehensive”
+— and <a href="https://fallingfruit.org/data">downloadable dataset</a>
+of 1.5 million locations of edible plants in public, although not
+strictly fruit. The entries come from <a
+href="https://fallingfruit.org/changes">user contributions</a>, as well
+as <a href="https://fallingfruit.org/datasets">imports of community maps
+and tree inventories</a>. [h/t <a
+href="https://twitter.com/susiecambria">Susie Cambria</a>]</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send foraged feedback to
+jsvine@gmail.com, or just reply to this email. // Looking for past
+datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. // Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions.</em></p>
+]]></content:encoded>
+      <guid isPermaLink="false">dip-2023-08-02</guid>
+      <pubDate>Wed, 02 Aug 2023 08:00:00 -0400</pubDate>
+    </item>
     <item>
       <title>Data Is Plural — 2023.07.26 edition</title>
       <link>http://www.data-is-plural.com/archive/2023-07-26-edition</link>
@@ -1139,147 +1260,6 @@ multimedia and bonus links.</em></p>
 ]]></content:encoded>
       <guid isPermaLink="false">dip-2023-05-10</guid>
       <pubDate>Wed, 10 May 2023 08:00:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Data Is Plural — 2023.04.26 edition</title>
-      <link>http://www.data-is-plural.com/archive/2023-04-26-edition</link>
-      <description>Drinking water violations, childcare prices, kinship terms, art history allocations, and “the oldest experimental crop field in America.”</description>
-      <content:encoded><![CDATA[<p><em>Drinking water violations, childcare prices, kinship terms, art
-history allocations, and “the oldest experimental crop field in
-America.”</em></p>
-<p> </p>
-<p><em>📬 Reader <a href="https://data-folks.masto.host/@rmoff">Robin
-Moffatt</a> used the <a
-href="https://www.muckrock.com/foi/united-states-of-america-10/database-of-14-cfr-part-48-registered-drones-132943/">drone
-registration data Ben Welsh obtained via FOIA</a> (<a
-href="https://www.data-is-plural.com/archive/2022-12-21-edition/">DIP
-2022.12.21</a>) in a <a
-href="https://lakefs.io/blog/security-in-lakefs-understanding-role-based-access-control-rbac">blog
-post demonstrating lakeFS’ role-based access controls</a>. (Have you
-published something with data you found via DIP? <a
-href="https://docs.google.com/forms/d/e/1FAIpQLSdXXD5eO05w0Xa7bwG3Ppia3uzr_o3y-xDEZuWRfXbCfCu_XA/viewform">Fill
-out this form</a> to let me know.)</em></p>
-<p> </p>
-<p><strong>Drinking water violations.</strong> Through the <a
-href="https://www.epa.gov/sdwa">Safe Drinking Water Act</a>, the US
-Environmental Protection Agency sets baseline standards for the
-country’s <a
-href="https://www.epa.gov/dwreginfo/information-about-public-water-systems">~150,000
-public water systems</a>. Although enforcement is <a
-href="https://echo.epa.gov/help/sdwa-faqs">mostly delegated to the
-states and territories</a>, all monitoring, violation, and enforcement
-data is reported to the EPA and stored in its <a
-href="https://www.epa.gov/enviro/sdwis-overview">Safe Drinking Water
-Information System</a>. The agency provides <a
-href="https://echo.epa.gov/tools/data-downloads#dwdownloads">bulk
-downloads</a> of <a
-href="https://echo.epa.gov/tools/data-downloads/sdwa-download-summary">the
-data</a>, going back decades, plus a <a
-href="https://www.epa.gov/enviro/sdwis-search">search tool</a> and <a
-href="https://echo.epa.gov/trends/comparative-maps-dashboards/drinking-water-dashboard?state=National">dashboard</a>.
-<strong>As seen in</strong>: “<a
-href="https://usafacts.org/articles/which-cities-have-health-issues-with-their-drinking-water/">Which
-cities have health issues with their drinking water?</a>” (USAFacts).
-<strong>Related</strong>: <a
-href="https://journals.plos.org/water/article?id=10.1371/journal.pwat.0000081">Sara
-Hughes et al.</a>’s <a
-href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/DFB6NG">Municipal
-Drinking Water Database</a>, which connects information about 2,000+
-municipal water systems to local demographic, government, climate, and
-political indicators. [h/t <a
-href="https://twitter.com/gregspierce/status/1636090987738206208">Greg
-Pierce</a>]</p>
-<p> </p>
-<p><strong>Childcare prices.</strong> The <a
-href="https://www.dol.gov/agencies/wb/topics/featured-childcare">National
-Database of Childcare Prices</a>, launched <a
-href="https://www.dol.gov/newsroom/releases/wb/wb20230124">in
-January</a> by the Department of Labor’s <a
-href="https://www.dol.gov/agencies/wb">Women’s Bureau</a>, “is the most
-comprehensive federal source of childcare prices at the county level.”
-For each county and year from 2008 to 2018, the dataset provides
-estimates of the median and 75th-percentile weekly cost, disaggregated
-by provider type and child age. The estimates are <a
-href="https://www.dol.gov/sites/dolgov/files/WB/media/NationalDatabaseofChildcarePricesTechnicalGuideFinal.pdf">calculated
-from the market surveys</a> the federal Child Care and Development Fund
-<a
-href="https://childcareta.acf.hhs.gov/equal-access-and-market-rate-surveys">requires
-participating states to conduct</a>. [h/t <a
-href="https://github.com/erikgahner/PolData/commit/062d1fc66219f9f954ed66592d2633477a40c264">Erik
-Gahner Larsen</a>]</p>
-<p> </p>
-<p><strong>Kinship terms.</strong> <a
-href="http://www.kinbank.net/">Kinbank</a> is a browseable and <a
-href="https://github.com/kinbank/kinbank">downloadable</a> database of
-family-tree nomenclature for <a
-href="http://www.kinbank.net/languages/">1,000+ spoken languages</a>,
-across 100+ types of relationships. Examples include <em>ahätatum</em>
-(<a href="http://www.kinbank.net/languages/akka1240/">Akkadian</a> for
-one’s younger sister), <em>yerudê</em> (<a
-href="http://www.kinbank.net/languages/gali1262/">Galibi Carib</a> for
-one’s husband’s brother’s wife), and <em>ɗan’ùbā</em> (<a
-href="http://www.kinbank.net/languages/haus1257/">Hausa</a> for one’s
-paternal half-brother). As the <a
-href="https://excd.org/research-activities/kinbank/">project’s team</a>
-describes in a <a
-href="https://orca.cardiff.ac.uk/id/eprint/157986/">recent paper</a>,
-they’ve collected these “kinship terminologies” mostly from secondary
-sources, which “ranged from ethnographies and grammars, to simpler
-descriptions like wordlists”; those sources “are primarily in Roman
-script […] and can contain transcription inconsistencies across
-languages.”</p>
-<p> </p>
-<p><strong>Art history allocations.</strong> For her undergraduate
-thesis, “<a
-href="https://github.com/hollandstam1/thesis/blob/main/_book/Quantifying-Art-Historical-Narratives.pdf">Quantifying
-Art Historical Narratives</a>,” Holland Stam measured the amount of
-space (in text and in images) devoted to each artwork and artist in 25
-editions of two major art history textbooks: <a
-href="https://en.wikipedia.org/wiki/Gardner%27s_Art_Through_the_Ages"><em>Gardner’s
-Art Through the Ages</em></a> and <a
-href="https://www.worldcat.org/title/373059219"><em>Janson’s History of
-Art</em></a>. Stam’s <a
-href="https://github.com/hollandstam1/thesis">thesis repository</a>
-includes <a
-href="https://github.com/hollandstam1/thesis/tree/main/raw-data">the
-measurement data</a>, which also indicates each artist’s nationality,
-gender, race, and ethnicity. <strong>Related</strong>: <a
-href="https://saralemus7.github.io/arthistory/">An R package for the
-data</a>. <strong>As seen in</strong>: “<a
-href="https://juliasilge.com/blog/art-history/">Resampling to understand
-gender in #TidyTuesday art history data</a>,” a post and screencast by
-<a href="https://juliasilge.com/">Julia Silge</a>.</p>
-<p> </p>
-<p><strong>The Morrow Plots.</strong> The University of Illinois’ <a
-href="https://aces.illinois.edu/research/history/morrow-plots">Morrow
-Plots</a>, established in 1876, “are the oldest experimental crop field
-in America and the second oldest in the world.” An <a
-href="https://aces.illinois.edu/news/oldest-us-agricultural-plots-go-digital-130-years-data-now-online">interdisciplinary
-team</a> has <a
-href="https://github.com/SandiCal/morrow-plots-public">compiled,
-cleaned, and standardized</a> the experiment’s archival records (such as
-<a
-href="https://digital.library.illinois.edu/collections/259e2e70-3ed0-0138-717e-02d0d7bfd6e4-3">this
-notebook</a>). For each year and plot, their <a
-href="https://databank.illinois.edu/datasets/IDB-7865141">dataset</a>
-lists the crop, date of planting, treatment plan, amount of various
-substances applied, yield per acre, and more.</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send high-yield feedback
-to jsvine@gmail.com, or just reply to this email. // Looking for past
-datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. // Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and to browse past editions. // Listen to the <a
-href="https://podcast.data-is-plural.com">podcast</a> to hear humans. //
-Swing by the <a
-href="https://www.instagram.com/dataisplural/">Instagram</a> and/or <a
-href="https://mastodon.social/@dataisplural">Mastodon</a> account for
-visuals.</em></p>
-]]></content:encoded>
-      <guid isPermaLink="false">dip-2023-04-26</guid>
-      <pubDate>Wed, 26 Apr 2023 08:00:00 -0400</pubDate>
     </item>
   </channel>
 </rss>
