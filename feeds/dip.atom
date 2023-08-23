@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.data-is-plural.com</id>
   <title>Data Is Plural</title>
-  <updated>2023-08-09T08:00:00-04:00</updated>
+  <updated>2023-08-23T08:00:00-04:00</updated>
   <author>
     <name>Jeremy Singer-Vine</name>
     <email>jsvine@gmail.com</email>
@@ -10,6 +10,134 @@
   <link href="https://www.data-is-plural.com" rel="alternate"/>
   <generator>https://github.com/data-is-plural/newsletter-archive</generator>
   <subtitle>A weekly newsletter of useful/curious datasets.</subtitle>
+  <entry>
+    <id>dip-2023-08-23</id>
+    <title>Data Is Plural — 2023.08.23 edition</title>
+    <updated>2023-08-23T08:00:00-04:00</updated>
+    <content type="CDATA"><![CDATA[<p><em>International cancer statistics, SSVF satisfaction surveys,
+Katherine Dunham’s data, Singapore’s wages, and Scotland’s common good
+assets.</em></p>
+<p> </p>
+<p><em>📬 Reader <a href="https://katiemarriner.com">Katie</a> used the
+<a
+href="https://www.dol.gov/agencies/wb/topics/featured-childcare">National
+Database of Childcare Prices</a>, featured in <a
+href="https://www.data-is-plural.com/archive/2023-04-26-edition/">DIP
+2023.04.26</a>, to create <a
+href="https://www.marketwatch.com/story/the-rising-cost-of-childcare-is-making-life-impossible-for-parents-use-our-calculator-to-track-the-expense-where-you-live-355801c5">an
+interactive tool for MarketWatch</a>; it compares the average costs in a
+given county to national averages, the local median income, and
+(optionally) your own income. (Have you published something with data
+you found via DIP? <a
+href="https://docs.google.com/forms/d/e/1FAIpQLSdXXD5eO05w0Xa7bwG3Ppia3uzr_o3y-xDEZuWRfXbCfCu_XA/viewform">Click
+here to let me know</a>.)</em></p>
+<p> </p>
+<p><strong>International cancer statistics.</strong> The World Health
+Organization’s <a href="https://gco.iarc.fr/">Global Cancer
+Observatory</a> provides <a
+href="https://gco.iarc.fr/projects">interfaces</a> to a range of studies
+and statistics. Its <a href="https://gco.iarc.fr/today/home">Cancer
+Today</a> portal features tables, charts, and maps of “incidence,
+mortality and prevalence for year 2020 in 185 countries or territories
+for 36 cancer types by sex and age group.” Those figures come from the
+<a
+href="https://acsjournals.onlinelibrary.wiley.com/doi/10.3322/caac.21660">latest
+GLOBOCAN estimates</a>, calculated by the WHO’s <a
+href="https://www.iarc.who.int/">International Agency for Research on
+Cancer</a> based on data from national and regional registries.
+<strong>Note</strong>: “Caution must be exercised when interpreting
+these estimates, given the limited quality and coverage of cancer data
+worldwide at present, particularly in low- and middle-income countries,”
+<a href="https://gco.iarc.fr/today/about">the researchers warn</a>.
+<strong>Previously</strong>: <a
+href="https://cancerstatisticscenter.cancer.org/">Statistics from the
+American Cancer Society</a> (<a
+href="https://www.data-is-plural.com/archive/2016-01-27-edition/">DIP
+2016.01.27</a>).</p>
+<p> </p>
+<p><strong>SSVF satisfaction surveys.</strong> The Veterans
+Administration’s <a
+href="https://www.va.gov/homeless/ssvf/index.html">Supportive Services
+for Veteran Families</a> program aims to “to promote housing stability
+among very low-income Veteran families who reside in or are
+transitioning to permanent housing.” The VA outsources those services to
+a network of 200+ selected nonprofits, which it grants hundreds of
+millions of dollars per year. When a veteran exits a grantee’s program,
+they’re invited to complete a satisfaction survey. The <a
+href="https://www.data-liberation-project.org/">Data Liberation
+Project</a> (which, disclosure, I run) <a
+href="https://www.data-liberation-project.org/requests/ssvf-satisfaction-surveys/">filed
+a FOIA request</a> for the survey data, and <a
+href="https://www.data-liberation-project.org/datasets/va-ssvf-survey-data/">received
+three spreadsheets in return</a> (among other documents), <a
+href="https://docs.google.com/document/d/1unanFEUnBDVBMK9pmpb0EVvRlpB-jtRC6gwlXSN-If4/edit">detailing</a>
+nearly 40,000 anonymized responses from fiscal years 2016–20 and
+2022.</p>
+<p> </p>
+<p><strong>Katherine Dunham.</strong> <a
+href="https://dunhamsdata.org/">Dunham’s Data</a>, a project led by <a
+href="https://www.kateelswit.org/">Kate Elswit</a> and <a
+href="https://dance.osu.edu/people/bench.9">Harmony Bench</a>, “explores
+the kinds of questions and problems that make the analysis and
+visualization of data meaningful for dance history, through the case
+study of 20th century African American choreographer Katherine Dunham”
+(<a
+href="https://en.wikipedia.org/wiki/Katherine_Dunham">1909–2006</a>).
+Drawing on materials “held by seven archives across the United States,”
+the team has built <a
+href="https://dunhamsdata.org/portfolio/datasets">three core
+datasets</a>, accompanied by <a
+href="https://dunhamsdata.org/index.php/portfolio/essays">essays</a>, <a
+href="https://dunhamsdata.org/index.php/portfolio/visualizations">visualizations</a>,
+and <a href="https://dunhamsdata.org/blog/code-tutorial-release">code
+repositories</a>. They “document the daily itinerary of Dunham’s touring
+and travel from the 1930s-60s; the over 300 dancers, drummers, and
+singers who appeared with her; and the shifting configurations of the
+nearly 300 repertory entities they performed.” [h/t <a
+href="https://www.linkedin.com/in/selenachau/">Selena Chau</a>]</p>
+<p> </p>
+<p><strong>Singaporean wages.</strong> Singapore’s Ministry of Manpower
+released its <a
+href="https://stats.mom.gov.sg/Pages/Occupational-Wages-Tables2022.aspx">2022
+wage tables</a> last month. The tables list the 25th, 50th, and 75th
+percentiles of basic and gross wages for more than 300 occupations by
+industry, plus median wages by worker sex, by worker age, and by
+establishment size. <strong>As seen in</strong>: <a
+href="https://www.straitstimes.com/multimedia/graphics/2023/07/salary-guide-2023/index.html">The
+Straits Times’ benchmarking tool</a> and DIP reader <a
+href="https://www.josesho.com/">Joses Ho</a>’s <a
+href="https://observablehq.com/@josesho/singapore-gender-wage-gap-2022">interactive
+chart of Singapore’s gender wage gaps</a>.</p>
+<p> </p>
+<p><strong>Scotland’s Common Good.</strong> Scotland’s <a
+href="https://www.legislation.gov.uk/aosp/1491/19/introduction">Common
+Good Act</a>, passed in 1491, creates a legal distinction for historical
+property owned by local authorities — often land and buildings, but also
+“moveable assets” such as paintings, <a
+href="https://en.wikipedia.org/wiki/Livery_collar">chains of office</a>,
+and furniture. <a href="https://commongood.scot/">CommonGood.scot</a>,
+<a href="https://commongood.scot/launching-commongood-scot/">launched in
+April</a> by investigative journalism cooperative <a
+href="https://theferret.scot/about-us/">The Ferret</a>, presents a <a
+href="https://commongood.scot/search/">searchable</a>, <a
+href="https://commongood.scot/map/">browsable</a>, and <a
+href="https://commongood.scot/data/">downloadable</a> dataset of 2,900+
+of these common good assets, <a
+href="https://commongood.scot/faqs-common-good-funds/">compiled</a>
+largely through freedom of information requests. [h/t Chris H]</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send communally-owned
+feedback to jsvine@gmail.com, or just reply to this email. // Looking
+for past datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. // Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions.</em></p>
+]]></content>
+    <link href="http://www.data-is-plural.com/archive/2023-08-23-edition" rel="alternate"/>
+    <summary>International cancer statistics, SSVF satisfaction surveys, Katherine Dunham’s data, Singapore’s wages, and Scotland’s common good assets.</summary>
+    <published>2023-08-23T08:00:00-04:00</published>
+  </entry>
   <entry>
     <id>dip-2023-08-09</id>
     <title>Data Is Plural — 2023.08.09 edition</title>
@@ -1145,115 +1273,5 @@ multimedia and bonus links.</em></p>
     <link href="http://www.data-is-plural.com/archive/2023-05-24-edition" rel="alternate"/>
     <summary>Aviation accident investigations, the top of BuzzFeed News, forty years of financial reforms, parking reforms, and protected European ham.</summary>
     <published>2023-05-24T08:00:00-04:00</published>
-  </entry>
-  <entry>
-    <id>dip-2023-05-17</id>
-    <title>Data Is Plural — 2023.05.17 edition</title>
-    <updated>2023-05-17T08:00:00-04:00</updated>
-    <content type="CDATA"><![CDATA[<p><em>Controlled substances lost and stolen, international case law,
-ICE database misconduct, real effective exchange rates, and collective
-nouns.</em></p>
-<p> </p>
-<p><strong>Controlled substances lost and stolen.</strong> In response
-to a <a href="https://www.data-liberation-project.org/">Data Liberation
-Project</a> Freedom of Information Act <a
-href="https://www.data-liberation-project.org/requests/controlled-substance-theft-and-loss/">request</a>,
-the US Drug Enforcement Administration last week sent me <a
-href="https://github.com/data-liberation-project/dea-theft-and-loss-counts">data
-counting the thefts and other losses</a> of <a
-href="https://www.deadiversion.usdoj.gov/schedules/">controlled
-substances</a> and “<a
-href="https://www.deadiversion.usdoj.gov/chem_prog/34chems.htm">listed
-chemicals</a>” that regulated entities have reported to the agency. The
-DEA <a
-href="https://www.data-liberation-project.org/datasets/dea-theft-and-loss-counts/">provided
-the records</a> as <a
-href="https://github.com/data-liberation-project/dea-theft-and-loss-counts/tree/main/data/raw">two
-spreadsheet files</a>, which I’ve also <a
-href="https://github.com/data-liberation-project/dea-theft-and-loss-counts/tree/main/data/tidy">converted
-into tidy CSVs</a>. They indicate the number of incidents by state, type
-of business (pharmacy, importer, distributor, etc.), and type of loss
-(burglary, hijacking, natural disaster, etc.), plus the total quantities
-stolen/lost. <strong>Read more</strong>: <a
-href="https://buttondown.email/data-liberation-project/archive/dlp-dispatch-8/">Yesterday’s
-Data Liberation Project newsletter</a>, featuring some numbers that
-caught my eye.</p>
-<p> </p>
-<p><strong>International case law.</strong> “The quantitative analysis
-of international legal data is still in its infancy, a situation which
-is exacerbated by the lack of high-quality open access data sets,”
-writes <a href="https://seanfobbe.com/">Seán Fobbe</a> in a <a
-href="https://onlinelibrary.wiley.com/doi/10.1111/jels.12313">2022 paper
-in Journal of Empirical Legal Studies</a>. To this end, Fobbe’s
-“present[s] the first two of a new series” of such resources, “covering
-one hundred years of case law of the primary judicial organs of the
-United Nations and the League of Nations.” The datasets — <a
-href="https://zenodo.org/record/7051934">for the Permanent Court of
-International Justice</a> (covering 1922–1940) and <a
-href="https://zenodo.org/record/7876286">for the International Court of
-Justice</a> (1947–present) — include case metadata, linguistic metrics,
-and the full text (in English and French) of the courts’ opinions,
-orders, and other key documents.</p>
-<p> </p>
-<p><strong>ICE database misconduct.</strong> “Since 2016, hundreds of US
-Immigration and Customs Enforcement employees and contractors have faced
-internal investigations into abuse of confidential law enforcement
-databases and agency computers,” <a
-href="https://www.wired.com/story/ice-agent-database-abuse-records/">Dhruv
-Mehrotra reports in Wired</a>, based on <a
-href="https://airtable.com/shrodU77cgvD2e8dc/tblwELYkSA0fNXgKF">disciplinary
-database records</a> Mehrotra obtained via a Freedom of Information Act
-request. ICE provided 414 rows of records. Each represents an alleged
-misconduct incident and provides a summary, date of occurrence, date
-reported, location, several categorizations, case resolution, and more.
-Wired has also added a column identifying the database in question,
-based on the summary. [h/t <a
-href="https://mastodon.social/@couts/110213868275915332">Andrew
-Couts</a> + <a href="https://vis.social/@seblammers">Sebastian
-Lammers</a>]</p>
-<p> </p>
-<p><strong>Weighted, inflation-adjusted exchange rates.</strong> A
-country’s <a href="https://www.investopedia.com/terms/r/reer.asp">real
-effective exchange rate</a> is its average exchange rate with its
-trading partners, weighted by trade volume and adjusted for inflation.
-Economist <a href="https://www.bruegel.org/people/zsolt-darvas">Zsolt
-Darvas</a> maintains a <a
-href="https://www.bruegel.org/publications/datasets/real-effective-exchange-rates-for-178-countries-a-new-database">dataset</a>
-that <a
-href="https://www.bruegel.org/working-paper/timely-measurement-real-effective-exchange-rates">estimates</a>
-these rates for 178 countries and the eurozone, by month and year. The
-project, which updates a <a
-href="https://www.bruegel.org/working-paper/real-effective-exchange-rates-178-countries-new-database">dataset
-and methodology Darvas first published in 2012</a>, uses data from
-international organizations, national statistics offices, and central
-banks.</p>
-<p> </p>
-<p><strong>Collective nouns.</strong> <a
-href="https://sites.miamioh.edu/meyersde/">Daniel E. Meyers</a> has
-consulted dozens of sources to compile <a
-href="https://sites.miamioh.edu/meyersde/the-collective-noun-catalog/">The
-Collective Noun Catalog</a>, which presents an <em>inundation</em> of
-7,300+ such constructs, such as a <em>pulse</em> of cardiologists and a
-<em>warren</em> of wombats. The <a
-href="https://docs.google.com/spreadsheets/d/1xCYrcJYhZVHNaF2J5oIgiFsROF--ZDzl68VFS8HzNUQ/edit">project’s
-spreadsheet</a> lists each collective noun’s subject, category, notes,
-and primary sources — some of which date to the 1400s.</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send a pulse of feedback
-to jsvine@gmail.com, or just reply to this email. // Looking for past
-datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. // Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and to browse past editions. // Listen to the <a
-href="https://podcast.data-is-plural.com">podcast</a> to hear humans. //
-Swing by the <a
-href="https://www.instagram.com/dataisplural/">Instagram</a> and/or <a
-href="https://mastodon.social/@dataisplural">Mastodon</a> account for
-multimedia and bonus links.</em></p>
-]]></content>
-    <link href="http://www.data-is-plural.com/archive/2023-05-17-edition" rel="alternate"/>
-    <summary>Controlled substances lost and stolen, international case law, ICE database misconduct, real effective exchange rates, and collective nouns.</summary>
-    <published>2023-05-17T08:00:00-04:00</published>
   </entry>
 </feed>
