@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.data-is-plural.com</id>
   <title>Data Is Plural</title>
-  <updated>2023-08-23T08:00:00-04:00</updated>
+  <updated>2023-09-06T08:00:00-04:00</updated>
   <author>
     <name>Jeremy Singer-Vine</name>
     <email>jsvine@gmail.com</email>
@@ -10,6 +10,119 @@
   <link href="https://www.data-is-plural.com" rel="alternate"/>
   <generator>https://github.com/data-is-plural/newsletter-archive</generator>
   <subtitle>A weekly newsletter of useful/curious datasets.</subtitle>
+  <entry>
+    <id>dip-2023-09-06</id>
+    <title>Data Is Plural — 2023.09.06 edition</title>
+    <updated>2023-09-06T08:00:00-04:00</updated>
+    <content type="CDATA"><![CDATA[<p><em>Eponymic streets, doctors in practice, intra-state ceasefires,
+metabolisms, and The Onion’s “American Voices.”</em></p>
+<p> </p>
+<p><em>📬 Reader <a href="https://twitter.com/isidoremiller">Izzy</a>
+used the <a
+href="https://overturemaps.org/download/overture-july-alpha-release-notes/">Overture
+Maps data</a> featured in <a
+href="https://www.data-is-plural.com/archive/2023-08-09-edition/">DIP
+2023.08.09</a> to <a
+href="https://hex.tech/blog/the-poles-of-brand-inaccessibility/">identify
+the points in the US furthest from various major brands’ stores</a>.
+(Have you published something with data you found via DIP? <a
+href="https://docs.google.com/forms/d/e/1FAIpQLSdXXD5eO05w0Xa7bwG3Ppia3uzr_o3y-xDEZuWRfXbCfCu_XA/viewform">Click
+here to let me know</a>.)</em></p>
+<p> </p>
+<p><strong>Eponymic streets.</strong> <a
+href="https://mappingdiversity.eu/">Mapping Diversity</a>, created by
+the <a href="https://www.europeandatajournalism.eu/">European Data
+Journalism Network</a>, “is a platform for discovering key facts about
+diversity and representation in street names across Europe, and to spark
+a debate about who is missing from our urban spaces.” The interactive
+analysis of 145,000+ streets in 30 major European cities launched in
+March, accompanied by <a
+href="https://www.europeandatajournalism.eu/cp_dataset/street-names-in-european-cities/">spreadsheets</a>
+calculating city-level statistics and listing all the streets named
+after women. Last month the team <a
+href="https://www.europeandatajournalism.eu/cp_data_news/mapping-diversity-full-dataset-release/">released</a>
+its <a
+href="https://drive.google.com/drive/folders/1xBc8EcR2jR2senxMpgIRFE0jafMn23sM">full
+dataset</a>, which provides information for every street examined, plus
+data for six more cities. Each row indicates a street’s country, city,
+and name; whether it’s named after anyone; and, if so, the person’s
+name, gender, and various attributes from <a
+href="https://www.wikidata.org/">Wikidata</a>, such as occupation and
+date of birth. <strong>Previously</strong>: <a
+href="https://geochicasosm.github.io/lascallesdelasmujeres/">Las Calles
+de las Mujeres</a> (<a
+href="https://www.data-is-plural.com/archive/2019-05-29-edition/">DIP
+2019.05.29</a>).</p>
+<p> </p>
+<p><strong>Doctors in practice.</strong> The <a
+href="https://www.ahrq.gov/data/innovations/3p-rd.html">Physician and
+Physician Practice Research Database</a>, published by the US
+government’s <a href="https://www.ahrq.gov/">Agency for Healthcare
+Research and Quality</a>, harmonizes data on medical practices from 13
+participating states. The public-use files provide each practice’s ZIP
+code, number of physicians, most common specialty, organizational <a
+href="https://www.cms.gov/Regulations-and-Guidance/Administrative-Simplification/NationalProvIdentStand">NPI</a>,
+and other characteristics. They also provide statistical aggregates at
+the 3-digit ZIP code level, such as the number of physicians accepting
+Medicare and/or Medicaid, average claims per month, and more. [h/t <a
+href="https://www.infodocket.com/2023/03/28/upcoming-event-u-s-repository-network-action-plan-update-now-available-detailed-agenda-and-updated-schedule-now-available-for-spring-2023-depository-library-council-dlc-virtual-meeting-more-n/">Gary
+Price</a>]</p>
+<p> </p>
+<p><strong>Intra-state ceasefires.</strong> <a
+href="https://journals.sagepub.com/doi/full/10.1177/00220027221129183">Govinda
+Clayton et al.</a>’s <a
+href="https://ceasefireproject.org/download/">Civil Conflict Ceasefire
+Dataset</a> “covers all ceasefires in civil conflict between 1989 and
+2020, including multilateral, bilateral and unilateral arrangements,
+ranging from verbal arrangements to detailed written agreements.” The
+dataset’s 2,200+ ceasefires span 109 conflicts in 66 countries, largely
+based on news articles discussing the agreements. A team of reviewers
+manually coded each instance, indicating its type and stated purpose;
+sides participating; dates declared, entered effect, and ended; and
+more. <strong>Previously</strong>: <a
+href="https://www.peaceagreements.org/">The PA-X Peace Agreements
+Database</a> (<a
+href="https://www.data-is-plural.com/archive/2018-02-28-edition/">DIP
+2018.02.28</a>).</p>
+<p> </p>
+<p><strong>Metabolisms.</strong> Drawing on 20+ published sources, <a
+href="https://www.pnas.org/doi/10.1073/pnas.2303764120">Tori M. Hoehler
+et al.</a> have compiled a <a
+href="https://www.pnas.org/doi/10.1073/pnas.2303764120#supplementary-materials">dataset
+of 10,000+ measurements</a> of metabolic rates of mammals, fish, birds,
+insects, tree saplings, bacteria, and other living organisms. The
+dataset includes several types of metabolic rates (primarily <a
+href="https://en.wikipedia.org/wiki/Basal_metabolic_rate">basal</a>,
+field, and maximum), and a mix of individual-organism and
+species-average measurements.</p>
+<p> </p>
+<p><strong>Vox populi, except not.</strong> <a
+href="https://en.wikipedia.org/wiki/The_Onion">The Onion</a> runs a
+regular feature called “<a
+href="https://www.theonion.com/opinion/american-voices">American
+Voices</a>,” which presents fake quotes from fake people responding to
+not-fake events in the news. <a href="https://codywinchester.com/">Cody
+Winchester</a> has <a
+href="https://codywinchester.com/the-onion-american-voices/">built</a> a
+<a
+href="https://docs.google.com/spreadsheets/d/1kPvF9_zZ375JKr0ATguQwUMXYDYi23HBkzu3uLUw_R8/edit">spreadsheet</a>
+listing the headlines, descriptions, and dates for 7,000+ of these
+features since August 1996; the 23,000+ quotes in them; and the names,
+occupations, and (almost always recycled) photos of the fictional
+personae purportedly quoted.</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send made-up feedback to
+jsvine@gmail.com, or just reply to this email. // Looking for past
+datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. // Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions.</em></p>
+]]></content>
+    <link href="http://www.data-is-plural.com/archive/2023-09-06-edition" rel="alternate"/>
+    <summary>Eponymic streets, doctors in practice, intra-state ceasefires, metabolisms, and The Onion’s “American Voices.”</summary>
+    <published>2023-09-06T08:00:00-04:00</published>
+  </entry>
   <entry>
     <id>dip-2023-08-23</id>
     <title>Data Is Plural — 2023.08.23 edition</title>
@@ -1156,122 +1269,5 @@ multimedia and bonus links.</em></p>
     <link href="http://www.data-is-plural.com/archive/2023-05-31-edition" rel="alternate"/>
     <summary>Correctional control, local business, crowd accidents, Antarctic geology, and NYC sidewalk scaffolding.</summary>
     <published>2023-05-31T08:00:00-04:00</published>
-  </entry>
-  <entry>
-    <id>dip-2023-05-24</id>
-    <title>Data Is Plural — 2023.05.24 edition</title>
-    <updated>2023-05-24T08:00:00-04:00</updated>
-    <content type="CDATA"><![CDATA[<p><em>Aviation accident investigations, the top of BuzzFeed News, forty
-years of financial reforms, parking reforms, and protected European
-ham.</em></p>
-<p> </p>
-<p><strong>Aviation accident investigations.</strong> Through its <a
-href="https://data.ntsb.gov/carol-main-public/landing-page">Case
-Analysis and Reporting Online service</a>, the National Transportation
-Safety Board provides information about all US civil aviation accident
-investigations since 1983; <a
-href="https://www.ntsb.gov/Pages/AviationQuery.aspx">another NTSB
-tool</a> includes earlier cases, going back to 1963. The agency also
-provides <a href="https://data.ntsb.gov/avdata">bulk data downloads</a>,
-covering the full span. Those files link each investigated event to
-details regarding the aircraft involved, engines, crew,
-injuries/fatalities, narratives, findings, and more.
-<strong>Related</strong>: In February, the agency <a
-href="https://www.ntsb.gov/news/press-releases/Pages/NR20230215.aspx">launched</a>
-an <a
-href="https://www.ntsb.gov/safety/data/Pages/GeneralAviationDashboard.aspx">interactive
-dashboard</a> summarizing accidents from 2012 to 2021. [h/t <a
-href="https://www.infodocket.com/2023/02/17/new-research-resource-ntsb-releases-data-visualization-tool-for-general-aviation-accidents/">Gary
-Price</a>]</p>
-<p> </p>
-<p><strong>The top of BuzzFeed News.</strong> You’ve likely heard:
-BuzzFeed Inc. has <a
-href="https://www.sec.gov/ix?doc=/Archives/edgar/data/1828972/000182897223000062/bzfd-20230420.htm">shut
-down BuzzFeed News</a>, where I worked from 2014 to early 2022. In July
-2018, the newsroom launched its own website, <a
-href="http://web.archive.org/web/*/https://www.buzzfeednews.com/">BuzzFeedNews.com</a>,
-distinct from BuzzFeed.com. The top of the new homepage <a
-href="https://github.com/jsvine/buzzfeed-news-trending-strip/blob/main/misc/trending-strip-screenshot.png">featured</a>
-a “Trending” strip, with links to a handful of <a
-href="https://techcrunch.com/2018/07/18/buzzfeed-news/">editor-selected</a>
-articles. A few months later, I wrote a computer script to save the
-text, URL, and position of each link on the strip. My personal server
-ran that script every five minutes (with occasional interruptions) until
-the newsroom’s final day of operation on May 5. <a
-href="https://github.com/jsvine/buzzfeed-news-trending-strip/">Here’s
-what it saw</a>. <strong>Read more</strong>: “<a
-href="https://www.buzzfeednews.com/article/buzzfeednews/buzzfeed-news-oral-history-2012-2023">The
-Ultimate Oral History Of BuzzFeed News</a>,” as told by many of my
-wonderful former colleagues.</p>
-<p> </p>
-<p><strong>Forty years of financial reforms.</strong> A decade-plus ago,
-a team of IMF economists published “<a
-href="https://www.imf.org/en/Publications/WP/Issues/2016/12/31/A-New-Database-of-Financial-Reforms-22485">A
-New Database of Financial Reforms</a>,” recording changes to financial
-policy in 91 economies from 1973 to 2005. They did so “along seven
-different dimensions: credit controls and reserve requirements, interest
-rate controls, entry barriers, state ownership, policies on securities
-markets, banking regulations, and restrictions on the capital account.”
-Last year, <a href="https://sawaomori.jpn.org/">Sawa Omori</a>, a
-political scientist who assisted with that project, <a
-href="https://academic.oup.com/jfr/article/8/2/230/6627259">introduced</a>
-a <a href="https://sawaomori.jpn.org/data/">revised and updated
-version</a>, expanding the coverage to 100 economies, extending it
-through 2013, and refining the seven original dimensions into 20
-subdimensions.</p>
-<p> </p>
-<p><strong>Parking reforms.</strong> The <a
-href="https://parkingreform.org/">Parking Reform Network</a>, a US-based
-nonprofit that <a
-href="https://parkingreform.org/what-is-parking-reform/">aims</a> “to
-discourage the building of too much parking supply,” has compiled a <a
-href="https://parkingreform.org/resources/mandates-map/">map and dataset
-of ~1,400 relevant local mandates</a>. They focus on policies that
-reduce or eliminate <a
-href="https://en.wikipedia.org/wiki/Parking_minimums_and_maximums">minimum
-parking requirements</a> for new developments, or set maximums. For each
-mandate, the dataset provides a summary and indicates its location,
-status, category, geographic scope, affected land use, and more.
-<strong>Related</strong>: <a
-href="https://parkingreform.org/resources/parking-lot-map/">Parking lots
-in the central areas of 50+ cities</a>, as mapped by the organization.
-[h/t <a href="http://knosof.co.uk/ESEUR/">Derek M. Jones</a>]</p>
-<p> </p>
-<p><strong>Protected European ham.</strong> In the world of food and
-wine, <a
-href="https://policy.trade.ec.europa.eu/enforcement-and-protection/protecting-eu-creations-inventions-and-designs/geographical-indications_en">geographical
-indications</a> protect traditional local producers against imitators —
-<a href="https://en.wikipedia.org/wiki/Champagne">Champagne</a> being a
-famous example. To explore the relationship between protected region
-size and product price, <a
-href="https://www.tandfonline.com/doi/full/10.1080/00343404.2023.2187365">Gero
-Laurenz Höhn et al.</a> have collected the <a
-href="https://dataverse.nl/dataset.xhtml?persistentId=doi:10.34894/RX0QIN">prices
-of protected and non-protected European ham</a> from dozens of
-supermarket websites. The 22 protected varieties in the dataset (such as
-Italy’s <a
-href="https://agriculture.ec.europa.eu/farming/geographical-indications-and-quality-schemes/geographical-indications-food-and-drink/prosciutto-di-parma-pdo_en">Prosciutto
-di Parma</a> and Spain’s <a
-href="https://www.tmdn.org/giview/gi/EUGI00000013467">Jamón de
-Trevélez</a>) come from nine countries. <strong>Related</strong>: <a
-href="https://ec.europa.eu/info/food-farming-fisheries/food-safety-and-quality/certification/quality-labels/geographical-indications-register/">eAmbrosia</a>,
-the EU’s downloadable register of protected indications.</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send hammy feedback to
-jsvine@gmail.com, or just reply to this email. // Looking for past
-datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. // Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and to browse past editions. // Listen to the <a
-href="https://podcast.data-is-plural.com">podcast</a> to hear humans. //
-Swing by the <a
-href="https://www.instagram.com/dataisplural/">Instagram</a> and/or <a
-href="https://mastodon.social/@dataisplural">Mastodon</a> account for
-multimedia and bonus links.</em></p>
-]]></content>
-    <link href="http://www.data-is-plural.com/archive/2023-05-24-edition" rel="alternate"/>
-    <summary>Aviation accident investigations, the top of BuzzFeed News, forty years of financial reforms, parking reforms, and protected European ham.</summary>
-    <published>2023-05-24T08:00:00-04:00</published>
   </entry>
 </feed>
