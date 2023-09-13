@@ -6,7 +6,139 @@
     <description>A weekly newsletter of useful/curious datasets.</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>https://github.com/data-is-plural/newsletter-archive</generator>
-    <lastBuildDate>Wed, 06 Sep 2023 08:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 13 Sep 2023 08:00:00 -0400</lastBuildDate>
+    <item>
+      <title>Data Is Plural — 2023.09.13 edition</title>
+      <link>http://www.data-is-plural.com/archive/2023-09-13-edition</link>
+      <description>Political contributions, historical newspaper articles, Prigozhin audio messages, and license plate designs.</description>
+      <content:encoded><![CDATA[<p><em>Political contributions, historical newspaper articles, Prigozhin
+audio messages, and license plate designs.</em></p>
+<p> </p>
+<p><em>📬 Reader <a
+href="https://michael-sparks13.github.io/portfolio/">Michael</a> built a
+<a href="https://michael-sparks13.github.io/canadian-wildfires/">map
+comparing Canada’s 2023 fire season to earlier years</a>, using data
+from the <a href="https://cwfis.cfs.nrcan.gc.ca/home">Canadian Wildland
+Fire Information System</a> featured in <a
+href="https://www.data-is-plural.com/archive/2023-06-14-edition/">DIP
+2023.06.14</a>. (Have you published something with data you found via
+DIP? <a
+href="https://docs.google.com/forms/d/e/1FAIpQLSdXXD5eO05w0Xa7bwG3Ppia3uzr_o3y-xDEZuWRfXbCfCu_XA/viewform">Click
+here to let me know</a>.)</em></p>
+<p> </p>
+<p><em>🔄 The Washington Post has <a
+href="https://www.washingtonpost.com/investigations/interactive/2023/opioid-epidemic-pain-pills-sold-oxycodone-hydrocodone/">obtained
+and published five more years of prescription opioid data</a> (initially
+featured in <a
+href="https://www.data-is-plural.com/archive/2019-08-07-edition/">DIP
+2019.08.07</a>). The <a
+href="https://www.washingtonpost.com/national/2019/07/18/how-download-use-dea-pain-pills-database/">records</a>
+now cover 2006–2019.</em></p>
+<p> </p>
+<p><strong>Political contributions, enhanced.</strong> Political
+scientist <a href="https://web.stanford.edu/~bonica/">Adam Bonica</a>’s
+<a href="https://data.stanford.edu/dime">Database on Ideology, Money in
+Politics, and Elections</a> (DIME) gathers “500 million itemized
+political contributions made by individuals and organizations to local,
+state, and federal elections covering from 1979 to 2020.” The project,
+which received a <a
+href="https://listserv.wustl.edu/scripts/wa.exe?A2=1702A&amp;L=POLMETH&amp;D=0&amp;H=N&amp;P=6749708">major
+update last month</a>, “is intended to make data on campaign finance and
+elections (1) more centralized and accessible, (2) easier to work with,
+and (3) more versatile […].” It assigns each contributor a unique
+identifier, geocodes their stated addresses, quantifies their
+ideological orientation, and more. The raw data come from several
+sources, including the <a href="https://www.fec.gov/data/">Federal
+Election Commission</a> and <a
+href="https://www.opensecrets.org/">OpenSecrets</a>.
+<strong>Related</strong>: <a
+href="https://moneyinpolitics.wtf/">MoneyInPolitics.wtf</a>, a <a
+href="https://moneyinpolitics.wtf/about/">collaborative project</a> that
+aims to be “America’s most comprehensive dictionary of campaign finance
+jargon.” [h/t <a href="https://twitter.com/1sadoraB">Isadora Borges
+Monroy</a>]</p>
+<p> </p>
+<p><strong>Historical newspaper articles.</strong> <a
+href="https://arxiv.org/abs/2308.12477">Melissa Dell et al.</a>’s <a
+href="https://huggingface.co/datasets/dell-research-harvard/AmericanStories">American
+Stories dataset</a> contains the text of ~400 million newspaper
+articles, extracted from ~20 million public-domain scans in the Library
+of Congress’s <a href="https://chroniclingamerica.loc.gov/">Chronicling
+America</a> project (<a
+href="https://www.data-is-plural.com/archive/2017-08-16-edition/">DIP
+2017.08.16</a>). To construct the dataset, the authors <a
+href="https://github.com/dell-research-harvard/AmericanStories">built</a>
+“a novel deep learning pipeline that incorporates layout detection,
+legibility classification, custom OCR, and the association of article
+texts spanning multiple bounding boxes.” For each article, the dataset
+provides the newspaper name, edition number, date of publication
+(largely in the 1800s–1920s), page number, headline, byline, and article
+text. <strong>Previously</strong>: The LOC’s <a
+href="https://news-navigator.labs.loc.gov/">Newspaper Navigator
+dataset</a> (<a
+href="https://www.data-is-plural.com/archive/2020-10-07-edition/">DIP
+2020.10.07</a>), which extracts visual content from the Chronicling
+America scans. [h/t <a href="http://knosof.co.uk/ESEUR/">Derek M.
+Jones</a>]</p>
+<p> </p>
+<p><strong>Prigozhin audio messages.</strong> <a
+href="https://giorgiocomai.eu/">Giorgio Comai</a> has <a
+href="https://tadadit.xyz/posts/2023-08-telegram_prigozhin/">collected
+and auto-transcribed</a> hundreds of audio messages from Russian
+mercenary leader <a
+href="https://en.wikipedia.org/wiki/Yevgeny_Prigozhin">Yevgeny
+Prigozhin</a>, which were posted “on his official Telegram channel - the
+press service of his holding company” from late 2022 through June 2023.
+For each transcribed segment within each message, the <a
+href="https://tadadit.xyz/datasets/prigozhin_audio_files/">resulting
+datasets</a> (one in Russian and one auto-translated into English)
+include the message ID, time posted, segment timestamp, and segment
+text. [h/t <a href="https://twitter.com/_federicocaruso">Federico
+Caruso</a>]</p>
+<p> </p>
+<p><strong>The “Unknome.”</strong> The human genome has been sequenced,
+but what do all those genes do? <a
+href="https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3002222">João
+J. Rocha et al.</a>’s <a
+href="https://unknome.mrc-lmb.cam.ac.uk/">Unknome database</a> assigns a
+“knownness” score to “all protein clusters that contain at least 1
+protein from humans or any of 11 model organisms.” The score is based on
+the density of annotations in the <a
+href="https://geneontology.org/">Gene Ontology knowledgebase</a>, which
+bills itself as “the world’s largest source of information on the
+functions of genes.” The clustering comes from another downloadable
+database, <a href="https://pantherdb.org/">PANTHER</a>, which contains
+“comprehensive information about the evolution of protein-coding gene
+families.”</p>
+<p> </p>
+<p><strong>License plate designs.</strong> <a
+href="https://www.beautifulpublicdata.com/">Beautiful Public Data</a>’s
+<a href="https://jonkeegan.com/">Jon Keegan</a> scraped the websites of
+every US state’s (and DC’s) motor vehicle agency to assemble a <a
+href="https://github.com/jonkeegan/us-license-plates">dataset of 8,291
+license plate designs</a>. The dataset provides each design’s name,
+state, and image. <strong>Read more</strong>: <a
+href="https://www.beautifulpublicdata.com/all-of-the-license-plates-in-the-united-states/">Keegan’s
+exploration of the data</a>, which includes a searchable table.
+<strong>Previously</strong>: Vanity plates requested in <a
+href="https://github.com/veltman/ca-license-plates">California</a> (<a
+href="https://www.data-is-plural.com/archive/2020-01-29-edition/">DIP
+2020.01.29</a>) and <a
+href="https://github.com/datanews/license-plates">New York</a> (<a
+href="https://www.data-is-plural.com/archive/2015-10-21-edition/">DIP
+2015.10.21</a>).</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send vain feedback to
+jsvine@gmail.com, or just reply to this email. // Looking for past
+datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. // Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions.</em></p>
+]]></content:encoded>
+      <guid isPermaLink="false">dip-2023-09-13</guid>
+      <pubDate>Wed, 13 Sep 2023 08:00:00 -0400</pubDate>
+    </item>
     <item>
       <title>Data Is Plural — 2023.09.06 edition</title>
       <link>http://www.data-is-plural.com/archive/2023-09-06-edition</link>
@@ -1126,136 +1258,6 @@ screenshots.</em></p>
 ]]></content:encoded>
       <guid isPermaLink="false">dip-2023-06-07</guid>
       <pubDate>Wed, 07 Jun 2023 08:00:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Data Is Plural — 2023.05.31 edition</title>
-      <link>http://www.data-is-plural.com/archive/2023-05-31-edition</link>
-      <description>Correctional control, local business, crowd accidents, Antarctic geology, and NYC sidewalk scaffolding.</description>
-      <content:encoded><![CDATA[<p><em>Correctional control, local business, crowd accidents, Antarctic
-geology, and NYC sidewalk scaffolding.</em></p>
-<p> </p>
-<p><em>👋 Based on reader feedback, I'm exploring the idea of writing
-one or more in-depth guides to specific datasets. I'd be grateful if you
-filled out <a
-href="https://docs.google.com/forms/d/e/1FAIpQLSdHY_AmJIYoLBwvwaskiyNiPuOIh1rHQC0xmvnJm4Vw5OVsfQ/viewform">this
-short survey on the topic</a>. Thanks!</em></p>
-<p> </p>
-<p><strong>Correctional control.</strong> The <a
-href="https://www.prisonpolicy.org/">Prison Policy Initiative</a>’s <a
-href="https://www.prisonpolicy.org/reports/correctionalcontrol2023.html">Punishment
-Beyond Prisons report</a> cross-references data from the <a
-href="https://bjs.ojp.gov/">Bureau of Justice Statistics</a> and several
-other sources to <a
-href="https://www.prisonpolicy.org/reports/correctionalcontrol2023.html#methodology">count
-or estimate</a> the <a
-href="https://www.prisonpolicy.org/reports/correctionalcontrol2023_data_appendix.html">number
-of people under eight forms of “correctional control” in each state and
-DC</a>: federal prisons, state prisons, local jails, Indian Country
-jails, youth confinement, involuntary commitment, parole, and probation
-— approximately 5.5 million people in total. <strong>Related</strong>:
-The <a
-href="https://ojjdp.ojp.gov/research-and-statistics/research-projects/Census-of-Juveniles-in-Residential-Placement/overview">Census
-of Juveniles in Residential Placement</a>, one of the report’s sources,
-provides a <a href="https://www.ojjdp.gov/ojstatbb/ezacjrp/">tool to
-tabulate youth confinement counts</a> by sex, age, race, status,
-offense, and facility characteristics. [h/t <a
-href="https://www.prisonpolicy.org/staff.html#wessler">Mike
-Wessler</a>]</p>
-<p> </p>
-<p><strong>Local business.</strong> Despite the name, the Census
-Bureau’s <a
-href="https://www.census.gov/programs-surveys/cbp.html">County Business
-Patterns</a> datasets <a
-href="https://www.census.gov/programs-surveys/cbp/data/datasets.html">cover
-a range of geographic units</a>, including states, congressional
-districts, metro areas, counties, and ZIP codes. Generated from the
-Bureau’s confidential <a
-href="https://www.census.gov/econ/overview/mu0600.html">Business
-Register</a>, they provide the number of establishments and (<a
-href="https://www.census.gov/programs-surveys/cbp/technical-documentation/methodology.html#par_textimage_245304869">noise-infused</a>)
-employee counts and payroll figures, disaggregated by <a
-href="https://www.census.gov/naics/">industry code</a>. Last month, the
-Bureau <a
-href="https://www.census.gov/newsroom/press-releases/2023/2021-county-business-patterns.html">released</a>
-the <a
-href="https://www.census.gov/data/datasets/2021/econ/cbp/2021-cbp.html">data
-for 2021</a>. Historical availability varies; the Bureau directly
-provides data for counties back to 1986, and for ZIP codes back to 1994,
-for example. <a href="https://www.fpeckert.me/">Fabian Eckert</a> and
-colleagues, meanwhile, have converted two older archives of the records
-into comparable data, spanning <a
-href="https://www.fpeckert.me/elmmss/">1946 to 1974</a> and <a
-href="https://www.fpeckert.me/cbp/">1975 onward</a>.</p>
-<p> </p>
-<p><strong>Crowd accidents.</strong> <a
-href="https://www.sciencedirect.com/science/article/pii/S0925753523001169">Claudio
-Feliciani et al.</a> have compiled a <a
-href="https://zenodo.org/record/7523480">dataset of 281 crowd
-accidents</a> from 1900 to 2019, based on “a comprehensive investigation
-of the press and media reports.” The researchers focus on accidents with
-at least one fatality or ten injuries “caused by a collective crowd
-motion which could have been potentially prevented by employing a
-different design or through a proper crowd management.” The dataset
-lists each accident’s date, country, coordinates, gathering type (sport,
-religious, political, etc.), fatality and injury counts, crowd size, and
-sources. The deadliest accident included, by far, is the <a
-href="https://en.wikipedia.org/wiki/2015_Mina_stampede">2015 Mina
-stampede</a>. [h/t <a
-href="https://medicalxpress.com/news/2023-05-overseas-hot-areas-deadly-crowd.html">Neil
-Martin</a>]</p>
-<p> </p>
-<p><strong>Antarctic geology.</strong> Antarctica’s surface is mostly
-ice, but there’s also lots of rock. In a <a
-href="https://www.nature.com/articles/s41597-023-02152-9">recent
-paper</a>, the <a href="https://www.scar.org/">Scientific Committee on
-Antarctic Research</a>’s <a
-href="https://www.scar.org/science/former-groups/geomap/">GeoMAP
-team</a> describes building the “first detailed geological map dataset
-covering all of Antarctica,” assembled and refined from 589 sources. The
-<a href="https://doi.pangaea.de/10.1594/PANGAEA.951482">dataset</a>,
-which you can <a
-href="https://data.gns.cri.nz/ata_geomap/index.html?content=/mapservice/Content/antarctica/Download.html">download</a>
-or <a
-href="https://data.gns.cri.nz/ata_geomap/index.html?map=Antarctic_v2022">explore
-as an interactive map</a>, uses 99,000+ polygons to describe the
-rock-scape, associating each unit with a name (or group name), rock
-type, <a href="https://en.wikipedia.org/wiki/Lithology">lithology</a>,
-geologic period, <a href="https://geomap.readthedocs.io/en/latest/">and
-more</a>.</p>
-<p> </p>
-<p><strong>NYC sidewalk scaffolding.</strong> New York City’s Department
-of Buildings publishes a <a
-href="https://www.nyc.gov/assets/buildings/html/sidewalk-shed-map.html">map
-and dataset</a> of active permits for “<a
-href="https://www.nyc.gov/site/buildings/safety/sidewalk-sheds.page">sidewalk
-sheds</a>,” the ubiquitous, temporary structures (often colloquially
-called scaffolding) meant to shield pedestrians from falling debris.
-Each of the ~9,000 entries indicates the permit address, date issued,
-material, linear feet, age, and more. The oldest shed has had a permit
-for more than 17 years. <strong>Read more</strong>: <a
-href="https://observablehq.com/@betanyc/what-are-sidewalk-sheds">An
-introduction to the sheds and several visualizations of the data</a>, by
-BetaNYC’s <a
-href="https://www.linkedin.com/in/zhi-keng-he-870072156">Zhi Keng
-He</a>. [h/t <a
-href="https://buttondown.email/puntofisso/archive/512-quantum-of-sollazzo/">Giuseppe
-Sollazzo</a>]</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send debris-sheltered
-feedback to jsvine@gmail.com, or just reply to this email. // Looking
-for past datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. // Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and to browse past editions. // Listen to the <a
-href="https://podcast.data-is-plural.com">podcast</a> to hear humans. //
-Swing by the <a
-href="https://www.instagram.com/dataisplural/">Instagram</a> and/or <a
-href="https://mastodon.social/@dataisplural">Mastodon</a> account for
-multimedia and bonus links.</em></p>
-]]></content:encoded>
-      <guid isPermaLink="false">dip-2023-05-31</guid>
-      <pubDate>Wed, 31 May 2023 08:00:00 -0400</pubDate>
     </item>
   </channel>
 </rss>
