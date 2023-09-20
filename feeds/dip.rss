@@ -6,7 +6,121 @@
     <description>A weekly newsletter of useful/curious datasets.</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>https://github.com/data-is-plural/newsletter-archive</generator>
-    <lastBuildDate>Wed, 13 Sep 2023 08:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 20 Sep 2023 08:00:00 -0400</lastBuildDate>
+    <item>
+      <title>Data Is Plural — 2023.09.20 edition</title>
+      <link>http://www.data-is-plural.com/archive/2023-09-20-edition</link>
+      <description>US facility greenhouse gas emissions, net migration estimates, gubernatorial approval, Department of Interior drones, and one million bugs.</description>
+      <content:encoded><![CDATA[<p><em>US facility greenhouse gas emissions, net migration estimates,
+gubernatorial approval, Department of Interior drones, and one million
+bugs.</em></p>
+<p> </p>
+<p><strong>US facility GHG emissions.</strong> The EPA’s <a
+href="https://ghgdata.epa.gov/ghgp/main.do#/facility/">Facility Level
+Information on Greenhouse Gases Tool</a> “gives you access to greenhouse
+gas data reported to EPA by large emitters, facilities that inject
+CO<sub>2</sub> underground, and suppliers of products that result in GHG
+emissions when used in the United States.” The information comes from
+the agency’s <a href="https://www.epa.gov/ghgreporting">Greenhouse Gas
+Reporting Program</a>, which also provides <a
+href="https://www.epa.gov/ghgreporting/data-sets">bulk data
+downloads</a>. Per the EPA: “Approximately 8,000 facilities are required
+to report their emissions annually, and the reported data are made
+available to the public in October of each year.” The data, which go
+back to 2010, indicate the <a
+href="https://ccdsupport.com/confluence/pages/viewpage.action?pageId=93290546">facility
+type</a>, emissions reported, <a
+href="https://www.epa.gov/ghgreporting/ghgrp-methodology-and-verification">measurement
+methods</a>, types of fuel used, and <a
+href="https://ccdsupport.com/confluence/display/ghgp/Detailed+Description+of+Data+for+Certain+Sources+and+Processes">much
+more</a>. <strong>Previously</strong>: <a
+href="https://climatetrace.org/">Climate TRACE</a>’s <a
+href="https://climatetrace.org/news/more-than-70000-of-the-highest-emitting-greenhouse-gas">estimates
+of the world’s largest GHG emitters</a> (<a
+href="https://www.data-is-plural.com/archive/2022-11-16-edition/">DIP
+2022.11.16</a>). [h/t <a href="https://terinvmayer.com/">Terin V.
+Mayer</a>]</p>
+<p> </p>
+<p><strong>Net migration estimates.</strong> Using national and
+subnational data on birth rates, death rates, and population counts, <a
+href="https://www.nature.com/articles/s41562-023-01689-4">Venla Niva et
+al.</a> have constructed a <a
+href="https://zenodo.org/record/7997134">dataset of estimated net
+migration</a> for each part of the world, each year between 2000 and
+2019. The estimates are available as gridded data (with ~10km
+resolution) and at three levels of administrative units: national,
+provincial, and communal. (For the US, the latter two levels correspond
+to states and counties, respectively.) The researchers have also
+published an <a
+href="https://wdrg.aalto.fi/global-net-migration-explorer/">interactive
+map</a> of the estimates for each administrative unit.</p>
+<p> </p>
+<p><strong>Gubernatorial approval.</strong> Political scientist <a
+href="https://polisci.uconn.edu/person/matthew-singer/">Matthew M.
+Singer</a>’s <a
+href="https://dataverse.unc.edu/dataset.xhtml?persistentId=doi:10.15139/S3/QHHQEF">State
+Executive Approval Database</a> contains the results of 10,000+
+gubernatorial approval polls, spanning all 50 states and going back
+decades. The database, which builds on <a
+href="https://jmj313.web.lehigh.edu/node/6">earlier efforts by Thad
+Beyle et al.</a>, lists each poll’s date, state, governor, pollster,
+sample size, sample type, ratings scale, percentage of positive/negative
+responses, and more. <strong>Previously</strong>: <a
+href="http://www.executiveapproval.org/">The Executive Approval
+Project</a> (<a
+href="https://www.data-is-plural.com/archive/2019-10-16-edition/">DIP
+2019.10.16</a>), which Singer <a
+href="http://www.executiveapproval.org/contributors/">co-directs</a>.</p>
+<p> </p>
+<p><strong>DOI drones.</strong> Through a <a
+href="https://www.muckrock.com/foi/united-states-of-america-10/list-of-all-department-of-interior-owned-unmanned-aircraft-systems-137451/">FOIA
+request to the US Department of the Interior</a>, journalist <a
+href="https://palewi.re/who-is-ben-welsh/">Ben Welsh</a> has <a
+href="https://mastodon.palewi.re/@palewire/110966893650258876">obtained</a>
+and <a
+href="https://docs.google.com/spreadsheets/d/1Q2yLaIJWEgofIJc8XS9oAdgSrW0_zPMYF04jAI9edVM/edit">published</a>
+the agency’s drone roster. For each of the 850+ remote-controlled
+aircraft, the dataset lists the agency bureau and office, drone
+manufacturer, model, cost, serial number, and more. The FOIA request
+also <a
+href="https://www.muckrock.com/foi/united-states-of-america-10/list-of-all-department-of-interior-owned-unmanned-aircraft-systems-137451/#files">unearthed
+spreadsheets</a> listing specific drone flights and multi-flight
+deployments. <strong>Previously</strong>: <a
+href="https://www.muckrock.com/foi/united-states-of-america-10/database-of-14-cfr-part-48-registered-drones-132943/">Drone
+registration data</a> (<a
+href="https://www.data-is-plural.com/archive/2022-12-21-edition/">DIP
+2022.12.21</a>), also obtained by Welsh via FOIA.</p>
+<p> </p>
+<p><strong>Bug shots.</strong> <a
+href="https://arxiv.org/abs/2307.10455">Zahra Gharaee et al.</a>’s <a
+href="https://biodiversitygenomics.net/1M_insects/">BIOSCAN-1M Insect
+Dataset</a> contains one million microscope photographs of bugs, each
+taxonomically classified by experts and supplemented with raw DNA
+sequences and genetic “<a
+href="http://www.boldsystems.org/">barcode</a>” identifiers. The
+dataset, part of the broader <a href="https://ibol.org/bioscan/">BIOSCAN
+initiative</a>, includes 8,300+ species across 3,400+ genera; the
+specimens were primarily collected in Costa Rica, Canada, and South
+Africa, using <a
+href="https://en.wikipedia.org/wiki/Malaise_trap">tent-like traps</a>.
+<strong>Previously</strong>: <a
+href="https://datadryad.org/stash/dataset/doi:10.5061/dryad.gq73493">Bug
+splats</a> (<a
+href="https://www.data-is-plural.com/archive/2020-03-04-edition/">DIP
+2020.03.04</a>). [h/t <a href="https://www.robinsloan.com/">Robin
+Sloan</a>]</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send microscopic feedback
+to jsvine@gmail.com, or just reply to this email. // Looking for past
+datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. // Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions.</em></p>
+]]></content:encoded>
+      <guid isPermaLink="false">dip-2023-09-20</guid>
+      <pubDate>Wed, 20 Sep 2023 08:00:00 -0400</pubDate>
+    </item>
     <item>
       <title>Data Is Plural — 2023.09.13 edition</title>
       <link>http://www.data-is-plural.com/archive/2023-09-13-edition</link>
@@ -1121,143 +1235,6 @@ screenshots.</em></p>
 ]]></content:encoded>
       <guid isPermaLink="false">dip-2023-06-14</guid>
       <pubDate>Wed, 14 Jun 2023 08:00:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Data Is Plural — 2023.06.07 edition</title>
-      <link>http://www.data-is-plural.com/archive/2023-06-07-edition</link>
-      <description>Pesticide use, commercial space launches, firearm suicide rates, Harvard’s library holdings, and ransomware negotiations.</description>
-      <content:encoded><![CDATA[<p><em>Pesticide use, commercial space launches, firearm suicide rates,
-Harvard’s library holdings, and ransomware negotiations.</em></p>
-<p> </p>
-<p><em>📬 Reader (<a
-href="https://podcast.data-is-plural.com/2159594/12535597-s1e5-atari-emails">and
-DIP podcast guest</a>) <a href="https://vikramoberoi.com/">Vikram
-Oberoi</a> has <a
-href="https://twitter.com/voberoi/status/1665454015906213890">analyzed</a>
-the <a
-href="https://github.com/jsvine/buzzfeed-news-trending-strip">BuzzFeed
-News “Trending”-strip dataset</a> featured in <a
-href="https://www.data-is-plural.com/archive/2023-05-24-edition/">DIP
-2023.05.24</a>, <a
-href="https://buzzfeed-trending.vikramoberoi.com/">identifying the
-longest-featured articles</a> — overall, by year, and by month. (Have
-you published something with data you found via DIP? <a
-href="https://docs.google.com/forms/d/e/1FAIpQLSdXXD5eO05w0Xa7bwG3Ppia3uzr_o3y-xDEZuWRfXbCfCu_XA/viewform">Click
-here to let me know</a>.)</em></p>
-<p> </p>
-<p><strong>Pesticide use.</strong> As part of its <a
-href="https://www.usgs.gov/mission-areas/water-resources/science/national-water-quality-assessment-nawqa">National
-Water-Quality Assessment Project</a>, the US Geological Survey publishes
-<a href="https://water.usgs.gov/nawqa/pnsp/usage/maps/">maps and
-datasets</a> that <a
-href="https://water.usgs.gov/nawqa/pnsp/usage/maps/about.php">estimate
-local pesticide usage</a>, <a
-href="https://pubs.usgs.gov/ds/0907/">based on</a> “proprietary surveys
-of farm operations.” The <a
-href="https://water.usgs.gov/nawqa/pnsp/usage/maps/county-level/">datasets</a>
-provide high/low estimates (measured in kilograms) by county, chemical,
-and year, as well as <a
-href="https://www.sciencebase.gov/catalog/item/6081ae7cd34e8564d6866222">by
-crop group for each state</a>. The most recent “preliminary” figures <a
-href="https://www.sciencebase.gov/catalog/item/6081a924d34e8564d68661a1">refer
-to 2019</a>, with the next release not scheduled until “late 2024.”
-<strong>Read more</strong>: “<a
-href="https://www.science.org/content/article/move-change-how-u-s-tracks-pesticide-use-sparks-protests">Move
-to change how U.S. tracks pesticide use sparks protest</a>,” an article
-by <a href="https://www.virginiagewin.com/">Virginia Gewin</a> in
-<em>Science</em>, reporting on the pushback against USGS’s decision “to
-reduce the number of chemicals it tracks and to release updates less
-frequently.” [h/t <a
-href="https://www.numlock.com/p/numlock-news-june-1-2023-coconuts">Walt
-Hickey</a>]</p>
-<p> </p>
-<p><strong>Commercial space launches.</strong> The Federal Aviation
-Administration <a href="https://www.faa.gov/space">regulates the United
-States’ commercial space transportation industry</a>. The agency <a
-href="https://www.faa.gov/data_research/commercial_space_data/">publishes
-HTML tables</a> listing <a
-href="https://www.faa.gov/data_research/commercial_space_data/licenses/">operator
-licenses</a>, <a
-href="https://www.faa.gov/data_research/commercial_space_data/launches/?type=Permitted">permits
-for experimental operations</a>, <a
-href="https://www.faa.gov/data_research/commercial_space_data/launches/">licensed
-launches</a>, and more. The 552 launches listed go back to 1989; each
-row indicates the date, payload, vehicle name, company, and site’s state
-(or “Pacific Ocean”). <strong>Related</strong>: The FAA’s <a
-href="https://www.faa.gov/sites/faa.gov/files/images/ast/AST-Spaceport-Map_Sept2022.jpg">map</a>
-and <a
-href="https://www.faa.gov/space/spaceports_by_state">descriptions</a> of
-the country’s <a
-href="https://www.faa.gov/space/office_spaceports">commercial
-spaceports</a>. [h/t <a
-href="https://www.chartr.co/newsletters/2023-05-22">Chartr</a>]</p>
-<p> </p>
-<p><strong>Firearm suicide rates.</strong> A recent <a
-href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4453698">paper</a>
-(<a
-href="https://www.ajpmonline.org/article/S0749-3797(23)00205-2/fulltext">published
-in the American Journal of Preventive Medicine</a>) and <a
-href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/QVYDUD">dataset</a>
-by <a href="https://www.megankang.com/">Megan Kang</a> and <a
-href="https://www.linkedin.com/in/elizabeth-rasich-087b1a144/">Elizabeth
-Rasich</a> “extends an existing proxy for household gun ownership rates
-— the rate of firearm suicide divided by suicide (FSS) — from 1949 to
-2020, including new coverage for the 1949 to 1972 period.” For each
-state and year, the dataset provides the count and population-adjusted
-rate of suicides, firearm suicides, homicides, and firearm homicides,
-among other figures. The first 30 years of firearm suicide/homicide
-counts had to be transcribed from scanned National Center for Health
-Statistics reports; later figures come from the CDC’s <a
-href="https://wonder.cdc.gov/">WONDER</a> and <a
-href="https://www.cdc.gov/injury/wisqars/index.html">WISQARS</a>
-systems.</p>
-<p> </p>
-<p><strong>Harvard’s library holdings.</strong> <a
-href="https://library.harvard.edu/visit-about/about-harvard-library">Harvard
-Library</a>, “the oldest library system in the United States and the
-world’s largest academic library,” <a
-href="https://library.harvard.edu/services-tools/harvard-library-apis-datasets">provides
-several ways to access</a> detailed metadata about its holdings,
-including its <a
-href="https://wiki.harvard.edu/confluence/display/LibraryStaffDoc/LibraryCloud">LibraryCloud
-API</a> and <a
-href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/I8L0ZZ">bulk
-downloads</a>. The millions of items <a
-href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/Y5WUTU">described</a>
-include not only books, but also “journals, scores, databases, sound
-recordings, films and video, images, maps,” and more.
-<strong>Previously</strong>: <a
-href="https://www.loc.gov/item/prn-17-068/">Metadata from the Library of
-Congress</a> (<a
-href="https://www.data-is-plural.com/archive/2017-05-24-edition/">DIP
-2017.05.24</a>).</p>
-<p> </p>
-<p><strong>Ransomware negotiations.</strong> Negotiations between <a
-href="https://en.wikipedia.org/wiki/Ransomware">ransomware</a> victims
-and their attackers “are usually not shared widely, limiting the
-understanding of the process,” writes journalist <a
-href="https://github.com/Casualtek">Valéry Marchive</a>, whose <a
-href="https://github.com/Casualtek/Ransomchats">repository of chat
-transcripts</a> “aims at changing that, in a respectful manner for the
-victims of cyberattacks: chats are anonymized as long as the victim
-hasn’t been publicly disclosed, either by the attackers or in the
-media.” [h/t <a href="https://www.duncangeere.com/">Duncan
-Geere</a>]</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send cryptovirological
-feedback to jsvine@gmail.com, or just reply to this email. // Looking
-for past datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. // Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and to browse past editions. // Listen to the <a
-href="https://podcast.data-is-plural.com">podcast</a> to hear humans. //
-Swing by <a href="https://www.instagram.com/dataisplural/">Instagram</a>
-and <a href="https://mastodon.social/@dataisplural">Mastodon</a> for
-screenshots.</em></p>
-]]></content:encoded>
-      <guid isPermaLink="false">dip-2023-06-07</guid>
-      <pubDate>Wed, 07 Jun 2023 08:00:00 -0400</pubDate>
     </item>
   </channel>
 </rss>
