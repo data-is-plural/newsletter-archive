@@ -6,7 +6,133 @@
     <description>A weekly newsletter of useful/curious datasets.</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>https://github.com/data-is-plural/newsletter-archive</generator>
-    <lastBuildDate>Wed, 20 Sep 2023 08:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 27 Sep 2023 08:00:00 -0400</lastBuildDate>
+    <item>
+      <title>Data Is Plural — 2023.09.27 edition</title>
+      <link>http://www.data-is-plural.com/archive/2023-09-27-edition</link>
+      <description>Linked historical censuses, fracking fluids, Europopulism, GitHub metrics, and ancient places.</description>
+      <content:encoded><![CDATA[<p><em>Linked historical censuses, fracking fluids, Europopulism, GitHub
+metrics, and ancient places.</em></p>
+<p> </p>
+<p><strong>Censuses, linked.</strong> The <a
+href="https://www.censustree.org/">Census Tree</a>, developed by <a
+href="https://www.nber.org/papers/w31671">Kasey Buckles et al.</a>, “is
+the largest-ever database of record links among the historical U.S.
+censuses, with over 700 million links for people living in the United
+States between 1850 and 1940.” By the <a
+href="https://www.censustree.org/our-team">team</a>’s <a
+href="https://sites.google.com/nd.edu/censustreefaq">estimates</a>, the
+dataset “includes over 70% of the possible links that <em>could</em> be
+made for men, and over 60% of possible links for women.” To build it,
+the researchers <a
+href="https://www.censustree.org/methodology">began</a> with genealogy
+records from <a
+href="https://www.familysearch.org/">FamilySearch.org</a>, developed a
+machine learning algorithm to identify additional links, and
+incorporated data from other census-linking projects. Each Census Tree
+row connects an individual’s <a
+href="https://usa.ipums.org/usa-action/variables/HISTID">IPUMS
+identifier</a> in one decade’s census to their identifier in another.
+Per the project’s <a
+href="https://www.censustree.org/quickstart">instructions</a>, you’ll
+need to download the Census data itself <a
+href="https://usa.ipums.org/usa/full_count.shtml">from IPUMS</a>.</p>
+<p> </p>
+<p><strong>Fracking fluids.</strong> Since <a
+href="https://www.fracfocus.org/learn/about-fracfocus">launching in
+2011</a>, <a href="https://fracfocus.org/">FracFocus</a> has become the
+largest registry of <a
+href="https://en.wikipedia.org/wiki/Fracking">hydraulic fracturing</a>
+chemical disclosures in the US. The database, available to explore
+online and <a href="https://fracfocus.org/data-download">download in
+bulk</a>, contains 210,000+ such disclosures from fracking operators; it
+details the location, timing, and water volume of each fracking job,
+plus the names and amounts of chemicals used. The project is <a
+href="https://fracfocus.org/about-us">managed</a> by the <a
+href="https://www.gwpc.org/overview/">Ground Water Protection
+Council</a>, “a nonprofit 501(c)6 organization whose members consist of
+state ground water regulatory agencies”. <strong>As seen in</strong>:
+The <a
+href="https://www.nytimes.com/interactive/2023/09/25/climate/fracking-oil-gas-wells-water.html">latest
+installment</a> of the New York Times’ <a
+href="https://www.nytimes.com/series/uncharted-waters">Uncharted Water
+series</a>.</p>
+<p> </p>
+<p><strong>Europopulism.</strong> <a href="https://popu-list.org/">The
+PopuList</a>, constructed by <a
+href="https://www.cambridge.org/core/journals/british-journal-of-political-science/article/populist-a-database-of-populist-farleft-and-farright-parties-using-expertinformed-qualitative-comparative-classification-eiqcc/EBF60489A0E1E3D91A6FE066C7ABA2CA">Matthijs
+Rooduijn et al.</a>, “offers academics and journalists an overview of
+populist, far-left and far-right parties in Europe from 1989 until
+2022.” <a href="https://osf.io/2ewkq/">Version 3.0 of the dataset</a>,
+released last month, lists each party’s country, local/English names,
+presence in parliament, and identifiers in the <a
+href="https://partyfacts.herokuapp.com/">Party Facts</a> (<a
+href="https://www.data-is-plural.com/archive/2019-01-16-edition/">DIP
+2019.01.16</a>) and <a href="https://www.parlgov.org/">ParlGov</a> (<a
+href="https://www.data-is-plural.com/archive/2018-09-19-edition/">DIP
+2018.09.19</a>) databases. It also indicates whether the project’s <a
+href="https://popu-list.org/about/">comparativists and country
+experts</a> classified the party (outright or “borderline”) as populist,
+far-right, far-left, and/or <a
+href="https://en.wikipedia.org/wiki/Euroscepticism">euroskeptic</a>, and
+for which time periods.</p>
+<p> </p>
+<p><strong>GitHub metrics.</strong> GitHub’s new <a
+href="https://innovationgraph.github.com/">Innovation Graph</a> datasets
+present a range of quarterly metrics on the code-sharing site,
+aggregated by “economy” — a concept similar to “country” but slightly
+broader. (Antarctica is an “economy” in the data, for example.) The <a
+href="https://github.com/github/innovationgraph">datasets</a> count the
+number of developers based in each economy, their repositories and <a
+href="https://github.com/git-guides/git-push">code pushes</a>, most-used
+programming languages, and more. As noted in the project’s <a
+href="https://github.com/github/innovationgraph/blob/main/docs/datasheet.md">datasheet</a>,
+the locations are based on IP addresses, so <a
+href="https://en.wikipedia.org/wiki/VPN_service">VPN</a> usage may
+distort the results. <strong>Previously</strong>: <a
+href="https://www.gharchive.org/">More-granular GitHub activity via the
+GH Archive</a> (<a
+href="https://www.data-is-plural.com/archive/2018-02-21-edition/">DIP
+2018.02.21</a>). [h/t <a href="https://github.com/khxu">Kevin
+Xu</a>]</p>
+<p> </p>
+<p><strong>Ancient places.</strong> <a
+href="https://pleiades.stoa.org/">Pleiades</a>, “a community-built
+gazetteer and graph of ancient places,” has collected <a
+href="https://pleiades.stoa.org/downloads">data</a> on <a
+href="https://pleiades.stoa.org/home">40,000+</a> settlements, roads,
+rivers, monuments, and many other <a
+href="https://pleiades.stoa.org/vocabularies/place-types">types of
+landmarks</a>. It also describes the <a
+href="https://pleiades.stoa.org/vocabularies/relationship-types">relationships</a>
+between them — linking, for instance, the <a
+href="https://pleiades.stoa.org/places/168254096">Parthenon</a> to the
+<a href="https://pleiades.stoa.org/places/638356144">Acropolis</a> and
+the Acropolis to <a
+href="https://pleiades.stoa.org/places/579885">Athens</a>.
+<strong>Related</strong>: <a href="https://orbis.stanford.edu/">ORBIS:
+The Stanford Geospatial Network Model of the Roman World</a>.
+<strong>Previously</strong>: <a
+href="https://github.com/roman-amphitheaters/roman-amphitheaters">Roman
+amphitheaters</a> (<a
+href="https://www.data-is-plural.com/archive/2022-06-08-edition/">DIP
+2022.06.08</a>) and the <a href="https://darmc.harvard.edu/">Digital
+Atlas of Roman and Medieval Civilizations</a> (<a
+href="https://www.data-is-plural.com/archive/2020-06-24-edition/">DIP
+2020.06.24</a>). [h/t <a href="https://twitter.com/Arithmomaniac">Avi
+Levin</a>]</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send time-worn feedback
+to jsvine@gmail.com, or just reply to this email. // Looking for past
+datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. // Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions.</em></p>
+]]></content:encoded>
+      <guid isPermaLink="false">dip-2023-09-27</guid>
+      <pubDate>Wed, 27 Sep 2023 08:00:00 -0400</pubDate>
+    </item>
     <item>
       <title>Data Is Plural — 2023.09.20 edition</title>
       <link>http://www.data-is-plural.com/archive/2023-09-20-edition</link>
@@ -1104,137 +1230,6 @@ screenshots.</em></p>
 ]]></content:encoded>
       <guid isPermaLink="false">dip-2023-06-28</guid>
       <pubDate>Wed, 28 Jun 2023 08:00:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Data Is Plural — 2023.06.14 edition</title>
-      <link>http://www.data-is-plural.com/archive/2023-06-14-edition</link>
-      <description>Canadian wildfires, climate finance, Pennsylvania competency cases, ad-targeting labels, and food defect thresholds.</description>
-      <content:encoded><![CDATA[<p><em>Canadian wildfires, climate finance, Pennsylvania competency
-cases, ad-targeting labels, and food defect thresholds.</em></p>
-<p> </p>
-<p><em>📬 Reader <a href="https://www.carolinebeavon.com/">Caroline
-Beavon</a> built an <a
-href="https://www.carolinebeavon.com/experiments/significant-others">interactive,
-first-name-centric dataviz</a> based on <a
-href="https://www.nature.com/articles/s41597-022-01369-4">Morgane
-Laouenan et al.</a>’s <a
-href="https://data.sciencespo.fr/dataset.xhtml?persistentId=doi:10.21410/7E4/RDAG3O">dataset
-of Wikipedia-notable people</a>, featured in <a
-href="https://www.data-is-plural.com/archive/2022-07-20-edition/">DIP
-2022.07.20</a>. (Have you published something with data you found via
-DIP? <a
-href="https://docs.google.com/forms/d/e/1FAIpQLSdXXD5eO05w0Xa7bwG3Ppia3uzr_o3y-xDEZuWRfXbCfCu_XA/viewform">Click
-here to let me know</a>.)</em></p>
-<p> </p>
-<p><strong>Canadian wildfires.</strong> The <a
-href="https://cwfis.cfs.nrcan.gc.ca/home">Canadian Wildland Fire
-Information System</a> monitors wildfires and fire-conducive conditions
-across the country. It publishes daily maps of its <a
-href="https://cwfis.cfs.nrcan.gc.ca/maps/fw?type=fwi">Fire Weather
-Index</a>, <a
-href="https://cwfis.cfs.nrcan.gc.ca/maps/fm3?type=tri">satellite-detected
-hotspots</a>, and <a href="https://cwfis.cfs.nrcan.gc.ca/maps/fb">fire
-intensity predictions</a>, among other analyses. Its <a
-href="https://cwfis.cfs.nrcan.gc.ca/ha/nfdb">Canadian National Fire
-Database</a> provides the perimeters, dates, sizes, and other metadata
-for tens of thousands of fires, spanning decades. In the <a
-href="https://cwfis.cfs.nrcan.gc.ca/datamart">agency’s datamart</a>, you
-can find additional downloads of tabular and geospatial data, including
-<a
-href="https://cwfis.cfs.nrcan.gc.ca/datamart/metadata/nbac">burned-area
-statistics</a>, <a
-href="https://cwfis.cfs.nrcan.gc.ca/datamart/metadata/activefires">active
-fires</a>, and current conditions. <strong>Related</strong>: The <a
-href="https://www.ciffc.ca/">Canadian Interagency Forest Fire
-Centre</a>’s <a href="https://ciffc.net/">dashboard of active fires</a>.
-<strong>Previously</strong>: The <a
-href="https://gwis.jrc.ec.europa.eu/">Global Wildfire Information
-System</a> (<a
-href="https://www.data-is-plural.com/archive/2022-07-27-edition/">DIP
-2022.07.27</a>). [h/t <a href="https://m-nolan.github.io/">Michael
-Nolan</a>]</p>
-<p> </p>
-<p><strong>Climate finance.</strong> “Rich nations say they’re spending
-billions to fight climate change” in developing countries, notes a <a
-href="https://www.reuters.com/investigates/special-report/climate-change-finance/">recent
-Reuters investigation</a>, which found some of this climate finance <a
-href="https://www.reuters.com/graphics/CLIMATE-CHANGE/FINANCE/gdvzqlyjqpw/">going
-to “questionable” projects</a>, “including a coal plant, a hotel and
-chocolate shops.” To help find those examples, Reuters teamed up with <a
-href="https://biglocalnews.org/content/about/">Big Local News</a> to <a
-href="https://stacks.stanford.edu/file/druid:dx902xg3463/README_bln_reuters_climate_finance.pdf">extract</a>
-“43,844 records [from the] [Fifth](https://unfccc.int/BR5), <a
-href="https://unfccc.int/BR4">Fourth</a>, and <a
-href="https://unfccc.int/process-and-meetings/transparency-and-reporting/reporting-and-review-under-the-convention/national-communications-and-biennial-reports-annex-i-parties/biennial-report-submissions/third-biennial-reports-annex-i">Third</a>
-Biennial reports that developed countries submitted to the U.N. Climate
-Change secretariat.” Each of <a
-href="https://purl.stanford.edu/dx902xg3463">the records</a> represents
-a reported contribution, listing the recipient country/region, program
-funded, funding amount, sector, status, and more. <strong>Read
-more</strong>: “<a
-href="https://biglocalnews.org/content/news/2023/06/01/climate-finance-story-recipe.html">How
-you can use climate finance data we collected for local stories around
-the globe</a>” (Big Local News).</p>
-<p> </p>
-<p><strong>Pennsylvania competency cases.</strong> Earlier this year, <a
-href="https://www.spotlightpa.org/">Spotlight PA</a> and the <a
-href="https://pinjnews.org/">Pittsburgh Institute for Nonprofit
-Journalism</a> published an <a
-href="https://www.spotlightpa.org/news/2023/03/pa-mental-illness-jail-incompetent-treatment/">investigation</a>
-into Pennsylvania’s competency system, which is “supposed to protect
-people with mental health issues from prosecution if they cannot
-understand the legal system and cannot aid in their own defense.” The
-team has also published the <a
-href="https://github.com/spotlightpa/competency-data-2023/">data it
-received from the state’s court administrators</a>, with information
-about 697 cases that involved competency proceedings between 2018 to
-mid-2022. The records, available for 23 counties, indicate each case’s
-court, filing date, charges, disposition, sentencing, attorneys, plus
-the type and timing of 1,400+ competency-related docket filings. [h/t <a
-href="https://twitter.com/mizzousundevil">Matt Dempsey</a>]</p>
-<p> </p>
-<p><strong>Ad-targeting labels.</strong> <a
-href="https://themarkup.org/">The Markup</a> has <a
-href="https://themarkup.org/privacy/2023/06/08/from-heavy-purchasers-of-pregnancy-tests-to-the-depression-prone-we-found-650000-ways-advertisers-label-you">obtained,
-analyzed, and published</a> a <a
-href="https://github.com/the-markup/xandr-audience-segments">spreadsheet
-of 650,000+ ad-targetable “audience segments”</a> (described by labels
-such as “Depression Propensity - Reach Tier 2”) and their data
-suppliers. The spreadsheet — flagged to The Markup by privacy researcher
-<a href="https://wolfie.crackedlabs.org/en">Wolfie Christl</a> — was,
-until recently, linked from the website of a Microsoft-owned ad
-platform. “The Markup found thousands of rows in the file that indicate
-sensitive audience groupings,” including those related to medical
-issues, race/ethnicity, political activity, addiction, and more. [h/t <a
-href="https://fosstodon.org/@smach">Sharon Machlis</a>]</p>
-<p> </p>
-<p><strong>Food defect thresholds.</strong> “How many rat hairs in your
-macaroni before the FDA considers it adulterated?” asks <a
-href="https://codywinchester.com/">Cody Winchester</a>, who has found
-the answer in the Food and Drug Administration’s <a
-href="https://www.fda.gov/food/ingredients-additives-gras-packaging-guidance-documents-regulatory-information/food-defect-levels-handbook">Food
-Defect Levels Handbook</a>. That guide’s “action levels” table lists 180
-criteria for 111 commodities, indicating the “maximum levels of natural
-or unavoidable defects in foods for human use that present no health
-hazard.” Winchester has <a
-href="https://github.com/cjwinchester/fda-food-defect-action-levels">converted
-the table into a JSON file</a>. <strong>The answer</strong>: An “average
-of 4.5 rodent hairs or more per 225 grams in 6 or more subsamples.”</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send fewer than 4.5
-rodent hairs per 225 grams of feedback to jsvine@gmail.com, or just
-reply to this email. // Looking for past datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. // Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and to browse past editions. // Listen to the <a
-href="https://podcast.data-is-plural.com">podcast</a> to hear humans. //
-Swing by <a href="https://www.instagram.com/dataisplural/">Instagram</a>
-and <a href="https://mastodon.social/@dataisplural">Mastodon</a> for
-screenshots.</em></p>
-]]></content:encoded>
-      <guid isPermaLink="false">dip-2023-06-14</guid>
-      <pubDate>Wed, 14 Jun 2023 08:00:00 -0400</pubDate>
     </item>
   </channel>
 </rss>
