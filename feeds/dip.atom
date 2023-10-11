@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.data-is-plural.com</id>
   <title>Data Is Plural</title>
-  <updated>2023-09-27T08:00:00-04:00</updated>
+  <updated>2023-10-11T08:00:00-04:00</updated>
   <author>
     <name>Jeremy Singer-Vine</name>
     <email>jsvine@gmail.com</email>
@@ -10,6 +10,124 @@
   <link href="https://www.data-is-plural.com" rel="alternate"/>
   <generator>https://github.com/data-is-plural/newsletter-archive</generator>
   <subtitle>A weekly newsletter of useful/curious datasets.</subtitle>
+  <entry>
+    <id>dip-2023-10-11</id>
+    <title>Data Is Plural — 2023.10.11 edition</title>
+    <updated>2023-10-11T08:00:00-04:00</updated>
+    <content type="CDATA"><![CDATA[<p><em>US income distributions, education reform, Kia/Hyundai thefts,
+Michigan air permit violations, and dog genomes.</em></p>
+<p> </p>
+<p><em>🔄 Data librarian <a
+href="https://works.bepress.com/lisa_deluca/">Lisa DeLuca</a> has <a
+href="https://works.bepress.com/lisa_deluca/59/">updated her
+spreadsheet</a> of <a
+href="https://library.shu.edu/FOIA-Libraries">government agencies’
+Freedom of Information Act libraries</a> (<a
+href="https://www.data-is-plural.com/archive/2021-11-03-edition/">DIP
+2021.11.03</a>), now with 360+ entries.</em></p>
+<p> </p>
+<p><strong>US income distributions.</strong> The <a
+href="https://www.minneapolisfed.org/institute/income-distributions-and-dynamics-in-america">Income
+Distributions and Dynamics in America</a> project <a
+href="https://www.minneapolisfed.org/article/2023/understanding-incomes-in-america">combines</a>
+confidential Census Bureau records and IRS tax forms to generate <a
+href="https://www.minneapolisfed.org/institute/income-distributions-and-dynamics-in-america/data-center">detailed,
+downloadable statistics</a> regarding “income percentiles, shares,
+growth rates, persistence, and more for many U.S. demographic groups at
+national and state levels.” The statistics, which cover 1998 through
+2019, are the result of a research partnership between the Minneapolis
+Fed’s <a href="https://www.minneapolisfed.org/institute">Opportunity
+&amp; Inclusive Growth Institute</a> and the Census Bureau. The
+project’s <a
+href="https://www.minneapolisfed.org/institute/income-distributions-and-dynamics-in-america/chart-and-map-toolkit">interactive
+tools</a> let you track individual and household income percentiles by
+year, state, race/ethnicity, sex, US/foreign-born status, and age group.
+<strong>Previously</strong>: <a
+href="https://zenodo.org/record/7093997">Global income deciles</a> from
+<a href="https://essd.copernicus.org/preprints/essd-2023-137/">Kanishka
+B. Narayan et al.</a> (<a
+href="https://www.data-is-plural.com/archive/2023-06-28-edition/">DIP
+2023.06.28</a>). [h/t <a href="https://www.albrightalex.com/">Alex
+Albright</a>]</p>
+<p> </p>
+<p><strong>Education reform.</strong> The <a
+href="https://werd.stanford.edu/">World Education Reform Database</a>
+describes 10,000+ education policy changes reported by 180+ countries to
+international organizations, among other sources. The project, <a
+href="https://werd.stanford.edu/our-team">led by</a> education policy
+scholars <a href="http://www.patriciabromley.com/">Patricia Bromley</a>
+and <a href="https://www.riekijima.com/">Rie Kijima</a>, <a
+href="https://werd.stanford.edu/database">focuses on</a>
+“<em>systemic</em> reforms that envision a supra-school administrative
+level and aim to impact the wider education system, rather than small
+projects that target individual schools.” The <a
+href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/C0TWXM">database</a>
+lists each reform’s country, year, name, and summary. Although some of
+the reforms in the database were introduced hundreds of years ago, the
+vast majority occurred in the last 50 years.</p>
+<p> </p>
+<p><strong>Kia/Hyundai thefts.</strong> “Cities around the U.S. are
+facing a staggering new normal when it comes to stolen cars,” <a
+href="https://www.vice.com/en/article/pkaq9z/us-cities-have-a-staggering-problem-of-kia-and-hyundai-thefts-this-data-shows-it">writes</a>
+Motherboard reporter <a href="https://aaronwgordon.com/">Aaron
+Gordon</a>, who has been digging into the <a
+href="https://www.vice.com/en/article/jg5b8d/what-its-like-to-own-the-cars-that-became-a-viral-sensation-to-steal">boom
+in thefts of Kia and Hyundai vehicles</a>, millions of which lack
+“engine immobilizers, a basic anti-theft device that is legally mandated
+in Canada and Europe.” Gordon has requested car theft data from more
+than 100 cities, and received it from 43 so far. He’s updating a <a
+href="https://docs.google.com/spreadsheets/d/1-6614t_Ata5k7oESrm-HAdF1uOe8aPGRaQECl44GYeE/edit#gid=0">spreadsheet</a>
+that lists each city’s number of thefts each month, plus the
+number/percentage that were Kias or Hyundais. <strong>Related</strong>:
+Earlier this year, <a
+href="https://usafacts.org/data-projects/car-thefts">USAFacts obtained
+and published similar data from 23 US cities</a>.</p>
+<p> </p>
+<p><strong>Michigan air permit violations.</strong> For local news
+organization <a href="https://planetdetroit.org/">Planet Detroit</a>,
+freelance journalist <a href="https://shelbyjouppi.com/">Shelby
+Jouppi</a> has built a <a
+href="https://planet-detroit.github.io/air-permit-violation-dashboard/">daily-updating
+dashboard</a> of air quality permit violations cited by Michigan’s <a
+href="https://www.michigan.gov/egle/about/organization/air-quality/air-permits">Department
+of Environment, Great Lakes and Energy</a>. The <a
+href="https://github.com/Planet-Detroit/air-permit-violation-dashboard/">dataset</a>
+lists 1,500+ violation notices since 2018; for each, it provides the
+notice date and findings, facility name and location, and more. To
+construct it, Jouppi had to <a
+href="https://shelbyjouppi.com/egle-air-database/">scrape individual
+notice PDFs from the department’s website</a> and then extract the
+information from those documents. <strong>Read more</strong>: “<a
+href="https://planetdetroit.org/2023/09/southwest-detroit-steel-slag-processor-edward-c-levy-receives-12th-air-quality-permit-violation-for-fallout-since-2018/">Southwest
+Detroit steel slag processor receives 12th air quality permit violation
+for fallout since 2018</a>,” an article by Jouppi based on the data.</p>
+<p> </p>
+<p><strong>Dog genomes.</strong> The <a
+href="http://www.dog10kgenomes.org/dog10k/index.html">Dog10K project</a>
+aims “to coordinate the global effort on genome sequencing in dogs and
+build a comprehensive resource for the canine community.” In a <a
+href="https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-03023-7">recent
+Genome Biology article</a>, the <a
+href="http://www.dog10kgenomes.org/dog10k/consortium.html">team</a>
+shared <a href="https://zenodo.org/record/8084059">data</a> and findings
+from 1987 individual animals — “1611 dogs (321 breeds), 309 village
+dogs, 63 wolves, and four coyotes.” The <a
+href="https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-03023-7#availability-of-data-and-materials">records
+include</a> raw sequence data and variation analysis results. [h/t <a
+href="https://kimhnguyen.com/">Kim Nguyen</a>]</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Bark your feedback to
+jsvine@gmail.com, or just reply to this email. // Looking for past
+datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. // Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions.</em></p>
+]]></content>
+    <link href="http://www.data-is-plural.com/archive/2023-10-11-edition" rel="alternate"/>
+    <summary>US income distributions, education reform, Kia/Hyundai thefts, Michigan air permit violations, and dog genomes.</summary>
+    <published>2023-10-11T08:00:00-04:00</published>
+  </entry>
   <entry>
     <id>dip-2023-09-27</id>
     <title>Data Is Plural — 2023.09.27 edition</title>
@@ -1114,134 +1232,5 @@ subscribe and to browse past editions.</em></p>
     <link href="http://www.data-is-plural.com/archive/2023-07-12-edition" rel="alternate"/>
     <summary>US military interventions, the latest White House visitors, NY prison employee misconduct, Australian mine production, and “the global human day.”</summary>
     <published>2023-07-12T08:00:00-04:00</published>
-  </entry>
-  <entry>
-    <id>dip-2023-06-28</id>
-    <title>Data Is Plural — 2023.06.28 edition</title>
-    <updated>2023-06-28T08:00:00-04:00</updated>
-    <content type="CDATA"><![CDATA[<p><em>Unanalyzed sexual assault kits, global income deciles, US fire
-statistics, species introduced to the Antarctic, and Swedish air traffic
-control.</em></p>
-<p> </p>
-<p><em>📬 Reader <a href="http://mfviz.com/">Mike Freeman</a> has <a
-href="https://observablehq.com/@mkfreeman/canadian-wildfires">mapped 36
-years of Canadian wildfires</a>, using <a
-href="https://cwfis.cfs.nrcan.gc.ca/datamart/metadata/nbac">data</a>
-featured in <a
-href="https://www.data-is-plural.com/archive/2023-06-14-edition/">DIP
-2023.06.14</a>, and demonstrates how he did it. (Have you published
-something with data you found via DIP? <a
-href="https://docs.google.com/forms/d/e/1FAIpQLSdXXD5eO05w0Xa7bwG3Ppia3uzr_o3y-xDEZuWRfXbCfCu_XA/viewform">Click
-here to let me know</a>.)</em></p>
-<p> </p>
-<p><strong>Rape kit backlogs.</strong> The actual number of unanalyzed
-sexual assault kits in the United States is <a
-href="https://nij.ojp.gov/topics/articles/untested-evidence-sexual-assault-cases">unknown</a>.
-But last year “at least 25,000 untested rape kits sat in law enforcement
-agencies and crime labs across the country,” <a
-href="https://usafacts.org/articles/how-many-rape-kits-are-awaiting-testing-in-the-us-see-the-data-by-state/">according
-to rape kit backlog data</a> compiled by USAFacts, <a
-href="https://usafacts.org/articles/detailed-methodology-rape-kit-backlog-data/">based
-on responses</a> by 30 states and DC to public records requests. <a
-href="https://www.linkedin.com/in/elizabethbkim/">Elizabeth “Betsy”
-Kim</a>, who led the project, has published the <a
-href="https://github.com/elizabethbkim/rape-kits-data">raw records the
-agencies and labs provided</a>, as well as her correspondence with them.
-The core data indicate the number of kits in each backlog each year
-between 2018 and 2022; the backlog definition (in number of days) the
-state used in the data they provided; and, of the kits received by crime
-labs in 2022, how many were tested within 30 days.</p>
-<p> </p>
-<p><strong>Global income deciles.</strong> <a
-href="https://essd.copernicus.org/preprints/essd-2023-137/">Kanishka B.
-Narayan et al.</a> “present a consistent dataset of income distributions
-across 190 countries from 1958 to 2015 measured in terms of net income.”
-Where net income statistics were unavailable, the authors imputed the
-deciles from consumption data or <a
-href="https://databank.worldbank.org/metadataglossary/gender-statistics/series/SI.POV.GINI">the
-country’s Gini coefficient</a>. Their paper also provides a comparison
-of <a href="https://zenodo.org/record/7093997">their dataset</a> to the
-United Nations University’s <a
-href="https://www.wider.unu.edu/project/wiid-%E2%80%93-world-income-inequality-database">World
-Income Inequality Database</a> (<a
-href="https://www.data-is-plural.com/archive/2016-06-01-edition/">DIP
-2016.06.01</a>), the <a
-href="https://www.lisdatacenter.org/our-data/lis-database/">Luxembourg
-Income Study Database</a>, and the World Bank’s <a
-href="http://web.archive.org/web/20220426042531/http://iresearch.worldbank.org/PovcalNet/home.aspx">PovcalNet</a>
-(now the <a
-href="http://web.archive.org/web/20220501080610/https://pip.worldbank.org/">Poverty
-and Inequality Platform</a>). <strong>Also previously</strong>: <a
-href="https://www.grid-database.org/">The Global Repository of Income
-Dynamics</a> (<a
-href="https://www.data-is-plural.com/archive/2022-11-09-edition/">DIP
-2022.11.09</a>) and <a href="https://fsolt.org/">Frederick Solt</a>’s <a
-href="https://fsolt.org/swiid/">Standardized World Income Inequality
-Database</a> (<a
-href="https://www.data-is-plural.com/archive/2019-12-04-edition/">DIP
-2019.12.04</a>).</p>
-<p> </p>
-<p><strong>US fire statistics.</strong> The US <a
-href="https://www.nifc.gov/">National Interagency Fire Center</a> “is
-home to the national fire management programs of each federal fire
-agency, along with partners,” such as the National Weather Service. It
-provides a <a
-href="https://www.nifc.gov/fire-information/statistics">range of
-aggregate statistics</a> as HTML tables, including <a
-href="https://www.nifc.gov/fire-information/statistics/suppression-costs">firefighting
-suppression costs by year</a>, the <a
-href="https://www.nifc.gov/fire-information/statistics/human-caused">number
-and size of human-caused wildfires by year and geography</a>, <a
-href="https://www.nifc.gov/fire-information/statistics/lightning-caused">similar
-counts for lightning-caused fires</a>, and <a
-href="https://www.nifc.gov/fire-information/statistics/prescribed-fire">prescribed
-fires by year and agency</a>. Reader <a
-href="https://m-nolan.github.io/">Michael Nolan</a> has converted the
-prescribed fire tables, which cover 1998 to 2019, <a
-href="https://github.com/m-nolan/NIFC-prescribed-burns/">into CSV
-files</a>. <strong>Previously</strong>: <a
-href="https://www.mtbs.gov/project-overview">Monitoring Trends in Burn
-Severity</a> (<a
-href="https://www.data-is-plural.com/archive/2017-10-11-edition/">DIP
-2017.10.11</a>).</p>
-<p> </p>
-<p><strong>Species introduced to the Antarctic.</strong> “From the
-earliest expeditions to Antarctica and the Southern Ocean Islands,
-humans have intentionally and accidentally introduced non-native species
-to the region,” write <a
-href="https://www.nature.com/articles/s41597-023-02113-2">Rachel I.
-Leihy et al.</a>, who have assembled a <a
-href="https://figshare.com/articles/dataset/Introduced_and_invasive_alien_species_of_Antarctica_and_the_Southern_Ocean_Islands/22056647">dataset</a>
-of “introduced and invasive alien species” documented in the region. The
-dataset identifies 3,000+ location-species combinations, providing their
-“establishment, eradication status, dates of introduction, habitat, and
-evidence of impact,” plus reference citations.</p>
-<p> </p>
-<p><strong>Swedish air traffic control.</strong> <a
-href="https://liu.se/en/employee/jenni29">Jens Nilsson</a> and <a
-href="https://liu.se/en/employee/jonun48">Jonas Unger</a>’s <a
-href="https://data.mendeley.com/datasets/8yn985bwz5/1">Swedish Civil Air
-Traffic Control dataset</a> contains 13 non-contiguous weeks of “flight
-plans, clearances from air traffic control, surveillance data and
-trajectory prediction data,” <a
-href="https://www.sciencedirect.com/science/article/pii/S2352340923003591">corresponding
-to</a> 167,000+ scheduled commercial flights in 2017. The records come
-from two control centers, in Malmö and Stockholm.</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send cleared-for-takeoff
-feedback to jsvine@gmail.com, or just reply to this email. // Looking
-for past datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. // Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and to browse past editions. // Listen to the <a
-href="https://podcast.data-is-plural.com">podcast</a> to hear humans. //
-Swing by <a href="https://www.instagram.com/dataisplural/">Instagram</a>
-and <a href="https://mastodon.social/@dataisplural">Mastodon</a> for
-screenshots.</em></p>
-]]></content>
-    <link href="http://www.data-is-plural.com/archive/2023-06-28-edition" rel="alternate"/>
-    <summary>Unanalyzed sexual assault kits, global income deciles, US fire statistics, species introduced to the Antarctic, and Swedish air traffic control.</summary>
-    <published>2023-06-28T08:00:00-04:00</published>
   </entry>
 </feed>
