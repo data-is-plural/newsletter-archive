@@ -6,7 +6,121 @@
     <description>A weekly newsletter of useful/curious datasets.</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>https://github.com/data-is-plural/newsletter-archive</generator>
-    <lastBuildDate>Wed, 11 Oct 2023 08:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 25 Oct 2023 08:00:00 -0400</lastBuildDate>
+    <item>
+      <title>Data Is Plural — 2023.10.25 edition</title>
+      <link>http://www.data-is-plural.com/archive/2023-10-25-edition</link>
+      <description>Court-debt jailings, runway incursions, Goldin records, postal code ecology, and spreadsheets from Information is Beautiful.</description>
+      <content:encoded><![CDATA[<p><em>Court-debt jailings, runway incursions, Goldin records, postal
+code ecology, and spreadsheets from Information is Beautiful.</em></p>
+<p> </p>
+<p><strong>Court-debt jailings.</strong> “In the absence of a clear
+picture of debt imprisonment,” <a
+href="https://biglocalnews.org/content/news/2023/09/14/debt-impisonment.html">Stanford’s
+Computational Policy Lab and Big Local News</a> “set out in 2018 on a
+first-of-its-kind data integration effort to answer the most basic
+question of all: <a
+href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0290397">how
+many people are being jailed for unpaid court debts</a>?” To do so, <a
+href="https://policylab.stanford.edu/projects/uncovering-debtors-prisons.html">the
+team</a> submitted “hundreds of public records requests with county
+jails”; last month, their <a
+href="https://policylab.stanford.edu/debtors-prisons/">Debtors’ Prisons
+Project</a> published <a
+href="https://policylab.stanford.edu/debtors-prisons/data/">standardized,
+anonymized versions of data</a> received from 100 counties (primarily in
+Texas and Wisconsin), “totalling more than 4 million individual jail
+booking records,” plus warrant data from Oklahoma and Delaware. The
+datasets indicate (where available) each arrestee’s race, ethnicity,
+sex, age, state, ZIP code, booking date, release date, and release type,
+as well as each charge’s description, severity, and whether it
+represents a “failure to pay.” <strong>Read more</strong>: <a
+href="https://policylab.stanford.edu/debtors-prisons/tutorial/">The
+team’s tutorial for analyzing the data</a>.</p>
+<p> </p>
+<p><strong>Runway incursions.</strong> The Federal Aviation
+Administration maintains a <a
+href="https://www.asias.faa.gov/apex/f?p=100:28:::NO:::">database of
+runway incursions</a>, which it defines as “any occurrence at an
+aerodrome involving the incorrect presence of an aircraft, vehicle, or
+person on the protected area of a surface designated for the landing and
+take-off of aircraft.” It currently contains 30,000+ entries, spanning
+October 2001 through July 2023; each <a
+href="https://www.asias.faa.gov/apex/f?p=100:32:::NO::P32_REGION_VAR:3">lists</a>
+an incursion’s date, category, location, severity, aircraft types, and
+weather conditions. You can export those elements as a CSV file, but the
+exports lack the online database’s event narratives. <strong>As seen
+in</strong>: “<a
+href="https://www.nytimes.com/interactive/2023/08/21/business/airline-safety-close-calls.html?unlocked_article_code=1.5Ew.J67z.HKYk1WsCZ6Pg">Airline
+Close Calls Happen Far More Often Than Previously Known</a>” and “<a
+href="https://www.nytimes.com/2023/10/11/business/air-traffic-control-austin-airport-fedex-southwest.html?unlocked_article_code=1.5Ew.O4gS.lkIKxyZn1K2P">How
+a Series of Air Traffic Control Lapses Nearly Killed 131 People</a>,” by
+the NYT’s <a href="https://www.nytimes.com/by/sydney-ember">Sydney
+Ember</a> and <a href="https://www.nytimes.com/by/emily-steel">Emily
+Steel</a>. [h/t Alan Levenson]</p>
+<p> </p>
+<p><strong>Goldin records.</strong> <a
+href="https://scholar.harvard.edu/goldin/home">Claudia Goldin</a>, who
+was <a
+href="https://www.nobelprize.org/prizes/economic-sciences/2023/summary/">awarded</a>
+2023’s <a
+href="https://en.wikipedia.org/wiki/Nobel_Memorial_Prize_in_Economic_Sciences">Nobel
+Memorial Prize in Economic Sciences</a>, maintains a <a
+href="https://scholar.harvard.edu/goldin/pages/data">faculty webpage
+with some of the data she’s created, digitized, and/or improved</a>.
+They include records from the <a
+href="https://www.icpsr.umich.edu/web/ICPSR/studies/28501">1915 Iowa
+State Census</a> (“the first census in the United States to include
+information on education and income”), rosters of eleven US orchestras
+from the 1930s to 1990s, compulsory education and child labor state laws
+during the early 1900s, <a
+href="https://scholar.harvard.edu/files/goldin/files/economiccosts_data_1975.pdf">appendix
+tables</a> for a <a
+href="https://scholar.harvard.edu/files/goldin/files/goldin_economiccost.pdf">1975
+paper estimating the economic costs of the US Civil War</a>, and
+more.</p>
+<p> </p>
+<p><strong>Postal code ecology.</strong> <a
+href="https://www.nature.com/articles/s41597-023-02579-0">David
+Willinger et al.</a> have used two major satellite data sources — the <a
+href="https://www2.jpl.nasa.gov/srtm/index.html">Shuttle Radar
+Topography Mission</a> and <a
+href="https://asterweb.jpl.nasa.gov/">Advanced Spaceborne Thermal
+Emission and Reflection Radiometer</a> — to create <a
+href="https://osf.io/wcjad/">ecolo-zip</a>, “a novel geospatial dataset
+that provides a granular-yet-global, parsimonious-yet-rich ecological
+characterization of over 1.5 million postal codes across 94 countries
+and regions.” Those characterizations include “physical topography
+(elevation, mountainousness, distance to sea), vegetation (normalized
+difference vegetation index), and climate (surface temperature).”</p>
+<p> </p>
+<p><strong><em>Beautiful</em> spreadsheets.</strong> The <a
+href="https://informationisbeautiful.net/about/team">team</a> behind
+infographics powerhouse <a
+href="https://informationisbeautiful.net/">Information is Beautiful</a>
+maintains a <a href="https://informationisbeautiful.net/data/">catalog
+of the data</a> used in 130+ of their projects, going back to 2009. The
+entries links to spreadsheet tables that present original research as
+well as numbers drawn more directly from academic studies, government
+reports, Wikipedia, and other sources. Recent topics include <a
+href="https://informationisbeautiful.net/visualizations/the-problem-with-plastics-and-recycling-bioplastics-microplastics-ocean-waste/">plastic
+waste</a>, <a
+href="https://informationisbeautiful.net/visualizations/the-rise-of-generative-ai-large-language-models-llms-like-chatgpt/">large
+language models</a>, and <a
+href="https://informationisbeautiful.net/visualizations/which-is-the-best-performing-marvel-movie/">Marvel
+movies</a>.</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send informative feedback
+to jsvine@gmail.com, or just reply to this email. // Looking for past
+datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. // Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions.</em></p>
+]]></content:encoded>
+      <guid isPermaLink="false">dip-2023-10-25</guid>
+      <pubDate>Wed, 25 Oct 2023 08:00:00 -0400</pubDate>
+    </item>
     <item>
       <title>Data Is Plural — 2023.10.11 edition</title>
       <link>http://www.data-is-plural.com/archive/2023-10-11-edition</link>
@@ -1114,111 +1228,6 @@ subscribe and to browse past editions.</em></p>
 ]]></content:encoded>
       <guid isPermaLink="false">dip-2023-07-26</guid>
       <pubDate>Wed, 26 Jul 2023 08:00:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Data Is Plural — 2023.07.12 edition</title>
-      <link>http://www.data-is-plural.com/archive/2023-07-12-edition</link>
-      <description>US military interventions, the latest White House visitors, NY prison employee misconduct, Australian mine production, and “the global human day.”</description>
-      <content:encoded><![CDATA[<p><em>US military interventions, the latest White House visitors, NY
-prison employee misconduct, Australian mine production, and “the global
-human day.”</em></p>
-<p> </p>
-<p><strong>US military interventions.</strong> For the <a
-href="https://sites.tufts.edu/css/mip-research/">Military Intervention
-Project</a>, <a href="https://www.siditakushi.com/">Sidita Kushi</a> and
-<a
-href="https://sites.tufts.edu/css/people/about/monica-duffy-toft/">Monica
-Duffy Toft</a> have <a
-href="https://journals.sagepub.com/doi/10.1177/00220027221117546">constructed</a>
-a <a
-href="https://sites.tufts.edu/css/mip-research/mip-dataset/">dataset</a>
-of “all instances of US military intervention from 1776 until 2019,
-alongside key drivers and consequences of these interventions.” The 392
-cases include wars, occupations, major troop deployments, humanitarian
-assistance, and other military actions abroad. The dataset categorizes
-their objectives, use of force, and outcomes; indicates their location,
-foreign states involved, starting/ending year, and human costs; and
-provides many additional variables. Its sources include government
-publications, media reports, other datasets (such as the <a
-href="https://www.icpsr.umich.edu/web/ICPSR/studies/21282">International
-Military Intervention</a> and <a
-href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=hdl:1902.1/15519">Military
-Intervention by Powerful States</a> projects), and more. [h/t <a
-href="https://www.davidvine.net/">David Vine</a>]</p>
-<p> </p>
-<p><strong>The latest White House visitors.</strong> In May 2021, the
-Biden-Harris administration <a
-href="https://www.whitehouse.gov/briefing-room/disclosures/2021/05/07/biden-harris-administration-reinstates-visitor-log-policy-will-be-first-administration-to-post-records-from-first-full-year-in-office/">began
-releasing</a> its <a
-href="https://www.whitehouse.gov/disclosures/visitor-logs/">logs of
-visitors to the White House</a>. The records now include 500,000+
-entries from January 2021 to March 2023, featuring 350,000+ distinct
-names and indicating the visit’s timing, visitee, meeting location, and
-more. <strong>Caveat</strong>: “However, a Bloomberg News analysis of
-the data found duplications, anomalies and missing names,” <a
-href="https://www.bloomberg.com/news/articles/2023-06-26/biden-re-opens-white-house-visitor-logs-but-some-names-are-missing">write
-Eric Fan and Josh Wingrove</a>. “For example, the records […] show just
-five visits from Nancy Pelosi when she was House Speaker, despite at
-least 20 known instances when she was there.”
-<strong>Previously</strong>: <a
-href="https://obamawhitehouse.archives.gov/goodgovernment/tools/visitor-records">Official
-logs from the Obama-Biden White House</a>, plus <a
-href="https://projects.propublica.org/graphics/wh-complex">ProPublica’s</a>
-and <a
-href="https://www.politico.com/interactives/databases/trump-white-house-visitor-logs-and-records/index.html">Politico’s</a>
-attempts to compile them for Trump-Pence (<a
-href="https://www.data-is-plural.com/archive/2017-11-29-edition/">DIP
-2017.11.29</a>).</p>
-<p> </p>
-<p><strong>NY prison employee misconduct.</strong> For a <a
-href="https://www.themarshallproject.org/tag/when-guards-abuse-prisoners">series
-of articles</a> (<a
-href="https://www.nytimes.com/2023/05/19/nyregion/ny-prison-guards-brutality-fired.html">co-published
-with the New York Times</a>) investigating abuse by prison guards in New
-York State, The Marshall Project <a
-href="https://www.themarshallproject.org/2023/05/19/new-york-prison-officer-abuse-how-we-investigated">obtained
-and analyzed</a> data representing 12 years of Department of Corrections
-and Community Supervision employee disciplinary notices. The newsroom is
-<a
-href="https://observablehq.com/@themarshallproject/new-york-prison-employee-discipline-data">publishing
-those records</a>, which they’ve converted from two PDFs into tabular
-data, along with additional context and caveats. The records contain
-~6,000 (non-redacted) notices; they indicate the employee name, title,
-facility, union, type of misconduct, case disposition, description, and
-penalty, among other details.</p>
-<p> </p>
-<p><strong>Australian mine production.</strong> “No […] study has ever
-compiled a national mine production data set which includes basic mining
-data such as ore processed, grades, extracted products (e.g., metals,
-concentrates, saleable ore) and waste rock,” <a
-href="https://www.nature.com/articles/s41597-023-02275-z">writes Gavin
-M. Mudd</a>, whose <a
-href="https://rmit.figshare.com/articles/dataset/A_Comprehensive_Dataset_for_Australian_Mine_Production_1799_to_2021/22724081/2">new
-dataset</a> aims to do exactly that for Australia from 1799 to 2021. It
-contains mine-by-mine metrics, as well as annual production by state and
-element/mineral.</p>
-<p> </p>
-<p><strong>“The global human day.”</strong> By harmonizing “data
-collected by national statistics agencies, international organizations,
-and researchers from over 140 countries,” <a
-href="https://www.pnas.org/doi/full/10.1073/pnas.2219564120">William
-Fajzel et al.</a> have “assemble[d] a complete estimate of what humans
-are doing, averaged over time and across the entire population, to
-provide [what] we refer to as the global human day.” Their <a
-href="https://zenodo.org/record/8040631">published data</a> include
-global and national estimates for 24 subcategories, such as sleep (~9
-hours) and childcare (~17 minutes).</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send globally-averaged
-feedback to jsvine@gmail.com, or just reply to this email. // Looking
-for past datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. // Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and to browse past editions.</em></p>
-]]></content:encoded>
-      <guid isPermaLink="false">dip-2023-07-12</guid>
-      <pubDate>Wed, 12 Jul 2023 08:00:00 -0400</pubDate>
     </item>
   </channel>
 </rss>
