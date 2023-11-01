@@ -6,7 +6,132 @@
     <description>A weekly newsletter of useful/curious datasets.</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>https://github.com/data-is-plural/newsletter-archive</generator>
-    <lastBuildDate>Wed, 25 Oct 2023 08:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 01 Nov 2023 08:00:00 -0400</lastBuildDate>
+    <item>
+      <title>Data Is Plural — 2023.11.01 edition</title>
+      <link>http://www.data-is-plural.com/archive/2023-11-01-edition</link>
+      <description>Opioid settlements, financial offshoring, minority-serving colleges, childcare inspections, and two Zurich buses.</description>
+      <content:encoded><![CDATA[<p><em>Opioid settlements, financial offshoring, minority-serving
+colleges, childcare inspections, and two Zurich buses.</em></p>
+<p> </p>
+<p><em>🔄 The <a href="https://www.marineregions.org/">Marine
+Regions</a> project, featured in <a
+href="https://www.data-is-plural.com/archive/2021-09-29-edition/">DIP
+2021.09.29</a>, has <a
+href="https://www.marineregions.org/files/newsletter_v12.htm">released
+version 12</a> of its <a
+href="https://www.marineregions.org/downloads.php#marbound">maritime
+boundaries dataset</a>, adding “new and more detailed line types” and
+“updated with newly established baselines, treaties, and court
+rulings.”</em></p>
+<p> </p>
+<p><strong>Opioid settlements.</strong> <a
+href="https://www.opioidsettlementtracker.com/">OpioidSettlementTracker.com</a>,
+<a href="https://www.opioidsettlementtracker.com/about">run by lawyer
+Christine Minhee</a>, asks: “Will opioid settlements be spent in ways
+that bolster the public health response to drug use?” Minhee has
+compiled a series of spreadsheets to help answer that question. They
+track the <a
+href="https://www.opioidsettlementtracker.com/globalsettlementtracker/#statuses">status
+and reported values of settlements</a> between 14 companies (opioid
+manufacturers, distributors, and others) and US states (plus DC and
+Puerto Rico), <a
+href="https://www.opioidsettlementtracker.com/settlementspending#plans">states’
+plans for spending those settlements</a>, and <a
+href="https://www.opioidsettlementtracker.com/publicreporting/#promises">their
+promises to publicly report such spending</a>. <strong>Read
+more</strong>: “<a
+href="https://kffhealthnews.org/news/article/opioid-drugmakers-settlement-funds-50-billion-dollars-khn-investigation-payback/">$50
+Billion in Opioid Settlement Cash Is on the Way. We’re Tracking How It’s
+Spent</a>,” a KFF Health News article using Minhee’s data, part of a <a
+href="https://kffhealthnews.org/opioid-settlements/">broader project on
+the topic</a>.</p>
+<p> </p>
+<p><strong>Financial offshoring.</strong> The <a
+href="https://atlas-offshore.world/">Atlas of the Offshore World</a> —
+“a new effort by the <a href="https://www.taxobservatory.eu/">EU Tax
+Observatory</a>,” a research group based at the Paris School of
+Economics — aims “to inform the global debate around international tax
+evasion and avoidance.” Its <a
+href="https://atlas-offshore.world/download-data/">four main
+datasets</a> provide country-level estimates of <a
+href="https://atlas-offshore.world/dataset/global-profit">international
+profit shifting</a>, <a
+href="https://atlas-offshore.world/dataset/offshore-financial">offshore
+financial wealth</a>, <a
+href="https://atlas-offshore.world/dataset/offshore-real-estate">offshore
+real estate ownership</a>, and <a
+href="https://atlas-offshore.world/dataset/effective-tax">50+ years of
+effective tax rates</a>. <strong>Read more</strong>: The team’s “<a
+href="https://www.taxobservatory.eu/publication/global-tax-evasion-report-2024/">Global
+Tax Evasion Report 2024</a>” and “<a
+href="https://www.taxobservatory.eu/the-history-behind-the-atlas-of-the-offshore-world/">The
+History Behind the Atlas of the Offshore World</a>.” [h/t <a
+href="https://sites.google.com/view/mattcollin/home">Matt
+Collin</a>]</p>
+<p> </p>
+<p><strong>Minority-serving colleges.</strong> The <a
+href="https://www.msidata.org/">MSI Data Project</a> provides a <a
+href="https://www.msidata.org/data">dashboard</a> and <a
+href="https://www.msidata.org/publications">dataset</a> focused on
+colleges and universities that qualify federally as <a
+href="https://www.msidata.org/msis">minority-serving institutions</a>
+either through their mission (e.g., <a
+href="https://en.wikipedia.org/wiki/Historically_black_colleges_and_universities">HBCUs</a>)
+or through enrollment. The project examines institutions’ funding
+status, location, student body, and degree granting for 2017–2021. It
+draws on records from the Department of Education’s “<a
+href="https://www2.ed.gov/about/offices/list/ope/idues/eligibility.html">eligibility
+matrices</a>” for each MSI designation and the agency’s <a
+href="https://nces.ed.gov/ipeds/">Integrated Postsecondary Education
+Data System</a> (IPEDS). <strong>As seen in</strong>: “<a
+href="https://hechingerreport.org/beyond-the-rankings-the-college-welcome-guide/">Beyond
+the Rankings: The College Welcome Guide</a>,” by The Hechinger Report’s
+<a href="https://hechingerreport.org/author/fazil-khan/">Fazil Khan</a>,
+incorporating data from both IPEDS and the MSI Data Project. [h/t <a
+href="https://hechingerreport.org/author/sarah-butrymowicz/">Sarah
+Butrymowicz</a>]</p>
+<p> </p>
+<p><strong>Childcare inspections.</strong> “Across 41 states, one in ten
+licensed daycare facilities is overdue for an inspection,” according to
+an <a
+href="https://usafacts.org/data-projects/childcare-inspections">analysis
+by USAFacts</a>, which gathered inspection-timing data for 148,000
+facilities. The analysis’s downloadable datasets indicate the number of
+facilities overdue (versus on-time or unknown) in each state and county,
+as well as the distribution of days-since-last-inspection in each state.
+Most of the inspection data had to be programmatically collected from
+state portals, <a
+href="https://www.linkedin.com/posts/amberrthomas_are-states-meeting-their-childcare-inspection-activity-7120861735833518080-V-6s/">according
+to Amber Thomas</a>, except for California, which <a
+href="https://www.ccld.dss.ca.gov/carefacilitysearch/DownloadData">publishes
+bulk data</a> (including inspection dates) about all childcare
+facilities.</p>
+<p> </p>
+<p><strong>Two Zurich buses.</strong> <a
+href="https://www.nature.com/articles/s41597-023-02600-6">Fabio Widmer
+et al.</a>’s <a
+href="https://www.research-collection.ethz.ch/handle/20.500.11850/626723">ZTBus
+dataset</a> provides detailed data from 1,409 “driving missions” of two
+electric public transit buses in Zurich, Switzerland. Each mission
+typically represents a full day’s operation. The records, which span
+early 2019 to late 2022, include “time series that represent the power
+demand, propulsion system, odometry, global position, ambient
+temperature, door openings, number of passengers, and the dispatch
+patterns within the public transportation network of the two
+vehicles.”</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Dispatch your feedback to
+jsvine@gmail.com, or just reply to this email. // Looking for past
+datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. // Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions.</em></p>
+]]></content:encoded>
+      <guid isPermaLink="false">dip-2023-11-01</guid>
+      <pubDate>Wed, 01 Nov 2023 08:00:00 -0400</pubDate>
+    </item>
     <item>
       <title>Data Is Plural — 2023.10.25 edition</title>
       <link>http://www.data-is-plural.com/archive/2023-10-25-edition</link>
@@ -1099,135 +1224,6 @@ subscribe and to browse past editions.</em></p>
 ]]></content:encoded>
       <guid isPermaLink="false">dip-2023-08-02</guid>
       <pubDate>Wed, 02 Aug 2023 08:00:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Data Is Plural — 2023.07.26 edition</title>
-      <link>http://www.data-is-plural.com/archive/2023-07-26-edition</link>
-      <description>Natural resources revenue, gender and diplomacy, nearly 8 million PDFs, Iberian orcas, and Taskmaster tasks.</description>
-      <content:encoded><![CDATA[<p><em>Natural resources revenue, gender and diplomacy, nearly 8 million
-PDFs, Iberian orcas, and Taskmaster tasks.</em></p>
-<p> </p>
-<p><em>📬 “<a
-href="https://wisconsinwatch.org/2023/06/some-milwaukee-county-parents-leaving-workforce-due-to-sky-high-child-care-costs/">Some
-Milwaukee County parents leaving workforce due to sky-high child care
-costs</a>,” reader <a href="http://www.tmdedrick.com/">Tyler Dedrick</a>
-reported in Wisconsin Watch last month, referencing the <a
-href="https://www.dol.gov/agencies/wb/topics/featured-childcare">National
-Database of Childcare Prices</a> featured in <a
-href="https://www.data-is-plural.com/archive/2023-04-26-edition/">DIP
-2023.04.26</a>. (Have you published something with data you found via
-DIP? <a
-href="https://docs.google.com/forms/d/e/1FAIpQLSdXXD5eO05w0Xa7bwG3Ppia3uzr_o3y-xDEZuWRfXbCfCu_XA/viewform">Click
-here to let me know</a>.)</em></p>
-<p> </p>
-<p><strong>Natural resources revenue.</strong> To extract minerals,
-coal, oil, or gas from US federal land, Native American land, or the <a
-href="https://www.boem.gov/environment/outer-continental-shelf">Outer
-Continental Shelf</a>, companies must pay various royalties, rents, and
-bonuses to the <a href="https://onrr.gov/about">Office of Natural
-Resources Revenue</a>, which then distributes those payments — amounting
-to billions of dollars per year — to the federal government, local
-governments, tribes, and individuals. Through its <a
-href="https://revenuedata.doi.gov/">data portal</a>, the agency provides
-annual and monthly breakdowns of revenue, disbursements, and production,
-which you can <a
-href="https://revenuedata.doi.gov/downloads">download</a>, <a
-href="https://revenuedata.doi.gov/query-data">query</a>, and <a
-href="https://revenuedata.doi.gov/explore">visually explore</a>.
-<strong>Related</strong>: The <a href="https://www.blm.gov/about">Bureau
-of Land Management</a> also <a
-href="https://www.blm.gov/programs-energy-and-minerals-oil-and-gas-oil-and-gas-statistics">provides</a>
-“data that include the numbers of BLM-administered oil and gas leases,
-applications for permit to drill, and oil and gas wells” on federal
-land. <strong>As seen in</strong>: “<a
-href="https://usafacts.org/articles/how-much-oil-and-gas-comes-from-federal-territory/">How
-much oil and gas comes from federal territory</a>?” (USAFacts).</p>
-<p> </p>
-<p><strong>Gender and diplomacy.</strong> <a
-href="https://www.gu.se/en/about/find-staff/birgittaniklasson">Birgitta
-Niklasson</a> and <a
-href="https://www.gu.se/en/about/find-staff/anntowns">Ann Towns</a>’s <a
-href="https://www.gu.se/en/gendip/the-gendip-dataset-on-gender-and-diplomatic-representation">GenDip
-dataset</a> “maps the extent to which states appoint men, women and
-other diplomats to different kinds of bilateral ambassador postings.”
-The data cover 200+ countries and 10 specific years between 1968 and
-2021. For each diplomat and year, the dataset indicates their sending
-country, receiving country, type of diplomatic title (e.g., ambassador,
-minister, etc.), and gender, which is “based on titles (e.g. Mr/Mrs,
-prince/princess, baron/baroness, etc.), pronouns used when referring to
-the diplomat, or the recognition of names as either female or male.” The
-team has also produced a series of <a
-href="https://www.gu.se/en/gendip/the-gendip-dataset-on-gender-and-diplomatic-representation/visualization-tools">visualizations
-based on the data</a>.</p>
-<p> </p>
-<p><strong>Millions of PDFs.</strong> As <a
-href="https://www.darpa.mil/news-events/2023-06-14">part</a> of its <a
-href="https://www.darpa.mil/program/safe-documents">SafeDocs</a>
-project, <a href="https://en.wikipedia.org/wiki/DARPA">DARPA</a> has <a
-href="https://digitalcorpora.org/corpora/file-corpora/cc-main-2021-31-pdf-untruncated/">compiled
-a corpus</a> of “nearly 8 million PDFs gathered from across the web in
-July/August of 2021.” To create it, the authors began with the URLs of
-PDF files identified by <a href="https://commoncrawl.org/">Common
-Crawl</a> (<a
-href="https://www.data-is-plural.com/archive/2021-04-21-edition/">DIP
-2021.04.21</a>), fetched their complete contents, and recorded metadata
-about each file and where it was found. “At the time of its creation,
-this is the largest single corpus of real-world (extant) PDFs that is
-publicly available,” they write.</p>
-<p> </p>
-<p><strong>Iberian orcas.</strong> The website <a
-href="https://www.orcas.pt/">orcas.pt</a> publishes <a
-href="https://www.orcas.pt/maps">monthly, downloadable maps</a>
-indicating the date, time, and location of orca sightings and <a
-href="https://www.theguardian.com/environment/2023/jul/11/the-orca-uprising-whales-are-ramming-boats-but-are-they-inspired-by-revenge-grief-or-memory">attacks</a>
-off the coasts of Portugal and Spain. <a
-href="https://www.pbs.org/newshour/show/group-of-orcas-attack-and-sink-vessels-off-iberian-peninsula">Run
-by Rui Alves as a personal project</a>, the project gathers its data
-through a network of local sailors. <strong>Related</strong>: The <a
-href="https://www.theca.org.uk/">Cruising Association</a>, in
-collaboration with <a href="https://www.orcaiberica.org/">Grupo de
-Trabajo Orca Atlántica</a>, publishes <a
-href="https://www.theca.org.uk/orcas/reports">maps and detailed
-reports</a> of <a href="https://www.theca.org.uk/orcas">orca
-interactions</a>, including “uneventful passages.” [h/t <a
-href="https://fairwarning.substack.com/">Soph Warnes</a>]</p>
-<p> </p>
-<p><strong>Comedians, challenged.</strong> At <a
-href="https://taskmaster.info/">TaskMaster.Info</a>, <a
-href="https://www.linkedin.com/in/kandrewcraven/">Karl Craven</a> is
-“obsessively documenting the international Taskmaster franchise,” which
-<a href="https://en.wikipedia.org/wiki/Taskmaster_(TV_series)">began as
-a British game show</a> on which comedians compete to win challenges
-such as <a href="https://taskmaster.info/task.php?id=2">watermelon
-speed-eating</a> and <a
-href="https://taskmaster.info/task.php?id=8">high-fiving strangers</a>.
-Reddit user <a
-href="https://www.reddit.com/user/Alohamori/">Alohamori</a> has used the
-site and <a href="https://prettygr.im/tdlm/sources">other sources</a> to
-create a “<a
-href="https://www.reddit.com/r/taskmaster/comments/13zb9nl/i_put_together_a_ridiculously_comprehensive/">ridiculously
-comprehensive</a>” <a
-href="https://prettygr.im/tdlm/taskmaster">database of that
-information</a>, enabling queries such as <a
-href="https://prettygr.im/tdlm/taskmaster/measurements?_sort=measurement&amp;objective.target__exact=least&amp;measurement__notnull=1&amp;objective.unit__exact=time">the
-fastest-completed tasks</a>, <a
-href="https://prettygr.im/tdlm/taskmaster/tasks?points=0">tasks awarding
-zero points</a>, and <a
-href="https://prettygr.im/tdlm/taskmaster/episode_scores?rank=1%3D&amp;_sort_desc=episode">episodes
-ending in ties</a>. <strong>Bonus link</strong>: <a
-href="https://www.youtube.com/channel/UCT5C7yaO3RVuOgwP8JVAujQ">Taskmaster’s
-official YouTube channel</a>.</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send obsessively
-documented feedback to jsvine@gmail.com, or just reply to this email. //
-Looking for past datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. // Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and to browse past editions.</em></p>
-]]></content:encoded>
-      <guid isPermaLink="false">dip-2023-07-26</guid>
-      <pubDate>Wed, 26 Jul 2023 08:00:00 -0400</pubDate>
     </item>
   </channel>
 </rss>
