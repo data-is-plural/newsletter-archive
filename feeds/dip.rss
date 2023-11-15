@@ -6,7 +6,133 @@
     <description>A weekly newsletter of useful/curious datasets.</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>https://github.com/data-is-plural/newsletter-archive</generator>
-    <lastBuildDate>Wed, 01 Nov 2023 08:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 15 Nov 2023 08:00:00 -0500</lastBuildDate>
+    <item>
+      <title>Data Is Plural — 2023.11.15 edition</title>
+      <link>http://www.data-is-plural.com/archive/2023-11-15-edition</link>
+      <description>Trans rights, home schooling, migrant arrivals in Italy, toxic wastewater spills, and coffee tasting.</description>
+      <content:encoded><![CDATA[<p><em>Trans rights, home schooling, migrant arrivals in Italy, toxic
+wastewater spills, and coffee tasting.</em></p>
+<p> </p>
+<p><em>🎙 Season 2 of the <a
+href="https://podcast.data-is-plural.com/">Data Is Plural podcast</a> is
+arriving soon. To subscribe via your favorite podcast-listening app, <a
+href="https://podcast.data-is-plural.com/share">click here</a>.</em></p>
+<p> </p>
+<p><em>📬 Reader <a href="https://medium.com/@alexandrafiona">Alexandra
+F</a> published <a
+href="https://medium.com/@alexandrafiona/oh-honey-honey-6c629389782b">an
+analysis of US honey consumption and production over time</a>, using
+data from <a
+href="https://usda.library.cornell.edu/concern/publications/hd76s004z">USDA
+reports</a> featured in <a
+href="https://www.data-is-plural.com/archive/2022-01-05-edition/">DIP
+2022.01.05</a>. (Have you published something with data you found via
+DIP? <a
+href="https://docs.google.com/forms/d/e/1FAIpQLSdXXD5eO05w0Xa7bwG3Ppia3uzr_o3y-xDEZuWRfXbCfCu_XA/viewform">Click
+here to let me know</a>.)</em></p>
+<p> </p>
+<p><strong>Trans rights.</strong> <a
+href="https://www.myleswilliamson.net/">Myles Williamson</a>’s <a
+href="https://www.cambridge.org/core/journals/perspectives-on-politics/article/global-analysis-of-transgender-rights-introducing-the-trans-rights-indicator-project-trip/3C143E501E0824C8F9F0C40925965F43">Trans
+Rights Indicator Project</a> “provides insight into the legal situations
+transgender people faced in 173 countries from 2000 to 2021.” The <a
+href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/FXXLTS">project’s
+dataset</a> is “the only public dataset covering trans rights with wide
+spatial <em>and</em> temporal coverage (to my knowledge),” Williamson
+writes. For each country-year combination, it “includes 14 indicators
+that capture the presence or absence of laws related to criminalization,
+legal gender recognition, and anti-discrimination protections.” <a
+href="https://www.myleswilliamson.net/trip-data">For instance</a>: Does
+the country require a psychological diagnosis before someone can change
+their gender on identity documents?</p>
+<p> </p>
+<p><strong>Home schooling.</strong> The Washington Post has gathered <a
+href="https://github.com/washingtonpost/data_home_schooling">data on
+home-school enrollment figures</a> in dozens of US states and 6,700+
+school districts over the past six academic years. Post reporters, with
+help from students at American University, “trawled state websites,
+contacted education officials in all 50 states and the District of
+Columbia and submitted multiple public records requests” to build the
+dataset, <a
+href="https://www.washingtonpost.com/pr/2023/11/09/tracking-home-schooling-an-expansive-data-set-exclusively-washington-post/">released
+last week</a>. Each entry <a
+href="https://github.com/washingtonpost/data_home_schooling/blob/main/home_school_data_dictionary.csv">indicates</a>
+the state/district, school year, and the number of students registered
+for home schooling. <strong>Read more</strong>: <a
+href="https://www.washingtonpost.com/education/interactive/2023/homeschooling-growth-data-by-district/">The
+Post’s analysis</a>, which “reveals that a dramatic rise in home
+schooling at the onset of the pandemic has largely sustained itself
+through the 2022-23 academic year, defying predictions […].” [h/t <a
+href="https://www.washingtonpost.com/people/meghan-hoyer/">Meghan
+Hoyer</a>]</p>
+<p> </p>
+<p><strong>Migrant arrivals in Italy.</strong> The <a
+href="https://www.datibenecomune.it/about-us/">Dati Bene Comune</a>
+campaign’s latest initiative, <a
+href="https://datibenecomune.substack.com/p/il-numero-zero"><em>Liberiamoli
+tutti!</em></a> (<em>Let’s free them all!</em>), aims to improve the
+availability of Italian government data. Its first project has been to
+convert the <a
+href="http://www.libertaciviliimmigrazione.dlci.interno.gov.it/it/documentazione/statistica/cruscotto-statistico-giornaliero">interior
+ministry’s statistics on migrant arrivals</a> from PDF reports <a
+href="https://github.com/ondata/liberiamoli-tutti/blob/main/sbarchi-migranti/dati/README.md">into
+spreadsheets</a>. The extracted information <a
+href="https://docs.google.com/spreadsheets/d/1dNlByw2cMoqGorp4zPN6OULtG_jVRCe5xpl0YdKJxFE/edit#gid=1693395128">includes</a>
+daily counts of sea arrivals, twice-monthly totals by nationality, and
+the number of people in <a
+href="https://help.unhcr.org/italy/asylum-italy/reception/">reception
+centers</a> by center type and Italian region. <strong>A nice
+shout-out</strong>: <em>Liberiamoli tutti!</em> <a
+href="https://open.substack.com/pub/datibenecomune/p/il-numero-zero?selection=39d56eb6-7897-43a1-bdbd-884de1382040">says</a>
+it’s inspired by Data Is Plural’s sibling, <a
+href="https://www.data-liberation-project.org/">The Data Liberation
+Project</a>.</p>
+<p> </p>
+<p><strong>Toxic wastewater spills.</strong> For a <a
+href="https://insideclimatenews.org/news/31102023/oil-gas-companies-spill-wastewater-in-texas/">recent
+Inside Climate News investigation</a>, <a
+href="https://insideclimatenews.org/profile/martha-pskowski/">Martha
+Pskowski</a> and <a href="https://peteraldhous.com/">Peter Aldhous</a>
+wrangled <a
+href="https://github.com/InsideClimateNews/2023-10-tx-produced-water-spills">data
+on 10,000+ wastewater spills</a> reported by oil and gas companies to
+the Texas government between 2013 and 2022. These “spill logs” —
+obtained through public records requests, then cleaned and standardized
+by the journalists — correspond to <a
+href="https://insideclimatenews.github.io/2023-10-tx-produced-water-spills/tx-spills-central.html">more
+than 148 million gallons</a> of “produced water,” a byproduct of
+drilling and fracking. The data indicate each spill’s date, location,
+facility, operator, type of operation, volume of wastewater released,
+volume recovered, and much more.</p>
+<p> </p>
+<p><strong>Coffee tasting.</strong> Last month, British <a
+href="https://www.youtube.com/channel/UCMb0O2CdPBNi-QqPk5T3gsQ">YouTuber</a>
+(and <a
+href="https://www.jameshoffmann.co.uk/work#/coffee-competitions/">former
+World Barista Champion</a>) <a
+href="https://en.wikipedia.org/wiki/James_Hoffmann">James Hoffman</a>
+virtually hosted the <a
+href="https://www.youtube.com/watch?v=1fN_z4-EcOU">Great American Coffee
+Taste Test</a>, during which thousands of people simultaneously
+blind-tasted the same four coffees. Hoffman has published a <a
+href="https://www.youtube.com/watch?v=bMOOQfeloH0">video summarizing the
+results</a>, as well as a <a href="https://bit.ly/gacttCSV+">spreadsheet
+of anonymized survey responses</a> from 4,000+ participants. It includes
+tasters’ demographics, general coffee drinking habits and preferences,
+assessments of the four coffees, and more. [h/t Dan Brady]</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send freshly roasted
+feedback to jsvine@gmail.com, or just reply to this email. // Looking
+for past datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. // Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions.</em></p>
+]]></content:encoded>
+      <guid isPermaLink="false">dip-2023-11-15</guid>
+      <pubDate>Wed, 15 Nov 2023 08:00:00 -0500</pubDate>
+    </item>
     <item>
       <title>Data Is Plural — 2023.11.01 edition</title>
       <link>http://www.data-is-plural.com/archive/2023-11-01-edition</link>
@@ -1103,127 +1229,6 @@ subscribe and to browse past editions.</em></p>
 ]]></content:encoded>
       <guid isPermaLink="false">dip-2023-08-09</guid>
       <pubDate>Wed, 09 Aug 2023 08:00:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Data Is Plural — 2023.08.02 edition</title>
-      <link>http://www.data-is-plural.com/archive/2023-08-02-edition</link>
-      <description>Nursing home inspections, local ideology, COVID-19 in deer, Colombian public-sector algorithms, and forageable fruit.</description>
-      <content:encoded><![CDATA[<p><em>Nursing home inspections, local ideology, COVID-19 in deer,
-Colombian public-sector algorithms, and forageable fruit.</em></p>
-<p> </p>
-<p><em>📬 Reader <a href="https://medium.com/@deabardhoshi">Dea B</a>
-used the <a href="https://globaldatabarometer.org/">Global Open Data
-Barometer</a>, featured in <a
-href="https://www.data-is-plural.com/archive/2022-05-18-edition/">DIP
-2022.05.18</a>, to create an <a
-href="https://towardsdatascience.com/global-data-barometer-whats-the-current-state-of-open-data-in-the-world-2841e80503c2">exploratory
-data story on the state of open data around the world</a>. (Have you
-published something with data you found via DIP? <a
-href="https://docs.google.com/forms/d/e/1FAIpQLSdXXD5eO05w0Xa7bwG3Ppia3uzr_o3y-xDEZuWRfXbCfCu_XA/viewform">Click
-here to let me know</a>.)</em></p>
-<p> </p>
-<p><strong>Nursing home inspections.</strong> A couple of weeks ago,
-ProPublica <a
-href="https://www.propublica.org/article/here-whats-new-in-nursing-home-inspect-database">launched
-a major update</a> to its <a
-href="https://projects.propublica.org/nursing-homes/">Nursing Home
-Inspect</a> database, originally published in 2012 (and briefly
-mentioned in <a
-href="https://www.data-is-plural.com/archive/2016-07-06-edition/">DIP
-2016.07.06</a>). The new version “includes more data, new views that
-summarize problems, and advanced search features.” As an <a
-href="https://www.propublica.org/article/how-to-use-updated-nursing-home-inspect">accompanying
-guide</a> explains, the database now “covers nearly 400,000 deficiencies
-from over 90,000 reports at over 15,000 homes.” The project links to its
-source data, including the federal government’s <a
-href="https://data.cms.gov/provider-data/dataset/4pq5-n9py">list of
-Medicare-certified nursing homes</a> and the date, regulation,
-scope/severity, and narrative text of all deficiencies.
-<strong>Tip</strong>: <a
-href="https://github.com/seattletimes/nursing_homes_staffing_20200925#deficiency-data">The
-Seattle Times provides guidance for downloading those deficiency
-records</a>. <strong>Later today</strong>: <a
-href="https://www.propublica.org/events/how-to-use-propublicas-updated-nursing-home-inspect-database">ProPublica
-is hosting a webinar about the updated database</a>.</p>
-<p> </p>
-<p><strong>Local ideology.</strong> “Little is known about the American
-public’s policy preferences at the level of Congressional districts,
-state legislative districts, and local municipalities,” <a
-href="https://ctausanovitch.com/">Chris Tausanovitch</a> and <a
-href="http://www.chriswarshaw.com/">Christopher Warshaw</a> wrote <a
-href="https://www.jstor.org/stable/10.1017/s0022381613000042?seq=1">in
-the Journal of Politics a decade ago</a>. To address the issue, the
-researchers applied Bayesian statistical methods to large public-opinion
-surveys to generate numeric “ideal point” (left-vs-right) estimates at
-many geographic levels. Through their <a
-href="https://americanideologyproject.com/">American Ideology
-Project</a>, they have since <a
-href="https://dataverse.harvard.edu/dataverse/americanideologyproject">updated
-these estimates</a>, including <a
-href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/BQKU4M">most
-recently with data through 2021</a>. <strong>Previously</strong>:
-Ideology estimates for <a
-href="https://americanlegislatures.wordpress.com/">state legislators</a>
-(<a
-href="https://www.data-is-plural.com/archive/2020-01-01-edition/">DIP
-2020.01.01</a>), <a
-href="https://americanlegislatures.wordpress.com/2023/04/14/april-2023-update-to-shor-mccarty-state-legislatures-data/">updated
-in April 2023</a>, and <a href="https://voteview.com/">members of
-Congress</a> (<a
-href="https://www.data-is-plural.com/archive/2023-03-01-edition/">DIP
-2023.03.01</a>). [h/t <a href="https://twitter.com/MikeStucka">Mike
-Stucka</a>]</p>
-<p> </p>
-<p><strong>COVID-19 in deer.</strong> <a
-href="https://www.nature.com/articles/s41467-023-39782-x">Aijing Feng et
-al.</a> “collected 8,830 respiratory samples from free-ranging
-white-tailed deer across Washington, D.C. and 26 states in the United
-States between November 2021 and April 2022.” The researchers sequenced
-the COVID-19 genomes from 391 of the samples that tested positive for
-the virus, finding that the infections “originated from at least 109
-independent spillovers from humans, which resulted in 39 cases of
-subsequent local deer-to-deer transmission and three cases of potential
-spillover from white-tailed deer back to humans.” The <a
-href="https://www.nature.com/articles/s41467-023-39782-x#Sec28">study’s
-public spreadsheets</a> include data about each sequenced sample
-(collection date, state, virus lineage, etc.), each spillover event, and
-more. [h/t <a href="http://www.tmdedrick.com/">Tyler Dedrick</a>]</p>
-<p> </p>
-<p><strong>Colombian public-sector algorithms.</strong> <a
-href="https://juangutierrez.co/2023/06/07/nueva-base-de-datos-caracteriza-113-algoritmos-utilizados-el-sector-publico-colombiano-para-orientar-o-tomar-decisiones/">Juan
-David Gutiérrez et al.</a> have compiled a <a
-href="https://research-data.urosario.edu.co/dataset.xhtml?persistentId=doi:10.34848/YN1CRT">spreadsheet
-listing 113 automated decision systems</a> (“sistemas de decisión
-automatizada”) in the Colombian public sector. Each entry lists the
-system’s name, government entity, level of government (national, <a
-href="https://en.wikipedia.org/wiki/Departments_of_Colombia">department</a>,
-municipal), sector, description, objectives, data used, various
-categorizations, and much more. The project also includes a spreadsheet
-of the 300+ sources used in the compilation.</p>
-<p> </p>
-<p><strong>Forageable fruit.</strong> The <a
-href="https://fallingfruit.org/">Falling Fruit</a> project “is a
-celebration of the overlooked culinary bounty of our city streets.” It
-<a href="https://fallingfruit.org/about">provides</a> a map — “not the
-first of its kind, but [aspiring] to be the world’s most comprehensive”
-— and <a href="https://fallingfruit.org/data">downloadable dataset</a>
-of 1.5 million locations of edible plants in public, although not
-strictly fruit. The entries come from <a
-href="https://fallingfruit.org/changes">user contributions</a>, as well
-as <a href="https://fallingfruit.org/datasets">imports of community maps
-and tree inventories</a>. [h/t <a
-href="https://twitter.com/susiecambria">Susie Cambria</a>]</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send foraged feedback to
-jsvine@gmail.com, or just reply to this email. // Looking for past
-datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. // Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and to browse past editions.</em></p>
-]]></content:encoded>
-      <guid isPermaLink="false">dip-2023-08-02</guid>
-      <pubDate>Wed, 02 Aug 2023 08:00:00 -0400</pubDate>
     </item>
   </channel>
 </rss>
