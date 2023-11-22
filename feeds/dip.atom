@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.data-is-plural.com</id>
   <title>Data Is Plural</title>
-  <updated>2023-11-15T08:00:00-05:00</updated>
+  <updated>2023-11-22T08:00:00-05:00</updated>
   <author>
     <name>Jeremy Singer-Vine</name>
     <email>jsvine@gmail.com</email>
@@ -10,6 +10,160 @@
   <link href="https://www.data-is-plural.com" rel="alternate"/>
   <generator>https://github.com/data-is-plural/newsletter-archive</generator>
   <subtitle>A weekly newsletter of useful/curious datasets.</subtitle>
+  <entry>
+    <id>dip-2023-11-22</id>
+    <title>Data Is Plural — 2023.11.22 edition</title>
+    <updated>2023-11-22T08:00:00-05:00</updated>
+    <content type="CDATA"><![CDATA[<p><em>Food access, strategic ecology, Australian law,
+electricity-balancing incentives, and lunar craters.</em></p>
+<p> </p>
+<p><em>🎙 The <a href="https://podcast.data-is-plural.com/">Data Is
+Plural podcast</a> is back, with a new season of 15-minute interviews
+that dive deeper into DIP-noted datasets. Season 2’s first guests are <a
+href="http://jandiehmdesigns.com/">Jan Diehm</a> and <a
+href="https://www.linkedin.com/in/amberrthomas/">Amber Thomas</a>, whose
+<a href="https://pudding.cool/2018/08/pockets/">data-driven
+investigation into pocket sizes</a> was featured in <a
+href="https://www.data-is-plural.com/archive/2018-08-22-edition/">DIP
+2018.08.22</a>. <a
+href="https://podcast.data-is-plural.com/2159594/14011826">Click here to
+listen to the episode</a>.</em></p>
+<p> </p>
+<p><em>📬 “<a
+href="https://www.sfchronicle.com/projects/2023/california-new-city-rare/">One
+of California’s fastest-growing areas may become a city. Charts show how
+rare that is</a>” — an article published by reader Nami Sumida in the
+San Francisco Chronicle last week — uses <a
+href="https://cgoodman.com/">Christopher B. Goodman</a>’s <a
+href="https://github.com/cbgoodman/muni-incorporation">municipal
+incorporation dataset</a> featured in <a
+href="https://www.data-is-plural.com/archive/2023-03-22-edition/">DIP
+2023.03.22</a>. (Have you published something with data you found via
+DIP? <a
+href="https://docs.google.com/forms/d/e/1FAIpQLSdXXD5eO05w0Xa7bwG3Ppia3uzr_o3y-xDEZuWRfXbCfCu_XA/viewform">Click
+here to let me know</a>.)</em></p>
+<p> </p>
+<p><strong>Food access.</strong> The USDA’s <a
+href="https://www.ers.usda.gov/data-products/food-access-research-atlas/">Food
+Access Research Atlas</a> estimates how far people have to travel to buy
+healthy groceries. For any given Census tract, the project’s <a
+href="https://www.ers.usda.gov/data-products/food-access-research-atlas/go-to-the-atlas/">interactive
+map</a> and <a
+href="https://www.ers.usda.gov/data-products/food-access-research-atlas/download-the-data/">downloadable
+data</a> indicate the number of residents living within 0.5, 1, 10, and
+20 miles of “the nearest supermarket, supercenter, or large grocery
+store.” They provide similar counts for each tract’s low-income
+residents, children, seniors, people without vehicle access, <a
+href="https://en.wikipedia.org/wiki/Supplemental_Nutrition_Assistance_Program">SNAP</a>
+recipients, and by race/ethnicity. The most recent update <a
+href="https://www.ers.usda.gov/amber-waves/2021/june/updated-food-access-research-atlas-now-maps-changes-in-low-income-and-low-supermarket-access-areas-in-2019/">uses
+2019 data</a>; prior versions are available for 2015 and 2010.
+<strong>Related</strong>: The distances are <a
+href="https://www.ers.usda.gov/data-products/food-access-research-atlas/documentation/">based
+partly</a> on the USDA’s <a
+href="https://www.fns.usda.gov/snap/retailer-locator">database of
+SNAP-authorized retailers</a>. [h/t <a
+href="https://saylibenadikar.github.io/about.html">Sayli
+Benadikar</a>]</p>
+<p> </p>
+<p><strong>Strategic ecology.</strong> The <a
+href="https://www.neonscience.org/">National Ecological Observatory
+Network</a> operates <a
+href="https://www.neonscience.org/field-sites/explore-field-sites">81
+study sites</a> across the US, <a
+href="https://www.neonscience.org/field-sites/about-field-sites">strategically
+selected</a> to represent a diversity of “vegetation, landforms, and
+ecosystem dynamics.” Examples include <a
+href="https://www.neonscience.org/field-sites/cari">Caribou Creek</a> in
+Alaska, <a href="https://www.neonscience.org/field-sites/clbj">Lyndon B.
+Johnson National Grassland</a> in Texas, and <a
+href="https://www.neonscience.org/field-sites/guan">Guanica Forest</a>
+in Puerto Rico. The network’s <a
+href="https://www.neonscience.org/data">data portal</a> provides <a
+href="https://data.neonscience.org/data-products/explore">downloads</a>
+and an <a href="https://data.neonscience.org/data-api/">API</a> for 160+
+datasets, such as <a
+href="https://data.neonscience.org/data-products/DP3.30024.001">site
+elevations</a>, <a
+href="https://data.neonscience.org/data-products/DP1.10010.001">downed
+wood log surveys</a>, <a
+href="https://data.neonscience.org/data-products/DP1.10081.001">soil
+microbe compositions</a>, and <a
+href="https://data.neonscience.org/data-products/DP1.20105.001">fish DNA
+sequences</a>. <strong>Related</strong>: <a
+href="https://www.biorxiv.org/content/10.1101/2023.10.25.563626v1">Ben
+G. Weinstein et al.</a> recently <a
+href="https://jabberwocky.weecology.org/2023/11/13/data-on-100-million-individual-trees-in-the-national-ecological-observatory-network/">used
+the network’s remote sensing data</a> to <a
+href="https://github.com/weecology/DeepTreeAttention/tree/species_release">generate</a>
+a <a href="https://zenodo.org/records/10067302">dataset</a> estimating
+the location, size, likely species, and status of 100 million individual
+trees at 24 of the sites. [h/t <a
+href="https://fosstodon.org/@smach@masto.machlis.com">Sharon
+Machlis</a>]</p>
+<p> </p>
+<p><strong>Australian law.</strong> In a <a
+href="https://umarbutler.com/how-i-built-the-largest-open-database-of-australian-law/">recent
+blog post</a>, <a href="https://umarbutler.com/">Umar Butler</a>
+describes the process of building the <a
+href="https://huggingface.co/datasets/umarbutler/open-australian-legal-corpus">Open
+Australian Legal Corpus</a>, “from months-long negotiations with
+governments to reverse engineering ancient web technologies to hacking
+together a multitude of different solutions for extracting text from
+documents.” The corpus, “the largest open database of Australian law,”
+lists the text, type, jurisdiction, source, citation, and URL of
+220,000+ documents. It includes “every in force statute and regulation
+in the Commonwealth, New South Wales, Queensland, Western Australia,
+South Australia, Tasmania and Norfolk Island, in addition to thousands
+of bills and hundreds of thousands of court and tribunal decisions.”
+[h/t <a href="https://www.facebook.com/susiecambria/">Susie
+Cambria</a>]</p>
+<p> </p>
+<p><strong>Electricity-balancing incentives.</strong> <a
+href="https://www.linkedin.com/in/jamesdmoran/">Jim Moran</a>’s <a
+href="https://www.vppdata.com/p/vpp-data">VPP Data</a> tracks programs
+in the US that incentivize homeowners (and others) to participate in <a
+href="https://www.energy.gov/lpo/articles/doe-releases-new-report-pathways-commercial-liftoff-virtual-power-plants">virtual
+power plants</a> — collections of internet-connected batteries and other
+“distributed energy resources” that utilities can use to balance supply
+and demand. The project’s <a
+href="https://docs.google.com/spreadsheets/d/1Y8epdlr_7npoJBwKd5A3CDpxoYaYY1xI38btHpOn2tw/edit#gid=0">main
+spreadsheet</a> tracks 120+ programs and their variations, spanning 20+
+states and Puerto Rico. Each entry lists the program name, date
+announced, status, state, utility, sector, VPP platform, market
+aggregator, devices covered, monetary incentives, and more.</p>
+<p> </p>
+<p><strong>Moon dents.</strong> The <a
+href="https://astrogeology.usgs.gov/search/map/Moon/Research/Craters/lunar_crater_database_robbins_2018">Lunar
+Crater Database</a>, <a
+href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2018JE005592">compiled
+by Stuart Robbins</a>, provides the location and dimensions of 1.3
+million lunar impact craters. The catalog, “manually identified and
+measured” from lunar orbiter imagery, is “approximately complete for all
+craters larger than about 1–2 km in diameter.” <strong>Related</strong>:
+<a href="https://www.lpi.usra.edu/scientific-databases/">Craters on
+Venus, Ganymede, and Callisto</a>, from the <a
+href="https://www.lpi.usra.edu/about/">Lunar and Planetary
+Institute</a>. <strong>Previously</strong>: <a
+href="https://astrogeology.usgs.gov/search/map/Moon/Geology/Unified_Geologic_Map_of_the_Moon_GIS_v2">A
+1:5,000,000-scale map of Earth’s moon</a> (<a
+href="https://www.data-is-plural.com/archive/2021-12-08-edition/">DIP
+2021.12.08</a>). [h/t <a
+href="https://www.allendowney.com/blog/2022/10/03/the-long-tail-of-disaster/">Allen
+Downey</a>]</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send concave feedback to
+jsvine@gmail.com, or just reply to this email. // Looking for past
+datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. // Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions.</em></p>
+]]></content>
+    <link href="http://www.data-is-plural.com/archive/2023-11-22-edition" rel="alternate"/>
+    <summary>Food access, strategic ecology, Australian law, electricity-balancing incentives, and lunar craters.</summary>
+    <published>2023-11-22T08:00:00-05:00</published>
+  </entry>
   <entry>
     <id>dip-2023-11-15</id>
     <title>Data Is Plural — 2023.11.15 edition</title>
@@ -1111,136 +1265,5 @@ subscribe and to browse past editions.</em></p>
     <link href="http://www.data-is-plural.com/archive/2023-08-23-edition" rel="alternate"/>
     <summary>International cancer statistics, SSVF satisfaction surveys, Katherine Dunham’s data, Singapore’s wages, and Scotland’s common good assets.</summary>
     <published>2023-08-23T08:00:00-04:00</published>
-  </entry>
-  <entry>
-    <id>dip-2023-08-09</id>
-    <title>Data Is Plural — 2023.08.09 edition</title>
-    <updated>2023-08-09T08:00:00-04:00</updated>
-    <content type="CDATA"><![CDATA[<p><em>Mapping material, sweeteners, Federal Reserve communications,
-English families, and winning numbers.</em></p>
-<p> </p>
-<p><em>📬 Reader Rob C used <a
-href="https://github.com/jfjelstul/englishfootball">Josh Fjelstul’s
-English Football Database</a>, featured in <a
-href="https://www.data-is-plural.com/archive/2023-02-01-edition/">DIP
-2023.02.01</a>, to <a
-href="https://twitter.com/rob_clapp/status/1688604274471624704">examine
-what happens after teams get promoted and relegated</a>. (Have you
-published something with data you found via DIP? <a
-href="https://docs.google.com/forms/d/e/1FAIpQLSdXXD5eO05w0Xa7bwG3Ppia3uzr_o3y-xDEZuWRfXbCfCu_XA/viewform">Click
-here to let me know</a>.)</em></p>
-<p> </p>
-<p><strong>Much mapping material.</strong> The <a
-href="https://overturemaps.org/">Overture Maps Foundation</a> has <a
-href="https://overturemaps.org/overture-maps-foundation-releases-first-world-wide-open-map-dataset/">released</a>
-its <a
-href="https://overturemaps.org/download/overture-july-alpha-release-notes/">first
-datasets</a>, which include 59 million “points of interest” (landmarks,
-businesses, parks, etc.), 785 million building outlines, road network
-data, and administrative boundaries. The initiative, which is steered by
-several giant tech companies, “could help third-party developers use
-maps that don’t rely on Google and Apple,” <a
-href="https://www.theverge.com/2023/7/26/23808274/meta-microsoft-amazon-overture-open-source-mapping">The
-Verge’s Emma Roth writes</a>. The <a
-href="https://github.com/OvertureMaps/data">datasets</a> draw on a range
-of sources, including the project’s member-companies, <a
-href="https://www.openstreetmap.org/">OpenStreetMap</a>, and USGS’s <a
-href="https://www.usgs.gov/3d-elevation-program">3D Elevation
-Program</a>. <strong>Read more</strong>: “<a
-href="https://til.simonwillison.net/overture-maps/overture-maps-parquet">Exploring
-the Overture Maps places data using DuckDB, sqlite-utils and
-Datasette</a>,” by <a href="https://simonwillison.net/">Simon
-Willison</a>, who considers the data release “a really big deal.” [h/t
-<a href="https://twitter.com/Arithmomaniac">Avi Levin</a>]</p>
-<p> </p>
-<p><strong>Sweeteners.</strong> The US Department of Agriculture’s <a
-href="https://www.ers.usda.gov/data-products/sugar-and-sweeteners-yearbook-tables.aspx">Sugar
-and Sweeteners Yearbook Tables</a> provide “summary statistics on sugar,
-sugarbeets, sugarcane, corn sweeteners (dextrose, glucose, and
-high-fructose corn syrup), and honey.” Compiled by the agency’s <a
-href="https://www.ers.usda.gov/">Economic Research Service</a> from a <a
-href="https://www.ers.usda.gov/data-products/sugar-and-sweeteners-yearbook-tables/documentation/">range
-of national, international, and industry sources</a>, the statistics are
-provided as regularly-updated spreadsheets, many of which go back
-multiple decades. They estimate global and country-level production,
-supply, distribution, and prices, as well as US imports and consumption.
-[h/t <a href="https://www.linkedin.com/in/shlarson/">Sam Larson</a>]</p>
-<p> </p>
-<p><strong>Federal Reserve communications.</strong> <a
-href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4447632">Agam
-Shah et al.</a> have compiled a corpus of key communications by the US
-Federal Reserve’s <a
-href="https://www.federalreserve.gov/monetarypolicy/fomc.htm">Federal
-Open Market Committee</a>, which “controls the three tools of monetary
-policy — open market operations, the discount rate, and reserve
-requirements.” Gathered from the Fed’s website, the corpus includes all
-meeting minutes and speeches from 1996 to mid-October 2022, and all
-press conferences from April 2011 to mid-October 2022. The <a
-href="https://github.com/gtfintechlab/fomc-hawkish-dovish">published
-records include</a> the <a
-href="https://github.com/gtfintechlab/fomc-hawkish-dovish/tree/main/data/raw_data">raw
-text</a> and <a
-href="https://github.com/gtfintechlab/fomc-hawkish-dovish/tree/main/data/master_files">metadata</a>
-of each communication, as well as <a
-href="https://github.com/gtfintechlab/fomc-hawkish-dovish/tree/main/data/filtered_data">datasets
-filtered to key sentences</a>. <strong>Previously</strong>: <a
-href="https://www.brookings.edu/research/diversity-within-the-federal-reserve-system/">Federal
-Reserve Bank directors</a> (<a
-href="https://www.data-is-plural.com/archive/2021-05-05-edition/">DIP
-2021.05.05</a>) and <a
-href="https://www.philadelphiafed.org/surveys-and-data/real-time-data-research/greenbook">Fed
-forecasts</a> (<a
-href="https://www.data-is-plural.com/archive/2018-02-07-edition/">DIP
-2018.02.07</a>).</p>
-<p> </p>
-<p><strong>English families.</strong> The <a
-href="http://neilcummins.com/foe.html">Families of England</a> project,
-led by economic historians <a
-href="https://faculty.econ.ucdavis.edu/faculty/gclark/">Gregory
-Clark</a> and <a href="http://neilcummins.com/">Neil Cummins</a>, aims
-“to reconstruct the economic and social position, and the demography, of
-a representative set of English families” over time. A <a
-href="https://www.pnas.org/doi/10.1073/pnas.2300926120">recent paper by
-Clark</a> includes a <a
-href="https://www.pnas.org/doi/10.1073/pnas.2300926120#data-availability">public
-version of the dataset</a>, which “details the family connections of
-422,374 people with rarer surnames in England for births from 1600 to
-2022.” The dataset, based in part on genealogies from the <a
-href="https://one-name.org/about-the-guild/">Guild of One-Name
-Studies</a>, indicates (where available) each person’s years of birth,
-marriage, and death, plus indicators of literacy, sex, occupational
-status, and more. [h/t <a href="http://knosof.co.uk/ESEUR/">Derek M.
-Jones</a>]</p>
-<p> </p>
-<p><strong>Winning numbers.</strong> New York State’s Gaming Commission
-<a
-href="https://data.ny.gov/browse?limitTo=datasets&amp;tags=new+york+lottery&amp;sortBy=most_accessed&amp;utf8=%E2%9C%93">publishes
-various lottery-related datasets</a>, including the winning numbers for
-many national and state lotteries, such as <a
-href="https://data.ny.gov/Government-Finance/Lottery-Powerball-Winning-Numbers-Beginning-2010/d6yy-54nr">Powerball</a>
-(since 2010), <a
-href="https://data.ny.gov/Government-Finance/Lottery-Mega-Millions-Winning-Numbers-Beginning-20/5xaw-6ayf">Mega
-Millions</a> (since 2002), and <a
-href="https://data.ny.gov/Government-Finance/Lottery-Pick-10-Winning-Numbers-Beginning-1987/bycu-cw7c">Pick
-10</a> (since 1987). New York isn’t alone; the Colorado Lottery, for
-instance, <a
-href="https://www.coloradolottery.com/en/player-tools/winning-history/">also
-publishes downloadable drawing histories</a>. Their Powerball results go
-back to August 2001 and include the jackpot values, unavailable from New
-York. <strong>As seen in</strong>: “<a
-href="https://www.zachseward.com/the-jackpot-is-a-lie/">The jackpot is a
-lie</a>,” by <a href="https://www.zachseward.com/">Zach Seward</a>.</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send lucky feedback to
-jsvine@gmail.com, or just reply to this email. // Looking for past
-datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. // Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and to browse past editions.</em></p>
-]]></content>
-    <link href="http://www.data-is-plural.com/archive/2023-08-09-edition" rel="alternate"/>
-    <summary>Mapping material, sweeteners, Federal Reserve communications, English families, and winning numbers.</summary>
-    <published>2023-08-09T08:00:00-04:00</published>
   </entry>
 </feed>
