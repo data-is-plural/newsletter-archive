@@ -6,7 +6,165 @@
     <description>A weekly newsletter of useful/curious datasets.</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>https://github.com/data-is-plural/newsletter-archive</generator>
-    <lastBuildDate>Wed, 22 Nov 2023 08:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 29 Nov 2023 08:00:00 -0500</lastBuildDate>
+    <item>
+      <title>Data Is Plural — 2023.11.29 edition</title>
+      <link>http://www.data-is-plural.com/archive/2023-11-29-edition</link>
+      <description>Political violence and protests, seafloor depths, payment choices, legal cannabis sales, and romance book covers.</description>
+      <content:encoded><![CDATA[<p><em>Political violence and protests, seafloor depths, payment
+choices, legal cannabis sales, and romance book covers.</em></p>
+<p> </p>
+<p><em>🎙 Just released: <a
+href="https://podcast.data-is-plural.com/2159594/14053517-s2e2-income-patterns">The
+second episode</a> of the second season of the <a
+href="https://podcast.data-is-plural.com/">Data Is Plural podcast</a>.
+This episode’s guest is <a href="https://www.illenin.com/">Illenin
+Kondo</a> one of the economists behind the <a
+href="https://www.minneapolisfed.org/institute/income-distributions-and-dynamics-in-america">Income
+Distributions and Dynamics in America</a> (IDDA) dataset and resource,
+featured in <a
+href="https://www.data-is-plural.com/archive/2023-10-11-edition/">DIP
+2023.10.11</a>. <a
+href="https://podcast.data-is-plural.com/2159594/14053517-s2e2-income-patterns">Click
+here to listen</a>.</em></p>
+<p> </p>
+<p><em>🎙 And ICYMI: <a
+href="https://podcast.data-is-plural.com/2159594/14011826-s2e1-jeans-pockets">The
+first episode of the season</a>, with <a
+href="http://jandiehmdesigns.com/">Jan Diehm</a> and <a
+href="https://www.linkedin.com/in/amberrthomas/">Amber Thomas</a>
+discussing their <a
+href="https://pudding.cool/2018/08/pockets/">data-driven investigation
+into jeans pockets</a> (<a
+href="https://www.data-is-plural.com/archive/2018-08-22-edition/">DIP
+2018.08.22</a>).</em></p>
+<p> </p>
+<p><strong>Political violence and protests.</strong> The <a
+href="https://acleddata.com/about-acled/">Armed Conflict Location &amp;
+Event Data Project</a> “collects real-time data on the locations, dates,
+actors, fatalities, and types of all reported political violence and
+protest events around the world.” <a
+href="https://www.data-is-plural.com/archive/2017-11-29-edition/">First
+featured in DIP six years ago</a>, ACLED has since <a
+href="https://acleddata.com/about-acled/#history">expanded
+substantially</a>. Most notably, <a
+href="https://acleddata.com/curated-data-files/">its datasets</a> are no
+longer limited to Africa and Asia; they now cover all countries and
+territories. The project has <a
+href="https://acleddata.com/2019/03/14/acled-introduces-new-event-types-and-sub-event-types/">updated
+its event types</a> — battles, “explosions/remote violence,” violence
+against civilians, riots, protests, and “strategic developments” — and
+added sub-categories. It has also developed topical subsets, such <a
+href="https://acleddata.com/political-violence-targeting-women/">political
+violence targeting women</a> and <a
+href="https://acleddata.com/2023/06/22/special-issue-violence-against-local-officials/">violence
+against local officials and administrators</a>.</p>
+<p> </p>
+<p><strong>Seafloor depths.</strong> The <a
+href="https://iho.int/">International Hydrographic Organization</a>’s <a
+href="https://www.ngdc.noaa.gov/iho/">Data Centre for Digital
+Bathymetry</a>, established in 1990, hosts dozens of terabytes of
+“oceanic depth soundings acquired with multibeam and singlebeam sonars
+by hydrographic, oceanographic and industry vessels during surveys or
+while on passage.” It also provides access to depth data <a
+href="https://iho.int/en/crowdsourced-bathymetry">crowdsourced</a> from
+mariners, who agree to attach logging devices to their ships’ <a
+href="https://en.wikipedia.org/wiki/Echo_sounding">echosounders</a>.
+<strong>Read more</strong>: “<a
+href="https://www.bbc.com/future/article/20230929-can-a-map-of-the-ocean-floor-be-crowdsourced">Can
+a map of the ocean floor be crowdsourced?</a>” by <a
+href="https://lauratrethewey.ca/">ocean journalist Laura Trethewey</a>
+for the BBC. <strong>Previously</strong>: <a
+href="https://www.gebco.net/data_and_products/gridded_bathymetry_data/arctic_ocean/">The
+Arctic seafloor</a> (<a
+href="https://www.data-is-plural.com/archive/2020-07-22-edition/">DIP
+2020.07.22</a>) from the <a
+href="https://www.gebco.net/about_us/overview/">General Bathymetric
+Chart of the Oceans</a>, another IHO project. [h/t <a
+href="https://www.numlock.com/p/numlock-news-october-3-2023-taco">Walt
+Hickey</a>]</p>
+<p> </p>
+<p><strong>How we pay.</strong> The <a
+href="https://www.atlantafed.org/banking-and-payments/consumer-payments/survey-and-diary-of-consumer-payment-choice">Survey
+and Diary of Consumer Payment Choice</a>, run annually by a
+collaboration of Federal Reserve Banks, “aims to provide a comprehensive
+understanding of the payment behavior of US consumers.” The survey
+component inquires about demographics, habits, and preferences,
+including respondents’ use of different payment methods (cash, check,
+credit card, debit card, mobile payments, et cetera). The diary
+component asks participants to record their account balances and every
+transaction they made during a three-day period. The <a
+href="https://www.atlantafed.org/banking-and-payments/consumer-payments/survey-and-diary-of-consumer-payment-choice/2022-survey-and-diary">most
+recent iteration</a> features responses from 4,700+ people in October
+2022; the <a
+href="https://www.atlantafed.org/banking-and-payments/consumer-payments/survey-and-diary-of-consumer-payment-choice/2022-survey-and-diary#Tab3">data
+downloads</a> include summary tables and anonymized microdata. [h/t <a
+href="https://read.chartr.co/newsletters/2023/11/5/cash-stuff">Chartr</a>]</p>
+<p> </p>
+<p><strong>Legal cannabis sales.</strong> Colorado’s Department of
+Revenue publishes a <a
+href="https://cdor.colorado.gov/data-and-reports/marijuana-data">range
+of data about the state’s legal marijuana industry</a>, including
+spreadsheets of <a
+href="https://cdor.colorado.gov/data-and-reports/marijuana-data/marijuana-sales-reports">monthly
+sales totals</a> and <a
+href="https://cdor.colorado.gov/data-and-reports/marijuana-data/marijuana-tax-reports">taxes
+collected</a> by county and medical/retail status. Other states that
+have legalized recreational marijuana and publish downloadable,
+machine-readable sales data include <a
+href="https://www.cdtfa.ca.gov/dataportal/catalog.htm?subcategory=Cannabis%20Taxes">California</a>,
+<a
+href="https://data.ct.gov/Health-and-Human-Services/Cannabis-Retail-Sales-by-Week-Ending/ucaf-96h6">Connecticut</a>,
+<a
+href="https://cannabis.illinois.gov/research-and-data/sales-figures.html">Illinois</a>,
+<a
+href="https://www.maine.gov/revenue/taxes/tax-policy-office/sales-tax-reports">Maine</a>,
+<a
+href="https://masscannabiscontrol.com/open-data/data-catalog/">Massachusetts</a>,
+<a href="https://crop.rld.nm.gov/data-catalog.html">New Mexico</a>, <a
+href="https://www.oregon.gov/olcc/marijuana/pages/marijuana-market-data.aspx">Oregon</a>,
+and <a
+href="https://lcb.wa.gov/records/frequently-requested-lists">Washington</a>.
+Those with data in PDFs include <a
+href="https://azdor.gov/reports-statistics-and-legal-research/marijuana-tax-collection">Arizona</a>,
+<a
+href="https://mmcc.maryland.gov/Pages/Data-and-Reports.aspx">Maryland</a>,
+<a
+href="https://www.michigan.gov/cra/resources/cannabis-regulatory-agency-licensing-reports/cannabis-regulatory-agency-statistical-report">Michigan</a>,
+<a href="https://mtrevenue.gov/cannabis-sales-reports/">Montana</a>, <a
+href="https://www.nj.gov/cannabis/resources/reports-stats-info/">New
+Jersey</a>, and <a
+href="https://dbr.ri.gov/office-cannabis-regulation/data">Rhode
+Island</a>. [h/t <a
+href="https://github.com/cjwinchester/co-weed-sales-data">Cody
+Winchester</a>]</p>
+<p> </p>
+<p><strong>Romance book covers.</strong> “What does a happily ever after
+look like?” asks <a href="https://aliceyliang.com/">Alice Liang</a>,
+whose <a href="https://pudding.cool/2023/10/romance-covers/">visual
+essay in The Pudding</a> examines the <a
+href="https://observablehq.com/@aliceyliang/what-does-a-happily-ever-after-look-like-extension">covers
+of 1,400+ books</a> featured in <a
+href="https://www.publishersweekly.com/pw/by-topic/new-titles/index.html">Publishers
+Weekly’s announcements for the genre</a>. <a
+href="https://docs.google.com/spreadsheets/d/1Rxz5IFE16bA9pPAY5_B5LhitvPDIlYrlMwp7fmszwOA/edit#gid=0">Liang’s
+spreadsheet</a> provides each book’s title, author, publisher,
+publication date, announcement year/season, ISBN, cover image, and
+several assessments of the cover: whether its style is photorealistic or
+illustrated, whether it features someone partially undressed, and
+whether it depicts at least one person of color.</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send genre-bending
+feedback to jsvine@gmail.com, or just reply to this email. // Looking
+for past datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. // Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions.</em></p>
+]]></content:encoded>
+      <guid isPermaLink="false">dip-2023-11-29</guid>
+      <pubDate>Wed, 29 Nov 2023 08:00:00 -0500</pubDate>
+    </item>
     <item>
       <title>Data Is Plural — 2023.11.22 edition</title>
       <link>http://www.data-is-plural.com/archive/2023-11-22-edition</link>
@@ -1125,133 +1283,6 @@ subscribe and to browse past editions.</em></p>
 ]]></content:encoded>
       <guid isPermaLink="false">dip-2023-09-06</guid>
       <pubDate>Wed, 06 Sep 2023 08:00:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Data Is Plural — 2023.08.23 edition</title>
-      <link>http://www.data-is-plural.com/archive/2023-08-23-edition</link>
-      <description>International cancer statistics, SSVF satisfaction surveys, Katherine Dunham’s data, Singapore’s wages, and Scotland’s common good assets.</description>
-      <content:encoded><![CDATA[<p><em>International cancer statistics, SSVF satisfaction surveys,
-Katherine Dunham’s data, Singapore’s wages, and Scotland’s common good
-assets.</em></p>
-<p> </p>
-<p><em>📬 Reader <a href="https://katiemarriner.com">Katie</a> used the
-<a
-href="https://www.dol.gov/agencies/wb/topics/featured-childcare">National
-Database of Childcare Prices</a>, featured in <a
-href="https://www.data-is-plural.com/archive/2023-04-26-edition/">DIP
-2023.04.26</a>, to create <a
-href="https://www.marketwatch.com/story/the-rising-cost-of-childcare-is-making-life-impossible-for-parents-use-our-calculator-to-track-the-expense-where-you-live-355801c5">an
-interactive tool for MarketWatch</a>; it compares the average costs in a
-given county to national averages, the local median income, and
-(optionally) your own income. (Have you published something with data
-you found via DIP? <a
-href="https://docs.google.com/forms/d/e/1FAIpQLSdXXD5eO05w0Xa7bwG3Ppia3uzr_o3y-xDEZuWRfXbCfCu_XA/viewform">Click
-here to let me know</a>.)</em></p>
-<p> </p>
-<p><strong>International cancer statistics.</strong> The World Health
-Organization’s <a href="https://gco.iarc.fr/">Global Cancer
-Observatory</a> provides <a
-href="https://gco.iarc.fr/projects">interfaces</a> to a range of studies
-and statistics. Its <a href="https://gco.iarc.fr/today/home">Cancer
-Today</a> portal features tables, charts, and maps of “incidence,
-mortality and prevalence for year 2020 in 185 countries or territories
-for 36 cancer types by sex and age group.” Those figures come from the
-<a
-href="https://acsjournals.onlinelibrary.wiley.com/doi/10.3322/caac.21660">latest
-GLOBOCAN estimates</a>, calculated by the WHO’s <a
-href="https://www.iarc.who.int/">International Agency for Research on
-Cancer</a> based on data from national and regional registries.
-<strong>Note</strong>: “Caution must be exercised when interpreting
-these estimates, given the limited quality and coverage of cancer data
-worldwide at present, particularly in low- and middle-income countries,”
-<a href="https://gco.iarc.fr/today/about">the researchers warn</a>.
-<strong>Previously</strong>: <a
-href="https://cancerstatisticscenter.cancer.org/">Statistics from the
-American Cancer Society</a> (<a
-href="https://www.data-is-plural.com/archive/2016-01-27-edition/">DIP
-2016.01.27</a>).</p>
-<p> </p>
-<p><strong>SSVF satisfaction surveys.</strong> The Veterans
-Administration’s <a
-href="https://www.va.gov/homeless/ssvf/index.html">Supportive Services
-for Veteran Families</a> program aims to “to promote housing stability
-among very low-income Veteran families who reside in or are
-transitioning to permanent housing.” The VA outsources those services to
-a network of 200+ selected nonprofits, which it grants hundreds of
-millions of dollars per year. When a veteran exits a grantee’s program,
-they’re invited to complete a satisfaction survey. The <a
-href="https://www.data-liberation-project.org/">Data Liberation
-Project</a> (which, disclosure, I run) <a
-href="https://www.data-liberation-project.org/requests/ssvf-satisfaction-surveys/">filed
-a FOIA request</a> for the survey data, and <a
-href="https://www.data-liberation-project.org/datasets/va-ssvf-survey-data/">received
-three spreadsheets in return</a> (among other documents), <a
-href="https://docs.google.com/document/d/1unanFEUnBDVBMK9pmpb0EVvRlpB-jtRC6gwlXSN-If4/edit">detailing</a>
-nearly 40,000 anonymized responses from fiscal years 2016–20 and
-2022.</p>
-<p> </p>
-<p><strong>Katherine Dunham.</strong> <a
-href="https://dunhamsdata.org/">Dunham’s Data</a>, a project led by <a
-href="https://www.kateelswit.org/">Kate Elswit</a> and <a
-href="https://dance.osu.edu/people/bench.9">Harmony Bench</a>, “explores
-the kinds of questions and problems that make the analysis and
-visualization of data meaningful for dance history, through the case
-study of 20th century African American choreographer Katherine Dunham”
-(<a
-href="https://en.wikipedia.org/wiki/Katherine_Dunham">1909–2006</a>).
-Drawing on materials “held by seven archives across the United States,”
-the team has built <a
-href="https://dunhamsdata.org/portfolio/datasets">three core
-datasets</a>, accompanied by <a
-href="https://dunhamsdata.org/index.php/portfolio/essays">essays</a>, <a
-href="https://dunhamsdata.org/index.php/portfolio/visualizations">visualizations</a>,
-and <a href="https://dunhamsdata.org/blog/code-tutorial-release">code
-repositories</a>. They “document the daily itinerary of Dunham’s touring
-and travel from the 1930s-60s; the over 300 dancers, drummers, and
-singers who appeared with her; and the shifting configurations of the
-nearly 300 repertory entities they performed.” [h/t <a
-href="https://www.linkedin.com/in/selenachau/">Selena Chau</a>]</p>
-<p> </p>
-<p><strong>Singaporean wages.</strong> Singapore’s Ministry of Manpower
-released its <a
-href="https://stats.mom.gov.sg/Pages/Occupational-Wages-Tables2022.aspx">2022
-wage tables</a> last month. The tables list the 25th, 50th, and 75th
-percentiles of basic and gross wages for more than 300 occupations by
-industry, plus median wages by worker sex, by worker age, and by
-establishment size. <strong>As seen in</strong>: <a
-href="https://www.straitstimes.com/multimedia/graphics/2023/07/salary-guide-2023/index.html">The
-Straits Times’ benchmarking tool</a> and DIP reader <a
-href="https://www.josesho.com/">Joses Ho</a>’s <a
-href="https://observablehq.com/@josesho/singapore-gender-wage-gap-2022">interactive
-chart of Singapore’s gender wage gaps</a>.</p>
-<p> </p>
-<p><strong>Scotland’s Common Good.</strong> Scotland’s <a
-href="https://www.legislation.gov.uk/aosp/1491/19/introduction">Common
-Good Act</a>, passed in 1491, creates a legal distinction for historical
-property owned by local authorities — often land and buildings, but also
-“moveable assets” such as paintings, <a
-href="https://en.wikipedia.org/wiki/Livery_collar">chains of office</a>,
-and furniture. <a href="https://commongood.scot/">CommonGood.scot</a>,
-<a href="https://commongood.scot/launching-commongood-scot/">launched in
-April</a> by investigative journalism cooperative <a
-href="https://theferret.scot/about-us/">The Ferret</a>, presents a <a
-href="https://commongood.scot/search/">searchable</a>, <a
-href="https://commongood.scot/map/">browsable</a>, and <a
-href="https://commongood.scot/data/">downloadable</a> dataset of 2,900+
-of these common good assets, <a
-href="https://commongood.scot/faqs-common-good-funds/">compiled</a>
-largely through freedom of information requests. [h/t Chris H]</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send communally-owned
-feedback to jsvine@gmail.com, or just reply to this email. // Looking
-for past datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. // Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and to browse past editions.</em></p>
-]]></content:encoded>
-      <guid isPermaLink="false">dip-2023-08-23</guid>
-      <pubDate>Wed, 23 Aug 2023 08:00:00 -0400</pubDate>
     </item>
   </channel>
 </rss>
