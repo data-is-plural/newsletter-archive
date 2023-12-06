@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.data-is-plural.com</id>
   <title>Data Is Plural</title>
-  <updated>2023-11-29T08:00:00-05:00</updated>
+  <updated>2023-12-06T08:00:00-05:00</updated>
   <author>
     <name>Jeremy Singer-Vine</name>
     <email>jsvine@gmail.com</email>
@@ -10,6 +10,161 @@
   <link href="https://www.data-is-plural.com" rel="alternate"/>
   <generator>https://github.com/data-is-plural/newsletter-archive</generator>
   <subtitle>A weekly newsletter of useful/curious datasets.</subtitle>
+  <entry>
+    <id>dip-2023-12-06</id>
+    <title>Data Is Plural — 2023.12.06 edition</title>
+    <updated>2023-12-06T08:00:00-05:00</updated>
+    <content type="CDATA"><![CDATA[<p><em>Nuclear weapon systems, social media platform policies, EU court
+cases, the Fed’s “dot plots,” and 350,757 coin flips.</em></p>
+<p> </p>
+<p><em>🎙 Just released: <a
+href="https://podcast.data-is-plural.com/2159594/14096919-s2e3-missing-migrants">The
+third episode</a> of the second season of the <a
+href="https://podcast.data-is-plural.com/">Data Is Plural podcast</a>.
+This episode’s guest is <a
+href="https://gmdac.iom.int/julia-black">Julia Black</a>, coordinator of
+the <a href="https://www.iom.int/">International Organization for
+Migration</a>’s <a href="https://missingmigrants.iom.int/">Missing
+Migrants Project</a>, featured in <a
+href="https://www.data-is-plural.com/archive/2020-01-15-edition/">DIP
+2020.01.15</a>. And ICYMI: <a
+href="https://podcast.data-is-plural.com/2159594/14011826-s2e1-jeans-pockets">Episode
+1</a> (on jean pocket sizes) and <a
+href="https://podcast.data-is-plural.com/2159594/14053517-s2e2-income-patterns">Episode
+2</a> (on US income distributions and dynamics).</em></p>
+<p> </p>
+<p><em>📬 Reader <a
+href="https://www.linkedin.com/in/david-johnston-45786914/">David
+Johnston</a> has built an <a
+href="https://www.novypro.com/project/dude-wheres-my-kiahyundai">interactive
+visualization</a> of the <a
+href="https://www.vice.com/en/article/pkaq9z/us-cities-have-a-staggering-problem-of-kia-and-hyundai-thefts-this-data-shows-it">Kia/Hyundai
+theft data</a> featured in <a
+href="https://www.data-is-plural.com/archive/2023-10-11-edition/">DIP
+2023.10.11</a>. (Have you published something with data you found via
+DIP? <a
+href="https://docs.google.com/forms/d/e/1FAIpQLSdXXD5eO05w0Xa7bwG3Ppia3uzr_o3y-xDEZuWRfXbCfCu_XA/viewform">Click
+here to let me know</a>.)</em></p>
+<p> </p>
+<p><strong>Nuclear weapon systems.</strong> The <a
+href="https://councilonstrategicrisks.org/about/mission-and-vision/">Council
+on Strategic Risks</a>’s <a
+href="https://councilonstrategicrisks.org/nolan/nuclear-systems-project/">Nuclear
+Weapon Systems Project</a> aims “to document every type of nuclear
+weapon system ever deployed” by China, France, Russia, the UK, and the
+US — the five “nuclear weapon states” per the <a
+href="https://en.wikipedia.org/wiki/Treaty_on_the_Non-Proliferation_of_Nuclear_Weapons">Nuclear
+Non-Proliferation Treaty</a>. The project’s <a
+href="https://docs.google.com/spreadsheets/d/1oaRJKHwF9p48tPGHBJw5tB13YgsllLm4MAHOpT6tSpg/edit#gid=804863401">core
+dataset</a>, <a
+href="https://councilonstrategicrisks.org/2023/11/29/introducing-the-nuclear-weapon-systems-project/">launched
+last week</a>, currently covers 250+ such systems. For each, it provides
+the system’s name, country, type (gravity bomb, torpedo, ICBM, etc.),
+military branches in charge of deployment, “mission” (tactical,
+strategic, or hybrid), years introduced and retired, replacement system,
+and more. <strong>Previously</strong>: <a
+href="https://fas.org/initiative/status-world-nuclear-forces/">Nuclear
+stockpiles</a> (<a
+href="https://www.data-is-plural.com/archive/2022-11-02-edition/">DIP
+2022.11.02</a>), <a
+href="https://github.com/data-is-plural/nuclear-explosions">nuclear
+explosions</a> (<a
+href="https://www.data-is-plural.com/archive/2016-03-23-edition/">DIP
+2016.03.23</a>), and <a
+href="http://www.matthewfuhrmann.com/datasets.html">uranium/plutonium
+facilities</a> (<a
+href="https://www.data-is-plural.com/archive/2016-02-24-edition/">DIP
+2016.02.24</a>).</p>
+<p> </p>
+<p><strong>Social media platform policies.</strong> The <a
+href="https://www.platformgovernancearchive.org/">Platform Governance
+Archive</a> “collects and curates policies of major social media
+platforms in a long-term perspective.” The <a
+href="https://www.platformgovernancearchive.org/data/dataset-pga-v1-historical-dataset/">initial
+version of the archive</a> used the <a
+href="https://web.archive.org/">Wayback Machine</a> retrospectively to
+collect policies published 2005–2021 by Facebook, Instagram, Twitter,
+YouTube. The <a
+href="https://www.platformgovernancearchive.org/data/dataset-pga-v2-ongoing-collection/">new
+version</a>, <a
+href="https://www.platformgovernancearchive.org/2023/re-launch-of-platform-governance-archive-pga-with-new-dataset-access-options-website-and-data-paper/">part
+of a re-launch this year</a>, uses web-scraping <a
+href="https://github.com/OpenTermsArchive/pga-versions">to track 18
+platforms’ policies daily</a>. <strong>Related</strong>: The new version
+is a collaboration with the <a href="https://opentermsarchive.org/">Open
+Terms Archive</a>, an evolution of <a
+href="https://disinfo.quaidorsay.fr/en/our-work">work</a> by France’s
+Ambassador for Digital Affairs to track terms of service, featured in <a
+href="https://www.data-is-plural.com/archive/2021-01-20-edition/">DIP
+2021.01.20</a>.</p>
+<p> </p>
+<p><strong>EU court cases.</strong> The <a
+href="https://www.iuropa.pol.gu.se/about">IUROPA Project</a>’s <a
+href="https://www.iuropa.pol.gu.se/cjeu-database">CJEU Database</a> “is
+the most complete collection of research-ready data about the Court of
+Justice of the European Union (CJEU) and European Union (EU) law.”
+Developed from several official sources by <a
+href="https://www.cambridge.org/core/journals/journal-of-law-and-courts/article/cjeu-database-platform-decisions-and-decisionmakers/69151433D88FD163B9CC997296CEE540">Stein
+Arne Brekke et al.</a>, the <a
+href="https://www.iuropa.pol.gu.se/cjeu-database/cjeu-database-platform">database
+provides tables</a> of all cases (45,000+), parties (85,000+),
+proceedings (47,000+), decisions (50,000+), citations (1,000,000+),
+judges (270+), and more from the court’s inception in 1952 through 2022.
+That first table, for instance, lists each case’s name, ID, sub-court,
+year, judgment status, appeal status, and additional details. [h/t <a
+href="https://github.com/erikgahner/PolData/commit/062d1fc66219f9f954ed66592d2633477a40c264">Erik
+Gahner Larsen</a>]</p>
+<p> </p>
+<p><strong>The Fed’s “dot plots.”</strong> <a
+href="https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm">Four
+times a year</a>, the US Federal Reserve’s <a
+href="https://www.federalreserve.gov/monetarypolicy/fomc.htm">Federal
+Open Market Committee</a> publishes its “Summary of Economic
+Projections” reports. Those reports contain a chart that’s come to be
+known as the Fed’s “<a
+href="https://www.britannica.com/money/what-is-the-fed-dot-plot">dot
+plot</a>,” which tallies the committee members’ forecasts of the
+year-end <a
+href="https://en.wikipedia.org/wiki/Federal_funds_rate">federal funds
+interest rate</a> for this and subsequent years. Upon <a
+href="https://mastodon.palewi.re/@palewire/111099055527649500">noticing</a>
+“no simple, easy-to-access data file” of the chart’s information,
+journalist <a href="https://palewi.re/who-is-ben-welsh/">Ben Welsh</a>
+wrote <a href="https://github.com/palewire/fed-dot-plot-scraper">a
+scraper</a> to create <a
+href="https://github.com/palewire/fed-dot-plot-scraper/blob/main/data/dotplot.csv">such
+a file</a>, currently covering 2018–present.
+<strong>Previously</strong>: <a
+href="https://github.com/gtfintechlab/fomc-hawkish-dovish">Federal
+Reserve communications</a> collected by <a
+href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4447632">Agam
+Shah et al.</a> (<a
+href="https://www.data-is-plural.com/archive/2023-08-09-edition/">DIP
+2023.08.09</a>).</p>
+<p> </p>
+<p><strong>Many coin flips.</strong> “Many people have flipped coins but
+few have stopped to ponder the statistical and physical intricacies of
+the process,” write <a href="https://arxiv.org/abs/2310.04153">František
+Bartoš et al.</a>, introducing an experiment in which “a group of 48
+people (i.e., all but three of the co-authors) tossed coins of 46
+different currencies × denominations and obtained a total number of
+350,757 coin flips.” The authors have <a
+href="https://osf.io/pxu6r/">published</a> the raw results, images of
+each coin, and videos of the flips. [h/t <a
+href="http://knosof.co.uk/ESEUR/">Derek M. Jones</a>]</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send flipped feedback to
+jsvine@gmail.com, or just reply to this email. // Looking for past
+datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. // Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions.</em></p>
+]]></content>
+    <link href="http://www.data-is-plural.com/archive/2023-12-06-edition" rel="alternate"/>
+    <summary>Nuclear weapon systems, social media platform policies, EU court cases, the Fed’s “dot plots,” and 350,757 coin flips.</summary>
+    <published>2023-12-06T08:00:00-05:00</published>
+  </entry>
   <entry>
     <id>dip-2023-11-29</id>
     <title>Data Is Plural — 2023.11.29 edition</title>
@@ -1183,118 +1338,5 @@ subscribe and to browse past editions.</em></p>
     <link href="http://www.data-is-plural.com/archive/2023-09-13-edition" rel="alternate"/>
     <summary>Political contributions, historical newspaper articles, Prigozhin audio messages, and license plate designs.</summary>
     <published>2023-09-13T08:00:00-04:00</published>
-  </entry>
-  <entry>
-    <id>dip-2023-09-06</id>
-    <title>Data Is Plural — 2023.09.06 edition</title>
-    <updated>2023-09-06T08:00:00-04:00</updated>
-    <content type="CDATA"><![CDATA[<p><em>Eponymic streets, doctors in practice, intra-state ceasefires,
-metabolisms, and The Onion’s “American Voices.”</em></p>
-<p> </p>
-<p><em>📬 Reader <a href="https://twitter.com/isidoremiller">Izzy</a>
-used the <a
-href="https://overturemaps.org/download/overture-july-alpha-release-notes/">Overture
-Maps data</a> featured in <a
-href="https://www.data-is-plural.com/archive/2023-08-09-edition/">DIP
-2023.08.09</a> to <a
-href="https://hex.tech/blog/the-poles-of-brand-inaccessibility/">identify
-the points in the US furthest from various major brands’ stores</a>.
-(Have you published something with data you found via DIP? <a
-href="https://docs.google.com/forms/d/e/1FAIpQLSdXXD5eO05w0Xa7bwG3Ppia3uzr_o3y-xDEZuWRfXbCfCu_XA/viewform">Click
-here to let me know</a>.)</em></p>
-<p> </p>
-<p><strong>Eponymic streets.</strong> <a
-href="https://mappingdiversity.eu/">Mapping Diversity</a>, created by
-the <a href="https://www.europeandatajournalism.eu/">European Data
-Journalism Network</a>, “is a platform for discovering key facts about
-diversity and representation in street names across Europe, and to spark
-a debate about who is missing from our urban spaces.” The interactive
-analysis of 145,000+ streets in 30 major European cities launched in
-March, accompanied by <a
-href="https://www.europeandatajournalism.eu/cp_dataset/street-names-in-european-cities/">spreadsheets</a>
-calculating city-level statistics and listing all the streets named
-after women. Last month the team <a
-href="https://www.europeandatajournalism.eu/cp_data_news/mapping-diversity-full-dataset-release/">released</a>
-its <a
-href="https://drive.google.com/drive/folders/1xBc8EcR2jR2senxMpgIRFE0jafMn23sM">full
-dataset</a>, which provides information for every street examined, plus
-data for six more cities. Each row indicates a street’s country, city,
-and name; whether it’s named after anyone; and, if so, the person’s
-name, gender, and various attributes from <a
-href="https://www.wikidata.org/">Wikidata</a>, such as occupation and
-date of birth. <strong>Previously</strong>: <a
-href="https://geochicasosm.github.io/lascallesdelasmujeres/">Las Calles
-de las Mujeres</a> (<a
-href="https://www.data-is-plural.com/archive/2019-05-29-edition/">DIP
-2019.05.29</a>).</p>
-<p> </p>
-<p><strong>Doctors in practice.</strong> The <a
-href="https://www.ahrq.gov/data/innovations/3p-rd.html">Physician and
-Physician Practice Research Database</a>, published by the US
-government’s <a href="https://www.ahrq.gov/">Agency for Healthcare
-Research and Quality</a>, harmonizes data on medical practices from 13
-participating states. The public-use files provide each practice’s ZIP
-code, number of physicians, most common specialty, organizational <a
-href="https://www.cms.gov/Regulations-and-Guidance/Administrative-Simplification/NationalProvIdentStand">NPI</a>,
-and other characteristics. They also provide statistical aggregates at
-the 3-digit ZIP code level, such as the number of physicians accepting
-Medicare and/or Medicaid, average claims per month, and more. [h/t <a
-href="https://www.infodocket.com/2023/03/28/upcoming-event-u-s-repository-network-action-plan-update-now-available-detailed-agenda-and-updated-schedule-now-available-for-spring-2023-depository-library-council-dlc-virtual-meeting-more-n/">Gary
-Price</a>]</p>
-<p> </p>
-<p><strong>Intra-state ceasefires.</strong> <a
-href="https://journals.sagepub.com/doi/full/10.1177/00220027221129183">Govinda
-Clayton et al.</a>’s <a
-href="https://ceasefireproject.org/download/">Civil Conflict Ceasefire
-Dataset</a> “covers all ceasefires in civil conflict between 1989 and
-2020, including multilateral, bilateral and unilateral arrangements,
-ranging from verbal arrangements to detailed written agreements.” The
-dataset’s 2,200+ ceasefires span 109 conflicts in 66 countries, largely
-based on news articles discussing the agreements. A team of reviewers
-manually coded each instance, indicating its type and stated purpose;
-sides participating; dates declared, entered effect, and ended; and
-more. <strong>Previously</strong>: <a
-href="https://www.peaceagreements.org/">The PA-X Peace Agreements
-Database</a> (<a
-href="https://www.data-is-plural.com/archive/2018-02-28-edition/">DIP
-2018.02.28</a>).</p>
-<p> </p>
-<p><strong>Metabolisms.</strong> Drawing on 20+ published sources, <a
-href="https://www.pnas.org/doi/10.1073/pnas.2303764120">Tori M. Hoehler
-et al.</a> have compiled a <a
-href="https://www.pnas.org/doi/10.1073/pnas.2303764120#supplementary-materials">dataset
-of 10,000+ measurements</a> of metabolic rates of mammals, fish, birds,
-insects, tree saplings, bacteria, and other living organisms. The
-dataset includes several types of metabolic rates (primarily <a
-href="https://en.wikipedia.org/wiki/Basal_metabolic_rate">basal</a>,
-field, and maximum), and a mix of individual-organism and
-species-average measurements.</p>
-<p> </p>
-<p><strong>Vox populi, except not.</strong> <a
-href="https://en.wikipedia.org/wiki/The_Onion">The Onion</a> runs a
-regular feature called “<a
-href="https://www.theonion.com/opinion/american-voices">American
-Voices</a>,” which presents fake quotes from fake people responding to
-not-fake events in the news. <a href="https://codywinchester.com/">Cody
-Winchester</a> has <a
-href="https://codywinchester.com/the-onion-american-voices/">built</a> a
-<a
-href="https://docs.google.com/spreadsheets/d/1kPvF9_zZ375JKr0ATguQwUMXYDYi23HBkzu3uLUw_R8/edit">spreadsheet</a>
-listing the headlines, descriptions, and dates for 7,000+ of these
-features since August 1996; the 23,000+ quotes in them; and the names,
-occupations, and (almost always recycled) photos of the fictional
-personae purportedly quoted.</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send made-up feedback to
-jsvine@gmail.com, or just reply to this email. // Looking for past
-datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. // Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and to browse past editions.</em></p>
-]]></content>
-    <link href="http://www.data-is-plural.com/archive/2023-09-06-edition" rel="alternate"/>
-    <summary>Eponymic streets, doctors in practice, intra-state ceasefires, metabolisms, and The Onion’s “American Voices.”</summary>
-    <published>2023-09-06T08:00:00-04:00</published>
   </entry>
 </feed>
