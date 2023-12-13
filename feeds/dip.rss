@@ -6,7 +6,168 @@
     <description>A weekly newsletter of useful/curious datasets.</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>https://github.com/data-is-plural/newsletter-archive</generator>
-    <lastBuildDate>Wed, 06 Dec 2023 08:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 13 Dec 2023 08:00:00 -0500</lastBuildDate>
+    <item>
+      <title>Data Is Plural — 2023.12.13 edition</title>
+      <link>http://www.data-is-plural.com/archive/2023-12-13-edition</link>
+      <description>NYC shelter counts, US solar facilities, state supreme court justices, antimicrobial peptides, and Finland transport.</description>
+      <content:encoded><![CDATA[<p><em>NYC shelter counts, US solar facilities, state supreme court
+justices, antimicrobial peptides, and Finland transport.</em></p>
+<p> </p>
+<p><em>🎙 Just released: <a
+href="https://podcast.data-is-plural.com/2159594/14138514-s2e4-canadian-wildfires">The
+fourth episode</a> of the second season of the <a
+href="https://podcast.data-is-plural.com/">Data Is Plural podcast</a>.
+This episode’s guest is <a
+href="https://www.linkedin.com/in/bruce-macnab-469766102/">Bruce
+Macnab</a>, head of Canada’s <a
+href="https://cwfis.cfs.nrcan.gc.ca/home">Wildland Fire Information
+System</a>, featured in <a
+href="https://www.data-is-plural.com/archive/2023-06-14-edition/">DIP
+2023.06.14</a>. Stay tuned next week for this season’s fifth and final
+main episode — and look out early next year for a bonus, crossover
+episode by <a href="https://www.loudnumbers.net/podcast">Loud
+Numbers</a>, which will <a
+href="https://www.loudnumbers.net/what-we-do">sonify</a> Canadian
+wildfire data.</em></p>
+<p> </p>
+<p><em>📬 Reader <a href="https://richardbrath.wordpress.com/">Richard
+Brath</a> has constructed a <a
+href="https://codepen.io/Rbrath/full/rNewgde">hierarchical text
+visualization</a> of the <a href="https://www.londonlives.org/">London
+Lives project</a>’s <a
+href="https://github.com/sharonhoward/ll-coroners">18th-century coroner
+inquests data</a>, featured in <a
+href="https://www.data-is-plural.com/archive/2019-04-17-edition/">DIP
+2019.04.17</a>. The visualization appears in Brath’s “<a
+href="https://arxiv.org/abs/2009.02374">Literal Encoding: Text is a
+first-class data encoding</a>” paper and <a
+href="https://richardbrath.wordpress.com/books-and-chapters-by-richard-brath/visualizing-with-text-book-companion-web-site/">related
+book</a>. (Have you published something with data you found via DIP? <a
+href="https://docs.google.com/forms/d/e/1FAIpQLSdXXD5eO05w0Xa7bwG3Ppia3uzr_o3y-xDEZuWRfXbCfCu_XA/viewform">Click
+here to let me know</a>.)</em></p>
+<p> </p>
+<p><strong>NYC shelter counts.</strong> Every night, tens of thousands
+of people stay in New York City homeless shelters, which are managed by
+a half-dozen city agencies. Earlier this year, <a
+href="https://citylimits.org/2023/07/24/as-homeless-population-booms-nyc-steps-closer-to-an-accurate-shelter-census/">thanks
+to a 2022 law</a>, the city began publishing <a
+href="https://data.cityofnewyork.us/City-Government/Local-Law-79-2022-Temporary-Housing-Assistance-Usa/jiwc-ncpi">monthly
+statistics</a> on shelter population counts and average lengths of stay,
+broken down by agency, program, and family composition. One agency, the
+Department of Homeless Services, <a
+href="https://data.cityofnewyork.us/Social-Services/DHS-Daily-Report/k46n-sa2m">publishes
+some structured daily data</a>, but shares its most comprehensive daily
+counts as <a
+href="https://www.nyc.gov/assets/dhs/downloads/pdf/dailyreport.pdf">a
+nightly-overwritten PDF</a>. So <a
+href="https://patrickspauster.com/">Patrick Spauster</a> and <a
+href="https://justanesta.com/">Adrian Nesta</a> have built a <a
+href="https://github.com/anesta95/nyc_shelter_count">data pipeline</a>
+to scrape, archive, and standardize these datasets, and have <a
+href="https://citylimits.org/2023/12/07/tracking-nycs-record-high-homeless-shelter-population/">partnered
+with City Limits</a> to revamp <a
+href="https://citylimits.org/nyc-shelter-count/">the publication’s
+shelter population tracker</a>. In October, more than 143,000 people
+slept in the city’s shelters, the highest monthly count on record.</p>
+<p> </p>
+<p><strong>US solar facilities.</strong> The <a
+href="https://eerscmap.usgs.gov/uspvdb/">United States Large-Scale Solar
+Photovoltaic Database</a>, released last month, maps and describes
+3,600+ solar power facilities with capacities of at least 1 megawatt.
+The project, a collaboration between the Lawrence Berkeley National
+Laboratory and US Geological Survey, includes an <a
+href="https://eerscmap.usgs.gov/uspvdb/viewer/">online viewer</a>, <a
+href="https://eerscmap.usgs.gov/uspvdb/data/">downloadable database</a>,
+and <a href="https://eerscmap.usgs.gov/uspvdb/api-doc/">API</a> (with <a
+href="https://eerscmap.usgs.gov/uspvdb/assets/data/uspvdbApiNotebook.html">example
+usage</a>). The data indicate each facility’s boundary and centroid
+coordinates, state, county, and site type, plus data extracted from <a
+href="https://www.eia.gov/electricity/data/eia860/">EIA Form 860</a>,
+such as capacity, axis type, tilt angle, and more.
+<strong>Related</strong>: A <a href="https://ilsolarmap.com/">map</a>
+and <a
+href="https://github.com/chihacknight/il-solar-map/tree/main/data/v2/final">dataset</a>
+of <a href="https://ilsolarmap.com/about.html">Illinois solar
+installations</a>, large and small, compiled by volunteers at <a
+href="https://chihacknight.org/about">Chi Hack Night</a>.
+<strong>Previously</strong>: The <a
+href="https://globalenergymonitor.org/about/our-story/">Global Energy
+Monitor</a>’s <a
+href="https://globalenergymonitor.org/projects/global-solar-power-tracker/">Global
+Solar Power Tracker</a> (<a
+href="https://www.data-is-plural.com/archive/2022-06-01-edition/">DIP
+2022.06.01</a>). [h/t <a
+href="https://www.threads.net/@katereports">Kate Martin</a> + <a
+href="https://mastodon.garden/@derekeder/111087577677957994">Derek
+Eder</a>]</p>
+<p> </p>
+<p><strong>State supreme court justices.</strong> <a
+href="https://www.cambridge.org/core/journals/state-politics-and-policy-quarterly/article/abs/updating-pajid-scores-for-state-supreme-court-justices-19702019/7EEE00DC60CB4D0F883B7E5BECDE116F">David
+A. Hughes et al.</a>, building on <a
+href="https://www.journals.uchicago.edu/doi/abs/10.1111/0022-3816.00018">prior
+work</a>, have calculated ideology scores (on a conservative-liberal
+continuum) for 1,600+ state supreme court justices from 1970 to 2019.
+For each justice and year, the <a
+href="https://dataverse.unc.edu/dataset.xhtml?persistentId=doi:10.15139/S3/M6U77I">dataset</a>
+provides the justice’s state, last name, political affiliation, the
+authors’ ideology score estimates, and ideology scores produced by two
+other research teams. <strong>Previously</strong>: Ideology estimates
+for <a href="https://americanlegislatures.wordpress.com/">state
+legislators</a> (<a
+href="https://www.data-is-plural.com/archive/2020-01-01-edition/">DIP
+2020.01.01</a>), <a href="https://voteview.com/">members of Congress</a>
+(<a
+href="https://www.data-is-plural.com/archive/2023-03-01-edition/">DIP
+2023.03.01</a>), and <a
+href="https://dataverse.harvard.edu/dataverse/americanideologyproject">local
+populations</a> (<a
+href="https://www.data-is-plural.com/archive/2023-08-02-edition/">DIP
+2023.08.02</a>).</p>
+<p> </p>
+<p><strong>Antimicrobial peptides.</strong> In a <a
+href="https://onlinelibrary.wiley.com/doi/abs/10.1002/pro.4778">recent
+journal article</a>, the University of Nebraska Medical Center’s <a
+href="https://www.unmc.edu/pathology/faculty/bios/wang.html">Guangshun
+Wang</a> discusses the history and future of the <a
+href="https://aps.unmc.edu/">Antimicrobial Peptide Database</a>, which
+his lab launched more than 20 years ago. The database now catalogs
+3,500+ such molecules, which <a
+href="https://en.wikipedia.org/wiki/Antimicrobial_peptides">play an
+important role</a> in the <a
+href="https://en.wikipedia.org/wiki/Innate_immune_system">innate immune
+system</a>. You can <a href="https://aps.unmc.edu/database">search the
+peptides</a> by name, <a href="https://aps.unmc.edu/about">structural
+and functional properties</a>, source organism, and other criteria, and
+can <a href="https://aps.unmc.edu/downloads">download their amino acid
+sequences</a>.</p>
+<p> </p>
+<p><strong>Finland transport.</strong> The <a
+href="https://tieto.traficom.fi/en/">Finnish Transport and
+Communications Agency</a>’s <a
+href="https://tieto.traficom.fi/en/datatraficom/open-data">public
+datasets</a> span a range of topics, including the radio spectrum,
+mobile networks, cybersecurity, registered vehicles, ships, aircraft,
+and more. It also publishes <a
+href="https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/">downloadable
+statistics</a> unavailable from many other countries, such as <a
+href="https://tieto.traficom.fi/en/statistics/statistics-inspections">passenger
+cars’ inspection failure rates by make, model, and year</a> and <a
+href="https://tieto.traficom.fi/en/statistics/statistics-driving-and-theory-tests">driving
+exam results</a>. [h/t <a
+href="https://news.ycombinator.com/item?id=38471254">Stagnant</a>]</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send road-safe feedback
+to jsvine@gmail.com, or just reply to this email. // Looking for past
+datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. // Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions.</em></p>
+]]></content:encoded>
+      <guid isPermaLink="false">dip-2023-12-13</guid>
+      <pubDate>Wed, 13 Dec 2023 08:00:00 -0500</pubDate>
+    </item>
     <item>
       <title>Data Is Plural — 2023.12.06 edition</title>
       <link>http://www.data-is-plural.com/archive/2023-12-06-edition</link>
@@ -1193,138 +1354,6 @@ subscribe and to browse past editions.</em></p>
 ]]></content:encoded>
       <guid isPermaLink="false">dip-2023-09-20</guid>
       <pubDate>Wed, 20 Sep 2023 08:00:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Data Is Plural — 2023.09.13 edition</title>
-      <link>http://www.data-is-plural.com/archive/2023-09-13-edition</link>
-      <description>Political contributions, historical newspaper articles, Prigozhin audio messages, and license plate designs.</description>
-      <content:encoded><![CDATA[<p><em>Political contributions, historical newspaper articles, Prigozhin
-audio messages, and license plate designs.</em></p>
-<p> </p>
-<p><em>📬 Reader <a
-href="https://michael-sparks13.github.io/portfolio/">Michael</a> built a
-<a href="https://michael-sparks13.github.io/canadian-wildfires/">map
-comparing Canada’s 2023 fire season to earlier years</a>, using data
-from the <a href="https://cwfis.cfs.nrcan.gc.ca/home">Canadian Wildland
-Fire Information System</a> featured in <a
-href="https://www.data-is-plural.com/archive/2023-06-14-edition/">DIP
-2023.06.14</a>. (Have you published something with data you found via
-DIP? <a
-href="https://docs.google.com/forms/d/e/1FAIpQLSdXXD5eO05w0Xa7bwG3Ppia3uzr_o3y-xDEZuWRfXbCfCu_XA/viewform">Click
-here to let me know</a>.)</em></p>
-<p> </p>
-<p><em>🔄 The Washington Post has <a
-href="https://www.washingtonpost.com/investigations/interactive/2023/opioid-epidemic-pain-pills-sold-oxycodone-hydrocodone/">obtained
-and published five more years of prescription opioid data</a> (initially
-featured in <a
-href="https://www.data-is-plural.com/archive/2019-08-07-edition/">DIP
-2019.08.07</a>). The <a
-href="https://www.washingtonpost.com/national/2019/07/18/how-download-use-dea-pain-pills-database/">records</a>
-now cover 2006–2019.</em></p>
-<p> </p>
-<p><strong>Political contributions, enhanced.</strong> Political
-scientist <a href="https://web.stanford.edu/~bonica/">Adam Bonica</a>’s
-<a href="https://data.stanford.edu/dime">Database on Ideology, Money in
-Politics, and Elections</a> (DIME) gathers “500 million itemized
-political contributions made by individuals and organizations to local,
-state, and federal elections covering from 1979 to 2020.” The project,
-which received a <a
-href="https://listserv.wustl.edu/scripts/wa.exe?A2=1702A&amp;L=POLMETH&amp;D=0&amp;H=N&amp;P=6749708">major
-update last month</a>, “is intended to make data on campaign finance and
-elections (1) more centralized and accessible, (2) easier to work with,
-and (3) more versatile […].” It assigns each contributor a unique
-identifier, geocodes their stated addresses, quantifies their
-ideological orientation, and more. The raw data come from several
-sources, including the <a href="https://www.fec.gov/data/">Federal
-Election Commission</a> and <a
-href="https://www.opensecrets.org/">OpenSecrets</a>.
-<strong>Related</strong>: <a
-href="https://moneyinpolitics.wtf/">MoneyInPolitics.wtf</a>, a <a
-href="https://moneyinpolitics.wtf/about/">collaborative project</a> that
-aims to be “America’s most comprehensive dictionary of campaign finance
-jargon.” [h/t <a href="https://twitter.com/1sadoraB">Isadora Borges
-Monroy</a>]</p>
-<p> </p>
-<p><strong>Historical newspaper articles.</strong> <a
-href="https://arxiv.org/abs/2308.12477">Melissa Dell et al.</a>’s <a
-href="https://huggingface.co/datasets/dell-research-harvard/AmericanStories">American
-Stories dataset</a> contains the text of ~400 million newspaper
-articles, extracted from ~20 million public-domain scans in the Library
-of Congress’s <a href="https://chroniclingamerica.loc.gov/">Chronicling
-America</a> project (<a
-href="https://www.data-is-plural.com/archive/2017-08-16-edition/">DIP
-2017.08.16</a>). To construct the dataset, the authors <a
-href="https://github.com/dell-research-harvard/AmericanStories">built</a>
-“a novel deep learning pipeline that incorporates layout detection,
-legibility classification, custom OCR, and the association of article
-texts spanning multiple bounding boxes.” For each article, the dataset
-provides the newspaper name, edition number, date of publication
-(largely in the 1800s–1920s), page number, headline, byline, and article
-text. <strong>Previously</strong>: The LOC’s <a
-href="https://news-navigator.labs.loc.gov/">Newspaper Navigator
-dataset</a> (<a
-href="https://www.data-is-plural.com/archive/2020-10-07-edition/">DIP
-2020.10.07</a>), which extracts visual content from the Chronicling
-America scans. [h/t <a href="http://knosof.co.uk/ESEUR/">Derek M.
-Jones</a>]</p>
-<p> </p>
-<p><strong>Prigozhin audio messages.</strong> <a
-href="https://giorgiocomai.eu/">Giorgio Comai</a> has <a
-href="https://tadadit.xyz/posts/2023-08-telegram_prigozhin/">collected
-and auto-transcribed</a> hundreds of audio messages from Russian
-mercenary leader <a
-href="https://en.wikipedia.org/wiki/Yevgeny_Prigozhin">Yevgeny
-Prigozhin</a>, which were posted “on his official Telegram channel - the
-press service of his holding company” from late 2022 through June 2023.
-For each transcribed segment within each message, the <a
-href="https://tadadit.xyz/datasets/prigozhin_audio_files/">resulting
-datasets</a> (one in Russian and one auto-translated into English)
-include the message ID, time posted, segment timestamp, and segment
-text. [h/t <a href="https://twitter.com/_federicocaruso">Federico
-Caruso</a>]</p>
-<p> </p>
-<p><strong>The “Unknome.”</strong> The human genome has been sequenced,
-but what do all those genes do? <a
-href="https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3002222">João
-J. Rocha et al.</a>’s <a
-href="https://unknome.mrc-lmb.cam.ac.uk/">Unknome database</a> assigns a
-“knownness” score to “all protein clusters that contain at least 1
-protein from humans or any of 11 model organisms.” The score is based on
-the density of annotations in the <a
-href="https://geneontology.org/">Gene Ontology knowledgebase</a>, which
-bills itself as “the world’s largest source of information on the
-functions of genes.” The clustering comes from another downloadable
-database, <a href="https://pantherdb.org/">PANTHER</a>, which contains
-“comprehensive information about the evolution of protein-coding gene
-families.”</p>
-<p> </p>
-<p><strong>License plate designs.</strong> <a
-href="https://www.beautifulpublicdata.com/">Beautiful Public Data</a>’s
-<a href="https://jonkeegan.com/">Jon Keegan</a> scraped the websites of
-every US state’s (and DC’s) motor vehicle agency to assemble a <a
-href="https://github.com/jonkeegan/us-license-plates">dataset of 8,291
-license plate designs</a>. The dataset provides each design’s name,
-state, and image. <strong>Read more</strong>: <a
-href="https://www.beautifulpublicdata.com/all-of-the-license-plates-in-the-united-states/">Keegan’s
-exploration of the data</a>, which includes a searchable table.
-<strong>Previously</strong>: Vanity plates requested in <a
-href="https://github.com/veltman/ca-license-plates">California</a> (<a
-href="https://www.data-is-plural.com/archive/2020-01-29-edition/">DIP
-2020.01.29</a>) and <a
-href="https://github.com/datanews/license-plates">New York</a> (<a
-href="https://www.data-is-plural.com/archive/2015-10-21-edition/">DIP
-2015.10.21</a>).</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send vain feedback to
-jsvine@gmail.com, or just reply to this email. // Looking for past
-datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. // Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and to browse past editions.</em></p>
-]]></content:encoded>
-      <guid isPermaLink="false">dip-2023-09-13</guid>
-      <pubDate>Wed, 13 Sep 2023 08:00:00 -0400</pubDate>
     </item>
   </channel>
 </rss>
