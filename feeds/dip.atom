@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.data-is-plural.com</id>
   <title>Data Is Plural</title>
-  <updated>2023-12-13T08:00:00-05:00</updated>
+  <updated>2023-12-20T08:00:00-05:00</updated>
   <author>
     <name>Jeremy Singer-Vine</name>
     <email>jsvine@gmail.com</email>
@@ -10,6 +10,155 @@
   <link href="https://www.data-is-plural.com" rel="alternate"/>
   <generator>https://github.com/data-is-plural/newsletter-archive</generator>
   <subtitle>A weekly newsletter of useful/curious datasets.</subtitle>
+  <entry>
+    <id>dip-2023-12-20</id>
+    <title>Data Is Plural — 2023.12.20 edition</title>
+    <updated>2023-12-20T08:00:00-05:00</updated>
+    <content type="CDATA"><![CDATA[<p><em>Dengue, workforce training providers, Antarctic ice sheets,
+finance ministers, and Netflix viewership.</em></p>
+<p> </p>
+<p><em>🎙 Just released: <a
+href="https://podcast.data-is-plural.com/2159594/14179132-s2e5-crosswords">The
+fifth and final main episode</a> of the second season of the <a
+href="https://podcast.data-is-plural.com/">Data Is Plural podcast</a>.
+This episode’s guests are <a href="https://www.georgeho.org/">George
+Ho</a> and <a href="https://www.saul.pw/">Saul Pwanson</a>, whose
+crossword datasets were featured in <a
+href="https://www.data-is-plural.com/archive/2021-09-22-edition/">DIP
+2021.09.22</a> and <a
+href="https://www.data-is-plural.com/archive/2016-03-09-edition/">DIP
+2016.03.09</a>, respectively. ICYMI: <a
+href="https://podcast.data-is-plural.com/2159594/14011826-s2e1-jeans-pockets">Episode
+1</a> (jean pocket sizes), <a
+href="https://podcast.data-is-plural.com/2159594/14053517-s2e2-income-patterns">Episode
+2</a> (US income distributions and dynamics), <a
+href="https://podcast.data-is-plural.com/2159594/14096919-s2e3-missing-migrants">Episode
+3</a> (the Missing Migrants Project), and <a
+href="https://podcast.data-is-plural.com/2159594/14138514-s2e4-canadian-wildfires">Episode
+4</a> (Canadian wildfires).</em></p>
+<p> </p>
+<p><em>📬 Reader <a
+href="https://www.linkedin.com/in/georgegorczynski/">George
+Gorczynski</a> has built visualizations of <a
+href="https://public.tableau.com/app/profile/george.gorczynski/viz/naturaldisasters_country/NaturalDisasters">natural
+disasters</a> (using the <a
+href="https://sedac.ciesin.columbia.edu/data/set/pend-gdis-1960-2018/data-download">Geocoded
+Disasters Dataset</a> featured in <a
+href="https://www.data-is-plural.com/archive/2021-03-17-edition/">DIP
+2021.03.17</a>) and <a
+href="https://public.tableau.com/app/profile/george.gorczynski/viz/GenderInequalityinStreetNaming/GenderInequalityinStreetNaming">gender
+inequality in street naming</a> (using the <a
+href="https://www.europeandatajournalism.eu/cp_data_news/mapping-diversity-full-dataset-release/">Mapping
+Diversity data</a> featured in <a
+href="https://www.data-is-plural.com/archive/2023-09-06-edition/">DIP
+2023.09.06</a>). Have you published something with data you found via
+DIP? <a
+href="https://docs.google.com/forms/d/e/1FAIpQLSdXXD5eO05w0Xa7bwG3Ppia3uzr_o3y-xDEZuWRfXbCfCu_XA/viewform">Click
+here to let me know</a>.</em></p>
+<p> </p>
+<p><strong>Dengue.</strong> <a
+href="https://opendengue.org/">OpenDengue</a>, a new project based at
+the London School of Hygiene &amp; Tropical Medicine, “aims to build and
+maintain a database of dengue case counts for every dengue-affected
+country worldwide since 1990 or earlier.” (According to a <a
+href="https://www.nature.com/articles/nature12060">2013 study</a> <a
+href="https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue">cited
+by the WHO</a>, the virus causes an estimated 96 million symptomatic
+infections per year.) <a
+href="https://opendengue.org/overview.html">Drawing from a range of
+sources</a>, the team has collected weekly, monthly, and/or annual
+national counts from 100+ countries so far and <a
+href="https://opendengue.org/contribute.html">welcomes
+contributions</a>. For each count, the <a
+href="https://opendengue.org/data.html">project’s datasets</a> indicate
+what was being counted: suspected cases, confirmed cases, probable
+cases, or a combination. For several dozen countries, the data also
+contain sub-national counts — including for 5,000+ municipalities in
+Brazil and all 70+ Thai provinces. [h/t <a
+href="https://www.telegraph.co.uk/global-health/science-and-disease/dengue-dashboard-climate-change-mosquitoes-dieases-viruses/">Sarah
+Newey</a>]</p>
+<p> </p>
+<p><strong>Workforce training providers.</strong> The <a
+href="https://www.workforcealmanac.com/">Workforce Almanac</a>, <a
+href="https://www.pw.hks.harvard.edu/post/workforce-almanac-launch">launched
+last month</a> by the Harvard-based <a
+href="https://www.pw.hks.harvard.edu/">Project on Workforce</a>, maps
+“almost 17,000 providers of workforce training, which we have defined as
+short-term (lasting less than two years), post-high school training
+opportunities in which learners gain work-relevant skills to help them
+find a job.” The <a
+href="https://www.workforcealmanac.com/explore">dataset</a> lists each
+organization’s name, address, city, state, coordinates, and various
+categorizations. To build it, the team <a
+href="https://workforcealmanac.com/methodology">merged and cleaned data
+from four sources</a>: the Department of Labor’s <a
+href="https://www.apprenticeship.gov/data-and-statistics">Registered
+Apprenticeship Partners Information Database System</a> (RAPIDS) and <a
+href="https://www.trainingproviderresults.gov">TrainingProviderResults.gov</a>,
+IRS <a
+href="https://www.irs.gov/charities-non-profits/exempt-organizations-business-master-file-extract-eo-bmf">nonprofit
+registrations</a>, and the <a
+href="https://nces.ed.gov/ipeds/">Integrated Postsecondary Education
+Data System</a> (IPEDS).</p>
+<p> </p>
+<p><strong>Antarctic ice sheets.</strong> The <a
+href="https://scar.org/">Scientific Committee on Antarctic
+Research</a>’s <a href="https://bedmap.scar.org/">Bedmap Data Portal</a>
+provides access to “ice bed, surface and thickness point data from all
+Antarctic geophysical campaigns since the 1950s.” In <a
+href="https://essd.copernicus.org/articles/15/2695/2023/essd-15-2695-2023.html">an
+accompanying paper</a>, Alice C. Frémand et al. describe the process
+they undertook to standardize decades of ice-survey data and to <a
+href="https://essd.copernicus.org/articles/15/2695/2023/#section5">publish
+the outputs</a> based on “<a
+href="https://en.wikipedia.org/wiki/FAIR_data">findable, accessible,
+interoperable, and reusable</a>” (FAIR) data principles. In all, the
+records contain “82 million data points collected as part of 277
+campaigns,” spanning three generations of data.
+<strong>Previously</strong>: <a
+href="https://www.nature.com/articles/s41597-023-02152-9">Antarctic
+geology</a> (<a
+href="https://www.data-is-plural.com/archive/2023-05-31-edition/">DIP
+2023.05.31</a>).</p>
+<p> </p>
+<p><strong>Finance ministers.</strong> <a
+href="https://www.cambridge.org/core/journals/american-political-science-review/article/financial-crises-and-the-selection-and-survival-of-women-finance-ministers/BE5E829CA0838FAEF05B7B7C15E22B32">Brenna
+Armstrong et al.</a> have compiled a <a
+href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/IAEUVB">dataset</a>
+of 2,900+ people who served as a national finance minister or equivalent
+position between 1972 and 2017. For each of their 3,200+ tenures, the
+dataset lists the minister’s name, country, year-month started/ended,
+gender, whether the minister received an advanced economics education,
+and whether they’d be considered a technocrat — i.e., someone who had
+policy expertise but hadn’t held elective office. [h/t <a
+href="https://www.phenomenalworld.org/sources/1-32-meter-square/">Phenomenal
+World</a>]</p>
+<p> </p>
+<p><strong>Netflix viewership.</strong> In late 2021, Netflix <a
+href="https://variety.com/vip/netflixs-new-top-10-lists-project-the-illusion-of-transparency-1235113186/">began
+publishing</a> downloadable datasets of <a
+href="https://top10.netflix.com/">the 10 most popular movies and TV
+shows each week</a>, overall and by country. Last week the company <a
+href="https://about.netflix.com/en/news/what-we-watched-a-netflix-engagement-report">published
+a new data report</a>, which lists all 18,000+ titles viewed for 50,000+
+hours on the platform in the first half of 2023. The report, which
+Netflix says it will publish twice a year, indicates each title’s name,
+release date, approximate hours viewed, and whether it was available
+globally. [h/t <a href="https://twitter.com/Arithmomaniac">Avi Levin</a>
++ <a href="https://www.saul.pw/">Saul Pwanson</a>]</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send globally available
+feedback to jsvine@gmail.com, or just reply to this email. // Looking
+for past datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. // Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions.</em></p>
+]]></content>
+    <link href="http://www.data-is-plural.com/archive/2023-12-20-edition" rel="alternate"/>
+    <summary>Dengue, workforce training providers, Antarctic ice sheets, finance ministers, and Netflix viewership.</summary>
+    <published>2023-12-20T08:00:00-05:00</published>
+  </entry>
   <entry>
     <id>dip-2023-12-13</id>
     <title>Data Is Plural — 2023.12.13 edition</title>
@@ -1252,120 +1401,5 @@ subscribe and to browse past editions.</em></p>
     <link href="http://www.data-is-plural.com/archive/2023-09-27-edition" rel="alternate"/>
     <summary>Linked historical censuses, fracking fluids, Europopulism, GitHub metrics, and ancient places.</summary>
     <published>2023-09-27T08:00:00-04:00</published>
-  </entry>
-  <entry>
-    <id>dip-2023-09-20</id>
-    <title>Data Is Plural — 2023.09.20 edition</title>
-    <updated>2023-09-20T08:00:00-04:00</updated>
-    <content type="CDATA"><![CDATA[<p><em>US facility greenhouse gas emissions, net migration estimates,
-gubernatorial approval, Department of Interior drones, and one million
-bugs.</em></p>
-<p> </p>
-<p><strong>US facility GHG emissions.</strong> The EPA’s <a
-href="https://ghgdata.epa.gov/ghgp/main.do#/facility/">Facility Level
-Information on Greenhouse Gases Tool</a> “gives you access to greenhouse
-gas data reported to EPA by large emitters, facilities that inject
-CO<sub>2</sub> underground, and suppliers of products that result in GHG
-emissions when used in the United States.” The information comes from
-the agency’s <a href="https://www.epa.gov/ghgreporting">Greenhouse Gas
-Reporting Program</a>, which also provides <a
-href="https://www.epa.gov/ghgreporting/data-sets">bulk data
-downloads</a>. Per the EPA: “Approximately 8,000 facilities are required
-to report their emissions annually, and the reported data are made
-available to the public in October of each year.” The data, which go
-back to 2010, indicate the <a
-href="https://ccdsupport.com/confluence/pages/viewpage.action?pageId=93290546">facility
-type</a>, emissions reported, <a
-href="https://www.epa.gov/ghgreporting/ghgrp-methodology-and-verification">measurement
-methods</a>, types of fuel used, and <a
-href="https://ccdsupport.com/confluence/display/ghgp/Detailed+Description+of+Data+for+Certain+Sources+and+Processes">much
-more</a>. <strong>Previously</strong>: <a
-href="https://climatetrace.org/">Climate TRACE</a>’s <a
-href="https://climatetrace.org/news/more-than-70000-of-the-highest-emitting-greenhouse-gas">estimates
-of the world’s largest GHG emitters</a> (<a
-href="https://www.data-is-plural.com/archive/2022-11-16-edition/">DIP
-2022.11.16</a>). [h/t <a href="https://terinvmayer.com/">Terin V.
-Mayer</a>]</p>
-<p> </p>
-<p><strong>Net migration estimates.</strong> Using national and
-subnational data on birth rates, death rates, and population counts, <a
-href="https://www.nature.com/articles/s41562-023-01689-4">Venla Niva et
-al.</a> have constructed a <a
-href="https://zenodo.org/record/7997134">dataset of estimated net
-migration</a> for each part of the world, each year between 2000 and
-2019. The estimates are available as gridded data (with ~10km
-resolution) and at three levels of administrative units: national,
-provincial, and communal. (For the US, the latter two levels correspond
-to states and counties, respectively.) The researchers have also
-published an <a
-href="https://wdrg.aalto.fi/global-net-migration-explorer/">interactive
-map</a> of the estimates for each administrative unit.</p>
-<p> </p>
-<p><strong>Gubernatorial approval.</strong> Political scientist <a
-href="https://polisci.uconn.edu/person/matthew-singer/">Matthew M.
-Singer</a>’s <a
-href="https://dataverse.unc.edu/dataset.xhtml?persistentId=doi:10.15139/S3/QHHQEF">State
-Executive Approval Database</a> contains the results of 10,000+
-gubernatorial approval polls, spanning all 50 states and going back
-decades. The database, which builds on <a
-href="https://jmj313.web.lehigh.edu/node/6">earlier efforts by Thad
-Beyle et al.</a>, lists each poll’s date, state, governor, pollster,
-sample size, sample type, ratings scale, percentage of positive/negative
-responses, and more. <strong>Previously</strong>: <a
-href="http://www.executiveapproval.org/">The Executive Approval
-Project</a> (<a
-href="https://www.data-is-plural.com/archive/2019-10-16-edition/">DIP
-2019.10.16</a>), which Singer <a
-href="http://www.executiveapproval.org/contributors/">co-directs</a>.</p>
-<p> </p>
-<p><strong>DOI drones.</strong> Through a <a
-href="https://www.muckrock.com/foi/united-states-of-america-10/list-of-all-department-of-interior-owned-unmanned-aircraft-systems-137451/">FOIA
-request to the US Department of the Interior</a>, journalist <a
-href="https://palewi.re/who-is-ben-welsh/">Ben Welsh</a> has <a
-href="https://mastodon.palewi.re/@palewire/110966893650258876">obtained</a>
-and <a
-href="https://docs.google.com/spreadsheets/d/1Q2yLaIJWEgofIJc8XS9oAdgSrW0_zPMYF04jAI9edVM/edit">published</a>
-the agency’s drone roster. For each of the 850+ remote-controlled
-aircraft, the dataset lists the agency bureau and office, drone
-manufacturer, model, cost, serial number, and more. The FOIA request
-also <a
-href="https://www.muckrock.com/foi/united-states-of-america-10/list-of-all-department-of-interior-owned-unmanned-aircraft-systems-137451/#files">unearthed
-spreadsheets</a> listing specific drone flights and multi-flight
-deployments. <strong>Previously</strong>: <a
-href="https://www.muckrock.com/foi/united-states-of-america-10/database-of-14-cfr-part-48-registered-drones-132943/">Drone
-registration data</a> (<a
-href="https://www.data-is-plural.com/archive/2022-12-21-edition/">DIP
-2022.12.21</a>), also obtained by Welsh via FOIA.</p>
-<p> </p>
-<p><strong>Bug shots.</strong> <a
-href="https://arxiv.org/abs/2307.10455">Zahra Gharaee et al.</a>’s <a
-href="https://biodiversitygenomics.net/1M_insects/">BIOSCAN-1M Insect
-Dataset</a> contains one million microscope photographs of bugs, each
-taxonomically classified by experts and supplemented with raw DNA
-sequences and genetic “<a
-href="http://www.boldsystems.org/">barcode</a>” identifiers. The
-dataset, part of the broader <a href="https://ibol.org/bioscan/">BIOSCAN
-initiative</a>, includes 8,300+ species across 3,400+ genera; the
-specimens were primarily collected in Costa Rica, Canada, and South
-Africa, using <a
-href="https://en.wikipedia.org/wiki/Malaise_trap">tent-like traps</a>.
-<strong>Previously</strong>: <a
-href="https://datadryad.org/stash/dataset/doi:10.5061/dryad.gq73493">Bug
-splats</a> (<a
-href="https://www.data-is-plural.com/archive/2020-03-04-edition/">DIP
-2020.03.04</a>). [h/t <a href="https://www.robinsloan.com/">Robin
-Sloan</a>]</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send microscopic feedback
-to jsvine@gmail.com, or just reply to this email. // Looking for past
-datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. // Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and to browse past editions.</em></p>
-]]></content>
-    <link href="http://www.data-is-plural.com/archive/2023-09-20-edition" rel="alternate"/>
-    <summary>US facility greenhouse gas emissions, net migration estimates, gubernatorial approval, Department of Interior drones, and one million bugs.</summary>
-    <published>2023-09-20T08:00:00-04:00</published>
   </entry>
 </feed>
