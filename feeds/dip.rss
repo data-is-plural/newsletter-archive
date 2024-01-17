@@ -6,7 +6,136 @@
     <description>A weekly newsletter of useful/curious datasets.</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>https://github.com/data-is-plural/newsletter-archive</generator>
-    <lastBuildDate>Wed, 20 Dec 2023 08:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 17 Jan 2024 08:00:00 -0500</lastBuildDate>
+    <item>
+      <title>Data Is Plural — 2024.01.17 edition</title>
+      <link>http://www.data-is-plural.com/archive/2024-01-17-edition</link>
+      <description>RSV, subnational economic output, environmental treaties, Chicago’s “menu money,” and Star Trek chairs.</description>
+      <content:encoded><![CDATA[<p><em>RSV, subnational economic output, environmental treaties,
+Chicago’s “menu money,” and Star Trek chairs.</em></p>
+<p> </p>
+<p><em>📬 Reader <a href="https://www.linkedin.com/in/andypicke/">Andy
+Pickering</a> recently <a
+href="https://andypicke.quarto.pub/portfolio/posts/USPVDB/USPVDB_Analysis.html">analyzed
+and visualized</a> the <a href="https://eerscmap.usgs.gov/uspvdb/">US
+Large-Scale Solar Photovoltaic Database</a> featured in <a
+href="https://www.data-is-plural.com/archive/2023-12-13-edition/">DIP
+2023.12.13</a>. (Have you published something with data you found via
+DIP? <a
+href="https://docs.google.com/forms/d/e/1FAIpQLSdXXD5eO05w0Xa7bwG3Ppia3uzr_o3y-xDEZuWRfXbCfCu_XA/viewform">Click
+here to let me know</a>.)</em></p>
+<p> </p>
+<p><strong>RSV.</strong> The US CDC’s <a
+href="https://www.cdc.gov/rsv/research/rsv-net/index.html">Respiratory
+Syncytial Virus Hospitalization Surveillance Network</a> collects data
+on hospital admissions due to lab-confirmed <a
+href="https://www.cdc.gov/rsv/index.html">RSV</a> at acute-care
+facilities in 58 counties, across 12 states. The CDC uses the data to
+estimate weekly hospitalization rates — overall as well as by age group,
+race/ethnicity, and sex. Those rates, which go back to 2016–17 for
+adults and 2018–19 for minors, are available via an <a
+href="https://www.cdc.gov/rsv/research/rsv-net/dashboard.html">interactive
+dashboard</a> and <a
+href="https://data.cdc.gov/Public-Health-Surveillance/Weekly-Rates-of-Laboratory-Confirmed-RSV-Hospitali/29hc-w46k/about_data">downloadable
+dataset</a>. <strong>Related</strong>: The network is part of a <a
+href="https://www.cdc.gov/surveillance/resp-net/dashboard.html">broader
+system</a> that also monitors <a
+href="https://www.cdc.gov/flu/weekly/influenza-hospitalization-surveillance.htm">influenza</a>
+and <a
+href="https://www.cdc.gov/coronavirus/2019-ncov/covid-data/covid-net/purpose-methods.html">COVID-19
+hospitalizations</a>. <strong>Also</strong>: The <a
+href="https://erviss.org/">European Respiratory Virus Surveillance
+Summary</a>, <a
+href="https://www.ecdc.europa.eu/en/news-events/ecdc-and-who-launch-new-surveillance-tool-respiratory-viruses-improve-early-detection">launched
+in October</a> by the European CDC and World Health Organization,
+features weekly data tables and epidemiological summaries.</p>
+<p> </p>
+<p><strong>Subnational economic output.</strong> <a
+href="https://www.nature.com/articles/s41597-023-02323-8">Leonie Wenz et
+al.</a>’s <a href="https://zenodo.org/records/7573249">Database of
+Sub-national Economic Output</a> (DOSE) provides “harmonised data on
+reported economic output from 1,661 sub-national regions across 83
+countries from 1960 to 2020.” Those regions include, for instance,
+Turkey’s 81 provinces, Japan’s 47 prefectures, and Kenya’s 47 counties.
+For each year, the dataset indicates the monetary value of the region’s
+total economic output, and often also subtotals for the agricultural,
+manufacturing, and services sectors. While previous projects have used
+interpolation to estimate similar figures, DOSE avoids that approach,
+instead <a
+href="https://www.nature.com/articles/s41597-023-02323-8/tables/1">assembling
+its data</a> only from “statistical agencies, yearbooks and academic
+literature.”</p>
+<p> </p>
+<p><strong>Environmental treaties.</strong> <a
+href="https://rmitchel.uoregon.edu/">Ronald B. Mitchell</a>’s <a
+href="https://iea.uoregon.edu/">International Environmental Agreements
+Database Project</a> tracks <a
+href="https://iea.uoregon.edu/iea-project-contents">4,000+ such
+arrangements</a>, <a
+href="https://iea.uoregon.edu/international-environmental-agreements-ieas-defined">defined</a>
+as “an intergovernmental document intended as legally binding with a
+primary stated purpose of preventing or managing human impacts on
+natural resources.” Examples include the <a
+href="https://iea.uoregon.edu/treaty/198">Indus Water Treaty</a> (1960)
+and <a href="https://iea.uoregon.edu/treaty/3197">Convention on Nuclear
+Safety</a> (1994). The project’s <a
+href="https://iea.uoregon.edu/ieadb-and-related-datasets">datasets</a>
+characterize each agreement (e.g., its name, signature date, type,
+subject) and 100,000+ “membership actions” by participating countries.
+The project also tracks various “non-agreements,” such as memoranda of
+understanding. [h/t <a
+href="https://link.springer.com/article/10.1007/s11558-023-09495-3">Jean-Frédéric
+Morin et al.</a>]</p>
+<p> </p>
+<p><strong>Chicago’s “menu money.”</strong> Chicago’s 50 wards can each
+receive up to $1.5 million annually to spend on infrastructure projects
+such as street lighting, sidewalk repair, art murals, and park
+improvements. Each ward’s city council representative typically decides
+how to spend this so-called “menu money,” although <a
+href="https://chicago.suntimes.com/2023/8/3/23819111/chicago-vote-tax-money-spent-wards-participatory-budgeting-democracy-solutions-project">some
+let residents allocate a portion</a>. The city <a
+href="https://www.chicago.gov/city/en/depts/obm/provdrs/cap_improve/svcs/aldermanic-menu-program.html">publishes</a>
+menu money spending reports, but <a
+href="https://www.chicago.gov/city/en/depts/obm/provdrs/cap_improve/svcs/cip-archive.html">only
+as PDFs</a>. So data researcher <a
+href="https://jakejeromesmith.wordpress.com/">Jake J. Smith</a> has <a
+href="https://github.com/jakejsmith/ChicagoMenuMoney">programmatically
+converted</a> twelve years of those PDFs (2012–2023) into a <a
+href="https://docs.google.com/spreadsheets/d/1MZpUnD8bXceRw-P3fiTZtH7KtSunNaEYa-xpapWw1Ho/edit">spreadsheet
+containing 28,000 line items</a>. Each entry <a
+href="https://github.com/jakejsmith/ChicagoMenuMoney/blob/main/data-dictionary.md">indicates</a>
+the year, ward, line item’s cost, category, program, and description
+(often the location of the project).</p>
+<p> </p>
+<p><strong>Star Trek chairs.</strong> <a
+href="https://www.ex-astris-scientia.org/">Ex Astris Scientia</a>, <a
+href="https://www.ex-astris-scientia.org/misc/introduction.htm">run by
+Bernd Schneider since 1998</a>, contains much of what you might expect
+from a <em>Star Trek</em> fan site, such as <a
+href="https://www.ex-astris-scientia.org/index-episodes.htm">episode
+summaries</a>, <a
+href="https://www.ex-astris-scientia.org/index-starships.htm">starship
+catalogs</a>, and an <a
+href="https://www.ex-astris-scientia.org/treknology.htm">extensive
+encyclopedia</a>. But it also publishes some more esoteric inventories,
+such as HTML tables of <a
+href="https://www.ex-astris-scientia.org/database/chairs-trek.htm">commercially
+available chairs</a> and <a
+href="https://www.ex-astris-scientia.org/database/lighting-trek.htm">lamps</a>
+that have appeared on screen. [h/t <a
+href="https://www.duncangeere.com/">Duncan Geere</a>]</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send commercially
+available feedback to jsvine@gmail.com, or just reply to this email. //
+Looking for past datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. // Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions.</em></p>
+]]></content:encoded>
+      <guid isPermaLink="false">dip-2024-01-17</guid>
+      <pubDate>Wed, 17 Jan 2024 08:00:00 -0500</pubDate>
+    </item>
     <item>
       <title>Data Is Plural — 2023.12.20 edition</title>
       <link>http://www.data-is-plural.com/archive/2023-12-20-edition</link>
@@ -1262,132 +1391,6 @@ subscribe and to browse past editions.</em></p>
 ]]></content:encoded>
       <guid isPermaLink="false">dip-2023-10-11</guid>
       <pubDate>Wed, 11 Oct 2023 08:00:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Data Is Plural — 2023.09.27 edition</title>
-      <link>http://www.data-is-plural.com/archive/2023-09-27-edition</link>
-      <description>Linked historical censuses, fracking fluids, Europopulism, GitHub metrics, and ancient places.</description>
-      <content:encoded><![CDATA[<p><em>Linked historical censuses, fracking fluids, Europopulism, GitHub
-metrics, and ancient places.</em></p>
-<p> </p>
-<p><strong>Censuses, linked.</strong> The <a
-href="https://www.censustree.org/">Census Tree</a>, developed by <a
-href="https://www.nber.org/papers/w31671">Kasey Buckles et al.</a>, “is
-the largest-ever database of record links among the historical U.S.
-censuses, with over 700 million links for people living in the United
-States between 1850 and 1940.” By the <a
-href="https://www.censustree.org/our-team">team</a>’s <a
-href="https://sites.google.com/nd.edu/censustreefaq">estimates</a>, the
-dataset “includes over 70% of the possible links that <em>could</em> be
-made for men, and over 60% of possible links for women.” To build it,
-the researchers <a
-href="https://www.censustree.org/methodology">began</a> with genealogy
-records from <a
-href="https://www.familysearch.org/">FamilySearch.org</a>, developed a
-machine learning algorithm to identify additional links, and
-incorporated data from other census-linking projects. Each Census Tree
-row connects an individual’s <a
-href="https://usa.ipums.org/usa-action/variables/HISTID">IPUMS
-identifier</a> in one decade’s census to their identifier in another.
-Per the project’s <a
-href="https://www.censustree.org/quickstart">instructions</a>, you’ll
-need to download the Census data itself <a
-href="https://usa.ipums.org/usa/full_count.shtml">from IPUMS</a>.</p>
-<p> </p>
-<p><strong>Fracking fluids.</strong> Since <a
-href="https://www.fracfocus.org/learn/about-fracfocus">launching in
-2011</a>, <a href="https://fracfocus.org/">FracFocus</a> has become the
-largest registry of <a
-href="https://en.wikipedia.org/wiki/Fracking">hydraulic fracturing</a>
-chemical disclosures in the US. The database, available to explore
-online and <a href="https://fracfocus.org/data-download">download in
-bulk</a>, contains 210,000+ such disclosures from fracking operators; it
-details the location, timing, and water volume of each fracking job,
-plus the names and amounts of chemicals used. The project is <a
-href="https://fracfocus.org/about-us">managed</a> by the <a
-href="https://www.gwpc.org/overview/">Ground Water Protection
-Council</a>, “a nonprofit 501(c)6 organization whose members consist of
-state ground water regulatory agencies”. <strong>As seen in</strong>:
-The <a
-href="https://www.nytimes.com/interactive/2023/09/25/climate/fracking-oil-gas-wells-water.html">latest
-installment</a> of the New York Times’ <a
-href="https://www.nytimes.com/series/uncharted-waters">Uncharted Water
-series</a>.</p>
-<p> </p>
-<p><strong>Europopulism.</strong> <a href="https://popu-list.org/">The
-PopuList</a>, constructed by <a
-href="https://www.cambridge.org/core/journals/british-journal-of-political-science/article/populist-a-database-of-populist-farleft-and-farright-parties-using-expertinformed-qualitative-comparative-classification-eiqcc/EBF60489A0E1E3D91A6FE066C7ABA2CA">Matthijs
-Rooduijn et al.</a>, “offers academics and journalists an overview of
-populist, far-left and far-right parties in Europe from 1989 until
-2022.” <a href="https://osf.io/2ewkq/">Version 3.0 of the dataset</a>,
-released last month, lists each party’s country, local/English names,
-presence in parliament, and identifiers in the <a
-href="https://partyfacts.herokuapp.com/">Party Facts</a> (<a
-href="https://www.data-is-plural.com/archive/2019-01-16-edition/">DIP
-2019.01.16</a>) and <a href="https://www.parlgov.org/">ParlGov</a> (<a
-href="https://www.data-is-plural.com/archive/2018-09-19-edition/">DIP
-2018.09.19</a>) databases. It also indicates whether the project’s <a
-href="https://popu-list.org/about/">comparativists and country
-experts</a> classified the party (outright or “borderline”) as populist,
-far-right, far-left, and/or <a
-href="https://en.wikipedia.org/wiki/Euroscepticism">euroskeptic</a>, and
-for which time periods.</p>
-<p> </p>
-<p><strong>GitHub metrics.</strong> GitHub’s new <a
-href="https://innovationgraph.github.com/">Innovation Graph</a> datasets
-present a range of quarterly metrics on the code-sharing site,
-aggregated by “economy” — a concept similar to “country” but slightly
-broader. (Antarctica is an “economy” in the data, for example.) The <a
-href="https://github.com/github/innovationgraph">datasets</a> count the
-number of developers based in each economy, their repositories and <a
-href="https://github.com/git-guides/git-push">code pushes</a>, most-used
-programming languages, and more. As noted in the project’s <a
-href="https://github.com/github/innovationgraph/blob/main/docs/datasheet.md">datasheet</a>,
-the locations are based on IP addresses, so <a
-href="https://en.wikipedia.org/wiki/VPN_service">VPN</a> usage may
-distort the results. <strong>Previously</strong>: <a
-href="https://www.gharchive.org/">More-granular GitHub activity via the
-GH Archive</a> (<a
-href="https://www.data-is-plural.com/archive/2018-02-21-edition/">DIP
-2018.02.21</a>). [h/t <a href="https://github.com/khxu">Kevin
-Xu</a>]</p>
-<p> </p>
-<p><strong>Ancient places.</strong> <a
-href="https://pleiades.stoa.org/">Pleiades</a>, “a community-built
-gazetteer and graph of ancient places,” has collected <a
-href="https://pleiades.stoa.org/downloads">data</a> on <a
-href="https://pleiades.stoa.org/home">40,000+</a> settlements, roads,
-rivers, monuments, and many other <a
-href="https://pleiades.stoa.org/vocabularies/place-types">types of
-landmarks</a>. It also describes the <a
-href="https://pleiades.stoa.org/vocabularies/relationship-types">relationships</a>
-between them — linking, for instance, the <a
-href="https://pleiades.stoa.org/places/168254096">Parthenon</a> to the
-<a href="https://pleiades.stoa.org/places/638356144">Acropolis</a> and
-the Acropolis to <a
-href="https://pleiades.stoa.org/places/579885">Athens</a>.
-<strong>Related</strong>: <a href="https://orbis.stanford.edu/">ORBIS:
-The Stanford Geospatial Network Model of the Roman World</a>.
-<strong>Previously</strong>: <a
-href="https://github.com/roman-amphitheaters/roman-amphitheaters">Roman
-amphitheaters</a> (<a
-href="https://www.data-is-plural.com/archive/2022-06-08-edition/">DIP
-2022.06.08</a>) and the <a href="https://darmc.harvard.edu/">Digital
-Atlas of Roman and Medieval Civilizations</a> (<a
-href="https://www.data-is-plural.com/archive/2020-06-24-edition/">DIP
-2020.06.24</a>). [h/t <a href="https://twitter.com/Arithmomaniac">Avi
-Levin</a>]</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send time-worn feedback
-to jsvine@gmail.com, or just reply to this email. // Looking for past
-datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. // Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and to browse past editions.</em></p>
-]]></content:encoded>
-      <guid isPermaLink="false">dip-2023-09-27</guid>
-      <pubDate>Wed, 27 Sep 2023 08:00:00 -0400</pubDate>
     </item>
   </channel>
 </rss>
