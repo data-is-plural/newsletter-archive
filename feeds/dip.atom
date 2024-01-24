@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.data-is-plural.com</id>
   <title>Data Is Plural</title>
-  <updated>2024-01-17T08:00:00-05:00</updated>
+  <updated>2024-01-24T08:00:00-05:00</updated>
   <author>
     <name>Jeremy Singer-Vine</name>
     <email>jsvine@gmail.com</email>
@@ -10,6 +10,129 @@
   <link href="https://www.data-is-plural.com" rel="alternate"/>
   <generator>https://github.com/data-is-plural/newsletter-archive</generator>
   <subtitle>A weekly newsletter of useful/curious datasets.</subtitle>
+  <entry>
+    <id>dip-2024-01-24</id>
+    <title>Data Is Plural — 2024.01.24 edition</title>
+    <updated>2024-01-24T08:00:00-05:00</updated>
+    <content type="CDATA"><![CDATA[<p><em>Police data metadata, historical fishing intensity, Medicaid
+offices, Seine water quality, and human heights.</em></p>
+<p> </p>
+<p><em>📬 Reader <a href="https://aditya-dahiya.github.io/">Aditya
+Dahiya</a> has used <a
+href="https://github.com/HarshaDevulapalli/indian-movie-theatres">data
+on movie theaters in eight Indian cities</a> (featured in <a
+href="https://www.data-is-plural.com/archive/2017-11-08-edition/">DIP
+2017.11.08</a>) and <a
+href="https://about.netflix.com/en/news/what-we-watched-a-netflix-engagement-report">Netflix
+viewership data</a> (featured in <a
+href="https://www.data-is-plural.com/archive/2023-12-20-edition/">DIP
+2023.12.20</a>) to <a
+href="https://aditya-dahiya.github.io/ggplot2book3e/Chapter11.html">demonstrate
+custom color scales and legends</a> with <a
+href="https://ggplot2.tidyverse.org/">ggplot2</a>. (Have you published
+something with data you found via DIP? <a
+href="https://docs.google.com/forms/d/e/1FAIpQLSdXXD5eO05w0Xa7bwG3Ppia3uzr_o3y-xDEZuWRfXbCfCu_XA/viewform">Click
+here to let me know</a>.)</em></p>
+<p> </p>
+<p><strong>Police data metadata.</strong> The <a
+href="https://pdap.io/">Police Data Accessibility Project</a> is
+compiling a <a href="https://pdap.io/data">meta-dataset of police
+records</a>: where to find them online, what time period they cover, how
+often they’re updated, and other characteristics. The <a
+href="https://data-sources.pdap.io/">searchable</a>, <a
+href="https://airtable.com/app473MWXVJVaD7Es/shrUAtA8qYasEaepI/tblx8XaKnFTphWNQM">downloadable</a>
+dataset includes links to 1,700+ resources, such as traffic stop
+datasets, crime maps, use-of-force reports, contract and policy
+listings, and many other types of records, across hundreds of agencies.
+The team also maintains a <a
+href="https://airtable.com/app473MWXVJVaD7Es/shr43ihbyM8DDkKx4/tblpnd3ei5SlibcCX">dataset
+of 23,000+ criminal legal agencies</a>. <strong>Related</strong>: The <a
+href="https://www.vera.org/">Vera Institute of Justice</a>’s <a
+href="https://policetransparency.vera.org/">Police Data Transparency
+Index</a>, which scored 90+ local police agencies across 10 categories
+of data transparency; <a
+href="https://policetransparency.vera.org/#/Methodology">its methodology
+page</a> links to a more detailed, downloadable spreadsheet.</p>
+<p> </p>
+<p><strong>Historical fishing intensity.</strong> <a
+href="https://www.nature.com/articles/s41597-023-02824-6">Yannick
+Rousseau et al.</a> have generated a <a
+href="https://metadata.imas.utas.edu.au/geonetwork/srv/eng/catalog.search#/metadata/1241a51d-c8c2-4432-aa68-3d2bae142794">series
+of datasets</a> estimating annual fishing effort from 1950 to 2017 by
+country, year, gear type, vessel length, sector (industrial, artisanal
+motorized, and artisanal unmotorized), and category of species targeted.
+The datasets provide “information on number of vessels, engine power,
+gross tonnage, and nominal effort,” a metric that multiplies the engine
+power by the number of days at sea. Their sources include “a range of
+publicly available sources, governmental reports, and grey literature”.
+<strong>Related</strong>: Co-author <a
+href="https://ecomarres.com/?page_id=24">Reg A. Watson</a>’s <a
+href="https://metadata.imas.utas.edu.au/geonetwork/srv/eng/catalog.search#/metadata/5c4590d3-a45a-4d37-bf8b-ecd145cb356d">Global
+Fisheries Landings dataset</a>, which <a
+href="https://www.nature.com/articles/sdata201739">estimates</a>
+“commercial, small-scale, illegal and unreported fisheries catch,” also
+since 1950. <strong>Previously</strong>: <a
+href="https://globalfishingwatch.org/">Global Fishing Watch</a>’s <a
+href="https://globalfishingwatch.org/dataset-and-code-fishing-effort/">fishing
+effort datasets</a>, based on vessel tracking signals (<a
+href="https://www.data-is-plural.com/archive/2021-01-13-edition/">DIP
+2021.01.13</a>).</p>
+<p> </p>
+<p><strong>Medicaid offices, geocoded.</strong> <a
+href="https://www.sciencedirect.com/science/article/pii/S2352340924000416">Paul
+R. Shafer et al.</a> have created a <a
+href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/AVRHMI">dataset
+of 3,000+ Medicaid offices</a> in the US, identified via state and
+county government websites. The team of Boston University researchers,
+who focused on “public-facing Medicaid offices providing enrollment
+support,” have provided each office’s agency name, state, city, and
+address, and latitude/longitude coordinates (primarily sourced via the
+<a href="https://geocoding.geo.census.gov/geocoder/">US Census Bureau’s
+geocoder</a>).</p>
+<p> </p>
+<p><strong>Seine water quality.</strong> Ahead of the 2024 Summer
+Olympics, Paris has been <a
+href="https://www.theguardian.com/environment/2023/oct/08/can-paris-clean-seine-for-next-year-2024-olympics">trying
+to decontaminate the Seine river</a> to swimmable levels. But the city’s
+efforts appear to be falling short, <a
+href="https://www.francetvinfo.fr/les-jeux-olympiques/paris-2024/enquete-franceinfo-paris-2024-pollution-trop-elevee-normes-non-respectees-ce-que-revelent-les-analyses-de-la-qualite-de-l-eau-de-la-seine_6173826.html">according
+to government water testing data obtained, published, and analyzed</a>
+by <a href="https://mastodon.zaclys.com/@math_lehot">Mathieu
+Lehot-Couette</a>, a reporter at Franceinfo.fr. The <a
+href="https://www.francetvinfo.fr/les-jeux-olympiques/paris-2024-on-vous-explique-comment-franceinfo-a-analyse-les-donnees-sur-la-qualite-de-l-eau-de-la-seine_6252078.html">records
+include</a> results from periodic samples taken at 14 points along the
+river, which Lehot-Couette has standardized into a spreadsheet of 1,400+
+measurements of <em>E. coli</em> and <a
+href="https://en.wikipedia.org/wiki/Enterococcus">enterococci</a>
+between 2015 and 2023.</p>
+<p> </p>
+<p><strong>Human heights.</strong> Economic historians <a
+href="https://uni-tuebingen.de/en/fakultaeten/wirtschafts-und-sozialwissenschaftliche-fakultaet/faecher/fachbereich-wirtschaftswissenschaft/wirtschaftswissenschaft/lehrstuehle/economics/economic-history/chair/prof-dr-joerg-baten/">Jörg
+Baten</a> and <a
+href="https://www.qub.ac.uk/schools/queens-business-school/people/academic-staff/AllAcademicStaffProfiles/Blum.html">Matthias
+Blum</a> have assembled a <a
+href="https://clio-infra.eu/Indicators/Height.html">dataset on average
+male heights by decade and country</a>. The estimates, derived from
+hundreds of scholarly and statistical sources, stretch back several
+centuries and span 140+ countries. A <a
+href="https://uni-tuebingen.de/en/fakultaeten/wirtschafts-und-sozialwissenschaftliche-fakultaet/faecher/fachbereich-wirtschaftswissenschaft/wirtschaftswissenschaft/lehrstuehle/volkswirtschaftslehre/wirtschaftsgeschichte/forschung/data-hub-height/">related
+resource page</a> also provides individual-level data compiled by Baten
+and others, such as the heights of 1,000+ 19th-century Bavarian military
+conscripts. [h/t <a href="https://ksaj.inlisp.org">Karsten
+Johansson</a>]</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send head-to-toe feedback
+to jsvine@gmail.com, or just reply to this email. // Looking for past
+datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. // Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions.</em></p>
+]]></content>
+    <link href="http://www.data-is-plural.com/archive/2024-01-24-edition" rel="alternate"/>
+    <summary>Police data metadata, historical fishing intensity, Medicaid offices, Seine water quality, and human heights.</summary>
+    <published>2024-01-24T08:00:00-05:00</published>
+  </entry>
   <entry>
     <id>dip-2024-01-17</id>
     <title>Data Is Plural — 2024.01.17 edition</title>
@@ -1286,123 +1409,5 @@ subscribe and to browse past editions.</em></p>
     <link href="http://www.data-is-plural.com/archive/2023-10-25-edition" rel="alternate"/>
     <summary>Court-debt jailings, runway incursions, Goldin records, postal code ecology, and spreadsheets from Information is Beautiful.</summary>
     <published>2023-10-25T08:00:00-04:00</published>
-  </entry>
-  <entry>
-    <id>dip-2023-10-11</id>
-    <title>Data Is Plural — 2023.10.11 edition</title>
-    <updated>2023-10-11T08:00:00-04:00</updated>
-    <content type="CDATA"><![CDATA[<p><em>US income distributions, education reform, Kia/Hyundai thefts,
-Michigan air permit violations, and dog genomes.</em></p>
-<p> </p>
-<p><em>🔄 Data librarian <a
-href="https://works.bepress.com/lisa_deluca/">Lisa DeLuca</a> has <a
-href="https://works.bepress.com/lisa_deluca/59/">updated her
-spreadsheet</a> of <a
-href="https://library.shu.edu/FOIA-Libraries">government agencies’
-Freedom of Information Act libraries</a> (<a
-href="https://www.data-is-plural.com/archive/2021-11-03-edition/">DIP
-2021.11.03</a>), now with 360+ entries.</em></p>
-<p> </p>
-<p><strong>US income distributions.</strong> The <a
-href="https://www.minneapolisfed.org/institute/income-distributions-and-dynamics-in-america">Income
-Distributions and Dynamics in America</a> project <a
-href="https://www.minneapolisfed.org/article/2023/understanding-incomes-in-america">combines</a>
-confidential Census Bureau records and IRS tax forms to generate <a
-href="https://www.minneapolisfed.org/institute/income-distributions-and-dynamics-in-america/data-center">detailed,
-downloadable statistics</a> regarding “income percentiles, shares,
-growth rates, persistence, and more for many U.S. demographic groups at
-national and state levels.” The statistics, which cover 1998 through
-2019, are the result of a research partnership between the Minneapolis
-Fed’s <a href="https://www.minneapolisfed.org/institute">Opportunity
-&amp; Inclusive Growth Institute</a> and the Census Bureau. The
-project’s <a
-href="https://www.minneapolisfed.org/institute/income-distributions-and-dynamics-in-america/chart-and-map-toolkit">interactive
-tools</a> let you track individual and household income percentiles by
-year, state, race/ethnicity, sex, US/foreign-born status, and age group.
-<strong>Previously</strong>: <a
-href="https://zenodo.org/record/7093997">Global income deciles</a> from
-<a href="https://essd.copernicus.org/preprints/essd-2023-137/">Kanishka
-B. Narayan et al.</a> (<a
-href="https://www.data-is-plural.com/archive/2023-06-28-edition/">DIP
-2023.06.28</a>). [h/t <a href="https://www.albrightalex.com/">Alex
-Albright</a>]</p>
-<p> </p>
-<p><strong>Education reform.</strong> The <a
-href="https://werd.stanford.edu/">World Education Reform Database</a>
-describes 10,000+ education policy changes reported by 180+ countries to
-international organizations, among other sources. The project, <a
-href="https://werd.stanford.edu/our-team">led by</a> education policy
-scholars <a href="http://www.patriciabromley.com/">Patricia Bromley</a>
-and <a href="https://www.riekijima.com/">Rie Kijima</a>, <a
-href="https://werd.stanford.edu/database">focuses on</a>
-“<em>systemic</em> reforms that envision a supra-school administrative
-level and aim to impact the wider education system, rather than small
-projects that target individual schools.” The <a
-href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/C0TWXM">database</a>
-lists each reform’s country, year, name, and summary. Although some of
-the reforms in the database were introduced hundreds of years ago, the
-vast majority occurred in the last 50 years.</p>
-<p> </p>
-<p><strong>Kia/Hyundai thefts.</strong> “Cities around the U.S. are
-facing a staggering new normal when it comes to stolen cars,” <a
-href="https://www.vice.com/en/article/pkaq9z/us-cities-have-a-staggering-problem-of-kia-and-hyundai-thefts-this-data-shows-it">writes</a>
-Motherboard reporter <a href="https://aaronwgordon.com/">Aaron
-Gordon</a>, who has been digging into the <a
-href="https://www.vice.com/en/article/jg5b8d/what-its-like-to-own-the-cars-that-became-a-viral-sensation-to-steal">boom
-in thefts of Kia and Hyundai vehicles</a>, millions of which lack
-“engine immobilizers, a basic anti-theft device that is legally mandated
-in Canada and Europe.” Gordon has requested car theft data from more
-than 100 cities, and received it from 43 so far. He’s updating a <a
-href="https://docs.google.com/spreadsheets/d/1-6614t_Ata5k7oESrm-HAdF1uOe8aPGRaQECl44GYeE/edit#gid=0">spreadsheet</a>
-that lists each city’s number of thefts each month, plus the
-number/percentage that were Kias or Hyundais. <strong>Related</strong>:
-Earlier this year, <a
-href="https://usafacts.org/data-projects/car-thefts">USAFacts obtained
-and published similar data from 23 US cities</a>.</p>
-<p> </p>
-<p><strong>Michigan air permit violations.</strong> For local news
-organization <a href="https://planetdetroit.org/">Planet Detroit</a>,
-freelance journalist <a href="https://shelbyjouppi.com/">Shelby
-Jouppi</a> has built a <a
-href="https://planet-detroit.github.io/air-permit-violation-dashboard/">daily-updating
-dashboard</a> of air quality permit violations cited by Michigan’s <a
-href="https://www.michigan.gov/egle/about/organization/air-quality/air-permits">Department
-of Environment, Great Lakes and Energy</a>. The <a
-href="https://github.com/Planet-Detroit/air-permit-violation-dashboard/">dataset</a>
-lists 1,500+ violation notices since 2018; for each, it provides the
-notice date and findings, facility name and location, and more. To
-construct it, Jouppi had to <a
-href="https://shelbyjouppi.com/egle-air-database/">scrape individual
-notice PDFs from the department’s website</a> and then extract the
-information from those documents. <strong>Read more</strong>: “<a
-href="https://planetdetroit.org/2023/09/southwest-detroit-steel-slag-processor-edward-c-levy-receives-12th-air-quality-permit-violation-for-fallout-since-2018/">Southwest
-Detroit steel slag processor receives 12th air quality permit violation
-for fallout since 2018</a>,” an article by Jouppi based on the data.</p>
-<p> </p>
-<p><strong>Dog genomes.</strong> The <a
-href="http://www.dog10kgenomes.org/dog10k/index.html">Dog10K project</a>
-aims “to coordinate the global effort on genome sequencing in dogs and
-build a comprehensive resource for the canine community.” In a <a
-href="https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-03023-7">recent
-Genome Biology article</a>, the <a
-href="http://www.dog10kgenomes.org/dog10k/consortium.html">team</a>
-shared <a href="https://zenodo.org/record/8084059">data</a> and findings
-from 1987 individual animals — “1611 dogs (321 breeds), 309 village
-dogs, 63 wolves, and four coyotes.” The <a
-href="https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-03023-7#availability-of-data-and-materials">records
-include</a> raw sequence data and variation analysis results. [h/t <a
-href="https://kimhnguyen.com/">Kim Nguyen</a>]</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Bark your feedback to
-jsvine@gmail.com, or just reply to this email. // Looking for past
-datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. // Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and to browse past editions.</em></p>
-]]></content>
-    <link href="http://www.data-is-plural.com/archive/2023-10-11-edition" rel="alternate"/>
-    <summary>US income distributions, education reform, Kia/Hyundai thefts, Michigan air permit violations, and dog genomes.</summary>
-    <published>2023-10-11T08:00:00-04:00</published>
   </entry>
 </feed>
