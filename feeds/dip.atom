@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.data-is-plural.com</id>
   <title>Data Is Plural</title>
-  <updated>2024-01-24T08:00:00-05:00</updated>
+  <updated>2024-01-31T08:00:00-05:00</updated>
   <author>
     <name>Jeremy Singer-Vine</name>
     <email>jsvine@gmail.com</email>
@@ -10,6 +10,150 @@
   <link href="https://www.data-is-plural.com" rel="alternate"/>
   <generator>https://github.com/data-is-plural/newsletter-archive</generator>
   <subtitle>A weekly newsletter of useful/curious datasets.</subtitle>
+  <entry>
+    <id>dip-2024-01-31</id>
+    <title>Data Is Plural — 2024.01.31 edition</title>
+    <updated>2024-01-31T08:00:00-05:00</updated>
+    <content type="CDATA"><![CDATA[<p><em>Groundwater levels, military surplus, study abroad, dot-gov
+metadata, and Taylor’s colors.</em></p>
+<p> </p>
+<p><em>📬 Reader <a
+href="https://www.linkedin.com/in/shymanskaya-data-science/">Alexandra
+F</a> has <a
+href="https://medium.com/@alexandrafiona/digging-up-information-simplifying-data-analytics-with-chatgpt-28cdcd4879a7">mapped
+and charted</a> the locations and characteristics of “bog bodies,” using
+data from <a
+href="https://www.cambridge.org/core/journals/antiquity/article/bogs-bones-and-bodies-the-deposition-of-human-remains-in-northern-european-mires-9000-bcad-1900/B90A16A211894CB87906A7BCFC0B2FC7">Roy
+van Beek et al.</a> (featured in <a
+href="https://www.data-is-plural.com/archive/2023-02-15-edition/">DIP
+2023.02.15</a>) and <a href="https://overturemaps.org/">Overture
+Maps</a> (featured in <a
+href="https://www.data-is-plural.com/archive/2023-08-09-edition/">DIP
+2023.08.09</a>). Have you published something with data you found via
+DIP? <a
+href="https://docs.google.com/forms/d/e/1FAIpQLSdXXD5eO05w0Xa7bwG3Ppia3uzr_o3y-xDEZuWRfXbCfCu_XA/viewform">Click
+here to let me know</a>.</em></p>
+<p> </p>
+<p><strong>Groundwater levels.</strong> To assess global trends in
+groundwater levels, <a
+href="https://www.nature.com/articles/s41586-023-06879-8">Scott Jasechko
+et al.</a> have analyzed data from ~170,000 monitoring wells in 40+
+countries. The researchers’ <a
+href="https://zenodo.org/records/10003697">public datasets</a> include
+annual groundwater levels “in all cases for which we have received
+permission from a database manager to post data,” amounting to more than
+4 million measurements (59% of the total). The published records also
+include the boundaries of 1,600+ aquifer systems, “manually delineated
+[…] using maps and descriptions from 1,236 local and regional studies.”
+The study’s <a
+href="https://www.nature.com/articles/s41586-023-06879-8#Sec18">supplementary
+documentation</a> describes each data source and method of access.
+<strong>Read more</strong>: <a
+href="https://www.nytimes.com/2024/01/24/climate/global-groundwater-aquifer-levels.html?unlocked_article_code=1.Rk0.0eOL.gThq9lynWGrN">Coverage
+in the New York Times</a>, with detailed maps of Iran and Spain, <a
+href="https://www.wired.com/story/the-worlds-essential-aquifers-are-in-deep-trouble/">and
+in Wired</a>. [h/t <a
+href="https://sentiers.media/when-talk-about-future-polyfuturism-downward-spiral-technology-no-295/">Patrick
+Tanguay</a>]</p>
+<p> </p>
+<p><strong>Military surplus.</strong> Through its <a
+href="https://www.everycrsreport.com/reports/RS20428.html">Excess
+Defense Articles program</a>, the US military offers free and
+reduced-price equipment to foreign governments. The Department of
+Defense <a
+href="https://www.dsca.mil/programs/excess-defense-articles-eda">publishes
+a spreadsheet of the program’s authorizations and transfers</a>, last
+updated in mid–2020 and going back to 2010. Each of the 4,100+ entries
+lists the foreign country, item description, transfer status, status
+date, whether it was a sale or grant, quantities (requested, allocated,
+accepted, rejected, delivered), “current” value, and acquisition value.
+Items range in size and significance, from vinyl tape (55 rolls
+authorized for transfer to Iraq in 2016) to <a
+href="https://en.wikipedia.org/wiki/M1_Abrams">Abrams tanks</a>
+(including 178 provided to Morocco in 2018). [h/t <a
+href="http://www.davidvine.net/">David Vine</a>]</p>
+<p> </p>
+<p><strong>Study abroad.</strong> <a
+href="https://opendoorsdata.org/">Open Doors</a>, an <a
+href="https://www.iie.org/">Institute of International Education</a>
+initiative <a href="https://opendoorsdata.org/about/">funded by the
+State Department</a>, “is the only long-standing, comprehensive
+information resource on international students and scholars in the
+United States and on U.S. students studying abroad for academic credit.”
+Its <a href="https://opendoorsdata.org/annual-release/">annual
+reports</a> provide aggregate statistics by country, field of study,
+and/or institution. For example: NYU <a
+href="https://opendoorsdata.org/annual-release/international-students/">hosted
+more international students</a> (~25,000) than any other US university
+in the 2022–23 school year, followed by Northeastern (~21,000) and
+Columbia (~19,000); Italy, the UK, and Spain were the <a
+href="https://opendoorsdata.org/annual-release/u-s-study-abroad/">most
+popular destinations for US students</a> in 2021–22.
+<strong>Related</strong>: <a
+href="https://travel.state.gov/content/travel/en/legal/visa-law0/visa-statistics/nonimmigrant-visa-statistics.html">The
+State Department’s statistics on non-immigrant visas</a>, <a
+href="https://usafacts.org/articles/how-many-student-immigrants-come-to-the-us-and-what-countries-do-they-come-from/">including
+student visas</a>. <strong>Previously</strong>: <a
+href="https://data.europa.eu/data/datasets?locale=en&amp;catalog=eac&amp;query=erasmus&amp;page=1&amp;sort=issued+desc,%20relevance+desc,%20title.en+asc">Data
+on Europe’s Erasmus exchanges</a> (<a
+href="https://www.data-is-plural.com/archive/2022-02-09-edition/">DIP
+2022.02.09</a>). [h/t <a
+href="https://public.tableau.com/app/profile/kate.miller2285/viz/U_S_StudyAbroad200001-202021_16953356812420/Dashboard1">Kate
+Miller</a>]</p>
+<p> </p>
+<p><strong>Dot-gov metadata.</strong> <a
+href="https://www.governing.com/policy/a-young-civic-hacker-explores-the-possibilities-of-public-data">Father-son
+duo Luke and Elias Fretwell</a> are <a
+href="https://gov-metadata.civichackingagency.org/">grading government
+websites’ metadata</a>. Starting with a <a
+href="https://github.com/cisagov/dotgov-data">dataset of 1,300+ federal
+domains</a> maintained by the <a
+href="https://www.cisa.gov/">Cybersecurity and Infrastructure Security
+Agency</a>, the Fretwells have tested whether each homepage’s source
+code includes a <code>&lt;title&gt;</code> tag, certain <a
+href="https://ogp.me/">Open Graph</a> markers, and <a
+href="https://github.com/civichackingagency/gov-metadata?tab=readme-ov-file#metadata">other
+key HTML metadata</a>, <a
+href="https://govfresh.com/thoughts/metadata-open-graph-government-websites">which</a>
+“can have a significant impact on how citizens experience government
+digital services.” The results, presented online in the form of report
+cards, can also be <a
+href="https://github.com/civichackingagency/gov-metadata/blob/main/data.csv">downloaded</a>.</p>
+<p> </p>
+<p><strong>Taylor’s colors.</strong> Last year, Reddit user <a
+href="https://www.reddit.com/user/swiftdata1989/">swiftdata1989</a>
+published a <a
+href="https://docs.google.com/spreadsheets/d/1tweEvxe5UtIMhLldGFGxkW-AGIDwkSvwkWCUZhABqjk/edit#gid=0">spreadsheet</a>
+and <a
+href="https://www.reddit.com/r/dataisbeautiful/comments/12u0ncx/oc_every_time_a_color_is_mentioned_on_a_taylor/">visualization</a>
+of the colors mentioned in Taylor Swift’s albums. Each spreadsheet row
+lists the album, song, specific color (e.g., “scarlet”), closest generic
+color (e.g., red), number of times mentioned, and clarifying notes.
+<strong>Previously</strong>: Colors from the <a
+href="https://www1.icsi.berkeley.edu/wcs/data.html">World Color
+Survey</a> (<a
+href="https://www.data-is-plural.com/archive/2017-08-23-edition/">DIP
+2017.08.23</a>), <a href="https://www.c82.net/werner/">Werner’s
+Nomenclature of Colours</a> (<a
+href="https://www.data-is-plural.com/archive/2021-11-17-edition/">DIP
+2021.11.17</a>), and <a
+href="https://github.com/jwilber/Bob_Ross_Paintings">Bob Ross
+paintings</a> (<a
+href="https://www.data-is-plural.com/archive/2020-12-09-edition/">DIP
+2020.12.09</a>).</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send all hues of feedback
+to jsvine@gmail.com, or just reply to this email. // Looking for past
+datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. // Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions.</em></p>
+]]></content>
+    <link href="http://www.data-is-plural.com/archive/2024-01-31-edition" rel="alternate"/>
+    <summary>Groundwater levels, military surplus, study abroad, dot-gov metadata, and Taylor’s colors.</summary>
+    <published>2024-01-31T08:00:00-05:00</published>
+  </entry>
   <entry>
     <id>dip-2024-01-24</id>
     <title>Data Is Plural — 2024.01.24 edition</title>
@@ -1294,120 +1438,5 @@ subscribe and to browse past editions.</em></p>
     <link href="http://www.data-is-plural.com/archive/2023-11-01-edition" rel="alternate"/>
     <summary>Opioid settlements, financial offshoring, minority-serving colleges, childcare inspections, and two Zurich buses.</summary>
     <published>2023-11-01T08:00:00-04:00</published>
-  </entry>
-  <entry>
-    <id>dip-2023-10-25</id>
-    <title>Data Is Plural — 2023.10.25 edition</title>
-    <updated>2023-10-25T08:00:00-04:00</updated>
-    <content type="CDATA"><![CDATA[<p><em>Court-debt jailings, runway incursions, Goldin records, postal
-code ecology, and spreadsheets from Information is Beautiful.</em></p>
-<p> </p>
-<p><strong>Court-debt jailings.</strong> “In the absence of a clear
-picture of debt imprisonment,” <a
-href="https://biglocalnews.org/content/news/2023/09/14/debt-impisonment.html">Stanford’s
-Computational Policy Lab and Big Local News</a> “set out in 2018 on a
-first-of-its-kind data integration effort to answer the most basic
-question of all: <a
-href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0290397">how
-many people are being jailed for unpaid court debts</a>?” To do so, <a
-href="https://policylab.stanford.edu/projects/uncovering-debtors-prisons.html">the
-team</a> submitted “hundreds of public records requests with county
-jails”; last month, their <a
-href="https://policylab.stanford.edu/debtors-prisons/">Debtors’ Prisons
-Project</a> published <a
-href="https://policylab.stanford.edu/debtors-prisons/data/">standardized,
-anonymized versions of data</a> received from 100 counties (primarily in
-Texas and Wisconsin), “totalling more than 4 million individual jail
-booking records,” plus warrant data from Oklahoma and Delaware. The
-datasets indicate (where available) each arrestee’s race, ethnicity,
-sex, age, state, ZIP code, booking date, release date, and release type,
-as well as each charge’s description, severity, and whether it
-represents a “failure to pay.” <strong>Read more</strong>: <a
-href="https://policylab.stanford.edu/debtors-prisons/tutorial/">The
-team’s tutorial for analyzing the data</a>.</p>
-<p> </p>
-<p><strong>Runway incursions.</strong> The Federal Aviation
-Administration maintains a <a
-href="https://www.asias.faa.gov/apex/f?p=100:28:::NO:::">database of
-runway incursions</a>, which it defines as “any occurrence at an
-aerodrome involving the incorrect presence of an aircraft, vehicle, or
-person on the protected area of a surface designated for the landing and
-take-off of aircraft.” It currently contains 30,000+ entries, spanning
-October 2001 through July 2023; each <a
-href="https://www.asias.faa.gov/apex/f?p=100:32:::NO::P32_REGION_VAR:3">lists</a>
-an incursion’s date, category, location, severity, aircraft types, and
-weather conditions. You can export those elements as a CSV file, but the
-exports lack the online database’s event narratives. <strong>As seen
-in</strong>: “<a
-href="https://www.nytimes.com/interactive/2023/08/21/business/airline-safety-close-calls.html?unlocked_article_code=1.5Ew.J67z.HKYk1WsCZ6Pg">Airline
-Close Calls Happen Far More Often Than Previously Known</a>” and “<a
-href="https://www.nytimes.com/2023/10/11/business/air-traffic-control-austin-airport-fedex-southwest.html?unlocked_article_code=1.5Ew.O4gS.lkIKxyZn1K2P">How
-a Series of Air Traffic Control Lapses Nearly Killed 131 People</a>,” by
-the NYT’s <a href="https://www.nytimes.com/by/sydney-ember">Sydney
-Ember</a> and <a href="https://www.nytimes.com/by/emily-steel">Emily
-Steel</a>. [h/t Alan Levenson]</p>
-<p> </p>
-<p><strong>Goldin records.</strong> <a
-href="https://scholar.harvard.edu/goldin/home">Claudia Goldin</a>, who
-was <a
-href="https://www.nobelprize.org/prizes/economic-sciences/2023/summary/">awarded</a>
-2023’s <a
-href="https://en.wikipedia.org/wiki/Nobel_Memorial_Prize_in_Economic_Sciences">Nobel
-Memorial Prize in Economic Sciences</a>, maintains a <a
-href="https://scholar.harvard.edu/goldin/pages/data">faculty webpage
-with some of the data she’s created, digitized, and/or improved</a>.
-They include records from the <a
-href="https://www.icpsr.umich.edu/web/ICPSR/studies/28501">1915 Iowa
-State Census</a> (“the first census in the United States to include
-information on education and income”), rosters of eleven US orchestras
-from the 1930s to 1990s, compulsory education and child labor state laws
-during the early 1900s, <a
-href="https://scholar.harvard.edu/files/goldin/files/economiccosts_data_1975.pdf">appendix
-tables</a> for a <a
-href="https://scholar.harvard.edu/files/goldin/files/goldin_economiccost.pdf">1975
-paper estimating the economic costs of the US Civil War</a>, and
-more.</p>
-<p> </p>
-<p><strong>Postal code ecology.</strong> <a
-href="https://www.nature.com/articles/s41597-023-02579-0">David
-Willinger et al.</a> have used two major satellite data sources — the <a
-href="https://www2.jpl.nasa.gov/srtm/index.html">Shuttle Radar
-Topography Mission</a> and <a
-href="https://asterweb.jpl.nasa.gov/">Advanced Spaceborne Thermal
-Emission and Reflection Radiometer</a> — to create <a
-href="https://osf.io/wcjad/">ecolo-zip</a>, “a novel geospatial dataset
-that provides a granular-yet-global, parsimonious-yet-rich ecological
-characterization of over 1.5 million postal codes across 94 countries
-and regions.” Those characterizations include “physical topography
-(elevation, mountainousness, distance to sea), vegetation (normalized
-difference vegetation index), and climate (surface temperature).”</p>
-<p> </p>
-<p><strong><em>Beautiful</em> spreadsheets.</strong> The <a
-href="https://informationisbeautiful.net/about/team">team</a> behind
-infographics powerhouse <a
-href="https://informationisbeautiful.net/">Information is Beautiful</a>
-maintains a <a href="https://informationisbeautiful.net/data/">catalog
-of the data</a> used in 130+ of their projects, going back to 2009. The
-entries links to spreadsheet tables that present original research as
-well as numbers drawn more directly from academic studies, government
-reports, Wikipedia, and other sources. Recent topics include <a
-href="https://informationisbeautiful.net/visualizations/the-problem-with-plastics-and-recycling-bioplastics-microplastics-ocean-waste/">plastic
-waste</a>, <a
-href="https://informationisbeautiful.net/visualizations/the-rise-of-generative-ai-large-language-models-llms-like-chatgpt/">large
-language models</a>, and <a
-href="https://informationisbeautiful.net/visualizations/which-is-the-best-performing-marvel-movie/">Marvel
-movies</a>.</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send informative feedback
-to jsvine@gmail.com, or just reply to this email. // Looking for past
-datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. // Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and to browse past editions.</em></p>
-]]></content>
-    <link href="http://www.data-is-plural.com/archive/2023-10-25-edition" rel="alternate"/>
-    <summary>Court-debt jailings, runway incursions, Goldin records, postal code ecology, and spreadsheets from Information is Beautiful.</summary>
-    <published>2023-10-25T08:00:00-04:00</published>
   </entry>
 </feed>
