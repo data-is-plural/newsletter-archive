@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.data-is-plural.com</id>
   <title>Data Is Plural</title>
-  <updated>2024-01-31T08:00:00-05:00</updated>
+  <updated>2024-02-07T08:00:00-05:00</updated>
   <author>
     <name>Jeremy Singer-Vine</name>
     <email>jsvine@gmail.com</email>
@@ -10,6 +10,134 @@
   <link href="https://www.data-is-plural.com" rel="alternate"/>
   <generator>https://github.com/data-is-plural/newsletter-archive</generator>
   <subtitle>A weekly newsletter of useful/curious datasets.</subtitle>
+  <entry>
+    <id>dip-2024-02-07</id>
+    <title>Data Is Plural — 2024.02.07 edition</title>
+    <updated>2024-02-07T08:00:00-05:00</updated>
+    <content type="CDATA"><![CDATA[<p><em>Local election results, anti-Black killings in the mid-century
+South, US travel behavior, space X-rays, and amateur archaeological
+finds.</em></p>
+<p> </p>
+<p><strong>Local election results.</strong> <a
+href="https://www.nature.com/articles/s41597-023-02792-x">Justin de
+Benedictis-Kessner et al.</a> have compiled a <a
+href="https://osf.io/mv5e6/">dataset</a> of 77,000+ (distinct)
+candidates across 57,000+ US elections for mayor, city council, school
+board, county executive, county legislature, sheriff, and prosecutor. It
+is, they write, “the most comprehensive publicly-available source of
+information on local elections across the entire country.” It includes
+“most medium and large cities and counties” and spans 1989 to 2021. The
+authors combined data from pre-existing databases, state election
+websites, and newspaper archives. They also “worked with a team of
+research assistants who coded results from thousands of local elections
+based on city and county websites.” For each candidacy, the <a
+href="https://osf.io/tbwzd">core table</a> indicates the election’s
+jurisdiction, office, and timing, plus the candidate’s name, incumbency
+status, party, estimated demographics, votes won, and more.</p>
+<p> </p>
+<p><strong>Mid-century anti-Black killings.</strong> The <a
+href="https://crrjarchive.org/">Burnham-Nobles Archive</a> at the
+Northeastern University School of Law is “dedicated to identifying,
+classifying, and providing factual information and documentation about
+anti-Black killings in the mid-century South.” The current version <a
+href="https://crrjarchive.org/scope">focuses</a> on 11 southern states
+during 1930–1954. Developed by political scientist <a
+href="https://polisci.mit.edu/people/melissa-nobles">Melissa Nobles</a>
+and law professor <a
+href="https://law.northeastern.edu/faculty/burnham/">Margaret
+Burnham</a>, the <a href="https://crrjarchive.org/archive">long-running
+project</a> has gathered 12,000+ <a
+href="https://crrjarchive.org/sources">news articles, death
+certificates, federal agency records, and other sources</a>. It
+documents 900+ incidents and 950+ victims, as well as alleged
+perpetrators and judicial outcomes. The archive provides an <a
+href="https://crrjarchive.org/map">interactive map</a>, <a
+href="https://crrjarchive.org/catalog">record search</a> (including by
+<a
+href="https://crrjarchive.org/catalog?f%5Binternal_resource_tesim%5D%5B%5D=person">person</a>,
+<a
+href="https://crrjarchive.org/catalog?f%5Binternal_resource_tesim%5D%5B%5D=incident">incident</a>,
+and <a
+href="https://crrjarchive.org/catalog?f%5Binternal_resource_tesim%5D%5B%5D=document">document</a>),
+and <a href="https://crrjarchive.org/data_download">downloads</a>.
+<strong>Previously</strong>: <a
+href="https://people.uncw.edu/hinese/HAL/HAL%20Web%20Page.htm">Beck/Tolnay</a>
+and <a
+href="https://journals.sagepub.com/doi/full/10.1177/2378023119841780">Seguin/Rigby</a>’s
+data on lynching victims (<a
+href="https://www.data-is-plural.com/archive/2021-06-02-edition/">DIP
+2021.06.02</a>). [h/t <a href="https://jmithani.com/">Jasmine
+Mithani</a>]</p>
+<p> </p>
+<p><strong>US travel behavior.</strong> Fielded every five to eight
+years since 1968, the Federal Highway Administration’s <a
+href="https://nhts.ornl.gov/">National Household Travel Survey</a> “is
+the authoritative source on the travel behavior of the American public.”
+The questionnaire asks respondents to inventory all of their household’s
+trips taken during a 24-hour period. The most recent survey, for 2022,
+includes ~31,000 trips by ~17,000 people in ~8,000 households. It
+indicates each trip’s duration, vehicle details, motivation, parking
+costs, traveler demographics, and much more. The FHA provides <a
+href="https://nhts.ornl.gov/downloads">downloads of the anonymized
+data</a>, as well as <a href="https://nhts.ornl.gov/documentation">user
+guides and technical notes</a>. <strong>As seen in</strong>: “<a
+href="https://www.washingtonpost.com/business/2024/02/02/school-bus-era-ends/">The
+school bus is disappearing. Welcome to the era of the school pickup
+line</a>,” by the Washington Post’s <a
+href="https://www.washingtonpost.com/people/andrew-van-dam/">Andrew Van
+Dam</a>.</p>
+<p> </p>
+<p><strong>Space X-rays.</strong> <a
+href="https://erosita.mpe.mpg.de/">eROSITA</a> is a <a
+href="https://www.aanda.org/articles/aa/full_html/2021/03/aa39313-20/aa39313-20.html">wide-field
+X-ray telescope</a> “capable of delivering deep, sharp images over very
+large areas of the sky,” helping researchers “to study the large-scale
+structure of the universe.” The telescope launched into orbit in 2019 as
+a collaboration between Russia and Germany, with data rights split
+between the countries. In February 2022, following Russia’s invasion of
+Ukraine, Germany’s Max Planck Institute <a
+href="https://www.mpe.mpg.de/7856215/news20220303">suspended eROSITA’s
+operations</a>. Data processing continued, however, and last week the
+institute <a
+href="https://www.mpe.mpg.de/7989698/news20240131">published</a> its <a
+href="https://erosita.mpe.mpg.de/dr1/index.html">first data release</a>.
+It contains the first six months of results for the hemisphere assigned
+to Germany, and is “the largest X-ray catalogue ever published.”</p>
+<p> </p>
+<p><strong>Amateur archaeological finds.</strong> The British Museum’s
+<a
+href="https://www.britishmuseum.org/our-work/national/treasure-and-portable-antiquities-scheme">Portable
+Antiquities Scheme</a> “records archaeological finds discovered by the
+public,” assisted by a network of national and local partners. Its <a
+href="https://finds.org.uk/database">database</a> contains 1.1 million
+records describing 1.7 million objects. “All have been found by everyday
+people by chance, most through metal detecting.” The most common finds:
+<a
+href="https://finds.org.uk/database/search/results/objectType/COIN">coins</a>
+(~500,000 records), <a
+href="https://finds.org.uk/database/search/results/objectType/BUCKLE">buckles</a>
+(~58,000), and <a
+href="https://finds.org.uk/database/search/results/objectType/BROOCH">brooches</a>
+(~52,000). Search <a
+href="https://finds.org.uk/database/search/results">results</a> are
+available in JSON, XML, and other structured formats. [h/t <a
+href="https://www.theartnewspaper.com/2024/01/23/striking-gold-2022-was-a-record-year-for-treasure-and-antiquities-finds-with-more-than-50000-items-reported">Maev
+Kennedy</a> + <a
+href="https://www.numlock.com/p/numlock-news-january-24-2024-atomic">Walt
+Hickey</a>]</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send antiquarian feedback
+to jsvine@gmail.com, or just reply to this email. // Looking for past
+datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. // Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions.</em></p>
+]]></content>
+    <link href="http://www.data-is-plural.com/archive/2024-02-07-edition" rel="alternate"/>
+    <summary>Local election results, anti-Black killings in the mid-century South, US travel behavior, space X-rays, and amateur archaeological finds.</summary>
+    <published>2024-02-07T08:00:00-05:00</published>
+  </entry>
   <entry>
     <id>dip-2024-01-31</id>
     <title>Data Is Plural — 2024.01.31 edition</title>
@@ -1312,131 +1440,5 @@ subscribe and to browse past editions.</em></p>
     <link href="http://www.data-is-plural.com/archive/2023-11-15-edition" rel="alternate"/>
     <summary>Trans rights, home schooling, migrant arrivals in Italy, toxic wastewater spills, and coffee tasting.</summary>
     <published>2023-11-15T08:00:00-05:00</published>
-  </entry>
-  <entry>
-    <id>dip-2023-11-01</id>
-    <title>Data Is Plural — 2023.11.01 edition</title>
-    <updated>2023-11-01T08:00:00-04:00</updated>
-    <content type="CDATA"><![CDATA[<p><em>Opioid settlements, financial offshoring, minority-serving
-colleges, childcare inspections, and two Zurich buses.</em></p>
-<p> </p>
-<p><em>🔄 The <a href="https://www.marineregions.org/">Marine
-Regions</a> project, featured in <a
-href="https://www.data-is-plural.com/archive/2021-09-29-edition/">DIP
-2021.09.29</a>, has <a
-href="https://www.marineregions.org/files/newsletter_v12.htm">released
-version 12</a> of its <a
-href="https://www.marineregions.org/downloads.php#marbound">maritime
-boundaries dataset</a>, adding “new and more detailed line types” and
-“updated with newly established baselines, treaties, and court
-rulings.”</em></p>
-<p> </p>
-<p><strong>Opioid settlements.</strong> <a
-href="https://www.opioidsettlementtracker.com/">OpioidSettlementTracker.com</a>,
-<a href="https://www.opioidsettlementtracker.com/about">run by lawyer
-Christine Minhee</a>, asks: “Will opioid settlements be spent in ways
-that bolster the public health response to drug use?” Minhee has
-compiled a series of spreadsheets to help answer that question. They
-track the <a
-href="https://www.opioidsettlementtracker.com/globalsettlementtracker/#statuses">status
-and reported values of settlements</a> between 14 companies (opioid
-manufacturers, distributors, and others) and US states (plus DC and
-Puerto Rico), <a
-href="https://www.opioidsettlementtracker.com/settlementspending#plans">states’
-plans for spending those settlements</a>, and <a
-href="https://www.opioidsettlementtracker.com/publicreporting/#promises">their
-promises to publicly report such spending</a>. <strong>Read
-more</strong>: “<a
-href="https://kffhealthnews.org/news/article/opioid-drugmakers-settlement-funds-50-billion-dollars-khn-investigation-payback/">$50
-Billion in Opioid Settlement Cash Is on the Way. We’re Tracking How It’s
-Spent</a>,” a KFF Health News article using Minhee’s data, part of a <a
-href="https://kffhealthnews.org/opioid-settlements/">broader project on
-the topic</a>.</p>
-<p> </p>
-<p><strong>Financial offshoring.</strong> The <a
-href="https://atlas-offshore.world/">Atlas of the Offshore World</a> —
-“a new effort by the <a href="https://www.taxobservatory.eu/">EU Tax
-Observatory</a>,” a research group based at the Paris School of
-Economics — aims “to inform the global debate around international tax
-evasion and avoidance.” Its <a
-href="https://atlas-offshore.world/download-data/">four main
-datasets</a> provide country-level estimates of <a
-href="https://atlas-offshore.world/dataset/global-profit">international
-profit shifting</a>, <a
-href="https://atlas-offshore.world/dataset/offshore-financial">offshore
-financial wealth</a>, <a
-href="https://atlas-offshore.world/dataset/offshore-real-estate">offshore
-real estate ownership</a>, and <a
-href="https://atlas-offshore.world/dataset/effective-tax">50+ years of
-effective tax rates</a>. <strong>Read more</strong>: The team’s “<a
-href="https://www.taxobservatory.eu/publication/global-tax-evasion-report-2024/">Global
-Tax Evasion Report 2024</a>” and “<a
-href="https://www.taxobservatory.eu/the-history-behind-the-atlas-of-the-offshore-world/">The
-History Behind the Atlas of the Offshore World</a>.” [h/t <a
-href="https://sites.google.com/view/mattcollin/home">Matt
-Collin</a>]</p>
-<p> </p>
-<p><strong>Minority-serving colleges.</strong> The <a
-href="https://www.msidata.org/">MSI Data Project</a> provides a <a
-href="https://www.msidata.org/data">dashboard</a> and <a
-href="https://www.msidata.org/publications">dataset</a> focused on
-colleges and universities that qualify federally as <a
-href="https://www.msidata.org/msis">minority-serving institutions</a>
-either through their mission (e.g., <a
-href="https://en.wikipedia.org/wiki/Historically_black_colleges_and_universities">HBCUs</a>)
-or through enrollment. The project examines institutions’ funding
-status, location, student body, and degree granting for 2017–2021. It
-draws on records from the Department of Education’s “<a
-href="https://www2.ed.gov/about/offices/list/ope/idues/eligibility.html">eligibility
-matrices</a>” for each MSI designation and the agency’s <a
-href="https://nces.ed.gov/ipeds/">Integrated Postsecondary Education
-Data System</a> (IPEDS). <strong>As seen in</strong>: “<a
-href="https://hechingerreport.org/beyond-the-rankings-the-college-welcome-guide/">Beyond
-the Rankings: The College Welcome Guide</a>,” by The Hechinger Report’s
-<a href="https://hechingerreport.org/author/fazil-khan/">Fazil Khan</a>,
-incorporating data from both IPEDS and the MSI Data Project. [h/t <a
-href="https://hechingerreport.org/author/sarah-butrymowicz/">Sarah
-Butrymowicz</a>]</p>
-<p> </p>
-<p><strong>Childcare inspections.</strong> “Across 41 states, one in ten
-licensed daycare facilities is overdue for an inspection,” according to
-an <a
-href="https://usafacts.org/data-projects/childcare-inspections">analysis
-by USAFacts</a>, which gathered inspection-timing data for 148,000
-facilities. The analysis’s downloadable datasets indicate the number of
-facilities overdue (versus on-time or unknown) in each state and county,
-as well as the distribution of days-since-last-inspection in each state.
-Most of the inspection data had to be programmatically collected from
-state portals, <a
-href="https://www.linkedin.com/posts/amberrthomas_are-states-meeting-their-childcare-inspection-activity-7120861735833518080-V-6s/">according
-to Amber Thomas</a>, except for California, which <a
-href="https://www.ccld.dss.ca.gov/carefacilitysearch/DownloadData">publishes
-bulk data</a> (including inspection dates) about all childcare
-facilities.</p>
-<p> </p>
-<p><strong>Two Zurich buses.</strong> <a
-href="https://www.nature.com/articles/s41597-023-02600-6">Fabio Widmer
-et al.</a>’s <a
-href="https://www.research-collection.ethz.ch/handle/20.500.11850/626723">ZTBus
-dataset</a> provides detailed data from 1,409 “driving missions” of two
-electric public transit buses in Zurich, Switzerland. Each mission
-typically represents a full day’s operation. The records, which span
-early 2019 to late 2022, include “time series that represent the power
-demand, propulsion system, odometry, global position, ambient
-temperature, door openings, number of passengers, and the dispatch
-patterns within the public transportation network of the two
-vehicles.”</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Dispatch your feedback to
-jsvine@gmail.com, or just reply to this email. // Looking for past
-datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. // Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and to browse past editions.</em></p>
-]]></content>
-    <link href="http://www.data-is-plural.com/archive/2023-11-01-edition" rel="alternate"/>
-    <summary>Opioid settlements, financial offshoring, minority-serving colleges, childcare inspections, and two Zurich buses.</summary>
-    <published>2023-11-01T08:00:00-04:00</published>
   </entry>
 </feed>
