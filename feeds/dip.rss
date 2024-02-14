@@ -6,7 +6,141 @@
     <description>A weekly newsletter of useful/curious datasets.</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>https://github.com/data-is-plural/newsletter-archive</generator>
-    <lastBuildDate>Wed, 07 Feb 2024 08:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 14 Feb 2024 08:00:00 -0500</lastBuildDate>
+    <item>
+      <title>Data Is Plural — 2024.02.14 edition</title>
+      <link>http://www.data-is-plural.com/archive/2024-02-14-edition</link>
+      <description>State trust lands, household composition, comics deconstructed, nursing home prices, and twisty roads.</description>
+      <content:encoded><![CDATA[<p><em>State trust lands, household composition, comics deconstructed,
+nursing home prices, and twisty roads.</em></p>
+<p> </p>
+<p><em>👋 Over its eight years and 360+ editions, Data Is Plural’s
+newsletter and archives have been freely accessible — just like the
+datasets DIP features. I have no plans to change that. Occasionally,
+however, I’ve wondered what a “premium” membership might look like. What
+could DIP offer to subscribers who wanted to dive deeper, to engage
+beyond the tidy boundaries of a newsletter? To that end: <a
+href="https://www.data-is-plural.com/plus/"><strong>Introducing
+DIP+</strong></a>, Data Is Plural’s new membership program. For $60/year
+you’ll get access to a Discord-hosted community, featuring bonus
+material, lively discussions with fellow data-spelunkers, job boards,
+and more. There’s a 14-day free trial, so you can test it out first. <a
+href="https://www.data-is-plural.com/plus/">Click here for details and
+to register</a>. And feel free reply to this email with any questions or
+feedback.</em></p>
+<p> </p>
+<p><strong>State trust lands.</strong> “State trust lands just might be
+one of the best-kept public secrets in America,” <a
+href="https://grist.org/updates/grist-publishes-new-land-grant-investigation-with-public-data/">according
+to Grist</a>, which published a <a
+href="https://grist.org/project/indigenous/land-grant-universities-indigenous-lands-fossil-fuels/">data-driven
+investigation</a> on the topic last week. These lands — expropriated
+from Indigenous nations and managed by state governments for profit —
+“exist in 21 Western and Midwestern states, totaling more than 500
+million surface and subsurface acres.” Grist’s inquiry focuses on those
+benefiting <a
+href="https://en.wikipedia.org/wiki/Land-grant_university">land-grant
+universities</a>, the subject of a related <a
+href="https://www.hcn.org/issues/52-4/indigenous-affairs-education-land-grab-universities/">High
+Country News investigation</a> (<a
+href="https://www.data-is-plural.com/archive/2020-06-24-edition/">DIP
+2020.06.24</a>). Using state property records and <a
+href="https://data.fs.usda.gov/geodata/edw/datasets.php">Forest Service
+data</a> digitized from <a
+href="https://www.loc.gov/collections/century-of-lawmaking/articles-and-essays/century-presentations/indian-land-cessions/">historical
+cession maps</a>, <a
+href="https://grist.org/technology/how-we-investigated-land-grant-university-system/">Grist
+identified</a> “more than 8.2 million acres of state trust parcels taken
+from 123 tribes, bands, and communities” that fund 14 such institutions.
+Their <a
+href="https://grist.org/indigenous/how-to-conduct-your-own-reporting-research-state-trust-lands/">public
+data</a> describe these 41,000+ pieces of land: each parcel’s size and
+location, rights type, land use, benefiting university, associated
+tribes, and cession details. [h/t <a
+href="https://twitter.com/Riogringa">Rachel Glickhouse</a>]</p>
+<p> </p>
+<p><strong>Household composition.</strong> <a
+href="https://www.nature.com/articles/s41597-024-02964-3">Juan Galeano
+et al.</a>’s <a href="https://zenodo.org/records/8142652">CORESIDENCE
+database</a> provides 146 indicators of household arrangements in 156
+countries and ~4,000 regions, spanning the years 1964 to 2021. The
+indicators range in specificity, from average household size to, e.g.,
+the average number of non-relatives in 3-person households. They also
+include gender breakdowns, such as the proportion of 5-person households
+among female-headed households. The metrics are calculated using
+“global-scale individual microdata from four main repositories and
+national household surveys, encompassing over 150 million individual
+records representing more than 98% of the world’s population.”</p>
+<p> </p>
+<p><strong>Comics, deconstructed.</strong> The Tilburg University–based
+<a href="https://www.visuallanguagelab.com/">Visual Language Lab</a>,
+led by comics scholar <a
+href="https://www.visuallanguagelab.com/neilcohn">Neil Cohn</a>, studies
+“all aspects of visual language, from the structure of individual
+drawings, emoji, or cartoons, to how we make meaning out of sequences of
+images like in comics.” The lab’s <a
+href="https://www.visuallanguagelab.com/vlrc">Visual Language Research
+Corpus</a> provides <a
+href="https://link.springer.com/article/10.1007/s10579-023-09673-0">detailed
+annotations</a> of tens of thousands of panels in 300+ comic books and
+graphic novels (plus every <em>Calvin &amp; Hobbes</em> strip). The <a
+href="https://dataverse.nl/dataset.xhtml?persistentId=doi:10.34894/LWMZ7G">dataset</a>’s
+sources include material from multiple continents, time periods, and
+genres. The annotations examine “attentional framing structure and
+filmic shot scale, the situational changes across panels, page layouts,
+multimodality, visual morphology, and path structure,” among other
+characteristics. [h/t <a href="https://twitter.com/hydrosquall">Cameron
+Yick</a>]</p>
+<p> </p>
+<p><strong>Nursing home prices.</strong> Between December 2020 and March
+2022, SeniorLiving.org researchers “attempted to contact 7,221 US senior
+facilities by telephone to obtain availability and service pricing.” The
+team got at least some pricing data for 3,000+ of the facilities. The
+results, available from SeniorLiving’s <a
+href="https://www.seniorliving.org/research/open-data-project/">data
+portal</a>, provide information about each provider, the team’s call
+attempts, and the average monthly price for five types of housing and
+care: skilled nursing with a private room, skilled nursing with a shared
+room, assisted living, independent living, and care tailored for people
+with Alzheimer’s disease and dementia. <strong>Related</strong>: The
+Centers for Medicare &amp; Medicaid Services’ <a
+href="https://data.cms.gov/provider-compliance/cost-report/skilled-nursing-facility-cost-report">Skilled
+Nursing Facility Cost Report datasets</a>, which contain annual metrics
+on finances, staffing, and care provided. [h/t <a
+href="https://www.linkedin.com/in/corie-colliton-wagner/">Corie
+Wagner</a>]</p>
+<p> </p>
+<p><strong>Twisty roads.</strong> <a
+href="https://roadcurvature.com/">Curvature</a> uses <a
+href="https://www.openstreetmap.org">OpenStreetMap</a> <a
+href="https://wiki.openstreetmap.org/wiki/Downloading_data">data</a> to
+<a href="https://roadcurvature.com/map/">map the world’s curviest
+roads</a>. Built by <a
+href="https://www.caranddriver.com/features/a34610356/adam-franco-curvature-fun-roads/">motorcyclist</a>
+and software developer <a href="https://www.adamfranco.com/">Adam
+Franco</a>, the <a
+href="https://github.com/adamfranco/curvature">open-source</a> project
+“works by looking at the geometry of every road segment and adding up
+how much length of the road is sharp corners, broad sweeping curves, and
+straight areas.” Franco also provides a <a
+href="https://roadcurvature.com/how-it-works/">more detailed
+explanation</a>, as well as <a
+href="https://kml.roadcurvature.com/">data files</a> scoring each road
+and curve segment. [h/t <a
+href="https://buttondown.email/puntofisso/archive/551-quantum-of-sollazzo/">Giuseppe
+Sollazzo</a>]</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send zigzagging feedback
+to jsvine@gmail.com, or just reply to this email. // Looking for past
+datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. // Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions.</em></p>
+]]></content:encoded>
+      <guid isPermaLink="false">dip-2024-02-14</guid>
+      <pubDate>Wed, 14 Feb 2024 08:00:00 -0500</pubDate>
+    </item>
     <item>
       <title>Data Is Plural — 2024.02.07 edition</title>
       <link>http://www.data-is-plural.com/archive/2024-02-07-edition</link>
@@ -1301,132 +1435,6 @@ subscribe and to browse past editions.</em></p>
 ]]></content:encoded>
       <guid isPermaLink="false">dip-2023-11-22</guid>
       <pubDate>Wed, 22 Nov 2023 08:00:00 -0500</pubDate>
-    </item>
-    <item>
-      <title>Data Is Plural — 2023.11.15 edition</title>
-      <link>http://www.data-is-plural.com/archive/2023-11-15-edition</link>
-      <description>Trans rights, home schooling, migrant arrivals in Italy, toxic wastewater spills, and coffee tasting.</description>
-      <content:encoded><![CDATA[<p><em>Trans rights, home schooling, migrant arrivals in Italy, toxic
-wastewater spills, and coffee tasting.</em></p>
-<p> </p>
-<p><em>🎙 Season 2 of the <a
-href="https://podcast.data-is-plural.com/">Data Is Plural podcast</a> is
-arriving soon. To subscribe via your favorite podcast-listening app, <a
-href="https://podcast.data-is-plural.com/share">click here</a>.</em></p>
-<p> </p>
-<p><em>📬 Reader <a href="https://medium.com/@alexandrafiona">Alexandra
-F</a> published <a
-href="https://medium.com/@alexandrafiona/oh-honey-honey-6c629389782b">an
-analysis of US honey consumption and production over time</a>, using
-data from <a
-href="https://usda.library.cornell.edu/concern/publications/hd76s004z">USDA
-reports</a> featured in <a
-href="https://www.data-is-plural.com/archive/2022-01-05-edition/">DIP
-2022.01.05</a>. (Have you published something with data you found via
-DIP? <a
-href="https://docs.google.com/forms/d/e/1FAIpQLSdXXD5eO05w0Xa7bwG3Ppia3uzr_o3y-xDEZuWRfXbCfCu_XA/viewform">Click
-here to let me know</a>.)</em></p>
-<p> </p>
-<p><strong>Trans rights.</strong> <a
-href="https://www.myleswilliamson.net/">Myles Williamson</a>’s <a
-href="https://www.cambridge.org/core/journals/perspectives-on-politics/article/global-analysis-of-transgender-rights-introducing-the-trans-rights-indicator-project-trip/3C143E501E0824C8F9F0C40925965F43">Trans
-Rights Indicator Project</a> “provides insight into the legal situations
-transgender people faced in 173 countries from 2000 to 2021.” The <a
-href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/FXXLTS">project’s
-dataset</a> is “the only public dataset covering trans rights with wide
-spatial <em>and</em> temporal coverage (to my knowledge),” Williamson
-writes. For each country-year combination, it “includes 14 indicators
-that capture the presence or absence of laws related to criminalization,
-legal gender recognition, and anti-discrimination protections.” <a
-href="https://www.myleswilliamson.net/trip-data">For instance</a>: Does
-the country require a psychological diagnosis before someone can change
-their gender on identity documents?</p>
-<p> </p>
-<p><strong>Home schooling.</strong> The Washington Post has gathered <a
-href="https://github.com/washingtonpost/data_home_schooling">data on
-home-school enrollment figures</a> in dozens of US states and 6,700+
-school districts over the past six academic years. Post reporters, with
-help from students at American University, “trawled state websites,
-contacted education officials in all 50 states and the District of
-Columbia and submitted multiple public records requests” to build the
-dataset, <a
-href="https://www.washingtonpost.com/pr/2023/11/09/tracking-home-schooling-an-expansive-data-set-exclusively-washington-post/">released
-last week</a>. Each entry <a
-href="https://github.com/washingtonpost/data_home_schooling/blob/main/home_school_data_dictionary.csv">indicates</a>
-the state/district, school year, and the number of students registered
-for home schooling. <strong>Read more</strong>: <a
-href="https://www.washingtonpost.com/education/interactive/2023/homeschooling-growth-data-by-district/">The
-Post’s analysis</a>, which “reveals that a dramatic rise in home
-schooling at the onset of the pandemic has largely sustained itself
-through the 2022-23 academic year, defying predictions […].” [h/t <a
-href="https://www.washingtonpost.com/people/meghan-hoyer/">Meghan
-Hoyer</a>]</p>
-<p> </p>
-<p><strong>Migrant arrivals in Italy.</strong> The <a
-href="https://www.datibenecomune.it/about-us/">Dati Bene Comune</a>
-campaign’s latest initiative, <a
-href="https://datibenecomune.substack.com/p/il-numero-zero"><em>Liberiamoli
-tutti!</em></a> (<em>Let’s free them all!</em>), aims to improve the
-availability of Italian government data. Its first project has been to
-convert the <a
-href="http://www.libertaciviliimmigrazione.dlci.interno.gov.it/it/documentazione/statistica/cruscotto-statistico-giornaliero">interior
-ministry’s statistics on migrant arrivals</a> from PDF reports <a
-href="https://github.com/ondata/liberiamoli-tutti/blob/main/sbarchi-migranti/dati/README.md">into
-spreadsheets</a>. The extracted information <a
-href="https://docs.google.com/spreadsheets/d/1dNlByw2cMoqGorp4zPN6OULtG_jVRCe5xpl0YdKJxFE/edit#gid=1693395128">includes</a>
-daily counts of sea arrivals, twice-monthly totals by nationality, and
-the number of people in <a
-href="https://help.unhcr.org/italy/asylum-italy/reception/">reception
-centers</a> by center type and Italian region. <strong>A nice
-shout-out</strong>: <em>Liberiamoli tutti!</em> <a
-href="https://open.substack.com/pub/datibenecomune/p/il-numero-zero?selection=39d56eb6-7897-43a1-bdbd-884de1382040">says</a>
-it’s inspired by Data Is Plural’s sibling, <a
-href="https://www.data-liberation-project.org/">The Data Liberation
-Project</a>.</p>
-<p> </p>
-<p><strong>Toxic wastewater spills.</strong> For a <a
-href="https://insideclimatenews.org/news/31102023/oil-gas-companies-spill-wastewater-in-texas/">recent
-Inside Climate News investigation</a>, <a
-href="https://insideclimatenews.org/profile/martha-pskowski/">Martha
-Pskowski</a> and <a href="https://peteraldhous.com/">Peter Aldhous</a>
-wrangled <a
-href="https://github.com/InsideClimateNews/2023-10-tx-produced-water-spills">data
-on 10,000+ wastewater spills</a> reported by oil and gas companies to
-the Texas government between 2013 and 2022. These “spill logs” —
-obtained through public records requests, then cleaned and standardized
-by the journalists — correspond to <a
-href="https://insideclimatenews.github.io/2023-10-tx-produced-water-spills/tx-spills-central.html">more
-than 148 million gallons</a> of “produced water,” a byproduct of
-drilling and fracking. The data indicate each spill’s date, location,
-facility, operator, type of operation, volume of wastewater released,
-volume recovered, and much more.</p>
-<p> </p>
-<p><strong>Coffee tasting.</strong> Last month, British <a
-href="https://www.youtube.com/channel/UCMb0O2CdPBNi-QqPk5T3gsQ">YouTuber</a>
-(and <a
-href="https://www.jameshoffmann.co.uk/work#/coffee-competitions/">former
-World Barista Champion</a>) <a
-href="https://en.wikipedia.org/wiki/James_Hoffmann">James Hoffman</a>
-virtually hosted the <a
-href="https://www.youtube.com/watch?v=1fN_z4-EcOU">Great American Coffee
-Taste Test</a>, during which thousands of people simultaneously
-blind-tasted the same four coffees. Hoffman has published a <a
-href="https://www.youtube.com/watch?v=bMOOQfeloH0">video summarizing the
-results</a>, as well as a <a href="https://bit.ly/gacttCSV+">spreadsheet
-of anonymized survey responses</a> from 4,000+ participants. It includes
-tasters’ demographics, general coffee drinking habits and preferences,
-assessments of the four coffees, and more. [h/t Dan Brady]</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send freshly roasted
-feedback to jsvine@gmail.com, or just reply to this email. // Looking
-for past datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. // Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and to browse past editions.</em></p>
-]]></content:encoded>
-      <guid isPermaLink="false">dip-2023-11-15</guid>
-      <pubDate>Wed, 15 Nov 2023 08:00:00 -0500</pubDate>
     </item>
   </channel>
 </rss>
