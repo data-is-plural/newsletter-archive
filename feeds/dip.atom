@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.data-is-plural.com</id>
   <title>Data Is Plural</title>
-  <updated>2024-02-14T08:00:00-05:00</updated>
+  <updated>2024-02-21T08:00:00-05:00</updated>
   <author>
     <name>Jeremy Singer-Vine</name>
     <email>jsvine@gmail.com</email>
@@ -10,6 +10,138 @@
   <link href="https://www.data-is-plural.com" rel="alternate"/>
   <generator>https://github.com/data-is-plural/newsletter-archive</generator>
   <subtitle>A weekly newsletter of useful/curious datasets.</subtitle>
+  <entry>
+    <id>dip-2024-02-21</id>
+    <title>Data Is Plural — 2024.02.21 edition</title>
+    <updated>2024-02-21T08:00:00-05:00</updated>
+    <content type="CDATA"><![CDATA[<p><em>Self-driving stats, US wetlands, SF overdose deaths, Spain’s
+political primaries, and Scott’s SMS spam.</em></p>
+<p> </p>
+<p><em>📬 Reader <a
+href="https://www.linkedin.com/in/chirkina/">Aleksandra Chirkina</a> has
+<a
+href="https://www.linkedin.com/pulse/coffee-veritas-aleksandra-chirkina-6ldoe/">explored
+the relationship</a> between self-claimed expertise and coffee
+preferences in <a href="https://bit.ly/gacttCSV+">the data</a> from <a
+href="https://en.wikipedia.org/wiki/James_Hoffmann">James Hoffman</a>’s
+<a href="https://www.youtube.com/watch?v=bMOOQfeloH0">Great American
+Coffee Taste Test</a> (featured in <a
+href="https://www.data-is-plural.com/archive/2023-11-15-edition/">DIP
+2023.11.15</a>). Have you published something with data you found via
+DIP? <a
+href="https://docs.google.com/forms/d/e/1FAIpQLSdXXD5eO05w0Xa7bwG3Ppia3uzr_o3y-xDEZuWRfXbCfCu_XA/viewform">Click
+here to let me know</a>.</em></p>
+<p> </p>
+<p><em>👋 <a href="https://www.data-is-plural.com/plus/">DIP+
+members</a> got a sneak peek of this week’s datasets on Monday, links to
+additional datasets too niche for the newsletter, and a mini-analysis of
+Hobbes’ appearances in the <a
+href="https://www.visuallanguagelab.com/vlrc">Visual Language Research
+Corpus</a>. We also chatted about data-intensive programs that run
+entirely browser-side and changes to Census surveys’ questions about
+gender. Come join us! <a
+href="https://www.data-is-plural.com/plus/">Memberships</a> are just
+$7/month or $60/year.</em></p>
+<p> </p>
+<p><strong>Self-driving stats.</strong> Companies wanting to test or
+deploy self-driving cars on California’s public roads must receive a
+permit from the state DMV’s <a
+href="https://www.dmv.ca.gov/portal/vehicle-industry-services/autonomous-vehicles/">Autonomous
+Vehicles Program</a>. As part of the requirements, these companies must
+“submit annual reports to share how often their vehicles disengaged from
+autonomous mode during tests (whether because of technology failure or
+situations requiring the test driver/operator to take manual control of
+the vehicle to operate safely).” These <a
+href="https://www.dmv.ca.gov/portal/vehicle-industry-services/autonomous-vehicles/disengagement-reports/">disengagement
+reports</a> indicate each vehicle’s company, permit number, <a
+href="https://en.wikipedia.org/wiki/Vehicle_identification_number">VIN</a>,
+monthly miles driven, and annual disengagements — including vehicles
+with none. And for each disengagement, the reports list the vehicle,
+date, disengagement initiator (vehicle, test driver, remote operator, or
+passenger), type of location, and a brief summary. [h/t <a
+href="https://www.chartr.co/newsletters/2023-11-12">Chartr</a>]</p>
+<p> </p>
+<p><strong>US wetlands.</strong> The <a
+href="https://www.fws.gov/program/national-wetlands-inventory">National
+Wetlands Inventory</a>, maintained by the US Fish and Wildlife Service,
+provides <a
+href="https://www.fws.gov/program/national-wetlands-inventory/wetlands-mapper">interactive
+maps</a> and <a
+href="https://www.fws.gov/program/national-wetlands-inventory/wetlands-data">bulk
+data</a> containing “geospatially referenced information on the status,
+extent, characteristics and functions of wetland, riparian, deepwater,
+and related aquatic habitats.” With <a
+href="https://www.fws.gov/program/national-wetlands-inventory/wetlands-mapping">contributions
+from 160+ organizations</a>, coordinated through a <a
+href="https://www.fws.gov/program/national-wetlands-inventory/data-standards">dedicated
+national standard</a>, the inventory represents “more than 35 million
+wetland and deepwater features,” and continues to receive updates.
+<strong>As seen in</strong>: DIP reader <a
+href="https://simondgreenhill.github.io/">Simon Greenhill</a> and
+coauthors’ <a
+href="https://www.science.org/doi/10.1126/science.adi3794">paper</a>, <a
+href="https://datadryad.org/stash/dataset/doi:10.5061/dryad.z34tmpgm7">dataset</a>,
+<a href="https://www.youtube.com/watch?v=Jkhz5gVUo2w">explainer
+video</a>, and <a
+href="https://simondgreenhill.github.io/wotus-map/">map</a> using
+machine learning to predict wetland and river protections under the
+Clean Water Act.</p>
+<p> </p>
+<p><strong>SF overdose deaths.</strong> Last year, 813 people died from
+accidental drug overdoses in San Francisco, <a
+href="https://www.sf.gov/resource/2020/ocme-accidental-overdose-reports">according
+to the latest figures from the city’s Office of the Chief Medical
+Examiner</a>. That’s the highest annual total on record, per the San
+Francisco Chronicle’s <a
+href="https://www.sfchronicle.com/projects/san-francisco-drug-overdose-deaths/">overdose
+data tracker</a>, which <a
+href="https://github.com/sfchronicle/sf-od-tracker-data">combines
+data</a> from the medical examiner’s reports with information from other
+city agencies, such as <a
+href="https://www.sf.gov/data/reducing-fatal-and-non-fatal-overdoses-tenderloin">overdose
+reversals by EMS responders administering naloxone</a> and <a
+href="https://www.sf.gov/street-overdose-response-team">calls handled by
+the Street Overdose Response Team</a>. <strong>As seen in</strong>: <a
+href="https://link.sfchronicle.com/view/6418a59d2d2faafd080b5ee9kf7kn.2e/907eff80">The
+Chronicle data team’s latest newsletter</a>.</p>
+<p> </p>
+<p><strong>Spain’s political primaries.</strong> <a
+href="https://www.sciencedirect.com/science/article/pii/S2352340924000842">Oscar
+Barberà et al.</a> have compiled a <a
+href="https://zenodo.org/records/10066112">dataset</a> of the outcomes
+of 361 primary contests in Spain since 1991, “based on information
+provided by political parties at the time of the event through their
+websites, press releases, and journalistic reports.” It includes
+primaries to determine candidates for regional, national, and EU
+elections, as well as for party leadership. For each contest, it lists
+the party, territory, year, type of post, number of competitors,
+turnout, incumbent’s outcome, winner’s percentage, and more.</p>
+<p> </p>
+<p><strong>Scott’s SMS spam.</strong> In late September 2022, <a
+href="https://scottleechua.com/">Scott Lee Chua</a> began preserving
+every SMS he received, motivated by the recent passage of the Philippine
+<a href="https://en.wikipedia.org/wiki/SIM_Registration_Act">SIM
+Registration Act</a>. By early February 2024, he’d amassed 3,324
+messages, which he has <a href="https://spamofthetimes.com/">grouped
+into five categories and charted</a>: spam (13% of all messages),
+one-time passwords (12%), marketing (10%), government notices (1%), and
+“messages I both expect and welcome” (63%). He’s also <a
+href="https://github.com/scottleechua/data/tree/main/spam-and-marketing-sms">published
+a partially-redacted dataset</a> of each message’s time received, time
+read, sender, text, and category.</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send 13%-spam feedback to
+jsvine@gmail.com, or just reply to this email. // Looking for past
+datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. // Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions.</em></p>
+]]></content>
+    <link href="http://www.data-is-plural.com/archive/2024-02-21-edition" rel="alternate"/>
+    <summary>Self-driving stats, US wetlands, SF overdose deaths, Spain’s political primaries, and Scott’s SMS spam.</summary>
+    <published>2024-02-21T08:00:00-05:00</published>
+  </entry>
   <entry>
     <id>dip-2024-02-14</id>
     <title>Data Is Plural — 2024.02.14 edition</title>
@@ -1294,159 +1426,5 @@ subscribe and to browse past editions.</em></p>
     <link href="http://www.data-is-plural.com/archive/2023-11-29-edition" rel="alternate"/>
     <summary>Political violence and protests, seafloor depths, payment choices, legal cannabis sales, and romance book covers.</summary>
     <published>2023-11-29T08:00:00-05:00</published>
-  </entry>
-  <entry>
-    <id>dip-2023-11-22</id>
-    <title>Data Is Plural — 2023.11.22 edition</title>
-    <updated>2023-11-22T08:00:00-05:00</updated>
-    <content type="CDATA"><![CDATA[<p><em>Food access, strategic ecology, Australian law,
-electricity-balancing incentives, and lunar craters.</em></p>
-<p> </p>
-<p><em>🎙 The <a href="https://podcast.data-is-plural.com/">Data Is
-Plural podcast</a> is back, with a new season of 15-minute interviews
-that dive deeper into DIP-noted datasets. Season 2’s first guests are <a
-href="http://jandiehmdesigns.com/">Jan Diehm</a> and <a
-href="https://www.linkedin.com/in/amberrthomas/">Amber Thomas</a>, whose
-<a href="https://pudding.cool/2018/08/pockets/">data-driven
-investigation into pocket sizes</a> was featured in <a
-href="https://www.data-is-plural.com/archive/2018-08-22-edition/">DIP
-2018.08.22</a>. <a
-href="https://podcast.data-is-plural.com/2159594/14011826">Click here to
-listen to the episode</a>.</em></p>
-<p> </p>
-<p><em>📬 “<a
-href="https://www.sfchronicle.com/projects/2023/california-new-city-rare/">One
-of California’s fastest-growing areas may become a city. Charts show how
-rare that is</a>” — an article published by reader Nami Sumida in the
-San Francisco Chronicle last week — uses <a
-href="https://cgoodman.com/">Christopher B. Goodman</a>’s <a
-href="https://github.com/cbgoodman/muni-incorporation">municipal
-incorporation dataset</a> featured in <a
-href="https://www.data-is-plural.com/archive/2023-03-22-edition/">DIP
-2023.03.22</a>. (Have you published something with data you found via
-DIP? <a
-href="https://docs.google.com/forms/d/e/1FAIpQLSdXXD5eO05w0Xa7bwG3Ppia3uzr_o3y-xDEZuWRfXbCfCu_XA/viewform">Click
-here to let me know</a>.)</em></p>
-<p> </p>
-<p><strong>Food access.</strong> The USDA’s <a
-href="https://www.ers.usda.gov/data-products/food-access-research-atlas/">Food
-Access Research Atlas</a> estimates how far people have to travel to buy
-healthy groceries. For any given Census tract, the project’s <a
-href="https://www.ers.usda.gov/data-products/food-access-research-atlas/go-to-the-atlas/">interactive
-map</a> and <a
-href="https://www.ers.usda.gov/data-products/food-access-research-atlas/download-the-data/">downloadable
-data</a> indicate the number of residents living within 0.5, 1, 10, and
-20 miles of “the nearest supermarket, supercenter, or large grocery
-store.” They provide similar counts for each tract’s low-income
-residents, children, seniors, people without vehicle access, <a
-href="https://en.wikipedia.org/wiki/Supplemental_Nutrition_Assistance_Program">SNAP</a>
-recipients, and by race/ethnicity. The most recent update <a
-href="https://www.ers.usda.gov/amber-waves/2021/june/updated-food-access-research-atlas-now-maps-changes-in-low-income-and-low-supermarket-access-areas-in-2019/">uses
-2019 data</a>; prior versions are available for 2015 and 2010.
-<strong>Related</strong>: The distances are <a
-href="https://www.ers.usda.gov/data-products/food-access-research-atlas/documentation/">based
-partly</a> on the USDA’s <a
-href="https://www.fns.usda.gov/snap/retailer-locator">database of
-SNAP-authorized retailers</a>. [h/t <a
-href="https://saylibenadikar.github.io/about.html">Sayli
-Benadikar</a>]</p>
-<p> </p>
-<p><strong>Strategic ecology.</strong> The <a
-href="https://www.neonscience.org/">National Ecological Observatory
-Network</a> operates <a
-href="https://www.neonscience.org/field-sites/explore-field-sites">81
-study sites</a> across the US, <a
-href="https://www.neonscience.org/field-sites/about-field-sites">strategically
-selected</a> to represent a diversity of “vegetation, landforms, and
-ecosystem dynamics.” Examples include <a
-href="https://www.neonscience.org/field-sites/cari">Caribou Creek</a> in
-Alaska, <a href="https://www.neonscience.org/field-sites/clbj">Lyndon B.
-Johnson National Grassland</a> in Texas, and <a
-href="https://www.neonscience.org/field-sites/guan">Guanica Forest</a>
-in Puerto Rico. The network’s <a
-href="https://www.neonscience.org/data">data portal</a> provides <a
-href="https://data.neonscience.org/data-products/explore">downloads</a>
-and an <a href="https://data.neonscience.org/data-api/">API</a> for 160+
-datasets, such as <a
-href="https://data.neonscience.org/data-products/DP3.30024.001">site
-elevations</a>, <a
-href="https://data.neonscience.org/data-products/DP1.10010.001">downed
-wood log surveys</a>, <a
-href="https://data.neonscience.org/data-products/DP1.10081.001">soil
-microbe compositions</a>, and <a
-href="https://data.neonscience.org/data-products/DP1.20105.001">fish DNA
-sequences</a>. <strong>Related</strong>: <a
-href="https://www.biorxiv.org/content/10.1101/2023.10.25.563626v1">Ben
-G. Weinstein et al.</a> recently <a
-href="https://jabberwocky.weecology.org/2023/11/13/data-on-100-million-individual-trees-in-the-national-ecological-observatory-network/">used
-the network’s remote sensing data</a> to <a
-href="https://github.com/weecology/DeepTreeAttention/tree/species_release">generate</a>
-a <a href="https://zenodo.org/records/10067302">dataset</a> estimating
-the location, size, likely species, and status of 100 million individual
-trees at 24 of the sites. [h/t <a
-href="https://fosstodon.org/@smach@masto.machlis.com">Sharon
-Machlis</a>]</p>
-<p> </p>
-<p><strong>Australian law.</strong> In a <a
-href="https://umarbutler.com/how-i-built-the-largest-open-database-of-australian-law/">recent
-blog post</a>, <a href="https://umarbutler.com/">Umar Butler</a>
-describes the process of building the <a
-href="https://huggingface.co/datasets/umarbutler/open-australian-legal-corpus">Open
-Australian Legal Corpus</a>, “from months-long negotiations with
-governments to reverse engineering ancient web technologies to hacking
-together a multitude of different solutions for extracting text from
-documents.” The corpus, “the largest open database of Australian law,”
-lists the text, type, jurisdiction, source, citation, and URL of
-220,000+ documents. It includes “every in force statute and regulation
-in the Commonwealth, New South Wales, Queensland, Western Australia,
-South Australia, Tasmania and Norfolk Island, in addition to thousands
-of bills and hundreds of thousands of court and tribunal decisions.”
-[h/t <a href="https://www.facebook.com/susiecambria/">Susie
-Cambria</a>]</p>
-<p> </p>
-<p><strong>Electricity-balancing incentives.</strong> <a
-href="https://www.linkedin.com/in/jamesdmoran/">Jim Moran</a>’s <a
-href="https://www.vppdata.com/p/vpp-data">VPP Data</a> tracks programs
-in the US that incentivize homeowners (and others) to participate in <a
-href="https://www.energy.gov/lpo/articles/doe-releases-new-report-pathways-commercial-liftoff-virtual-power-plants">virtual
-power plants</a> — collections of internet-connected batteries and other
-“distributed energy resources” that utilities can use to balance supply
-and demand. The project’s <a
-href="https://docs.google.com/spreadsheets/d/1Y8epdlr_7npoJBwKd5A3CDpxoYaYY1xI38btHpOn2tw/edit#gid=0">main
-spreadsheet</a> tracks 120+ programs and their variations, spanning 20+
-states and Puerto Rico. Each entry lists the program name, date
-announced, status, state, utility, sector, VPP platform, market
-aggregator, devices covered, monetary incentives, and more.</p>
-<p> </p>
-<p><strong>Moon dents.</strong> The <a
-href="https://astrogeology.usgs.gov/search/map/Moon/Research/Craters/lunar_crater_database_robbins_2018">Lunar
-Crater Database</a>, <a
-href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2018JE005592">compiled
-by Stuart Robbins</a>, provides the location and dimensions of 1.3
-million lunar impact craters. The catalog, “manually identified and
-measured” from lunar orbiter imagery, is “approximately complete for all
-craters larger than about 1–2 km in diameter.” <strong>Related</strong>:
-<a href="https://www.lpi.usra.edu/scientific-databases/">Craters on
-Venus, Ganymede, and Callisto</a>, from the <a
-href="https://www.lpi.usra.edu/about/">Lunar and Planetary
-Institute</a>. <strong>Previously</strong>: <a
-href="https://astrogeology.usgs.gov/search/map/Moon/Geology/Unified_Geologic_Map_of_the_Moon_GIS_v2">A
-1:5,000,000-scale map of Earth’s moon</a> (<a
-href="https://www.data-is-plural.com/archive/2021-12-08-edition/">DIP
-2021.12.08</a>). [h/t <a
-href="https://www.allendowney.com/blog/2022/10/03/the-long-tail-of-disaster/">Allen
-Downey</a>]</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send concave feedback to
-jsvine@gmail.com, or just reply to this email. // Looking for past
-datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. // Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and to browse past editions.</em></p>
-]]></content>
-    <link href="http://www.data-is-plural.com/archive/2023-11-22-edition" rel="alternate"/>
-    <summary>Food access, strategic ecology, Australian law, electricity-balancing incentives, and lunar craters.</summary>
-    <published>2023-11-22T08:00:00-05:00</published>
   </entry>
 </feed>
