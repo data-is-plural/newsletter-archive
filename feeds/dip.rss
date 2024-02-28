@@ -6,7 +6,138 @@
     <description>A weekly newsletter of useful/curious datasets.</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>https://github.com/data-is-plural/newsletter-archive</generator>
-    <lastBuildDate>Wed, 21 Feb 2024 08:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 28 Feb 2024 08:00:00 -0500</lastBuildDate>
+    <item>
+      <title>Data Is Plural — 2024.02.28 edition</title>
+      <link>http://www.data-is-plural.com/archive/2024-02-28-edition</link>
+      <description>Climate funding, federal laws since 1789, TSA complaint counts, high-school financial education, and Mr. Trash Wheel.</description>
+      <content:encoded><![CDATA[<p><em>Climate funding, federal laws since 1789, TSA complaint counts,
+high-school financial education, and Mr. Trash Wheel.</em></p>
+<p> </p>
+<hr />
+<p> </p>
+<p><em>Data Is Plural sends its heartfelt condolences to the <a
+href="https://everloved.com/life-of/fazil-khan/obituary/">friends and
+family</a> of <strong>Fazil Khan</strong>, a <a
+href="https://documentedny.com/2024/02/26/fazil-khan-new-york-obituary/">young
+and talented</a> <a
+href="https://hechingerreport.org/remembering-our-friend-and-colleague-fazil-khan/">data
+journalist</a> whose <a
+href="https://hechingerreport.org/beyond-the-rankings-the-college-welcome-guide/">work</a>
+was <a
+href="https://www.data-is-plural.com/archive/2023-11-01-edition/">recently
+featured here</a>. Fazil died in New York City on Friday, when his
+apartment building caught fire. The Columbia Journalism School is
+hosting an <a
+href="https://everloved.com/life-of/fazil-khan/funeral/#34be0f23-e51a-4aac-8865-d4c7533cf3e7">online
+and in-person memorial service</a> today at 6pm EST.</em></p>
+<p> </p>
+<hr />
+<p> </p>
+<p><strong>Climate funding.</strong> To develop its “<a
+href="https://www.climatepolicyinitiative.org/publication/global-landscape-of-climate-finance-2023/">Global
+Landscape of Climate Finance 2023</a>” report, the <a
+href="https://www.climatepolicyinitiative.org/">Climate Policy
+Initiative</a> gathered data on grants, loans, equity and other types of
+“primary financing in real economy sectors that reduce greenhouse gas
+emissions and build climate resilience.” The report, published in
+November, identified ~$1.3 trillion in such financing globally in
+2021–2022. A spreadsheet provided alongside it indicates the estimated
+amount by year, region, sector, focus on mitigation vs. adaptation, type
+of financial instrument, funder sector (public vs. private), and funder
+type (development bank, corporation, institutional investors, etc.).
+Reports from <a
+href="https://www.climatepolicyinitiative.org/resources/publications/">earlier
+years</a> include downloadable data for <a
+href="https://www.climatepolicyinitiative.org/publication/global-landscape-of-climate-finance-a-decade-of-data/">2019–2020</a>
+and <a
+href="https://www.climatepolicyinitiative.org/publication/updated-view-on-the-global-landscape-of-climate-finance-2019/">2017–2018</a>.
+<strong>Previously</strong>: <a
+href="https://www.tandfonline.com/doi/full/10.1080/14693062.2022.2027223">National
+climate funds</a> (<a
+href="https://www.data-is-plural.com/archive/2022-02-09-edition/">DIP
+2022.02.09</a>) and <a
+href="https://purl.stanford.edu/dx902xg3463">climate finance
+projects</a> (<a
+href="https://www.data-is-plural.com/archive/2023-06-14-edition/">DIP
+2023.06.14</a>).</p>
+<p> </p>
+<p><strong>Federal laws since 1789.</strong> Political scientist and
+“recovering lawyer” <a href="https://brianlibgober.com/">Brian
+Libgober</a> has compiled a “<a
+href="https://osf.io/qa289">comprehensive dataset of U.S. federal
+laws</a>,” covering 49,000+ legislative enactments from 1789 to 2022.
+Such a dataset has been elusive, <a
+href="https://www.nature.com/articles/s41597-023-02758-z">Libgober
+notes</a>, in part “because such laws have been enacted over hundreds of
+years, resulting in a complicated patchwork of documents published in
+numerous and inconsistent formats.” His solution combines three key
+sources: “the oldest meta data for the U.S. <em>Statutes at Large</em>
+disseminated via HeinOnline, similar and more recent meta data through
+the Governmental Printing Office, and finally the last six years of
+law-making as described by the National Archives’ website.” The dataset
+lists each law’s title, legislative session, date of passage,
+source/citation identifiers, and more.</p>
+<p> </p>
+<p><strong>TSA complaint counts.</strong> The Transportation Security
+Administration <a
+href="https://www.tsa.gov/foia/readingroom">publishes</a> semi-regular
+reports on the complaints it receives, aggregated by month, airport,
+category, and subcategory. Unfortunately, the agency only publishes
+those reports as PDFs, rather than structured data files. So volunteers
+and I at the <a href="https://www.data-liberation-project.org/">Data
+Liberation Project</a> have built a <a
+href="https://github.com/data-liberation-project/tsa-complaint-counts">data
+pipeline</a> to convert those PDFs <a
+href="https://github.com/data-liberation-project/tsa-complaint-counts/tree/main?tab=readme-ov-file#data-guidance">into
+tidy CSV files</a>, currently covering complaints to TSA at 440+
+airports (and additional complaints not specifying any airport) from
+January 2015 to January 2024. <strong>Read more</strong>: <a
+href="https://buttondown.email/data-liberation-project/archive/dlp-dispatch-13/">The
+Data Liberation Project’s latest newsletter dispatch</a>.</p>
+<p> </p>
+<p><strong>High-school financial education.</strong> In a <a
+href="https://www.cambridge.org/core/journals/journal-of-financial-literacy-and-wellbeing/article/high-school-financial-education-courses-in-the-united-states-what-is-the-importance-of-setting-state-policies/ABD577136362C0289884C41676341271">recent
+paper</a>, economists <a
+href="https://sites.google.com/stolaf.edu/aoluedtke/home/">Allison
+Oldham Luedtke</a> and <a href="https://www.carlyurban.com/">Carly
+Urban</a> introduce a <a href="https://osf.io/ksah9/">dataset</a> of
+19,000+ high-school classes that teach financial literacy, manually
+collected from thousands of online course catalogs. Each row provides
+details about the school (e.g., name, location, enrollment) and course,
+including its title, description, duration, requirement status, and
+whether financial literacy was the main focus or smaller component. An
+<a
+href="https://www.cambridge.org/core/journals/journal-of-financial-literacy-and-wellbeing/article/high-school-financial-education-courses-in-the-united-states-what-is-the-importance-of-setting-state-policies/ABD577136362C0289884C41676341271#s2-3">auxiliary
+dataset</a> indicates, annually for 1970–2024, which states required
+such coursework for high school graduation.</p>
+<p> </p>
+<p><strong>Trash interceptors.</strong> <a
+href="https://www.mrtrashwheel.com/">Mr. Trash Wheel</a> is one of <a
+href="https://www.mrtrashwheel.com/meet-the-trash-wheels/">four</a> “<a
+href="https://www.mrtrashwheel.com/technology/">semi-autonomous trash
+interceptors</a>” pulling garbage out of the Baltimore Harbor. The
+partnership behind the effort publishes <a
+href="https://docs.google.com/spreadsheets/d/1b8Lbe-z3PNb3H8nSsSjrwK2B0ReAblL2/edit#gid=1143432795">spreadsheets</a>
+of each contraption’s collection history. For each dumpster filled since
+May 2014, they list the date, weight and volume of trash, and estimated
+number of plastic bottles, cigarette butts, and other types of items
+extracted. [h/t <a href="https://codywinchester.com/">Cody
+Winchester</a>]</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send semi-autonomous
+feedback to jsvine@gmail.com, or just reply to this email. // Looking
+for past datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. // Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions. // Support the newsletter and
+your career by <a href="https://data-is-plural.com/plus">becoming a DIP+
+member</a>.</em></p>
+]]></content:encoded>
+      <guid isPermaLink="false">dip-2024-02-28</guid>
+      <pubDate>Wed, 28 Feb 2024 08:00:00 -0500</pubDate>
+    </item>
     <item>
       <title>Data Is Plural — 2024.02.21 edition</title>
       <link>http://www.data-is-plural.com/archive/2024-02-21-edition</link>
@@ -1255,164 +1386,6 @@ subscribe and to browse past editions.</em></p>
 ]]></content:encoded>
       <guid isPermaLink="false">dip-2023-12-06</guid>
       <pubDate>Wed, 06 Dec 2023 08:00:00 -0500</pubDate>
-    </item>
-    <item>
-      <title>Data Is Plural — 2023.11.29 edition</title>
-      <link>http://www.data-is-plural.com/archive/2023-11-29-edition</link>
-      <description>Political violence and protests, seafloor depths, payment choices, legal cannabis sales, and romance book covers.</description>
-      <content:encoded><![CDATA[<p><em>Political violence and protests, seafloor depths, payment
-choices, legal cannabis sales, and romance book covers.</em></p>
-<p> </p>
-<p><em>🎙 Just released: <a
-href="https://podcast.data-is-plural.com/2159594/14053517-s2e2-income-patterns">The
-second episode</a> of the second season of the <a
-href="https://podcast.data-is-plural.com/">Data Is Plural podcast</a>.
-This episode’s guest is <a href="https://www.illenin.com/">Illenin
-Kondo</a> one of the economists behind the <a
-href="https://www.minneapolisfed.org/institute/income-distributions-and-dynamics-in-america">Income
-Distributions and Dynamics in America</a> (IDDA) dataset and resource,
-featured in <a
-href="https://www.data-is-plural.com/archive/2023-10-11-edition/">DIP
-2023.10.11</a>. <a
-href="https://podcast.data-is-plural.com/2159594/14053517-s2e2-income-patterns">Click
-here to listen</a>.</em></p>
-<p> </p>
-<p><em>🎙 And ICYMI: <a
-href="https://podcast.data-is-plural.com/2159594/14011826-s2e1-jeans-pockets">The
-first episode of the season</a>, with <a
-href="http://jandiehmdesigns.com/">Jan Diehm</a> and <a
-href="https://www.linkedin.com/in/amberrthomas/">Amber Thomas</a>
-discussing their <a
-href="https://pudding.cool/2018/08/pockets/">data-driven investigation
-into jeans pockets</a> (<a
-href="https://www.data-is-plural.com/archive/2018-08-22-edition/">DIP
-2018.08.22</a>).</em></p>
-<p> </p>
-<p><strong>Political violence and protests.</strong> The <a
-href="https://acleddata.com/about-acled/">Armed Conflict Location &amp;
-Event Data Project</a> “collects real-time data on the locations, dates,
-actors, fatalities, and types of all reported political violence and
-protest events around the world.” <a
-href="https://www.data-is-plural.com/archive/2017-11-29-edition/">First
-featured in DIP six years ago</a>, ACLED has since <a
-href="https://acleddata.com/about-acled/#history">expanded
-substantially</a>. Most notably, <a
-href="https://acleddata.com/curated-data-files/">its datasets</a> are no
-longer limited to Africa and Asia; they now cover all countries and
-territories. The project has <a
-href="https://acleddata.com/2019/03/14/acled-introduces-new-event-types-and-sub-event-types/">updated
-its event types</a> — battles, “explosions/remote violence,” violence
-against civilians, riots, protests, and “strategic developments” — and
-added sub-categories. It has also developed topical subsets, such <a
-href="https://acleddata.com/political-violence-targeting-women/">political
-violence targeting women</a> and <a
-href="https://acleddata.com/2023/06/22/special-issue-violence-against-local-officials/">violence
-against local officials and administrators</a>.</p>
-<p> </p>
-<p><strong>Seafloor depths.</strong> The <a
-href="https://iho.int/">International Hydrographic Organization</a>’s <a
-href="https://www.ngdc.noaa.gov/iho/">Data Centre for Digital
-Bathymetry</a>, established in 1990, hosts dozens of terabytes of
-“oceanic depth soundings acquired with multibeam and singlebeam sonars
-by hydrographic, oceanographic and industry vessels during surveys or
-while on passage.” It also provides access to depth data <a
-href="https://iho.int/en/crowdsourced-bathymetry">crowdsourced</a> from
-mariners, who agree to attach logging devices to their ships’ <a
-href="https://en.wikipedia.org/wiki/Echo_sounding">echosounders</a>.
-<strong>Read more</strong>: “<a
-href="https://www.bbc.com/future/article/20230929-can-a-map-of-the-ocean-floor-be-crowdsourced">Can
-a map of the ocean floor be crowdsourced?</a>” by <a
-href="https://lauratrethewey.ca/">ocean journalist Laura Trethewey</a>
-for the BBC. <strong>Previously</strong>: <a
-href="https://www.gebco.net/data_and_products/gridded_bathymetry_data/arctic_ocean/">The
-Arctic seafloor</a> (<a
-href="https://www.data-is-plural.com/archive/2020-07-22-edition/">DIP
-2020.07.22</a>) from the <a
-href="https://www.gebco.net/about_us/overview/">General Bathymetric
-Chart of the Oceans</a>, another IHO project. [h/t <a
-href="https://www.numlock.com/p/numlock-news-october-3-2023-taco">Walt
-Hickey</a>]</p>
-<p> </p>
-<p><strong>How we pay.</strong> The <a
-href="https://www.atlantafed.org/banking-and-payments/consumer-payments/survey-and-diary-of-consumer-payment-choice">Survey
-and Diary of Consumer Payment Choice</a>, run annually by a
-collaboration of Federal Reserve Banks, “aims to provide a comprehensive
-understanding of the payment behavior of US consumers.” The survey
-component inquires about demographics, habits, and preferences,
-including respondents’ use of different payment methods (cash, check,
-credit card, debit card, mobile payments, et cetera). The diary
-component asks participants to record their account balances and every
-transaction they made during a three-day period. The <a
-href="https://www.atlantafed.org/banking-and-payments/consumer-payments/survey-and-diary-of-consumer-payment-choice/2022-survey-and-diary">most
-recent iteration</a> features responses from 4,700+ people in October
-2022; the <a
-href="https://www.atlantafed.org/banking-and-payments/consumer-payments/survey-and-diary-of-consumer-payment-choice/2022-survey-and-diary#Tab3">data
-downloads</a> include summary tables and anonymized microdata. [h/t <a
-href="https://read.chartr.co/newsletters/2023/11/5/cash-stuff">Chartr</a>]</p>
-<p> </p>
-<p><strong>Legal cannabis sales.</strong> Colorado’s Department of
-Revenue publishes a <a
-href="https://cdor.colorado.gov/data-and-reports/marijuana-data">range
-of data about the state’s legal marijuana industry</a>, including
-spreadsheets of <a
-href="https://cdor.colorado.gov/data-and-reports/marijuana-data/marijuana-sales-reports">monthly
-sales totals</a> and <a
-href="https://cdor.colorado.gov/data-and-reports/marijuana-data/marijuana-tax-reports">taxes
-collected</a> by county and medical/retail status. Other states that
-have legalized recreational marijuana and publish downloadable,
-machine-readable sales data include <a
-href="https://www.cdtfa.ca.gov/dataportal/catalog.htm?subcategory=Cannabis%20Taxes">California</a>,
-<a
-href="https://data.ct.gov/Health-and-Human-Services/Cannabis-Retail-Sales-by-Week-Ending/ucaf-96h6">Connecticut</a>,
-<a
-href="https://cannabis.illinois.gov/research-and-data/sales-figures.html">Illinois</a>,
-<a
-href="https://www.maine.gov/revenue/taxes/tax-policy-office/sales-tax-reports">Maine</a>,
-<a
-href="https://masscannabiscontrol.com/open-data/data-catalog/">Massachusetts</a>,
-<a href="https://crop.rld.nm.gov/data-catalog.html">New Mexico</a>, <a
-href="https://www.oregon.gov/olcc/marijuana/pages/marijuana-market-data.aspx">Oregon</a>,
-and <a
-href="https://lcb.wa.gov/records/frequently-requested-lists">Washington</a>.
-Those with data in PDFs include <a
-href="https://azdor.gov/reports-statistics-and-legal-research/marijuana-tax-collection">Arizona</a>,
-<a
-href="https://mmcc.maryland.gov/Pages/Data-and-Reports.aspx">Maryland</a>,
-<a
-href="https://www.michigan.gov/cra/resources/cannabis-regulatory-agency-licensing-reports/cannabis-regulatory-agency-statistical-report">Michigan</a>,
-<a href="https://mtrevenue.gov/cannabis-sales-reports/">Montana</a>, <a
-href="https://www.nj.gov/cannabis/resources/reports-stats-info/">New
-Jersey</a>, and <a
-href="https://dbr.ri.gov/office-cannabis-regulation/data">Rhode
-Island</a>. [h/t <a
-href="https://github.com/cjwinchester/co-weed-sales-data">Cody
-Winchester</a>]</p>
-<p> </p>
-<p><strong>Romance book covers.</strong> “What does a happily ever after
-look like?” asks <a href="https://aliceyliang.com/">Alice Liang</a>,
-whose <a href="https://pudding.cool/2023/10/romance-covers/">visual
-essay in The Pudding</a> examines the <a
-href="https://observablehq.com/@aliceyliang/what-does-a-happily-ever-after-look-like-extension">covers
-of 1,400+ books</a> featured in <a
-href="https://www.publishersweekly.com/pw/by-topic/new-titles/index.html">Publishers
-Weekly’s announcements for the genre</a>. <a
-href="https://docs.google.com/spreadsheets/d/1Rxz5IFE16bA9pPAY5_B5LhitvPDIlYrlMwp7fmszwOA/edit#gid=0">Liang’s
-spreadsheet</a> provides each book’s title, author, publisher,
-publication date, announcement year/season, ISBN, cover image, and
-several assessments of the cover: whether its style is photorealistic or
-illustrated, whether it features someone partially undressed, and
-whether it depicts at least one person of color.</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send genre-bending
-feedback to jsvine@gmail.com, or just reply to this email. // Looking
-for past datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. // Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and to browse past editions.</em></p>
-]]></content:encoded>
-      <guid isPermaLink="false">dip-2023-11-29</guid>
-      <pubDate>Wed, 29 Nov 2023 08:00:00 -0500</pubDate>
     </item>
   </channel>
 </rss>
