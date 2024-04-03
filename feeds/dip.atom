@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.data-is-plural.com</id>
   <title>Data Is Plural</title>
-  <updated>2024-03-27T08:00:00-04:00</updated>
+  <updated>2024-04-03T08:00:00-04:00</updated>
   <author>
     <name>Jeremy Singer-Vine</name>
     <email>jsvine@gmail.com</email>
@@ -10,6 +10,134 @@
   <link href="https://www.data-is-plural.com" rel="alternate"/>
   <generator>https://github.com/data-is-plural/newsletter-archive</generator>
   <subtitle>A weekly newsletter of useful/curious datasets.</subtitle>
+  <entry>
+    <id>dip-2024-04-03</id>
+    <title>Data Is Plural — 2024.04.03 edition</title>
+    <updated>2024-04-03T08:00:00-04:00</updated>
+    <content type="CDATA"><![CDATA[<p><em>Power outages, European Parliament activity, candid animals, LLM
+data provenance, and deaths in plague-era London.</em></p>
+<p> </p>
+<p><em>🔄 Earlier this year, the USDA released the 2022 edition of its
+<a href="https://www.nass.usda.gov/AgCensus/">Census of Agriculture</a>,
+initially featured in <a
+href="https://www.data-is-plural.com/archive/2015-12-23-edition/">DIP
+2015.12.23</a>. National, state, and county data are <a
+href="https://www.nass.usda.gov/Publications/AgCensus/2022/index.php">available
+to download</a>. Data for Puerto Rico are coming in July, and for the
+rest of US territories in 2025. [h/t <a
+href="https://jmithani.com/">Jasmine Mithani</a>]</em></p>
+<p> </p>
+<p><em>👋 <a href="https://www.data-is-plural.com/plus/">DIP+
+members</a> got a sneak peek of this edition’s datasets on Monday, plus
+pointers to a few extra. Support the newsletter and your career by <a
+href="https://www.data-is-plural.com/plus/">becoming a
+member</a>.</em></p>
+<p> </p>
+<p><strong>Power outages.</strong> <a
+href="https://www.nature.com/articles/s41597-024-03095-5">Christa
+Brelsford et al.</a> have compiled a <a
+href="https://figshare.com/articles/dataset/The_Environment_for_Analysis_of_Geo-Located_Energy_Information_s_Recorded_Electricity_Outages_2014-2022/24237376">county-level
+estimates of the number of US customers experiencing power outages</a>
+at 15-minute intervals from 2014 to 2023. The records come from <a
+href="https://en.wikipedia.org/wiki/Oak_Ridge_National_Laboratory">Oak
+Ridge National Laboratory</a>’s restricted-access <a
+href="https://www.energy.gov/oe/articles/doe-announces-transition-eagle-i-oak-ridge-national-laboratory-ornl-taking-advantage">Environment
+for Analysis of Geo-Located Energy Information</a>, a “platform created
+to monitor electric utility customer outages from data gathered from
+public sources.” The data’s coverage has increased over time; by 2022,
+it represented 92% of customers in the 50 states, DC, and Puerto Rico.
+“The remaining 8% of customers belong to utilities which do not report
+outage information publicly in near-real time in a format that is
+currently accessible to EAGLE-I parsers,” the authors write. “These are
+most typically small, rural, municipal utilities which lack robust
+information technology infrastructure.”</p>
+<p> </p>
+<p><strong>European Parliament activity.</strong> <a
+href="https://parltrack.org/">Parltrack</a> keeps tabs on 4,000+ active
+and prior members of the European Parliament, 23,000+ policy dossiers,
+39,000+ votes, and much more. The project, launched in 2011, scrapes
+data from various official websites and links it together — so that you
+can see, for example, <a
+href="https://parltrack.org/mep/118859/Roberta%20METSOLA#/dossiers">any
+given member’s dossiers</a>, <a
+href="https://parltrack.org/mep/125106/Johan%20VAN%20OVERTVELDT#/committees">committee
+roles</a>, and <a
+href="https://parltrack.org/mep/96864/David%20Maria%20SASSOLI#/activities">activities</a>
+such as plenary speeches and proposed legislative amendments. Its <a
+href="https://parltrack.eu/dumps">bulk datasets</a> are updated daily
+and include details beyond what the online interfaces offer. [h/t <a
+href="https://github.com/jsvine/pdfplumber/issues/1102#issuecomment-1974961493">Stefan
+Marsiske</a>]</p>
+<p> </p>
+<p><strong>Candid animals.</strong> The <a
+href="https://lila.science/">Labeled Information Library of
+Alexandria</a> data repository is “intended as a resource for both
+machine learning (ML) researchers and those that want to harness ML for
+biology and conservation.” Its <a
+href="https://lila.science/datasets">datasets</a> include millions of
+images, mostly captured by <a
+href="https://en.wikipedia.org/wiki/Camera_trap">motion-triggered
+cameras</a>. Its <a href="https://lila.science/datasets/nacti">North
+American Camera Trap Images</a> dataset, for instance, “contains 3.7M
+camera trap images from five locations across the United States, with
+labels for 28 animal categories, primarily at the species level.”
+<strong>Read more</strong>: “<a
+href="https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.13120">Machine
+learning to classify animal species in camera trap images: Applications
+in ecology</a>.” [h/t <a href="https://corinfaife.co/">Corin
+Faife</a>]</p>
+<p> </p>
+<p><strong>LLM data provenance.</strong> The <a
+href="https://www.dataprovenance.org/">Data Provenance Initiative</a>
+“is a multi-disciplinary volunteer effort to improve transparency,
+documentation, and responsible use of training datasets for AI.” Its
+first release, the <a
+href="https://github.com/Data-Provenance-Initiative/Data-Provenance-Collection">Data
+Provenance Collection</a>, <a
+href="https://arxiv.org/abs/2310.16787">catalogs</a> dozens of corpora
+used for <a
+href="https://en.wikipedia.org/wiki/Fine-tuning_(deep_learning)">fine-tuning
+large language models</a>, as well as their component datasets’ names,
+task categories, known sources, licensing, various text metrics, and
+more. <strong>Related</strong>: Yang Liu et al.’s “<a
+href="https://arxiv.org/abs/2402.18041">Datasets for Large Language
+Models: A Comprehensive Survey</a>,” <a
+href="https://github.com/lmmlzn/Awesome-LLMs-Datasets">accompanied by
+semi-structured descriptions</a> of hundreds of training and evaluation
+datasets. [h/t <a
+href="https://www.reddit.com/r/datasets/comments/1b34189/datasets_for_large_language_models_a/">u/cavedave</a>]</p>
+<p> </p>
+<p><strong>Deaths in plague-era London.</strong> <a
+href="https://deathbynumbers.org/">Death by Numbers</a>, also known as
+the <em>Bills of Mortality Project</em>, <a
+href="https://deathbynumbers.org/about/">aims</a> to <a
+href="https://datascribe.tech/casestudies/DataScribe_BillsOfMortality_CaseStudy.pdf">transcribe</a>
+~8,000 official weekly tallies of deaths in London published in the
+1600s and 1700s. Initially focused on plague deaths, the reports
+expanded to “dozens of other causes of death, such as childbirth,
+measles, syphilis, and suicide, ensuring their continued publication for
+decades after the final outbreak of plague in England.” The project’s
+data are available to <a
+href="https://deathbynumbers.org/database/">browse online</a>, to <a
+href="https://deathbynumbers.org/data/">download</a>, and <a
+href="https://deathbynumbers.org/api/">via API</a>. [h/t <a
+href="http://knosof.co.uk/ESEUR/">Derek M. Jones</a> + <a
+href="https://codywinchester.com/">Cody Winchester</a>]</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send plague-less feedback
+to jsvine@gmail.com, or just reply to this email. // Looking for past
+datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. // Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions. // Support the newsletter and
+your career by <a href="https://data-is-plural.com/plus">becoming a DIP+
+member</a>.</em></p>
+]]></content>
+    <link href="http://www.data-is-plural.com/archive/2024-04-03-edition" rel="alternate"/>
+    <summary>Power outages, European Parliament activity, candid animals, LLM data provenance, and deaths in plague-era London.</summary>
+    <published>2024-04-03T08:00:00-04:00</published>
+  </entry>
   <entry>
     <id>dip-2024-03-27</id>
     <title>Data Is Plural — 2024.03.27 edition</title>
@@ -1233,128 +1361,5 @@ subscribe and to browse past editions.</em></p>
     <link href="http://www.data-is-plural.com/archive/2024-01-31-edition" rel="alternate"/>
     <summary>Groundwater levels, military surplus, study abroad, dot-gov metadata, and Taylor’s colors.</summary>
     <published>2024-01-31T08:00:00-05:00</published>
-  </entry>
-  <entry>
-    <id>dip-2024-01-24</id>
-    <title>Data Is Plural — 2024.01.24 edition</title>
-    <updated>2024-01-24T08:00:00-05:00</updated>
-    <content type="CDATA"><![CDATA[<p><em>Police data metadata, historical fishing intensity, Medicaid
-offices, Seine water quality, and human heights.</em></p>
-<p> </p>
-<p><em>📬 Reader <a href="https://aditya-dahiya.github.io/">Aditya
-Dahiya</a> has used <a
-href="https://github.com/HarshaDevulapalli/indian-movie-theatres">data
-on movie theaters in eight Indian cities</a> (featured in <a
-href="https://www.data-is-plural.com/archive/2017-11-08-edition/">DIP
-2017.11.08</a>) and <a
-href="https://about.netflix.com/en/news/what-we-watched-a-netflix-engagement-report">Netflix
-viewership data</a> (featured in <a
-href="https://www.data-is-plural.com/archive/2023-12-20-edition/">DIP
-2023.12.20</a>) to <a
-href="https://aditya-dahiya.github.io/ggplot2book3e/Chapter11.html">demonstrate
-custom color scales and legends</a> with <a
-href="https://ggplot2.tidyverse.org/">ggplot2</a>. (Have you published
-something with data you found via DIP? <a
-href="https://docs.google.com/forms/d/e/1FAIpQLSdXXD5eO05w0Xa7bwG3Ppia3uzr_o3y-xDEZuWRfXbCfCu_XA/viewform">Click
-here to let me know</a>.)</em></p>
-<p> </p>
-<p><strong>Police data metadata.</strong> The <a
-href="https://pdap.io/">Police Data Accessibility Project</a> is
-compiling a <a href="https://pdap.io/data">meta-dataset of police
-records</a>: where to find them online, what time period they cover, how
-often they’re updated, and other characteristics. The <a
-href="https://data-sources.pdap.io/">searchable</a>, <a
-href="https://airtable.com/app473MWXVJVaD7Es/shrUAtA8qYasEaepI/tblx8XaKnFTphWNQM">downloadable</a>
-dataset includes links to 1,700+ resources, such as traffic stop
-datasets, crime maps, use-of-force reports, contract and policy
-listings, and many other types of records, across hundreds of agencies.
-The team also maintains a <a
-href="https://airtable.com/app473MWXVJVaD7Es/shr43ihbyM8DDkKx4/tblpnd3ei5SlibcCX">dataset
-of 23,000+ criminal legal agencies</a>. <strong>Related</strong>: The <a
-href="https://www.vera.org/">Vera Institute of Justice</a>’s <a
-href="https://policetransparency.vera.org/">Police Data Transparency
-Index</a>, which scored 90+ local police agencies across 10 categories
-of data transparency; <a
-href="https://policetransparency.vera.org/#/Methodology">its methodology
-page</a> links to a more detailed, downloadable spreadsheet.</p>
-<p> </p>
-<p><strong>Historical fishing intensity.</strong> <a
-href="https://www.nature.com/articles/s41597-023-02824-6">Yannick
-Rousseau et al.</a> have generated a <a
-href="https://metadata.imas.utas.edu.au/geonetwork/srv/eng/catalog.search#/metadata/1241a51d-c8c2-4432-aa68-3d2bae142794">series
-of datasets</a> estimating annual fishing effort from 1950 to 2017 by
-country, year, gear type, vessel length, sector (industrial, artisanal
-motorized, and artisanal unmotorized), and category of species targeted.
-The datasets provide “information on number of vessels, engine power,
-gross tonnage, and nominal effort,” a metric that multiplies the engine
-power by the number of days at sea. Their sources include “a range of
-publicly available sources, governmental reports, and grey literature”.
-<strong>Related</strong>: Co-author <a
-href="https://ecomarres.com/?page_id=24">Reg A. Watson</a>’s <a
-href="https://metadata.imas.utas.edu.au/geonetwork/srv/eng/catalog.search#/metadata/5c4590d3-a45a-4d37-bf8b-ecd145cb356d">Global
-Fisheries Landings dataset</a>, which <a
-href="https://www.nature.com/articles/sdata201739">estimates</a>
-“commercial, small-scale, illegal and unreported fisheries catch,” also
-since 1950. <strong>Previously</strong>: <a
-href="https://globalfishingwatch.org/">Global Fishing Watch</a>’s <a
-href="https://globalfishingwatch.org/dataset-and-code-fishing-effort/">fishing
-effort datasets</a>, based on vessel tracking signals (<a
-href="https://www.data-is-plural.com/archive/2021-01-13-edition/">DIP
-2021.01.13</a>).</p>
-<p> </p>
-<p><strong>Medicaid offices, geocoded.</strong> <a
-href="https://www.sciencedirect.com/science/article/pii/S2352340924000416">Paul
-R. Shafer et al.</a> have created a <a
-href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/AVRHMI">dataset
-of 3,000+ Medicaid offices</a> in the US, identified via state and
-county government websites. The team of Boston University researchers,
-who focused on “public-facing Medicaid offices providing enrollment
-support,” have provided each office’s agency name, state, city, and
-address, and latitude/longitude coordinates (primarily sourced via the
-<a href="https://geocoding.geo.census.gov/geocoder/">US Census Bureau’s
-geocoder</a>).</p>
-<p> </p>
-<p><strong>Seine water quality.</strong> Ahead of the 2024 Summer
-Olympics, Paris has been <a
-href="https://www.theguardian.com/environment/2023/oct/08/can-paris-clean-seine-for-next-year-2024-olympics">trying
-to decontaminate the Seine river</a> to swimmable levels. But the city’s
-efforts appear to be falling short, <a
-href="https://www.francetvinfo.fr/les-jeux-olympiques/paris-2024/enquete-franceinfo-paris-2024-pollution-trop-elevee-normes-non-respectees-ce-que-revelent-les-analyses-de-la-qualite-de-l-eau-de-la-seine_6173826.html">according
-to government water testing data obtained, published, and analyzed</a>
-by <a href="https://mastodon.zaclys.com/@math_lehot">Mathieu
-Lehot-Couette</a>, a reporter at Franceinfo.fr. The <a
-href="https://www.francetvinfo.fr/les-jeux-olympiques/paris-2024-on-vous-explique-comment-franceinfo-a-analyse-les-donnees-sur-la-qualite-de-l-eau-de-la-seine_6252078.html">records
-include</a> results from periodic samples taken at 14 points along the
-river, which Lehot-Couette has standardized into a spreadsheet of 1,400+
-measurements of <em>E. coli</em> and <a
-href="https://en.wikipedia.org/wiki/Enterococcus">enterococci</a>
-between 2015 and 2023.</p>
-<p> </p>
-<p><strong>Human heights.</strong> Economic historians <a
-href="https://uni-tuebingen.de/en/fakultaeten/wirtschafts-und-sozialwissenschaftliche-fakultaet/faecher/fachbereich-wirtschaftswissenschaft/wirtschaftswissenschaft/lehrstuehle/economics/economic-history/chair/prof-dr-joerg-baten/">Jörg
-Baten</a> and <a
-href="https://www.qub.ac.uk/schools/queens-business-school/people/academic-staff/AllAcademicStaffProfiles/Blum.html">Matthias
-Blum</a> have assembled a <a
-href="https://clio-infra.eu/Indicators/Height.html">dataset on average
-male heights by decade and country</a>. The estimates, derived from
-hundreds of scholarly and statistical sources, stretch back several
-centuries and span 140+ countries. A <a
-href="https://uni-tuebingen.de/en/fakultaeten/wirtschafts-und-sozialwissenschaftliche-fakultaet/faecher/fachbereich-wirtschaftswissenschaft/wirtschaftswissenschaft/lehrstuehle/volkswirtschaftslehre/wirtschaftsgeschichte/forschung/data-hub-height/">related
-resource page</a> also provides individual-level data compiled by Baten
-and others, such as the heights of 1,000+ 19th-century Bavarian military
-conscripts. [h/t <a href="https://ksaj.inlisp.org">Karsten
-Johansson</a>]</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send head-to-toe feedback
-to jsvine@gmail.com, or just reply to this email. // Looking for past
-datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. // Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and to browse past editions.</em></p>
-]]></content>
-    <link href="http://www.data-is-plural.com/archive/2024-01-24-edition" rel="alternate"/>
-    <summary>Police data metadata, historical fishing intensity, Medicaid offices, Seine water quality, and human heights.</summary>
-    <published>2024-01-24T08:00:00-05:00</published>
   </entry>
 </feed>
