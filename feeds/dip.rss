@@ -6,7 +6,134 @@
     <description>A weekly newsletter of useful/curious datasets.</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>https://github.com/data-is-plural/newsletter-archive</generator>
-    <lastBuildDate>Wed, 03 Apr 2024 08:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 10 Apr 2024 08:00:00 -0400</lastBuildDate>
+    <item>
+      <title>Data Is Plural — 2024.04.10 edition</title>
+      <link>http://www.data-is-plural.com/archive/2024-04-10-edition</link>
+      <description>Opioid settlement payouts, groundwater wells, work-injury laws, colonial empire timelines, and objects launched into outer space.</description>
+      <content:encoded><![CDATA[<p><em>Opioid settlement payouts, groundwater wells, work-injury laws,
+colonial empire timelines, and objects launched into outer
+space.</em></p>
+<p> </p>
+<p><em>🔄 Last month the <a href="https://case.law/">Caselaw Access
+Project</a>, initially featured in <a
+href="https://www.data-is-plural.com/archive/2018-11-07-edition/">DIP
+2018.11.07</a>, <a
+href="https://hls.harvard.edu/today/caselaw-access-project-conference-marks-full-release-of-digitized-decisions/">announced</a>
+that the full text of all 7 million state and federal cases it has
+collected — spanning 36 million pages — are now freely available in
+bulk. (Previously, bulk data were only available for select states.)
+<strong>Read more</strong>: <a
+href="https://www.lawnext.com/2024/03/guest-post-the-caselaw-access-project-then-now-tomorrow.html">Former
+director Adam Ziegler on the project’s past, present, and future</a>.
+[h/t <a href="http://knosof.co.uk/ESEUR/">Derek M. Jones</a>]</em></p>
+<p> </p>
+<p><em>👋 <a href="https://www.data-is-plural.com/plus/">DIP+
+members</a> got a sneak peek of this edition’s datasets on Monday, plus
+pointers to a few extra. Support the newsletter and your career by <a
+href="https://www.data-is-plural.com/plus/">becoming a
+member</a>.</em></p>
+<p> </p>
+<p><strong>Opioid settlement payouts.</strong> KFF Health News <a
+href="https://kffhealthnews.org/opioid-settlements/">has been
+following</a> the slew of legal settlements by companies accused of
+exacerbating the opioid crisis. Last week, they published an <a
+href="https://kffhealthnews.org/news/article/opioid-settlement-payouts-state-county-city-tracker/">interactive</a>
+and <a
+href="https://kffhealthnews.org/download-the-data-opioid-settlement-payouts/">downloadable</a>
+database of payouts to state and local governments so far (and expected
+in the future) from the largest national settlement, “a $26 billion deal
+with four companies that will be paid out over nearly two decades.” The
+data, <a
+href="https://www.nationalopioidofficialsettlement.com/Home/StateAllocationAmounts">gathered
+from the court-appointed firm administering the settlement</a>, include
+overall numbers for 48 states and DC, plus locality-level data for 35
+states. (Los Angeles County, for instance, received $47 million in 2022
+and 2023, with another $210 million expected in years to come.)
+<strong>Learn more</strong>: <a
+href="https://kff-org.zoom.us/meeting/register/tZErduqrqjosHNRXNTNnY6jfmiPTUamwtkRo%20/#/registration">A
+webinar scheduled for tomorrow</a>, in which reporter <a
+href="https://www.linkedin.com/feed/update/urn:li:activity:7183116733463855104/">Aneri
+Pattani</a> “will discuss the data and how it can help you launch into
+coverage of the historic opioid settlement story.”</p>
+<p> </p>
+<p><strong>Groundwater wells.</strong> Despite the infrastructural
+importance of groundwater wells, “a unified database collecting and
+standardizing information on the characteristics and locations of these
+wells across the United States has been lacking,” <a
+href="https://www.nature.com/articles/s41597-024-03186-3">Chung-Yi Lin
+et al.</a> write. “To bridge this gap, we have created a comprehensive
+database of groundwater well records collected from state and federal
+agencies.” Their <a
+href="https://www.hydroshare.org/resource/8b02895f02c14dd1a749bcc5584a5c55/">United
+States Groundwater Well Database</a> contains ~14 million records, each
+indicating a well equipped for monitoring or extracting water. Where
+available, each row lists the well’s coordinates, county, aquifer,
+watershed, depth, capacity, water use category, water potability, and
+more. [h/t <a href="http://knosof.co.uk/ESEUR/">Derek M. Jones</a>]</p>
+<p> </p>
+<p><strong>Work-injury laws.</strong> <a
+href="https://sites.google.com/site/nbreznau/">Nate Breznau</a> and <a
+href="https://www.socium.uni-bremen.de/about-the-socium/members/felix-lanver/">Felix
+Lanver</a>’s <a
+href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/IVKYIE">Global
+Work-Injury Policy Database</a> tracks the history of work-injury laws
+(also known as workers’ compensation laws) in 186 “independent nation
+states.” For each, the database lists the year of its first such law,
+the year a law first provided insurance for work-related injuries, the
+type of program it established, and more. It also incorporates data on
+current laws’ coverage and payment rates from <a
+href="https://onlinelibrary.wiley.com/doi/10.1111/ijsw.12418">Kenneth
+Nelson et al.</a>’s <a
+href="https://www.su.se/social-policy-indicators-database/data?open-collapse-boxes=ccbd-socialinsuranceentitlementsdatasetsied">Social
+Insurance Entitlements dataset</a>.</p>
+<p> </p>
+<p><strong>Colonial empire timelines.</strong> The <a
+href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/T9SDEW">Colonial
+Dates Dataset</a>, <a href="https://osf.io/preprints/osf/apvqm">compiled
+by</a> political scientist <a
+href="https://www.beckerbastian.net/">Bastian Becker</a>, “aggregates
+information on the reach and duration of European colonial empires from
+renowned secondary sources.” Producing the dataset from its four main
+sources “is largely automated, relying on predefined coding rules.” The
+dataset indicates the first and last years each contemporary country was
+colonized, disaggregated by eight colonizing countries (Belgium,
+Britain, France, Germany, Italy, Netherlands, Portugal, and Spain). [h/t
+<a
+href="https://github.com/erikgahner/PolData/commit/db18d4f1be51741c169e6452a9bca38520dde682">Erik
+Gahner Larsen</a>]</p>
+<p> </p>
+<p><strong>Things flung spaceward.</strong> The UN’s <a
+href="https://www.unoosa.org/oosa/index.html">Office for Outer Space
+Affairs</a> maintains an <a
+href="https://www.unoosa.org/oosa/osoindex/search-ng.jspx">Online Index
+of Objects Launched into Outer Space</a>, based on a <a
+href="https://www.unoosa.org/oosa/en/spaceobjectregister/index.html">similarly-named
+register</a>, itself mandated by a <a
+href="https://www.unoosa.org/oosa/en/ourwork/spacelaw/treaties/registration-convention.html">similarly-named
+convention</a>, which <a
+href="https://en.wikipedia.org/wiki/Registration_Convention">went into
+force in 1976</a>. Presented as an HTML table, the index lists 17,000+
+satellites, spacecraft, probes, and other objects’ names, launching
+countries, statuses, launch dates, and more. <strong>As seen
+in</strong>: <a
+href="https://ourworldindata.org/grapher/yearly-number-of-objects-launched-into-outer-space">Our
+World In Data’s chart of the annual number of objects launched</a>. [h/t
+<a href="https://www.chartr.co/newsletters/2024-03-22">Chartr</a>]</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send rocket-fueled
+feedback to jsvine@gmail.com, or just reply to this email. // Looking
+for past datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. // Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions. // Support the newsletter and
+your career by <a href="https://data-is-plural.com/plus">becoming a DIP+
+member</a>.</em></p>
+]]></content:encoded>
+      <guid isPermaLink="false">dip-2024-04-10</guid>
+      <pubDate>Wed, 10 Apr 2024 08:00:00 -0400</pubDate>
+    </item>
     <item>
       <title>Data Is Plural — 2024.04.03 edition</title>
       <link>http://www.data-is-plural.com/archive/2024-04-03-edition</link>
@@ -1205,149 +1332,6 @@ subscribe and to browse past editions.</em></p>
 ]]></content:encoded>
       <guid isPermaLink="false">dip-2024-02-07</guid>
       <pubDate>Wed, 07 Feb 2024 08:00:00 -0500</pubDate>
-    </item>
-    <item>
-      <title>Data Is Plural — 2024.01.31 edition</title>
-      <link>http://www.data-is-plural.com/archive/2024-01-31-edition</link>
-      <description>Groundwater levels, military surplus, study abroad, dot-gov metadata, and Taylor’s colors.</description>
-      <content:encoded><![CDATA[<p><em>Groundwater levels, military surplus, study abroad, dot-gov
-metadata, and Taylor’s colors.</em></p>
-<p> </p>
-<p><em>📬 Reader <a
-href="https://www.linkedin.com/in/shymanskaya-data-science/">Alexandra
-F</a> has <a
-href="https://medium.com/@alexandrafiona/digging-up-information-simplifying-data-analytics-with-chatgpt-28cdcd4879a7">mapped
-and charted</a> the locations and characteristics of “bog bodies,” using
-data from <a
-href="https://www.cambridge.org/core/journals/antiquity/article/bogs-bones-and-bodies-the-deposition-of-human-remains-in-northern-european-mires-9000-bcad-1900/B90A16A211894CB87906A7BCFC0B2FC7">Roy
-van Beek et al.</a> (featured in <a
-href="https://www.data-is-plural.com/archive/2023-02-15-edition/">DIP
-2023.02.15</a>) and <a href="https://overturemaps.org/">Overture
-Maps</a> (featured in <a
-href="https://www.data-is-plural.com/archive/2023-08-09-edition/">DIP
-2023.08.09</a>). Have you published something with data you found via
-DIP? <a
-href="https://docs.google.com/forms/d/e/1FAIpQLSdXXD5eO05w0Xa7bwG3Ppia3uzr_o3y-xDEZuWRfXbCfCu_XA/viewform">Click
-here to let me know</a>.</em></p>
-<p> </p>
-<p><strong>Groundwater levels.</strong> To assess global trends in
-groundwater levels, <a
-href="https://www.nature.com/articles/s41586-023-06879-8">Scott Jasechko
-et al.</a> have analyzed data from ~170,000 monitoring wells in 40+
-countries. The researchers’ <a
-href="https://zenodo.org/records/10003697">public datasets</a> include
-annual groundwater levels “in all cases for which we have received
-permission from a database manager to post data,” amounting to more than
-4 million measurements (59% of the total). The published records also
-include the boundaries of 1,600+ aquifer systems, “manually delineated
-[…] using maps and descriptions from 1,236 local and regional studies.”
-The study’s <a
-href="https://www.nature.com/articles/s41586-023-06879-8#Sec18">supplementary
-documentation</a> describes each data source and method of access.
-<strong>Read more</strong>: <a
-href="https://www.nytimes.com/2024/01/24/climate/global-groundwater-aquifer-levels.html?unlocked_article_code=1.Rk0.0eOL.gThq9lynWGrN">Coverage
-in the New York Times</a>, with detailed maps of Iran and Spain, <a
-href="https://www.wired.com/story/the-worlds-essential-aquifers-are-in-deep-trouble/">and
-in Wired</a>. [h/t <a
-href="https://sentiers.media/when-talk-about-future-polyfuturism-downward-spiral-technology-no-295/">Patrick
-Tanguay</a>]</p>
-<p> </p>
-<p><strong>Military surplus.</strong> Through its <a
-href="https://www.everycrsreport.com/reports/RS20428.html">Excess
-Defense Articles program</a>, the US military offers free and
-reduced-price equipment to foreign governments. The Department of
-Defense <a
-href="https://www.dsca.mil/programs/excess-defense-articles-eda">publishes
-a spreadsheet of the program’s authorizations and transfers</a>, last
-updated in mid–2020 and going back to 2010. Each of the 4,100+ entries
-lists the foreign country, item description, transfer status, status
-date, whether it was a sale or grant, quantities (requested, allocated,
-accepted, rejected, delivered), “current” value, and acquisition value.
-Items range in size and significance, from vinyl tape (55 rolls
-authorized for transfer to Iraq in 2016) to <a
-href="https://en.wikipedia.org/wiki/M1_Abrams">Abrams tanks</a>
-(including 178 provided to Morocco in 2018). [h/t <a
-href="http://www.davidvine.net/">David Vine</a>]</p>
-<p> </p>
-<p><strong>Study abroad.</strong> <a
-href="https://opendoorsdata.org/">Open Doors</a>, an <a
-href="https://www.iie.org/">Institute of International Education</a>
-initiative <a href="https://opendoorsdata.org/about/">funded by the
-State Department</a>, “is the only long-standing, comprehensive
-information resource on international students and scholars in the
-United States and on U.S. students studying abroad for academic credit.”
-Its <a href="https://opendoorsdata.org/annual-release/">annual
-reports</a> provide aggregate statistics by country, field of study,
-and/or institution. For example: NYU <a
-href="https://opendoorsdata.org/annual-release/international-students/">hosted
-more international students</a> (~25,000) than any other US university
-in the 2022–23 school year, followed by Northeastern (~21,000) and
-Columbia (~19,000); Italy, the UK, and Spain were the <a
-href="https://opendoorsdata.org/annual-release/u-s-study-abroad/">most
-popular destinations for US students</a> in 2021–22.
-<strong>Related</strong>: <a
-href="https://travel.state.gov/content/travel/en/legal/visa-law0/visa-statistics/nonimmigrant-visa-statistics.html">The
-State Department’s statistics on non-immigrant visas</a>, <a
-href="https://usafacts.org/articles/how-many-student-immigrants-come-to-the-us-and-what-countries-do-they-come-from/">including
-student visas</a>. <strong>Previously</strong>: <a
-href="https://data.europa.eu/data/datasets?locale=en&amp;catalog=eac&amp;query=erasmus&amp;page=1&amp;sort=issued+desc,%20relevance+desc,%20title.en+asc">Data
-on Europe’s Erasmus exchanges</a> (<a
-href="https://www.data-is-plural.com/archive/2022-02-09-edition/">DIP
-2022.02.09</a>). [h/t <a
-href="https://public.tableau.com/app/profile/kate.miller2285/viz/U_S_StudyAbroad200001-202021_16953356812420/Dashboard1">Kate
-Miller</a>]</p>
-<p> </p>
-<p><strong>Dot-gov metadata.</strong> <a
-href="https://www.governing.com/policy/a-young-civic-hacker-explores-the-possibilities-of-public-data">Father-son
-duo Luke and Elias Fretwell</a> are <a
-href="https://gov-metadata.civichackingagency.org/">grading government
-websites’ metadata</a>. Starting with a <a
-href="https://github.com/cisagov/dotgov-data">dataset of 1,300+ federal
-domains</a> maintained by the <a
-href="https://www.cisa.gov/">Cybersecurity and Infrastructure Security
-Agency</a>, the Fretwells have tested whether each homepage’s source
-code includes a <code>&lt;title&gt;</code> tag, certain <a
-href="https://ogp.me/">Open Graph</a> markers, and <a
-href="https://github.com/civichackingagency/gov-metadata?tab=readme-ov-file#metadata">other
-key HTML metadata</a>, <a
-href="https://govfresh.com/thoughts/metadata-open-graph-government-websites">which</a>
-“can have a significant impact on how citizens experience government
-digital services.” The results, presented online in the form of report
-cards, can also be <a
-href="https://github.com/civichackingagency/gov-metadata/blob/main/data.csv">downloaded</a>.</p>
-<p> </p>
-<p><strong>Taylor’s colors.</strong> Last year, Reddit user <a
-href="https://www.reddit.com/user/swiftdata1989/">swiftdata1989</a>
-published a <a
-href="https://docs.google.com/spreadsheets/d/1tweEvxe5UtIMhLldGFGxkW-AGIDwkSvwkWCUZhABqjk/edit#gid=0">spreadsheet</a>
-and <a
-href="https://www.reddit.com/r/dataisbeautiful/comments/12u0ncx/oc_every_time_a_color_is_mentioned_on_a_taylor/">visualization</a>
-of the colors mentioned in Taylor Swift’s albums. Each spreadsheet row
-lists the album, song, specific color (e.g., “scarlet”), closest generic
-color (e.g., red), number of times mentioned, and clarifying notes.
-<strong>Previously</strong>: Colors from the <a
-href="https://www1.icsi.berkeley.edu/wcs/data.html">World Color
-Survey</a> (<a
-href="https://www.data-is-plural.com/archive/2017-08-23-edition/">DIP
-2017.08.23</a>), <a href="https://www.c82.net/werner/">Werner’s
-Nomenclature of Colours</a> (<a
-href="https://www.data-is-plural.com/archive/2021-11-17-edition/">DIP
-2021.11.17</a>), and <a
-href="https://github.com/jwilber/Bob_Ross_Paintings">Bob Ross
-paintings</a> (<a
-href="https://www.data-is-plural.com/archive/2020-12-09-edition/">DIP
-2020.12.09</a>).</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send all hues of feedback
-to jsvine@gmail.com, or just reply to this email. // Looking for past
-datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. // Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and to browse past editions.</em></p>
-]]></content:encoded>
-      <guid isPermaLink="false">dip-2024-01-31</guid>
-      <pubDate>Wed, 31 Jan 2024 08:00:00 -0500</pubDate>
     </item>
   </channel>
 </rss>
