@@ -6,7 +6,128 @@
     <description>A weekly newsletter of useful/curious datasets.</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>https://github.com/data-is-plural/newsletter-archive</generator>
-    <lastBuildDate>Wed, 10 Apr 2024 08:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 17 Apr 2024 08:00:00 -0400</lastBuildDate>
+    <item>
+      <title>Data Is Plural — 2024.04.17 edition</title>
+      <link>http://www.data-is-plural.com/archive/2024-04-17-edition</link>
+      <description>Unregulated water contaminants, border crossings, earthquakes felt, automated decision-making in government, and aerial obstacles.</description>
+      <content:encoded><![CDATA[<p><em>Unregulated water contaminants, border crossings, earthquakes
+felt, automated decision-making in government, and aerial
+obstacles.</em></p>
+<p> </p>
+<p><em>👋 <a href="https://www.data-is-plural.com/plus/">DIP+
+members</a> got a sneak peek of this edition’s datasets on Monday, plus
+pointers to a few extra. Support the newsletter and your career by <a
+href="https://www.data-is-plural.com/plus/">becoming a
+member</a>.</em></p>
+<p> </p>
+<p><strong>Unregulated water contaminants.</strong> Through the <a
+href="https://www.epa.gov/dwucmr/learn-about-unregulated-contaminant-monitoring-rule">Unregulated
+Contaminant Monitoring Rule</a>, the Environmental Protection Agency
+“collect[s] data for contaminants that are suspected to be present in
+drinking water and do not have health-based standards set under the Safe
+Drinking Water Act.” The <a
+href="https://www.epa.gov/dwucmr/fifth-unregulated-contaminant-monitoring-rule">current
+version</a> of the rule requires public water systems to test for
+lithium and 29 <a href="https://www.epa.gov/pfas/pfas-explained">per-
+and polyfluoroalkyl substances</a>, better known as PFAS. (Prior
+iterations, which go back to the early 2000s, have tested for other
+contaminants.) The EPA <a
+href="https://www.epa.gov/dwucmr/occurrence-data-unregulated-contaminant-monitoring-rule">publishes
+the data collected</a>, with the most detailed files listing each
+sample, its public water system, facility, sampling point, sample date,
+contaminant tested, concentration detected, and more.
+<strong>Related</strong>: Last week, <a
+href="https://apnews.com/article/forever-chemicals-pfas-pollution-epa-drinking-water-1c8804288413a73bb7b99fc866c8fa51">the
+EPA finalized its first-ever limits for PFAS in drinking water</a>. [h/t
+<a href="https://ncnewsline.com/author/lisa-sorg/">Lisa Sorg</a>]</p>
+<p> </p>
+<p><strong>Border crossings.</strong> <a
+href="https://journals.sagepub.com/doi/10.1177/00223433221145582">Michael
+R. Kenwick et al.</a>’s <a
+href="https://mkenwick.com/datameasurement/#borders">Border Crossings of
+the World dataset</a> “explores state authority spatially by collecting
+information about infrastructure built where highways cross
+internationally recognized borders.” Using satellite imagery, the team’s
+researchers identified the locations of gates, official buildings, and
+split-lane inspection facilities annually from the 1990s onward. An <a
+href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/RRV0JZ">accompanying
+dataset</a> calculates a “border orientation” score that summarizes the
+“extent to which the State is committed to the spatial display of
+capacities to control the terms of penetration of its national borders.”
+[h/t <a
+href="https://github.com/erikgahner/PolData/commit/c46f0ae069a2ccdd28d47ec17c254c80c3babcbe">Erik
+Gahner Larsen</a>]</p>
+<p> </p>
+<p><strong>Earthquakes felt.</strong> The US Geological Survey’s <a
+href="https://earthquake.usgs.gov/data/dyfi/">Did You Feel It?</a>
+initiative allows members of the public to <a
+href="https://earthquake.usgs.gov/earthquakes/eventpage/tellus">report
+their ground-shaking experiences</a>. The agency’s web pages for
+individual earthquakes — such as <a
+href="https://earthquake.usgs.gov/earthquakes/eventpage/us7000ma74/executive">this
+page for the April 5 tremor</a> that <a
+href="https://www.youtube.com/watch?v=ixkww7puZ_I">rattled NYC</a> —
+feature <a
+href="https://earthquake.usgs.gov/earthquakes/eventpage/us7000ma74/dyfi/intensity">downloadable
+geographic and longitudinal data</a> that USGS has <a
+href="https://earthquake.usgs.gov/data/dyfi/background.php">aggregated
+from the reports</a>. The agency also publishes a <a
+href="https://usgs.maps.arcgis.com/apps/webappviewer/index.html?id=9310990e7ce84e3b8567109616b0944d">map
+of annual intensities</a>. <strong>Tip</strong>: <a
+href="https://earthquake.usgs.gov/earthquakes/map/?extent=-88.15623,-155.39063&amp;extent=88.14489,515.39063&amp;range=search&amp;timeZone=utc&amp;search=%7B%22name%22:%22Search%20Results%22,%22params%22:%7B%22starttime%22:%222024-01-01%2000:00:00%22,%22endtime%22:%222024-12-31%2023:59:59%22,%22minfelt%22:1000,%22orderby%22:%22time%22%7D%7D">This
+search</a> lists earthquakes in 2024 that received at least 1,000
+reports. [h/t <a
+href="https://s2.washingtonpost.com/camp-rw/?s=661155ac1761ef08c051a621">Philip
+Bump</a>]</p>
+<p> </p>
+<p><strong>Automated decision-making in government.</strong> The UK
+nonprofit <a href="https://publiclawproject.org.uk/what-we-do/">Public
+Law Project</a> last year <a
+href="https://publiclawproject.org.uk/resources/the-tracking-automated-government-register/">launched</a>
+the <a
+href="https://trackautomatedgovernment.shinyapps.io/register/">Tracking
+Automated Government Register</a>, which describes automated systems
+that government agencies there use “to make or inform decisions on a
+range of sensitive policy areas, including how people are policed, what
+benefits they receive, and their immigration status.” It currently lists
+55 systems, their names, purposes, agencies in charge, policy areas,
+transparency level, potential unequal impacts, and more. Last week,
+Western University’s <a
+href="https://www.fims.uwo.ca/people/profiles/joanna_redden.html">Joanna
+Redden</a> and colleagues <a
+href="https://www.cbc.ca/news/politics/federal-government-used-ai-1.7170307">launched</a>
+a <a href="https://tagcanada.shinyapps.io/register/">version for
+Canada</a>, listing 303 systems.</p>
+<p> </p>
+<p><strong>Aerial obstacles.</strong> The Federal Aviation
+Administration’s <a
+href="https://www.faa.gov/air_traffic/flight_info/aeronav/obst_data/">Obstacles
+Team</a> “investigates and evaluates existing obstacles that may be
+hazardous to safe flight navigation,” such as tall buildings, windmills,
+water tanks, utility poles, amusement parks, monuments, <a
+href="https://clui.org/projects/lighter-air-exploring-landscape-helium/tethered-aerostats-usa/cudjoe-key-tars">blimps</a>,
+and other structures. Its <a
+href="https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/DailyDOF/">Daily
+Digital Obstacle File</a> contains 580,000+ entries, which it says
+provides full coverage of the US and partial coverage of Canada, Mexico,
+the Pacific, and the Caribbean. It lists each obstacle’s type, country,
+state, city, coordinates, height, type of lighting, and more. [h/t <a
+href="https://carts.lsu.edu/about/staff/1">Michael Allen</a>]</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send tall feedback to
+jsvine@gmail.com, or just reply to this email. // Looking for past
+datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. // Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions. // Support the newsletter and
+your career by <a href="https://data-is-plural.com/plus">becoming a DIP+
+member</a>.</em></p>
+]]></content:encoded>
+      <guid isPermaLink="false">dip-2024-04-17</guid>
+      <pubDate>Wed, 17 Apr 2024 08:00:00 -0400</pubDate>
+    </item>
     <item>
       <title>Data Is Plural — 2024.04.10 edition</title>
       <link>http://www.data-is-plural.com/archive/2024-04-10-edition</link>
@@ -1205,133 +1326,6 @@ subscribe and to browse past editions.</em></p>
 ]]></content:encoded>
       <guid isPermaLink="false">dip-2024-02-14</guid>
       <pubDate>Wed, 14 Feb 2024 08:00:00 -0500</pubDate>
-    </item>
-    <item>
-      <title>Data Is Plural — 2024.02.07 edition</title>
-      <link>http://www.data-is-plural.com/archive/2024-02-07-edition</link>
-      <description>Local election results, anti-Black killings in the mid-century South, US travel behavior, space X-rays, and amateur archaeological finds.</description>
-      <content:encoded><![CDATA[<p><em>Local election results, anti-Black killings in the mid-century
-South, US travel behavior, space X-rays, and amateur archaeological
-finds.</em></p>
-<p> </p>
-<p><strong>Local election results.</strong> <a
-href="https://www.nature.com/articles/s41597-023-02792-x">Justin de
-Benedictis-Kessner et al.</a> have compiled a <a
-href="https://osf.io/mv5e6/">dataset</a> of 77,000+ (distinct)
-candidates across 57,000+ US elections for mayor, city council, school
-board, county executive, county legislature, sheriff, and prosecutor. It
-is, they write, “the most comprehensive publicly-available source of
-information on local elections across the entire country.” It includes
-“most medium and large cities and counties” and spans 1989 to 2021. The
-authors combined data from pre-existing databases, state election
-websites, and newspaper archives. They also “worked with a team of
-research assistants who coded results from thousands of local elections
-based on city and county websites.” For each candidacy, the <a
-href="https://osf.io/tbwzd">core table</a> indicates the election’s
-jurisdiction, office, and timing, plus the candidate’s name, incumbency
-status, party, estimated demographics, votes won, and more.</p>
-<p> </p>
-<p><strong>Mid-century anti-Black killings.</strong> The <a
-href="https://crrjarchive.org/">Burnham-Nobles Archive</a> at the
-Northeastern University School of Law is “dedicated to identifying,
-classifying, and providing factual information and documentation about
-anti-Black killings in the mid-century South.” The current version <a
-href="https://crrjarchive.org/scope">focuses</a> on 11 southern states
-during 1930–1954. Developed by political scientist <a
-href="https://polisci.mit.edu/people/melissa-nobles">Melissa Nobles</a>
-and law professor <a
-href="https://law.northeastern.edu/faculty/burnham/">Margaret
-Burnham</a>, the <a href="https://crrjarchive.org/archive">long-running
-project</a> has gathered 12,000+ <a
-href="https://crrjarchive.org/sources">news articles, death
-certificates, federal agency records, and other sources</a>. It
-documents 900+ incidents and 950+ victims, as well as alleged
-perpetrators and judicial outcomes. The archive provides an <a
-href="https://crrjarchive.org/map">interactive map</a>, <a
-href="https://crrjarchive.org/catalog">record search</a> (including by
-<a
-href="https://crrjarchive.org/catalog?f%5Binternal_resource_tesim%5D%5B%5D=person">person</a>,
-<a
-href="https://crrjarchive.org/catalog?f%5Binternal_resource_tesim%5D%5B%5D=incident">incident</a>,
-and <a
-href="https://crrjarchive.org/catalog?f%5Binternal_resource_tesim%5D%5B%5D=document">document</a>),
-and <a href="https://crrjarchive.org/data_download">downloads</a>.
-<strong>Previously</strong>: <a
-href="https://people.uncw.edu/hinese/HAL/HAL%20Web%20Page.htm">Beck/Tolnay</a>
-and <a
-href="https://journals.sagepub.com/doi/full/10.1177/2378023119841780">Seguin/Rigby</a>’s
-data on lynching victims (<a
-href="https://www.data-is-plural.com/archive/2021-06-02-edition/">DIP
-2021.06.02</a>). [h/t <a href="https://jmithani.com/">Jasmine
-Mithani</a>]</p>
-<p> </p>
-<p><strong>US travel behavior.</strong> Fielded every five to eight
-years since 1968, the Federal Highway Administration’s <a
-href="https://nhts.ornl.gov/">National Household Travel Survey</a> “is
-the authoritative source on the travel behavior of the American public.”
-The questionnaire asks respondents to inventory all of their household’s
-trips taken during a 24-hour period. The most recent survey, for 2022,
-includes ~31,000 trips by ~17,000 people in ~8,000 households. It
-indicates each trip’s duration, vehicle details, motivation, parking
-costs, traveler demographics, and much more. The FHA provides <a
-href="https://nhts.ornl.gov/downloads">downloads of the anonymized
-data</a>, as well as <a href="https://nhts.ornl.gov/documentation">user
-guides and technical notes</a>. <strong>As seen in</strong>: “<a
-href="https://www.washingtonpost.com/business/2024/02/02/school-bus-era-ends/">The
-school bus is disappearing. Welcome to the era of the school pickup
-line</a>,” by the Washington Post’s <a
-href="https://www.washingtonpost.com/people/andrew-van-dam/">Andrew Van
-Dam</a>.</p>
-<p> </p>
-<p><strong>Space X-rays.</strong> <a
-href="https://erosita.mpe.mpg.de/">eROSITA</a> is a <a
-href="https://www.aanda.org/articles/aa/full_html/2021/03/aa39313-20/aa39313-20.html">wide-field
-X-ray telescope</a> “capable of delivering deep, sharp images over very
-large areas of the sky,” helping researchers “to study the large-scale
-structure of the universe.” The telescope launched into orbit in 2019 as
-a collaboration between Russia and Germany, with data rights split
-between the countries. In February 2022, following Russia’s invasion of
-Ukraine, Germany’s Max Planck Institute <a
-href="https://www.mpe.mpg.de/7856215/news20220303">suspended eROSITA’s
-operations</a>. Data processing continued, however, and last week the
-institute <a
-href="https://www.mpe.mpg.de/7989698/news20240131">published</a> its <a
-href="https://erosita.mpe.mpg.de/dr1/index.html">first data release</a>.
-It contains the first six months of results for the hemisphere assigned
-to Germany, and is “the largest X-ray catalogue ever published.”</p>
-<p> </p>
-<p><strong>Amateur archaeological finds.</strong> The British Museum’s
-<a
-href="https://www.britishmuseum.org/our-work/national/treasure-and-portable-antiquities-scheme">Portable
-Antiquities Scheme</a> “records archaeological finds discovered by the
-public,” assisted by a network of national and local partners. Its <a
-href="https://finds.org.uk/database">database</a> contains 1.1 million
-records describing 1.7 million objects. “All have been found by everyday
-people by chance, most through metal detecting.” The most common finds:
-<a
-href="https://finds.org.uk/database/search/results/objectType/COIN">coins</a>
-(~500,000 records), <a
-href="https://finds.org.uk/database/search/results/objectType/BUCKLE">buckles</a>
-(~58,000), and <a
-href="https://finds.org.uk/database/search/results/objectType/BROOCH">brooches</a>
-(~52,000). Search <a
-href="https://finds.org.uk/database/search/results">results</a> are
-available in JSON, XML, and other structured formats. [h/t <a
-href="https://www.theartnewspaper.com/2024/01/23/striking-gold-2022-was-a-record-year-for-treasure-and-antiquities-finds-with-more-than-50000-items-reported">Maev
-Kennedy</a> + <a
-href="https://www.numlock.com/p/numlock-news-january-24-2024-atomic">Walt
-Hickey</a>]</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send antiquarian feedback
-to jsvine@gmail.com, or just reply to this email. // Looking for past
-datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. // Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and to browse past editions.</em></p>
-]]></content:encoded>
-      <guid isPermaLink="false">dip-2024-02-07</guid>
-      <pubDate>Wed, 07 Feb 2024 08:00:00 -0500</pubDate>
     </item>
   </channel>
 </rss>
