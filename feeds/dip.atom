@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.data-is-plural.com</id>
   <title>Data Is Plural</title>
-  <updated>2024-04-17T08:00:00-04:00</updated>
+  <updated>2024-04-24T08:00:00-04:00</updated>
   <author>
     <name>Jeremy Singer-Vine</name>
     <email>jsvine@gmail.com</email>
@@ -10,6 +10,138 @@
   <link href="https://www.data-is-plural.com" rel="alternate"/>
   <generator>https://github.com/data-is-plural/newsletter-archive</generator>
   <subtitle>A weekly newsletter of useful/curious datasets.</subtitle>
+  <entry>
+    <id>dip-2024-04-24</id>
+    <title>Data Is Plural — 2024.04.24 edition</title>
+    <updated>2024-04-24T08:00:00-04:00</updated>
+    <content type="CDATA"><![CDATA[<p><em>Public procurement, chain locations, wholesale electricity
+markets, food-system indicators, and 3D natural history.</em></p>
+<p> </p>
+<p><em>👋 <a href="https://www.data-is-plural.com/plus/">DIP+
+members</a> got a sneak peek of this edition’s datasets on Monday, plus
+pointers to a few extra. You can support the newsletter and your career
+by <a href="https://www.data-is-plural.com/plus/">becoming a
+member</a>.</em></p>
+<p> </p>
+<p><strong>Public procurement.</strong> The <a
+href="https://www.sciencedirect.com/science/article/pii/S2352340924003810">Global
+Public Procurement Dataset</a> provides standardized data on 72 million
+government contracts in 42 countries. The dataset, constructed from
+official sources by the Budapest-based <a
+href="https://www.govtransparency.eu/">Government Transparency
+Institute</a>, represents $17 trillion in total procurement. It begins
+in the 2000s for most of the countries and concludes in 2021. For each
+contract, it provides information about the tender (title, procedure
+type, product code, publication date, award date, final price, currency,
+etc.), government buyer, bidders’ names and locations, and more. The
+downloadable files are split into <a
+href="https://data.mendeley.com/datasets/fwzpywbhgw/3">two</a> <a
+href="https://data.mendeley.com/datasets/w9mzf4vswh/3">repositories</a>.
+The US, Italy, Brazil, Poland, and Colombia have the most contracts
+represented. <strong>Previously</strong>: The <a
+href="https://www.open-contracting.org/">Open Contracting
+Partnership</a>’s <a href="https://data.open-contracting.org/en/">data
+registry</a> (<a
+href="https://www.data-is-plural.com/archive/2023-03-08-edition/">DIP
+2023.03.08</a>) and <a
+href="https://www.open-contracting.org/data-standard/">data standard</a>
+(<a
+href="https://www.data-is-plural.com/archive/2020-02-26-edition/">DIP
+2020.02.26</a>).</p>
+<p> </p>
+<p><strong>Chain locations and more.</strong> <a
+href="https://www.alltheplaces.xyz/">All The Places</a> is “a growing
+set of web scrapers designed to output consistent geodata about as many
+places of business in the world as possible.” During its latest weekly
+run, the project’s 2,400+ <a
+href="https://github.com/alltheplaces/alltheplaces">open-source
+scrapers</a> collected data on nearly 5 million locations. They include
+postal collection boxes, ATMs, various fast food chains and chain
+stores, gas stations, and more. The results are available <a
+href="https://www.alltheplaces.xyz/map/">on an interactive map</a>, <a
+href="https://www.alltheplaces.xyz/builds">to download in bulk</a>, and
+<a href="https://www.alltheplaces.xyz/spiders">by location type</a>.
+<strong>Related</strong>: Journalist <a
+href="https://mattstiles.me/">Matt Stiles</a> maintains a <a
+href="https://github.com/stiles/locations/">collection of US-focused
+scrapers gathering the locations of dozens of chain stores and
+restaurants</a>, with Python notebooks for each scraper. [h/t <a
+href="https://mastodon.social/@fgregg">Forest Gregg</a> + <a
+href="https://masto.machlis.com/@smach">Sharon Machlis</a>]</p>
+<p> </p>
+<p><strong>Wholesale electricity markets.</strong> The US Energy
+Information Administration <a
+href="https://www.eia.gov/todayinenergy/detail.php?id=61804">recently
+launched</a> a <a
+href="https://www.eia.gov/electricity/wholesalemarkets/index.php">Wholesale
+Electricity Market Portal</a>, providing visualizations and <a
+href="https://www.eia.gov/electricity/wholesalemarkets/data.php">downloads</a>
+of market data from <a
+href="https://en.wikipedia.org/wiki/Regional_transmission_organization_(North_America)">regional
+transmission organizations (RTOs) and independent system operators
+(ISOs)</a> — the country’s electric-grid coordinating entities. The data
+include “day-ahead” electricity prices, real-time prices,
+actual/forecasted load and demand, fuel mix by time, and local
+temperatures. <strong>Learn more</strong>: <a
+href="https://www.youtube.com/watch?v=-8YH-338fXU">A 30-minute
+introductory video from the EIA</a>.</p>
+<p> </p>
+<p><strong>Food-system indicators.</strong> The <a
+href="https://www.foodcountdown.org/">Food Systems Countdown
+Initiative</a> produces “annual publications to measure, assess, and
+track the performance of global food systems toward 2030 and the
+conclusion of the Sustainable Development Goals.” As part of that work,
+its <a href="https://www.foodsystemsdashboard.org/">Food Systems
+Dashboard</a> incorporates <a
+href="https://www.foodsystemsdashboard.org/information/data-sources-and-methodology">275
+metrics from dozens of sources</a> about countries’ food availability,
+affordability, supply chains, safety, and related topics. Examples
+include <a
+href="https://www.foodsystemsdashboard.org/indicators/food-environments/food-availability/average-protein-supply-3-year-average/map">protein
+supply per capita</a>, <a
+href="https://www.foodsystemsdashboard.org/indicators/food-environments/vendor-properties/supermarkets-per-100000-population/map">number
+of supermarkets per capita</a>, <a
+href="https://www.foodsystemsdashboard.org/indicators/food-supply-chains/processing-and-packaging/mandatory-removal-of-trans-fats-in-food-products/map">trans
+fat regulations</a>, and <a
+href="https://www.foodsystemsdashboard.org/indicators/food-environments/food-safety/percent-who-believe-the-government-does-a-good-job-ensuring-food-safety/map">food
+safety poll results</a>. [h/t <a href="https://tulpinteractive.com/">Jan
+Willem Tulp</a>]</p>
+<p> </p>
+<p><strong>Three-dimensional natural history.</strong> At <a
+href="https://www.morphosource.org/">MorphoSource</a>, you can “find,
+view, and download 3D data representing the world’s natural history,
+cultural heritage, and scientific collections.” The service hosts <a
+href="https://www.morphosource.org/catalog/media?f%5Bhuman_readable_media_type_ssim%5D%5B%5D=Mesh&amp;locale=en">82,000+
+3D models</a> you can view online; <a
+href="https://www.morphosource.org/catalog/media?f%5Bhuman_readable_media_type_ssim%5D%5B%5D=Mesh&amp;f.publication_status=Open+Download&amp;locale=en">roughly
+half</a> can be downloaded without prior approval. As described in a <a
+href="https://academic.oup.com/bioscience/article/74/3/169/7615104">recent
+<em>BioScience</em> article</a>, the <a
+href="https://en.wikipedia.org/wiki/Florida_Museum_of_Natural_History">Florida
+Museum of Natural History</a>’s <a
+href="https://www.floridamuseum.ufl.edu/overt/">openVertebrate</a>
+project <a
+href="https://www.floridamuseum.ufl.edu/science/scientists-ct-scanned-thousands-of-natural-history-specimens-which-you-can-access-for-free/">used
+MorphoSource</a> to share <a
+href="https://www.morphosource.org/projects/000368762">3D models and
+volumetric CT scans of 10,000+ amphibian, reptile, fish, bird, and
+mammal specimens</a>. [h/t <a href="https://www.duncangeere.com/">Duncan
+Geere</a>]</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send scanned feedback to
+jsvine@gmail.com, or just reply to this email. // Looking for past
+datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. // Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions. // Support the newsletter and
+your career by <a href="https://data-is-plural.com/plus">becoming a DIP+
+member</a>.</em></p>
+]]></content>
+    <link href="http://www.data-is-plural.com/archive/2024-04-24-edition" rel="alternate"/>
+    <summary>Public procurement, chain locations, wholesale electricity markets, food-system indicators, and 3D natural history.</summary>
+    <published>2024-04-24T08:00:00-04:00</published>
+  </entry>
   <entry>
     <id>dip-2024-04-17</id>
     <title>Data Is Plural — 2024.04.17 edition</title>
@@ -1204,140 +1336,5 @@ subscribe and to browse past editions.</em></p>
     <link href="http://www.data-is-plural.com/archive/2024-02-21-edition" rel="alternate"/>
     <summary>Self-driving stats, US wetlands, SF overdose deaths, Spain’s political primaries, and Scott’s SMS spam.</summary>
     <published>2024-02-21T08:00:00-05:00</published>
-  </entry>
-  <entry>
-    <id>dip-2024-02-14</id>
-    <title>Data Is Plural — 2024.02.14 edition</title>
-    <updated>2024-02-14T08:00:00-05:00</updated>
-    <content type="CDATA"><![CDATA[<p><em>State trust lands, household composition, comics deconstructed,
-nursing home prices, and twisty roads.</em></p>
-<p> </p>
-<p><em>👋 Over its eight years and 360+ editions, Data Is Plural’s
-newsletter and archives have been freely accessible — just like the
-datasets DIP features. I have no plans to change that. Occasionally,
-however, I’ve wondered what a “premium” membership might look like. What
-could DIP offer to subscribers who wanted to dive deeper, to engage
-beyond the tidy boundaries of a newsletter? To that end: <a
-href="https://www.data-is-plural.com/plus/"><strong>Introducing
-DIP+</strong></a>, Data Is Plural’s new membership program. For $60/year
-you’ll get access to a Discord-hosted community, featuring bonus
-material, lively discussions with fellow data-spelunkers, job boards,
-and more. There’s a 14-day free trial, so you can test it out first. <a
-href="https://www.data-is-plural.com/plus/">Click here for details and
-to register</a>. And feel free reply to this email with any questions or
-feedback.</em></p>
-<p> </p>
-<p><strong>State trust lands.</strong> “State trust lands just might be
-one of the best-kept public secrets in America,” <a
-href="https://grist.org/updates/grist-publishes-new-land-grant-investigation-with-public-data/">according
-to Grist</a>, which published a <a
-href="https://grist.org/project/indigenous/land-grant-universities-indigenous-lands-fossil-fuels/">data-driven
-investigation</a> on the topic last week. These lands — expropriated
-from Indigenous nations and managed by state governments for profit —
-“exist in 21 Western and Midwestern states, totaling more than 500
-million surface and subsurface acres.” Grist’s inquiry focuses on those
-benefiting <a
-href="https://en.wikipedia.org/wiki/Land-grant_university">land-grant
-universities</a>, the subject of a related <a
-href="https://www.hcn.org/issues/52-4/indigenous-affairs-education-land-grab-universities/">High
-Country News investigation</a> (<a
-href="https://www.data-is-plural.com/archive/2020-06-24-edition/">DIP
-2020.06.24</a>). Using state property records and <a
-href="https://data.fs.usda.gov/geodata/edw/datasets.php">Forest Service
-data</a> digitized from <a
-href="https://www.loc.gov/collections/century-of-lawmaking/articles-and-essays/century-presentations/indian-land-cessions/">historical
-cession maps</a>, <a
-href="https://grist.org/technology/how-we-investigated-land-grant-university-system/">Grist
-identified</a> “more than 8.2 million acres of state trust parcels taken
-from 123 tribes, bands, and communities” that fund 14 such institutions.
-Their <a
-href="https://grist.org/indigenous/how-to-conduct-your-own-reporting-research-state-trust-lands/">public
-data</a> describe these 41,000+ pieces of land: each parcel’s size and
-location, rights type, land use, benefiting university, associated
-tribes, and cession details. [h/t <a
-href="https://twitter.com/Riogringa">Rachel Glickhouse</a>]</p>
-<p> </p>
-<p><strong>Household composition.</strong> <a
-href="https://www.nature.com/articles/s41597-024-02964-3">Juan Galeano
-et al.</a>’s <a href="https://zenodo.org/records/8142652">CORESIDENCE
-database</a> provides 146 indicators of household arrangements in 156
-countries and ~4,000 regions, spanning the years 1964 to 2021. The
-indicators range in specificity, from average household size to, e.g.,
-the average number of non-relatives in 3-person households. They also
-include gender breakdowns, such as the proportion of 5-person households
-among female-headed households. The metrics are calculated using
-“global-scale individual microdata from four main repositories and
-national household surveys, encompassing over 150 million individual
-records representing more than 98% of the world’s population.”</p>
-<p> </p>
-<p><strong>Comics, deconstructed.</strong> The Tilburg University–based
-<a href="https://www.visuallanguagelab.com/">Visual Language Lab</a>,
-led by comics scholar <a
-href="https://www.visuallanguagelab.com/neilcohn">Neil Cohn</a>, studies
-“all aspects of visual language, from the structure of individual
-drawings, emoji, or cartoons, to how we make meaning out of sequences of
-images like in comics.” The lab’s <a
-href="https://www.visuallanguagelab.com/vlrc">Visual Language Research
-Corpus</a> provides <a
-href="https://link.springer.com/article/10.1007/s10579-023-09673-0">detailed
-annotations</a> of tens of thousands of panels in 300+ comic books and
-graphic novels (plus every <em>Calvin &amp; Hobbes</em> strip). The <a
-href="https://dataverse.nl/dataset.xhtml?persistentId=doi:10.34894/LWMZ7G">dataset</a>’s
-sources include material from multiple continents, time periods, and
-genres. The annotations examine “attentional framing structure and
-filmic shot scale, the situational changes across panels, page layouts,
-multimodality, visual morphology, and path structure,” among other
-characteristics. [h/t <a href="https://twitter.com/hydrosquall">Cameron
-Yick</a>]</p>
-<p> </p>
-<p><strong>Nursing home prices.</strong> Between December 2020 and March
-2022, SeniorLiving.org researchers “attempted to contact 7,221 US senior
-facilities by telephone to obtain availability and service pricing.” The
-team got at least some pricing data for 3,000+ of the facilities. The
-results, available from SeniorLiving’s <a
-href="https://www.seniorliving.org/research/open-data-project/">data
-portal</a>, provide information about each provider, the team’s call
-attempts, and the average monthly price for five types of housing and
-care: skilled nursing with a private room, skilled nursing with a shared
-room, assisted living, independent living, and care tailored for people
-with Alzheimer’s disease and dementia. <strong>Related</strong>: The
-Centers for Medicare &amp; Medicaid Services’ <a
-href="https://data.cms.gov/provider-compliance/cost-report/skilled-nursing-facility-cost-report">Skilled
-Nursing Facility Cost Report datasets</a>, which contain annual metrics
-on finances, staffing, and care provided. [h/t <a
-href="https://www.linkedin.com/in/corie-colliton-wagner/">Corie
-Wagner</a>]</p>
-<p> </p>
-<p><strong>Twisty roads.</strong> <a
-href="https://roadcurvature.com/">Curvature</a> uses <a
-href="https://www.openstreetmap.org">OpenStreetMap</a> <a
-href="https://wiki.openstreetmap.org/wiki/Downloading_data">data</a> to
-<a href="https://roadcurvature.com/map/">map the world’s curviest
-roads</a>. Built by <a
-href="https://www.caranddriver.com/features/a34610356/adam-franco-curvature-fun-roads/">motorcyclist</a>
-and software developer <a href="https://www.adamfranco.com/">Adam
-Franco</a>, the <a
-href="https://github.com/adamfranco/curvature">open-source</a> project
-“works by looking at the geometry of every road segment and adding up
-how much length of the road is sharp corners, broad sweeping curves, and
-straight areas.” Franco also provides a <a
-href="https://roadcurvature.com/how-it-works/">more detailed
-explanation</a>, as well as <a
-href="https://kml.roadcurvature.com/">data files</a> scoring each road
-and curve segment. [h/t <a
-href="https://buttondown.email/puntofisso/archive/551-quantum-of-sollazzo/">Giuseppe
-Sollazzo</a>]</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send zigzagging feedback
-to jsvine@gmail.com, or just reply to this email. // Looking for past
-datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. // Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and to browse past editions.</em></p>
-]]></content>
-    <link href="http://www.data-is-plural.com/archive/2024-02-14-edition" rel="alternate"/>
-    <summary>State trust lands, household composition, comics deconstructed, nursing home prices, and twisty roads.</summary>
-    <published>2024-02-14T08:00:00-05:00</published>
   </entry>
 </feed>
