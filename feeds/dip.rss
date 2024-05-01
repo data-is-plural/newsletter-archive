@@ -6,7 +6,137 @@
     <description>A weekly newsletter of useful/curious datasets.</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>https://github.com/data-is-plural/newsletter-archive</generator>
-    <lastBuildDate>Wed, 24 Apr 2024 08:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 01 May 2024 08:00:00 -0400</lastBuildDate>
+    <item>
+      <title>Data Is Plural — 2024.05.01 edition</title>
+      <link>http://www.data-is-plural.com/archive/2024-05-01-edition</link>
+      <description>Prison commissary prices, historical markers, biological numbers, openly-licensed video transcripts, and Agatha Christie’s bibliography.</description>
+      <content:encoded><![CDATA[<p><em>Prison commissary prices, historical markers, biological numbers,
+openly-licensed video transcripts, and Agatha Christie’s
+bibliography.</em></p>
+<p> </p>
+<p><em>📬 Reader <a href="https://twitter.com/jeremybney">Jeremy Ney</a>
+has just published <a
+href="https://americaninequality.substack.com/p/wiretaps-and-inequality">an
+edition of his American Inequality newsletter</a> that analyzes <a
+href="https://www.uscourts.gov/statistics-reports/analysis-reports/wiretap-reports">the
+wiretap data</a> featured in <a
+href="https://www.data-is-plural.com/archive/2019-07-03-edition/">DIP
+2019.07.03</a>. (Have you published something with data you found via
+Data Is Plural? <a
+href="https://docs.google.com/forms/d/e/1FAIpQLSdXXD5eO05w0Xa7bwG3Ppia3uzr_o3y-xDEZuWRfXbCfCu_XA/viewform">Click
+here to let me know</a>.)</em></p>
+<p> </p>
+<p><strong>Prison commissary prices.</strong> Through a series of public
+records requests, reporters at <a href="https://theappeal.org/">The
+Appeal</a> have <a
+href="https://theappeal.org/locked-in-priced-out-commissary-database-methodology/">constructed</a>
+the “<a href="https://theappeal.org/commissary-database/">first national
+database of prison commissary lists</a>,” based on documents provided by
+46 states. The database contains <a
+href="https://github.com/the-appeal/commissary-data/">three tables</a>.
+The <a
+href="https://github.com/the-appeal/commissary-data/blob/main/data/commissary-lists-20240417.csv">first</a>
+links to, and provides metadata about, each list. The <a
+href="https://github.com/the-appeal/commissary-data/blob/main/data/commissary-summaries-20240417.csv">second</a>
+summarizes each state’s prices for two dozen types of products — such as
+ramen, toothpaste, and rosary beads — across three categories: food,
+personal care/hygiene, and religious items. The <a
+href="https://github.com/the-appeal/commissary-data/blob/main/data/commissary-prices-20240417.csv">third
+table</a> provides 2,200+ commissary-specific prices for those products.
+<strong>Read more</strong>: “<a
+href="https://theappeal.org/locked-in-priced-out-how-much-prison-commissary-prices/">Locked
+In, Priced Out: How Prison Commissary Price-Gouging Preys on the
+Incarcerated</a>,” by reporters <a
+href="https://theappeal.org/authors/elizabeth-weill-greenberg/">Elizabeth
+Weill-Greenberg</a> and <a
+href="https://theappeal.org/authors/ethan-corey/">Ethan Corey</a>. [h/t
+<a href="https://jqwhitcomb.com/">JQ Whitcomb</a>]</p>
+<p> </p>
+<p><strong>Historical markers.</strong> <a
+href="https://www.hmdb.org/about.asp">Launched in 2006</a>, the <a
+href="https://www.hmdb.org/">Historical Marker Database</a> “is an
+illustrated searchable online catalog of historical information viewed
+through the filter of […] permanent outdoor markers, monuments, and
+plaques.” The <a href="https://www.hmdb.org/faq.asp">crowdsourced</a>
+project has documented 195,000+ markers in the US, plus thousands more
+in Canada, Mexico, the UK, and elsewhere. You can browse them <a
+href="https://www.hmdb.org/geolists.asp">by location</a> and <a
+href="https://www.hmdb.org/categories.asp">by topic</a>, and download
+data corresponding to each collection. You can also <a
+href="https://www.hmdb.org/search.asp">search</a> by person, keyword,
+historical date, and other attributes. <strong>As seen in</strong>: “<a
+href="https://www.npr.org/2024/04/21/1244899635/civil-war-confederate-statue-markers-sign-history">Historical
+markers are everywhere in America. Some get history wrong</a>,” by NPR’s
+<a href="https://www.npr.org/people/4624985/laura-sullivan">Laura
+Sullivan</a> and <a
+href="https://www.npr.org/people/1083208720/nick-mcmillan">Nick
+McMillan</a>, with <a
+href="https://github.com/NPR-investigations/off-the-mark">associated
+data analysis</a>. [h/t <a
+href="https://www.numlock.com/p/numlock-news-april-22-2024-ghosts">Walt
+Hickey</a>]</p>
+<p> </p>
+<p><strong>Biological numbers.</strong> <a
+href="https://bionumbers.hms.harvard.edu/search.aspx">BioNumbers</a>
+wants “you to find in one minute any useful molecular biology number
+that can be important for your research.” As its creators <a
+href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2808940/">Ron Milo et
+al. described in 2010</a>, those numbers “range from cell sizes to
+metabolite concentrations, from reaction rates to generation times, from
+genome sizes to the number of mitochondria in a cell.” You can search,
+<a href="https://bionumbers.hms.harvard.edu/browse.aspx">browse</a>, and
+<a href="https://bionumbers.hms.harvard.edu/resources.aspx">download</a>
+more than 14,000 entries. Each includes a number and/or range, units and
+method of measurement, relevant organism, and source. For instance: <a
+href="https://bionumbers.hms.harvard.edu/bionumber.aspx?id=100002&amp;ver=12&amp;trm=100002&amp;org=">The
+diameter of an <em>e. coli</em> cell is 1-1.1 micrometers</a>, the <a
+href="https://bionumbers.hms.harvard.edu/bionumber.aspx?id=112478&amp;ver=0&amp;trm=red+blood+cell&amp;org=a">lifespan
+of a human red blood cell is 70-140 days</a>, and a <a
+href="https://bionumbers.hms.harvard.edu/bionumber.aspx?id=100282&amp;ver=6&amp;trm=genome&amp;org=">chicken’s
+genome has 1.05 billion base pairs</a>.</p>
+<p> </p>
+<p><strong>Openly-licensed video transcripts.</strong> The <a
+href="https://huggingface.co/datasets/PleIAs/YouTube-Commons">YouTube-Commons</a>
+dataset, built by a French startup, contains 15 million original and
+auto-translated audio transcripts from 2 million <a
+href="https://creativecommons.org/share-your-work/cclicenses/">Creative
+Commons–licensed</a> YouTube videos, sourced from 400,000+ channels. The
+dataset indicates each video’s YouTube ID, title, channel, and date, as
+well as each transcript’s original language, translated language, word
+count, and character count. Translations are available primarily in
+Dutch, English, French, German, Italian, Russian, and Spanish. [h/t <a
+href="https://datamachina.substack.com/p/data-machina-250">Data
+Machina</a>]</p>
+<p> </p>
+<p><strong>Agatha Christie’s bibliography.</strong> <a
+href="https://www.nicoledesignsdata.net/">Nicole Mark</a> has compiled a
+<a
+href="https://docs.google.com/spreadsheets/d/1A8ZRe5KLLAllhT31pCzke4j5qAPqeMKf0jYgyJXcoPs/edit#gid=0">dataset
+of Agatha Christie’s published stories</a>, covering 75 novels, 154
+short stories, and 22 short story collections. The spreadsheets provide
+each work’s title and the character-based series to which it belongs
+(e.g., Hercule Poirot, Miss Marple, etc.). The novel and collection
+entries also indicate their year of initial publication, while the
+short-story entries list the collections that included them.</p>
+<p> </p>
+<p><em>👋 <a href="https://www.data-is-plural.com/plus/">DIP+
+members</a> got a sneak peek of this edition’s datasets on Monday, plus
+pointers to a few extra. You can support the newsletter and your career
+by <a href="https://www.data-is-plural.com/plus/">becoming a
+member</a>.</em></p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send mysterious feedback
+to jsvine@gmail.com, or just reply to this email. // Looking for past
+datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. // Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions.</em></p>
+]]></content:encoded>
+      <guid isPermaLink="false">dip-2024-05-01</guid>
+      <pubDate>Wed, 01 May 2024 08:00:00 -0400</pubDate>
+    </item>
     <item>
       <title>Data Is Plural — 2024.04.24 edition</title>
       <link>http://www.data-is-plural.com/archive/2024-04-24-edition</link>
@@ -1192,137 +1322,6 @@ member</a>.</em></p>
 ]]></content:encoded>
       <guid isPermaLink="false">dip-2024-02-28</guid>
       <pubDate>Wed, 28 Feb 2024 08:00:00 -0500</pubDate>
-    </item>
-    <item>
-      <title>Data Is Plural — 2024.02.21 edition</title>
-      <link>http://www.data-is-plural.com/archive/2024-02-21-edition</link>
-      <description>Self-driving stats, US wetlands, SF overdose deaths, Spain’s political primaries, and Scott’s SMS spam.</description>
-      <content:encoded><![CDATA[<p><em>Self-driving stats, US wetlands, SF overdose deaths, Spain’s
-political primaries, and Scott’s SMS spam.</em></p>
-<p> </p>
-<p><em>📬 Reader <a
-href="https://www.linkedin.com/in/chirkina/">Aleksandra Chirkina</a> has
-<a
-href="https://www.linkedin.com/pulse/coffee-veritas-aleksandra-chirkina-6ldoe/">explored
-the relationship</a> between self-claimed expertise and coffee
-preferences in <a href="https://bit.ly/gacttCSV+">the data</a> from <a
-href="https://en.wikipedia.org/wiki/James_Hoffmann">James Hoffman</a>’s
-<a href="https://www.youtube.com/watch?v=bMOOQfeloH0">Great American
-Coffee Taste Test</a> (featured in <a
-href="https://www.data-is-plural.com/archive/2023-11-15-edition/">DIP
-2023.11.15</a>). Have you published something with data you found via
-DIP? <a
-href="https://docs.google.com/forms/d/e/1FAIpQLSdXXD5eO05w0Xa7bwG3Ppia3uzr_o3y-xDEZuWRfXbCfCu_XA/viewform">Click
-here to let me know</a>.</em></p>
-<p> </p>
-<p><em>👋 <a href="https://www.data-is-plural.com/plus/">DIP+
-members</a> got a sneak peek of this week’s datasets on Monday, links to
-additional datasets too niche for the newsletter, and a mini-analysis of
-Hobbes’ appearances in the <a
-href="https://www.visuallanguagelab.com/vlrc">Visual Language Research
-Corpus</a>. We also chatted about data-intensive programs that run
-entirely browser-side and changes to Census surveys’ questions about
-gender. Come join us! <a
-href="https://www.data-is-plural.com/plus/">Memberships</a> are just
-$7/month or $60/year.</em></p>
-<p> </p>
-<p><strong>Self-driving stats.</strong> Companies wanting to test or
-deploy self-driving cars on California’s public roads must receive a
-permit from the state DMV’s <a
-href="https://www.dmv.ca.gov/portal/vehicle-industry-services/autonomous-vehicles/">Autonomous
-Vehicles Program</a>. As part of the requirements, these companies must
-“submit annual reports to share how often their vehicles disengaged from
-autonomous mode during tests (whether because of technology failure or
-situations requiring the test driver/operator to take manual control of
-the vehicle to operate safely).” These <a
-href="https://www.dmv.ca.gov/portal/vehicle-industry-services/autonomous-vehicles/disengagement-reports/">disengagement
-reports</a> indicate each vehicle’s company, permit number, <a
-href="https://en.wikipedia.org/wiki/Vehicle_identification_number">VIN</a>,
-monthly miles driven, and annual disengagements — including vehicles
-with none. And for each disengagement, the reports list the vehicle,
-date, disengagement initiator (vehicle, test driver, remote operator, or
-passenger), type of location, and a brief summary. [h/t <a
-href="https://www.chartr.co/newsletters/2023-11-12">Chartr</a>]</p>
-<p> </p>
-<p><strong>US wetlands.</strong> The <a
-href="https://www.fws.gov/program/national-wetlands-inventory">National
-Wetlands Inventory</a>, maintained by the US Fish and Wildlife Service,
-provides <a
-href="https://www.fws.gov/program/national-wetlands-inventory/wetlands-mapper">interactive
-maps</a> and <a
-href="https://www.fws.gov/program/national-wetlands-inventory/wetlands-data">bulk
-data</a> containing “geospatially referenced information on the status,
-extent, characteristics and functions of wetland, riparian, deepwater,
-and related aquatic habitats.” With <a
-href="https://www.fws.gov/program/national-wetlands-inventory/wetlands-mapping">contributions
-from 160+ organizations</a>, coordinated through a <a
-href="https://www.fws.gov/program/national-wetlands-inventory/data-standards">dedicated
-national standard</a>, the inventory represents “more than 35 million
-wetland and deepwater features,” and continues to receive updates.
-<strong>As seen in</strong>: DIP reader <a
-href="https://simondgreenhill.github.io/">Simon Greenhill</a> and
-coauthors’ <a
-href="https://www.science.org/doi/10.1126/science.adi3794">paper</a>, <a
-href="https://datadryad.org/stash/dataset/doi:10.5061/dryad.z34tmpgm7">dataset</a>,
-<a href="https://www.youtube.com/watch?v=Jkhz5gVUo2w">explainer
-video</a>, and <a
-href="https://simondgreenhill.github.io/wotus-map/">map</a> using
-machine learning to predict wetland and river protections under the
-Clean Water Act.</p>
-<p> </p>
-<p><strong>SF overdose deaths.</strong> Last year, 813 people died from
-accidental drug overdoses in San Francisco, <a
-href="https://www.sf.gov/resource/2020/ocme-accidental-overdose-reports">according
-to the latest figures from the city’s Office of the Chief Medical
-Examiner</a>. That’s the highest annual total on record, per the San
-Francisco Chronicle’s <a
-href="https://www.sfchronicle.com/projects/san-francisco-drug-overdose-deaths/">overdose
-data tracker</a>, which <a
-href="https://github.com/sfchronicle/sf-od-tracker-data">combines
-data</a> from the medical examiner’s reports with information from other
-city agencies, such as <a
-href="https://www.sf.gov/data/reducing-fatal-and-non-fatal-overdoses-tenderloin">overdose
-reversals by EMS responders administering naloxone</a> and <a
-href="https://www.sf.gov/street-overdose-response-team">calls handled by
-the Street Overdose Response Team</a>. <strong>As seen in</strong>: <a
-href="https://link.sfchronicle.com/view/6418a59d2d2faafd080b5ee9kf7kn.2e/907eff80">The
-Chronicle data team’s latest newsletter</a>.</p>
-<p> </p>
-<p><strong>Spain’s political primaries.</strong> <a
-href="https://www.sciencedirect.com/science/article/pii/S2352340924000842">Oscar
-Barberà et al.</a> have compiled a <a
-href="https://zenodo.org/records/10066112">dataset</a> of the outcomes
-of 361 primary contests in Spain since 1991, “based on information
-provided by political parties at the time of the event through their
-websites, press releases, and journalistic reports.” It includes
-primaries to determine candidates for regional, national, and EU
-elections, as well as for party leadership. For each contest, it lists
-the party, territory, year, type of post, number of competitors,
-turnout, incumbent’s outcome, winner’s percentage, and more.</p>
-<p> </p>
-<p><strong>Scott’s SMS spam.</strong> In late September 2022, <a
-href="https://scottleechua.com/">Scott Lee Chua</a> began preserving
-every SMS he received, motivated by the recent passage of the Philippine
-<a href="https://en.wikipedia.org/wiki/SIM_Registration_Act">SIM
-Registration Act</a>. By early February 2024, he’d amassed 3,324
-messages, which he has <a href="https://spamofthetimes.com/">grouped
-into five categories and charted</a>: spam (13% of all messages),
-one-time passwords (12%), marketing (10%), government notices (1%), and
-“messages I both expect and welcome” (63%). He’s also <a
-href="https://github.com/scottleechua/data/tree/main/spam-and-marketing-sms">published
-a partially-redacted dataset</a> of each message’s time received, time
-read, sender, text, and category.</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send 13%-spam feedback to
-jsvine@gmail.com, or just reply to this email. // Looking for past
-datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. // Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and to browse past editions.</em></p>
-]]></content:encoded>
-      <guid isPermaLink="false">dip-2024-02-21</guid>
-      <pubDate>Wed, 21 Feb 2024 08:00:00 -0500</pubDate>
     </item>
   </channel>
 </rss>
