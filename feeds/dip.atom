@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.data-is-plural.com</id>
   <title>Data Is Plural</title>
-  <updated>2024-05-08T08:00:00-04:00</updated>
+  <updated>2024-05-15T08:00:00-04:00</updated>
   <author>
     <name>Jeremy Singer-Vine</name>
     <email>jsvine@gmail.com</email>
@@ -10,6 +10,150 @@
   <link href="https://www.data-is-plural.com" rel="alternate"/>
   <generator>https://github.com/data-is-plural/newsletter-archive</generator>
   <subtitle>A weekly newsletter of useful/curious datasets.</subtitle>
+  <entry>
+    <id>dip-2024-05-15</id>
+    <title>Data Is Plural — 2024.05.15 edition</title>
+    <updated>2024-05-15T08:00:00-04:00</updated>
+    <content type="CDATA"><![CDATA[<p><em>Unaccompanied migrant children, greenhouse gas giants, 1 million
+ChatGPT conversations, England sewer discharge, and LA street
+trees.</em></p>
+<p> </p>
+<p><em>📬 Reader <a href="https://enjalot.github.io/">Ian Johnson</a>
+has published <a
+href="https://enjalot.github.io/latent-scope/us-federal-laws">an
+exploration US federal law titles</a>, based on <a
+href="https://osf.io/qa289">Brian Libgober’s dataset</a> featured in <a
+href="https://www.data-is-plural.com/archive/2024-02-28-edition/">DIP
+2024.02.28</a>. (Have you published something with data you found via
+Data Is Plural? <a
+href="https://docs.google.com/forms/d/e/1FAIpQLSdXXD5eO05w0Xa7bwG3Ppia3uzr_o3y-xDEZuWRfXbCfCu_XA/viewform">Click
+here to let me know</a>.)</em></p>
+<p> </p>
+<p><em>📬 Reader <a
+href="https://www.linkedin.com/in/brad-skillman-6a87b110/">Brad
+Skillman</a> helpfully flags that, alas, the <a
+href="https://www.cdc.gov/nchs/ahcd/about_ahcd.htm">National Hospital
+Ambulatory Medical Care Survey</a> (<a
+href="https://www.data-is-plural.com/archive/2024-05-08-edition/">featured
+last week</a>) has <a
+href="https://www.cdc.gov/nchs/ahcd/notice.htm#anchor_1678674377785">ceased
+collecting new data</a>. Per the CDC: “Although NHAMCS is ending data
+collection, emergency department data collection and estimates will
+continue to be available […] through the <a
+href="https://www.cdc.gov/nchs/nhcs/index.htm">National Hospital Care
+Survey</a>.”</em></p>
+<p> </p>
+<p><strong>Unaccompanied migrant children.</strong> The New York Times’
+<a href="https://www.hannahdreier.com/">Hannah Dreier</a> was <a
+href="https://www.pulitzer.org/winners/hannah-dreier-new-york-times">awarded
+a Pulitzer Prize last week</a> for a “series of stories revealing the
+stunning reach of migrant child labor across the United States—and the
+corporate and governmental failures that perpetuate it.” That reporting,
+<a
+href="https://www.nytimes.com/2023/03/03/insider/searching-for-the-faces-of-child-migrant-labor.html">Dreier
+has noted</a>, was partly driven by <a
+href="https://github.com/nytimes/hhs-child-migrant-data">data she
+obtained from the Department of Health and Human Services</a> via a FOIA
+request and lawsuit. The dataset, published in December <a
+href="https://www.nytimes.com/interactive/2023/12/28/us/migrants-children-data.html">along
+with visualizations</a>, describes the placement of 550,000+
+unaccompanied migrant children with local sponsors between January 2015
+and May 2023: each child’s country of origin, gender, date of entry, and
+date of release to a sponsor, plus the sponsor’s ZIP code and
+relationship to the child. <strong>Read more</strong>: “The data pointed
+to spots I never would have thought of: Flandreau, South Dakota;
+Parksley, Virginia; Bozeman, Montana,” <a
+href="https://journalistsresource.org/media/migrant-children-labor-abuse-goldmith/">Dreier
+says</a>.</p>
+<p> </p>
+<p><strong>Greenhouse gas giants.</strong> <a
+href="https://carbonmajors.org/">Carbon Majors</a>, run by the UK-based
+<a href="https://influencemap.org/">InfluenceMap</a>, “is a database of
+historical production data from 122 of the world’s largest oil, gas,
+coal, and cement producers.” It attributes to these producers 1,421
+metric gigatons of <a
+href="https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Carbon_dioxide_equivalent">CO<sub>2</sub>-equivalent</a>
+emissions from 1854 through 2022. <a
+href="https://carbonmajors.org/briefing/The-Carbon-Majors-Database-26913">Launched
+last month</a>, the database provides <a
+href="https://carbonmajors.org/Downloads">downloads at several levels of
+granularity</a>. The least granular version indicates the emissions
+calculated for each entity-year combination. The most granular version
+breaks those emissions down by commodity produced, quantity of commodity
+produced, emitting activity, and reporting entity.</p>
+<p> </p>
+<p><strong>1 million ChatGPT conversations.</strong> The <a
+href="https://wildchat.allen.ai/">WildChat Dataset</a>, constructed by
+<a href="https://arxiv.org/abs/2405.01470">Wenting Zhao et al.</a>, “is
+a corpus of 1 million real-world user-ChatGPT interactions,
+characterized by a wide range of languages and a diversity of user
+prompts.” The researchers, primarily affiliated with Cornell and the <a
+href="https://allenai.org/">Allen Institute for AI</a>, built it “by
+offering free access to ChatGPT and GPT-4 in exchange for consensual
+chat history collection.” Each of the 1 million rows in the <a
+href="https://huggingface.co/datasets/allenai/WildChat-1M">dataset</a>
+represents a conversation and provides its text, main language,
+timestamp of its conclusion, underlying model used, moderation results,
+inferred country, and more. [h/t <a
+href="https://datamachina.substack.com/p/data-machina-251-aed">Data
+Machina</a>]</p>
+<p> </p>
+<p><strong>England sewage discharge.</strong> The UK’s Environment
+Agency <a
+href="https://environment.data.gov.uk/dataset/21e15f12-0df8-4bfc-b763-45226c16a8ac">collects
+data from utility companies</a> regarding sewage-discharging <a
+href="https://www.ofwat.gov.uk/about-us/ofwat-and-the-environment/pollution-and-water-quality/storm-overflows-explainer/">storm
+overflows</a> in England. The records, available for 2020–2023, list
+every reported overflow event, its timing and location, number of
+detected discharges, discharge points, and much more.
+<strong>Related</strong>: Wales overflow data are available from <a
+href="https://corporate.dwrcymru.com/en/community/environment/event-duration-monitoring">other</a>
+<a
+href="https://www.hdcymru.co.uk/regulatory-library/regulatory-library/">sources</a>.
+<strong>As seen in</strong>: Maps from <a
+href="https://theriverstrust.org/sewage-map">The Rivers Trust</a>, <a
+href="https://www.sas.org.uk/water-quality/sewage-pollution-alerts/">Surfers
+Against Sewage</a>, and <a
+href="https://www.theguardian.com/environment/ng-interactive/2024/mar/27/englands-sewage-crisis-how-polluted-is-your-local-river-and-which-regions-are-worst-hit">The
+Guardian</a>. [h/t <a
+href="https://buttondown.email/puntofisso/archive/558-quantum-of-sollazzo/">Giuseppe
+Sollazzo</a> + <a
+href="https://nightingaledvs.com/sewage-alerts-the-long-history-of-using-maps-to-hold-water-companies-to-account/">James
+Cheshire</a> + <a
+href="https://twitter.com/hughagraham/status/1454025196940181504">Hugh
+Graham</a>]</p>
+<p> </p>
+<p><strong>Los Angeles street trees.</strong> Journalist <a
+href="https://mattstiles.me/">Matt Stiles</a> has been using public
+records requests and official portals to compile <a
+href="https://github.com/stiles/la-trees">data on 1.6 million street
+trees in 40+ Los Angeles County municipalities</a>. The information
+varies by city but generally includes the tree’s coordinates and
+species, often also with measurements such as height and trunk diameter.
+<strong>Previously</strong>: Street trees in <a
+href="https://www.data-is-plural.com/archive/2022-09-07-edition/">DIP
+2022.09.07</a>, <a
+href="https://www.data-is-plural.com/archive/2020-11-18-edition/">DIP
+2020.11.18</a>, <a
+href="https://www.data-is-plural.com/archive/2018-08-08-edition/">DIP
+2018.08.08</a>, and <a
+href="https://www.data-is-plural.com/archive/2016-11-16-edition/">DIP
+2016.11.16</a>.</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send chlorophyllic
+feedback to jsvine@gmail.com, or just reply to this email. // Looking
+for past datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. // Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions. // Support the newsletter and
+your career by <a href="https://www.data-is-plural.com/plus/">becoming a
+DIP+ member</a>.</em></p>
+]]></content>
+    <link href="http://www.data-is-plural.com/archive/2024-05-15-edition" rel="alternate"/>
+    <summary>Unaccompanied migrant children, greenhouse gas giants, 1 million ChatGPT conversations, England sewer discharge, and LA street trees.</summary>
+    <published>2024-05-15T08:00:00-04:00</published>
+  </entry>
   <entry>
     <id>dip-2024-05-08</id>
     <title>Data Is Plural — 2024.05.08 edition</title>
@@ -1209,133 +1353,5 @@ member</a>.</em></p>
     <link href="http://www.data-is-plural.com/archive/2024-03-13-edition" rel="alternate"/>
     <summary>Humanitarian emergency mapping, materials and their properties, EU infringements, NYC council members, and counting fish.</summary>
     <published>2024-03-13T08:00:00-04:00</published>
-  </entry>
-  <entry>
-    <id>dip-2024-03-06</id>
-    <title>Data Is Plural — 2024.03.06 edition</title>
-    <updated>2024-03-06T08:00:00-05:00</updated>
-    <content type="CDATA"><![CDATA[<p><em>Global military spending, fatal police pursuits, price-fixing
-cartels, real-time airport disruptions, and pinball machines.</em></p>
-<p> </p>
-<p><em>📬 Reader <a
-href="https://financialaid.wisc.edu/staff/hillman-nick/">Nick
-Hillman</a>’s <a href="https://sstar.wisc.edu/our-team/">research
-team</a> at the University of Wisconsin uses data from the federal
-government’s Daily Treasury Statements (<a
-href="https://www.data-is-plural.com/archive/2023-04-05-edition/">DIP 2023.04.05</a>)
-to <a href="https://sstar.wisc.edu/student-loan-repayment/">track the
-estimated volume of student loan payments</a> over time. Although Nick
-learned about that data via non-DIP sources, the project is exactly the
-type I like to feature in these notes. (Have you published something
-with data you found via DIP? <a
-href="https://docs.google.com/forms/d/e/1FAIpQLSdXXD5eO05w0Xa7bwG3Ppia3uzr_o3y-xDEZuWRfXbCfCu_XA/viewform">Click
-here to let me know</a>.)</em></p>
-<p> </p>
-<p><em>👋 <a href="https://www.data-is-plural.com/plus/">DIP+
-members</a> got a sneak peek of this week’s datasets on Monday, and get
-ongoing access to a semantic-search-bot for the DIP archives. I’ve also
-posted a roundup of downloadable data published by the <a
-href="https://www.sigmaawards.org/shortlist-2024/">Sigma Awards’
-shortlisted projects</a> and pointers to upcoming data-related events.
-Support the newsletter and your career by <a
-href="https://www.data-is-plural.com/plus/">signing up</a>; memberships
-are just $7/month or $60/year.</em></p>
-<p> </p>
-<p><strong>Global military spending.</strong> How much money has each
-country spent, each year, on its military? Different datasets have
-different answers, cover different timeframes, and use different
-methodologies. <a href="https://osf.io/pkxt8">Miriam Barnum et al.</a>’s
-<a
-href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/DHMZOW">Global
-Military Spending Dataset</a> attempts to bring them together. By
-uniting “76 variables from 9 dataset collection projects,” the authors
-write, “we provide the most comprehensive and complete set of published
-datasets on military spending ever assembled.” Each of the variables
-represents one source/methodology, and each observation is a
-country-year. “Disagreement on the actual expenditure value for a given
-country-year is common, even between datasets produced by the same
-project,” they find. <strong>Previously</strong>: The Stockholm
-International Peace Research Institute’s <a
-href="https://www.sipri.org/databases/milex">Military Expenditure
-Database</a> (<a
-href="https://www.data-is-plural.com/archive/2017-03-29-edition/">DIP
-2017.03.29</a>), one of the sources.</p>
-<p> </p>
-<p><strong>Fatal police pursuits.</strong> Reporters at the San
-Francisco Chronicle have compiled a <a
-href="https://github.com/sfchronicle/police_pursuits">national
-dataset</a> of 3,300+ deaths in police car chases in 2017–2022. <a
-href="https://www.sfchronicle.com/us-world/article/police-chases-methodology-18685158.php">To
-build it</a>, they used information from the federal government’s <a
-href="https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars">Fatality
-Analysis Reporting System</a> (<a
-href="https://www.data-is-plural.com/archive/2016-08-31-edition/">DIP
-2016.08.31</a>), research organizations, news reports, lawsuits, and
-public records requests. For each death, the dataset indicates the
-person’s name, age, gender, race, and connection to the pursuit (driver,
-passenger, bystander, officer). It also includes the incident’s date,
-location, reason given for the pursuit, and main law enforcement agency
-involved. <strong>Read more</strong>: “<a
-href="https://www.sfchronicle.com/projects/2024/police-chases-database/?hash=aHR0cHM6Ly93d3cuc2ZjaHJvbmljbGUuY29tL3Byb2plY3RzLzIwMjQvcG9saWNlLWNoYXNlcy1kYXRhYmFzZS8%3D&amp;time=MTcwOTEzNDk3Mzc4OA%3D%3D">Fast
-and Fatal</a>,” the Chronicle’s investigation based on the dataset. [h/t
-<a href="https://www.sfchronicle.com/author/susie-neilson/">Susie
-Neilson</a>]</p>
-<p> </p>
-<p><strong>Price-fixing cartels.</strong> Industrial economist <a
-href="https://www.concurrences.com/en/auteur/John-M-Connor">John M.
-Connor</a> has <a
-href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3682189">constructed</a>
-the <a href="https://purr.purdue.edu/publications/2732/2">Private
-International Cartels dataset</a>, “which the author believes to be the
-largest collection of legal-economic information on contemporary
-price-fixing cartels.” It spans three decades (1990–2019) and covers
-1,500+ suspected or convicted cartels, including 1,100+ that “have been
-deemed guilty of price fixing by one or more antitrust authority.” It
-also links those cartels to tens of thousands of companies and to 2,000+
-individuals indicted or punished for their involvement. The dataset’s
-variables include information about cartel geography, industry, market
-share, overcharges, penalties, and much more.</p>
-<p> </p>
-<p><strong>Real-time airport disruptions.</strong> The Federal Aviation
-Administration’s <a href="https://nasstatus.faa.gov/">National Airspace
-System Status</a> dashboard provides real-time listings of delays and
-closures at US airports. For each disruption, it indicates the type of
-problem, reason, current average delay times, and more. A minimal API
-linked from the site provides <a
-href="https://nasstatus.faa.gov/api/airport-status-information">the
-information as an XML-formatted file</a>. <strong>Read more</strong>: <a
-href="https://www.ruihaiyoungblood.com/faa.html">Ruihai Youngblood
-describes his experience helping to redesign the dashboard</a>. [h/t <a
-href="https://bsky.app/profile/textfiles.com/post/3k2l2eesr2h2w">Jason
-Scott</a>]</p>
-<p> </p>
-<p><strong>Pinball machines.</strong> The <a
-href="https://opdb.org/">Open Pinball Database</a> provides a searchable
-inventory and <a href="https://opdb.org/api">API</a> of <a
-href="https://opdb.org/machines">~2,000 pinball machines</a> and <a
-href="https://opdb.org/manufacturers">120+ manufacturers</a>. Details
-include each machine’s name, manufacture date, mechanism type, display
-type, player count, and more. <strong>Related</strong>: <a
-href="https://pinballmap.com/">Pinball Map</a>’s crowdsourced <a
-href="https://pinballmap.com/map">global map</a> and <a
-href="https://pinballmap.com/api/v1/docs">API</a> of the locations of
-installed pinball machines. [h/t <a
-href="https://news.ycombinator.com/item?id=39233602">Jeremy Herrman</a>
-+ <a
-href="https://news.ycombinator.com/item?id=39230244">technophiliac</a>]</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send high scores and
-feedback to jsvine@gmail.com, or just reply to this email. // Looking
-for past datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. // Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and to browse past editions. // Support the newsletter and
-your career by <a href="https://data-is-plural.com/plus">becoming a DIP+
-member</a>.</em></p>
-]]></content>
-    <link href="http://www.data-is-plural.com/archive/2024-03-06-edition" rel="alternate"/>
-    <summary>Global military spending, fatal police pursuits, price-fixing cartels, real-time airport disruptions, and pinball machines.</summary>
-    <published>2024-03-06T08:00:00-05:00</published>
   </entry>
 </feed>
