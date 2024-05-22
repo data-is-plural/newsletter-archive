@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.data-is-plural.com</id>
   <title>Data Is Plural</title>
-  <updated>2024-05-15T08:00:00-04:00</updated>
+  <updated>2024-05-22T08:00:00-04:00</updated>
   <author>
     <name>Jeremy Singer-Vine</name>
     <email>jsvine@gmail.com</email>
@@ -10,6 +10,141 @@
   <link href="https://www.data-is-plural.com" rel="alternate"/>
   <generator>https://github.com/data-is-plural/newsletter-archive</generator>
   <subtitle>A weekly newsletter of useful/curious datasets.</subtitle>
+  <entry>
+    <id>dip-2024-05-22</id>
+    <title>Data Is Plural — 2024.05.22 edition</title>
+    <updated>2024-05-22T08:00:00-04:00</updated>
+    <content type="CDATA"><![CDATA[<p><em>Federal court dockets, Amazon purchases, Security Council
+resolutions, satellite-aided rescues, and protected wines.</em></p>
+<p> </p>
+<p><em>👋 Data Is Plural will be taking a short break, returning to your
+inbox in June.</em></p>
+<p> </p>
+<p><em>📬 Reader <a href="https://mastodon.social/@fgregg">Forest
+Gregg</a> used the <a
+href="https://www.data-is-plural.com/archive/2024-04-03-edition/">power
+outage data</a> featured in <a
+href="https://www.data-is-plural.com/archive/2024-04-03-edition/">DIP
+2024.04.03</a> to <a
+href="https://observablehq.com/@fgregg/average-outages-per-customer-per-year-2023">map
+the average days of outage per customer in 2021–2023</a> for counties in
+Michigan and neighboring states. <a
+href="https://outliermedia.org/map-michigan-power-outages-days-dte-energy-consumers/">Read
+more in Outlier Media</a>. (Have you published something with data you
+found via Data Is Plural? <a
+href="https://docs.google.com/forms/d/e/1FAIpQLSdXXD5eO05w0Xa7bwG3Ppia3uzr_o3y-xDEZuWRfXbCfCu_XA/viewform">Click
+here to let me know</a>.)</em></p>
+<p> </p>
+<p><strong>Federal court dockets.</strong> Journalist <a
+href="https://www.linkedin.com/in/matt-clark-3324896/">Matt Clark</a>
+has compiled a <a
+href="https://archive.org/details/federal-court-dockets">database of
+more than 350 million docket entries</a> across more than 13 million
+cases in 180+ federal courts — including the majority of district,
+appellate, and bankruptcy courts. The records, which Clark collected
+through the <a
+href="https://pacer.uscourts.gov/help/faqs/how-can-i-receive-case-alerts-using-rss-feed">RSS
+feeds that many federal courts provide</a>, span 2013 to the
+near-present. Clark’s <a
+href="https://archive.org/download/federal-court-dockets">downloadable
+database</a> provides information about each <a
+href="https://clinic.cyber.harvard.edu/how-to-read-a-docket-latest/">docket
+entry</a> (time filed, entry number, description, and URL), case
+(number, name, type, and URL), and court. Although the database does not
+include the docketed documents themselves, they can be retrieved via <a
+href="https://en.wikipedia.org/wiki/PACER_(law)">PACER</a> and the free
+<a href="https://www.courtlistener.com/recap/">RECAP archive</a>, <a
+href="https://law.gwu.libguides.com/dockets">among other
+sources</a>.</p>
+<p> </p>
+<p><strong>Amazon purchases.</strong> The <a
+href="https://en.wikipedia.org/wiki/MIT_Media_Lab">MIT Media Lab</a>’s
+<a href="https://www.nature.com/articles/s41597-024-03329-6">Alex Berke
+et al.</a> have <a href="https://arxiv.org/abs/2404.13172">compiled</a>
+“a first-of-its-kind dataset containing detailed purchase histories from
+5027 U.S. Amazon.com consumers, spanning 2018 through 2022, with more
+than 1.8 million purchases […] crowdsourced through an online survey and
+shared with participants’ informed consent.” The <a
+href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/YGLYDY">published
+data</a> include “order date, product code, title, price, quantity, and
+shipping address state,” and are “linked to survey data with information
+about participants’ demographics, lifestyle, and health.” The
+researchers found that a <a
+href="https://www.nature.com/articles/s41597-024-03329-6#Sec13">stratified
+subsample of the data</a> demonstrated “expected seasonal trends and
+strong relationships to other public datasets.” [h/t <a
+href="https://mailchi.mp/academicdatascience/dscn-17378990">Data Science
+Community Newsletter</a>]</p>
+<p> </p>
+<p><strong>Security Council resolutions.</strong> <a
+href="https://www.seanfobbe.com/posts/2024-05-06_new-dataset-corpus-of-resolutions-un-security-council/">Seán
+Fobbe et al.</a>’s <a href="https://zenodo.org/records/11212056">Corpus
+of Resolutions: UN Security Council</a> “collects and presents for the
+first time in human and machine-readable form all resolutions, drafts,
+and meeting records of the UN Security Council, including detailed
+metadata, as published by the <a
+href="https://digitallibrary.un.org/">UN Digital Library</a> and revised
+by the authors.” It covers all 2,700+ <a
+href="https://www.un.org/securitycouncil/content/resolutions-0">resolutions</a>
+from the council’s founding in 1946 through early 2024. In addition to
+providing the texts all six official UN languages, the dataset includes
+each resolution’s title, date, council votes, related meeting number,
+meeting transcript, keywords, countries of focus, and more. An <a
+href="https://www.seanfobbe.com/posts/2024-05-14_complete-citation-network-un-security-council-published/">auxiliary
+dataset</a> represents the corpus’s internal citations as a <a
+href="https://en.wikipedia.org/wiki/Directed_graph">directed graph</a>.
+[h/t <a href="https://masto.machlis.com/@smach">Sharon Machlis</a>]</p>
+<p> </p>
+<p><strong>Satellite-aided rescues.</strong> <a
+href="https://www.noaa.gov/">NOAA</a>’s <a
+href="https://www.sarsat.noaa.gov/">Search and Rescue Satellite-Aided
+Tracking</a> (SARSAT) program is part of an <a
+href="https://www.sarsat.noaa.gov/cospas-sarsat-system-overview/">international
+collaboration</a> to locate <a
+href="https://www.sarsat.noaa.gov/emergency-406-beacons/">distress
+beacons</a> activated (manually or automatically) by mariners, aviators,
+and wilderness explorers. The agency publishes <a
+href="https://www.sarsat.noaa.gov/sarsat-us-rescues/">annual maps of
+SARSAT-enabled rescues</a>, along with <a
+href="https://www.arcgis.com/home/item.html?id=9383e21a28f24135912aeecb0d2524bd">data
+for the most recent year-plus</a>. NOAA has also <a
+href="https://github.com/data-is-plural/sarsat-historical-rescues">provided
+Data Is Plural with data for 2016–2022</a>. The maps and data files
+contain each rescue’s date, category, description, beacon type,
+coordinates, and number of people saved. [h/t Dan Brady]</p>
+<p> </p>
+<p><strong>France and Italy’s protected wines.</strong> <a
+href="https://www.sciencedirect.com/science/article/pii/S2352340924003779">Sebastian
+Candiago et al.</a> have assembled a <a
+href="https://figshare.com/articles/dataset/Quality_wines_in_Italy_and_France_a_dataset_of_protected_designation_of_origin_specifications/25393261">dataset
+of 5,400+ Italian and French wines</a> granted <a
+href="https://en.wikipedia.org/wiki/Protected_designation_of_origin">Protected
+Designation of Origin</a> status, restricting their production to
+specific geographies and methods. For each wine, the dataset lists its
+name, country, designated area, color, category, grape varieties used,
+maximum allowed yields, registration date, and more.
+<strong>Previously</strong>: <a
+href="https://www.tandfonline.com/doi/full/10.1080/00343404.2023.2187365">Protected
+European ham</a> and <a
+href="https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/">the
+EU’s register of protected indications</a> (<a
+href="https://www.data-is-plural.com/archive/2023-05-24-edition/">DIP
+2023.05.24</a>).</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send tannic feedback to
+jsvine@gmail.com, or just reply to this email. // Looking for past
+datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. // Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions. // Support the newsletter and
+your career by <a href="https://www.data-is-plural.com/plus/">becoming a
+DIP+ member</a>.</em></p>
+]]></content>
+    <link href="http://www.data-is-plural.com/archive/2024-05-22-edition" rel="alternate"/>
+    <summary>Federal court dockets, Amazon purchases, Security Council resolutions, satellite-aided rescues, and protected wines.</summary>
+    <published>2024-05-22T08:00:00-04:00</published>
+  </entry>
   <entry>
     <id>dip-2024-05-15</id>
     <title>Data Is Plural — 2024.05.15 edition</title>
@@ -1227,140 +1362,5 @@ member</a>.</em></p>
     <link href="http://www.data-is-plural.com/archive/2024-03-20-edition" rel="alternate"/>
     <summary>Human trafficking, real-world vehicle emissions, state legislators, Meta Oversight Board decisions, and aviation waypoints.</summary>
     <published>2024-03-20T08:00:00-04:00</published>
-  </entry>
-  <entry>
-    <id>dip-2024-03-13</id>
-    <title>Data Is Plural — 2024.03.13 edition</title>
-    <updated>2024-03-13T08:00:00-04:00</updated>
-    <content type="CDATA"><![CDATA[<p><em>Humanitarian emergency mapping, materials and their properties,
-EU infringements, NYC council members, and counting fish.</em></p>
-<p> </p>
-<p><em>📬 Reader <a href="https://jackturek708.com/">Jack T.</a> has
-built an <a
-href="https://jturek.shinyapps.io/educational_gag_orders_egos/">interactive
-map</a> of the <a
-href="https://docs.google.com/spreadsheets/d/1Tj5WQVBmB6SQg-zP_M8uZsQQGH09TxmBY73v23zpyr0/edit#gid=1505554870">data</a>
-on “educational gag orders” compiled by <a
-href="https://pen.org/report/Americas-censored-classrooms/">PEN
-America</a>, featured in <a
-href="https://www.data-is-plural.com/archive/2022-08-24-edition/">DIP 2022.08.24</a>.
-(Have you published something with data you found via Data Is Plural? <a
-href="https://docs.google.com/forms/d/e/1FAIpQLSdXXD5eO05w0Xa7bwG3Ppia3uzr_o3y-xDEZuWRfXbCfCu_XA/viewform">Click
-here to let me know</a>.)</em></p>
-<p> </p>
-<p><em>👋 <a href="https://www.data-is-plural.com/plus/">DIP+
-members</a> got a sneak peek of this edition’s datasets yesterday,
-received dispatches from <a
-href="https://www.ire.org/training/conferences/nicar-2024/">last week’s
-NICAR conference</a>, and get ongoing access to a semantic-search-bot
-for the DIP archives. Support the newsletter and your career by <a
-href="https://www.data-is-plural.com/plus/">signing up</a>.</em></p>
-<p> </p>
-<p><strong>Humanitarian emergency mapping.</strong> The <a
-href="https://unosat.org/">United Nations Satellite Centre</a> (UNOSAT)
-provides a <a href="https://unosat.org/services/">range of services</a>
-to UN agencies and the general public, including <a
-href="https://unosat.org/products/">downloadable maps, data, and
-analyses</a> produced “in response to humanitarian emergencies related
-to disasters, complex emergencies and conflict situations.” Those
-currently available include assessments of <a
-href="https://unosat.org/products/3800">flood impacts in Libya</a>, <a
-href="https://unosat.org/products/3798">landslides in the Republic of
-the Congo</a>, and <a href="https://unosat.org/products/3793">building
-damage in the Gaza Strip</a>. The latter identifies structures that
-satellite imagery suggests have been damaged; the data indicate each
-building’s location and damage level, plus an assessment confidence and
-notes. Assessments for prior humanitarian emergencies can be found by
-adjusting the <a href="https://unosat.org/products/">listing page</a>’s
-filters, and also via <a
-href="https://data.humdata.org/organization/unosat">UNOSAT’s
-contributions to the Humanitarian Data Exchange</a>. [h/t <a
-href="https://schedules.ire.org/nicar-2024/index.html#1138">Allison
-Martell</a>]</p>
-<p> </p>
-<p><strong>Materials and their properties.</strong> The <a
-href="https://next-gen.materialsproject.org/">Materials Project</a>, <a
-href="https://next-gen.materialsproject.org/about/people">led by
-scientists at Lawrence Berkeley National Lab</a>, “is a
-multi-institution, multi-national effort to compute the properties of
-all inorganic materials” with the “<a
-href="https://next-gen.materialsproject.org/about">ultimate goal</a>”
-being “to drastically reduce the time needed to invent new materials.”
-Its <a href="https://next-gen.materialsproject.org/materials">online
-explorer</a> and <a
-href="https://next-gen.materialsproject.org/api">API</a> currently
-provide information about 150,000+ materials. You can search by
-component elements, formula, thermodynamics, structural properties,
-magnetism, elasticity, and many other characteristics.</p>
-<p> </p>
-<p><strong>EU infringements.</strong> The European Commission publishes
-a <a
-href="https://ec.europa.eu/atwork/applying-eu-law/infringements-proceedings/infringement_decisions/">searchable
-and downloadable database</a> of all its decisions regarding national
-infringements of <a
-href="https://commission.europa.eu/law/application-eu-law/implementing-eu-law_en">EU
-regulations, decisions, and directives</a>. It currently contains
-58,000+ decisions in 24,000+ cases, going back to the late 1980s. (To
-download the full database, conduct a blank search and then click the
-“Export to Excel” link.) Each entry lists a decision type and date, case
-identifier, country, policy area, and more. Recent examples include the
-Commission’s decisions to refer Ireland to court for <a
-href="https://ec.europa.eu/commission/presscorner/detail/en/ip_24_1232">failing
-to protect its peat bogs</a> and Italy for <a
-href="https://ec.europa.eu/commission/presscorner/detail/en/ip_24_1234">noncompliance
-with a wastewater treatment directive</a>. [h/t <a
-href="https://onlinelibrary.wiley.com/doi/10.1111/rego.12580">Maximilian
-Haag et al.</a>]</p>
-<p> </p>
-<p><strong>NYC council members.</strong> <a
-href="https://www.maximumnewyork.com/about">Maximum New York</a> has <a
-href="https://www.maximumnewyork.com/p/city-council-data-project">published</a>
-a <a
-href="https://docs.google.com/spreadsheets/d/11kMfI0iY4CSYrrwoUSM1oERm_bOYtbZI379N1wX3QO4/edit">biographical
-dataset of people elected to the New York City Council</a>. For each
-member since 1998 (plus some before that), it lists their name,
-district, borough, political party, date of birth,
-undergraduate/graduate universities and fields of study, whether they
-ever served on a community board, prior employer, and more.
-<strong>Related</strong>: <a href="https://datamade.us/">DataMade</a>’s
-<a href="https://chicago.councilmatic.org/">Chicago Councilmatic</a>
-lists all members, bills, votes, and meetings, and is also <a
-href="https://puddle.datamade.us/">available</a> as <a
-href="https://puddle.bunkum.us/chicago_council">structured data</a>.
-[h/t <a href="https://www.vikramoberoi.com/">Vikram Oberoi</a> + <a
-href="https://mastodon.social/@fgregg">Forest Gregg</a>]</p>
-<p> </p>
-<p><strong>Counting fish.</strong> The University of Washington’s <a
-href="https://www.cbr.washington.edu/">Columbia Basin Research</a>
-provides (<a href="https://www.cbr.washington.edu/dart">among other
-data</a>) <a
-href="https://www.cbr.washington.edu/dart/query/adult_daily">daily,
-species-level counts of adult salmon and trout</a> passing through <a
-href="https://www.cbr.washington.edu/dart/metadata/adult">more than a
-dozen sites</a> in the Pacific Northwest. <a
-href="https://www.calfish.org/AboutCalFish/AboutCalFish.aspx">CalFish</a>
-publishes <a
-href="https://www.calfish.org/ProgramsData/ConservationandManagement/CentralValleyMonitoring/CDFWUpperSacRiverBasinSalmonidMonitoring.aspx">fish
-counts and population estimates for the Upper Sacramento River
-Basin</a>, which “contains much of California’s salmon and steelhead
-populations.” Similar resources include those available from <a
-href="https://www.adfg.alaska.gov/sf/FishCounts/">Alaska</a>, <a
-href="https://myodfw.com/fish-counts-major-dams-and-fish-traps">Oregon</a>,
-and the <a href="https://yakamafish-nsn.gov/fish-data">Yakama
-Nation</a>. [h/t Dan Brady]</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send upstream feedback to
-jsvine@gmail.com, or just reply to this email. // Looking for past
-datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. // Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and to browse past editions. // Support the newsletter and
-your career by <a href="https://data-is-plural.com/plus">becoming a DIP+
-member</a>.</em></p>
-]]></content>
-    <link href="http://www.data-is-plural.com/archive/2024-03-13-edition" rel="alternate"/>
-    <summary>Humanitarian emergency mapping, materials and their properties, EU infringements, NYC council members, and counting fish.</summary>
-    <published>2024-03-13T08:00:00-04:00</published>
   </entry>
 </feed>
