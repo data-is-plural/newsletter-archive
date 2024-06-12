@@ -6,7 +6,114 @@
     <description>A weekly newsletter of useful/curious datasets.</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>https://github.com/data-is-plural/newsletter-archive</generator>
-    <lastBuildDate>Wed, 22 May 2024 08:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 12 Jun 2024 08:00:00 -0400</lastBuildDate>
+    <item>
+      <title>Data Is Plural — 2024.06.12 edition</title>
+      <link>http://www.data-is-plural.com/archive/2024-06-12-edition</link>
+      <description>Interest group positions, state tax revenues, NYC shelter exits, English women’s football, and Sudoku solves.</description>
+      <content:encoded><![CDATA[<p><em>Interest group positions, state tax revenues, NYC shelter exits,
+English women’s football, and Sudoku solves.</em></p>
+<p> </p>
+<p><strong>Interest group positions.</strong> <a
+href="https://www.cambridge.org/core/journals/state-politics-and-policy-quarterly/article/chorus-a-new-dataset-of-state-interest-group-policy-positions-in-the-united-states/6827DC9EC72301016894F265777C0078">Galen
+Hall et al.</a> have compiled a <a
+href="https://dataverse.unc.edu/dataset.xhtml?persistentId=doi:10.15139/S3/RPU1QP">dataset</a>
+of “over 13 million policy positions stated by tens of thousands of
+interest groups and individuals on bills in 17 state legislatures over
+the past 25 years.” The authors collected and standardized the data,
+which span 1997 to 2022, from lobbying and testimony disclosures. For
+each of those positions, the dataset indicates the relevant bill, client
+or individual represented, representative name, position phrase
+(<em>for</em>, <em>against</em>, <em>monitoring</em>,
+<em>undecided</em>, etc.), the date the position was reported, and <a
+href="https://github.com/galenphall/chorus_data/blob/main/CODEBOOK.md">more</a>.
+It also provides details about each bill from <a
+href="https://legiscan.com/datasets">Legiscan</a> and the <a
+href="https://www.ncsl.org/">National Conference of State
+Legislatures</a>, as well as client-industry categorizations from <a
+href="https://www.followthemoney.org/">FollowTheMoney.org</a>.</p>
+<p> </p>
+<p><strong>State tax revenues.</strong> How much money do US states
+collect through different types of taxes? The Census Bureau’s <a
+href="https://www.census.gov/programs-surveys/qtax.html">Quarterly
+Summary of State and Local Government Tax Revenue</a> provides these
+figures every three months, going back decades. The categories include
+taxes on property, income, general sales, sales of specific products
+(such as tobacco, alcohol, gas, and gambling), licenses, and more. For
+several years now, the agency has also published <a
+href="https://www.census.gov/data/experimental-data-products/selected-monthly-state-sales-tax-collections.html">monthly
+data for a subset of those taxes</a>. <strong>As seen in</strong>: “<a
+href="https://www.washingtonpost.com/business/2024/06/07/sports-betting-lottery-state-budgets/">Which
+states make the most from sports betting? What about lotteries?</a>” by
+the Washington Post’s <a
+href="https://www.washingtonpost.com/people/andrew-van-dam/">Andrew Van
+Dam</a>. <strong>Previously</strong>: The Census’s <a
+href="https://www.census.gov/programs-surveys/gov-finances.html">Annual
+Survey of State and Local Government Finances</a> (<a
+href="https://www.data-is-plural.com/archive/2020-11-18-edition/">DIP
+2020.11.18</a>).</p>
+<p> </p>
+<p><strong>NYC shelter exits.</strong> A 2022 law requires New York City
+to report the monthly number of individuals and families exiting the
+city’s shelter system. Unfortunately, the city publishes those reports
+only as PDFs and without a historical archive. <a
+href="https://patrickspauster.com/">Patrick Spauster</a> has <a
+href="https://github.com/pspauster/shelter-exits">built a pipeline</a>
+to download and <a
+href="https://github.com/pspauster/shelter-exits/tree/master/temporary_housing_reports">preserve</a>
+the reports, and to turn them into <a
+href="https://github.com/pspauster/shelter-exits/tree/master/data">structured
+data</a>. For each month since May 2023, each row indicates the number
+of exits for a particular city agency, family/person category, and
+destination type. The latter includes various kinds of permanent
+housing, transitional housing, medical facilities, as well as “unknown.”
+<strong>Read more</strong>: <a
+href="https://citylimits.org/2024/05/14/exit-unknown-where-do-people-go-after-leaving-nyc-homeless-shelters/">Spauster’s
+analysis of the data for City Limits</a>. <strong>Previously</strong>:
+<a href="https://github.com/anesta95/nyc_shelter_count">NYC shelter
+counts</a> (<a
+href="https://www.data-is-plural.com/archive/2023-12-13-edition/">DIP
+2023.12.13</a>).</p>
+<p> </p>
+<p><strong>English women’s football.</strong> The <a
+href="https://github.com/probjects/ewf-database">English Women’s
+Football Database</a> “covers all matches played since the 2011 season
+for the highest division (the Women’s Super League) and since the 2014
+season for the second-highest division (the Women’s Championship).” The
+project, built by <a href="https://x.com/rob_clapp">Rob Clapp</a>, lists
+the date, teams, score, attendance, division, tier, and season of each
+match, as well as each season’s final standings.
+<strong>Previously</strong>: <a
+href="http://www.joshuafjelstul.com/">Josh Fjelstul</a>’s <a
+href="https://github.com/jfjelstul/englishfootball">English Football
+Database</a> (<a
+href="https://www.data-is-plural.com/archive/2023-02-01-edition/">DIP
+2023.02.01</a>), which Clapp cites as inspiration.</p>
+<p> </p>
+<p><strong>Sudoku solves.</strong> In the spirit of introspection, <a
+href="https://en.wikipedia.org/wiki/Sudoku">Sudoku</a> enthusiast <a
+href="https://vivrao9.github.io/">Vivek Rao</a> has conducted a <a
+href="https://vivrao9.github.io/nyt-sudoku/">detailed analysis of his
+cell-by-cell performance on 100 puzzles</a> from the <a
+href="https://www.nytimes.com/puzzles/sudoku">New York Times’ daily
+offerings</a>. The <a
+href="https://github.com/vivrao9/nyt-sudoku/blob/master/data-collection/doks_performance.csv">underlying
+data</a>, collected via a custom browser extension that Rao built,
+indicates the order and timing of every cell he filled.</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send speedily solved
+feedback to jsvine@gmail.com, or just reply to this email. // Looking
+for past datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. // Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions. // Support the newsletter and
+your career by <a href="https://www.data-is-plural.com/plus/">becoming a
+DIP+ member</a>.</em></p>
+]]></content:encoded>
+      <guid isPermaLink="false">dip-2024-06-12</guid>
+      <pubDate>Wed, 12 Jun 2024 08:00:00 -0400</pubDate>
+    </item>
     <item>
       <title>Data Is Plural — 2024.05.22 edition</title>
       <link>http://www.data-is-plural.com/archive/2024-05-22-edition</link>
@@ -1190,165 +1297,6 @@ member</a>.</em></p>
 ]]></content:encoded>
       <guid isPermaLink="false">dip-2024-03-27</guid>
       <pubDate>Wed, 27 Mar 2024 08:00:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Data Is Plural — 2024.03.20 edition</title>
-      <link>http://www.data-is-plural.com/archive/2024-03-20-edition</link>
-      <description>Human trafficking, real-world vehicle emissions, state legislators, Meta Oversight Board decisions, and aviation waypoints.</description>
-      <content:encoded><![CDATA[<p><em>Human trafficking, real-world vehicle emissions, state
-legislators, Meta Oversight Board decisions, and aviation
-waypoints.</em></p>
-<p> </p>
-<p><em>📬 Reader <a href="https://aditya-dahiya.github.io/">Aditya
-Dahiya</a> has built a <a
-href="https://aditya-dahiya.github.io/projects_presentations/projects/dip_viz.html">showcase
-of his Data Is Plural–inspired visualizations</a>. “Here, you’ll find
-open-source code detailing every step, from data acquisition to final
-rendering,” Aditya writes. (Have you published something with data you
-found via Data Is Plural? <a
-href="https://docs.google.com/forms/d/e/1FAIpQLSdXXD5eO05w0Xa7bwG3Ppia3uzr_o3y-xDEZuWRfXbCfCu_XA/viewform">Click
-here to let me know</a>.)</em></p>
-<p> </p>
-<p><strong>Human trafficking.</strong> The <a
-href="https://www.ctdatacollaborative.org/page/about">Counter-Trafficking
-Data Collaborative</a>’s <a
-href="https://www.ctdatacollaborative.org/page/global-synthetic-dataset">Global
-Synthetic Dataset</a> uses <a
-href="https://en.wikipedia.org/wiki/Differential_privacy">differential
-privacy techniques</a> to represent “over 206,000 victims and survivors
-of trafficking identified across 190 countries and territories from 2002
-to 2022.” The approach, developed in partnership with Microsoft
-Research, converts anonymized case records into “a new dataset in which
-records do not correspond to actual individuals, but which preserves the
-structure and statistics (i.e., utility) of the original data.” Each row
-indicates a (synthetic) individual’s gender, age group, citizenship,
-country of exploitation, duration of reported trafficking, traffickers’
-means of control, types of exploitation, and the year the <a
-href="https://www.ctdatacollaborative.org/data-contributors">collaborative’s
-partners</a> registered the case. <strong>Related</strong>: The
-collaborative’s <a
-href="https://www.ctdatacollaborative.org/global-victim-perpetrator-synthetic-dataset">Global
-Victim-Perpetrator Synthetic Dataset</a>, which takes a similar approach
-to relationships between victims and perpetrators. [h/t <a
-href="https://www.linkedin.com/in/mariana-t-moreira/">Mariana
-Moreira</a> + <a
-href="https://www.linkedin.com/in/lorrainewongmw/">Lorraine
-Wong</a>]</p>
-<p> </p>
-<p><strong>Real-world vehicle emissions.</strong> On Monday, the
-European Commission <a
-href="https://climate.ec.europa.eu/news-your-voice/news/first-commission-report-real-world-co2-emissions-cars-and-vans-using-data-board-fuel-consumption-2024-03-18_en">published
-its first report</a> analyzing <a
-href="https://climate-energy.eea.europa.eu/topics/transport/real-world-emissions/intro">the
-real-world CO<sub>2</sub> emissions of cars and vans</a>, based on fuel
-consumption monitoring devices that the EU now requires. The report uses
-data received from 600,000+ vehicles. That sample is <a
-href="https://www.eea.europa.eu/en/datahub/datahubitem-view/1c1ffad2-34c3-471b-bd69-dd013cdd7b80">available
-to download</a>, along with <a
-href="https://climate-energy.eea.europa.eu/topics/transport/real-world-emissions/data">metrics
-aggregated by manufacturer and fuel type</a>: average fuel consumption,
-emissions, and comparisons to <a
-href="https://en.wikipedia.org/wiki/Worldwide_Harmonised_Light_Vehicles_Test_Procedure">standardized
-test results</a>. <strong>Related</strong>: <a
-href="https://co2cars.apps.eea.europa.eu/">Data on millions of EU car
-registrations</a> (and <a href="https://co2vans.apps.eea.europa.eu/">van
-registrations</a>), including each vehicle’s fuel economy and emissions
-ratings. <strong>Previously</strong>: <a
-href="https://www.fueleconomy.gov/">FuelEconomy.gov</a> (<a
-href="https://www.data-is-plural.com/archive/2017-04-12-edition/">DIP
-2017.04.12</a>), with <a
-href="https://www.fueleconomy.gov/feg/download.shtml">data</a> on
-decades of car models. [h/t <a href="https://tulpinteractive.com/">Jan
-Willem Tulp</a> + <a href="https://rawdatastudies.com/">Xan
-Gregg</a>]</p>
-<p> </p>
-<p><strong>State legislators.</strong> <a
-href="https://people.duke.edu/~nwc8/index.html">Nicholas Carnes</a> and
-<a href="https://ehansen4.sites.luc.edu/">Eric Hansen</a>’s <a
-href="https://people.duke.edu/~nwc8/stateleg.html">2023-4 State
-Legislators Dataset</a> features “biographical information about state
-lawmakers who held office in 2023 and 2024 compiled from legislative and
-campaign websites and other online sources.” The dataset spans all 50
-states and includes 7,300+ lawmakers. “The project’s principal aim was
-to record the current or most recent main occupation (outside of elected
-office) held by each member,” the authors write, “but the dataset also
-includes information about a wide range of characteristics including
-race, gender, and education.” A version for 2021–22 is <a
-href="https://people.duke.edu/~nwc8/stateleg.html">also available</a>.
-<strong>Previously</strong>: <a
-href="https://github.com/PublicI/state-lawmakers-disclosures">State
-legislator financial disclosures</a> (<a
-href="https://www.data-is-plural.com/archive/2017-12-13-edition/">DIP
-2017.12.13</a>) and <a
-href="https://dataverse.harvard.edu/dataverse/bshor">ideology scores</a>
-(<a
-href="https://www.data-is-plural.com/archive/2020-01-01-edition/">DIP
-2020.01.01</a>). [h/t <a href="https://thescoop.org/">Derek
-Willis</a>]</p>
-<p> </p>
-<p><strong>Meta Oversight Board decisions.</strong> Meta’s independent
-<a href="https://oversightboard.com/">Oversight Board</a> reviews a
-selection of the company’s content-moderation decisions and has the
-power to overturn them. The board <a
-href="https://oversightboard.com/decision/">publishes its rulings
-online</a>, as does <a
-href="https://transparency.fb.com/oversight/oversight-board-cases/">Meta
-itself</a>; neither, however, provides a download link. But <a
-href="https://informationisbeautiful.net/">Information Is Beautiful</a>
-has compiled a <a
-href="https://docs.google.com/spreadsheets/d/1kz7nYnfTM3al6dIJgqYwR4DMPal5d37vKPOBAqD3mRY/edit#gid=655704690">spreadsheet
-of the board’s 80+ decisions through early February</a>, supporting a <a
-href="https://informationisbeautiful.net/visualizations/facebook-meta-oversight-board-decisions-major-rulings/">visualization
-of the cases’ topics and outcomes over time</a>. [h/t <a
-href="https://mailchi.mp/academicdatascience/dscn-289?e=10da2781dd">Data
-Science Community Newsletter</a>]</p>
-<p> </p>
-<p><strong>Aviation waypoints.</strong> For his <a
-href="https://www.beautifulpublicdata.com/faa-aviation-maps/">recent
-exploration of the FAA’s aviation maps</a>, <a
-href="https://www.beautifulpublicdata.com/">Beautiful Public Data</a>’s
-<a href="https://www.threads.net/@jonkeeganstories">Jon Keegan</a> has
-turned the agency’s <a
-href="https://www.faa.gov/air_traffic/flight_info/aeronav/aero_data/loc_id_search/fixes_waypoints/">list
-of 67,000+ navigation waypoints</a> into a <a
-href="https://github.com/jonkeegan/faa-navigation-waypoints">downloadable
-dataset</a>. “Often these waypoint names will reflect the culture, food
-or sports teams of the city they are near,” Keegan writes. “Off the
-coast of New England, there is <a
-href="https://nfdc.faa.gov/nfdcApps/services/ajv5/fix_search.jsp?selectType=state&amp;selectName=ME&amp;keyword=LBSTA">LBSTA</a>
-and <a
-href="https://nfdc.faa.gov/nfdcApps/services/ajv5/fix_search.jsp?selectType=state&amp;selectName=MA&amp;keyword=WHALE">WHALE</a>.
-Boston’s sports legacy gave us <a
-href="https://nfdc.faa.gov/nfdcApps/services/ajv5/fix_search.jsp?selectType=state&amp;selectName=MA&amp;keyword=BOSOX">BOSOX</a>,
-<a
-href="https://nfdc.faa.gov/nfdcApps/services/ajv5/fix_search.jsp?selectType=state&amp;selectName=MA&amp;keyword=BRUWN">BRUWN</a>,
-<a
-href="https://nfdc.faa.gov/nfdcApps/services/ajv5/fix_search.jsp?selectType=state&amp;selectName=MA&amp;keyword=CELTS">CELTS</a>,
-<a
-href="https://nfdc.faa.gov/nfdcApps/services/ajv5/fix_search.jsp?selectType=state&amp;selectName=MA&amp;keyword=PATSS">PATSS</a>,
-<a
-href="https://nfdc.faa.gov/nfdcApps/services/ajv5/fix_search.jsp?selectType=state&amp;selectName=MA&amp;keyword=FENWY">FENWY</a>,
-<a
-href="https://nfdc.faa.gov/nfdcApps/services/ajv5/fix_search.jsp?selectType=state&amp;selectName=MA&amp;keyword=ORRRR">ORRRR</a>
-and <a
-href="https://nfdc.faa.gov/nfdcApps/services/ajv5/fix_search.jsp?selectType=state&amp;selectName=MA&amp;keyword=BORQE">BORQE</a>.
-Salem has <a
-href="https://nfdc.faa.gov/nfdcApps/services/ajv5/fix_search.jsp?selectType=state&amp;selectName=MA&amp;keyword=WITCH">WITCH</a>,
-and Plymouth has <a
-href="https://nfdc.faa.gov/nfdcApps/services/ajv5/fix_search.jsp?selectType=state&amp;selectName=MA&amp;keyword=PLGRM">PLGRM</a>.”</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send five-lettered
-feedback to jsvine@gmail.com, or just reply to this email. // Looking
-for past datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. // Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and to browse past editions. // Support the newsletter and
-your career by <a href="https://data-is-plural.com/plus">becoming a DIP+
-member</a>.</em></p>
-]]></content:encoded>
-      <guid isPermaLink="false">dip-2024-03-20</guid>
-      <pubDate>Wed, 20 Mar 2024 08:00:00 -0400</pubDate>
     </item>
   </channel>
 </rss>
