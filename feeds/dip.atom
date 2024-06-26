@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.data-is-plural.com</id>
   <title>Data Is Plural</title>
-  <updated>2024-06-12T08:00:00-04:00</updated>
+  <updated>2024-06-26T08:00:00-04:00</updated>
   <author>
     <name>Jeremy Singer-Vine</name>
     <email>jsvine@gmail.com</email>
@@ -10,6 +10,119 @@
   <link href="https://www.data-is-plural.com" rel="alternate"/>
   <generator>https://github.com/data-is-plural/newsletter-archive</generator>
   <subtitle>A weekly newsletter of useful/curious datasets.</subtitle>
+  <entry>
+    <id>dip-2024-06-26</id>
+    <title>Data Is Plural — 2024.06.26 edition</title>
+    <updated>2024-06-26T08:00:00-04:00</updated>
+    <content type="CDATA"><![CDATA[<p><em>Supreme gifts, internet politics, federal rural investments,
+fish-spawning areas, and Broadway attendance.</em></p>
+<p> </p>
+<p><strong>Supreme gifts.</strong> <a
+href="https://fixthecourt.com/about-us/">Fix the Court</a> is a
+nonprofit that “advocates for non-ideological ‘fixes’ that would make
+the federal courts, and primarily the U.S. Supreme Court, more open and
+more accountable to the American people.” Earlier this month, they <a
+href="https://fixthecourt.com/2024/06/a-staggering-tally-supreme-court-justices-accepted-hundreds-of-gifts-worth-millions-of-dollars/">published</a>
+a <a
+href="https://docs.google.com/spreadsheets/d/14l25NLvBOd9sk4mArK4k7dtV0MUwxr5GBuLHL5Sp8lo/edit">series
+of spreadsheets</a> tallying 500+ gifts accepted by the Supreme Court’s
+justices since 2000, with an estimated total value of $4.76 million. The
+findings “are largely based on last year’s groundbreaking work by
+ProPublica and includes data from stories in the New York Times, L.A.
+Times, the congressional record, annual disclosures,” and Fix the
+Court’s own work. The data indicate each gift’s year, recipient,
+description, giver, value, and the source of information.
+<strong>Previously</strong>: The <a href="https://free.law/">Free Law
+Project</a>’s <a
+href="https://free.law/2021/10/15/financial-disclosures-now-available-to-all-on-courtlistener">database
+of federal judges’ financial disclosures</a> (<a
+href="https://www.data-is-plural.com/archive/2021-10-20-edition/">DIP
+2021.10.20</a>). <strong>Related</strong>: <a
+href="https://projects.propublica.org/supreme-connections/">ProPublica’s
+interactive database of the current justices’ disclosures</a>.</p>
+<p> </p>
+<p><strong>Internet politics.</strong> The <a
+href="https://digitalsocietyproject.org/">Digital Society Project</a>,
+founded in 2018 as a collaboration with the <a
+href="https://www.v-dem.net/">Varieties of Democracy initiative</a> (<a
+href="https://www.data-is-plural.com/archive/2019-04-24-edition/">DIP
+2019.04.24</a>), “aims to answer some of the most important questions
+surrounding interactions between the internet and politics.” To do so,
+they conduct surveys of experts and ask them <a
+href="https://digitalsocietyproject.org/wp-content/uploads/2024/03/DSP-Codebook-v6.pdf">questions
+such as</a>: “How often does the government shut down domestic access to
+the Internet?” and “How often do domestic elites use social media to
+organize offline political action of any kind?” The survey’s <a
+href="https://digitalsocietyproject.org/data/">downloadable datasets</a>
+cover 170+ countries and provide aggregate metrics for each question.
+[h/t <a
+href="https://www.tispiegoildato.it/p/le-raccomandazioni-algoritmiche-delle">Donata
+Columbro</a>]</p>
+<p> </p>
+<p><strong>Federal rural investment.</strong> The Department of
+Agriculture’s <a href="https://www.rd.usda.gov/">Rural Development</a>
+agency runs <a href="https://www.rd.usda.gov/programs-services">dozens
+of financial assistance programs</a> to support housing, business,
+community facilities, telecommunications, and other developments in less
+populated areas of the United States. The agency’s <a
+href="https://www.rd.usda.gov/rural-data-gateway">data gateway</a>, <a
+href="https://www.rd.usda.gov/newsroom/news-release/usda-launches-rural-data-gateway-strengthen-partnerships-and-expand-access-resources-people-rural-1">launched
+last year</a>, provides <a
+href="https://www.rd.usda.gov/rural-data-gateway/rural-investments">dashboards</a>
+and <a
+href="https://www.rd.usda.gov/rural-data-gateway/rural-investments/data">downloads</a>
+tracking these loans, loan guarantees, and grants going back to fiscal
+year 2012. At their most granular, the data <a
+href="https://www.rd.usda.gov/media/file/download/opendatadashboard-dictionarypdf">describe</a>
+each investment’s type, amount, program, sector, ZIP code, city, state,
+and more. [h/t James Barham]</p>
+<p> </p>
+<p><strong>Fish-spawning areas.</strong> <a
+href="https://www.nature.com/articles/s41597-024-03348-3">Kimberly L.
+Oremus et al.</a> have constructed a geospatial dataset that indicates
+the spawning locations and timing for 1,000+ saltwater fish in 2,900+
+marine regions around the world. The authors primarily sourced — and
+then geocoded — the records from <a
+href="https://fishbase.mnhn.fr/home.php">FishBase</a> (an initiative
+providing data on the habitats, body shapes, and other characteristics
+of 35,000+ fish species) and the <a
+href="https://www.scrfa.org/database/">database</a> of <a
+href="https://www.scrfa.org/about/what-is-scfra/">Science and
+Conservation of Fish Aggregations</a> (a nonprofit that focuses on
+massive reproductive gatherings of fish).</p>
+<p> </p>
+<p><strong>Broadway attendance.</strong> The <a
+href="https://en.wikipedia.org/wiki/The_Broadway_League">Broadway
+League</a>’s <a href="https://www.ibdb.com/">Internet Broadway
+Database</a> lets you search the famed industry’s <a
+href="https://www.ibdb.com/theatres/">theaters</a>, <a
+href="https://www.ibdb.com/shows/">shows</a>, <a
+href="https://www.ibdb.com/cast-staff/">casts and staff</a>, <a
+href="https://www.ibdb.com/awards/">awards</a>, and more. It also
+publishes <a href="https://www.ibdb.com/statistics/">charts and
+structured tables of weekly attendance and ticket revenue</a>,
+additionally available for <a
+href="https://www.ibdb.com/broadway-production/stereophonic-538690#Statistics">individual
+shows</a>. The League itself also publishes <a
+href="https://www.broadwayleague.com/research/grosses-broadway-nyc/">show-level
+statistics</a>. [h/t <a
+href="https://sherwood.news/culture/broadway-attendance-nears-pre-pandemic-levels/">Millie
+Giles</a>]</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send theatrical feedback
+to jsvine@gmail.com, or just reply to this email. // Looking for past
+datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. // Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions. // Support the newsletter and
+your career by <a href="https://www.data-is-plural.com/plus/">becoming a
+DIP+ member</a>.</em></p>
+]]></content>
+    <link href="http://www.data-is-plural.com/archive/2024-06-26-edition" rel="alternate"/>
+    <summary>Supreme gifts, internet politics, federal rural investments, fish-spawning areas, and Broadway attendance.</summary>
+    <published>2024-06-26T08:00:00-04:00</published>
+  </entry>
   <entry>
     <id>dip-2024-06-12</id>
     <title>Data Is Plural — 2024.06.12 edition</title>
@@ -1180,135 +1293,5 @@ member</a>.</em></p>
     <link href="http://www.data-is-plural.com/archive/2024-04-03-edition" rel="alternate"/>
     <summary>Power outages, European Parliament activity, candid animals, LLM data provenance, and deaths in plague-era London.</summary>
     <published>2024-04-03T08:00:00-04:00</published>
-  </entry>
-  <entry>
-    <id>dip-2024-03-27</id>
-    <title>Data Is Plural — 2024.03.27 edition</title>
-    <updated>2024-03-27T08:00:00-04:00</updated>
-    <content type="CDATA"><![CDATA[<p><em>Institutional investments, HDI, extrajudicial killings in
-Bangladesh, agri-environmental policies, and Rolling Stone’s album
-rankings.</em></p>
-<p> </p>
-<p><em>📬 Reader <a href="https://erinmichelle.squarespace.com/">Erin
-Wilson</a> has built a <a
-href="https://public.tableau.com/app/profile/erin.wilson4049/viz/WhatarewewatchingonNetflix/NetflixDashboard">range
-of visualizations and analyses</a> based on the <a
-href="https://about.netflix.com/en/news/what-we-watched-a-netflix-engagement-report">Netflix
-viewership data</a> featured in <a
-href="https://www.data-is-plural.com/archive/2023-12-20-edition/">DIP
-2023.12.20</a> … <a
-href="https://www.youtube.com/watch?v=fuTrvsWaAUk">and a video walking
-you through it</a>. (Have you published something with data you found
-via Data Is Plural? <a
-href="https://docs.google.com/forms/d/e/1FAIpQLSdXXD5eO05w0Xa7bwG3Ppia3uzr_o3y-xDEZuWRfXbCfCu_XA/viewform">Click
-here to let me know</a>.)</em></p>
-<p> </p>
-<p><em>👋 <a href="https://www.data-is-plural.com/plus/">DIP+
-members</a> got a sneak peek of this edition’s datasets on Monday.
-Support the newsletter and your career by <a
-href="https://www.data-is-plural.com/plus/">becoming a
-member</a>.</em></p>
-<p> </p>
-<p><strong>Institutional investments.</strong> If you’re an
-institutional investor with US operations and managing at least $100
-million in publicly traded securities, the Securities and Exchange
-Commission requires you to file <a
-href="https://www.investor.gov/introduction-investing/investing-basics/glossary/form-13f-reports-filed-institutional-investment">Form
-13F</a> each quarter. (The biggest filers — such as Vanguard, BlackRock,
-and State Street — have trillions of dollars invested.) These filings,
-<a href="https://www.sec.gov/dera/data/form-13f">available to download
-going back to mid-2013</a>, detail each investor’s long positions for
-each security: their number of shares, market value, security type,
-issuer name, <a href="https://en.wikipedia.org/wiki/CUSIP">CUSIP
-code</a>, and more. <strong>As seen in</strong>: Michigan teenager <a
-href="https://github.com/leftmove">Anonyo Noor</a>’s <a
-href="https://www.wallstreetlocal.com/">wallstreetlocal.com</a>, which
-<a href="https://github.com/leftmove/wallstreetlocal">aggregates the
-data</a>, matches it to additional information, and provides a search
-interface.</p>
-<p> </p>
-<p><strong>Human development, indexed.</strong> Perhaps the best-known
-metric of its kind, the United Nations’ <a
-href="https://hdr.undp.org/data-center/human-development-index">Human
-Development Index</a> combines statistics on life expectancy, income per
-capita, and years of schooling into a single number for each
-country-year. The UN provides <a
-href="https://hdr.undp.org/data-center/documentation-and-downloads">downloads</a>
-and an <a href="https://api.hdrdata.org/swagger/index.html">API</a> for
-all annual HDI ratings and sub-components for 1990 to 2022. Those
-resources also feature data from related indices, such as the <a
-href="https://hdr.undp.org/inequality-adjusted-human-development-index#/indicies/IHDI">Inequality-adjusted
-Human Development Index</a>, <a
-href="https://hdr.undp.org/gender-development-index#/indicies/GDI">Gender
-Development Index</a>, and <a
-href="https://hdr.undp.org/data-center/thematic-composite-indices/gender-inequality-index#/indicies/GII">Gender
-Inequality Index</a>. [h/t Michael A. Rice]</p>
-<p> </p>
-<p><strong>Extrajudicial killings in Bangladesh.</strong> Between 2009
-and 2022, “Bangladesh’s security forces killed at least 2,597 people in
-apparent extrajudicial executions, custodial torture, and by firing
-bullets at protesters,” according to <a
-href="https://nazmulahasan.com/">Nazmul Ahasan</a>’s <a
-href="https://interactive.netra.news/extrajudicial-killings-bangladesh/">analysis
-for Netra News</a>, building on data “compiled by Bangladeshi human
-rights defenders and collated by the Australia-based <a
-href="https://www.cpjp.org.au/resources/bangladesh">Capital Punishment
-Justice Project</a>.” Ahasan and colleagues “independently verified more
-than 98% of the cases in the dataset using press reports and
-subsequently updated any incomplete data.” The records are available as
-a table in the article and <a
-href="https://interactive.netra.news/extrajudicial-killings-bangladesh/data.json">as
-a JSON file</a>. Each entry includes the victim’s name (if known),
-incident date, description, location, agencies involved, purported
-justification, and news source. <strong>As seen in</strong>: <a
-href="https://www.sigmaawards.org/meet-the-winners-of-the-sigmas-2024-for-data-journalism/">The
-2024 Sigma Awards</a>.</p>
-<p> </p>
-<p><strong>Agri-environmental policies.</strong> <a
-href="https://www.nature.com/articles/s43016-024-00945-8">David Wuepper
-et al.</a> have constructed a <a
-href="https://zenodo.org/records/10842614">dataset of 6,000+
-policies</a> between 1960 and 2022 “at the intersection of agriculture
-and the environment, implemented not only by national entities but also
-by subnational and supranational entities, covering different
-instruments (for example, regulations, frameworks, payment programmes)
-and topics,” such as the <a href="https://www.epa.gov/sdwa">US Safe
-Drinking Water Act</a>, the <a
-href="https://www.fao.org/faolex/results/details/en/c/LEX-FAOC072608/">Bavarian
-Forestry Law</a>, and <a
-href="https://www.fao.org/faolex/results/details/en/c/LEX-FAOC097858/">Tanzania’s
-2009 Wildlife Conservation Act</a>. Each entry lists the policy’s
-country, title, type, keywords, year implemented, description, and other
-details.</p>
-<p> </p>
-<p><strong>Rolling Stone’s album rankings.</strong> A <a
-href="https://pudding.cool/2024/03/greatest-music/">new visual essay
-from The Pudding</a> compares <em>Rolling Stone</em>’s “500 Greatest
-Albums of All Time” lists from 2003, 2012, and 2020. A methodology note
-says the project began with a <a
-href="https://docs.google.com/spreadsheets/d/1QguM-JM3LAJuZlnmY8aN0MutBJrZAzDs3aWZWTtF1WU/edit#gid=0">spreadsheet</a>
-by <a
-href="https://twitter.com/kennybloggins/status/1308568487888064518">Chris
-Eckert</a> and eventually led the authors to develop a <a
-href="https://docs.google.com/spreadsheets/d/1c_Tdnm7S1oo8R9UNtdCVIY7bYASmf_cvMynOJTpKuHA/edit">dataset
-of their own</a>. Theirs lists every album in the rankings — its name,
-genre, release year, 2003/2012/2020 rank, the artist’s name, birth year,
-gender, and more — plus each year’s voters. [h/t <a
-href="https://kottke.org/24/03/0044194-from-the-pudding-a-visual">Jason
-Kottke</a>]</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send your greatest
-feedback of all time to jsvine@gmail.com, or just reply to this email.
-// Looking for past datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. // Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and to browse past editions. // Support the newsletter and
-your career by <a href="https://data-is-plural.com/plus">becoming a DIP+
-member</a>.</em></p>
-]]></content>
-    <link href="http://www.data-is-plural.com/archive/2024-03-27-edition" rel="alternate"/>
-    <summary>Institutional investments, HDI, extrajudicial killings in Bangladesh, agri-environmental policies, and Rolling Stone’s album rankings.</summary>
-    <published>2024-03-27T08:00:00-04:00</published>
   </entry>
 </feed>
