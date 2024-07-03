@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.data-is-plural.com</id>
   <title>Data Is Plural</title>
-  <updated>2024-06-26T08:00:00-04:00</updated>
+  <updated>2024-07-03T08:00:00-04:00</updated>
   <author>
     <name>Jeremy Singer-Vine</name>
     <email>jsvine@gmail.com</email>
@@ -10,6 +10,126 @@
   <link href="https://www.data-is-plural.com" rel="alternate"/>
   <generator>https://github.com/data-is-plural/newsletter-archive</generator>
   <subtitle>A weekly newsletter of useful/curious datasets.</subtitle>
+  <entry>
+    <id>dip-2024-07-03</id>
+    <title>Data Is Plural — 2024.07.03 edition</title>
+    <updated>2024-07-03T08:00:00-04:00</updated>
+    <content type="CDATA"><![CDATA[<p><em>Newswire articles, death penalty status by country, beach
+replenishment, hurricane forecast accuracy, and UK film stats.</em></p>
+<p> </p>
+<p><strong>Historical newswire articles.</strong> <a
+href="https://arxiv.org/abs/2406.09490">Emily Silcock et al.</a> have
+created <a
+href="https://huggingface.co/datasets/dell-research-harvard/newswire">Newswire</a>,
+a dataset of 2.7 million newswire articles published in the US between
+1878 and 1977. To build it, they extracted 138 million articles from
+scans of newspapers’ front pages and then used machine learning to group
+those coming “from the same underlying newswire source article, in the
+presence of significant abridgement and noise.” For each detected
+newswire item, the dataset lists the newspapers that carried it, dates
+published, the text of a representative version, its extracted byline,
+dispatch location, people mentioned in the text, general topic, and
+more. <strong>Previously</strong>: <a
+href="https://arxiv.org/abs/2308.12477">American Stories</a> (<a
+href="https://www.data-is-plural.com/archive/2023-09-13-edition/">DIP
+2023.09.13</a>), a <a
+href="https://huggingface.co/datasets/dell-research-harvard/AmericanStories">dataset
+of historical newspaper articles</a> — also from <a
+href="https://dell-research-harvard.github.io/">Melissa Dell</a>’s
+research group. [h/t <a href="https://www.robinsloan.com/">Robin
+Sloan</a>]</p>
+<p> </p>
+<p> </p>
+<p><strong>Death penalty status by country.</strong> The <a
+href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/LI3WYK">Comparative
+Death Penalty Database</a>, <a
+href="https://link.springer.com/article/10.1057/s41304-024-00491-8">compiled</a>
+by <a href="https://research.abo.fi/en/persons/carsten-anckar">Carsten
+Anckar</a> and <a
+href="https://www.oru.se/english/employee/thomas_denk">Thomas Denk</a>,
+tracks the status of capital punishment in 206 independent countries
+annually from 1800 to 2022. It places each observation into one of five
+categories, indicating whether the death penalty is: (a) fully
+abolished, (b) abolished “for ordinary crimes only,” (c) abolished for
+“for ordinary crimes only but where at least one execution has occurred
+in the last 10 years,” (d) <em>de facto</em> abolished, or (e) still in
+use. <strong>Previously</strong>: The <a
+href="https://deathpenaltyinfo.org/">Death Penalty Information
+Center</a>’s <a
+href="https://deathpenaltyinfo.org/database/executions">database of US
+executions</a> (<a
+href="https://www.data-is-plural.com/archive/2019-05-15-edition/">DIP
+2019.05.15</a>); data on death sentences <a
+href="https://github.com/theintercept/the-condemned-data">from The
+Intercept</a> (<a
+href="https://www.data-is-plural.com/archive/2019-12-11-edition/">DIP
+2019.12.11</a>) and <a href="https://endofitsrope.com/">from Brandon L.
+Garrett</a> (<a
+href="https://www.data-is-plural.com/archive/2018-08-01-edition/">DIP
+2018.08.01</a>).</p>
+<p> </p>
+<p><strong>Beach replenishment.</strong> The <a
+href="https://psds.wcu.edu/">Program for the Study of Developed
+Shorelines</a> at Western Carolina University maintains a <a
+href="https://beachnourishment.wcu.edu/">database of 2,500+
+beach-replenishing efforts</a> since the 1920s. The <a
+href="https://beachnourishment.wcu.edu/about">project</a> is “a 25-year
+research and data collection effort that, to the best of our knowledge,
+represents the most comprehensive compilation of beach nourishment
+history in the United States.” For each sand-adding “episode,” the
+dataset <a
+href="https://beachnourishment.wcu.edu/glossary">indicates</a> its
+location, year completed, sand volume, length of shoreline treated,
+total cost, primary type of funding source (private, federal, state,
+etc.), and justification (shore protection, navigation, emergency dune
+construction, etc.). <strong>As seen in</strong>: “<a
+href="https://www.cbsnews.com/beach-nourishment/">Sand Dollars</a>,” by
+CBS News Investigations.</p>
+<p> </p>
+<p><strong>Hurricane forecast accuracy.</strong> The <a
+href="https://www.nhc.noaa.gov/">National Hurricane Center</a> says it
+“receives frequent inquiries on the accuracy and skill of its forecasts
+and of the computer models available to it.” To help answer those
+questions, the agency publishes a <a
+href="https://www.nhc.noaa.gov/verification/index.shtml">series of
+regularly-updated verification reports</a>, as well as a <a
+href="https://www.nhc.noaa.gov/verification/verify7.shtml">database
+quantifying its forecast errors</a>. For each official projection since
+1970, the database <a
+href="https://www.nhc.noaa.gov/verification/verify2.shtml">compares</a>
+each storm’s predicted location and wind speed to those attributes’
+ultimate values. <strong>As seen in</strong>: “<a
+href="https://osf.io/preprints/socarxiv/sqtjr">The Social Value of
+Hurricane Forecasts</a>,” a study by <a
+href="https://renatomolinah.com/">Renato Molina</a> and <a
+href="https://ivanrudik.com/">Ivan Rudik</a>.</p>
+<p> </p>
+<p><strong>UK film stats.</strong> The British Film Institute publishes
+a <a href="https://www.bfi.org.uk/industry-data-insights">variety of
+statistical reports</a>, including <a
+href="https://www.bfi.org.uk/industry-data-insights/weekend-box-office-figures">spreadsheets
+of weekend box office figures</a>. Those spreadsheets cover each
+weekend’s 15 highest-grossing films, all UK-originated films, and other
+newly-released films; they list each film’s title, country of origin,
+distributor, cinema count, weekend gross, total gross to date, and more.
+[h/t <a
+href="https://www.linkedin.com/posts/ginacostag_data-python-datascience-activity-7207721010815483904-XIc6/">Gina
+Acosta Gutiérrez</a>]</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send high-grossing
+feedback to jsvine@gmail.com, or just reply to this email. // Looking
+for past datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. // Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions. // Support the newsletter and
+your career by <a href="https://www.data-is-plural.com/plus/">becoming a
+DIP+ member</a>.</em></p>
+]]></content>
+    <link href="http://www.data-is-plural.com/archive/2024-07-03-edition" rel="alternate"/>
+    <summary>Newswire articles, death penalty status by country, beach replenishment, hurricane forecast accuracy, and UK film stats.</summary>
+    <published>2024-07-03T08:00:00-04:00</published>
+  </entry>
   <entry>
     <id>dip-2024-06-26</id>
     <title>Data Is Plural — 2024.06.26 edition</title>
@@ -1165,133 +1285,5 @@ member</a>.</em></p>
     <link href="http://www.data-is-plural.com/archive/2024-04-10-edition" rel="alternate"/>
     <summary>Opioid settlement payouts, groundwater wells, work-injury laws, colonial empire timelines, and objects launched into outer space.</summary>
     <published>2024-04-10T08:00:00-04:00</published>
-  </entry>
-  <entry>
-    <id>dip-2024-04-03</id>
-    <title>Data Is Plural — 2024.04.03 edition</title>
-    <updated>2024-04-03T08:00:00-04:00</updated>
-    <content type="CDATA"><![CDATA[<p><em>Power outages, European Parliament activity, candid animals, LLM
-data provenance, and deaths in plague-era London.</em></p>
-<p> </p>
-<p><em>🔄 Earlier this year, the USDA released the 2022 edition of its
-<a href="https://www.nass.usda.gov/AgCensus/">Census of Agriculture</a>,
-initially featured in <a
-href="https://www.data-is-plural.com/archive/2015-12-23-edition/">DIP
-2015.12.23</a>. National, state, and county data are <a
-href="https://www.nass.usda.gov/Publications/AgCensus/2022/index.php">available
-to download</a>. Data for Puerto Rico are coming in July, and for the
-rest of US territories in 2025. [h/t <a
-href="https://jmithani.com/">Jasmine Mithani</a>]</em></p>
-<p> </p>
-<p><em>👋 <a href="https://www.data-is-plural.com/plus/">DIP+
-members</a> got a sneak peek of this edition’s datasets on Monday, plus
-pointers to a few extra. Support the newsletter and your career by <a
-href="https://www.data-is-plural.com/plus/">becoming a
-member</a>.</em></p>
-<p> </p>
-<p><strong>Power outages.</strong> <a
-href="https://www.nature.com/articles/s41597-024-03095-5">Christa
-Brelsford et al.</a> have compiled a <a
-href="https://figshare.com/articles/dataset/The_Environment_for_Analysis_of_Geo-Located_Energy_Information_s_Recorded_Electricity_Outages_2014-2022/24237376">county-level
-estimates of the number of US customers experiencing power outages</a>
-at 15-minute intervals from 2014 to 2023. The records come from <a
-href="https://en.wikipedia.org/wiki/Oak_Ridge_National_Laboratory">Oak
-Ridge National Laboratory</a>’s restricted-access <a
-href="https://www.energy.gov/oe/articles/doe-announces-transition-eagle-i-oak-ridge-national-laboratory-ornl-taking-advantage">Environment
-for Analysis of Geo-Located Energy Information</a>, a “platform created
-to monitor electric utility customer outages from data gathered from
-public sources.” The data’s coverage has increased over time; by 2022,
-it represented 92% of customers in the 50 states, DC, and Puerto Rico.
-“The remaining 8% of customers belong to utilities which do not report
-outage information publicly in near-real time in a format that is
-currently accessible to EAGLE-I parsers,” the authors write. “These are
-most typically small, rural, municipal utilities which lack robust
-information technology infrastructure.”</p>
-<p> </p>
-<p><strong>European Parliament activity.</strong> <a
-href="https://parltrack.org/">Parltrack</a> keeps tabs on 4,000+ active
-and prior members of the European Parliament, 23,000+ policy dossiers,
-39,000+ votes, and much more. The project, launched in 2011, scrapes
-data from various official websites and links it together — so that you
-can see, for example, <a
-href="https://parltrack.org/mep/118859/Roberta%20METSOLA#/dossiers">any
-given member’s dossiers</a>, <a
-href="https://parltrack.org/mep/125106/Johan%20VAN%20OVERTVELDT#/committees">committee
-roles</a>, and <a
-href="https://parltrack.org/mep/96864/David%20Maria%20SASSOLI#/activities">activities</a>
-such as plenary speeches and proposed legislative amendments. Its <a
-href="https://parltrack.eu/dumps">bulk datasets</a> are updated daily
-and include details beyond what the online interfaces offer. [h/t <a
-href="https://github.com/jsvine/pdfplumber/issues/1102#issuecomment-1974961493">Stefan
-Marsiske</a>]</p>
-<p> </p>
-<p><strong>Candid animals.</strong> The <a
-href="https://lila.science/">Labeled Information Library of
-Alexandria</a> data repository is “intended as a resource for both
-machine learning (ML) researchers and those that want to harness ML for
-biology and conservation.” Its <a
-href="https://lila.science/datasets">datasets</a> include millions of
-images, mostly captured by <a
-href="https://en.wikipedia.org/wiki/Camera_trap">motion-triggered
-cameras</a>. Its <a href="https://lila.science/datasets/nacti">North
-American Camera Trap Images</a> dataset, for instance, “contains 3.7M
-camera trap images from five locations across the United States, with
-labels for 28 animal categories, primarily at the species level.”
-<strong>Read more</strong>: “<a
-href="https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.13120">Machine
-learning to classify animal species in camera trap images: Applications
-in ecology</a>.” [h/t <a href="https://corinfaife.co/">Corin
-Faife</a>]</p>
-<p> </p>
-<p><strong>LLM data provenance.</strong> The <a
-href="https://www.dataprovenance.org/">Data Provenance Initiative</a>
-“is a multi-disciplinary volunteer effort to improve transparency,
-documentation, and responsible use of training datasets for AI.” Its
-first release, the <a
-href="https://github.com/Data-Provenance-Initiative/Data-Provenance-Collection">Data
-Provenance Collection</a>, <a
-href="https://arxiv.org/abs/2310.16787">catalogs</a> dozens of corpora
-used for <a
-href="https://en.wikipedia.org/wiki/Fine-tuning_(deep_learning)">fine-tuning
-large language models</a>, as well as their component datasets’ names,
-task categories, known sources, licensing, various text metrics, and
-more. <strong>Related</strong>: Yang Liu et al.’s “<a
-href="https://arxiv.org/abs/2402.18041">Datasets for Large Language
-Models: A Comprehensive Survey</a>,” <a
-href="https://github.com/lmmlzn/Awesome-LLMs-Datasets">accompanied by
-semi-structured descriptions</a> of hundreds of training and evaluation
-datasets. [h/t <a
-href="https://www.reddit.com/r/datasets/comments/1b34189/datasets_for_large_language_models_a/">u/cavedave</a>]</p>
-<p> </p>
-<p><strong>Deaths in plague-era London.</strong> <a
-href="https://deathbynumbers.org/">Death by Numbers</a>, also known as
-the <em>Bills of Mortality Project</em>, <a
-href="https://deathbynumbers.org/about/">aims</a> to <a
-href="https://datascribe.tech/casestudies/DataScribe_BillsOfMortality_CaseStudy.pdf">transcribe</a>
-~8,000 official weekly tallies of deaths in London published in the
-1600s and 1700s. Initially focused on plague deaths, the reports
-expanded to “dozens of other causes of death, such as childbirth,
-measles, syphilis, and suicide, ensuring their continued publication for
-decades after the final outbreak of plague in England.” The project’s
-data are available to <a
-href="https://deathbynumbers.org/database/">browse online</a>, to <a
-href="https://deathbynumbers.org/data/">download</a>, and <a
-href="https://deathbynumbers.org/api/">via API</a>. [h/t <a
-href="http://knosof.co.uk/ESEUR/">Derek M. Jones</a> + <a
-href="https://codywinchester.com/">Cody Winchester</a>]</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send plague-less feedback
-to jsvine@gmail.com, or just reply to this email. // Looking for past
-datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. // Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and to browse past editions. // Support the newsletter and
-your career by <a href="https://data-is-plural.com/plus">becoming a DIP+
-member</a>.</em></p>
-]]></content>
-    <link href="http://www.data-is-plural.com/archive/2024-04-03-edition" rel="alternate"/>
-    <summary>Power outages, European Parliament activity, candid animals, LLM data provenance, and deaths in plague-era London.</summary>
-    <published>2024-04-03T08:00:00-04:00</published>
   </entry>
 </feed>
