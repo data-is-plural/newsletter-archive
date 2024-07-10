@@ -6,7 +6,124 @@
     <description>A weekly newsletter of useful/curious datasets.</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>https://github.com/data-is-plural/newsletter-archive</generator>
-    <lastBuildDate>Wed, 03 Jul 2024 08:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 10 Jul 2024 08:00:00 -0400</lastBuildDate>
+    <item>
+      <title>Data Is Plural — 2024.07.10 edition</title>
+      <link>http://www.data-is-plural.com/archive/2024-07-10-edition</link>
+      <description>Federal inmate complaints, corporate AI activity, East Asia building outlines, US coral reefs, and ancient shipwrecks.</description>
+      <content:encoded><![CDATA[<p><em>Federal inmate complaints, corporate AI activity, East Asia
+building outlines, US coral reefs, and ancient shipwrecks.</em></p>
+<p> </p>
+<p><strong>Federal inmate complaints.</strong> The Federal Bureau of
+Prisons’ <a
+href="https://www.bop.gov/policy/progstat/1330_018.pdf">Administrative
+Remedy Program</a> “allow[s] an inmate to seek formal review of an issue
+relating to any aspect of his/her own confinement.” In October 2022, the
+<a href="https://www.data-liberation-project.org/">Data Liberation
+Project</a> (which, disclosure, I run) filed a FOIA request seeking
+records from the agency database that tracks those complaints. In
+response, BOP last month <a
+href="https://www.data-liberation-project.org/datasets/federal-inmate-complaints/">provided
+data</a> on 1.78 million complaint and appeal submissions filed from
+January 2000 through late May 2024, spanning nearly 1 million distinct
+cases. The records, <a
+href="https://buttondown.email/data-liberation-project/archive/dlp-dispatch-16/">published
+yesterday</a> with the help of volunteers, <a
+href="https://docs.google.com/document/d/1vTuyUFNqS9tex4_s4PgmhF8RTvTb-uFMN5ElDjjVHTM/edit">indicate</a>
+when each filing was received, its relevant case number, complaint
+subject, facility where the issue occurred, case status, status update
+date, reasons for rejection/closure, and other details.</p>
+<p> </p>
+<p><strong>Corporate AI activity.</strong> The <a
+href="https://eto.tech/dataset-docs/private-sector-ai-indicators/">Private-Sector
+AI Indicators dataset</a>, from Georgetown University’s <a
+href="https://eto.tech/">Emerging Technology Observatory</a>, provides
+“a diverse range of indicators of AI-related activity for hundreds of
+companies worldwide, from startups to multinationals.” For each of the
+670+ companies included, the <a
+href="https://zenodo.org/records/12520760">dataset</a> counts the number
+of AI-related research articles published by its employees
+(disaggregated by topic), AI-related patents filed (by application area
+and use-case), and workforce (overall and those estimated to be
+AI-involved). It also lists each company’s main location, sector, growth
+stage, and description, as well as aliases, stock listings, and
+identifiers in several external data sources. <strong>See also</strong>:
+<a href="https://parat.eto.tech/">An interactive version of the
+database</a>. [h/t <a
+href="https://cset.georgetown.edu/staff/zachary-arnold/">Zach
+Arnold</a>]</p>
+<p> </p>
+<p><strong>East Asia building outlines.</strong> Recent years have seen
+the development of ambitious datasets that provide the outlines of
+buildings by the millions. For instance, from the archives: <a
+href="https://github.com/Microsoft/USBuildingFootprints">buildings in
+the US</a> (<a
+href="https://www.data-is-plural.com/archive/2018-07-18-edition/">DIP
+2018.07.18</a>), <a
+href="https://sites.research.google/open-buildings/">Africa</a> (<a
+href="https://www.data-is-plural.com/archive/2021-08-25-edition/">DIP
+2021.08.25</a>), and <a
+href="https://github.com/Microsoft/CanadianBuildingFootprints">Canada</a>
+and <a
+href="https://medium.com/on-location/an-open-building-outlines-dataset-for-new-zealand-eef8b558ef7a">New
+Zealand</a> (<a
+href="https://www.data-is-plural.com/archive/2019-09-25-edition/">DIP
+2019.09.25</a>). In the Journal of Remote Sensing, however, <a
+href="https://spj.science.org/doi/10.34133/remotesensing.0138">Qian Shi
+et al.</a> note a relative lack of such data for buildings in East Asia,
+which the authors attribute “to the more complex distribution of
+buildings and the scarcity of auxiliary data”. As an antidote, they’ve
+generated a <a href="https://zenodo.org/records/8174931">dataset that
+outlines more than 280 million buildings</a> in 2,800+ cities across
+China, Japan, South Korea, North Korea, and Mongolia.</p>
+<p> </p>
+<p><strong>US coral reefs.</strong> The <a
+href="https://www.coris.noaa.gov/monitoring/">National Coral Reef
+Monitoring Program</a> collects scientific and socioeconomic/attitude
+survey data related to the coral reefs offshore of the continental
+United States, Hawaii, and US territories. It provides the data through
+<a href="https://ncrmp-visualization-tool-noaa.hub.arcgis.com/">public
+visualizations</a> as well as <a
+href="https://ncrmp.coralreef.noaa.gov/pages/Data%20Download">download
+tools</a> and <a
+href="https://www.coris.noaa.gov/monitoring/data_atlantic.html">raw</a>
+<a
+href="https://www.coris.noaa.gov/monitoring/data_pacific.html">files</a>.
+The scientific data <a
+href="https://ncrmp.coralreef.noaa.gov/pages/ncrmp-data">include</a>
+species-level coral cover, colony density, bleaching prevalence, and
+disease rates; fish populations; water alkalinity and dissolved
+inorganic carbon levels; and more. [h/t <a
+href="https://www.infodocket.com/2023/11/26/science-noaa-unveils-new-data-visualization-tool-for-exploring-coral-reef-data/">Gary
+Price</a>]</p>
+<p> </p>
+<p><strong>Ancient shipwrecks.</strong> The <a
+href="https://docs.google.com/spreadsheets/d/11fk5YeQ4eFOnYSBNpUdHp4TP42gJ7wY5/edit?gid=970169931#gid=970169931">Summary
+Geodatabase of Shipwrecks 1500BCE-1500CE</a> merges two catalogs of
+ancient wrecks: <a
+href="https://oxrep.classics.ox.ac.uk/databases/shipwrecks_database/">one
+from the Oxford Roman Economy Project</a> and <a
+href="https://darmc.harvard.edu/data-availability">one from Harvard’s
+Mapping Past Societies project</a>. Building on scholarly research by <a
+href="https://doi.org/10.2307/300882">Toby Parker</a>, <a
+href="https://discovery.ucl.ac.uk/id/eprint/1349806/">Julia Strauss</a>,
+and others, the combined effort includes 1,900+ known wrecks, listing
+(where known) their coordinates, depth, estimated time period when
+wrecked, year discovered, cargo, and more.</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send treasure-laden
+feedback to jsvine@gmail.com, or just reply to this email. // Looking
+for past datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. // Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions. // Support the newsletter and
+your career by <a href="https://www.data-is-plural.com/plus/">becoming a
+DIP+ member</a>.</em></p>
+]]></content:encoded>
+      <guid isPermaLink="false">dip-2024-07-10</guid>
+      <pubDate>Wed, 10 Jul 2024 08:00:00 -0400</pubDate>
+    </item>
     <item>
       <title>Data Is Plural — 2024.07.03 edition</title>
       <link>http://www.data-is-plural.com/archive/2024-07-03-edition</link>
@@ -1145,133 +1262,6 @@ member</a>.</em></p>
 ]]></content:encoded>
       <guid isPermaLink="false">dip-2024-04-17</guid>
       <pubDate>Wed, 17 Apr 2024 08:00:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Data Is Plural — 2024.04.10 edition</title>
-      <link>http://www.data-is-plural.com/archive/2024-04-10-edition</link>
-      <description>Opioid settlement payouts, groundwater wells, work-injury laws, colonial empire timelines, and objects launched into outer space.</description>
-      <content:encoded><![CDATA[<p><em>Opioid settlement payouts, groundwater wells, work-injury laws,
-colonial empire timelines, and objects launched into outer
-space.</em></p>
-<p> </p>
-<p><em>🔄 Last month the <a href="https://case.law/">Caselaw Access
-Project</a>, initially featured in <a
-href="https://www.data-is-plural.com/archive/2018-11-07-edition/">DIP
-2018.11.07</a>, <a
-href="https://hls.harvard.edu/today/caselaw-access-project-conference-marks-full-release-of-digitized-decisions/">announced</a>
-that the full text of all 7 million state and federal cases it has
-collected — spanning 36 million pages — are now freely available in
-bulk. (Previously, bulk data were only available for select states.)
-<strong>Read more</strong>: <a
-href="https://www.lawnext.com/2024/03/guest-post-the-caselaw-access-project-then-now-tomorrow.html">Former
-director Adam Ziegler on the project’s past, present, and future</a>.
-[h/t <a href="http://knosof.co.uk/ESEUR/">Derek M. Jones</a>]</em></p>
-<p> </p>
-<p><em>👋 <a href="https://www.data-is-plural.com/plus/">DIP+
-members</a> got a sneak peek of this edition’s datasets on Monday, plus
-pointers to a few extra. Support the newsletter and your career by <a
-href="https://www.data-is-plural.com/plus/">becoming a
-member</a>.</em></p>
-<p> </p>
-<p><strong>Opioid settlement payouts.</strong> KFF Health News <a
-href="https://kffhealthnews.org/opioid-settlements/">has been
-following</a> the slew of legal settlements by companies accused of
-exacerbating the opioid crisis. Last week, they published an <a
-href="https://kffhealthnews.org/news/article/opioid-settlement-payouts-state-county-city-tracker/">interactive</a>
-and <a
-href="https://kffhealthnews.org/download-the-data-opioid-settlement-payouts/">downloadable</a>
-database of payouts to state and local governments so far (and expected
-in the future) from the largest national settlement, “a $26 billion deal
-with four companies that will be paid out over nearly two decades.” The
-data, <a
-href="https://www.nationalopioidofficialsettlement.com/Home/StateAllocationAmounts">gathered
-from the court-appointed firm administering the settlement</a>, include
-overall numbers for 48 states and DC, plus locality-level data for 35
-states. (Los Angeles County, for instance, received $47 million in 2022
-and 2023, with another $210 million expected in years to come.)
-<strong>Learn more</strong>: <a
-href="https://kff-org.zoom.us/meeting/register/tZErduqrqjosHNRXNTNnY6jfmiPTUamwtkRo%20/#/registration">A
-webinar scheduled for tomorrow</a>, in which reporter <a
-href="https://www.linkedin.com/feed/update/urn:li:activity:7183116733463855104/">Aneri
-Pattani</a> “will discuss the data and how it can help you launch into
-coverage of the historic opioid settlement story.”</p>
-<p> </p>
-<p><strong>Groundwater wells.</strong> Despite the infrastructural
-importance of groundwater wells, “a unified database collecting and
-standardizing information on the characteristics and locations of these
-wells across the United States has been lacking,” <a
-href="https://www.nature.com/articles/s41597-024-03186-3">Chung-Yi Lin
-et al.</a> write. “To bridge this gap, we have created a comprehensive
-database of groundwater well records collected from state and federal
-agencies.” Their <a
-href="https://www.hydroshare.org/resource/8b02895f02c14dd1a749bcc5584a5c55/">United
-States Groundwater Well Database</a> contains ~14 million records, each
-indicating a well equipped for monitoring or extracting water. Where
-available, each row lists the well’s coordinates, county, aquifer,
-watershed, depth, capacity, water use category, water potability, and
-more. [h/t <a href="http://knosof.co.uk/ESEUR/">Derek M. Jones</a>]</p>
-<p> </p>
-<p><strong>Work-injury laws.</strong> <a
-href="https://sites.google.com/site/nbreznau/">Nate Breznau</a> and <a
-href="https://www.socium.uni-bremen.de/about-the-socium/members/felix-lanver/">Felix
-Lanver</a>’s <a
-href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/IVKYIE">Global
-Work-Injury Policy Database</a> tracks the history of work-injury laws
-(also known as workers’ compensation laws) in 186 “independent nation
-states.” For each, the database lists the year of its first such law,
-the year a law first provided insurance for work-related injuries, the
-type of program it established, and more. It also incorporates data on
-current laws’ coverage and payment rates from <a
-href="https://onlinelibrary.wiley.com/doi/10.1111/ijsw.12418">Kenneth
-Nelson et al.</a>’s <a
-href="https://www.su.se/social-policy-indicators-database/data?open-collapse-boxes=ccbd-socialinsuranceentitlementsdatasetsied">Social
-Insurance Entitlements dataset</a>.</p>
-<p> </p>
-<p><strong>Colonial empire timelines.</strong> The <a
-href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/T9SDEW">Colonial
-Dates Dataset</a>, <a href="https://osf.io/preprints/osf/apvqm">compiled
-by</a> political scientist <a
-href="https://www.beckerbastian.net/">Bastian Becker</a>, “aggregates
-information on the reach and duration of European colonial empires from
-renowned secondary sources.” Producing the dataset from its four main
-sources “is largely automated, relying on predefined coding rules.” The
-dataset indicates the first and last years each contemporary country was
-colonized, disaggregated by eight colonizing countries (Belgium,
-Britain, France, Germany, Italy, Netherlands, Portugal, and Spain). [h/t
-<a
-href="https://github.com/erikgahner/PolData/commit/db18d4f1be51741c169e6452a9bca38520dde682">Erik
-Gahner Larsen</a>]</p>
-<p> </p>
-<p><strong>Things flung spaceward.</strong> The UN’s <a
-href="https://www.unoosa.org/oosa/index.html">Office for Outer Space
-Affairs</a> maintains an <a
-href="https://www.unoosa.org/oosa/osoindex/search-ng.jspx">Online Index
-of Objects Launched into Outer Space</a>, based on a <a
-href="https://www.unoosa.org/oosa/en/spaceobjectregister/index.html">similarly-named
-register</a>, itself mandated by a <a
-href="https://www.unoosa.org/oosa/en/ourwork/spacelaw/treaties/registration-convention.html">similarly-named
-convention</a>, which <a
-href="https://en.wikipedia.org/wiki/Registration_Convention">went into
-force in 1976</a>. Presented as an HTML table, the index lists 17,000+
-satellites, spacecraft, probes, and other objects’ names, launching
-countries, statuses, launch dates, and more. <strong>As seen
-in</strong>: <a
-href="https://ourworldindata.org/grapher/yearly-number-of-objects-launched-into-outer-space">Our
-World In Data’s chart of the annual number of objects launched</a>. [h/t
-<a href="https://www.chartr.co/newsletters/2024-03-22">Chartr</a>]</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send rocket-fueled
-feedback to jsvine@gmail.com, or just reply to this email. // Looking
-for past datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. // Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and to browse past editions. // Support the newsletter and
-your career by <a href="https://data-is-plural.com/plus">becoming a DIP+
-member</a>.</em></p>
-]]></content:encoded>
-      <guid isPermaLink="false">dip-2024-04-10</guid>
-      <pubDate>Wed, 10 Apr 2024 08:00:00 -0400</pubDate>
     </item>
   </channel>
 </rss>
