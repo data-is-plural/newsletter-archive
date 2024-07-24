@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.data-is-plural.com</id>
   <title>Data Is Plural</title>
-  <updated>2024-07-10T08:00:00-04:00</updated>
+  <updated>2024-07-24T08:00:00-04:00</updated>
   <author>
     <name>Jeremy Singer-Vine</name>
     <email>jsvine@gmail.com</email>
@@ -10,6 +10,132 @@
   <link href="https://www.data-is-plural.com" rel="alternate"/>
   <generator>https://github.com/data-is-plural/newsletter-archive</generator>
   <subtitle>A weekly newsletter of useful/curious datasets.</subtitle>
+  <entry>
+    <id>dip-2024-07-24</id>
+    <title>Data Is Plural — 2024.07.24 edition</title>
+    <updated>2024-07-24T08:00:00-04:00</updated>
+    <content type="CDATA"><![CDATA[<p><em>News homepages, human rights scores, commercial zones, national
+park species, and Australia shipwrecks.</em></p>
+<p> </p>
+<p><strong>News homepages, archived.</strong> Since launching in March
+2022, <a href="https://homepages.news/">homepages.news</a> has <a
+href="https://palewi.re/docs/news-homepages/status-report.html">archived
+millions</a> of screenshots, performance audits, <a
+href="https://en.wikipedia.org/wiki/Robots.txt">robots.txt</a> files,
+accessibility trees, and hyperlink lists from the homepages of <a
+href="https://palewi.re/docs/news-homepages/sources.html">1,100+ news
+sites</a>. The <a
+href="https://github.com/palewire/news-homepages/">open-source</a>
+project, run by journalist <a
+href="https://palewi.re/who-is-ben-welsh/">Ben Welsh</a>, provides <a
+href="https://palewi.re/docs/news-homepages/extracts.html">bulk data for
+each of those assets</a>. The screenshots themselves are <a
+href="https://archive.org/details/news-homepages">stored on the Internet
+Archive</a>; you can also <a
+href="https://palewi.re/docs/news-homepages/latest.html">view the latest
+screenshots from all the sites on one page</a>. To date, the
+publications span <a
+href="https://palewi.re/docs/news-homepages/countries.html">32
+countries</a> and <a
+href="https://palewi.re/docs/news-homepages/languages.html">17
+languages</a>. <strong>Related</strong>: Welsh and <a
+href="https://mastodon.palewi.re/@palewire/111046697091347911">volunteer
+Alex Garcia</a> are using the <a
+href="https://palewi.re/docs/news-homepages/extracts.html#robotstxt-sample-csv">robots.txt
+data</a> to track <a
+href="https://palewi.re/docs/news-homepages/openai-gptbot-robotstxt.html">which
+sites block OpenAI, Google AI, and Common Crawl</a> — findings that <a
+href="https://www.brookings.edu/articles/can-journalism-survive-ai/">have</a>
+<a
+href="https://www.theverge.com/24067997/robots-txt-ai-text-file-web-crawlers-spiders">been</a>
+<a
+href="https://reutersinstitute.politics.ox.ac.uk/how-many-news-websites-block-ai-crawlers">cited</a>
+<a
+href="https://mastodon.palewi.re/@palewire/111663536216388030">widely</a>.</p>
+<p> </p>
+<p><strong>Human rights scores.</strong> The <a
+href="https://cirights.com/">CIRIGHTS</a> project <a
+href="https://cirights.com/learn-about-the-cirights-project/">aims</a>
+“to create numerical measures for every internationally recognized human
+right for all countries of the world.” The team has developed a <a
+href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4625036">detailed
+guide</a> to scoring each government’s record on <a
+href="https://cirights.com/rights-we-score/">dozens of such rights</a>,
+such as freedom of religion, women’s political rights, freedom from
+extrajudicial killings, the right to a fair trial, and “reasonable
+limits” on working hours. For each year from 1981 to 2021, the project’s
+scorers have rated each country on each right, generally on a
+three-point scale, based on information in the US State Department’s <a
+href="https://www.state.gov/reports-bureau-of-democracy-human-rights-and-labor/country-reports-on-human-rights-practices/">Country
+Reports on Human Rights Practices</a>, <a
+href="https://www.amnesty.org/en/annual-report-archive/">Amnesty
+International’s annual reports</a>, and similar sources. The resulting
+dataset includes those scores, as well as several summary metrics.</p>
+<p> </p>
+<p><strong>Commercial zones.</strong> <a
+href="https://www.nature.com/articles/s41597-024-03275-3">Byeonghwa
+Jeong et al.</a> have constructed a <a
+href="https://figshare.com/articles/dataset/Commercial_Boundary/24654309/4">dataset</a>
+estimating the geographic boundaries of 23,000+ commercial zones in 69
+metro areas in the US and Canada. To build it, they <a
+href="https://www.nature.com/articles/s41597-024-03275-3/tables/1">used
+data</a> on retail and office locations from <a
+href="https://www.openstreetmap.org/">OpenStreetMap</a>, and on job
+density from the US Census Bureau’s <a
+href="https://lehd.ces.census.gov/data/">Longitudinal Employer-Household
+Dynamics program</a> (<a
+href="https://www.data-is-plural.com/archive/2021-05-26-edition/">DIP
+2021.05.26</a>) and <a
+href="https://www12.statcan.gc.ca/census-recensement/2016/dp-pd/dt-td/Index-eng.cfm?APATH=3&amp;FL=A">Statistics
+Canada</a>. For each detected commercial zone, the dataset provides its
+outline, total area, a score of its relative concentration (on which the
+zone comprising most of Manhattan scored the highest), its <a
+href="https://en.wikipedia.org/wiki/Metropolitan_statistical_area">MSA</a>,
+and the street at its centroid.</p>
+<p> </p>
+<p><strong>National park species.</strong> The National Park Service’s
+<a href="https://irma.nps.gov/NPSpecies/">NPSpecies portal</a>
+“documents our knowledge about the occurrence and status of species” on
+the agency’s lands. For each NPS-managed area, you can download a list
+of the species, their scientific and common names, occurrence status
+(present, probably present, unconfirmed), nativeness, conservation
+status, and more. <strong>Related</strong>: Noting that “many of the
+observations in NPSpecies remain unverified and the lists are often
+outdated,” <a
+href="https://www.nature.com/articles/s41597-023-02836-2">Benjamin J.
+LaFrance et al.</a> have created an <a
+href="https://irma.nps.gov/DataStore/Reference/Profile/2301647">updated
+dataset for amphibian species</a>, which they checked against other
+sources and verified with regional experts.</p>
+<p> </p>
+<p><strong>Australia shipwrecks.</strong> The <a
+href="https://data.museum.wa.gov.au/">Western Australia Museum</a> hosts
+a <a href="https://data.museum.wa.gov.au/search/type/dataset">range of
+datasets</a>, including details concerning <a
+href="https://data.museum.wa.gov.au/dataset/maritime-archaeology">1,600+
+local shipwrecks and 30,000+ artifacts recovered from them</a>. The
+shipwreck dataset lists each ship’s builder, construction materials,
+owner, cargo, wreck location, date wrecked, known deaths, date found,
+and more. <strong>Previously</strong>: <a
+href="https://docs.google.com/spreadsheets/d/11fk5YeQ4eFOnYSBNpUdHp4TP42gJ7wY5/edit?gid=970169931#gid=970169931">Ancient
+shipwrecks</a> (<a
+href="https://www.data-is-plural.com/archive/2024-07-10-edition/">DIP
+2024.07.10</a>). [h/t <a
+href="http://www.linkedin.com/in/kristin-milton-8480389">Kristin
+Milton</a>]</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send sunken feedback to
+jsvine@gmail.com, or just reply to this email. // Looking for past
+datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. // Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions.</em></p>
+]]></content>
+    <link href="http://www.data-is-plural.com/archive/2024-07-24-edition" rel="alternate"/>
+    <summary>News homepages, human rights scores, commercial zones, national park species, and Australia shipwrecks.</summary>
+    <published>2024-07-24T08:00:00-04:00</published>
+  </entry>
   <entry>
     <id>dip-2024-07-10</id>
     <title>Data Is Plural — 2024.07.10 edition</title>
@@ -1153,127 +1279,5 @@ member</a>.</em></p>
     <link href="http://www.data-is-plural.com/archive/2024-04-24-edition" rel="alternate"/>
     <summary>Public procurement, chain locations, wholesale electricity markets, food-system indicators, and 3D natural history.</summary>
     <published>2024-04-24T08:00:00-04:00</published>
-  </entry>
-  <entry>
-    <id>dip-2024-04-17</id>
-    <title>Data Is Plural — 2024.04.17 edition</title>
-    <updated>2024-04-17T08:00:00-04:00</updated>
-    <content type="CDATA"><![CDATA[<p><em>Unregulated water contaminants, border crossings, earthquakes
-felt, automated decision-making in government, and aerial
-obstacles.</em></p>
-<p> </p>
-<p><em>👋 <a href="https://www.data-is-plural.com/plus/">DIP+
-members</a> got a sneak peek of this edition’s datasets on Monday, plus
-pointers to a few extra. Support the newsletter and your career by <a
-href="https://www.data-is-plural.com/plus/">becoming a
-member</a>.</em></p>
-<p> </p>
-<p><strong>Unregulated water contaminants.</strong> Through the <a
-href="https://www.epa.gov/dwucmr/learn-about-unregulated-contaminant-monitoring-rule">Unregulated
-Contaminant Monitoring Rule</a>, the Environmental Protection Agency
-“collect[s] data for contaminants that are suspected to be present in
-drinking water and do not have health-based standards set under the Safe
-Drinking Water Act.” The <a
-href="https://www.epa.gov/dwucmr/fifth-unregulated-contaminant-monitoring-rule">current
-version</a> of the rule requires public water systems to test for
-lithium and 29 <a href="https://www.epa.gov/pfas/pfas-explained">per-
-and polyfluoroalkyl substances</a>, better known as PFAS. (Prior
-iterations, which go back to the early 2000s, have tested for other
-contaminants.) The EPA <a
-href="https://www.epa.gov/dwucmr/occurrence-data-unregulated-contaminant-monitoring-rule">publishes
-the data collected</a>, with the most detailed files listing each
-sample, its public water system, facility, sampling point, sample date,
-contaminant tested, concentration detected, and more.
-<strong>Related</strong>: Last week, <a
-href="https://apnews.com/article/forever-chemicals-pfas-pollution-epa-drinking-water-1c8804288413a73bb7b99fc866c8fa51">the
-EPA finalized its first-ever limits for PFAS in drinking water</a>. [h/t
-<a href="https://ncnewsline.com/author/lisa-sorg/">Lisa Sorg</a>]</p>
-<p> </p>
-<p><strong>Border crossings.</strong> <a
-href="https://journals.sagepub.com/doi/10.1177/00223433221145582">Michael
-R. Kenwick et al.</a>’s <a
-href="https://mkenwick.com/datameasurement/#borders">Border Crossings of
-the World dataset</a> “explores state authority spatially by collecting
-information about infrastructure built where highways cross
-internationally recognized borders.” Using satellite imagery, the team’s
-researchers identified the locations of gates, official buildings, and
-split-lane inspection facilities annually from the 1990s onward. An <a
-href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/RRV0JZ">accompanying
-dataset</a> calculates a “border orientation” score that summarizes the
-“extent to which the State is committed to the spatial display of
-capacities to control the terms of penetration of its national borders.”
-[h/t <a
-href="https://github.com/erikgahner/PolData/commit/c46f0ae069a2ccdd28d47ec17c254c80c3babcbe">Erik
-Gahner Larsen</a>]</p>
-<p> </p>
-<p><strong>Earthquakes felt.</strong> The US Geological Survey’s <a
-href="https://earthquake.usgs.gov/data/dyfi/">Did You Feel It?</a>
-initiative allows members of the public to <a
-href="https://earthquake.usgs.gov/earthquakes/eventpage/tellus">report
-their ground-shaking experiences</a>. The agency’s web pages for
-individual earthquakes — such as <a
-href="https://earthquake.usgs.gov/earthquakes/eventpage/us7000ma74/executive">this
-page for the April 5 tremor</a> that <a
-href="https://www.youtube.com/watch?v=ixkww7puZ_I">rattled NYC</a> —
-feature <a
-href="https://earthquake.usgs.gov/earthquakes/eventpage/us7000ma74/dyfi/intensity">downloadable
-geographic and longitudinal data</a> that USGS has <a
-href="https://earthquake.usgs.gov/data/dyfi/background.php">aggregated
-from the reports</a>. The agency also publishes a <a
-href="https://usgs.maps.arcgis.com/apps/webappviewer/index.html?id=9310990e7ce84e3b8567109616b0944d">map
-of annual intensities</a>. <strong>Tip</strong>: <a
-href="https://earthquake.usgs.gov/earthquakes/map/?extent=-88.15623,-155.39063&amp;extent=88.14489,515.39063&amp;range=search&amp;timeZone=utc&amp;search=%7B%22name%22:%22Search%20Results%22,%22params%22:%7B%22starttime%22:%222024-01-01%2000:00:00%22,%22endtime%22:%222024-12-31%2023:59:59%22,%22minfelt%22:1000,%22orderby%22:%22time%22%7D%7D">This
-search</a> lists earthquakes in 2024 that received at least 1,000
-reports. [h/t <a
-href="https://s2.washingtonpost.com/camp-rw/?s=661155ac1761ef08c051a621">Philip
-Bump</a>]</p>
-<p> </p>
-<p><strong>Automated decision-making in government.</strong> The UK
-nonprofit <a href="https://publiclawproject.org.uk/what-we-do/">Public
-Law Project</a> last year <a
-href="https://publiclawproject.org.uk/resources/the-tracking-automated-government-register/">launched</a>
-the <a
-href="https://trackautomatedgovernment.shinyapps.io/register/">Tracking
-Automated Government Register</a>, which describes automated systems
-that government agencies there use “to make or inform decisions on a
-range of sensitive policy areas, including how people are policed, what
-benefits they receive, and their immigration status.” It currently lists
-55 systems, their names, purposes, agencies in charge, policy areas,
-transparency level, potential unequal impacts, and more. Last week,
-Western University’s <a
-href="https://www.fims.uwo.ca/people/profiles/joanna_redden.html">Joanna
-Redden</a> and colleagues <a
-href="https://www.cbc.ca/news/politics/federal-government-used-ai-1.7170307">launched</a>
-a <a href="https://tagcanada.shinyapps.io/register/">version for
-Canada</a>, listing 303 systems.</p>
-<p> </p>
-<p><strong>Aerial obstacles.</strong> The Federal Aviation
-Administration’s <a
-href="https://www.faa.gov/air_traffic/flight_info/aeronav/obst_data/">Obstacles
-Team</a> “investigates and evaluates existing obstacles that may be
-hazardous to safe flight navigation,” such as tall buildings, windmills,
-water tanks, utility poles, amusement parks, monuments, <a
-href="https://clui.org/projects/lighter-air-exploring-landscape-helium/tethered-aerostats-usa/cudjoe-key-tars">blimps</a>,
-and other structures. Its <a
-href="https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/DailyDOF/">Daily
-Digital Obstacle File</a> contains 580,000+ entries, which it says
-provides full coverage of the US and partial coverage of Canada, Mexico,
-the Pacific, and the Caribbean. It lists each obstacle’s type, country,
-state, city, coordinates, height, type of lighting, and more. [h/t <a
-href="https://carts.lsu.edu/about/staff/1">Michael Allen</a>]</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send tall feedback to
-jsvine@gmail.com, or just reply to this email. // Looking for past
-datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. // Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and to browse past editions. // Support the newsletter and
-your career by <a href="https://data-is-plural.com/plus">becoming a DIP+
-member</a>.</em></p>
-]]></content>
-    <link href="http://www.data-is-plural.com/archive/2024-04-17-edition" rel="alternate"/>
-    <summary>Unregulated water contaminants, border crossings, earthquakes felt, automated decision-making in government, and aerial obstacles.</summary>
-    <published>2024-04-17T08:00:00-04:00</published>
   </entry>
 </feed>
