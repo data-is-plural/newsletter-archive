@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.data-is-plural.com</id>
   <title>Data Is Plural</title>
-  <updated>2024-07-24T08:00:00-04:00</updated>
+  <updated>2024-07-31T08:00:00-04:00</updated>
   <author>
     <name>Jeremy Singer-Vine</name>
     <email>jsvine@gmail.com</email>
@@ -10,6 +10,125 @@
   <link href="https://www.data-is-plural.com" rel="alternate"/>
   <generator>https://github.com/data-is-plural/newsletter-archive</generator>
   <subtitle>A weekly newsletter of useful/curious datasets.</subtitle>
+  <entry>
+    <id>dip-2024-07-31</id>
+    <title>Data Is Plural — 2024.07.31 edition</title>
+    <updated>2024-07-31T08:00:00-04:00</updated>
+    <content type="CDATA"><![CDATA[<p><em>Ballots cast, hurricane evacuation orders, networked scholarship,
+people surveyed since 1979, and NPR’s weekly quiz show.</em></p>
+<p> </p>
+<p><strong>Ballots cast.</strong> “Electronic records of actual ballots
+cast (cast vote records) are available to the public in some
+jurisdictions,” <a
+href="https://dataverse.harvard.edu/file.xhtml?fileId=10404813&amp;version=1.0">Shiro
+Kuriwaki et al.</a> write. “However, they have been released in a
+variety of formats and have not been independently evaluated.” So the
+researchers have <a
+href="https://github.com/kuriwaki/cvr_harvard-mit_scripts">constructed</a>
+a <a
+href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/PQQ3KV">standardized
+dataset</a> representing 40.7 million (anonymous) ballots in the
+November 2020 general election, spanning 352 counties across 20 states.
+Each of the 160 million rows corresponds to a voter’s choice in a
+particular race and indicates the precinct, legislative district, office
+in question, candidate selected, and candidate’s party. The initial
+release, which the authors use to analyze <a
+href="https://en.wikipedia.org/wiki/Split-ticket_voting">ticket-splitting</a>
+patterns, <a
+href="https://x.com/shirokuriwaki/status/1816213954194202733">covers</a>
+votes for president, Senate, House, governor, and state legislature.
+[h/t <a href="https://thescoop.org/">Derek Willis</a>]</p>
+<p> </p>
+<p><strong>Hurricane evacuation orders.</strong> <a
+href="https://www.nature.com/articles/s41597-024-03100-x">Harsh Anand et
+al.</a>’s <a href="https://www.hurrevacorder.info/">Hurricane Evacuation
+Order Database</a> “is a comprehensive and standardized database of
+evacuation orders issued by state and local government officials in
+response to the hurricanes that impacted the United States between 2014
+and 2023.” To build it, the authors combed through government websites,
+official social media, news reports, and other sources. The database
+covers 27 storms and several types of announcements: state-of-emergency
+declarations, mandatory evacuations, voluntary evacuations, and the
+lifting of those orders. For each announcement, the database indicates
+the order type, date/time announced, date/time effective, counties
+affected, and evacuation area.</p>
+<p> </p>
+<p><strong>Scholarship, networked.</strong> <a
+href="https://openalex.org/">OpenAlex</a>, “a free and open catalog of
+the global research system,” has compiled data on more than 250 million
+scholarly works — and has linked those works to <a
+href="https://docs.openalex.org/">structured information</a> about their
+<a href="https://docs.openalex.org/api-entities/authors">authors</a>, <a
+href="https://docs.openalex.org/api-entities/institutions">institutions</a>,
+<a
+href="https://docs.openalex.org/api-entities/publishers">publishers</a>,
+<a href="https://docs.openalex.org/api-entities/funders">funders</a>, <a
+href="https://docs.openalex.org/api-entities/topics">topics</a>. The
+data are available to search online, to <a
+href="https://docs.openalex.org/download-all-data/openalex-snapshot">download
+in bulk</a>, and <a
+href="https://docs.openalex.org/how-to-use-the-api/api-overview">via
+API</a>. <strong>As seen in</strong>: Aliakbar Akbaritabar et al.’s “<a
+href="https://www.nature.com/articles/s41597-024-03655-9">Bilateral
+flows and rates of international migration of scholars for 210 countries
+for the period 1998-2020</a>” and <a
+href="https://direct.mit.edu/qss/article/4/2/314/115151/An-open-data-set-of-scholars-on-Twitter">Philippe
+Mongeon et al.</a>’s <a
+href="https://zenodo.org/records/10905839">dataset of scholars’
+Twitter/X usernames</a>.</p>
+<p> </p>
+<p><strong>People surveyed since 1979.</strong> The Bureau of Labor
+Statistics’ <a href="https://www.bls.gov/nls/nlsy79.htm">NLSY79
+survey</a> has interviewed the same people dozens of times since 1979.
+It began with a “nationally representative sample of 12,686 young men
+and women”; more than four decades later, <a
+href="https://www.nlsinfo.org/content/cohorts/nlsy79/intro-to-the-sample/retention-reasons-noninterview">6,000+
+interviewees are still responding</a> to the project’s biennial
+inquiries. The survey asks about a <a
+href="https://www.nlsinfo.org/content/cohorts/nlsy79/topical-guide">range
+of topics</a>, including education, employment, health, dating,
+marriage, children, attitudes, and substance abuse. Public-use data are
+available to <a
+href="https://www.bls.gov/nls/getting-started/accessing-data.htm">download</a>
+and through the agency’s <a
+href="https://www.nlsinfo.org/investigator/pages/home">NLS Investigator
+tool</a>. <strong>Related</strong>: <a
+href="https://www.bls.gov/nls/">The agency’s other national longitudinal
+surveys</a>. [h/t <a href="https://www.nber.org/papers/w32562">Prashant
+Bharadwaj et al.</a>]</p>
+<p> </p>
+<p><strong><em>Wait Wait</em>.</strong> <a
+href="https://blog.linh.social/about/">Linh Pham</a> considers himself
+“the unofficial scorekeeper” of <a
+href="https://waitwait.npr.org/"><em>Wait Wait… Don’t Tell Me!</em></a>,
+NPR’s weekly quiz show. Since 2007, he’s been <a
+href="https://stats.wwdt.me/site-history">maintaining</a> a <a
+href="https://stats.wwdt.me/">structured database</a> that describes
+<em>Wait Wait</em>’s <a
+href="https://stats.wwdt.me/shows/">episodes</a>, <a
+href="https://stats.wwdt.me/locations/">venues</a>, <a
+href="https://stats.wwdt.me/hosts/">hosts</a>, <a
+href="https://stats.wwdt.me/guests/">guests</a>, <a
+href="https://stats.wwdt.me/panelists/">panelists</a>, and more. Pham <a
+href="https://api.wwdt.me/v2.0/docs">provides the data via API</a>, and
+also publishes <a href="https://graphs.wwdt.me/">charts</a> and <a
+href="https://reports.wwdt.me/">automated reports</a>, such <a
+href="https://reports.wwdt.me/panelists/first-appearance-wins">this list
+of panelists who won their debut appearances</a>. [h/t <a
+href="https://codywinchester.com/">Cody Winchester</a>]</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send debut feedback to
+jsvine@gmail.com, or just reply to this email. // Looking for past
+datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. // Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions.</em></p>
+]]></content>
+    <link href="http://www.data-is-plural.com/archive/2024-07-31-edition" rel="alternate"/>
+    <summary>Ballots cast, hurricane evacuation orders, networked scholarship, people surveyed since 1979, and NPR’s weekly quiz show.</summary>
+    <published>2024-07-31T08:00:00-04:00</published>
+  </entry>
   <entry>
     <id>dip-2024-07-24</id>
     <title>Data Is Plural — 2024.07.24 edition</title>
@@ -1147,137 +1266,5 @@ subscribe and to browse past editions.</em></p>
     <link href="http://www.data-is-plural.com/archive/2024-05-01-edition" rel="alternate"/>
     <summary>Prison commissary prices, historical markers, biological numbers, openly-licensed video transcripts, and Agatha Christie’s bibliography.</summary>
     <published>2024-05-01T08:00:00-04:00</published>
-  </entry>
-  <entry>
-    <id>dip-2024-04-24</id>
-    <title>Data Is Plural — 2024.04.24 edition</title>
-    <updated>2024-04-24T08:00:00-04:00</updated>
-    <content type="CDATA"><![CDATA[<p><em>Public procurement, chain locations, wholesale electricity
-markets, food-system indicators, and 3D natural history.</em></p>
-<p> </p>
-<p><em>👋 <a href="https://www.data-is-plural.com/plus/">DIP+
-members</a> got a sneak peek of this edition’s datasets on Monday, plus
-pointers to a few extra. You can support the newsletter and your career
-by <a href="https://www.data-is-plural.com/plus/">becoming a
-member</a>.</em></p>
-<p> </p>
-<p><strong>Public procurement.</strong> The <a
-href="https://www.sciencedirect.com/science/article/pii/S2352340924003810">Global
-Public Procurement Dataset</a> provides standardized data on 72 million
-government contracts in 42 countries. The dataset, constructed from
-official sources by the Budapest-based <a
-href="https://www.govtransparency.eu/">Government Transparency
-Institute</a>, represents $17 trillion in total procurement. It begins
-in the 2000s for most of the countries and concludes in 2021. For each
-contract, it provides information about the tender (title, procedure
-type, product code, publication date, award date, final price, currency,
-etc.), government buyer, bidders’ names and locations, and more. The
-downloadable files are split into <a
-href="https://data.mendeley.com/datasets/fwzpywbhgw/3">two</a> <a
-href="https://data.mendeley.com/datasets/w9mzf4vswh/3">repositories</a>.
-The US, Italy, Brazil, Poland, and Colombia have the most contracts
-represented. <strong>Previously</strong>: The <a
-href="https://www.open-contracting.org/">Open Contracting
-Partnership</a>’s <a href="https://data.open-contracting.org/en/">data
-registry</a> (<a
-href="https://www.data-is-plural.com/archive/2023-03-08-edition/">DIP
-2023.03.08</a>) and <a
-href="https://www.open-contracting.org/data-standard/">data standard</a>
-(<a
-href="https://www.data-is-plural.com/archive/2020-02-26-edition/">DIP
-2020.02.26</a>).</p>
-<p> </p>
-<p><strong>Chain locations and more.</strong> <a
-href="https://www.alltheplaces.xyz/">All The Places</a> is “a growing
-set of web scrapers designed to output consistent geodata about as many
-places of business in the world as possible.” During its latest weekly
-run, the project’s 2,400+ <a
-href="https://github.com/alltheplaces/alltheplaces">open-source
-scrapers</a> collected data on nearly 5 million locations. They include
-postal collection boxes, ATMs, various fast food chains and chain
-stores, gas stations, and more. The results are available <a
-href="https://www.alltheplaces.xyz/map/">on an interactive map</a>, <a
-href="https://www.alltheplaces.xyz/builds">to download in bulk</a>, and
-<a href="https://www.alltheplaces.xyz/spiders">by location type</a>.
-<strong>Related</strong>: Journalist <a
-href="https://mattstiles.me/">Matt Stiles</a> maintains a <a
-href="https://github.com/stiles/locations/">collection of US-focused
-scrapers gathering the locations of dozens of chain stores and
-restaurants</a>, with Python notebooks for each scraper. [h/t <a
-href="https://mastodon.social/@fgregg">Forest Gregg</a> + <a
-href="https://masto.machlis.com/@smach">Sharon Machlis</a>]</p>
-<p> </p>
-<p><strong>Wholesale electricity markets.</strong> The US Energy
-Information Administration <a
-href="https://www.eia.gov/todayinenergy/detail.php?id=61804">recently
-launched</a> a <a
-href="https://www.eia.gov/electricity/wholesalemarkets/index.php">Wholesale
-Electricity Market Portal</a>, providing visualizations and <a
-href="https://www.eia.gov/electricity/wholesalemarkets/data.php">downloads</a>
-of market data from <a
-href="https://en.wikipedia.org/wiki/Regional_transmission_organization_(North_America)">regional
-transmission organizations (RTOs) and independent system operators
-(ISOs)</a> — the country’s electric-grid coordinating entities. The data
-include “day-ahead” electricity prices, real-time prices,
-actual/forecasted load and demand, fuel mix by time, and local
-temperatures. <strong>Learn more</strong>: <a
-href="https://www.youtube.com/watch?v=-8YH-338fXU">A 30-minute
-introductory video from the EIA</a>.</p>
-<p> </p>
-<p><strong>Food-system indicators.</strong> The <a
-href="https://www.foodcountdown.org/">Food Systems Countdown
-Initiative</a> produces “annual publications to measure, assess, and
-track the performance of global food systems toward 2030 and the
-conclusion of the Sustainable Development Goals.” As part of that work,
-its <a href="https://www.foodsystemsdashboard.org/">Food Systems
-Dashboard</a> incorporates <a
-href="https://www.foodsystemsdashboard.org/information/data-sources-and-methodology">275
-metrics from dozens of sources</a> about countries’ food availability,
-affordability, supply chains, safety, and related topics. Examples
-include <a
-href="https://www.foodsystemsdashboard.org/indicators/food-environments/food-availability/average-protein-supply-3-year-average/map">protein
-supply per capita</a>, <a
-href="https://www.foodsystemsdashboard.org/indicators/food-environments/vendor-properties/supermarkets-per-100000-population/map">number
-of supermarkets per capita</a>, <a
-href="https://www.foodsystemsdashboard.org/indicators/food-supply-chains/processing-and-packaging/mandatory-removal-of-trans-fats-in-food-products/map">trans
-fat regulations</a>, and <a
-href="https://www.foodsystemsdashboard.org/indicators/food-environments/food-safety/percent-who-believe-the-government-does-a-good-job-ensuring-food-safety/map">food
-safety poll results</a>. [h/t <a href="https://tulpinteractive.com/">Jan
-Willem Tulp</a>]</p>
-<p> </p>
-<p><strong>Three-dimensional natural history.</strong> At <a
-href="https://www.morphosource.org/">MorphoSource</a>, you can “find,
-view, and download 3D data representing the world’s natural history,
-cultural heritage, and scientific collections.” The service hosts <a
-href="https://www.morphosource.org/catalog/media?f%5Bhuman_readable_media_type_ssim%5D%5B%5D=Mesh&amp;locale=en">82,000+
-3D models</a> you can view online; <a
-href="https://www.morphosource.org/catalog/media?f%5Bhuman_readable_media_type_ssim%5D%5B%5D=Mesh&amp;f.publication_status=Open+Download&amp;locale=en">roughly
-half</a> can be downloaded without prior approval. As described in a <a
-href="https://academic.oup.com/bioscience/article/74/3/169/7615104">recent
-<em>BioScience</em> article</a>, the <a
-href="https://en.wikipedia.org/wiki/Florida_Museum_of_Natural_History">Florida
-Museum of Natural History</a>’s <a
-href="https://www.floridamuseum.ufl.edu/overt/">openVertebrate</a>
-project <a
-href="https://www.floridamuseum.ufl.edu/science/scientists-ct-scanned-thousands-of-natural-history-specimens-which-you-can-access-for-free/">used
-MorphoSource</a> to share <a
-href="https://www.morphosource.org/projects/000368762">3D models and
-volumetric CT scans of 10,000+ amphibian, reptile, fish, bird, and
-mammal specimens</a>. [h/t <a href="https://www.duncangeere.com/">Duncan
-Geere</a>]</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send scanned feedback to
-jsvine@gmail.com, or just reply to this email. // Looking for past
-datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. // Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and to browse past editions. // Support the newsletter and
-your career by <a href="https://data-is-plural.com/plus">becoming a DIP+
-member</a>.</em></p>
-]]></content>
-    <link href="http://www.data-is-plural.com/archive/2024-04-24-edition" rel="alternate"/>
-    <summary>Public procurement, chain locations, wholesale electricity markets, food-system indicators, and 3D natural history.</summary>
-    <published>2024-04-24T08:00:00-04:00</published>
   </entry>
 </feed>
