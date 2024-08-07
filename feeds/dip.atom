@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.data-is-plural.com</id>
   <title>Data Is Plural</title>
-  <updated>2024-07-31T08:00:00-04:00</updated>
+  <updated>2024-08-07T08:00:00-04:00</updated>
   <author>
     <name>Jeremy Singer-Vine</name>
     <email>jsvine@gmail.com</email>
@@ -10,6 +10,130 @@
   <link href="https://www.data-is-plural.com" rel="alternate"/>
   <generator>https://github.com/data-is-plural/newsletter-archive</generator>
   <subtitle>A weekly newsletter of useful/curious datasets.</subtitle>
+  <entry>
+    <id>dip-2024-08-07</id>
+    <title>Data Is Plural — 2024.08.07 edition</title>
+    <updated>2024-08-07T08:00:00-04:00</updated>
+    <content type="CDATA"><![CDATA[<p><em>State/local government employment, railroad incidents, Ireland’s
+gender pay gaps, weather balloons, and art auction sales.</em></p>
+<p> </p>
+<p><em>📬 Reader <a href="https://jeremybmerrill.com/">Jeremy B.
+Merrill</a> recently used the <a
+href="https://wildchat.allen.ai/">WildChat Dataset</a>, featured in <a
+href="https://www.data-is-plural.com/archive/2024-05-15-edition/">DIP
+2024.05.15</a>, to analyze <a
+href="https://www.washingtonpost.com/technology/2024/08/04/chatgpt-use-real-ai-chatbot-conversations/?pwapi_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyZWFzb24iOiJnaWZ0IiwibmJmIjoxNzIyOTE2ODAwLCJpc3MiOiJzdWJzY3JpcHRpb25zIiwiZXhwIjoxNzI0Mjk5MTk5LCJpYXQiOjE3MjI5MTY4MDAsImp0aSI6IjA4NDJhYzc1LTZjMDctNDMxZC04YTJiLTUxODY4NWMxY2I3NyIsInVybCI6Imh0dHBzOi8vd3d3Lndhc2hpbmd0b25wb3N0LmNvbS90ZWNobm9sb2d5LzIwMjQvMDgvMDQvY2hhdGdwdC11c2UtcmVhbC1haS1jaGF0Ym90LWNvbnZlcnNhdGlvbnMvIn0.FXu6NqqA9HaNC93mU9yIldILRQ2yi8IsystsU_KTcoc&amp;itid=gfta">what
+people really ask AI chatbots</a>. (Have you published something with
+data you found via DIP? <a
+href="https://docs.google.com/forms/d/e/1FAIpQLSdXXD5eO05w0Xa7bwG3Ppia3uzr_o3y-xDEZuWRfXbCfCu_XA/viewform">Click
+here to let me know</a>.)</em></p>
+<p> </p>
+<p><strong>State/local government employment.</strong> Every year, the
+Census Bureau sends its <a
+href="https://www.census.gov/programs-surveys/apes.html">Annual Survey
+of Public Employment &amp; Payroll</a> to all 50 state governments and
+90,000+ local governments, <a
+href="https://www.census.gov/programs-surveys/apes/technical-documentation/methodology/annual/2023.html">requesting</a>
+employee counts and payroll totals. The survey’s <a
+href="https://www.census.gov/programs-surveys/apes/data/datasetstables.html">public
+datasets</a> provide those figures for each government unit, broken down
+by several dozen “functional categories” (such as “Highways”, “Financial
+Administration”, and “Hospitals”). <strong>As seen in</strong>: The
+Marshall Project’s <a
+href="https://www.themarshallproject.org/2024/07/25/how-to-investigate-the-trend-of-declining-prison-staff-and-deteriorating-conditions-behind-bars">guide
+to using the data to examine declines in prison staffing</a>, part of
+the organization’s new <a
+href="https://www.themarshallproject.org/investigate-this"><em>Investigate
+This!</em> initiative</a>; they’ve also <a
+href="https://observablehq.com/@themarshallproject/census-labor-data-release">aggregated
+the raw records into a spreadsheet of annual state totals</a>. [h/t <a
+href="https://www.themarshallproject.org/staff/david-eads">David
+Eads</a>]</p>
+<p> </p>
+<p><strong>Railroad incidents.</strong> Since last August, the <a
+href="https://railroads.dot.gov/">Federal Railroad Administration</a>
+has been rolling out a <a
+href="https://data.transportation.gov/stories/s/FRA-Safety-Data/dakf-i7zd">new
+portal for its safety data</a>. Through it, you can find datasets on <a
+href="https://data.transportation.gov/Railroads/Railroad-Equipment-Accident-Incident-Source-Data-F/aqxq-n5hy/about_data">incidents
+and accidents involving railroad equipment</a>, <a
+href="https://data.transportation.gov/Railroads/Highway-Rail-Grade-Crossing-Accident-Incident-Sour/icqf-xf4w/about_data">incidents
+at grade crossings</a>, and <a
+href="https://data.transportation.gov/Railroads/Injury-Illness-Summary-Operational-Source-Data-For/unww-uhxd/about_data">reported
+injuries and illnesses</a>, as well as dashboards and reports on related
+topics. The grade crossing dataset, for instance, lists 246,000+
+incidents since 1975; it indicates each incident’s date, railroad,
+crossing identifier, nearest station, number of injuries, vehicle and
+train speeds, and much more. <strong>Previously</strong>: <a
+href="https://www.fra.dot.gov/blockedcrossings/incidents">Blocked rail
+crossings</a> (<a
+href="https://www.data-is-plural.com/archive/2023-05-10-edition/">DIP
+2023.05.10</a>).</p>
+<p> </p>
+<p><strong>Ireland’s gender pay gaps.</strong> Ireland’s <a
+href="https://www.gov.ie/en/publication/29606-what-is-the-gender-pay-gap-information-act-2021/">Gender
+Pay Gap Information Act</a> requires certain-sized companies to report
+their differences pay for men versus women. “While plans are in place to
+create a central portal (similar to that in the UK) to collate this
+information, such a database does not exist yet,” writes <a
+href="http://www.jenniferkeane.ie/">Jennifer Keane</a>, who has built <a
+href="https://paygap.ie/">PayGap.ie</a> to fill the void. For each
+company and year, the <a href="https://paygap.ie/downloads">project’s
+database</a> lists the metrics the Act requires — mean and median hourly
+pay gaps, percentages of men and women paid bonuses, proportion of
+employees in each pay quartile for each gender, among others — plus a
+link to the company’s public report.</p>
+<p> </p>
+<p><strong>Weather balloons.</strong> When a <a
+href="https://www.weather.gov/chs/upperair">weather balloon</a> rises
+into the atmosphere, it <a
+href="https://www.weather.gov/upperair/factsheet">carries</a> a <a
+href="https://en.wikipedia.org/wiki/Radiosonde">radiosonde</a> to record
+the temperature, pressure, wind speed, humidity, and other measurements.
+NOAA’s <a
+href="https://www.ncei.noaa.gov/products/weather-balloon/integrated-global-radiosonde-archive">Integrated
+Global Radiosonde Archive</a> “consists of radiosonde and pilot balloon
+observations from more than 2,800 globally distributed stations,” some
+dating back to the early 1900s. <a
+href="https://sondehub.org">SondeHub</a>, meanwhile, tracks <a
+href="https://github.com/projecthorus/sondehub-infra/wiki">hundreds of
+weather balloons a day</a> in real-time, thanks to a <a
+href="https://github.com/projecthorus/sondehub-tracker/wiki/SondeHub-Tracker-User-Guide">community-run
+network</a> of 1,400+ receiver stations. You can browse the flight paths
+and detailed measurements online, and access the data via <a
+href="https://github.com/projecthorus/sondehub-infra/wiki/Amazon-Open-Data">download</a>
+and <a
+href="https://github.com/projecthorus/sondehub-infra/wiki/API-(Beta)">API</a>.
+[h/t <a
+href="https://www.linkedin.com/in/michael-allen-60287015b/">Michael
+Allen</a>]</p>
+<p> </p>
+<p><strong>Art auction sales.</strong> <a
+href="https://www.nature.com/articles/s41598-024-60957-z">Kangsan Lee et
+al.</a> have compiled a <a
+href="https://springernature.figshare.com/articles/dataset/Buying_a_Work_of_Art_or_an_Artist_Exploring_the_Impact_of_Visual_and_Social_Features_on_Art_Prices/24746268">dataset</a>
+of “34,200 auction sales records, including images, artists’ attributes,
+and market information, encompassing 590 living contemporary artists
+spanning 17 years (1996 to 2012) across 23 countries.” It includes the
+artist’s name, nationality, and birth year; the artwork’s name, year,
+medium, and dimensions; the auction date, house, initial estimates, and
+final sale price; and more. The sales information comes from <a
+href="https://www.blouinartsalesindex.com/">Blouin</a>, which the
+researchers “cross-check[ed] with publicly available auction house data
+at the time, such as Christie’s and Sotheby’s.”</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send highest-bid feedback
+to jsvine@gmail.com, or just reply to this email. // Looking for past
+datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. // Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions.</em></p>
+]]></content>
+    <link href="http://www.data-is-plural.com/archive/2024-08-07-edition" rel="alternate"/>
+    <summary>State/local government employment, railroad incidents, Ireland’s gender pay gaps, weather balloons, and art auction sales.</summary>
+    <published>2024-08-07T08:00:00-04:00</published>
+  </entry>
   <entry>
     <id>dip-2024-07-31</id>
     <title>Data Is Plural — 2024.07.31 edition</title>
@@ -1135,136 +1259,5 @@ DIP+ member</a>.</em></p>
     <link href="http://www.data-is-plural.com/archive/2024-05-08-edition" rel="alternate"/>
     <summary>US greenhouse gas accounting, emergency room visits, global entrepreneurship, video gaming layoffs, and poisonous book bindings.</summary>
     <published>2024-05-08T08:00:00-04:00</published>
-  </entry>
-  <entry>
-    <id>dip-2024-05-01</id>
-    <title>Data Is Plural — 2024.05.01 edition</title>
-    <updated>2024-05-01T08:00:00-04:00</updated>
-    <content type="CDATA"><![CDATA[<p><em>Prison commissary prices, historical markers, biological numbers,
-openly-licensed video transcripts, and Agatha Christie’s
-bibliography.</em></p>
-<p> </p>
-<p><em>📬 Reader <a href="https://twitter.com/jeremybney">Jeremy Ney</a>
-has just published <a
-href="https://americaninequality.substack.com/p/wiretaps-and-inequality">an
-edition of his American Inequality newsletter</a> that analyzes <a
-href="https://www.uscourts.gov/statistics-reports/analysis-reports/wiretap-reports">the
-wiretap data</a> featured in <a
-href="https://www.data-is-plural.com/archive/2019-07-03-edition/">DIP
-2019.07.03</a>. (Have you published something with data you found via
-Data Is Plural? <a
-href="https://docs.google.com/forms/d/e/1FAIpQLSdXXD5eO05w0Xa7bwG3Ppia3uzr_o3y-xDEZuWRfXbCfCu_XA/viewform">Click
-here to let me know</a>.)</em></p>
-<p> </p>
-<p><strong>Prison commissary prices.</strong> Through a series of public
-records requests, reporters at <a href="https://theappeal.org/">The
-Appeal</a> have <a
-href="https://theappeal.org/locked-in-priced-out-commissary-database-methodology/">constructed</a>
-the “<a href="https://theappeal.org/commissary-database/">first national
-database of prison commissary lists</a>,” based on documents provided by
-46 states. The database contains <a
-href="https://github.com/the-appeal/commissary-data/">three tables</a>.
-The <a
-href="https://github.com/the-appeal/commissary-data/blob/main/data/commissary-lists-20240417.csv">first</a>
-links to, and provides metadata about, each list. The <a
-href="https://github.com/the-appeal/commissary-data/blob/main/data/commissary-summaries-20240417.csv">second</a>
-summarizes each state’s prices for two dozen types of products — such as
-ramen, toothpaste, and rosary beads — across three categories: food,
-personal care/hygiene, and religious items. The <a
-href="https://github.com/the-appeal/commissary-data/blob/main/data/commissary-prices-20240417.csv">third
-table</a> provides 2,200+ commissary-specific prices for those products.
-<strong>Read more</strong>: “<a
-href="https://theappeal.org/locked-in-priced-out-how-much-prison-commissary-prices/">Locked
-In, Priced Out: How Prison Commissary Price-Gouging Preys on the
-Incarcerated</a>,” by reporters <a
-href="https://theappeal.org/authors/elizabeth-weill-greenberg/">Elizabeth
-Weill-Greenberg</a> and <a
-href="https://theappeal.org/authors/ethan-corey/">Ethan Corey</a>. [h/t
-<a href="https://jqwhitcomb.com/">JQ Whitcomb</a>]</p>
-<p> </p>
-<p><strong>Historical markers.</strong> <a
-href="https://www.hmdb.org/about.asp">Launched in 2006</a>, the <a
-href="https://www.hmdb.org/">Historical Marker Database</a> “is an
-illustrated searchable online catalog of historical information viewed
-through the filter of […] permanent outdoor markers, monuments, and
-plaques.” The <a href="https://www.hmdb.org/faq.asp">crowdsourced</a>
-project has documented 195,000+ markers in the US, plus thousands more
-in Canada, Mexico, the UK, and elsewhere. You can browse them <a
-href="https://www.hmdb.org/geolists.asp">by location</a> and <a
-href="https://www.hmdb.org/categories.asp">by topic</a>, and download
-data corresponding to each collection. You can also <a
-href="https://www.hmdb.org/search.asp">search</a> by person, keyword,
-historical date, and other attributes. <strong>As seen in</strong>: “<a
-href="https://www.npr.org/2024/04/21/1244899635/civil-war-confederate-statue-markers-sign-history">Historical
-markers are everywhere in America. Some get history wrong</a>,” by NPR’s
-<a href="https://www.npr.org/people/4624985/laura-sullivan">Laura
-Sullivan</a> and <a
-href="https://www.npr.org/people/1083208720/nick-mcmillan">Nick
-McMillan</a>, with <a
-href="https://github.com/NPR-investigations/off-the-mark">associated
-data analysis</a>. [h/t <a
-href="https://www.numlock.com/p/numlock-news-april-22-2024-ghosts">Walt
-Hickey</a>]</p>
-<p> </p>
-<p><strong>Biological numbers.</strong> <a
-href="https://bionumbers.hms.harvard.edu/search.aspx">BioNumbers</a>
-wants “you to find in one minute any useful molecular biology number
-that can be important for your research.” As its creators <a
-href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2808940/">Ron Milo et
-al. described in 2010</a>, those numbers “range from cell sizes to
-metabolite concentrations, from reaction rates to generation times, from
-genome sizes to the number of mitochondria in a cell.” You can search,
-<a href="https://bionumbers.hms.harvard.edu/browse.aspx">browse</a>, and
-<a href="https://bionumbers.hms.harvard.edu/resources.aspx">download</a>
-more than 14,000 entries. Each includes a number and/or range, units and
-method of measurement, relevant organism, and source. For instance: <a
-href="https://bionumbers.hms.harvard.edu/bionumber.aspx?id=100002&amp;ver=12&amp;trm=100002&amp;org=">The
-diameter of an <em>e. coli</em> cell is 1-1.1 micrometers</a>, the <a
-href="https://bionumbers.hms.harvard.edu/bionumber.aspx?id=112478&amp;ver=0&amp;trm=red+blood+cell&amp;org=a">lifespan
-of a human red blood cell is 70-140 days</a>, and a <a
-href="https://bionumbers.hms.harvard.edu/bionumber.aspx?id=100282&amp;ver=6&amp;trm=genome&amp;org=">chicken’s
-genome has 1.05 billion base pairs</a>.</p>
-<p> </p>
-<p><strong>Openly-licensed video transcripts.</strong> The <a
-href="https://huggingface.co/datasets/PleIAs/YouTube-Commons">YouTube-Commons</a>
-dataset, built by a French startup, contains 15 million original and
-auto-translated audio transcripts from 2 million <a
-href="https://creativecommons.org/share-your-work/cclicenses/">Creative
-Commons–licensed</a> YouTube videos, sourced from 400,000+ channels. The
-dataset indicates each video’s YouTube ID, title, channel, and date, as
-well as each transcript’s original language, translated language, word
-count, and character count. Translations are available primarily in
-Dutch, English, French, German, Italian, Russian, and Spanish. [h/t <a
-href="https://datamachina.substack.com/p/data-machina-250">Data
-Machina</a>]</p>
-<p> </p>
-<p><strong>Agatha Christie’s bibliography.</strong> <a
-href="https://www.nicoledesignsdata.net/">Nicole Mark</a> has compiled a
-<a
-href="https://docs.google.com/spreadsheets/d/1A8ZRe5KLLAllhT31pCzke4j5qAPqeMKf0jYgyJXcoPs/edit#gid=0">dataset
-of Agatha Christie’s published stories</a>, covering 75 novels, 154
-short stories, and 22 short story collections. The spreadsheets provide
-each work’s title and the character-based series to which it belongs
-(e.g., Hercule Poirot, Miss Marple, etc.). The novel and collection
-entries also indicate their year of initial publication, while the
-short-story entries list the collections that included them.</p>
-<p> </p>
-<p><em>👋 <a href="https://www.data-is-plural.com/plus/">DIP+
-members</a> got a sneak peek of this edition’s datasets on Monday, plus
-pointers to a few extra. You can support the newsletter and your career
-by <a href="https://www.data-is-plural.com/plus/">becoming a
-member</a>.</em></p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send mysterious feedback
-to jsvine@gmail.com, or just reply to this email. // Looking for past
-datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. // Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and to browse past editions.</em></p>
-]]></content>
-    <link href="http://www.data-is-plural.com/archive/2024-05-01-edition" rel="alternate"/>
-    <summary>Prison commissary prices, historical markers, biological numbers, openly-licensed video transcripts, and Agatha Christie’s bibliography.</summary>
-    <published>2024-05-01T08:00:00-04:00</published>
   </entry>
 </feed>
