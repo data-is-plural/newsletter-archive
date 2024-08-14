@@ -6,7 +6,140 @@
     <description>A weekly newsletter of useful/curious datasets.</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>https://github.com/data-is-plural/newsletter-archive</generator>
-    <lastBuildDate>Wed, 07 Aug 2024 08:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 14 Aug 2024 08:00:00 -0400</lastBuildDate>
+    <item>
+      <title>Data Is Plural — 2024.08.14 edition</title>
+      <link>http://www.data-is-plural.com/archive/2024-08-14-edition</link>
+      <description>The Freedman’s Bank, recreational boating accidents, Western water rights, real-time UK voter registrations, and watching grass grow.</description>
+      <content:encoded><![CDATA[<p><em>The Freedman’s Bank, recreational boating accidents, Western
+water rights, real-time UK voter registrations, and watching grass
+grow.</em></p>
+<p> </p>
+<p><em>📬 Reader <a
+href="https://www.linkedin.com/in/shymanskaya-data-science/">Alexandra
+F</a> has used the <a
+href="https://docs.google.com/spreadsheets/d/11fk5YeQ4eFOnYSBNpUdHp4TP42gJ7wY5/edit?gid=970169931#gid=970169931">ancient
+shipwreck data</a> featured in <a
+href="https://www.data-is-plural.com/archive/2024-07-10-edition/">DIP
+2024.07.10</a> to build a <a
+href="https://medium.com/@alexandrafiona/unveiling-ancient-maritime-history-a-data-driven-journey-through-shipwrecks-across-time-and-space-1249b39fca67">series
+of maps</a> for each historical sub-period. (Have you published
+something with data you found via DIP? <a
+href="https://docs.google.com/forms/d/e/1FAIpQLSdXXD5eO05w0Xa7bwG3Ppia3uzr_o3y-xDEZuWRfXbCfCu_XA/viewform">Click
+here to let me know</a>.)</em></p>
+<p> </p>
+<p><strong>The Freedman’s Bank.</strong> The <a
+href="https://en.wikipedia.org/wiki/Freedman%27s_Savings_Bank">Freedman’s
+Savings and Trust Company</a> was chartered by Congress in 1865, toward
+the end of the Civil War, to provide banking services to formerly
+enslaved Americans. “Though the bank achieved some early successes, it
+failed catastrophically in 1874, destroying the savings of a broad swath
+of newly freed black citizens,” write <a
+href="https://www.malcolmwardlaw.info/">Malcolm Wardlaw</a> and <a
+href="https://www.virginiatraweek.com/">Virginia Traweek</a>, who have
+<a href="https://freedmansbank.uga.edu/">constructed several
+datasets</a> based on handwritten records preserved by the federal
+government. One dataset lists <a
+href="https://freedmansbank.uga.edu/project/passbooks/">5,000+
+transactions</a> from 500+ accounts’ “passbooks”, indicating the account
+holder, city, transaction type, date, and amount. Another lists <a
+href="https://freedmansbank.uga.edu/project/dividendrecord/">40,000+
+accounts’ final balances</a> at the time of the bank’s failure.
+<strong>Read more</strong>: <a
+href="https://freedmansbank.uga.edu/#publications">Wardlaw and Traweek’s
+studies analyzing the records</a>.</p>
+<p> </p>
+<p><strong>Recreational boating accidents.</strong> In the US,
+recreational boaters <a
+href="https://uscgboating.org/recreational-boaters/accident-reporting.php">must
+notify state authorities</a> soon after any incident involving a death,
+serious injury, disappearance, or substantial damage. The authorities
+relay those notifications to the Coast Guard, which stores them in its
+centralized <a
+href="https://www.dhs.gov/publication/dhsuscgpia-011-boating-accident-report-database-bard">Boating
+Accident Report Database</a>. The <a
+href="https://www.data-liberation-project.org/">Data Liberation
+Project</a> (which, customary disclosure, I run) <a
+href="https://www.data-liberation-project.org/requests/uscg-boating-accident-report-database/">filed
+a FOIA request</a> for the database and, earlier this week, <a
+href="https://buttondown.com/data-liberation-project/archive/dlp-dispatch-17/">published</a>
+the <a
+href="https://www.data-liberation-project.org/datasets/uscg-boating-accident-report-database/">records
+it received</a>. The data describe 58,000+ boating accidents, 78,000+
+vessels, 8,900+ deaths, and 36,000+ injuries from 2009 to 2023, although
+a few states and territories withheld their incidents from disclosure.
+<strong>Read more</strong>: <a
+href="https://docs.google.com/document/d/1lk0dnACzcj3Yo6DAjZbGKf_zFYkymor5IDwNxypnZpc/edit">The
+Data Liberation Project’s introductory documentation</a>.</p>
+<p> </p>
+<p><strong>Western water rights.</strong> <a
+href="https://www.nature.com/articles/s41597-024-03434-6">Matthew D.
+Lisk et al.</a> have compiled and standardized a <a
+href="https://data.msdlive.org/records/dfkx0-hew78">dataset of water
+rights records</a> — key documents in the allocation of the scarce
+resource — in the Western United States. Drawing on <a
+href="https://data.msdlive.org/records/8y9nq-bdt52">raw data</a>
+collected from 11 states, the <a
+href="https://data.msdlive.org/records/h79e1-k3h91">harmonized
+dataset</a> “provides consistent unique identifiers for each spatial
+unit of water management across the domain, unique identifiers for each
+water right record, and a consistent categorization scheme that puts
+each water right record into one of 7 broad use categories.” Those
+categories: irrigation, domestic, livestock, fish, industrial,
+environmental, and other. The authors have also published a <a
+href="https://data.msdlive.org/records/v5ree-qj344">set of shapefiles
+outlining each water management area’s boundaries</a>.</p>
+<p> </p>
+<p><strong>Real-time UK voter registrations.</strong> The UK
+government’s <a
+href="https://www.registertovote.service.gov.uk/performance">voter
+registration statistics dashboard</a> updates hundreds of times per day.
+It provides downloadable data on <a
+href="https://www.registertovote.service.gov.uk/performance/live_usage">the
+number of online applications in each five-minute interval in the past
+24 hours</a> and daily counts broken down by <a
+href="https://www.registertovote.service.gov.uk/performance/applications_breakdown">online
+vs. paper applications</a>, <a
+href="https://www.registertovote.service.gov.uk/performance/applications_by_age_group">age
+group</a>, <a
+href="https://www.registertovote.service.gov.uk/performance/applications_by_type">elector
+type</a>, and <a
+href="https://www.registertovote.service.gov.uk/performance/applications_by_nation">nation</a>.
+[h/t <a
+href="https://buttondown.com/puntofisso/archive/569-quantum-of-sollazzo/">Giuseppe
+Sollazzo</a>]</p>
+<p> </p>
+<p><em>👋 The first two links in the item below seem to be returning
+HTTP errors this morning. In case they’re still not working when you
+receive the newsletter, try these archived versions: <a
+href="https://web.archive.org/web/20240801142116/https://jornada.nmsu.edu/">1</a>,
+<a
+href="https://web.archive.org/web/20240801163657/https://jornada.nmsu.edu/about">2</a>.</em></p>
+<p> </p>
+<p><strong>Watching grass grow.</strong> The <a
+href="https://jornada.nmsu.edu/">Jornada Experimental Range</a>, <a
+href="https://jornada.nmsu.edu/about">run by</a> the USDA’s Agricultural
+Research Service, “is one of the longest serving laboratories focused on
+rangelands and drylands in the world.” Located north of Las Cruces,
+N.M., the site has operating since the 1910s. A few years ago, <a
+href="https://esajournals.onlinelibrary.wiley.com/doi/10.1002/ecy.3530">Erica
+Christensen et al.</a> published a <a
+href="https://portal.edirepository.org/nis/mapbrowse?packageid=knb-lter-jrn.210351004.2">dataset
+of grass and shrub growth</a> within 122 one-meter-by-one-meter squares
+on the range from 1915 to 2016, containing roughly 200,000
+observations.</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send arid feedback to
+jsvine@gmail.com, or just reply to this email. // Looking for past
+datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. // Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions.</em></p>
+]]></content:encoded>
+      <guid isPermaLink="false">dip-2024-08-14</guid>
+      <pubDate>Wed, 14 Aug 2024 08:00:00 -0400</pubDate>
+    </item>
     <item>
       <title>Data Is Plural — 2024.08.07 edition</title>
       <link>http://www.data-is-plural.com/archive/2024-08-07-edition</link>
@@ -1104,148 +1237,6 @@ DIP+ member</a>.</em></p>
 ]]></content:encoded>
       <guid isPermaLink="false">dip-2024-05-15</guid>
       <pubDate>Wed, 15 May 2024 08:00:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Data Is Plural — 2024.05.08 edition</title>
-      <link>http://www.data-is-plural.com/archive/2024-05-08-edition</link>
-      <description>US greenhouse gas accounting, emergency room visits, global entrepreneurship, video gaming layoffs, and poisonous book bindings.</description>
-      <content:encoded><![CDATA[<p><em>US greenhouse gas accounting, emergency room visits, global
-entrepreneurship, video gaming layoffs, and poisonous book
-bindings.</em></p>
-<p> </p>
-<p><em>🎙 <a
-href="https://podcast.data-is-plural.com/2159594/15027348-bonus-episode-hold-the-line-by-loud-numbers">Hold
-The Line</a> is a bonus, crossover episode now available in the <a
-href="https://podcast.data-is-plural.com/">Data Is Plural podcast
-feed</a>. It was created by <a href="https://miriamquick.com/">Miriam
-Quick</a> and <a href="https://www.duncangeere.com/">Duncan Geere</a>,
-whose <a href="https://www.loudnumbers.net/podcast">Loud Numbers
-podcast</a> turns data into sound. In this episode, they have woven data
-on Canadian wildfires into a sonic tapestry, threaded with descriptions
-of the 2023 fire season by <a
-href="https://www.earthkin.ca/fernyip">Fern Yip</a>, who spent much of
-it fighting to save her home and school from burning. You can also <a
-href="https://podcasters.spotify.com/pod/show/loudnumbers/episodes/Hold-the-Line-e2i78vs">listen
-to the episode</a> in <a
-href="https://podcasters.spotify.com/pod/show/loudnumbers/">Loud
-Numbers’ own podcast feed</a>, and <a
-href="https://docs.google.com/document/d/1QReQWDyc_MGIs2W_C-PW-TIRq5q_tg5-kbWo6jpzcpk/edit">read
-their show notes</a>.</em></p>
-<p> </p>
-<p> </p>
-<p><strong>US greenhouse gas accounting.</strong> The <a
-href="https://www.epa.gov/ghgemissions/inventory-us-greenhouse-gas-emissions-and-sinks">Inventory
-of U.S. Greenhouse Gas Emissions and Sinks</a>, <a
-href="https://www.epa.gov/ghgemissions/us-greenhouse-gas-inventory-report-archive">published
-annually by the EPA</a>, “provides a comprehensive accounting of total
-greenhouse gas emissions for all man-made sources in the United States,”
-as well as the removal of carbon dioxide from the atmosphere
-attributable to “land use, land-use change, and forestry.” The reports
-contain a slew of data tables. Those in the <a
-href="https://www.epa.gov/ghgemissions/inventory-us-greenhouse-gas-emissions-and-sinks-1990-2022">latest
-edition</a>, which covers 1990 through 2022, include total emissions by
-year and economic sector; transportation-related emissions by vehicle
-type and gas emitted; removals by land-use category; and more.
-<strong>Previously</strong>: <a
-href="https://ghgdata.epa.gov/ghgp/main.do#/facility/">EPA’s
-facility-level emissions data</a> (<a
-href="https://www.data-is-plural.com/archive/2023-09-20-edition/">DIP
-2023.09.20</a>). [h/t <a
-href="https://www.sciencedirect.com/science/article/pii/S2352340924001446">Ben
-Young et al.</a>]</p>
-<p> </p>
-<p><strong>Emergency room visits.</strong> The CDC’s <a
-href="https://www.cdc.gov/nchs/ahcd/about_ahcd.htm">National Hospital
-Ambulatory Medical Care Survey</a>, conducted annually since 1992, is
-based on patient records from a strategic sample of emergency department
-visits in “noninstitutional general and short-stay hospitals”. Its <a
-href="https://www.cdc.gov/nchs/ahcd/datasets_documentation_related.htm">public,
-anonymized data</a> indicate the patient’s time of arrival, length of
-wait, and length of visit; the their demographic information, vital
-signs, and reasons for visiting; the hospital’s diagnoses, medications
-given, tests and procedures conducted; and much more. The most recent
-release includes 16,000+ visits that occurred in 2021. <strong>As seen
-in</strong>: “<a
-href="https://andrewpwheeler.com/2024/03/30/grabbing-the-nhamcs-emergency-room-data-in-python/">Grabbing
-the NHAMCS emergency room data in python</a>,” a blog post by <a
-href="https://andrewpwheeler.com/about/">Andrew P. Wheeler</a>.
-<em>[Update, 2024.05.15: Reader <a
-href="https://www.linkedin.com/in/brad-skillman-6a87b110/">Brad
-Skillman</a> helpfully flags that, alas, the NHAMCS has <a
-href="https://www.cdc.gov/nchs/ahcd/notice.htm#anchor_1678674377785">ceased
-collecting new data</a>. Per the CDC: “Although NHAMCS is ending data
-collection, emergency department data collection and estimates will
-continue to be available […] through the <a
-href="https://www.cdc.gov/nchs/nhcs/index.htm">National Hospital Care
-Survey</a>.]</em></p>
-<p> </p>
-<p><strong>Global entrepreneurship.</strong> The <a
-href="https://www.gemconsortium.org/">Global Entrepreneurship
-Monitor</a>, active since 1999, considers itself “the world’s foremost
-study of entrepreneurship.” A collaboration between <a
-href="https://en.wikipedia.org/wiki/Babson_College">Babson College</a>
-and the <a
-href="https://en.wikipedia.org/wiki/London_Business_School">London
-Business School</a>, the project <a
-href="https://www.gemconsortium.org/data">publishes national and
-response-level data from two main surveys</a>. The <a
-href="https://www.gemconsortium.org/data/sets?id=aps">Adult Population
-Survey</a>, answered over the years by millions of respondents around
-the world, examines “the characteristics, motivations and ambitions of
-individuals starting businesses, as well as social attitudes towards
-entrepreneurship.” The <a
-href="https://www.gemconsortium.org/data/sets?id=nes">National Expert
-Survey</a>, meanwhile, assesses factors <a
-href="https://www.gemconsortium.org/wiki/1154">such as</a> access to
-financing, physical infrastructure, and government support.</p>
-<p> </p>
-<p><strong>Video gaming layoffs.</strong> <a
-href="https://publish.obsidian.md/vg-layoffs/">Game Industry
-Layoffs</a>, run by <a href="https://twitter.com/dekaf">@dekaf</a>,
-lists <a
-href="https://publish.obsidian.md/vg-layoffs/Misc/About+%26+Contact">known</a>
-staffing cuts at video game studios, publishers, and related companies.
-Each entry provides the company’s name, type, parent company (for
-subsidiaries), layoff date, estimated number of employees laid off, and
-source link. In <a
-href="https://publish.obsidian.md/vg-layoffs/Archive/2023">2023</a>, the
-site tallied 10,000+ employees affected by 170+ layoffs; in <a
-href="https://publish.obsidian.md/vg-layoffs/Archive/2024">2024 so
-far</a>, the employee count is already nearly that high, spread across
-~100 layoffs. <strong>As seen in</strong>: “<a
-href="https://observablehq.com/@benoldenburg/visualizing-games-industry-layoffs">Visualizing
-Games Industry Layoffs</a>,” by <a href="https://oldenburg.design">Ben
-Oldenburg</a>. [h/t <a
-href="https://blog.datawrapper.de/data-vis-dispatch-march-26-2024/">Vivien
-Serve</a>]</p>
-<p> </p>
-<p><strong>Poisonous book bindings.</strong> As recently as the 1800s,
-<a href="https://en.wikipedia.org/wiki/Paris_green">green pigments</a>
-<a href="https://en.wikipedia.org/wiki/Scheele%27s_Green">containing
-arsenic</a> were in fairly wide use. The <a
-href="https://sites.udel.edu/poisonbookproject/arsenical-books-database/">Arsenical
-Books Database</a> — part of the <a
-href="https://www.winterthur.org/">Winterthur Museum</a> and the
-University of Delaware’s <a
-href="https://sites.udel.edu/poisonbookproject/">Poison Book Project</a>
-— has identified hundreds of examples of 19th-century books that used
-these colorants in their covers and other binding components. The
-database lists each book’s title, author, imprint, publication year,
-arsenical material, testing method, and owner. [h/t <a
-href="https://tmerrittsmith.github.io/">Tom Merritt Smith</a>]</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send unpoisoned feedback
-to jsvine@gmail.com, or just reply to this email. // Looking for past
-datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. // Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and to browse past editions. // Support the newsletter and
-your career by <a href="https://www.data-is-plural.com/plus/">becoming a
-DIP+ member</a>.</em></p>
-]]></content:encoded>
-      <guid isPermaLink="false">dip-2024-05-08</guid>
-      <pubDate>Wed, 08 May 2024 08:00:00 -0400</pubDate>
     </item>
   </channel>
 </rss>
