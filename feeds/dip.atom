@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.data-is-plural.com</id>
   <title>Data Is Plural</title>
-  <updated>2024-08-14T08:00:00-04:00</updated>
+  <updated>2024-08-21T08:00:00-04:00</updated>
   <author>
     <name>Jeremy Singer-Vine</name>
     <email>jsvine@gmail.com</email>
@@ -10,6 +10,123 @@
   <link href="https://www.data-is-plural.com" rel="alternate"/>
   <generator>https://github.com/data-is-plural/newsletter-archive</generator>
   <subtitle>A weekly newsletter of useful/curious datasets.</subtitle>
+  <entry>
+    <id>dip-2024-08-21</id>
+    <title>Data Is Plural — 2024.08.21 edition</title>
+    <updated>2024-08-21T08:00:00-04:00</updated>
+    <content type="CDATA"><![CDATA[<p><em>H-1B lotteries, multinational corporations, California
+residential water supply, UK grantmakers, and Olympic
+medalists.</em></p>
+<p> </p>
+<p><em>👋 Data Is Plural will be taking a short break, returning to your
+inbox in September.</em></p>
+<p> </p>
+<p><strong>H-1B lotteries.</strong> A <a
+href="https://www.bloomberg.com/graphics/2024-staffing-firms-game-h1b-visa-lottery-system/">recent
+Bloomberg News investigation</a> into the US government’s annual H-1B
+lottery, a key step in allocating the country’s skilled-worker visas,
+finds that “thousands of companies got an unfair advantage by helping
+themselves to extra lottery tickets.” To reach those conclusions, the
+team “obtained data on all H-1B lottery registrations, selections, and
+petitions for fiscal years 2021 through 2024 after bringing a lawsuit
+against the Department of Homeland Security under the Freedom of
+Information Act.” They’ve <a
+href="https://github.com/BloombergGraphics/2024-h1b-immigration-data">shared
+the records</a>, which indicate each registration’s employer, as well as
+the proposed beneficiary’s gender, nationality, and birth year. For
+registrations that led to visa petitions, the data include additional
+details, such as the worksite, salary, job title, and beneficiary’s
+field of study. [h/t <a
+href="https://www.linkedin.com/posts/ericfan24_every-year-a-random-drawing-determines-which-activity-7224534067688427520-QyqO/">Eric
+Fan</a>]</p>
+<p> </p>
+<p><strong>Multinational corporations.</strong> The <a
+href="https://www.oecd.org/en/data/dashboards/oecd-unsd-multinational-enterprise-information-platform.html">Multinational
+Enterprise Information Platform</a>, a <a
+href="https://unstats.un.org/unsd/business-stat/mne-platform/">collaboration</a>
+between the <a href="https://en.wikipedia.org/wiki/OECD">OECD</a> and
+the <a
+href="https://en.wikipedia.org/wiki/United_Nations_Statistics_Division">UN
+Statistics Division</a>, provides <a
+href="https://www.oecd.org/en/publications/the-oecd-unsd-multinational-enterprise-information-platform_b7d90a06-en.html">publicly
+sourced</a> data on the 500 multinational corporations with the largest
+<a href="https://en.wikipedia.org/wiki/Market_capitalization">market
+capitalization</a>. Its “Global Register” dataset examines the
+companies’ structure, listing each subsidiary’s name, parent company,
+address, alternative names, and various unique identifiers. The “Digital
+Register” dataset lists all known web domains controlled by each company
+and assessments of those domains’ popularity. The platform’s “Media
+Monitor” feature, although not downloadable, links to news articles and
+other webpages mentioning the companies. [h/t <a
+href="https://www.linkedin.com/posts/annieburnspieper_corporatetransparency-opendata-financialcrime-activity-7224812619063324673-0HZZ/">Annie
+Burns-Pieper</a>]</p>
+<p> </p>
+<p><strong>California residential water supply.</strong> <a
+href="https://www.nature.com/articles/s41597-024-03474-y">Marie-Philine
+Gross et al.</a>’s <a
+href="https://www.hydroshare.org/resource/4ec7019fe63944bf87d40d2cdfa0d686/">dataset
+of residential water demand and supply in California</a> includes the
+monthly volumes of water produced/sold by 404 of the state’s water
+suppliers, covering 2013–2021. The researchers extracted, standardized,
+and cleaned the data from the state’s <a
+href="https://www.waterboards.ca.gov/drinking_water/certlic/drinkingwater/ear.html">mandatory
+annual reports</a>, which collect thousands of data points from each
+supplier. They also added contextual information, such as climatic data
+(monthly local precipitation, temperature, and <a
+href="https://en.wikipedia.org/wiki/Palmer_drought_index">drought
+severity</a>) and each supplier’s <a
+href="https://cww.water.ca.gov/regionscale">hydrologic region</a>.</p>
+<p> </p>
+<p><strong>UK grantmakers.</strong> The <a
+href="https://www.ukgrantmaking.org/">UK Grantmaking initiative</a> “is
+a unique cross-sector collaboration between” <a
+href="https://www.ukgrantmaking.org/partners/">several major
+organizations in the field</a>. Their <a
+href="https://www.ukgrantmaking.org/report/2024/methodology-data/#Full%20data">downloadable
+dataset</a> provides information about 12,000+ trusts, foundations,
+charities, and other grantmakers for financial year 2022-23, <a
+href="https://www.ukgrantmaking.org/report/2024-06/methodology-data/">based
+on records</a> from government regulators. The dataset lists each
+organization’s name, government-assigned ID, location, category,
+registration date, income, spending totals, net assets, and more.
+<strong>Previously</strong>: <a
+href="https://grantnav.threesixtygiving.org/datasets/">UK grants</a> via
+<a href="https://www.threesixtygiving.org/">360Giving</a> (<a
+href="https://www.data-is-plural.com/archive/2018-12-05-edition/">DIP
+2018.12.05</a>). [h/t <a
+href="https://buttondown.email/puntofisso/archive/569-quantum-of-sollazzo/">Giuseppe
+Sollazzo</a>]</p>
+<p> </p>
+<p><strong>Olympic medalists.</strong> The <a
+href="https://www.europeandatajournalism.eu/">European Data Journalism
+Network</a>’s <a href="https://giorgiocomai.eu/">Giorgio Comai</a> has
+used Wikipedia and Wikidata to create a <a
+href="https://edjnet.github.io/OlympicsGoNUTS/">series of datasets</a>
+listing the name, birth date, sex, and birthplace of Summer Olympic
+medalists. Comai has <a
+href="https://edjnet.github.io/OlympicsGoNUTS/2024/medalists_map.html">mapped</a>
+the birthplace coordinates and, for Europe-born medalists, linked them
+to their <a
+href="https://ec.europa.eu/eurostat/web/gisco/geodata/statistical-units/territorial-units-statistics">NUTS
+regions</a>. The project focuses on the <a
+href="https://edjnet.github.io/OlympicsGoNUTS/2024/">2024</a> and <a
+href="https://edjnet.github.io/OlympicsGoNUTS/2020/">2020</a> Summer
+Olympics but also provides provisional data for other recent iterations.
+[h/t <a href="https://www.europeandatajournalism.eu/about/">Federico
+Caruso</a>]</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send world-best feedback
+to jsvine@gmail.com, or just reply to this email. // Looking for past
+datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. // Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions.</em></p>
+]]></content>
+    <link href="http://www.data-is-plural.com/archive/2024-08-21-edition" rel="alternate"/>
+    <summary>H-1B lotteries, multinational corporations, California residential water supply, UK grantmakers, and Olympic medalists.</summary>
+    <published>2024-08-21T08:00:00-04:00</published>
+  </entry>
   <entry>
     <id>dip-2024-08-14</id>
     <title>Data Is Plural — 2024.08.14 edition</title>
@@ -1106,149 +1223,5 @@ DIP+ member</a>.</em></p>
     <link href="http://www.data-is-plural.com/archive/2024-05-22-edition" rel="alternate"/>
     <summary>Federal court dockets, Amazon purchases, Security Council resolutions, satellite-aided rescues, and protected wines.</summary>
     <published>2024-05-22T08:00:00-04:00</published>
-  </entry>
-  <entry>
-    <id>dip-2024-05-15</id>
-    <title>Data Is Plural — 2024.05.15 edition</title>
-    <updated>2024-05-15T08:00:00-04:00</updated>
-    <content type="CDATA"><![CDATA[<p><em>Unaccompanied migrant children, greenhouse gas giants, 1 million
-ChatGPT conversations, England sewer discharge, and LA street
-trees.</em></p>
-<p> </p>
-<p><em>📬 Reader <a href="https://enjalot.github.io/">Ian Johnson</a>
-has published <a
-href="https://enjalot.github.io/latent-scope/us-federal-laws">an
-exploration US federal law titles</a>, based on <a
-href="https://osf.io/qa289">Brian Libgober’s dataset</a> featured in <a
-href="https://www.data-is-plural.com/archive/2024-02-28-edition/">DIP
-2024.02.28</a>. (Have you published something with data you found via
-Data Is Plural? <a
-href="https://docs.google.com/forms/d/e/1FAIpQLSdXXD5eO05w0Xa7bwG3Ppia3uzr_o3y-xDEZuWRfXbCfCu_XA/viewform">Click
-here to let me know</a>.)</em></p>
-<p> </p>
-<p><em>📬 Reader <a
-href="https://www.linkedin.com/in/brad-skillman-6a87b110/">Brad
-Skillman</a> helpfully flags that, alas, the <a
-href="https://www.cdc.gov/nchs/ahcd/about_ahcd.htm">National Hospital
-Ambulatory Medical Care Survey</a> (<a
-href="https://www.data-is-plural.com/archive/2024-05-08-edition/">featured
-last week</a>) has <a
-href="https://www.cdc.gov/nchs/ahcd/notice.htm#anchor_1678674377785">ceased
-collecting new data</a>. Per the CDC: “Although NHAMCS is ending data
-collection, emergency department data collection and estimates will
-continue to be available […] through the <a
-href="https://www.cdc.gov/nchs/nhcs/index.htm">National Hospital Care
-Survey</a>.”</em></p>
-<p> </p>
-<p><strong>Unaccompanied migrant children.</strong> The New York Times’
-<a href="https://www.hannahdreier.com/">Hannah Dreier</a> was <a
-href="https://www.pulitzer.org/winners/hannah-dreier-new-york-times">awarded
-a Pulitzer Prize last week</a> for a “series of stories revealing the
-stunning reach of migrant child labor across the United States—and the
-corporate and governmental failures that perpetuate it.” That reporting,
-<a
-href="https://www.nytimes.com/2023/03/03/insider/searching-for-the-faces-of-child-migrant-labor.html">Dreier
-has noted</a>, was partly driven by <a
-href="https://github.com/nytimes/hhs-child-migrant-data">data she
-obtained from the Department of Health and Human Services</a> via a FOIA
-request and lawsuit. The dataset, published in December <a
-href="https://www.nytimes.com/interactive/2023/12/28/us/migrants-children-data.html">along
-with visualizations</a>, describes the placement of 550,000+
-unaccompanied migrant children with local sponsors between January 2015
-and May 2023: each child’s country of origin, gender, date of entry, and
-date of release to a sponsor, plus the sponsor’s ZIP code and
-relationship to the child. <strong>Read more</strong>: “The data pointed
-to spots I never would have thought of: Flandreau, South Dakota;
-Parksley, Virginia; Bozeman, Montana,” <a
-href="https://journalistsresource.org/media/migrant-children-labor-abuse-goldmith/">Dreier
-says</a>.</p>
-<p> </p>
-<p><strong>Greenhouse gas giants.</strong> <a
-href="https://carbonmajors.org/">Carbon Majors</a>, run by the UK-based
-<a href="https://influencemap.org/">InfluenceMap</a>, “is a database of
-historical production data from 122 of the world’s largest oil, gas,
-coal, and cement producers.” It attributes to these producers 1,421
-metric gigatons of <a
-href="https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Carbon_dioxide_equivalent">CO<sub>2</sub>-equivalent</a>
-emissions from 1854 through 2022. <a
-href="https://carbonmajors.org/briefing/The-Carbon-Majors-Database-26913">Launched
-last month</a>, the database provides <a
-href="https://carbonmajors.org/Downloads">downloads at several levels of
-granularity</a>. The least granular version indicates the emissions
-calculated for each entity-year combination. The most granular version
-breaks those emissions down by commodity produced, quantity of commodity
-produced, emitting activity, and reporting entity.</p>
-<p> </p>
-<p><strong>1 million ChatGPT conversations.</strong> The <a
-href="https://wildchat.allen.ai/">WildChat Dataset</a>, constructed by
-<a href="https://arxiv.org/abs/2405.01470">Wenting Zhao et al.</a>, “is
-a corpus of 1 million real-world user-ChatGPT interactions,
-characterized by a wide range of languages and a diversity of user
-prompts.” The researchers, primarily affiliated with Cornell and the <a
-href="https://allenai.org/">Allen Institute for AI</a>, built it “by
-offering free access to ChatGPT and GPT-4 in exchange for consensual
-chat history collection.” Each of the 1 million rows in the <a
-href="https://huggingface.co/datasets/allenai/WildChat-1M">dataset</a>
-represents a conversation and provides its text, main language,
-timestamp of its conclusion, underlying model used, moderation results,
-inferred country, and more. [h/t <a
-href="https://datamachina.substack.com/p/data-machina-251-aed">Data
-Machina</a>]</p>
-<p> </p>
-<p><strong>England sewage discharge.</strong> The UK’s Environment
-Agency <a
-href="https://environment.data.gov.uk/dataset/21e15f12-0df8-4bfc-b763-45226c16a8ac">collects
-data from utility companies</a> regarding sewage-discharging <a
-href="https://www.ofwat.gov.uk/about-us/ofwat-and-the-environment/pollution-and-water-quality/storm-overflows-explainer/">storm
-overflows</a> in England. The records, available for 2020–2023, list
-every reported overflow event, its timing and location, number of
-detected discharges, discharge points, and much more.
-<strong>Related</strong>: Wales overflow data are available from <a
-href="https://corporate.dwrcymru.com/en/community/environment/event-duration-monitoring">other</a>
-<a
-href="https://www.hdcymru.co.uk/regulatory-library/regulatory-library/">sources</a>.
-<strong>As seen in</strong>: Maps from <a
-href="https://theriverstrust.org/sewage-map">The Rivers Trust</a>, <a
-href="https://www.sas.org.uk/water-quality/sewage-pollution-alerts/">Surfers
-Against Sewage</a>, and <a
-href="https://www.theguardian.com/environment/ng-interactive/2024/mar/27/englands-sewage-crisis-how-polluted-is-your-local-river-and-which-regions-are-worst-hit">The
-Guardian</a>. [h/t <a
-href="https://buttondown.email/puntofisso/archive/558-quantum-of-sollazzo/">Giuseppe
-Sollazzo</a> + <a
-href="https://nightingaledvs.com/sewage-alerts-the-long-history-of-using-maps-to-hold-water-companies-to-account/">James
-Cheshire</a> + <a
-href="https://twitter.com/hughagraham/status/1454025196940181504">Hugh
-Graham</a>]</p>
-<p> </p>
-<p><strong>Los Angeles street trees.</strong> Journalist <a
-href="https://mattstiles.me/">Matt Stiles</a> has been using public
-records requests and official portals to compile <a
-href="https://github.com/stiles/la-trees">data on 1.6 million street
-trees in 40+ Los Angeles County municipalities</a>. The information
-varies by city but generally includes the tree’s coordinates and
-species, often also with measurements such as height and trunk diameter.
-<strong>Previously</strong>: Street trees in <a
-href="https://www.data-is-plural.com/archive/2022-09-07-edition/">DIP
-2022.09.07</a>, <a
-href="https://www.data-is-plural.com/archive/2020-11-18-edition/">DIP
-2020.11.18</a>, <a
-href="https://www.data-is-plural.com/archive/2018-08-08-edition/">DIP
-2018.08.08</a>, and <a
-href="https://www.data-is-plural.com/archive/2016-11-16-edition/">DIP
-2016.11.16</a>.</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send chlorophyllic
-feedback to jsvine@gmail.com, or just reply to this email. // Looking
-for past datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. // Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and to browse past editions. // Support the newsletter and
-your career by <a href="https://www.data-is-plural.com/plus/">becoming a
-DIP+ member</a>.</em></p>
-]]></content>
-    <link href="http://www.data-is-plural.com/archive/2024-05-15-edition" rel="alternate"/>
-    <summary>Unaccompanied migrant children, greenhouse gas giants, 1 million ChatGPT conversations, England sewer discharge, and LA street trees.</summary>
-    <published>2024-05-15T08:00:00-04:00</published>
   </entry>
 </feed>
