@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.data-is-plural.com</id>
   <title>Data Is Plural</title>
-  <updated>2024-08-21T08:00:00-04:00</updated>
+  <updated>2024-09-11T08:00:00-04:00</updated>
   <author>
     <name>Jeremy Singer-Vine</name>
     <email>jsvine@gmail.com</email>
@@ -10,6 +10,143 @@
   <link href="https://www.data-is-plural.com" rel="alternate"/>
   <generator>https://github.com/data-is-plural/newsletter-archive</generator>
   <subtitle>A weekly newsletter of useful/curious datasets.</subtitle>
+  <entry>
+    <id>dip-2024-09-11</id>
+    <title>Data Is Plural — 2024.09.11 edition</title>
+    <updated>2024-09-11T08:00:00-04:00</updated>
+    <content type="CDATA"><![CDATA[<p><em>The National Health and Nutrition Examination Survey, monthly
+crime trends, source code, Italian tax-to-charity allocations, and
+snakes.</em></p>
+<p> </p>
+<p><em>👋 Some exciting professional news: <a
+href="https://www.nytco.com/press/jeremy-singer-vine-joins-the-times-as-data-editor/">I’m
+joining The New York Times as their data editor</a>, leading a team of
+data reporters who’ll be collaborating with journalists across the
+newsroom. We’ll be hiring! If you’d like to be notified when those jobs
+open, <a
+href="https://docs.google.com/forms/d/e/1FAIpQLScIS4w50uJe3R0ixxzX4iJ8ib41nKRKM1mSHcKlfVLti1cviQ/viewform">please
+fill out this very short form</a>.</em></p>
+<p> </p>
+<p><strong>Health and nutrition.</strong> Since 1999, CDC <a
+href="https://www.cdc.gov/nchs/nhanes/about_nhanes.htm">has been
+continuously fielding</a> its <a
+href="https://www.cdc.gov/nchs/nhanes/index.htm">National Health and
+Nutrition Examination Survey</a>, interviewing and testing approximately
+5,000 people in 15 different counties each year. The survey combines
+“demographic, socioeconomic, dietary, and health-related questions” with
+an “examination component” involving “medical, dental, and physiological
+measurements, as well as laboratory tests administered by highly trained
+medical personnel.” Its <a
+href="https://wwwn.cdc.gov/nchs/nhanes/default.aspx">public-access data
+files</a> provide anonymized, respondent-level records and are currently
+available for surveys conducted through March 2020. <strong>As seen
+in</strong>: <a
+href="https://publichealth.jmir.org/2024/1/e53330">Catherine McDonough
+et al.</a>’s <a href="https://zenodo.org/records/10382740">dataset</a>
+and <a href="https://rstudio-connect.hpc.mssm.edu/POND/">interactive
+dashboard</a> “exploring factors associated with prediabetes and
+diabetes mellitus among youth in the United States.”</p>
+<p> </p>
+<p><strong>Monthly crime trends.</strong> The <a
+href="https://realtimecrimeindex.com/">Real-Time Crime Index</a>, <a
+href="https://jasher.substack.com/p/the-real-time-crime-index-is-live">launched
+last week</a> by a <a href="https://www.ahdatalytics.com/about-us/">team
+of crime-data analysts</a>, presents a “sample of reported crime data
+from hundreds of law enforcement agencies nationwide which mimics
+national crime trends with as little lag and the most accuracy
+possible.” Framed as a <a
+href="https://realtimecrimeindex.com/how-does-this-work/">supplement to
+the FBI’s slow-to-update official statistics</a>, the project provides
+monthly and rolling 12-month totals of reported crimes (using the FBI’s
+<a
+href="https://ucr.fbi.gov/crime-in-the-u.s/2019/crime-in-the-u.s.-2019/topic-pages/offense-definitions">UCR
+Part I offense categories</a>) for the nation, individual cities, and by
+city population size. You can <a
+href="https://realtimecrimeindex.com/data/">download the data</a> and <a
+href="https://ah-datalytics.github.io/rtci/list/list.html">see the
+sources for each of the 300+ local agencies</a> in the national sample.
+<strong>Read more</strong>: “<a
+href="https://jasher.substack.com/p/the-real-time-crime-index-shows-declining">The
+Real-Time Crime Index Shows Declining Crime in 2024</a>,” from <a
+href="https://jasher.substack.com/">project co-leader Jeff Asher’s
+newsletter</a>.</p>
+<p> </p>
+<p><strong>Source code.</strong> <a
+href="https://www.softwareheritage.org/">Software Heritage</a>, a
+nonprofit initiative <a
+href="https://web.archive.org/web/20230722080603/https://en.unesco.org/softwareheritage">collaborating</a>
+with <a href="https://en.wikipedia.org/wiki/UNESCO">UNESCO</a>, <a
+href="https://www.softwareheritage.org/faq/">maintains</a> “the largest
+public collection of source code in existence”: an <a
+href="https://archive.softwareheritage.org/">archive</a> tracking 20
+billion source files and 4 billion code-commits from 317 million
+projects from a range of public software hosts (<a
+href="https://github.com/">GitHub</a>, <a
+href="https://gitlab.com/">GitLab</a>, <a
+href="https://bitbucket.org/">BitBucket</a>, <a
+href="https://www.npmjs.com/">npm</a>, et cetera). Its <a
+href="https://docs.softwareheritage.org/devel/swh-dataset/graph/index.html#swh-graph-dataset">Graph
+Dataset</a>, which provides access to the archive’s content and internal
+relationships, is available via <a
+href="https://aws.amazon.com/marketplace/pp/prodview-ctizzjwytj4sk#overview">bulk
+downloads</a> and <a
+href="https://archive.softwareheritage.org/api/#endpoint-index">APIs</a>.
+[h/t <a
+href="https://shape-of-code.com/2024/06/02/obtaining-source-code-for-training-llms/">Derek
+M. Jones</a>]</p>
+<p> </p>
+<p><strong>Italian tax-to-charity allocations.</strong> Italy’s “five
+per thousand” program allows taxpayers to allocate 0.5% of their income
+tax to certain nonprofits, research institutions, and other
+social-benefit organizations. The country’s Ministry of Economy and
+Finance has <a
+href="https://www.agenziaentrate.gov.it/portale/elenco-complessivo-degli-enti-ammessi-in-una-o-piu-categorie-di-beneficiari">published
+information about 2022’s beneficiaries</a>, but <a
+href="https://web.archive.org/web/20240605153105/https://www.agenziaentrate.gov.it/portale/elenco-complessivo-degli-enti-ammessi-in-una-o-piu-categorie-di-beneficiari">initially
+did so only via PDFs</a>. <a
+href="https://datibenecomune.substack.com/p/liberiamoli-tutti-numero-4">Earlier
+this year</a>, the <a
+href="https://datibenecomune.substack.com/p/il-numero-zero"><em>Liberiamoli
+tutti!</em></a> initiative <a
+href="https://github.com/ondata/liberiamoli-tutti/tree/main/cinque_per_mille/dati">converted
+those PDFs into structured data</a> that list each recipient
+organization’s name, tax ID, category, region, province, and
+municipality, number of taxpayers choosing it, and amount of money
+allocated. The ministry has since added structured files of its own.</p>
+<p> </p>
+<p><strong>Snakes.</strong> <a href="https://snakedb.org/">SnakeDB</a> —
+created by <a
+href="https://www.linkedin.com/in/sascha-steinhoff/">Sascha
+Steinhoff</a> “after [he] accidentally stepped into a snake in
+South-East Asia” — provides <a
+href="https://snakedb.org/pages/about-snakedb.php">downloadable data</a>
+on the <a href="https://snakedb.org/pages/size-max.php">maximum
+size</a>, <a href="https://snakedb.org/pages/dentition-species.php">fang
+position</a>, <a
+href="https://snakedb.org/pages/pupil-species.php">pupil shape</a>, <a
+href="https://snakedb.org/pages/reproduction-species.php">mode of
+reproduction</a>, and <a
+href="https://snakedb.org/pages/ld50.php">toxicity</a> of thousands of
+species, drawn from <a
+href="https://snakedb.org/pages/ref-library.php">a broad range of
+sources</a>. <strong>As seen in</strong>: <a
+href="https://www.nature.com/articles/s41597-024-03079-5">Oleksandra
+Oskyrko et al.</a>’s <a
+href="https://figshare.com/articles/dataset/ReptTraits_a_comprehensive_database_of_ecological_traits_in_reptiles/24572683">ReptTraits
+database</a>.</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send slithering feedback
+to jsvine@gmail.com, or just reply to this email. // Looking for past
+datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. // Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions.</em></p>
+]]></content>
+    <link href="http://www.data-is-plural.com/archive/2024-09-11-edition" rel="alternate"/>
+    <summary>The National Health and Nutrition Examination Survey, monthly crime trends, source code, Italian tax-to-charity allocations, and snakes.</summary>
+    <published>2024-09-11T08:00:00-04:00</published>
+  </entry>
   <entry>
     <id>dip-2024-08-21</id>
     <title>Data Is Plural — 2024.08.21 edition</title>
@@ -1088,140 +1225,5 @@ DIP+ member</a>.</em></p>
     <link href="http://www.data-is-plural.com/archive/2024-06-12-edition" rel="alternate"/>
     <summary>Interest group positions, state tax revenues, NYC shelter exits, English women’s football, and Sudoku solves.</summary>
     <published>2024-06-12T08:00:00-04:00</published>
-  </entry>
-  <entry>
-    <id>dip-2024-05-22</id>
-    <title>Data Is Plural — 2024.05.22 edition</title>
-    <updated>2024-05-22T08:00:00-04:00</updated>
-    <content type="CDATA"><![CDATA[<p><em>Federal court dockets, Amazon purchases, Security Council
-resolutions, satellite-aided rescues, and protected wines.</em></p>
-<p> </p>
-<p><em>👋 Data Is Plural will be taking a short break, returning to your
-inbox in June.</em></p>
-<p> </p>
-<p><em>📬 Reader <a href="https://mastodon.social/@fgregg">Forest
-Gregg</a> used the <a
-href="https://www.data-is-plural.com/archive/2024-04-03-edition/">power
-outage data</a> featured in <a
-href="https://www.data-is-plural.com/archive/2024-04-03-edition/">DIP
-2024.04.03</a> to <a
-href="https://observablehq.com/@fgregg/average-outages-per-customer-per-year-2023">map
-the average days of outage per customer in 2021–2023</a> for counties in
-Michigan and neighboring states. <a
-href="https://outliermedia.org/map-michigan-power-outages-days-dte-energy-consumers/">Read
-more in Outlier Media</a>. (Have you published something with data you
-found via Data Is Plural? <a
-href="https://docs.google.com/forms/d/e/1FAIpQLSdXXD5eO05w0Xa7bwG3Ppia3uzr_o3y-xDEZuWRfXbCfCu_XA/viewform">Click
-here to let me know</a>.)</em></p>
-<p> </p>
-<p><strong>Federal court dockets.</strong> Journalist <a
-href="https://www.linkedin.com/in/matt-clark-3324896/">Matt Clark</a>
-has compiled a <a
-href="https://archive.org/details/federal-court-dockets">database of
-more than 350 million docket entries</a> across more than 13 million
-cases in 180+ federal courts — including the majority of district,
-appellate, and bankruptcy courts. The records, which Clark collected
-through the <a
-href="https://pacer.uscourts.gov/help/faqs/how-can-i-receive-case-alerts-using-rss-feed">RSS
-feeds that many federal courts provide</a>, span 2013 to the
-near-present. Clark’s <a
-href="https://archive.org/download/federal-court-dockets">downloadable
-database</a> provides information about each <a
-href="https://clinic.cyber.harvard.edu/how-to-read-a-docket-latest/">docket
-entry</a> (time filed, entry number, description, and URL), case
-(number, name, type, and URL), and court. Although the database does not
-include the docketed documents themselves, they can be retrieved via <a
-href="https://en.wikipedia.org/wiki/PACER_(law)">PACER</a> and the free
-<a href="https://www.courtlistener.com/recap/">RECAP archive</a>, <a
-href="https://law.gwu.libguides.com/dockets">among other
-sources</a>.</p>
-<p> </p>
-<p><strong>Amazon purchases.</strong> The <a
-href="https://en.wikipedia.org/wiki/MIT_Media_Lab">MIT Media Lab</a>’s
-<a href="https://www.nature.com/articles/s41597-024-03329-6">Alex Berke
-et al.</a> have <a href="https://arxiv.org/abs/2404.13172">compiled</a>
-“a first-of-its-kind dataset containing detailed purchase histories from
-5027 U.S. Amazon.com consumers, spanning 2018 through 2022, with more
-than 1.8 million purchases […] crowdsourced through an online survey and
-shared with participants’ informed consent.” The <a
-href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/YGLYDY">published
-data</a> include “order date, product code, title, price, quantity, and
-shipping address state,” and are “linked to survey data with information
-about participants’ demographics, lifestyle, and health.” The
-researchers found that a <a
-href="https://www.nature.com/articles/s41597-024-03329-6#Sec13">stratified
-subsample of the data</a> demonstrated “expected seasonal trends and
-strong relationships to other public datasets.” [h/t <a
-href="https://mailchi.mp/academicdatascience/dscn-17378990">Data Science
-Community Newsletter</a>]</p>
-<p> </p>
-<p><strong>Security Council resolutions.</strong> <a
-href="https://www.seanfobbe.com/posts/2024-05-06_new-dataset-corpus-of-resolutions-un-security-council/">Seán
-Fobbe et al.</a>’s <a href="https://zenodo.org/records/11212056">Corpus
-of Resolutions: UN Security Council</a> “collects and presents for the
-first time in human and machine-readable form all resolutions, drafts,
-and meeting records of the UN Security Council, including detailed
-metadata, as published by the <a
-href="https://digitallibrary.un.org/">UN Digital Library</a> and revised
-by the authors.” It covers all 2,700+ <a
-href="https://www.un.org/securitycouncil/content/resolutions-0">resolutions</a>
-from the council’s founding in 1946 through early 2024. In addition to
-providing the texts all six official UN languages, the dataset includes
-each resolution’s title, date, council votes, related meeting number,
-meeting transcript, keywords, countries of focus, and more. An <a
-href="https://www.seanfobbe.com/posts/2024-05-14_complete-citation-network-un-security-council-published/">auxiliary
-dataset</a> represents the corpus’s internal citations as a <a
-href="https://en.wikipedia.org/wiki/Directed_graph">directed graph</a>.
-[h/t <a href="https://masto.machlis.com/@smach">Sharon Machlis</a>]</p>
-<p> </p>
-<p><strong>Satellite-aided rescues.</strong> <a
-href="https://www.noaa.gov/">NOAA</a>’s <a
-href="https://www.sarsat.noaa.gov/">Search and Rescue Satellite-Aided
-Tracking</a> (SARSAT) program is part of an <a
-href="https://www.sarsat.noaa.gov/cospas-sarsat-system-overview/">international
-collaboration</a> to locate <a
-href="https://www.sarsat.noaa.gov/emergency-406-beacons/">distress
-beacons</a> activated (manually or automatically) by mariners, aviators,
-and wilderness explorers. The agency publishes <a
-href="https://www.sarsat.noaa.gov/sarsat-us-rescues/">annual maps of
-SARSAT-enabled rescues</a>, along with <a
-href="https://www.arcgis.com/home/item.html?id=9383e21a28f24135912aeecb0d2524bd">data
-for the most recent year-plus</a>. NOAA has also <a
-href="https://github.com/data-is-plural/sarsat-historical-rescues">provided
-Data Is Plural with data for 2016–2022</a>. The maps and data files
-contain each rescue’s date, category, description, beacon type,
-coordinates, and number of people saved. [h/t Dan Brady]</p>
-<p> </p>
-<p><strong>France and Italy’s protected wines.</strong> <a
-href="https://www.sciencedirect.com/science/article/pii/S2352340924003779">Sebastian
-Candiago et al.</a> have assembled a <a
-href="https://figshare.com/articles/dataset/Quality_wines_in_Italy_and_France_a_dataset_of_protected_designation_of_origin_specifications/25393261">dataset
-of 5,400+ Italian and French wines</a> granted <a
-href="https://en.wikipedia.org/wiki/Protected_designation_of_origin">Protected
-Designation of Origin</a> status, restricting their production to
-specific geographies and methods. For each wine, the dataset lists its
-name, country, designated area, color, category, grape varieties used,
-maximum allowed yields, registration date, and more.
-<strong>Previously</strong>: <a
-href="https://www.tandfonline.com/doi/full/10.1080/00343404.2023.2187365">Protected
-European ham</a> and <a
-href="https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/">the
-EU’s register of protected indications</a> (<a
-href="https://www.data-is-plural.com/archive/2023-05-24-edition/">DIP
-2023.05.24</a>).</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send tannic feedback to
-jsvine@gmail.com, or just reply to this email. // Looking for past
-datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. // Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and to browse past editions. // Support the newsletter and
-your career by <a href="https://www.data-is-plural.com/plus/">becoming a
-DIP+ member</a>.</em></p>
-]]></content>
-    <link href="http://www.data-is-plural.com/archive/2024-05-22-edition" rel="alternate"/>
-    <summary>Federal court dockets, Amazon purchases, Security Council resolutions, satellite-aided rescues, and protected wines.</summary>
-    <published>2024-05-22T08:00:00-04:00</published>
   </entry>
 </feed>
