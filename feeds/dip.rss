@@ -6,7 +6,140 @@
     <description>A weekly newsletter of useful/curious datasets.</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>https://github.com/data-is-plural/newsletter-archive</generator>
-    <lastBuildDate>Wed, 11 Sep 2024 08:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 18 Sep 2024 08:00:00 -0400</lastBuildDate>
+    <item>
+      <title>Data Is Plural — 2024.09.18 edition</title>
+      <link>http://www.data-is-plural.com/archive/2024-09-18-edition</link>
+      <description>Landslides, long-run economic growth, alcohol consumption, art words, and Messi’s moves.</description>
+      <content:encoded><![CDATA[<p><em>Landslides, long-run economic growth, alcohol consumption, art
+words, and Messi’s moves.</em></p>
+<p> </p>
+<p><strong>Landslides.</strong> The US Geological Survey has <a
+href="https://www.usgs.gov/tools/us-landslide-inventory-and-susceptibility-map">released</a>
+a <a
+href="https://usgs.maps.arcgis.com/apps/webappviewer/index.html?id=ae120962f459434b8c904b456c82669d">new
+map of landslide susceptibility</a>, indicating the specific areas of
+the country (at 90-meter resolution) that are at greatest risk of
+slides. The map and county-level metrics are also <a
+href="https://www.sciencebase.gov/catalog/item/65ccea5bd34ef4b119cb3bac">available
+as structured data</a>. To calculate the susceptibilities, <a
+href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2024AV001214">Benjamin
+B. Mirus et al.</a> combined data from the agency’s <a
+href="https://www.usgs.gov/3d-elevation-program">3D Elevation
+Program</a> and a <a
+href="https://www.sciencebase.gov/catalog/item/61f326dfd34e622189b93308">national
+landslide inventory that they updated</a>. The latter provides the
+location (as a single point or more detailed boundary), timing, number
+of fatalities, and confidence level for 610,000+ landslides (or evidence
+of them) in the US since the early 1900s. The researchers also consulted
+data from state landslide inventories published by <a
+href="https://www.idahogeology.org/product/DD-10">Idaho</a>, <a
+href="https://www.maine.gov/dacf/mgs/hazards/landslides/inland/index.shtml">Maine</a>,
+<a href="https://www.dmr.nd.gov/ndgs/landslides/">North Dakota</a>, and
+<a
+href="https://gsa.confex.com/gsa/2021AM/webprogram/Paper370833.html">West</a>
+<a
+href="https://wvu.maps.arcgis.com/apps/webappviewer/index.html?id=cb01c47cfa884309b4f38dcd7542f805">Virginia</a>.</p>
+<p> </p>
+<p><strong>Long-run economic growth.</strong> The <a
+href="https://www.rug.nl/ggdc/historicaldevelopment/maddison/">Maddison
+Project Database</a>, <a
+href="https://onlinelibrary.wiley.com/doi/10.1111/joes.12618">based
+on</a> the work of <a
+href="https://www.rug.nl/ggdc/historicaldevelopment/maddison/original-maddison">Angus
+Maddison</a> (1926-2010), “provides information on comparative economic
+growth and income levels over the very long run.” Its <a
+href="https://www.rug.nl/ggdc/historicaldevelopment/maddison/releases/maddison-project-database-2023">latest
+release</a> includes historical per-capita GDP estimates for 169
+countries, in many cases spanning several centuries. In all, the
+database contains 21,000+ such estimates and another 17,000+ population
+estimates, drawn from hundreds of sources. <strong>Previously</strong>:
+The <a href="https://www.rug.nl/ggdc/productivity/pwt/">Penn World
+Table</a> (<a
+href="https://www.data-is-plural.com/archive/2016-08-17-edition/">DIP
+2016.08.17</a>) — “income, output, input and productivity” estimates now
+“covering 183 countries between 1950 and 2019” — and the <a
+href="http://longtermproductivity.com/about.html">Long-Term Productivity
+Database</a> (<a
+href="https://www.data-is-plural.com/archive/2020-04-08-edition/">DIP
+2020.04.08</a>).</p>
+<p> </p>
+<p><strong>Alcohol consumption.</strong> The <a
+href="https://www.niaaa.nih.gov/">National Institute on Alcohol Abuse
+and Alcoholism</a>’s <a
+href="https://www.niaaa.nih.gov/publications/surveillance-reports/surveillance121">latest
+consumption surveillance report</a>, published earlier this year, uses
+sales and shipment data to measure annual alcohol intake by beverage
+type (beer, wine, spirits) and state. The report and <a
+href="https://www.niaaa.nih.gov/sites/default/files/pcyr1970-2022.txt">corresponding
+data file</a> estimate the likely total and per-capita volumes (of the
+beverages and of their ethanol content) consumed each year from the
+1970s through 2022. <strong>Related</strong>: <a
+href="https://www.niaaa.nih.gov/publications/surveillance-reports">Additional
+surveillance reports</a> and <a
+href="https://www.cdc.gov/alcohol/about-data/surveillance-surveys/index.html">the
+CDC’s list of surveys gathering data on alcohol use</a>. [h/t <a
+href="https://sherwood.news/business/pernod-ricard-selling-wine-business-americans-drinking-more-spirits/">Millie
+Giles</a>]</p>
+<p> </p>
+<p><strong>Art words.</strong> The <a
+href="https://www.getty.edu/research/tools/vocabularies/index.html">Getty
+Vocabularies</a>, <a
+href="https://www.getty.edu/research/tools/vocabularies/faq.html">published</a>
+by the <a href="https://www.getty.edu/research/">Getty Research
+Institute</a>, “contain structured terminology for art, architecture,
+decorative arts, archival materials, visual surrogates, art
+conservation, and bibliographic materials.” They provide definitions,
+relationships, translations, and disambiguations for a broad range of
+terms and entities. Their <a
+href="https://www.getty.edu/research/tools/vocabularies/aat/index.html">Art
+&amp; Architecture Thesaurus</a>, for example, describes 57,000+ generic
+concepts (e.g., <a
+href="https://www.getty.edu/vow/AATFullDisplay?find=lithography&amp;logic=AND&amp;note=&amp;english=N&amp;prev_page=1&amp;subjectid=300053271">lithography</a>),
+while others focus on <a
+href="https://www.getty.edu/research/tools/vocabularies/ulan/index.html">artist
+names</a>, <a
+href="https://www.getty.edu/research/tools/vocabularies/cona/index.html">cultural
+objects</a>, and <a
+href="https://www.getty.edu/research/tools/vocabularies/tgn/index.html">geographies</a>.
+The records are <a
+href="https://www.getty.edu/research/tools/vocabularies/obtain/index.html">available
+several ways</a>, including <a
+href="https://www.getty.edu/research/tools/vocabularies/obtain/download.html">bulk
+downloads</a>. [h/t <a href="https://pinboard.in/u:arnicas">Lynn
+Cherny</a>]</p>
+<p> </p>
+<p><strong>Messi’s moves.</strong> <a
+href="https://statsbomb.com/">StatsBomb</a>, a soccer/football-data
+company, publishes a <a
+href="https://github.com/statsbomb/open-data">subset of its detailed,
+in-play data for free</a>. <a
+href="https://statsbomb.com/what-we-do/hub/free-data/">Among the
+offerings</a>: <a
+href="https://statsbomb.com/news/statsbomb-release-free-messi-data-all-seasons-from-2004-05-2020-21-now-available/">Every
+touch, pass, dribble, and shot from Lionel Messi’s 17 seasons playing
+for Barcelona in La Liga</a>. <strong>Related</strong>: <a
+href="https://www.carlos-menezes.com/">Carlos Menezes</a>’s <a
+href="https://statsbomb-3d-viz.vercel.app/">tool for visualizing
+StatsBomb event data files</a>. <strong>Read more</strong>: <a
+href="https://www.ryanohanlon.com/net-gains-out-october-18"><em>Net
+Gains: Inside the Beautiful Game’s Analytics Revolution</em></a>, by <a
+href="https://www.ryanohanlon.com/bio-contact">Ryan O’Hanlon</a>. [h/t
+<a
+href="https://buttondown.com/puntofisso/archive/573-quantum-of-sollazzo/">Giuseppe
+Sollazzo</a>]</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send golden-booted
+feedback to jsvine@gmail.com, or just reply to this email. // Looking
+for past datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. // Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions.</em></p>
+]]></content:encoded>
+      <guid isPermaLink="false">dip-2024-09-18</guid>
+      <pubDate>Wed, 18 Sep 2024 08:00:00 -0400</pubDate>
+    </item>
     <item>
       <title>Data Is Plural — 2024.09.11 edition</title>
       <link>http://www.data-is-plural.com/archive/2024-09-11-edition</link>
@@ -1105,113 +1238,6 @@ DIP+ member</a>.</em></p>
 ]]></content:encoded>
       <guid isPermaLink="false">dip-2024-06-26</guid>
       <pubDate>Wed, 26 Jun 2024 08:00:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Data Is Plural — 2024.06.12 edition</title>
-      <link>http://www.data-is-plural.com/archive/2024-06-12-edition</link>
-      <description>Interest group positions, state tax revenues, NYC shelter exits, English women’s football, and Sudoku solves.</description>
-      <content:encoded><![CDATA[<p><em>Interest group positions, state tax revenues, NYC shelter exits,
-English women’s football, and Sudoku solves.</em></p>
-<p> </p>
-<p><strong>Interest group positions.</strong> <a
-href="https://www.cambridge.org/core/journals/state-politics-and-policy-quarterly/article/chorus-a-new-dataset-of-state-interest-group-policy-positions-in-the-united-states/6827DC9EC72301016894F265777C0078">Galen
-Hall et al.</a> have compiled a <a
-href="https://dataverse.unc.edu/dataset.xhtml?persistentId=doi:10.15139/S3/RPU1QP">dataset</a>
-of “over 13 million policy positions stated by tens of thousands of
-interest groups and individuals on bills in 17 state legislatures over
-the past 25 years.” The authors collected and standardized the data,
-which span 1997 to 2022, from lobbying and testimony disclosures. For
-each of those positions, the dataset indicates the relevant bill, client
-or individual represented, representative name, position phrase
-(<em>for</em>, <em>against</em>, <em>monitoring</em>,
-<em>undecided</em>, etc.), the date the position was reported, and <a
-href="https://github.com/galenphall/chorus_data/blob/main/CODEBOOK.md">more</a>.
-It also provides details about each bill from <a
-href="https://legiscan.com/datasets">Legiscan</a> and the <a
-href="https://www.ncsl.org/">National Conference of State
-Legislatures</a>, as well as client-industry categorizations from <a
-href="https://www.followthemoney.org/">FollowTheMoney.org</a>.</p>
-<p> </p>
-<p><strong>State tax revenues.</strong> How much money do US states
-collect through different types of taxes? The Census Bureau’s <a
-href="https://www.census.gov/programs-surveys/qtax.html">Quarterly
-Summary of State and Local Government Tax Revenue</a> provides these
-figures every three months, going back decades. The categories include
-taxes on property, income, general sales, sales of specific products
-(such as tobacco, alcohol, gas, and gambling), licenses, and more. For
-several years now, the agency has also published <a
-href="https://www.census.gov/data/experimental-data-products/selected-monthly-state-sales-tax-collections.html">monthly
-data for a subset of those taxes</a>. <strong>As seen in</strong>: “<a
-href="https://www.washingtonpost.com/business/2024/06/07/sports-betting-lottery-state-budgets/">Which
-states make the most from sports betting? What about lotteries?</a>” by
-the Washington Post’s <a
-href="https://www.washingtonpost.com/people/andrew-van-dam/">Andrew Van
-Dam</a>. <strong>Previously</strong>: The Census’s <a
-href="https://www.census.gov/programs-surveys/gov-finances.html">Annual
-Survey of State and Local Government Finances</a> (<a
-href="https://www.data-is-plural.com/archive/2020-11-18-edition/">DIP
-2020.11.18</a>).</p>
-<p> </p>
-<p><strong>NYC shelter exits.</strong> A 2022 law requires New York City
-to report the monthly number of individuals and families exiting the
-city’s shelter system. Unfortunately, the city publishes those reports
-only as PDFs and without a historical archive. <a
-href="https://patrickspauster.com/">Patrick Spauster</a> has <a
-href="https://github.com/pspauster/shelter-exits">built a pipeline</a>
-to download and <a
-href="https://github.com/pspauster/shelter-exits/tree/master/temporary_housing_reports">preserve</a>
-the reports, and to turn them into <a
-href="https://github.com/pspauster/shelter-exits/tree/master/data">structured
-data</a>. For each month since May 2023, each row indicates the number
-of exits for a particular city agency, family/person category, and
-destination type. The latter includes various kinds of permanent
-housing, transitional housing, medical facilities, as well as “unknown.”
-<strong>Read more</strong>: <a
-href="https://citylimits.org/2024/05/14/exit-unknown-where-do-people-go-after-leaving-nyc-homeless-shelters/">Spauster’s
-analysis of the data for City Limits</a>. <strong>Previously</strong>:
-<a href="https://github.com/anesta95/nyc_shelter_count">NYC shelter
-counts</a> (<a
-href="https://www.data-is-plural.com/archive/2023-12-13-edition/">DIP
-2023.12.13</a>).</p>
-<p> </p>
-<p><strong>English women’s football.</strong> The <a
-href="https://github.com/probjects/ewf-database">English Women’s
-Football Database</a> “covers all matches played since the 2011 season
-for the highest division (the Women’s Super League) and since the 2014
-season for the second-highest division (the Women’s Championship).” The
-project, built by <a href="https://x.com/rob_clapp">Rob Clapp</a>, lists
-the date, teams, score, attendance, division, tier, and season of each
-match, as well as each season’s final standings.
-<strong>Previously</strong>: <a
-href="http://www.joshuafjelstul.com/">Josh Fjelstul</a>’s <a
-href="https://github.com/jfjelstul/englishfootball">English Football
-Database</a> (<a
-href="https://www.data-is-plural.com/archive/2023-02-01-edition/">DIP
-2023.02.01</a>), which Clapp cites as inspiration.</p>
-<p> </p>
-<p><strong>Sudoku solves.</strong> In the spirit of introspection, <a
-href="https://en.wikipedia.org/wiki/Sudoku">Sudoku</a> enthusiast <a
-href="https://vivrao9.github.io/">Vivek Rao</a> has conducted a <a
-href="https://vivrao9.github.io/nyt-sudoku/">detailed analysis of his
-cell-by-cell performance on 100 puzzles</a> from the <a
-href="https://www.nytimes.com/puzzles/sudoku">New York Times’ daily
-offerings</a>. The <a
-href="https://github.com/vivrao9/nyt-sudoku/blob/master/data-collection/doks_performance.csv">underlying
-data</a>, collected via a custom browser extension that Rao built,
-indicates the order and timing of every cell he filled.</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send speedily solved
-feedback to jsvine@gmail.com, or just reply to this email. // Looking
-for past datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. // Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and to browse past editions. // Support the newsletter and
-your career by <a href="https://www.data-is-plural.com/plus/">becoming a
-DIP+ member</a>.</em></p>
-]]></content:encoded>
-      <guid isPermaLink="false">dip-2024-06-12</guid>
-      <pubDate>Wed, 12 Jun 2024 08:00:00 -0400</pubDate>
     </item>
   </channel>
 </rss>
