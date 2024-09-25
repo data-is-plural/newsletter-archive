@@ -6,7 +6,125 @@
     <description>A weekly newsletter of useful/curious datasets.</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>https://github.com/data-is-plural/newsletter-archive</generator>
-    <lastBuildDate>Wed, 18 Sep 2024 08:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 25 Sep 2024 08:00:00 -0400</lastBuildDate>
+    <item>
+      <title>Data Is Plural — 2024.09.25 edition</title>
+      <link>http://www.data-is-plural.com/archive/2024-09-25-edition</link>
+      <description>NYC evictions, open-source weather APIs, tree canopies, Canadian mines, and James Beard honorees.</description>
+      <content:encoded><![CDATA[<p><em>NYC evictions, open-source weather APIs, tree canopies, Canadian
+mines, and James Beard honorees.</em></p>
+<p> </p>
+<p><strong>NYC evictions.</strong> New York City’s government publishes
+a <a
+href="https://data.cityofnewyork.us/City-Government/Evictions/6z8x-wfk4/about_data">dataset
+listing evictions</a> “pending, scheduled and executed” since 2017,
+updated daily. The data are “compiled from the majority of New York City
+Marshals,” who are <a
+href="https://www.nyc.gov/site/doi/offices/nyc-marshals.page">mayor-appointed</a>
+officers <a
+href="https://en.wikipedia.org/wiki/New_York_City_Marshal">tasked with
+enforcing civil court cases</a>. Each of the 97,000+ rows indicates the
+eviction court case number, address, property type, eviction type,
+execution date, and marshal. <strong>Related</strong>: <a
+href="https://data.cityofnewyork.us/City-Government/City-Marshals-Revenue/7ewi-9cdf/about_data">The
+city also publishes data on marshals’ annual eviction revenues</a>.
+<strong>Also related</strong>: <a
+href="https://github.com/nycdb/nycdb">nycdb</a> points to, and helps
+download, a range of NYC housing–related datasets. <strong>As seen
+in</strong>: “<a
+href="https://citylimits.org/2024/08/26/spiking-evictions-renew-calls-to-reform-nyc-marshals-system/">Spiking
+Evictions Renew Calls to Reform NYC Marshals System</a>,” by <a
+href="https://patrickspauster.com/">Patrick Spauster</a> for City
+Limits.</p>
+<p> </p>
+<p><strong>Open-source weather APIs.</strong> <a
+href="https://open-meteo.com/">Open-Meteo</a>, an <a
+href="https://github.com/open-meteo/open-meteo">open-source</a> project
+<a href="https://open-meteo.com/en/about">built on data from national
+weather services</a>, offers a range of <a
+href="https://open-meteo.com/en/features#available-apis">weather and
+climate APIs</a> that are <a
+href="https://open-meteo.com/en/pricing">free for non-commercial
+use</a>. They include <a href="https://open-meteo.com/en/docs/">weather
+forecasts</a> (temperature, humidity, precipitation, wind speed, etc.),
+<a href="https://open-meteo.com/en/docs/historical-weather-api">daily
+historical weather since 1940</a>, <a
+href="https://open-meteo.com/en/docs/climate-api">climate change model
+outputs</a>, <a
+href="https://open-meteo.com/en/docs/marine-weather-api">marine wave
+forecasts</a>, <a
+href="https://open-meteo.com/en/docs/air-quality-api">air quality
+assessments</a>, and more. The project also provides <a
+href="https://github.com/open-meteo/open-data">bulk downloads of the
+underlying data</a> and <a
+href="https://github.com/open-meteo/open-meteo/blob/main/docs/getting-started.md">self-hosting
+instructions</a>. <strong>As seen in</strong>: <a
+href="https://yotka.org/">Jan Kühn</a>’s <a
+href="https://yotka.org/meteo-hist">Historical Meteo Graphs</a>. [h/t <a
+href="https://buttondown.email/puntofisso/archive/532-quantum-of-sollazzo/">Giuseppe
+Sollazzo</a>]</p>
+<p> </p>
+<p><strong>Tree canopies.</strong> The <a
+href="https://github.com/facebookresearch/HighResCanopyHeight">High
+Resolution Canopy Height Maps</a> dataset, <a
+href="https://sustainability.atmeta.com/blog/2024/04/22/using-artificial-intelligence-to-map-the-earths-forests/">released
+in April</a> by Meta and the <a href="https://www.wri.org/about">World
+Resources Institute</a>, estimates “tree canopy height at a 1-meter
+resolution, allowing the detection of single trees at a global scale.”
+It is available to <a
+href="https://meta-forest-monitoring-okw37.projects.earthengine.app/view/canopyheight">explore
+online</a> and <a
+href="https://registry.opendata.aws/dataforgood-fb-forests/">download</a>,
+and was <a
+href="https://www.sciencedirect.com/science/article/pii/S003442572300439X">constructed</a>
+by applying machine learning techniques to satellite imagery and <a
+href="https://en.wikipedia.org/wiki/Lidar">LiDAR</a> data. The estimates
+use satellite imagery mostly from 2018–2020, and “when newer imagery is
+available, the publicly shared model can be used to detect change in
+canopy heights.” [h/t <a
+href="https://www.linkedin.com/posts/benhur07b_bnhr-meta-data-ugcPost-7189501844841291777-7cGt">Ben
+Hur Pintor</a>]</p>
+<p> </p>
+<p><strong>Canadian mines.</strong> Economist <a
+href="https://sites.google.com/view/claradallaire-fortier/home">Clara
+Dallaire-Fortier</a> has <a
+href="https://www.nature.com/articles/s41597-024-03116-3">compiled</a> a
+<a
+href="https://figshare.com/articles/dataset/Principal_Productive_Mines_of_Canada/23740071">dataset</a>
+of “mine-level estimates for the Canadian mining industry with a
+persistent annual coverage between 1950 and 2022,” based partly on
+historical government maps. For each of the 947 mines identified, the
+dataset indicates its name, location, mining companies, dates
+open/closed, and commodities produced. <strong>Previously</strong>: <a
+href="https://research-repository.rmit.edu.au/articles/dataset/A_Comprehensive_Dataset_for_Australian_Mine_Production_1799_to_2021/22724081/2">Australian
+mine production, 1799–2021</a> (<a
+href="https://www.data-is-plural.com/archive/2023-07-12-edition/">DIP
+2023.07.12</a>).</p>
+<p> </p>
+<p><strong>James Beard honorees.</strong> <a
+href="https://codywinchester.com/">Cody Winchester</a> has <a
+href="https://github.com/cjwinchester/james-beard">constructed a
+dataset</a> of <a
+href="https://en.wikipedia.org/wiki/James_Beard_Foundation_Award">James
+Beard Foundation Award</a> semifinalists, nominees, and winners since
+1991, sourced from the <a
+href="https://www.jamesbeard.org/awards/search">foundation’s
+award-search page</a>. For each honoree, the dataset provides their
+name, year, category, subcategory, and award status, plus additional
+category-specific variables (such as publisher for the book awards, and
+location for restaurant and chef awards).</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send gourmet feedback to
+jsvine@gmail.com, or just reply to this email. // Looking for past
+datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. // Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions.</em></p>
+]]></content:encoded>
+      <guid isPermaLink="false">dip-2024-09-25</guid>
+      <pubDate>Wed, 25 Sep 2024 08:00:00 -0400</pubDate>
+    </item>
     <item>
       <title>Data Is Plural — 2024.09.18 edition</title>
       <link>http://www.data-is-plural.com/archive/2024-09-18-edition</link>
@@ -1126,118 +1244,6 @@ DIP+ member</a>.</em></p>
 ]]></content:encoded>
       <guid isPermaLink="false">dip-2024-07-03</guid>
       <pubDate>Wed, 03 Jul 2024 08:00:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Data Is Plural — 2024.06.26 edition</title>
-      <link>http://www.data-is-plural.com/archive/2024-06-26-edition</link>
-      <description>Supreme gifts, internet politics, federal rural investments, fish-spawning areas, and Broadway attendance.</description>
-      <content:encoded><![CDATA[<p><em>Supreme gifts, internet politics, federal rural investments,
-fish-spawning areas, and Broadway attendance.</em></p>
-<p> </p>
-<p><strong>Supreme gifts.</strong> <a
-href="https://fixthecourt.com/about-us/">Fix the Court</a> is a
-nonprofit that “advocates for non-ideological ‘fixes’ that would make
-the federal courts, and primarily the U.S. Supreme Court, more open and
-more accountable to the American people.” Earlier this month, they <a
-href="https://fixthecourt.com/2024/06/a-staggering-tally-supreme-court-justices-accepted-hundreds-of-gifts-worth-millions-of-dollars/">published</a>
-a <a
-href="https://docs.google.com/spreadsheets/d/14l25NLvBOd9sk4mArK4k7dtV0MUwxr5GBuLHL5Sp8lo/edit">series
-of spreadsheets</a> tallying 500+ gifts accepted by the Supreme Court’s
-justices since 2000, with an estimated total value of $4.76 million. The
-findings “are largely based on last year’s groundbreaking work by
-ProPublica and includes data from stories in the New York Times, L.A.
-Times, the congressional record, annual disclosures,” and Fix the
-Court’s own work. The data indicate each gift’s year, recipient,
-description, giver, value, and the source of information.
-<strong>Previously</strong>: The <a href="https://free.law/">Free Law
-Project</a>’s <a
-href="https://free.law/2021/10/15/financial-disclosures-now-available-to-all-on-courtlistener">database
-of federal judges’ financial disclosures</a> (<a
-href="https://www.data-is-plural.com/archive/2021-10-20-edition/">DIP
-2021.10.20</a>). <strong>Related</strong>: <a
-href="https://projects.propublica.org/supreme-connections/">ProPublica’s
-interactive database of the current justices’ disclosures</a>.</p>
-<p> </p>
-<p><strong>Internet politics.</strong> The <a
-href="https://digitalsocietyproject.org/">Digital Society Project</a>,
-founded in 2018 as a collaboration with the <a
-href="https://www.v-dem.net/">Varieties of Democracy initiative</a> (<a
-href="https://www.data-is-plural.com/archive/2019-04-24-edition/">DIP
-2019.04.24</a>), “aims to answer some of the most important questions
-surrounding interactions between the internet and politics.” To do so,
-they conduct surveys of experts and ask them <a
-href="https://digitalsocietyproject.org/wp-content/uploads/2024/03/DSP-Codebook-v6.pdf">questions
-such as</a>: “How often does the government shut down domestic access to
-the Internet?” and “How often do domestic elites use social media to
-organize offline political action of any kind?” The survey’s <a
-href="https://digitalsocietyproject.org/data/">downloadable datasets</a>
-cover 170+ countries and provide aggregate metrics for each question.
-[h/t <a
-href="https://www.tispiegoildato.it/p/le-raccomandazioni-algoritmiche-delle">Donata
-Columbro</a>]</p>
-<p> </p>
-<p><strong>Federal rural investment.</strong> The Department of
-Agriculture’s <a href="https://www.rd.usda.gov/">Rural Development</a>
-agency runs <a href="https://www.rd.usda.gov/programs-services">dozens
-of financial assistance programs</a> to support housing, business,
-community facilities, telecommunications, and other developments in less
-populated areas of the United States. The agency’s <a
-href="https://www.rd.usda.gov/rural-data-gateway">data gateway</a>, <a
-href="https://www.rd.usda.gov/newsroom/news-release/usda-launches-rural-data-gateway-strengthen-partnerships-and-expand-access-resources-people-rural-1">launched
-last year</a>, provides <a
-href="https://www.rd.usda.gov/rural-data-gateway/rural-investments">dashboards</a>
-and <a
-href="https://www.rd.usda.gov/rural-data-gateway/rural-investments/data">downloads</a>
-tracking these loans, loan guarantees, and grants going back to fiscal
-year 2012. At their most granular, the data <a
-href="https://www.rd.usda.gov/media/file/download/opendatadashboard-dictionarypdf">describe</a>
-each investment’s type, amount, program, sector, ZIP code, city, state,
-and more. [h/t James Barham]</p>
-<p> </p>
-<p><strong>Fish-spawning areas.</strong> <a
-href="https://www.nature.com/articles/s41597-024-03348-3">Kimberly L.
-Oremus et al.</a> have constructed a geospatial dataset that indicates
-the spawning locations and timing for 1,000+ saltwater fish in 2,900+
-marine regions around the world. The authors primarily sourced — and
-then geocoded — the records from <a
-href="https://fishbase.mnhn.fr/home.php">FishBase</a> (an initiative
-providing data on the habitats, body shapes, and other characteristics
-of 35,000+ fish species) and the <a
-href="https://www.scrfa.org/database/">database</a> of <a
-href="https://www.scrfa.org/about/what-is-scfra/">Science and
-Conservation of Fish Aggregations</a> (a nonprofit that focuses on
-massive reproductive gatherings of fish).</p>
-<p> </p>
-<p><strong>Broadway attendance.</strong> The <a
-href="https://en.wikipedia.org/wiki/The_Broadway_League">Broadway
-League</a>’s <a href="https://www.ibdb.com/">Internet Broadway
-Database</a> lets you search the famed industry’s <a
-href="https://www.ibdb.com/theatres/">theaters</a>, <a
-href="https://www.ibdb.com/shows/">shows</a>, <a
-href="https://www.ibdb.com/cast-staff/">casts and staff</a>, <a
-href="https://www.ibdb.com/awards/">awards</a>, and more. It also
-publishes <a href="https://www.ibdb.com/statistics/">charts and
-structured tables of weekly attendance and ticket revenue</a>,
-additionally available for <a
-href="https://www.ibdb.com/broadway-production/stereophonic-538690#Statistics">individual
-shows</a>. The League itself also publishes <a
-href="https://www.broadwayleague.com/research/grosses-broadway-nyc/">show-level
-statistics</a>. [h/t <a
-href="https://sherwood.news/culture/broadway-attendance-nears-pre-pandemic-levels/">Millie
-Giles</a>]</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send theatrical feedback
-to jsvine@gmail.com, or just reply to this email. // Looking for past
-datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. // Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and to browse past editions. // Support the newsletter and
-your career by <a href="https://www.data-is-plural.com/plus/">becoming a
-DIP+ member</a>.</em></p>
-]]></content:encoded>
-      <guid isPermaLink="false">dip-2024-06-26</guid>
-      <pubDate>Wed, 26 Jun 2024 08:00:00 -0400</pubDate>
     </item>
   </channel>
 </rss>
