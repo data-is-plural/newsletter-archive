@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.data-is-plural.com</id>
   <title>Data Is Plural</title>
-  <updated>2024-09-25T08:00:00-04:00</updated>
+  <updated>2024-10-09T08:00:00-04:00</updated>
   <author>
     <name>Jeremy Singer-Vine</name>
     <email>jsvine@gmail.com</email>
@@ -10,6 +10,120 @@
   <link href="https://www.data-is-plural.com" rel="alternate"/>
   <generator>https://github.com/data-is-plural/newsletter-archive</generator>
   <subtitle>A weekly newsletter of useful/curious datasets.</subtitle>
+  <entry>
+    <id>dip-2024-10-09</id>
+    <title>Data Is Plural — 2024.10.09 edition</title>
+    <updated>2024-10-09T08:00:00-04:00</updated>
+    <content type="CDATA"><![CDATA[<p><em>Disability claims processing, evapotranspiration, fuel forecasts,
+trash balloons, and Anglo-Saxons on record.</em></p>
+<p> </p>
+<p><em>👋 Job alert: <a
+href="https://nytimes.wd5.myworkdayjobs.com/NYT/job/New-York-NY/Reporter--Data--Data-Journalism-Team_REQ-017278-1">I’m
+hiring three data reporters at The New York Times to collaborate across
+the newsroom</a>. Follow that link for details and feel free to email me
+with any questions.</em></p>
+<p> </p>
+<p><strong>Disability claims processing.</strong> The Social Security
+Administration publishes <a
+href="https://www.ssa.gov/disability/data/ssa-sa-mowl.htm">monthly</a>
+and <a
+href="https://www.ssa.gov/disability/data/ssa-sa-fywl.htm">annual</a>
+datasets tracking each state agency’s progress <a
+href="https://www.ssa.gov/disability/determination.htm">processing</a>
+disability claims. The datasets, which go back to October 2000, count
+the number of initial claims received, pending, determined, and approved
+by each agency during each period, as well as similar breakdowns for
+denial reconsiderations and <a
+href="https://www.ssa.gov/ssi/text-cdrs-ussi.htm">continuing disability
+reviews</a>. The administration’s <a
+href="https://www.ssa.gov/open/data/">extensive catalog of public
+datasets</a> also includes several that measure the waiting involved,
+such as <a
+href="https://www.ssa.gov/open/data/Combined-Disability-Processing-Time.html">monthly
+average initial claim processing times</a>, <a
+href="https://www.ssa.gov/open/data/disability_reconsideration_average_processing_time.html">average
+wait times for reconsiderations</a>, and <a
+href="https://www.ssa.gov/appeals/DataSets/01_NetStat_Report.html">wait
+times for administrative hearings</a>. <strong>As seen in</strong>: “<a
+href="https://usafacts.org/data-projects/disability-benefit-wait-time">Wait
+times for Social Security disability benefit decisions reach new
+high</a>” (USAFacts).</p>
+<p> </p>
+<p><strong>Evapotranspiration.</strong> With the goal of “filling the
+biggest data gap in water management,” the <a
+href="https://etdata.org/">OpenET</a> project <a
+href="https://etdata.org/methodologies/">uses satellite imagery</a>,
+weather data, and other sources to estimate the volume of <a
+href="https://etdata.org/faq/">evapotranspiration</a> — “the process by
+which water is transferred from the land to the atmosphere” — at a
+30-meter resolution across 17 states in the western US. The results are
+available to <a href="https://explore.etdata.org/">explore via an online
+map</a> of annual cumulative evapotranspiration (2019–2024), as <a
+href="https://openet.gitbook.io/docs/additional-resources/data-archives">monthly
+datasets via Earth Engine</a>, and <a
+href="https://openet.gitbook.io/docs">through an API</a>. [h/t <a
+href="https://schedules.ire.org/nicar-2024/index.html#1050">Mira
+Rojanasakul</a>]</p>
+<p> </p>
+<p><strong>Fuel forecasts.</strong> The US Energy Information
+Administration’s monthly <a
+href="https://www.eia.gov/outlooks/steo/">Short-Term Energy Outlook</a>
+provides forecasts and recent trends of energy supply, consumption,
+prices, and inventory. It covers a range of commodities and electricity
+sources, such as crude oil, coal, natural gas, gasoline, renewables, and
+nuclear. Starting with its September 2024 report, the outlooks have also
+<a href="https://www.eia.gov/todayinenergy/detail.php?id=63384">begun to
+include more detailed data on biofuels</a>, available in <a
+href="https://www.eia.gov/outlooks/steo/data/browser/#/?v=11">Table
+4d</a> of its <a
+href="https://www.eia.gov/outlooks/steo/data.php">structured
+datasets</a>.</p>
+<p> </p>
+<p><strong>Trash balloons.</strong> Since May of this year, North Korea
+has floated thousands of trash-carrying balloons into South Korea. A
+team from the <a href="https://www.csis.org/">Center for Strategic and
+International Studies</a>’ <a
+href="https://beyondparallel.csis.org/about/">Beyond Parallel</a>
+project has <a
+href="https://beyondparallel.csis.org/map-of-north-koreas-garbage-filled-balloons/">mapped
+160+ known balloon landing locations</a>, based on public sources. The
+map’s downloadable data indicates the each landing’s date, associated
+“wave,” coordinates, location name, and province. <strong>As seen
+in</strong>: <a
+href="https://www.reuters.com/graphics/NORTHKOREA-SOUTHKOREA/TRASH/klvynygmjpg/">Reuters’
+visually immersive article on the topic</a>. [h/t <a
+href="https://fairwarning.substack.com/p/vienna-where-worlds-collided">Soph
+Warnes</a>]</p>
+<p> </p>
+<p><strong>Anglo-Saxons on record.</strong> The <a
+href="https://pase.ac.uk/">Prosopography of Anglo-Saxon England</a>
+project “aims to provide structured information relating to all the
+recorded inhabitants of England from the late sixth to the late eleventh
+century.” Built over (relatively less) time by <a
+href="https://pase.ac.uk/about/introduction/">several teams</a> at UK
+universities, PASE is “based on a systematic examination of the
+available written sources for the period, including chronicles, saints’
+<em>Lives</em>, charters, <em>libri vitae</em>, inscriptions, Domesday
+Book and coins.” The <a
+href="https://en.wikipedia.org/wiki/Domesday_Book">Domesday</a>-focused
+<a href="https://pase.ac.uk/domesday/">portion of the project</a>
+features a downloadable table of 17,000+ landholders from that
+manuscript, listing their name (where known), gender, description, value
+of holdings, and linking to details about those holdings. [h/t <a
+href="http://knosof.co.uk/ESEUR/">Derek M. Jones</a>]</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send prosopographical
+feedback to jsvine@gmail.com, or just reply to this email. // Looking
+for past datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. // Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions.</em></p>
+]]></content>
+    <link href="http://www.data-is-plural.com/archive/2024-10-09-edition" rel="alternate"/>
+    <summary>Disability claims processing, evapotranspiration, fuel forecasts, trash balloons, and Anglo-Saxons on record.</summary>
+    <published>2024-10-09T08:00:00-04:00</published>
+  </entry>
   <entry>
     <id>dip-2024-09-25</id>
     <title>Data Is Plural — 2024.09.25 edition</title>
@@ -1137,125 +1251,5 @@ DIP+ member</a>.</em></p>
     <link href="http://www.data-is-plural.com/archive/2024-07-10-edition" rel="alternate"/>
     <summary>Federal inmate complaints, corporate AI activity, East Asia building outlines, US coral reefs, and ancient shipwrecks.</summary>
     <published>2024-07-10T08:00:00-04:00</published>
-  </entry>
-  <entry>
-    <id>dip-2024-07-03</id>
-    <title>Data Is Plural — 2024.07.03 edition</title>
-    <updated>2024-07-03T08:00:00-04:00</updated>
-    <content type="CDATA"><![CDATA[<p><em>Newswire articles, death penalty status by country, beach
-replenishment, hurricane forecast accuracy, and UK film stats.</em></p>
-<p> </p>
-<p><strong>Historical newswire articles.</strong> <a
-href="https://arxiv.org/abs/2406.09490">Emily Silcock et al.</a> have
-created <a
-href="https://huggingface.co/datasets/dell-research-harvard/newswire">Newswire</a>,
-a dataset of 2.7 million newswire articles published in the US between
-1878 and 1977. To build it, they extracted 138 million articles from
-scans of newspapers’ front pages and then used machine learning to group
-those coming “from the same underlying newswire source article, in the
-presence of significant abridgement and noise.” For each detected
-newswire item, the dataset lists the newspapers that carried it, dates
-published, the text of a representative version, its extracted byline,
-dispatch location, people mentioned in the text, general topic, and
-more. <strong>Previously</strong>: <a
-href="https://arxiv.org/abs/2308.12477">American Stories</a> (<a
-href="https://www.data-is-plural.com/archive/2023-09-13-edition/">DIP
-2023.09.13</a>), a <a
-href="https://huggingface.co/datasets/dell-research-harvard/AmericanStories">dataset
-of historical newspaper articles</a> — also from <a
-href="https://dell-research-harvard.github.io/">Melissa Dell</a>’s
-research group. [h/t <a href="https://www.robinsloan.com/">Robin
-Sloan</a>]</p>
-<p> </p>
-<p> </p>
-<p><strong>Death penalty status by country.</strong> The <a
-href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/LI3WYK">Comparative
-Death Penalty Database</a>, <a
-href="https://link.springer.com/article/10.1057/s41304-024-00491-8">compiled</a>
-by <a href="https://research.abo.fi/en/persons/carsten-anckar">Carsten
-Anckar</a> and <a
-href="https://www.oru.se/english/employee/thomas_denk">Thomas Denk</a>,
-tracks the status of capital punishment in 206 independent countries
-annually from 1800 to 2022. It places each observation into one of five
-categories, indicating whether the death penalty is: (a) fully
-abolished, (b) abolished “for ordinary crimes only,” (c) abolished for
-“for ordinary crimes only but where at least one execution has occurred
-in the last 10 years,” (d) <em>de facto</em> abolished, or (e) still in
-use. <strong>Previously</strong>: The <a
-href="https://deathpenaltyinfo.org/">Death Penalty Information
-Center</a>’s <a
-href="https://deathpenaltyinfo.org/database/executions">database of US
-executions</a> (<a
-href="https://www.data-is-plural.com/archive/2019-05-15-edition/">DIP
-2019.05.15</a>); data on death sentences <a
-href="https://github.com/theintercept/the-condemned-data">from The
-Intercept</a> (<a
-href="https://www.data-is-plural.com/archive/2019-12-11-edition/">DIP
-2019.12.11</a>) and <a href="https://endofitsrope.com/">from Brandon L.
-Garrett</a> (<a
-href="https://www.data-is-plural.com/archive/2018-08-01-edition/">DIP
-2018.08.01</a>).</p>
-<p> </p>
-<p><strong>Beach replenishment.</strong> The <a
-href="https://psds.wcu.edu/">Program for the Study of Developed
-Shorelines</a> at Western Carolina University maintains a <a
-href="https://beachnourishment.wcu.edu/">database of 2,500+
-beach-replenishing efforts</a> since the 1920s. The <a
-href="https://beachnourishment.wcu.edu/about">project</a> is “a 25-year
-research and data collection effort that, to the best of our knowledge,
-represents the most comprehensive compilation of beach nourishment
-history in the United States.” For each sand-adding “episode,” the
-dataset <a
-href="https://beachnourishment.wcu.edu/glossary">indicates</a> its
-location, year completed, sand volume, length of shoreline treated,
-total cost, primary type of funding source (private, federal, state,
-etc.), and justification (shore protection, navigation, emergency dune
-construction, etc.). <strong>As seen in</strong>: “<a
-href="https://www.cbsnews.com/beach-nourishment/">Sand Dollars</a>,” by
-CBS News Investigations.</p>
-<p> </p>
-<p><strong>Hurricane forecast accuracy.</strong> The <a
-href="https://www.nhc.noaa.gov/">National Hurricane Center</a> says it
-“receives frequent inquiries on the accuracy and skill of its forecasts
-and of the computer models available to it.” To help answer those
-questions, the agency publishes a <a
-href="https://www.nhc.noaa.gov/verification/index.shtml">series of
-regularly-updated verification reports</a>, as well as a <a
-href="https://www.nhc.noaa.gov/verification/verify7.shtml">database
-quantifying its forecast errors</a>. For each official projection since
-1970, the database <a
-href="https://www.nhc.noaa.gov/verification/verify2.shtml">compares</a>
-each storm’s predicted location and wind speed to those attributes’
-ultimate values. <strong>As seen in</strong>: “<a
-href="https://osf.io/preprints/socarxiv/sqtjr">The Social Value of
-Hurricane Forecasts</a>,” a study by <a
-href="https://renatomolinah.com/">Renato Molina</a> and <a
-href="https://ivanrudik.com/">Ivan Rudik</a>.</p>
-<p> </p>
-<p><strong>UK film stats.</strong> The British Film Institute publishes
-a <a href="https://www.bfi.org.uk/industry-data-insights">variety of
-statistical reports</a>, including <a
-href="https://www.bfi.org.uk/industry-data-insights/weekend-box-office-figures">spreadsheets
-of weekend box office figures</a>. Those spreadsheets cover each
-weekend’s 15 highest-grossing films, all UK-originated films, and other
-newly-released films; they list each film’s title, country of origin,
-distributor, cinema count, weekend gross, total gross to date, and more.
-[h/t <a
-href="https://www.linkedin.com/posts/ginacostag_data-python-datascience-activity-7207721010815483904-XIc6/">Gina
-Acosta Gutiérrez</a>]</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send high-grossing
-feedback to jsvine@gmail.com, or just reply to this email. // Looking
-for past datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. // Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and to browse past editions. // Support the newsletter and
-your career by <a href="https://www.data-is-plural.com/plus/">becoming a
-DIP+ member</a>.</em></p>
-]]></content>
-    <link href="http://www.data-is-plural.com/archive/2024-07-03-edition" rel="alternate"/>
-    <summary>Newswire articles, death penalty status by country, beach replenishment, hurricane forecast accuracy, and UK film stats.</summary>
-    <published>2024-07-03T08:00:00-04:00</published>
   </entry>
 </feed>
