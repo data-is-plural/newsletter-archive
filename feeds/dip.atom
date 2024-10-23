@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.data-is-plural.com</id>
   <title>Data Is Plural</title>
-  <updated>2024-10-09T08:00:00-04:00</updated>
+  <updated>2024-10-23T08:00:00-04:00</updated>
   <author>
     <name>Jeremy Singer-Vine</name>
     <email>jsvine@gmail.com</email>
@@ -10,6 +10,110 @@
   <link href="https://www.data-is-plural.com" rel="alternate"/>
   <generator>https://github.com/data-is-plural/newsletter-archive</generator>
   <subtitle>A weekly newsletter of useful/curious datasets.</subtitle>
+  <entry>
+    <id>dip-2024-10-23</id>
+    <title>Data Is Plural — 2024.10.23 edition</title>
+    <updated>2024-10-23T08:00:00-04:00</updated>
+    <content type="CDATA"><![CDATA[<p><em>SBA disaster loans, US buildings, the cost of sustenance, German
+election results, and synthesizers.</em></p>
+<p> </p>
+<p><strong>SBA disaster loans.</strong> “Following a declared disaster,”
+the US Small Business Administration <a
+href="https://www.sba.gov/funding-programs/disaster-assistance">offers</a>
+“disaster assistance in the form of low-interest, long-term disaster
+loans for damages not covered by insurance or other recoveries to
+businesses of all sizes, private nonprofit organizations, as well as
+homeowners and renters.” The SBA <a
+href="https://data.sba.gov/dataset/disaster-loan-data">publishes
+anonymized data</a> about each such loan in fiscal years 2000 to 2022,
+drawn directly from its <a
+href="https://www.sba.gov/document/report-disaster-credit-management-system-20">Disaster
+Credit Management System</a>. The records provide the relevant disaster
+declaration IDs, property type, ZIP code, city, county, state, verified
+losses (in real estate and in “content”), and approved loan amounts.
+<strong>Previously</strong>: SBA datasets the <a
+href="https://www.sba.gov/funding-programs/loans/covid-19-relief-options/paycheck-protection-program/ppp-data">Paycheck
+Protection Program</a> (<a
+href="https://www.data-is-plural.com/archive/2020-07-08-edition/">DIP
+2020.07.08</a>) and the administration’s <a
+href="https://data.sba.gov/dataset/7-a-504-foia">7(a) and 504 loan
+programs</a> (<a
+href="https://www.data-is-plural.com/archive/2023-01-11-edition/">DIP
+2023.01.11</a>). [h/t <a
+href="https://www.chicagofed.org/publications/working-papers/2024/2024-16">Benjamin
+L. Collier et al.</a>]</p>
+<p> </p>
+<p><strong>US buildings.</strong> “Leveraging high performance
+computing, remote sensing, geographic data science, machine learning,
+and computer vision,” <a
+href="https://www.nature.com/articles/s41597-024-03219-x">Hsiuhan Lexie
+Yang et al.</a>, researchers at Oak Ridge National Laboratory, have
+“partnered with Federal Emergency Management Agency (FEMA) to build a
+baseline structure inventory covering the US and its territories to
+support disaster preparedness, response, and recovery.” The <a
+href="https://gis-fema.hub.arcgis.com/pages/usa-structures">dataset and
+interactive map</a> trace the outlines of 125 million buildings and, in
+many cases, <a
+href="https://www.nature.com/articles/s41597-024-03219-x/tables/2">contain</a>
+the building’s address, occupancy class, usage type, height, elevation,
+and other attributes. They also provide information about the imagery
+used to identify the structure.</p>
+<p> </p>
+<p><strong>The cost of sustenance.</strong> The UN <a
+href="https://en.wikipedia.org/wiki/World_Food_Programme">World Food
+Programme</a>’s <a
+href="https://www.wfp.org/publications/fill-nutrient-gap">Fill the
+Nutrient Gap</a> initiative conducted a series of analyses in 2015
+through 2021 to “calculate the costs of energy-sufficient and
+nutrient-adequate diets and the percentage of households that were
+unable to afford each diet.” In a recent paper, <a
+href="https://www.sciencedirect.com/science/article/pii/S2211912424000609">Zuzanna
+Turowska et al.</a> describe the analyses’ methodology and share their
+results as a dataset. For each of the 37 countries analyzed, the dataset
+contains one row per geographic unit, timeframe, and type of household
+member; each row provides the cost and unaffordability estimates for
+that category.</p>
+<p> </p>
+<p><strong>German election results.</strong> <a
+href="http://www.german-elections.com/">GERDA</a>, a new project by <a
+href="https://osf.io/preprints/socarxiv/q28ex">Vincent Heddesheimer et
+al.</a>, “provides a comprehensive dataset of local, state, and federal
+election results in Germany.” The results go back to 1953 for federal
+elections, to 1990 for local elections, and to 1996 for state elections.
+The files indicate each geographic unit’s number of eligible voters,
+actual voters, valid votes, invalid votes, and vote shares by party. The
+authors have also created “geographically harmonized datasets that
+account for changes in municipal boundaries and mail-in voting
+districts.”</p>
+<p> </p>
+<p><strong>Synths.</strong> <a
+href="https://linktr.ee/iftah.gabbai">Iftah Gabbai</a> is <a
+href="https://github.com/iftah-og/Synthesizers-1896-2024">building a
+dataset</a> of “hardware synthesizers, samplers, and drum machines”
+produced since 1896, “compiled through a mix of automated and manual
+processes, combined with extensive research.” For each of the 2,300+
+devices identified, the dataset <a
+href="https://github.com/iftah-og/Synthesizers-1896-2024/blob/main/Synths_1896_2024_EDA.ipynb">indicates</a>
+its name, brand, release year, years in production, device type (synth,
+sampler, et cetera), form factor, architecture, synth engine used,
+number of keys, key type, oscillator count, and more. <strong>Learn
+more</strong>: <a
+href="https://www.youtube.com/watch?v=Omj405hkOt0">Gabbai’s introductory
+video</a>. [h/t <a href="https://stefanbohacek.com/">Stefan
+Bohacek</a>]</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send oscillating feedback
+to jsvine@gmail.com, or just reply to this email. // Looking for past
+datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. // Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions.</em></p>
+]]></content>
+    <link href="http://www.data-is-plural.com/archive/2024-10-23-edition" rel="alternate"/>
+    <summary>SBA disaster loans, US buildings, the cost of sustenance, German election results, and synthesizers.</summary>
+    <published>2024-10-23T08:00:00-04:00</published>
+  </entry>
   <entry>
     <id>dip-2024-10-09</id>
     <title>Data Is Plural — 2024.10.09 edition</title>
@@ -1133,123 +1237,5 @@ subscribe and to browse past editions.</em></p>
     <link href="http://www.data-is-plural.com/archive/2024-07-24-edition" rel="alternate"/>
     <summary>News homepages, human rights scores, commercial zones, national park species, and Australia shipwrecks.</summary>
     <published>2024-07-24T08:00:00-04:00</published>
-  </entry>
-  <entry>
-    <id>dip-2024-07-10</id>
-    <title>Data Is Plural — 2024.07.10 edition</title>
-    <updated>2024-07-10T08:00:00-04:00</updated>
-    <content type="CDATA"><![CDATA[<p><em>Federal inmate complaints, corporate AI activity, East Asia
-building outlines, US coral reefs, and ancient shipwrecks.</em></p>
-<p> </p>
-<p><strong>Federal inmate complaints.</strong> The Federal Bureau of
-Prisons’ <a
-href="https://www.bop.gov/policy/progstat/1330_018.pdf">Administrative
-Remedy Program</a> “allow[s] an inmate to seek formal review of an issue
-relating to any aspect of his/her own confinement.” In October 2022, the
-<a href="https://www.data-liberation-project.org/">Data Liberation
-Project</a> (which, disclosure, I run) filed a FOIA request seeking
-records from the agency database that tracks those complaints. In
-response, BOP last month <a
-href="https://www.data-liberation-project.org/datasets/federal-inmate-complaints/">provided
-data</a> on 1.78 million complaint and appeal submissions filed from
-January 2000 through late May 2024, spanning nearly 1 million distinct
-cases. The records, <a
-href="https://buttondown.email/data-liberation-project/archive/dlp-dispatch-16/">published
-yesterday</a> with the help of volunteers, <a
-href="https://docs.google.com/document/d/1vTuyUFNqS9tex4_s4PgmhF8RTvTb-uFMN5ElDjjVHTM/edit">indicate</a>
-when each filing was received, its relevant case number, complaint
-subject, facility where the issue occurred, case status, status update
-date, reasons for rejection/closure, and other details.</p>
-<p> </p>
-<p><strong>Corporate AI activity.</strong> The <a
-href="https://eto.tech/dataset-docs/private-sector-ai-indicators/">Private-Sector
-AI Indicators dataset</a>, from Georgetown University’s <a
-href="https://eto.tech/">Emerging Technology Observatory</a>, provides
-“a diverse range of indicators of AI-related activity for hundreds of
-companies worldwide, from startups to multinationals.” For each of the
-670+ companies included, the <a
-href="https://zenodo.org/records/12520760">dataset</a> counts the number
-of AI-related research articles published by its employees
-(disaggregated by topic), AI-related patents filed (by application area
-and use-case), and workforce (overall and those estimated to be
-AI-involved). It also lists each company’s main location, sector, growth
-stage, and description, as well as aliases, stock listings, and
-identifiers in several external data sources. <strong>See also</strong>:
-<a href="https://parat.eto.tech/">An interactive version of the
-database</a>. [h/t <a
-href="https://cset.georgetown.edu/staff/zachary-arnold/">Zach
-Arnold</a>]</p>
-<p> </p>
-<p><strong>East Asia building outlines.</strong> Recent years have seen
-the development of ambitious datasets that provide the outlines of
-buildings by the millions. For instance, from the archives: <a
-href="https://github.com/Microsoft/USBuildingFootprints">buildings in
-the US</a> (<a
-href="https://www.data-is-plural.com/archive/2018-07-18-edition/">DIP
-2018.07.18</a>), <a
-href="https://sites.research.google/open-buildings/">Africa</a> (<a
-href="https://www.data-is-plural.com/archive/2021-08-25-edition/">DIP
-2021.08.25</a>), and <a
-href="https://github.com/Microsoft/CanadianBuildingFootprints">Canada</a>
-and <a
-href="https://medium.com/on-location/an-open-building-outlines-dataset-for-new-zealand-eef8b558ef7a">New
-Zealand</a> (<a
-href="https://www.data-is-plural.com/archive/2019-09-25-edition/">DIP
-2019.09.25</a>). In the Journal of Remote Sensing, however, <a
-href="https://spj.science.org/doi/10.34133/remotesensing.0138">Qian Shi
-et al.</a> note a relative lack of such data for buildings in East Asia,
-which the authors attribute “to the more complex distribution of
-buildings and the scarcity of auxiliary data”. As an antidote, they’ve
-generated a <a href="https://zenodo.org/records/8174931">dataset that
-outlines more than 280 million buildings</a> in 2,800+ cities across
-China, Japan, South Korea, North Korea, and Mongolia.</p>
-<p> </p>
-<p><strong>US coral reefs.</strong> The <a
-href="https://www.coris.noaa.gov/monitoring/">National Coral Reef
-Monitoring Program</a> collects scientific and socioeconomic/attitude
-survey data related to the coral reefs offshore of the continental
-United States, Hawaii, and US territories. It provides the data through
-<a href="https://ncrmp-visualization-tool-noaa.hub.arcgis.com/">public
-visualizations</a> as well as <a
-href="https://ncrmp.coralreef.noaa.gov/pages/Data%20Download">download
-tools</a> and <a
-href="https://www.coris.noaa.gov/monitoring/data_atlantic.html">raw</a>
-<a
-href="https://www.coris.noaa.gov/monitoring/data_pacific.html">files</a>.
-The scientific data <a
-href="https://ncrmp.coralreef.noaa.gov/pages/ncrmp-data">include</a>
-species-level coral cover, colony density, bleaching prevalence, and
-disease rates; fish populations; water alkalinity and dissolved
-inorganic carbon levels; and more. [h/t <a
-href="https://www.infodocket.com/2023/11/26/science-noaa-unveils-new-data-visualization-tool-for-exploring-coral-reef-data/">Gary
-Price</a>]</p>
-<p> </p>
-<p><strong>Ancient shipwrecks.</strong> The <a
-href="https://docs.google.com/spreadsheets/d/11fk5YeQ4eFOnYSBNpUdHp4TP42gJ7wY5/edit?gid=970169931#gid=970169931">Summary
-Geodatabase of Shipwrecks 1500BCE-1500CE</a> merges two catalogs of
-ancient wrecks: <a
-href="https://oxrep.classics.ox.ac.uk/databases/shipwrecks_database/">one
-from the Oxford Roman Economy Project</a> and <a
-href="https://darmc.harvard.edu/data-availability">one from Harvard’s
-Mapping Past Societies project</a>. Building on scholarly research by <a
-href="https://doi.org/10.2307/300882">Toby Parker</a>, <a
-href="https://discovery.ucl.ac.uk/id/eprint/1349806/">Julia Strauss</a>,
-and others, the combined effort includes 1,900+ known wrecks, listing
-(where known) their coordinates, depth, estimated time period when
-wrecked, year discovered, cargo, and more.</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send treasure-laden
-feedback to jsvine@gmail.com, or just reply to this email. // Looking
-for past datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. // Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and to browse past editions. // Support the newsletter and
-your career by <a href="https://www.data-is-plural.com/plus/">becoming a
-DIP+ member</a>.</em></p>
-]]></content>
-    <link href="http://www.data-is-plural.com/archive/2024-07-10-edition" rel="alternate"/>
-    <summary>Federal inmate complaints, corporate AI activity, East Asia building outlines, US coral reefs, and ancient shipwrecks.</summary>
-    <published>2024-07-10T08:00:00-04:00</published>
   </entry>
 </feed>
