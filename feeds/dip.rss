@@ -6,7 +6,127 @@
     <description>A weekly newsletter of useful/curious datasets.</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>https://github.com/data-is-plural/newsletter-archive</generator>
-    <lastBuildDate>Wed, 23 Oct 2024 08:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 13 Nov 2024 08:00:00 -0500</lastBuildDate>
+    <item>
+      <title>Data Is Plural — 2024.11.13 edition</title>
+      <link>http://www.data-is-plural.com/archive/2024-11-13-edition</link>
+      <description>Tariff, climate summit attendees, substance abuse treatment, waves, and NYC marathon finishers.</description>
+      <content:encoded><![CDATA[<p><em>Tariff, climate summit attendees, substance abuse treatment,
+waves, and NYC marathon finishers.</em></p>
+<p> </p>
+<p><em>👋 Job alert: <a
+href="https://nytimes.wd5.myworkdayjobs.com/NYT/job/New-York-NY/Staff-Editor-Statistician--Data-Journalism-Team_REQ-017411-1">I’m
+hiring a statistician to join our data journalism team at The New York
+Times</a>. Follow that link for details and feel free to email me with
+any questions.</em></p>
+<p> </p>
+<p><strong>Tariffs.</strong> The <a href="https://www.usitc.gov/">United
+States International Trade Commission</a> maintains <a
+href="https://dataweb.usitc.gov/tariff/annual">annual datasets of US
+import tariffs</a> going back to 1997. The datasets include each
+impacted product’s eight-digit <a
+href="https://hts.usitc.gov/">Harmonized Tariff Schedule</a> code, a
+brief description, the duty rate, rate type, effective and ending dates,
+and <a
+href="https://dataweb.usitc.gov/assets/content/annual-tariffs/td-fields.pdf">more</a>.
+The commission also publishes a <a
+href="https://dataweb.usitc.gov/tariff/database">tariff search tool</a>
+and <a href="https://dataweb.usitc.gov/tariff/rates-future">data on
+upcoming tariff rates</a>. More globally, the World Trade Organization
+provides <a
+href="https://www.wto.org/english/tratop_e/tariffs_e/tariff_data_e.htm">tools
+to query and download data about its members’ tariffs</a>, as well as
+databases of <a
+href="https://rtais.wto.org/UI/PublicMaintainRTAHome.aspx">regional
+trade agreements</a> and <a href="https://ptadb.wto.org/">preferential
+trade agreements</a>. <strong>Previously</strong>: <a
+href="https://www.globaltradealert.org/data_extraction">Trade policy
+intervention data</a> from <a
+href="https://www.globaltradealert.org/">Global Trade Alert</a> (<a
+href="https://www.data-is-plural.com/archive/2022-01-19-edition/">DIP
+2022.01.19</a>).</p>
+<p> </p>
+<p><strong>Climate summit attendees.</strong> <a
+href="https://www.nature.com/articles/s41597-024-03978-7">Daria Blinova
+et al.</a> have built a <a
+href="https://github.com/bagozzib/UNFCCC-Attendance-Data">dataset</a> of
+310,000+ attendees of United Nations climate summits. The data, largely
+compiled from PDFs of attendance rosters, include each attendee’s year
+and meeting attended, name, job title, affiliation, delegation,
+delegation type (party, observer state, intergovernmental organization,
+NGO), gender, and more. In all, the attendees span 27,000+ delegations
+across three decades of <a
+href="https://en.wikipedia.org/wiki/United_Nations_Climate_Change_Conference">COP</a>
+and predecessor summits. <strong>Read more</strong>: “<a
+href="https://www.nytimes.com/interactive/2024/11/13/climate/cop-climate-summit-attendance.html">This
+Is 29 Years of International Climate Summits, Visualized</a>,” by The
+New York Times’ <a
+href="https://www.nytimes.com/by/mira-rojanasakul">Mira
+Rojanasakul</a>.</p>
+<p> </p>
+<p><strong>Substance abuse treatment.</strong> The <a
+href="https://www.samhsa.gov/">Substance Abuse and Mental Health
+Services Administration</a>’s <a
+href="https://www.samhsa.gov/data/data-we-collect/teds-treatment-episode-data-set">Treatment
+Episode Data Set</a> records admissions to, and discharges from,
+substance abuse centers in the US. The <a
+href="https://www.samhsa.gov/data/data-we-collect/teds/datafiles">public-use
+datasets</a>, which span several decades, are based on records collected
+by state agencies. They include each patient’s demographic information,
+state, metro/micro area, referral source, treatment type, substances
+used, frequency of use, age at first use, number of previous treatment
+episodes, among other details. <strong>Related</strong>: The
+administration’s <a
+href="https://www.samhsa.gov/data/data-we-collect/n-ssats-national-survey-substance-abuse-treatment-services">National
+Survey of Substance Abuse Treatment Services</a>, “an annual census of
+treatment facilities.” [h/t <a
+href="https://www.nber.org/papers/w33077">Conor Lennon et al.</a>]</p>
+<p> </p>
+<p><strong>Waves.</strong> The <a href="https://cdip.ucsd.edu/">Coastal
+Data Information Program</a>, launched in the 1970s <a
+href="https://cdip.ucsd.edu/m/about/">by a research group at the Scripps
+Institution of Oceanography</a>, “is an extensive network for monitoring
+waves and beaches along the coastlines of the United States.” The
+program provides a <a
+href="https://cdip.ucsd.edu/m/deployment/station_view/">map of its
+stations</a>, a <a href="https://cdip.ucsd.edu/m/stn_table/">table of
+recent observations</a>, a <a
+href="https://docs.google.com/document/d/1Uz_xIAVD2M6WeqQQ_x7ycoM3iKENO38S4Bmn6SasHtY/edit">catalog
+of real-time and historical wave measurements</a>, and an <a
+href="https://cdip.ucsd.edu/m/extreme/">extreme wave tracker</a>.
+<strong>As seen in</strong>: Dion Häfner et al.’s “<a
+href="https://journals.ametsoc.org/view/journals/atot/38/7/JTECH-D-20-0185.1.xml">FOWD:
+A Free Ocean Wave Dataset for Data Mining and Machine Learning</a>.”</p>
+<p> </p>
+<p><strong>NYC marathon finishers.</strong> <a
+href="https://www.nyrr.org/">New York Road Runners</a> publishes a <a
+href="https://results.nyrr.org/races">searchable database</a> of all
+races it has organized since 1970 — the year of <a
+href="https://www.nyrr.org/tcsnycmarathon/getinspired/marathonhistory">NYC’s
+first marathon</a> — and all finishers of those races. Data Is Plural
+reader <a href="https://www.residualthoughts.com/about/">Joe Hovde</a>
+has scraped the <a
+href="https://results.nyrr.org/event/M2024/finishers">results of the
+2024 marathon</a> into a <a
+href="https://docs.google.com/spreadsheets/d/1O_zxndHKhKMIfJ9e7_M5L7b4F3S__d1nVnUS8iZn8yE/edit">downloadable
+spreadsheet</a>. Each row represents one of the 55,000+ finishers and
+provides their name, bib number, age, gender, city, state, country, time
+ran, and place finished. <strong>Read more</strong>: “<a
+href="https://residualthoughts.substack.com/p/marcelo-and-karolina-the-fastest">Marcelo
+&amp; Karolina, the Fastest Names in the NYC Marathon</a>,” by
+Hovde.</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send five-borough
+feedback to jsvine@gmail.com, or just reply to this email. // Looking
+for past datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. // Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions.</em></p>
+]]></content:encoded>
+      <guid isPermaLink="false">dip-2024-11-13</guid>
+      <pubDate>Wed, 13 Nov 2024 08:00:00 -0500</pubDate>
+    </item>
     <item>
       <title>Data Is Plural — 2024.10.23 edition</title>
       <link>http://www.data-is-plural.com/archive/2024-10-23-edition</link>
@@ -1099,131 +1219,6 @@ subscribe and to browse past editions.</em></p>
 ]]></content:encoded>
       <guid isPermaLink="false">dip-2024-07-31</guid>
       <pubDate>Wed, 31 Jul 2024 08:00:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Data Is Plural — 2024.07.24 edition</title>
-      <link>http://www.data-is-plural.com/archive/2024-07-24-edition</link>
-      <description>News homepages, human rights scores, commercial zones, national park species, and Australia shipwrecks.</description>
-      <content:encoded><![CDATA[<p><em>News homepages, human rights scores, commercial zones, national
-park species, and Australia shipwrecks.</em></p>
-<p> </p>
-<p><strong>News homepages, archived.</strong> Since launching in March
-2022, <a href="https://homepages.news/">homepages.news</a> has <a
-href="https://palewi.re/docs/news-homepages/status-report.html">archived
-millions</a> of screenshots, performance audits, <a
-href="https://en.wikipedia.org/wiki/Robots.txt">robots.txt</a> files,
-accessibility trees, and hyperlink lists from the homepages of <a
-href="https://palewi.re/docs/news-homepages/sources.html">1,100+ news
-sites</a>. The <a
-href="https://github.com/palewire/news-homepages/">open-source</a>
-project, run by journalist <a
-href="https://palewi.re/who-is-ben-welsh/">Ben Welsh</a>, provides <a
-href="https://palewi.re/docs/news-homepages/extracts.html">bulk data for
-each of those assets</a>. The screenshots themselves are <a
-href="https://archive.org/details/news-homepages">stored on the Internet
-Archive</a>; you can also <a
-href="https://palewi.re/docs/news-homepages/latest.html">view the latest
-screenshots from all the sites on one page</a>. To date, the
-publications span <a
-href="https://palewi.re/docs/news-homepages/countries.html">32
-countries</a> and <a
-href="https://palewi.re/docs/news-homepages/languages.html">17
-languages</a>. <strong>Related</strong>: Welsh and <a
-href="https://mastodon.palewi.re/@palewire/111046697091347911">volunteer
-Alex Garcia</a> are using the <a
-href="https://palewi.re/docs/news-homepages/extracts.html#robotstxt-sample-csv">robots.txt
-data</a> to track <a
-href="https://palewi.re/docs/news-homepages/openai-gptbot-robotstxt.html">which
-sites block OpenAI, Google AI, and Common Crawl</a> — findings that <a
-href="https://www.brookings.edu/articles/can-journalism-survive-ai/">have</a>
-<a
-href="https://www.theverge.com/24067997/robots-txt-ai-text-file-web-crawlers-spiders">been</a>
-<a
-href="https://reutersinstitute.politics.ox.ac.uk/how-many-news-websites-block-ai-crawlers">cited</a>
-<a
-href="https://mastodon.palewi.re/@palewire/111663536216388030">widely</a>.</p>
-<p> </p>
-<p><strong>Human rights scores.</strong> The <a
-href="https://cirights.com/">CIRIGHTS</a> project <a
-href="https://cirights.com/learn-about-the-cirights-project/">aims</a>
-“to create numerical measures for every internationally recognized human
-right for all countries of the world.” The team has developed a <a
-href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4625036">detailed
-guide</a> to scoring each government’s record on <a
-href="https://cirights.com/rights-we-score/">dozens of such rights</a>,
-such as freedom of religion, women’s political rights, freedom from
-extrajudicial killings, the right to a fair trial, and “reasonable
-limits” on working hours. For each year from 1981 to 2021, the project’s
-scorers have rated each country on each right, generally on a
-three-point scale, based on information in the US State Department’s <a
-href="https://www.state.gov/reports-bureau-of-democracy-human-rights-and-labor/country-reports-on-human-rights-practices/">Country
-Reports on Human Rights Practices</a>, <a
-href="https://www.amnesty.org/en/annual-report-archive/">Amnesty
-International’s annual reports</a>, and similar sources. The resulting
-dataset includes those scores, as well as several summary metrics.</p>
-<p> </p>
-<p><strong>Commercial zones.</strong> <a
-href="https://www.nature.com/articles/s41597-024-03275-3">Byeonghwa
-Jeong et al.</a> have constructed a <a
-href="https://figshare.com/articles/dataset/Commercial_Boundary/24654309/4">dataset</a>
-estimating the geographic boundaries of 23,000+ commercial zones in 69
-metro areas in the US and Canada. To build it, they <a
-href="https://www.nature.com/articles/s41597-024-03275-3/tables/1">used
-data</a> on retail and office locations from <a
-href="https://www.openstreetmap.org/">OpenStreetMap</a>, and on job
-density from the US Census Bureau’s <a
-href="https://lehd.ces.census.gov/data/">Longitudinal Employer-Household
-Dynamics program</a> (<a
-href="https://www.data-is-plural.com/archive/2021-05-26-edition/">DIP
-2021.05.26</a>) and <a
-href="https://www12.statcan.gc.ca/census-recensement/2016/dp-pd/dt-td/Index-eng.cfm?APATH=3&amp;FL=A">Statistics
-Canada</a>. For each detected commercial zone, the dataset provides its
-outline, total area, a score of its relative concentration (on which the
-zone comprising most of Manhattan scored the highest), its <a
-href="https://en.wikipedia.org/wiki/Metropolitan_statistical_area">MSA</a>,
-and the street at its centroid.</p>
-<p> </p>
-<p><strong>National park species.</strong> The National Park Service’s
-<a href="https://irma.nps.gov/NPSpecies/">NPSpecies portal</a>
-“documents our knowledge about the occurrence and status of species” on
-the agency’s lands. For each NPS-managed area, you can download a list
-of the species, their scientific and common names, occurrence status
-(present, probably present, unconfirmed), nativeness, conservation
-status, and more. <strong>Related</strong>: Noting that “many of the
-observations in NPSpecies remain unverified and the lists are often
-outdated,” <a
-href="https://www.nature.com/articles/s41597-023-02836-2">Benjamin J.
-LaFrance et al.</a> have created an <a
-href="https://irma.nps.gov/DataStore/Reference/Profile/2301647">updated
-dataset for amphibian species</a>, which they checked against other
-sources and verified with regional experts.</p>
-<p> </p>
-<p><strong>Australia shipwrecks.</strong> The <a
-href="https://data.museum.wa.gov.au/">Western Australia Museum</a> hosts
-a <a href="https://data.museum.wa.gov.au/search/type/dataset">range of
-datasets</a>, including details concerning <a
-href="https://data.museum.wa.gov.au/dataset/maritime-archaeology">1,600+
-local shipwrecks and 30,000+ artifacts recovered from them</a>. The
-shipwreck dataset lists each ship’s builder, construction materials,
-owner, cargo, wreck location, date wrecked, known deaths, date found,
-and more. <strong>Previously</strong>: <a
-href="https://docs.google.com/spreadsheets/d/11fk5YeQ4eFOnYSBNpUdHp4TP42gJ7wY5/edit?gid=970169931#gid=970169931">Ancient
-shipwrecks</a> (<a
-href="https://www.data-is-plural.com/archive/2024-07-10-edition/">DIP
-2024.07.10</a>). [h/t <a
-href="http://www.linkedin.com/in/kristin-milton-8480389">Kristin
-Milton</a>]</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send sunken feedback to
-jsvine@gmail.com, or just reply to this email. // Looking for past
-datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. // Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and to browse past editions.</em></p>
-]]></content:encoded>
-      <guid isPermaLink="false">dip-2024-07-24</guid>
-      <pubDate>Wed, 24 Jul 2024 08:00:00 -0400</pubDate>
     </item>
   </channel>
 </rss>
