@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.data-is-plural.com</id>
   <title>Data Is Plural</title>
-  <updated>2024-11-13T08:00:00-05:00</updated>
+  <updated>2024-12-04T08:00:00-05:00</updated>
   <author>
     <name>Jeremy Singer-Vine</name>
     <email>jsvine@gmail.com</email>
@@ -10,6 +10,106 @@
   <link href="https://www.data-is-plural.com" rel="alternate"/>
   <generator>https://github.com/data-is-plural/newsletter-archive</generator>
   <subtitle>A weekly newsletter of useful/curious datasets.</subtitle>
+  <entry>
+    <id>dip-2024-12-04</id>
+    <title>Data Is Plural — 2024.12.04 edition</title>
+    <updated>2024-12-04T08:00:00-05:00</updated>
+    <content type="CDATA"><![CDATA[<p><em>100 million places, education policies around the world, China
+leaders’ foreign visits, nanosatellites, and Pixar films.</em></p>
+<p> </p>
+<p><strong>100 million places.</strong> Foursquare has <a
+href="https://location.foursquare.com/resources/blog/products/foursquare-open-source-places-a-new-foundational-dataset-for-the-geospatial-community/">released</a>
+an <a href="https://opensource.foursquare.com/os-places/">open dataset
+describing more than 100 million points of interest</a> across 200+
+countries. For each place, the dataset includes its name, address,
+latitude/longitude, date entered, date updated, date marked closed,
+telephone number, website, email address, and <a
+href="https://docs.foursquare.com/data-products/docs/categories">relevant
+categories</a>. Among the many possible labels: casino, comedy club,
+300+ kinds of restaurants (e.g., deli, diner, Korean BBQ, “mac and
+cheese joint”), and 100+ types of retailers (e.g., candy store, used car
+dealership, shopping mall). <strong>Learn more</strong>: Some initial
+explorations <a
+href="https://www.linkedin.com/posts/ugcPost-7265867829252386817-iAMl/">from
+Tim Wallace</a> and <a
+href="https://simonwillison.net/2024/Nov/20/foursquare-open-source-places/">from
+Simon Willison</a>. <strong>Previously</strong>: The <a
+href="https://overturemaps.org/">Overture Maps Foundation</a>’s <a
+href="https://overturemaps.org/download/">datasets</a> (<a
+href="https://www.data-is-plural.com/archive/2023-08-09-edition/">DIP
+2023.08.09</a>), including <a
+href="https://docs.overturemaps.org/guides/places/">information about 53
+million places</a>. [h/t <a href="http://knosof.co.uk/ESEUR/">Derek M.
+Jones</a> + <a href="https://masto.machlis.com/@smach">Sharon
+Machlis</a> + <a href="https://puntofisso.net/">Giuseppe
+Sollazzo</a>]</p>
+<p> </p>
+<p><strong>Education policies around the world.</strong> <a
+href="https://journals.sagepub.com/doi/10.1177/00104140241252075">Adrián
+del Río et al.</a> “introduce a global dataset on education policies and
+systems across modern history,” with “measures on compulsory education,
+ideological guidance and content of education, governmental intervention
+and level of education centralization, and teacher training.” The <a
+href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/MNM5Q5">dataset</a>
+covers 157 countries annually from 1789 to 2020. The questions answered
+by the team’s evaluators include, for example, “How many years of
+schooling are required by compulsory education?”, “Are there any
+national laws in place that ban specific subjects or topics in school?”,
+and “Which entities operate secondary schools?”</p>
+<p> </p>
+<p><strong>China leaders’ foreign visits.</strong> <a
+href="https://link.springer.com/article/10.1007/s11558-022-09459-z">Yu
+Wang and Randall W. Stone</a>’s <a
+href="https://link.springer.com/article/10.1007/s11558-022-09459-z#Sec23">China
+Visits dataset</a> records 400+ visits by China’s presidents and
+premiers to 100+ countries between 1998 and early 2020. To compile it,
+the authors consulted official reports, web search results, and relevant
+Wikipedia pages. For each visit, the dataset indicates its starting and
+ending date, Chinese leader, foreign country, broader meeting (e.g.,
+those of the <a
+href="https://en.wikipedia.org/wiki/Shanghai_Cooperation_Organisation">Shanghai
+Cooperation Organisation</a>, and source URL.</p>
+<p> </p>
+<p><strong>Nanosatellites.</strong> Space systems engineer <a
+href="https://erikkulu.com/">Erik Kulu</a>’s <a
+href="https://www.nanosats.eu/">Nanosats Database</a> tracks 4,000+ <a
+href="https://www.nanosats.eu/cubesat">nanosatellites</a> that have been
+launched into space, are planned for future launch, or have had their
+launches cancelled. The <a href="https://www.nanosats.eu/database">data
+for each satellite</a> include its mission name and description,
+launching organization and country, mass/unit size, launch date, and
+status. Additional tables provide lists of <a
+href="https://www.nanosats.eu/companies">CubeSat companies</a>, <a
+href="https://www.nanosats.eu/tables#launch-providers">launch
+providers</a>, <a href="https://www.nanosats.eu/tables#costs">costs</a>,
+and more. [h/t <a
+href="https://www.miun.se/Personal/a/ahmadassem/">Ahmad Assem</a>]</p>
+<p> </p>
+<p><strong>Pixar films.</strong> Software engineer <a
+href="https://erictleung.com/">Eric Leung</a> built and maintains a <a
+href="https://github.com/erictleung/pixarfilms">dataset</a> and <a
+href="https://erictleung.com/pixarfilms/">R package</a> providing <a
+href="https://erictleung.com/pixarfilms/reference/index.html">structured
+information</a> about every Pixar film — from 1995’s <em>Toy Story</em>
+to 2024’s <em>Inside Out 2</em>. It lists each film’s creators
+(storywriters, screenwriters, directors, composers, and producers),
+budget, box-office earnings, aggregate critic ratings, Oscar nominations
+and wins, and more. [h/t <a
+href="https://nycdata.substack.com/p/nyc-data-331-new-mta-data-buy-vs">Josh
+Laurito</a>]</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send animated feedback to
+jsvine@gmail.com, or just reply to this email. // Looking for past
+datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. // Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions.</em></p>
+]]></content>
+    <link href="http://www.data-is-plural.com/archive/2024-12-04-edition" rel="alternate"/>
+    <summary>100 million places, education policies around the world, China leaders’ foreign visits, nanosatellites, and Pixar films.</summary>
+    <published>2024-12-04T08:00:00-05:00</published>
+  </entry>
   <entry>
     <id>dip-2024-11-13</id>
     <title>Data Is Plural — 2024.11.13 edition</title>
@@ -1113,124 +1213,5 @@ subscribe and to browse past editions.</em></p>
     <link href="http://www.data-is-plural.com/archive/2024-08-07-edition" rel="alternate"/>
     <summary>State/local government employment, railroad incidents, Ireland’s gender pay gaps, weather balloons, and art auction sales.</summary>
     <published>2024-08-07T08:00:00-04:00</published>
-  </entry>
-  <entry>
-    <id>dip-2024-07-31</id>
-    <title>Data Is Plural — 2024.07.31 edition</title>
-    <updated>2024-07-31T08:00:00-04:00</updated>
-    <content type="CDATA"><![CDATA[<p><em>Ballots cast, hurricane evacuation orders, networked scholarship,
-people surveyed since 1979, and NPR’s weekly quiz show.</em></p>
-<p> </p>
-<p><strong>Ballots cast.</strong> “Electronic records of actual ballots
-cast (cast vote records) are available to the public in some
-jurisdictions,” <a
-href="https://dataverse.harvard.edu/file.xhtml?fileId=10404813&amp;version=1.0">Shiro
-Kuriwaki et al.</a> write. “However, they have been released in a
-variety of formats and have not been independently evaluated.” So the
-researchers have <a
-href="https://github.com/kuriwaki/cvr_harvard-mit_scripts">constructed</a>
-a <a
-href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/PQQ3KV">standardized
-dataset</a> representing 40.7 million (anonymous) ballots in the
-November 2020 general election, spanning 352 counties across 20 states.
-Each of the 160 million rows corresponds to a voter’s choice in a
-particular race and indicates the precinct, legislative district, office
-in question, candidate selected, and candidate’s party. The initial
-release, which the authors use to analyze <a
-href="https://en.wikipedia.org/wiki/Split-ticket_voting">ticket-splitting</a>
-patterns, <a
-href="https://x.com/shirokuriwaki/status/1816213954194202733">covers</a>
-votes for president, Senate, House, governor, and state legislature.
-[h/t <a href="https://thescoop.org/">Derek Willis</a>]</p>
-<p> </p>
-<p><strong>Hurricane evacuation orders.</strong> <a
-href="https://www.nature.com/articles/s41597-024-03100-x">Harsh Anand et
-al.</a>’s <a href="https://www.hurrevacorder.info/">Hurricane Evacuation
-Order Database</a> “is a comprehensive and standardized database of
-evacuation orders issued by state and local government officials in
-response to the hurricanes that impacted the United States between 2014
-and 2023.” To build it, the authors combed through government websites,
-official social media, news reports, and other sources. The database
-covers 27 storms and several types of announcements: state-of-emergency
-declarations, mandatory evacuations, voluntary evacuations, and the
-lifting of those orders. For each announcement, the database indicates
-the order type, date/time announced, date/time effective, counties
-affected, and evacuation area.</p>
-<p> </p>
-<p><strong>Scholarship, networked.</strong> <a
-href="https://openalex.org/">OpenAlex</a>, “a free and open catalog of
-the global research system,” has compiled data on more than 250 million
-scholarly works — and has linked those works to <a
-href="https://docs.openalex.org/">structured information</a> about their
-<a href="https://docs.openalex.org/api-entities/authors">authors</a>, <a
-href="https://docs.openalex.org/api-entities/institutions">institutions</a>,
-<a
-href="https://docs.openalex.org/api-entities/publishers">publishers</a>,
-<a href="https://docs.openalex.org/api-entities/funders">funders</a>, <a
-href="https://docs.openalex.org/api-entities/topics">topics</a>. The
-data are available to search online, to <a
-href="https://docs.openalex.org/download-all-data/openalex-snapshot">download
-in bulk</a>, and <a
-href="https://docs.openalex.org/how-to-use-the-api/api-overview">via
-API</a>. <strong>As seen in</strong>: Aliakbar Akbaritabar et al.’s “<a
-href="https://www.nature.com/articles/s41597-024-03655-9">Bilateral
-flows and rates of international migration of scholars for 210 countries
-for the period 1998-2020</a>” and <a
-href="https://direct.mit.edu/qss/article/4/2/314/115151/An-open-data-set-of-scholars-on-Twitter">Philippe
-Mongeon et al.</a>’s <a
-href="https://zenodo.org/records/10905839">dataset of scholars’
-Twitter/X usernames</a>.</p>
-<p> </p>
-<p><strong>People surveyed since 1979.</strong> The Bureau of Labor
-Statistics’ <a href="https://www.bls.gov/nls/nlsy79.htm">NLSY79
-survey</a> has interviewed the same people dozens of times since 1979.
-It began with a “nationally representative sample of 12,686 young men
-and women”; more than four decades later, <a
-href="https://www.nlsinfo.org/content/cohorts/nlsy79/intro-to-the-sample/retention-reasons-noninterview">6,000+
-interviewees are still responding</a> to the project’s biennial
-inquiries. The survey asks about a <a
-href="https://www.nlsinfo.org/content/cohorts/nlsy79/topical-guide">range
-of topics</a>, including education, employment, health, dating,
-marriage, children, attitudes, and substance abuse. Public-use data are
-available to <a
-href="https://www.bls.gov/nls/getting-started/accessing-data.htm">download</a>
-and through the agency’s <a
-href="https://www.nlsinfo.org/investigator/pages/home">NLS Investigator
-tool</a>. <strong>Related</strong>: <a
-href="https://www.bls.gov/nls/">The agency’s other national longitudinal
-surveys</a>. [h/t <a href="https://www.nber.org/papers/w32562">Prashant
-Bharadwaj et al.</a>]</p>
-<p> </p>
-<p><strong><em>Wait Wait</em>.</strong> <a
-href="https://blog.linh.social/about/">Linh Pham</a> considers himself
-“the unofficial scorekeeper” of <a
-href="https://waitwait.npr.org/"><em>Wait Wait… Don’t Tell Me!</em></a>,
-NPR’s weekly quiz show. Since 2007, he’s been <a
-href="https://stats.wwdt.me/site-history">maintaining</a> a <a
-href="https://stats.wwdt.me/">structured database</a> that describes
-<em>Wait Wait</em>’s <a
-href="https://stats.wwdt.me/shows/">episodes</a>, <a
-href="https://stats.wwdt.me/locations/">venues</a>, <a
-href="https://stats.wwdt.me/hosts/">hosts</a>, <a
-href="https://stats.wwdt.me/guests/">guests</a>, <a
-href="https://stats.wwdt.me/panelists/">panelists</a>, and more. Pham <a
-href="https://api.wwdt.me/v2.0/docs">provides the data via API</a>, and
-also publishes <a href="https://graphs.wwdt.me/">charts</a> and <a
-href="https://reports.wwdt.me/">automated reports</a>, such <a
-href="https://reports.wwdt.me/panelists/first-appearance-wins">this list
-of panelists who won their debut appearances</a>. [h/t <a
-href="https://codywinchester.com/">Cody Winchester</a>]</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send debut feedback to
-jsvine@gmail.com, or just reply to this email. // Looking for past
-datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. // Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and to browse past editions.</em></p>
-]]></content>
-    <link href="http://www.data-is-plural.com/archive/2024-07-31-edition" rel="alternate"/>
-    <summary>Ballots cast, hurricane evacuation orders, networked scholarship, people surveyed since 1979, and NPR’s weekly quiz show.</summary>
-    <published>2024-07-31T08:00:00-04:00</published>
   </entry>
 </feed>
