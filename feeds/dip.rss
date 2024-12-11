@@ -6,7 +6,131 @@
     <description>A weekly newsletter of useful/curious datasets.</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>https://github.com/data-is-plural/newsletter-archive</generator>
-    <lastBuildDate>Wed, 04 Dec 2024 08:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 11 Dec 2024 08:00:00 -0500</lastBuildDate>
+    <item>
+      <title>Data Is Plural — 2024.12.11 edition</title>
+      <link>http://www.data-is-plural.com/archive/2024-12-11-edition</link>
+      <description>Quits and layoffs, food safety alerts, crop rotations, Serbian political party funds, and a long-running ultramarathon.</description>
+      <content:encoded><![CDATA[<p><em>Quits and layoffs, food safety alerts, crop rotations, Serbian
+political party funds, and a long-running ultramarathon.</em></p>
+<p> </p>
+<p><em>🔄 Last month, PEN America <a
+href="https://pen.org/press-release/nearly-200-percent-surge-in-school-book-bans-during-2023-2024-school-year/">released</a>
+its <a
+href="https://pen.org/book-bans/pen-america-index-of-school-book-bans-2023-2024/">latest
+database of school book bans</a> (<a
+href="https://www.data-is-plural.com/archive/2022-07-06-edition/">DIP
+2022.07.06</a>), now covering the 2023–2024 school year. [h/t <a
+href="https://bookbans.citizencodex.com/">Florina Sutanto</a> via <a
+href="https://lukehall.co/">Luke Hall</a>]</em></p>
+<p> </p>
+<p><strong>Quits and layoffs.</strong> Minneapolis Fed–affiliated
+economists <a
+href="https://sites.google.com/site/kathrinellieroth">Kathrin
+Ellieroth</a> and <a href="https://ammichau.github.io/">Amanda
+Michaud</a> have <a
+href="https://www.minneapolisfed.org/research/institute-working-papers/quits-layoffs-and-labor-supply">constructed</a>
+a <a href="https://sites.google.com/qlmonthly.com/home">new dataset on
+monthly quits and layoffs</a>. Using <a
+href="https://www.bls.gov/cps/">Current Population Survey</a> (CPS)
+microdata going back to 1978, the dataset estimates the proportions of
+employees who, after quitting or being laid off, transition to
+unemployment versus exiting the labor market. In a <a
+href="https://www.minneapolisfed.org/article/2024/where-is-the-us-labor-market-heading-interpreting-the-mixed-signals">recent
+article</a>, Ellieroth and Michaud note that “CPS data offer a
+perspective not seen in the most-often-used series on quits and layoffs,
+the Job Openings and Labor Turnover Survey (JOLTS),” featured in <a
+href="https://www.data-is-plural.com/archive/2022-09-21-edition/">DIP
+2022.09.21</a>. “Whereas the JOLTS tracks what happens to a
+<em>job</em>, the CPS tracks what happens to <em>people</em>.” Analyzing
+it, they found “that increases in unemployment are typically
+<em>not</em> due to increases in layoffs; rather, they happen because
+laid-off workers are less likely to quickly find a new job, more likely
+to stay in the labor force, and thus more likely to join a growing pool
+of unemployed people hunting for work.” [h/t <a
+href="https://www.albrightalex.com/">Alex Albright</a>]</p>
+<p> </p>
+<p><strong>Food safety alerts.</strong> Data journalist <a
+href="https://justanesta.com/">Adrian Nesta</a> is building a <a
+href="https://github.com/anesta95/food_safety_recalls">automated
+pipeline</a> to collect and standardize <a
+href="https://github.com/anesta95/food_safety_recalls?tab=readme-ov-file#data-details">data
+on food safety recalls and alerts</a> from two US federal agencies — the
+<a
+href="https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts">FDA</a>
+and the <a href="https://www.fsis.usda.gov/recalls">USDA</a>. For each
+alert, the <a
+href="https://github.com/anesta95/food_safety_recalls/blob/main/clean_data/food_safety_recalls.json">standardized
+dataset</a> indicates the notice’s title, ID, URL, and time posted, as
+well as the product description, company name, brand name, recall type,
+recall reason, impacted states, risk level, and <a
+href="https://github.com/anesta95/food_safety_recalls?tab=readme-ov-file#data-dictionary">more</a>.</p>
+<p> </p>
+<p><strong>Crop rotations.</strong> The Department of Agriculture’s <a
+href="https://www.nass.usda.gov/Research_and_Science/Crop-Sequence-Boundaries/">Crop
+Sequence Boundaries</a> initiative algorithmically analyzes satellite
+imagery to create “estimates of field boundaries, crop acreage, and crop
+rotations across the contiguous United States.” The results are
+available via an <a
+href="https://www.nass.usda.gov/Research_and_Science/Crop-Sequence-Boundaries/Viewer/index.php">interactive
+map</a> and downloads for eight-year time frames. The <a
+href="https://github.com/USDA-REE-NASS/crop-sequence-boundaries">underlying
+code is open-source</a> and can be used to generate datasets for custom
+time frames. <strong>Previously</strong>: The USDA’s <a
+href="https://nassgeodata.gmu.edu/CropScape/">CropScape tool</a> and <a
+href="https://www.nass.usda.gov/Research_and_Science/Cropland/SARS1a.php">Cropland
+Data Layer</a> (<a
+href="https://www.data-is-plural.com/archive/2019-03-06-edition/">DIP
+2019.03.06</a>). [h/t <a
+href="https://bsky.app/profile/bunkum.us">Forest Gregg</a>]</p>
+<p> </p>
+<p><strong>Serbian political party funds.</strong> The <a
+href="https://www.cins.rs/en/">Center for Investigative Journalism of
+Serbia</a>’s <a
+href="https://www.cins.rs/en/party-funds-database-sns-the-financially-strongest-political-party-in-serbia/">Party
+Funds database</a> “tracks all reported incomes and expenses of 40
+political parties and citizens’ groups in Serbia over the past nine
+years.” The records, based on financial disclosure reports, can be <a
+href="https://www.cins.rs/baze-podataka/stranacka-kasa-2024/">browsed
+online</a>, <a
+href="https://www.cins.rs/baze-podataka/stranacka-kasa-2024/pretrazi-bazu/">searched</a>,
+and downloaded. They indicate revenues, overhead costs, ad spending,
+salary expenditures, and more. The data specifies each line item’s year,
+amount, purpose, and other context-dependent details. [h/t <a
+href="https://www.linkedin.com/in/teodora-%C4%87ur%C4%8Di%C4%87-27a93884/">Teodora
+Ćurčić</a>]</p>
+<p> </p>
+<p><strong>A long-running ultramarathon.</strong> The <a
+href="https://www.comrades.com/">Comrades Marathon</a>, first run in
+1921, <a href="https://www.comrades.com/about/comrades-museum">is
+considered</a> “the oldest and largest ultramarathon in the world.” The
+route stretches 80+ kilometers between Durban and Pietermaritzburg,
+flipping annually between “up” and “down” directions. In 2019, <a
+href="https://www.kaggle.com/suugaku">Kyle Stratton</a> scraped the
+official website to construct a <a
+href="https://www.kaggle.com/datasets/suugaku/comrades-marathon-results">dataset
+of all 445,000+ finishers</a> (year, name, country, club, category,
+finishing time, medal received) through that year.
+<strong>Related</strong>: The <a href="https://arrs.run/">Association of
+Road Racing Statisticians</a>’ lists of longest-running <a
+href="https://arrs.run/LongRunM.htm">marathons</a> and <a
+href="https://arrs.run/LongRunUM.htm">ultramarathons</a>, last updated
+in 2017. <strong>As seen in</strong>: <a
+href="https://en.wikipedia.org/wiki/Antony_Unwin">Antony Unwin</a>’s <a
+href="https://bookdown.org/aatcosada/GmooG-book2/secComM.html"><em>Getting
+(more out of) Graphics</em></a>.</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send inexhaustible
+feedback to jsvine@gmail.com, or just reply to this email. // Looking
+for past datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. // Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions.</em></p>
+]]></content:encoded>
+      <guid isPermaLink="false">dip-2024-12-11</guid>
+      <pubDate>Wed, 11 Dec 2024 08:00:00 -0500</pubDate>
+    </item>
     <item>
       <title>Data Is Plural — 2024.12.04 edition</title>
       <link>http://www.data-is-plural.com/archive/2024-12-04-edition</link>
@@ -1077,129 +1201,6 @@ subscribe and to browse past editions.</em></p>
 ]]></content:encoded>
       <guid isPermaLink="false">dip-2024-08-14</guid>
       <pubDate>Wed, 14 Aug 2024 08:00:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Data Is Plural — 2024.08.07 edition</title>
-      <link>http://www.data-is-plural.com/archive/2024-08-07-edition</link>
-      <description>State/local government employment, railroad incidents, Ireland’s gender pay gaps, weather balloons, and art auction sales.</description>
-      <content:encoded><![CDATA[<p><em>State/local government employment, railroad incidents, Ireland’s
-gender pay gaps, weather balloons, and art auction sales.</em></p>
-<p> </p>
-<p><em>📬 Reader <a href="https://jeremybmerrill.com/">Jeremy B.
-Merrill</a> recently used the <a
-href="https://wildchat.allen.ai/">WildChat Dataset</a>, featured in <a
-href="https://www.data-is-plural.com/archive/2024-05-15-edition/">DIP
-2024.05.15</a>, to analyze <a
-href="https://www.washingtonpost.com/technology/2024/08/04/chatgpt-use-real-ai-chatbot-conversations/?pwapi_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyZWFzb24iOiJnaWZ0IiwibmJmIjoxNzIyOTE2ODAwLCJpc3MiOiJzdWJzY3JpcHRpb25zIiwiZXhwIjoxNzI0Mjk5MTk5LCJpYXQiOjE3MjI5MTY4MDAsImp0aSI6IjA4NDJhYzc1LTZjMDctNDMxZC04YTJiLTUxODY4NWMxY2I3NyIsInVybCI6Imh0dHBzOi8vd3d3Lndhc2hpbmd0b25wb3N0LmNvbS90ZWNobm9sb2d5LzIwMjQvMDgvMDQvY2hhdGdwdC11c2UtcmVhbC1haS1jaGF0Ym90LWNvbnZlcnNhdGlvbnMvIn0.FXu6NqqA9HaNC93mU9yIldILRQ2yi8IsystsU_KTcoc&amp;itid=gfta">what
-people really ask AI chatbots</a>. (Have you published something with
-data you found via DIP? <a
-href="https://docs.google.com/forms/d/e/1FAIpQLSdXXD5eO05w0Xa7bwG3Ppia3uzr_o3y-xDEZuWRfXbCfCu_XA/viewform">Click
-here to let me know</a>.)</em></p>
-<p> </p>
-<p><strong>State/local government employment.</strong> Every year, the
-Census Bureau sends its <a
-href="https://www.census.gov/programs-surveys/apes.html">Annual Survey
-of Public Employment &amp; Payroll</a> to all 50 state governments and
-90,000+ local governments, <a
-href="https://www.census.gov/programs-surveys/apes/technical-documentation/methodology/annual/2023.html">requesting</a>
-employee counts and payroll totals. The survey’s <a
-href="https://www.census.gov/programs-surveys/apes/data/datasetstables.html">public
-datasets</a> provide those figures for each government unit, broken down
-by several dozen “functional categories” (such as “Highways”, “Financial
-Administration”, and “Hospitals”). <strong>As seen in</strong>: The
-Marshall Project’s <a
-href="https://www.themarshallproject.org/2024/07/25/how-to-investigate-the-trend-of-declining-prison-staff-and-deteriorating-conditions-behind-bars">guide
-to using the data to examine declines in prison staffing</a>, part of
-the organization’s new <a
-href="https://www.themarshallproject.org/investigate-this"><em>Investigate
-This!</em> initiative</a>; they’ve also <a
-href="https://observablehq.com/@themarshallproject/census-labor-data-release">aggregated
-the raw records into a spreadsheet of annual state totals</a>. [h/t <a
-href="https://www.themarshallproject.org/staff/david-eads">David
-Eads</a>]</p>
-<p> </p>
-<p><strong>Railroad incidents.</strong> Since last August, the <a
-href="https://railroads.dot.gov/">Federal Railroad Administration</a>
-has been rolling out a <a
-href="https://data.transportation.gov/stories/s/FRA-Safety-Data/dakf-i7zd">new
-portal for its safety data</a>. Through it, you can find datasets on <a
-href="https://data.transportation.gov/Railroads/Railroad-Equipment-Accident-Incident-Source-Data-F/aqxq-n5hy/about_data">incidents
-and accidents involving railroad equipment</a>, <a
-href="https://data.transportation.gov/Railroads/Highway-Rail-Grade-Crossing-Accident-Incident-Sour/icqf-xf4w/about_data">incidents
-at grade crossings</a>, and <a
-href="https://data.transportation.gov/Railroads/Injury-Illness-Summary-Operational-Source-Data-For/unww-uhxd/about_data">reported
-injuries and illnesses</a>, as well as dashboards and reports on related
-topics. The grade crossing dataset, for instance, lists 246,000+
-incidents since 1975; it indicates each incident’s date, railroad,
-crossing identifier, nearest station, number of injuries, vehicle and
-train speeds, and much more. <strong>Previously</strong>: <a
-href="https://www.fra.dot.gov/blockedcrossings/incidents">Blocked rail
-crossings</a> (<a
-href="https://www.data-is-plural.com/archive/2023-05-10-edition/">DIP
-2023.05.10</a>).</p>
-<p> </p>
-<p><strong>Ireland’s gender pay gaps.</strong> Ireland’s <a
-href="https://www.gov.ie/en/publication/29606-what-is-the-gender-pay-gap-information-act-2021/">Gender
-Pay Gap Information Act</a> requires certain-sized companies to report
-their differences pay for men versus women. “While plans are in place to
-create a central portal (similar to that in the UK) to collate this
-information, such a database does not exist yet,” writes <a
-href="http://www.jenniferkeane.ie/">Jennifer Keane</a>, who has built <a
-href="https://paygap.ie/">PayGap.ie</a> to fill the void. For each
-company and year, the <a href="https://paygap.ie/downloads">project’s
-database</a> lists the metrics the Act requires — mean and median hourly
-pay gaps, percentages of men and women paid bonuses, proportion of
-employees in each pay quartile for each gender, among others — plus a
-link to the company’s public report.</p>
-<p> </p>
-<p><strong>Weather balloons.</strong> When a <a
-href="https://www.weather.gov/chs/upperair">weather balloon</a> rises
-into the atmosphere, it <a
-href="https://www.weather.gov/upperair/factsheet">carries</a> a <a
-href="https://en.wikipedia.org/wiki/Radiosonde">radiosonde</a> to record
-the temperature, pressure, wind speed, humidity, and other measurements.
-NOAA’s <a
-href="https://www.ncei.noaa.gov/products/weather-balloon/integrated-global-radiosonde-archive">Integrated
-Global Radiosonde Archive</a> “consists of radiosonde and pilot balloon
-observations from more than 2,800 globally distributed stations,” some
-dating back to the early 1900s. <a
-href="https://sondehub.org">SondeHub</a>, meanwhile, tracks <a
-href="https://github.com/projecthorus/sondehub-infra/wiki">hundreds of
-weather balloons a day</a> in real-time, thanks to a <a
-href="https://github.com/projecthorus/sondehub-tracker/wiki/SondeHub-Tracker-User-Guide">community-run
-network</a> of 1,400+ receiver stations. You can browse the flight paths
-and detailed measurements online, and access the data via <a
-href="https://github.com/projecthorus/sondehub-infra/wiki/Amazon-Open-Data">download</a>
-and <a
-href="https://github.com/projecthorus/sondehub-infra/wiki/API-(Beta)">API</a>.
-[h/t <a
-href="https://www.linkedin.com/in/michael-allen-60287015b/">Michael
-Allen</a>]</p>
-<p> </p>
-<p><strong>Art auction sales.</strong> <a
-href="https://www.nature.com/articles/s41598-024-60957-z">Kangsan Lee et
-al.</a> have compiled a <a
-href="https://springernature.figshare.com/articles/dataset/Buying_a_Work_of_Art_or_an_Artist_Exploring_the_Impact_of_Visual_and_Social_Features_on_Art_Prices/24746268">dataset</a>
-of “34,200 auction sales records, including images, artists’ attributes,
-and market information, encompassing 590 living contemporary artists
-spanning 17 years (1996 to 2012) across 23 countries.” It includes the
-artist’s name, nationality, and birth year; the artwork’s name, year,
-medium, and dimensions; the auction date, house, initial estimates, and
-final sale price; and more. The sales information comes from <a
-href="https://www.blouinartsalesindex.com/">Blouin</a>, which the
-researchers “cross-check[ed] with publicly available auction house data
-at the time, such as Christie’s and Sotheby’s.”</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send highest-bid feedback
-to jsvine@gmail.com, or just reply to this email. // Looking for past
-datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. // Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and to browse past editions.</em></p>
-]]></content:encoded>
-      <guid isPermaLink="false">dip-2024-08-07</guid>
-      <pubDate>Wed, 07 Aug 2024 08:00:00 -0400</pubDate>
     </item>
   </channel>
 </rss>
