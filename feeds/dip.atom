@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.data-is-plural.com</id>
   <title>Data Is Plural</title>
-  <updated>2024-12-11T08:00:00-05:00</updated>
+  <updated>2025-01-08T08:00:00-05:00</updated>
   <author>
     <name>Jeremy Singer-Vine</name>
     <email>jsvine@gmail.com</email>
@@ -10,6 +10,140 @@
   <link href="https://www.data-is-plural.com" rel="alternate"/>
   <generator>https://github.com/data-is-plural/newsletter-archive</generator>
   <subtitle>A weekly newsletter of useful/curious datasets.</subtitle>
+  <entry>
+    <id>dip-2025-01-08</id>
+    <title>Data Is Plural — 2025.01.08 edition</title>
+    <updated>2025-01-08T08:00:00-05:00</updated>
+    <content type="CDATA"><![CDATA[<p><em>Overdose demographics, opioid settlement spending, AI governance
+documents, NEA writing fellowships, and ISS telemetry.</em></p>
+<p> </p>
+<p><strong>Overdose demographics.</strong> Since mid-2024, reporters at
+the Baltimore Banner have been publishing a <a
+href="https://www.thebaltimorebanner.com/specials/overdose-crisis/">series
+examining the city’s overdose crisis</a> — reporting supported by The
+New York Times’ <a
+href="https://www.nytco.com/careers/local-investigations-fellowship/">Local
+Investigations Fellowship</a> and Stanford’s <a
+href="https://biglocalnews.org/content/about/">Big Local News</a>. Last
+month the <a
+href="https://www.thebaltimorebanner.com/banner-pr/new-york-times-big-local-news-opioid-crisis-partnership-2ONBVC5UHVATDAW6GKG5V55WZE/">team
+partnered</a> with <a
+href="https://www.nytimes.com/2024/12/20/upshot/black-men-overdose-deaths.html">The
+Upshot</a> and a range of local news organizations <a
+href="https://biglocalnews.org/content/news/2024/12/20/overdose-cohorts.html">to
+examine</a> a stark phenomenon: In dozens of US counties, “Black men
+born between 1951 and 1970 have died of overdose at exceptionally high
+rates for decades.” They’ve <a
+href="https://purl.stanford.edu/cx567kr8730">published the supporting
+data</a>, which list overdose death counts and rates by year, county,
+race/ethnicity, sex, and age group. The data, <a
+href="https://stacks.stanford.edu/file/druid:cx567kr8730/Senior_Overdoses_Project_README.pdf">based
+on restricted-use records from the CDC</a>, cover the years 1989 to 2022
+for “the 408 U.S. counties that had 200 or more overdose deaths between
+2018 and 2022”. [h/t <a
+href="https://www.linkedin.com/pulse/new-local-journalism-collaboration-tells-story-black-men-phillips-ryroc/">Cheryl
+Phillips</a> + <a
+href="https://www.linkedin.com/posts/kimi-yoshino-241164_the-banner-is-sharing-data-about-us-overdoses-activity-7277040654952611840-8RS4/">Kimi
+Yoshino</a>]</p>
+<p> </p>
+<p><strong>Opioid settlement spending.</strong> KFF Health News, working
+with researchers at <a href="https://opioidprinciples.jhsph.edu/">Johns
+Hopkins</a> and <a
+href="http://www.shatterproof.org/">Shatterproof</a>, has <a
+href="https://kffhealthnews.org/news/article/opioid-settlement-funds-detailed-database-state-county-city-spending/">published</a>
+“a first-of-its kind database” tracking how states and local governments
+are using the billions of dollars received via opioid settlements in
+recent years. The <a
+href="https://kffhealthnews.org/download-the-data-opioid-settlement-expenditures/">database</a>,
+<a
+href="https://kffhealthnews.org/wp-content/uploads/sites/2/2024/12/opioid-settlement-expenditures-methodology-121124.pdf">drawing
+from</a> “dozens of interviews, thousands of pages of documents, an
+array of public records requests, and outreach to all 50 states,”
+represents “the most comprehensive resource to date tracking some of the
+largest public health settlements in American history.” For each state,
+it indicates the total funds received in 2022-23, amount committed or
+spent in various categories (e.g., prevention, treatment, recovery),
+amount set aside, and amount “untrackable via public reports.” It also
+catalogs 7,000+ specific spending decisions: funder, destination,
+purpose, and amount. <strong>Previously</strong>: <a
+href="https://kffhealthnews.org/news/article/opioid-settlement-payouts-state-county-city-tracker/">Opioid
+settlement payouts</a> (<a
+href="https://www.data-is-plural.com/archive/2024-04-10-edition/">DIP
+2024.04.10</a>). [h/t <a
+href="https://www.linkedin.com/posts/aneri-pattani-4aab328a_how-are-states-spending-opioid-settlement-activity-7274419712388657152-JwWa">Aneri
+Pattani</a>]</p>
+<p> </p>
+<p> </p>
+<p><strong>AI governance documents.</strong> The <a
+href="https://eto.tech/">Emerging Technology Observatory</a>’s <a
+href="https://eto.tech/dataset-docs/agora-dataset/">AGORA</a> “is a
+living collection of AI-relevant laws, regulations, standards, and other
+governance documents from the United States and around the world.” The
+dataset, available to <a
+href="https://zenodo.org/records/14499135">download</a> and <a
+href="https://agora.eto.tech/">explore online</a>, provides the full
+text, metadata (e.g., jurisdiction, title, relevant dates), summaries,
+and thematic tags for 600+ documents. The project currently “skews
+toward U.S. law and policy” but <a
+href="https://eto.tech/dataset-docs/agora-dataset/#scope">is aiming</a>
+“to broaden coverage of U.S. state documents […] and to broaden coverage
+of Chinese central government documents and major corporate
+commitments.”</p>
+<p> </p>
+<p><strong>NEA writing fellowships.</strong> A team led by English
+professor <a
+href="https://www.mcgill.ca/english/staff/alexander-manshel">Alexander
+Manshel</a> has <a
+href="https://data.post45.org/posts/nea-creative-writing-fellowships/">compiled
+a dataset</a> of every recipient of the National Endowment for the Arts’
+<a
+href="https://www.arts.gov/grants/creative-writing-fellowships">fellowship
+for creative writing</a>, “from the organization’s founding in 1965 to
+2024, including information about those writers’ demographics,
+education, and geography.” The dataset, which lists 3,700+ recipients,
+is based on the <a
+href="https://www.arts.gov/grants/recent-grants/literature-fellowships">NEA’s
+own directory</a> and <a
+href="https://www.arts.gov/sites/default/files/NEA_lit.pdf">a 2006
+report</a>, as well as “author biographies and websites, institutional
+websites, interviews, encyclopedias, literary criticism, and literary
+journalism.” [h/t <a href="https://melaniewalsh.org/">Melanie Walsh</a>
++ <a href="https://thescoop.org/">Derek Willis</a>]</p>
+<p> </p>
+<p><strong>ISS telemetry.</strong> The <a
+href="https://en.wikipedia.org/wiki/International_Space_Station">International
+Space Station</a> beams home a wide range of measurements: cabin
+temperature, solar array angles, spacesuit power supply, wastewater tank
+capacity, oxygen production rate, and much more. NASA, <a
+href="https://blog.lightstreamer.com/2014/02/how-nasa-is-using-lightstreamer.html">in
+collaboration with Lightstreamer</a>, <a
+href="https://ntrs.nasa.gov/citations/20130013825">provides</a> a <a
+href="https://github.com/Lightstreamer/Lightstreamer-example-ISSLive-client-javascript">feed
+of these measurements</a>. A team <a
+href="https://github.com/ISS-Mimic/Mimic">developing a live 3D model of
+the station</a> has also published a <a
+href="https://iss-mimic.github.io/Mimic/">couple</a> of <a
+href="https://iss-mimic.github.io/Mimic/dashboard.html">dashboards</a>
+of the realtime data, <a
+href="https://github.com/ISS-Mimic/Mimic/issues/213#issuecomment-761708613">historical
+data going back to 2018</a>, and a <a
+href="https://github.com/ISS-Mimic/Mimic/blob/main/Telemetry/ISS_Public_Telemetry.xlsx">data
+dictionary</a>. [h/t <a
+href="https://news.ycombinator.com/item?id=42505454">ajdud</a> + <a
+href="https://news.ycombinator.com/item?id=42506213">AIorNot</a>]</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send orbiting feedback to
+jsvine@gmail.com, or just reply to this email. // Looking for past
+datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. // Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions.</em></p>
+]]></content>
+    <link href="http://www.data-is-plural.com/archive/2025-01-08-edition" rel="alternate"/>
+    <summary>Overdose demographics, opioid settlement spending, AI governance documents, NEA writing fellowships, and ISS telemetry.</summary>
+    <published>2025-01-08T08:00:00-05:00</published>
+  </entry>
   <entry>
     <id>dip-2024-12-11</id>
     <title>Data Is Plural — 2024.12.11 edition</title>
@@ -1080,139 +1214,5 @@ subscribe and to browse past editions.</em></p>
     <link href="http://www.data-is-plural.com/archive/2024-08-21-edition" rel="alternate"/>
     <summary>H-1B lotteries, multinational corporations, California residential water supply, UK grantmakers, and Olympic medalists.</summary>
     <published>2024-08-21T08:00:00-04:00</published>
-  </entry>
-  <entry>
-    <id>dip-2024-08-14</id>
-    <title>Data Is Plural — 2024.08.14 edition</title>
-    <updated>2024-08-14T08:00:00-04:00</updated>
-    <content type="CDATA"><![CDATA[<p><em>The Freedman’s Bank, recreational boating accidents, Western
-water rights, real-time UK voter registrations, and watching grass
-grow.</em></p>
-<p> </p>
-<p><em>📬 Reader <a
-href="https://www.linkedin.com/in/shymanskaya-data-science/">Alexandra
-F</a> has used the <a
-href="https://docs.google.com/spreadsheets/d/11fk5YeQ4eFOnYSBNpUdHp4TP42gJ7wY5/edit?gid=970169931#gid=970169931">ancient
-shipwreck data</a> featured in <a
-href="https://www.data-is-plural.com/archive/2024-07-10-edition/">DIP
-2024.07.10</a> to build a <a
-href="https://medium.com/@alexandrafiona/unveiling-ancient-maritime-history-a-data-driven-journey-through-shipwrecks-across-time-and-space-1249b39fca67">series
-of maps</a> for each historical sub-period. (Have you published
-something with data you found via DIP? <a
-href="https://docs.google.com/forms/d/e/1FAIpQLSdXXD5eO05w0Xa7bwG3Ppia3uzr_o3y-xDEZuWRfXbCfCu_XA/viewform">Click
-here to let me know</a>.)</em></p>
-<p> </p>
-<p><strong>The Freedman’s Bank.</strong> The <a
-href="https://en.wikipedia.org/wiki/Freedman%27s_Savings_Bank">Freedman’s
-Savings and Trust Company</a> was chartered by Congress in 1865, toward
-the end of the Civil War, to provide banking services to formerly
-enslaved Americans. “Though the bank achieved some early successes, it
-failed catastrophically in 1874, destroying the savings of a broad swath
-of newly freed black citizens,” write <a
-href="https://www.malcolmwardlaw.info/">Malcolm Wardlaw</a> and <a
-href="https://www.virginiatraweek.com/">Virginia Traweek</a>, who have
-<a href="https://freedmansbank.uga.edu/">constructed several
-datasets</a> based on handwritten records preserved by the federal
-government. One dataset lists <a
-href="https://freedmansbank.uga.edu/project/passbooks/">5,000+
-transactions</a> from 500+ accounts’ “passbooks”, indicating the account
-holder, city, transaction type, date, and amount. Another lists <a
-href="https://freedmansbank.uga.edu/project/dividendrecord/">40,000+
-accounts’ final balances</a> at the time of the bank’s failure.
-<strong>Read more</strong>: <a
-href="https://freedmansbank.uga.edu/#publications">Wardlaw and Traweek’s
-studies analyzing the records</a>.</p>
-<p> </p>
-<p><strong>Recreational boating accidents.</strong> In the US,
-recreational boaters <a
-href="https://uscgboating.org/recreational-boaters/accident-reporting.php">must
-notify state authorities</a> soon after any incident involving a death,
-serious injury, disappearance, or substantial damage. The authorities
-relay those notifications to the Coast Guard, which stores them in its
-centralized <a
-href="https://www.dhs.gov/publication/dhsuscgpia-011-boating-accident-report-database-bard">Boating
-Accident Report Database</a>. The <a
-href="https://www.data-liberation-project.org/">Data Liberation
-Project</a> (which, customary disclosure, I run) <a
-href="https://www.data-liberation-project.org/requests/uscg-boating-accident-report-database/">filed
-a FOIA request</a> for the database and, earlier this week, <a
-href="https://buttondown.com/data-liberation-project/archive/dlp-dispatch-17/">published</a>
-the <a
-href="https://www.data-liberation-project.org/datasets/uscg-boating-accident-report-database/">records
-it received</a>. The data describe 58,000+ boating accidents, 78,000+
-vessels, 8,900+ deaths, and 36,000+ injuries from 2009 to 2023, although
-a few states and territories withheld their incidents from disclosure.
-<strong>Read more</strong>: <a
-href="https://docs.google.com/document/d/1lk0dnACzcj3Yo6DAjZbGKf_zFYkymor5IDwNxypnZpc/edit">The
-Data Liberation Project’s introductory documentation</a>.</p>
-<p> </p>
-<p><strong>Western water rights.</strong> <a
-href="https://www.nature.com/articles/s41597-024-03434-6">Matthew D.
-Lisk et al.</a> have compiled and standardized a <a
-href="https://data.msdlive.org/records/dfkx0-hew78">dataset of water
-rights records</a> — key documents in the allocation of the scarce
-resource — in the Western United States. Drawing on <a
-href="https://data.msdlive.org/records/8y9nq-bdt52">raw data</a>
-collected from 11 states, the <a
-href="https://data.msdlive.org/records/h79e1-k3h91">harmonized
-dataset</a> “provides consistent unique identifiers for each spatial
-unit of water management across the domain, unique identifiers for each
-water right record, and a consistent categorization scheme that puts
-each water right record into one of 7 broad use categories.” Those
-categories: irrigation, domestic, livestock, fish, industrial,
-environmental, and other. The authors have also published a <a
-href="https://data.msdlive.org/records/v5ree-qj344">set of shapefiles
-outlining each water management area’s boundaries</a>.</p>
-<p> </p>
-<p><strong>Real-time UK voter registrations.</strong> The UK
-government’s <a
-href="https://www.registertovote.service.gov.uk/performance">voter
-registration statistics dashboard</a> updates hundreds of times per day.
-It provides downloadable data on <a
-href="https://www.registertovote.service.gov.uk/performance/live_usage">the
-number of online applications in each five-minute interval in the past
-24 hours</a> and daily counts broken down by <a
-href="https://www.registertovote.service.gov.uk/performance/applications_breakdown">online
-vs. paper applications</a>, <a
-href="https://www.registertovote.service.gov.uk/performance/applications_by_age_group">age
-group</a>, <a
-href="https://www.registertovote.service.gov.uk/performance/applications_by_type">elector
-type</a>, and <a
-href="https://www.registertovote.service.gov.uk/performance/applications_by_nation">nation</a>.
-[h/t <a
-href="https://buttondown.com/puntofisso/archive/569-quantum-of-sollazzo/">Giuseppe
-Sollazzo</a>]</p>
-<p> </p>
-<p><em>👋 The first two links in the item below seem to be returning
-HTTP errors this morning. In case they’re still not working when you
-receive the newsletter, try these archived versions: <a
-href="https://web.archive.org/web/20240801142116/https://jornada.nmsu.edu/">1</a>,
-<a
-href="https://web.archive.org/web/20240801163657/https://jornada.nmsu.edu/about">2</a>.</em></p>
-<p> </p>
-<p><strong>Watching grass grow.</strong> The <a
-href="https://jornada.nmsu.edu/">Jornada Experimental Range</a>, <a
-href="https://jornada.nmsu.edu/about">run by</a> the USDA’s Agricultural
-Research Service, “is one of the longest serving laboratories focused on
-rangelands and drylands in the world.” Located north of Las Cruces,
-N.M., the site has operating since the 1910s. A few years ago, <a
-href="https://esajournals.onlinelibrary.wiley.com/doi/10.1002/ecy.3530">Erica
-Christensen et al.</a> published a <a
-href="https://portal.edirepository.org/nis/mapbrowse?packageid=knb-lter-jrn.210351004.2">dataset
-of grass and shrub growth</a> within 122 one-meter-by-one-meter squares
-on the range from 1915 to 2016, containing roughly 200,000
-observations.</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send arid feedback to
-jsvine@gmail.com, or just reply to this email. // Looking for past
-datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. // Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and to browse past editions.</em></p>
-]]></content>
-    <link href="http://www.data-is-plural.com/archive/2024-08-14-edition" rel="alternate"/>
-    <summary>The Freedman’s Bank, recreational boating accidents, Western water rights, real-time UK voter registrations, and watching grass grow.</summary>
-    <published>2024-08-14T08:00:00-04:00</published>
   </entry>
 </feed>
