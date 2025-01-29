@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.data-is-plural.com</id>
   <title>Data Is Plural</title>
-  <updated>2025-01-08T08:00:00-05:00</updated>
+  <updated>2025-01-29T08:00:00-05:00</updated>
   <author>
     <name>Jeremy Singer-Vine</name>
     <email>jsvine@gmail.com</email>
@@ -10,6 +10,115 @@
   <link href="https://www.data-is-plural.com" rel="alternate"/>
   <generator>https://github.com/data-is-plural/newsletter-archive</generator>
   <subtitle>A weekly newsletter of useful/curious datasets.</subtitle>
+  <entry>
+    <id>dip-2025-01-29</id>
+    <title>Data Is Plural — 2025.01.29 edition</title>
+    <updated>2025-01-29T08:00:00-05:00</updated>
+    <content type="CDATA"><![CDATA[<p><em>Hyperlocal Trump/Harris results, private schools, hurricane
+landfalls, grocery ingredients, and a royal regatta.</em></p>
+<p> </p>
+<p><strong>Hyperlocal Trump/Harris results.</strong> Earlier this month,
+colleagues at The New York Times published “<a
+href="https://www.nytimes.com/interactive/2025/us/elections/2024-election-map-precinct-results.html">An
+Extremely Detailed Map of the 2024 Election</a>” and <a
+href="https://www.nytimes.com/2025/01/15/us/elections/2024-election-map-data.html">made
+the underlying data</a> available to <a
+href="https://github.com/nytimes/presidential-precinct-map-2024">download</a>.
+The effort “currently includes results for more than 110,000 precincts,
+or 73 percent of all votes, and will be updated as more data is
+collected.” The dataset lists each precinct’s state, county FIPS code,
+votes received by Kamala Harris, votes received by Donald Trump, and
+total votes (including third parties and write-ins). It also provides
+each precinct’s geographical boundaries, derived from a mix of official
+sources and estimations. <strong>Previously</strong>: “<a
+href="https://www.nytimes.com/interactive/2021/upshot/2020-election-map.html">An
+Extremely Detailed Map of the 2020 Election</a>” and <a
+href="https://github.com/TheUpshot/presidential-precinct-map-2020">the
+data behind it</a> (<a
+href="https://www.data-is-plural.com/archive/2021-02-10-edition/">DIP
+2021.02.10</a>). <strong>See also</strong>: <a
+href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/K7760H">Precinct-level
+election results for 2020, 2018, 2016, and 2012</a> from the <a
+href="https://election.lab.ufl.edu/precinct-data/">Voting and Election
+Science Team</a>.</p>
+<p> </p>
+<p><strong>Private schools.</strong> The <a
+href="https://nces.ed.gov/">National Center for Education
+Statistics</a>’s <a
+href="https://nces.ed.gov/surveys/pss/index.asp">Private School Universe
+Survey</a> has been gathering <a
+href="https://nces.ed.gov/surveys/pss/pssdata.asp">data about private
+elementary and secondary schools</a> every two years since the 1989–90
+school year. It collects information on “religious orientation; level of
+school; size of school; length of school year, length of school day;
+total enrollment (K-12); number of high school graduates, whether a
+school is single-sexed or coeducational and enrollment by sex; number of
+teachers employed; program emphasis” and more. In the latest data,
+covering the 2021–22 school year, “there were 29,727 private schools,
+enrolling 4,731,303 students and employing 482,571 full-time teachers”.
+<strong>As seen in</strong>: ProPublica’s <a
+href="https://projects.propublica.org/private-school-demographics">Private
+School Demographics lookup tool</a> (<a
+href="https://www.propublica.org/events/how-to-use-our-private-school-demographics-news-app">webinar
+scheduled for January 31</a>) and its <a
+href="https://www.propublica.org/series/segregation-academies">reporting
+on “segregation academies”</a>.</p>
+<p> </p>
+<p><strong>Hurricane landfalls.</strong> NOAA’s <a
+href="https://www.aoml.noaa.gov/hurricane-research-division/">Hurricane
+Research Division</a> maintains a <a
+href="https://www.aoml.noaa.gov/hrd/hurdat/All_U.S._Hurricanes.html">table
+of hurricanes that have made landfall on the continental US</a> since
+the 1850s. It records the year and month of landfall, designated name,
+states affected, the highest <a
+href="https://www.nhc.noaa.gov/aboutsshws.php">Saffir-Simpson
+category</a>, central pressure at landfall, and maximum sustained wind
+speed. The division publishes <a
+href="https://www.aoml.noaa.gov/hrd/hurdat/UShurrs_detailed.html">another
+table</a> containing more details — such as the full date, latitude, and
+longitude of landfall — but with a gap in the late 1970s to early 1980s.
+[h/t <a
+href="https://x.com/FerragamoWx/status/1869404387464151070">Michael
+Ferragamo</a> + Dale Debber]</p>
+<p> </p>
+<p><strong>Grocery ingredients.</strong> To compile <a
+href="https://github.com/Barabasi-Lab/GroceryDB/">GroceryDB</a>, <a
+href="https://www.nature.com/articles/s43016-024-01095-7">Babak Ravandi
+et al.</a> scraped data about 50,000+ food products available on the
+websites of Walmart, Target, and Whole Foods. For each product, they
+extracted the nutritional information and ingredient list, which they <a
+href="https://github.com/Barabasi-Lab/GroceryDB/tree/main/data">provide
+as structured data</a> and use for <a
+href="https://www.nature.com/articles/s41467-023-37457-1">estimating
+each product’s degree of processing</a>. <strong>Related</strong>: <a
+href="https://www.truefood.tech/">TrueFood</a>, a website the <a
+href="https://www.truefood.tech/about?store=all">research team</a> built
+with the findings.</p>
+<p> </p>
+<p><strong>A royal regatta.</strong> The <a
+href="https://www.hrr.co.uk/">Henley Royal Regatta</a>, a multi-day
+rowing competition, has been held on the River Thames nearly every year
+since 1839. <a
+href="https://www.linkedin.com/in/dominic-goymour-gradiema-b660981ab/">Dominic
+Goymour</a> has scraped <a href="https://www.hrr.co.uk/results">the
+event’s online results</a> into a <a
+href="https://github.com/domigmr/henley">dataset covering 7,500+
+outcomes since 1999</a>. It includes each race’s date, starting time,
+stage, boat class, cup, winning crew/club, losing crew/club, winning
+time, and more.</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send hydrodynamic
+feedback to jsvine@gmail.com, or just reply to this email. // Looking
+for past datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. // Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions.</em></p>
+]]></content>
+    <link href="http://www.data-is-plural.com/archive/2025-01-29-edition" rel="alternate"/>
+    <summary>Hyperlocal Trump/Harris results, private schools, hurricane landfalls, grocery ingredients, and a royal regatta.</summary>
+    <published>2025-01-29T08:00:00-05:00</published>
+  </entry>
   <entry>
     <id>dip-2025-01-08</id>
     <title>Data Is Plural — 2025.01.08 edition</title>
@@ -1097,122 +1206,5 @@ subscribe and to browse past editions.</em></p>
     <link href="http://www.data-is-plural.com/archive/2024-09-11-edition" rel="alternate"/>
     <summary>The National Health and Nutrition Examination Survey, monthly crime trends, source code, Italian tax-to-charity allocations, and snakes.</summary>
     <published>2024-09-11T08:00:00-04:00</published>
-  </entry>
-  <entry>
-    <id>dip-2024-08-21</id>
-    <title>Data Is Plural — 2024.08.21 edition</title>
-    <updated>2024-08-21T08:00:00-04:00</updated>
-    <content type="CDATA"><![CDATA[<p><em>H-1B lotteries, multinational corporations, California
-residential water supply, UK grantmakers, and Olympic
-medalists.</em></p>
-<p> </p>
-<p><em>👋 Data Is Plural will be taking a short break, returning to your
-inbox in September.</em></p>
-<p> </p>
-<p><strong>H-1B lotteries.</strong> A <a
-href="https://www.bloomberg.com/graphics/2024-staffing-firms-game-h1b-visa-lottery-system/">recent
-Bloomberg News investigation</a> into the US government’s annual H-1B
-lottery, a key step in allocating the country’s skilled-worker visas,
-finds that “thousands of companies got an unfair advantage by helping
-themselves to extra lottery tickets.” To reach those conclusions, the
-team “obtained data on all H-1B lottery registrations, selections, and
-petitions for fiscal years 2021 through 2024 after bringing a lawsuit
-against the Department of Homeland Security under the Freedom of
-Information Act.” They’ve <a
-href="https://github.com/BloombergGraphics/2024-h1b-immigration-data">shared
-the records</a>, which indicate each registration’s employer, as well as
-the proposed beneficiary’s gender, nationality, and birth year. For
-registrations that led to visa petitions, the data include additional
-details, such as the worksite, salary, job title, and beneficiary’s
-field of study. [h/t <a
-href="https://www.linkedin.com/posts/ericfan24_every-year-a-random-drawing-determines-which-activity-7224534067688427520-QyqO/">Eric
-Fan</a>]</p>
-<p> </p>
-<p><strong>Multinational corporations.</strong> The <a
-href="https://www.oecd.org/en/data/dashboards/oecd-unsd-multinational-enterprise-information-platform.html">Multinational
-Enterprise Information Platform</a>, a <a
-href="https://unstats.un.org/unsd/business-stat/mne-platform/">collaboration</a>
-between the <a href="https://en.wikipedia.org/wiki/OECD">OECD</a> and
-the <a
-href="https://en.wikipedia.org/wiki/United_Nations_Statistics_Division">UN
-Statistics Division</a>, provides <a
-href="https://www.oecd.org/en/publications/the-oecd-unsd-multinational-enterprise-information-platform_b7d90a06-en.html">publicly
-sourced</a> data on the 500 multinational corporations with the largest
-<a href="https://en.wikipedia.org/wiki/Market_capitalization">market
-capitalization</a>. Its “Global Register” dataset examines the
-companies’ structure, listing each subsidiary’s name, parent company,
-address, alternative names, and various unique identifiers. The “Digital
-Register” dataset lists all known web domains controlled by each company
-and assessments of those domains’ popularity. The platform’s “Media
-Monitor” feature, although not downloadable, links to news articles and
-other webpages mentioning the companies. [h/t <a
-href="https://www.linkedin.com/posts/annieburnspieper_corporatetransparency-opendata-financialcrime-activity-7224812619063324673-0HZZ/">Annie
-Burns-Pieper</a>]</p>
-<p> </p>
-<p><strong>California residential water supply.</strong> <a
-href="https://www.nature.com/articles/s41597-024-03474-y">Marie-Philine
-Gross et al.</a>’s <a
-href="https://www.hydroshare.org/resource/4ec7019fe63944bf87d40d2cdfa0d686/">dataset
-of residential water demand and supply in California</a> includes the
-monthly volumes of water produced/sold by 404 of the state’s water
-suppliers, covering 2013–2021. The researchers extracted, standardized,
-and cleaned the data from the state’s <a
-href="https://www.waterboards.ca.gov/drinking_water/certlic/drinkingwater/ear.html">mandatory
-annual reports</a>, which collect thousands of data points from each
-supplier. They also added contextual information, such as climatic data
-(monthly local precipitation, temperature, and <a
-href="https://en.wikipedia.org/wiki/Palmer_drought_index">drought
-severity</a>) and each supplier’s <a
-href="https://cww.water.ca.gov/regionscale">hydrologic region</a>.</p>
-<p> </p>
-<p><strong>UK grantmakers.</strong> The <a
-href="https://www.ukgrantmaking.org/">UK Grantmaking initiative</a> “is
-a unique cross-sector collaboration between” <a
-href="https://www.ukgrantmaking.org/partners/">several major
-organizations in the field</a>. Their <a
-href="https://www.ukgrantmaking.org/report/2024/methodology-data/#Full%20data">downloadable
-dataset</a> provides information about 12,000+ trusts, foundations,
-charities, and other grantmakers for financial year 2022-23, <a
-href="https://www.ukgrantmaking.org/report/2024-06/methodology-data/">based
-on records</a> from government regulators. The dataset lists each
-organization’s name, government-assigned ID, location, category,
-registration date, income, spending totals, net assets, and more.
-<strong>Previously</strong>: <a
-href="https://grantnav.threesixtygiving.org/datasets/">UK grants</a> via
-<a href="https://www.threesixtygiving.org/">360Giving</a> (<a
-href="https://www.data-is-plural.com/archive/2018-12-05-edition/">DIP
-2018.12.05</a>). [h/t <a
-href="https://buttondown.email/puntofisso/archive/569-quantum-of-sollazzo/">Giuseppe
-Sollazzo</a>]</p>
-<p> </p>
-<p><strong>Olympic medalists.</strong> The <a
-href="https://www.europeandatajournalism.eu/">European Data Journalism
-Network</a>’s <a href="https://giorgiocomai.eu/">Giorgio Comai</a> has
-used Wikipedia and Wikidata to create a <a
-href="https://edjnet.github.io/OlympicsGoNUTS/">series of datasets</a>
-listing the name, birth date, sex, and birthplace of Summer Olympic
-medalists. Comai has <a
-href="https://edjnet.github.io/OlympicsGoNUTS/2024/medalists_map.html">mapped</a>
-the birthplace coordinates and, for Europe-born medalists, linked them
-to their <a
-href="https://ec.europa.eu/eurostat/web/gisco/geodata/statistical-units/territorial-units-statistics">NUTS
-regions</a>. The project focuses on the <a
-href="https://edjnet.github.io/OlympicsGoNUTS/2024/">2024</a> and <a
-href="https://edjnet.github.io/OlympicsGoNUTS/2020/">2020</a> Summer
-Olympics but also provides provisional data for other recent iterations.
-[h/t <a href="https://www.europeandatajournalism.eu/about/">Federico
-Caruso</a>]</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send world-best feedback
-to jsvine@gmail.com, or just reply to this email. // Looking for past
-datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. // Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and to browse past editions.</em></p>
-]]></content>
-    <link href="http://www.data-is-plural.com/archive/2024-08-21-edition" rel="alternate"/>
-    <summary>H-1B lotteries, multinational corporations, California residential water supply, UK grantmakers, and Olympic medalists.</summary>
-    <published>2024-08-21T08:00:00-04:00</published>
   </entry>
 </feed>
