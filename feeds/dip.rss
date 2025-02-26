@@ -6,7 +6,109 @@
     <description>A weekly newsletter of useful/curious datasets.</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>https://github.com/data-is-plural/newsletter-archive</generator>
-    <lastBuildDate>Wed, 29 Jan 2025 08:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 26 Feb 2025 08:00:00 -0500</lastBuildDate>
+    <item>
+      <title>Data Is Plural — 2025.02.26 edition</title>
+      <link>http://www.data-is-plural.com/archive/2025-02-26-edition</link>
+      <description>Presidential schedules, water availability, 18 million deceased veterans, Argentine treaties, and chord progressions.</description>
+      <content:encoded><![CDATA[<p><em>Presidential schedules, water availability, 18 million deceased
+veterans, Argentine treaties, and chord progressions.</em></p>
+<p> </p>
+<p><strong>Presidential schedules.</strong> Among its various White
+House–related undertakings, <a
+href="https://rollcall.com/factbase/">Roll Call Factba.se</a> provides
+event-by-event structured data representing the public presidential
+calendars for <a
+href="https://rollcall.com/factbase/trump/calendar/">Donald Trump</a>
+and <a href="https://rollcall.com/factbase/biden/calendar/">Joe
+Biden</a> since the latter’s inauguration in January 2021. The
+schedules, available to download in bulk, provide each event’s day and
+time, location, a brief description, and other details. They contain
+9,400+ entries from Biden’s four years in office plus another 300+ from
+Trump’s second term so far. The events include those from the official
+presidential schedule, those derived from <a
+href="https://en.wikipedia.org/wiki/Press_pool">pool reports</a>, and
+press briefings. <strong>As seen in</strong>: <a
+href="https://potustracker.us/faq">POTUS Tracker</a>. [h/t Dan
+Brady]</p>
+<p> </p>
+<p><strong>Water availability.</strong> The US Geological Survey last
+month <a
+href="https://www.usgs.gov/news/national-news-release/usgs-releases-a-comprehensive-look-water-resources-united-states">released</a>
+its <a
+href="https://www.usgs.gov/special-topics/integrated-water-availability-assessments/national-water-availability-assessments">National
+Water Availability Assessment</a>, “a pioneering scientific overview of
+water availability that offers first-of-its-kind insights into the
+balance between water supply and demand across the conterminous United
+States.” Alongside the <a
+href="https://www.usgs.gov/publications/us-geological-survey-integrated-water-availability-assessment-2010-20">report</a>,
+USGS launched a “<a href="https://water.usgs.gov/nwaa-data/">data
+companion</a>” <a
+href="https://water.usgs.gov/nwaa-data/data-overview">providing</a>
+“regularly updated, model-based estimates” of monthly water usage within
+each of the country’s <a
+href="https://water.usgs.gov/GIS/huc.html">hydrologic units</a>.
+Estimates for water availability and water supply are “coming soon,”
+while those for water quality and aquatic ecosystems are “coming
+later.”</p>
+<p> </p>
+<p><strong>18 million deceased veterans.</strong> <a
+href="https://www.birls.org/">BIRLS.org</a>, a new website from <a
+href="https://www.reclaimtherecords.org/">Reclaim The Records</a>,
+provides “an index to basic biographical information on more than 18
+million deceased American veterans who received some sort of veterans
+benefits in their lifetime”. Those <a
+href="https://archive.org/details/BIRLS_database">records</a>, <a
+href="https://www.reclaimtherecords.org/records-request/20/">obtained
+through a FOIA lawsuit</a>, represent a substantial chunk of the
+Department of Veterans Affairs’ Beneficiary Identification Records
+Locator Subsystem. The site also helps you file follow-up requests for
+any individual’s “full VA claims file, which may contain hundreds of
+pages of never-before-seen biographical and historical material about
+the veteran, their military service, and their interactions with the
+VA.” <strong>Note</strong>: The “database is <em>not</em> a
+comprehensive database of all American veterans, but rather a partial
+and incomplete index of veterans who were eligible for VA benefits or
+whose heirs had some kind of contact with the VA regarding
+benefits.”</p>
+<p> </p>
+<p><strong>Argentine treaties.</strong> <a
+href="https://jisantander.com/">Javier I. Santander</a>, a career
+diplomat, has built a <a
+href="https://jisantander.com/ressources/bilaterals/">dataset of 8,200+
+bilateral treaties signed by Argentina from 1810 and 2023</a>. It lists
+each treaty’s title, status, date signed, and counterpart country. The
+dataset is based on the government’s <a
+href="https://tratados.cancilleria.gob.ar/">Digital Library of
+Treaties</a>, where you can find copies of the treaties themselves. The
+most common counterparts have been neighboring countries — Chile,
+Brazil, Bolivia, Paraguay, and Uruguay — followed by Germany, the US,
+and Italy.</p>
+<p> </p>
+<p><strong>Chord progressions.</strong> <a
+href="https://arxiv.org/abs/2410.22046v1">Spyridon Kantarelis et al.</a>
+have created <a
+href="https://huggingface.co/datasets/ailsntua/Chordonomicon">CHORDONOMICON</a>,
+a dataset identifying the progressions of 51 million chords in 667,000+
+songs. The dataset is based on <a
+href="https://en.wikipedia.org/wiki/Tablature">tablatures</a> from the
+website <a href="https://www.ultimate-guitar.com/">Ultimate Guitar</a>
+and then “annotated with structural parts, genre, and release date”.
+Most entries also include the <a
+href="https://developer.spotify.com/documentation/web-api/concepts/spotify-uris-ids">song’s
+and artist’s IDs in Spotify’s system</a>. [h/t Dale Debber]</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send euphonic feedback to
+jsvine@gmail.com, or just reply to this email. // Looking for past
+datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. // Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions.</em></p>
+]]></content:encoded>
+      <guid isPermaLink="false">dip-2025-02-26</guid>
+      <pubDate>Wed, 26 Feb 2025 08:00:00 -0500</pubDate>
+    </item>
     <item>
       <title>Data Is Plural — 2025.01.29 edition</title>
       <link>http://www.data-is-plural.com/archive/2025-01-29-edition</link>
@@ -1057,142 +1159,6 @@ subscribe and to browse past editions.</em></p>
 ]]></content:encoded>
       <guid isPermaLink="false">dip-2024-09-18</guid>
       <pubDate>Wed, 18 Sep 2024 08:00:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Data Is Plural — 2024.09.11 edition</title>
-      <link>http://www.data-is-plural.com/archive/2024-09-11-edition</link>
-      <description>The National Health and Nutrition Examination Survey, monthly crime trends, source code, Italian tax-to-charity allocations, and snakes.</description>
-      <content:encoded><![CDATA[<p><em>The National Health and Nutrition Examination Survey, monthly
-crime trends, source code, Italian tax-to-charity allocations, and
-snakes.</em></p>
-<p> </p>
-<p><em>👋 Some exciting professional news: <a
-href="https://www.nytco.com/press/jeremy-singer-vine-joins-the-times-as-data-editor/">I’m
-joining The New York Times as their data editor</a>, leading a team of
-data reporters who’ll be collaborating with journalists across the
-newsroom. We’ll be hiring! If you’d like to be notified when those jobs
-open, <a
-href="https://docs.google.com/forms/d/e/1FAIpQLScIS4w50uJe3R0ixxzX4iJ8ib41nKRKM1mSHcKlfVLti1cviQ/viewform">please
-fill out this very short form</a>.</em></p>
-<p> </p>
-<p><strong>Health and nutrition.</strong> Since 1999, CDC <a
-href="https://www.cdc.gov/nchs/nhanes/about_nhanes.htm">has been
-continuously fielding</a> its <a
-href="https://www.cdc.gov/nchs/nhanes/index.htm">National Health and
-Nutrition Examination Survey</a>, interviewing and testing approximately
-5,000 people in 15 different counties each year. The survey combines
-“demographic, socioeconomic, dietary, and health-related questions” with
-an “examination component” involving “medical, dental, and physiological
-measurements, as well as laboratory tests administered by highly trained
-medical personnel.” Its <a
-href="https://wwwn.cdc.gov/nchs/nhanes/default.aspx">public-access data
-files</a> provide anonymized, respondent-level records and are currently
-available for surveys conducted through March 2020. <strong>As seen
-in</strong>: <a
-href="https://publichealth.jmir.org/2024/1/e53330">Catherine McDonough
-et al.</a>’s <a href="https://zenodo.org/records/10382740">dataset</a>
-and <a href="https://rstudio-connect.hpc.mssm.edu/POND/">interactive
-dashboard</a> “exploring factors associated with prediabetes and
-diabetes mellitus among youth in the United States.”</p>
-<p> </p>
-<p><strong>Monthly crime trends.</strong> The <a
-href="https://realtimecrimeindex.com/">Real-Time Crime Index</a>, <a
-href="https://jasher.substack.com/p/the-real-time-crime-index-is-live">launched
-last week</a> by a <a href="https://www.ahdatalytics.com/about-us/">team
-of crime-data analysts</a>, presents a “sample of reported crime data
-from hundreds of law enforcement agencies nationwide which mimics
-national crime trends with as little lag and the most accuracy
-possible.” Framed as a <a
-href="https://realtimecrimeindex.com/how-does-this-work/">supplement to
-the FBI’s slow-to-update official statistics</a>, the project provides
-monthly and rolling 12-month totals of reported crimes (using the FBI’s
-<a
-href="https://ucr.fbi.gov/crime-in-the-u.s/2019/crime-in-the-u.s.-2019/topic-pages/offense-definitions">UCR
-Part I offense categories</a>) for the nation, individual cities, and by
-city population size. You can <a
-href="https://realtimecrimeindex.com/data/">download the data</a> and <a
-href="https://ah-datalytics.github.io/rtci/list/list.html">see the
-sources for each of the 300+ local agencies</a> in the national sample.
-<strong>Read more</strong>: “<a
-href="https://jasher.substack.com/p/the-real-time-crime-index-shows-declining">The
-Real-Time Crime Index Shows Declining Crime in 2024</a>,” from <a
-href="https://jasher.substack.com/">project co-leader Jeff Asher’s
-newsletter</a>.</p>
-<p> </p>
-<p><strong>Source code.</strong> <a
-href="https://www.softwareheritage.org/">Software Heritage</a>, a
-nonprofit initiative <a
-href="https://web.archive.org/web/20230722080603/https://en.unesco.org/softwareheritage">collaborating</a>
-with <a href="https://en.wikipedia.org/wiki/UNESCO">UNESCO</a>, <a
-href="https://www.softwareheritage.org/faq/">maintains</a> “the largest
-public collection of source code in existence”: an <a
-href="https://archive.softwareheritage.org/">archive</a> tracking 20
-billion source files and 4 billion code-commits from 317 million
-projects from a range of public software hosts (<a
-href="https://github.com/">GitHub</a>, <a
-href="https://gitlab.com/">GitLab</a>, <a
-href="https://bitbucket.org/">BitBucket</a>, <a
-href="https://www.npmjs.com/">npm</a>, et cetera). Its <a
-href="https://docs.softwareheritage.org/devel/swh-dataset/graph/index.html#swh-graph-dataset">Graph
-Dataset</a>, which provides access to the archive’s content and internal
-relationships, is available via <a
-href="https://aws.amazon.com/marketplace/pp/prodview-ctizzjwytj4sk#overview">bulk
-downloads</a> and <a
-href="https://archive.softwareheritage.org/api/#endpoint-index">APIs</a>.
-[h/t <a
-href="https://shape-of-code.com/2024/06/02/obtaining-source-code-for-training-llms/">Derek
-M. Jones</a>]</p>
-<p> </p>
-<p><strong>Italian tax-to-charity allocations.</strong> Italy’s “five
-per thousand” program allows taxpayers to allocate 0.5% of their income
-tax to certain nonprofits, research institutions, and other
-social-benefit organizations. The country’s Ministry of Economy and
-Finance has <a
-href="https://www.agenziaentrate.gov.it/portale/elenco-complessivo-degli-enti-ammessi-in-una-o-piu-categorie-di-beneficiari">published
-information about 2022’s beneficiaries</a>, but <a
-href="https://web.archive.org/web/20240605153105/https://www.agenziaentrate.gov.it/portale/elenco-complessivo-degli-enti-ammessi-in-una-o-piu-categorie-di-beneficiari">initially
-did so only via PDFs</a>. <a
-href="https://datibenecomune.substack.com/p/liberiamoli-tutti-numero-4">Earlier
-this year</a>, the <a
-href="https://datibenecomune.substack.com/p/il-numero-zero"><em>Liberiamoli
-tutti!</em></a> initiative <a
-href="https://github.com/ondata/liberiamoli-tutti/tree/main/cinque_per_mille/dati">converted
-those PDFs into structured data</a> that list each recipient
-organization’s name, tax ID, category, region, province, and
-municipality, number of taxpayers choosing it, and amount of money
-allocated. The ministry has since added structured files of its own.</p>
-<p> </p>
-<p><strong>Snakes.</strong> <a href="https://snakedb.org/">SnakeDB</a> —
-created by <a
-href="https://www.linkedin.com/in/sascha-steinhoff/">Sascha
-Steinhoff</a> “after [he] accidentally stepped into a snake in
-South-East Asia” — provides <a
-href="https://snakedb.org/pages/about-snakedb.php">downloadable data</a>
-on the <a href="https://snakedb.org/pages/size-max.php">maximum
-size</a>, <a href="https://snakedb.org/pages/dentition-species.php">fang
-position</a>, <a
-href="https://snakedb.org/pages/pupil-species.php">pupil shape</a>, <a
-href="https://snakedb.org/pages/reproduction-species.php">mode of
-reproduction</a>, and <a
-href="https://snakedb.org/pages/ld50.php">toxicity</a> of thousands of
-species, drawn from <a
-href="https://snakedb.org/pages/ref-library.php">a broad range of
-sources</a>. <strong>As seen in</strong>: <a
-href="https://www.nature.com/articles/s41597-024-03079-5">Oleksandra
-Oskyrko et al.</a>’s <a
-href="https://figshare.com/articles/dataset/ReptTraits_a_comprehensive_database_of_ecological_traits_in_reptiles/24572683">ReptTraits
-database</a>.</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send slithering feedback
-to jsvine@gmail.com, or just reply to this email. // Looking for past
-datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. // Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and to browse past editions.</em></p>
-]]></content:encoded>
-      <guid isPermaLink="false">dip-2024-09-11</guid>
-      <pubDate>Wed, 11 Sep 2024 08:00:00 -0400</pubDate>
     </item>
   </channel>
 </rss>
