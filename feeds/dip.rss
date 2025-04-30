@@ -6,7 +6,113 @@
     <description>A weekly newsletter of useful/curious datasets.</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>https://github.com/data-is-plural/newsletter-archive</generator>
-    <lastBuildDate>Wed, 26 Feb 2025 08:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 30 Apr 2025 08:00:00 -0400</lastBuildDate>
+    <item>
+      <title>Data Is Plural — 2025.04.30 edition</title>
+      <link>http://www.data-is-plural.com/archive/2025-04-30-edition</link>
+      <description>Refugee and asylum policies, tens of millions of flights, US sewer overflow sites, previously unmapped waterways, and canoe marathons.</description>
+      <content:encoded><![CDATA[<p><em>Refugee and asylum policies, tens of millions of flights, US
+sewer overflow sites, previously unmapped waterways, and canoe
+marathons.</em></p>
+<p> </p>
+<p><strong>Refugee and asylum policies.</strong> The <a
+href="https://datanalytics.worldbank.org/dwrap/">Dataset of World
+Refugee and Asylum Policies</a> “offers a complete dataset of de jure
+asylum and refugee policies” across 190+ countries and 70+ years, from
+1951 to 2022. The project, developed by <a
+href="https://www.cambridge.org/core/journals/american-political-science-review/article/abs/liberal-displacement-policies-attract-forced-migrants-in-the-global-south/F6872E76FBB27F61B96B90193BDE9A1D">Christopher
+W. Blair et al.</a> and updated in collaboration with the <a
+href="https://www.jointdatacenter.org/">Joint Data Center on Forced
+Displacement</a>, evaluates <a
+href="https://datanalytics.worldbank.org/dwrap/_w_3baf84c2101c4832b34da12495c9dbfc/DWRAP_Tech_Guide_Sep2024.pdf">54
+aspects of each policy across five dimensions</a>: access, services, the
+ability to earn a livelihood, freedom of movement, and political
+inclusion. Each aspect is scored on a 0-1-2-3 scale. The results are
+available to <a
+href="https://datacatalog.worldbank.org/search/dataset/0066171/Dataset-of-World-Refugee-and-Asylum-Policies--DWRAP-">download</a>
+and to analyze online. [h/t <a href="http://annikayounge.com/">Annika
+Younge</a>]</p>
+<p> </p>
+<p><strong>Tens of millions of flights.</strong> <a
+href="https://www.linkedin.com/in/sebastiaanmenger/">Sebastiaan
+Menger</a> has developed a <a
+href="https://github.com/MrAirspace/aircraft-flight-schedules">series of
+quarterly datasets</a> “featuring global, high-level flight schedules
+extracted from worldwide aircraft ADS-B position transmissions,” going
+back to early 2024. Each quarterly extract, derived from the <a
+href="https://github.com/adsblol">ADSB.lol</a> flight-tracking
+initiative’s <a
+href="https://www.adsb.lol/docs/overview/introduction/">open data</a>,
+features 10–13 million flights. Each flight’s entry indicates the
+aircraft’s registration number, type, call sign, airline (when
+applicable), approximate liftoff/touchdown times, and origin/destination
+airports.</p>
+<p> </p>
+<p><strong>US sewer overflow sites.</strong> “There are approximately
+700 communities in the United States that have combined sewer systems
+and experience combined sewer overflow (CSO) discharges,” <a
+href="https://www.epa.gov/npdes/where-combined-sewer-overflow-outfalls-are-located">according
+to the EPA</a>, whose <a
+href="https://echo.epa.gov/tools/data-downloads/cso-inventory-summary">National
+Combined Sewer Overflow Inventory</a> lists 8,600+ <a
+href="https://www.epa.gov/npdes/combined-sewer-overflows-csos">outfalls</a>
+across those communities. The <a
+href="https://echo.epa.gov/tools/data-downloads#downloads">downloadable</a>
+inventory, last updated in September 2023, provides each outfall’s
+location and relevant information from the <a
+href="https://www.epa.gov/npdes">National Pollutant Discharge
+Elimination System</a>’s <a
+href="https://echo.epa.gov/help/loading-tool/monitoring-data-download-help">permit
+database</a>. <strong>As seen in</strong>: “<a
+href="https://www.cbsnews.com/news/sewage-river-creek-us-minority-community/">Minority
+communities twice as likely to have sewage polluting nearby river or
+creek, CBS News analysis shows</a>”. <strong>Previously</strong>: <a
+href="https://environment.data.gov.uk/dataset/21e15f12-0df8-4bfc-b763-45226c16a8ac">Sewer
+overflows in England</a> (<a
+href="https://www.data-is-plural.com/archive/2024-05-15-edition/">DIP
+2024.05.15</a>).</p>
+<p> </p>
+<p><strong>Previously unmapped waterways.</strong> <a
+href="https://source.coop/repositories/fika/waternet/description">WaterNet
+Global Waterways</a> is “a new global dataset that predicts the
+locations of waterways around the world” using an AI model <a
+href="https://medium.com/fika-blog/waternet-ai-powered-global-water-mapping-triples-known-waterways-bc3095783661">trained
+on satellite imagery and elevation data</a>. A collaboration between <a
+href="https://bridgestoprosperity.org/">Bridges to Prosperity</a> and
+the <a href="https://betterplanetlab.com/">Better Planet Laboratory</a>,
+the dataset — available as raster files, vector files, and an <a
+href="https://apps.fikamap.com/waternet">interactive map</a> — “triples
+the known extent of mapped waterways globally, adding 124 million
+kilometers to the previously mapped 54 million kilometers.” [h/t <a
+href="https://cameronwkruse.com/">Cameron Kruse</a>]</p>
+<p> </p>
+<p><strong>Canoe marathons.</strong> <a
+href="https://paddleuk.org.uk/">Paddle UK</a>’s <a
+href="https://canoemarathon.org.uk/governance/marathon-racing-committee/">Marathon
+Racing Committee</a> promotes <a
+href="https://canoemarathon.org.uk/what-is-canoe-marathon/">endurance
+canoe and kayak competitions</a> that range “from a couple of miles or
+kilometres to the ultimate challenge of the 125-mile Devizes to
+Westminster Canoe Race.” The organization <a
+href="https://entries.canoemarathon.org.uk/results">publishes race
+results online</a>, which data scientist <a
+href="https://datawookie.dev/">Andrew Collier</a> has <a
+href="https://datawookie.gitlab.io/british-canoeing-results/">collected
+into structured data files</a> that indicate each competition’s date,
+name, region, and category, as well as each paddler’s name, club,
+division, class, finishing time, position, and points.</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Paddle your feedback to
+jsvine@gmail.com, or just reply to this email. // Looking for past
+datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. // Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions.</em></p>
+]]></content:encoded>
+      <guid isPermaLink="false">dip-2025-04-30</guid>
+      <pubDate>Wed, 30 Apr 2025 08:00:00 -0400</pubDate>
+    </item>
     <item>
       <title>Data Is Plural — 2025.02.26 edition</title>
       <link>http://www.data-is-plural.com/archive/2025-02-26-edition</link>
@@ -1026,139 +1132,6 @@ subscribe and to browse past editions.</em></p>
 ]]></content:encoded>
       <guid isPermaLink="false">dip-2024-09-25</guid>
       <pubDate>Wed, 25 Sep 2024 08:00:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Data Is Plural — 2024.09.18 edition</title>
-      <link>http://www.data-is-plural.com/archive/2024-09-18-edition</link>
-      <description>Landslides, long-run economic growth, alcohol consumption, art words, and Messi’s moves.</description>
-      <content:encoded><![CDATA[<p><em>Landslides, long-run economic growth, alcohol consumption, art
-words, and Messi’s moves.</em></p>
-<p> </p>
-<p><strong>Landslides.</strong> The US Geological Survey has <a
-href="https://www.usgs.gov/tools/us-landslide-inventory-and-susceptibility-map">released</a>
-a <a
-href="https://usgs.maps.arcgis.com/apps/webappviewer/index.html?id=ae120962f459434b8c904b456c82669d">new
-map of landslide susceptibility</a>, indicating the specific areas of
-the country (at 90-meter resolution) that are at greatest risk of
-slides. The map and county-level metrics are also <a
-href="https://www.sciencebase.gov/catalog/item/65ccea5bd34ef4b119cb3bac">available
-as structured data</a>. To calculate the susceptibilities, <a
-href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2024AV001214">Benjamin
-B. Mirus et al.</a> combined data from the agency’s <a
-href="https://www.usgs.gov/3d-elevation-program">3D Elevation
-Program</a> and a <a
-href="https://www.sciencebase.gov/catalog/item/61f326dfd34e622189b93308">national
-landslide inventory that they updated</a>. The latter provides the
-location (as a single point or more detailed boundary), timing, number
-of fatalities, and confidence level for 610,000+ landslides (or evidence
-of them) in the US since the early 1900s. The researchers also consulted
-data from state landslide inventories published by <a
-href="https://www.idahogeology.org/product/DD-10">Idaho</a>, <a
-href="https://www.maine.gov/dacf/mgs/hazards/landslides/inland/index.shtml">Maine</a>,
-<a href="https://www.dmr.nd.gov/ndgs/landslides/">North Dakota</a>, and
-<a
-href="https://gsa.confex.com/gsa/2021AM/webprogram/Paper370833.html">West</a>
-<a
-href="https://wvu.maps.arcgis.com/apps/webappviewer/index.html?id=cb01c47cfa884309b4f38dcd7542f805">Virginia</a>.</p>
-<p> </p>
-<p><strong>Long-run economic growth.</strong> The <a
-href="https://www.rug.nl/ggdc/historicaldevelopment/maddison/">Maddison
-Project Database</a>, <a
-href="https://onlinelibrary.wiley.com/doi/10.1111/joes.12618">based
-on</a> the work of <a
-href="https://www.rug.nl/ggdc/historicaldevelopment/maddison/original-maddison">Angus
-Maddison</a> (1926-2010), “provides information on comparative economic
-growth and income levels over the very long run.” Its <a
-href="https://www.rug.nl/ggdc/historicaldevelopment/maddison/releases/maddison-project-database-2023">latest
-release</a> includes historical per-capita GDP estimates for 169
-countries, in many cases spanning several centuries. In all, the
-database contains 21,000+ such estimates and another 17,000+ population
-estimates, drawn from hundreds of sources. <strong>Previously</strong>:
-The <a href="https://www.rug.nl/ggdc/productivity/pwt/">Penn World
-Table</a> (<a
-href="https://www.data-is-plural.com/archive/2016-08-17-edition/">DIP
-2016.08.17</a>) — “income, output, input and productivity” estimates now
-“covering 183 countries between 1950 and 2019” — and the <a
-href="http://longtermproductivity.com/about.html">Long-Term Productivity
-Database</a> (<a
-href="https://www.data-is-plural.com/archive/2020-04-08-edition/">DIP
-2020.04.08</a>).</p>
-<p> </p>
-<p><strong>Alcohol consumption.</strong> The <a
-href="https://www.niaaa.nih.gov/">National Institute on Alcohol Abuse
-and Alcoholism</a>’s <a
-href="https://www.niaaa.nih.gov/publications/surveillance-reports/surveillance121">latest
-consumption surveillance report</a>, published earlier this year, uses
-sales and shipment data to measure annual alcohol intake by beverage
-type (beer, wine, spirits) and state. The report and <a
-href="https://www.niaaa.nih.gov/sites/default/files/pcyr1970-2022.txt">corresponding
-data file</a> estimate the likely total and per-capita volumes (of the
-beverages and of their ethanol content) consumed each year from the
-1970s through 2022. <strong>Related</strong>: <a
-href="https://www.niaaa.nih.gov/publications/surveillance-reports">Additional
-surveillance reports</a> and <a
-href="https://www.cdc.gov/alcohol/about-data/surveillance-surveys/index.html">the
-CDC’s list of surveys gathering data on alcohol use</a>. [h/t <a
-href="https://sherwood.news/business/pernod-ricard-selling-wine-business-americans-drinking-more-spirits/">Millie
-Giles</a>]</p>
-<p> </p>
-<p><strong>Art words.</strong> The <a
-href="https://www.getty.edu/research/tools/vocabularies/index.html">Getty
-Vocabularies</a>, <a
-href="https://www.getty.edu/research/tools/vocabularies/faq.html">published</a>
-by the <a href="https://www.getty.edu/research/">Getty Research
-Institute</a>, “contain structured terminology for art, architecture,
-decorative arts, archival materials, visual surrogates, art
-conservation, and bibliographic materials.” They provide definitions,
-relationships, translations, and disambiguations for a broad range of
-terms and entities. Their <a
-href="https://www.getty.edu/research/tools/vocabularies/aat/index.html">Art
-&amp; Architecture Thesaurus</a>, for example, describes 57,000+ generic
-concepts (e.g., <a
-href="https://www.getty.edu/vow/AATFullDisplay?find=lithography&amp;logic=AND&amp;note=&amp;english=N&amp;prev_page=1&amp;subjectid=300053271">lithography</a>),
-while others focus on <a
-href="https://www.getty.edu/research/tools/vocabularies/ulan/index.html">artist
-names</a>, <a
-href="https://www.getty.edu/research/tools/vocabularies/cona/index.html">cultural
-objects</a>, and <a
-href="https://www.getty.edu/research/tools/vocabularies/tgn/index.html">geographies</a>.
-The records are <a
-href="https://www.getty.edu/research/tools/vocabularies/obtain/index.html">available
-several ways</a>, including <a
-href="https://www.getty.edu/research/tools/vocabularies/obtain/download.html">bulk
-downloads</a>. [h/t <a href="https://pinboard.in/u:arnicas">Lynn
-Cherny</a>]</p>
-<p> </p>
-<p><strong>Messi’s moves.</strong> <a
-href="https://statsbomb.com/">StatsBomb</a>, a soccer/football-data
-company, publishes a <a
-href="https://github.com/statsbomb/open-data">subset of its detailed,
-in-play data for free</a>. <a
-href="https://statsbomb.com/what-we-do/hub/free-data/">Among the
-offerings</a>: <a
-href="https://statsbomb.com/news/statsbomb-release-free-messi-data-all-seasons-from-2004-05-2020-21-now-available/">Every
-touch, pass, dribble, and shot from Lionel Messi’s 17 seasons playing
-for Barcelona in La Liga</a>. <strong>Related</strong>: <a
-href="https://www.carlos-menezes.com/">Carlos Menezes</a>’s <a
-href="https://statsbomb-3d-viz.vercel.app/">tool for visualizing
-StatsBomb event data files</a>. <strong>Read more</strong>: <a
-href="https://www.ryanohanlon.com/net-gains-out-october-18"><em>Net
-Gains: Inside the Beautiful Game’s Analytics Revolution</em></a>, by <a
-href="https://www.ryanohanlon.com/bio-contact">Ryan O’Hanlon</a>. [h/t
-<a
-href="https://buttondown.com/puntofisso/archive/573-quantum-of-sollazzo/">Giuseppe
-Sollazzo</a>]</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send golden-booted
-feedback to jsvine@gmail.com, or just reply to this email. // Looking
-for past datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. // Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and to browse past editions.</em></p>
-]]></content:encoded>
-      <guid isPermaLink="false">dip-2024-09-18</guid>
-      <pubDate>Wed, 18 Sep 2024 08:00:00 -0400</pubDate>
     </item>
   </channel>
 </rss>
