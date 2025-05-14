@@ -6,7 +6,128 @@
     <description>A weekly newsletter of useful/curious datasets.</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>https://github.com/data-is-plural/newsletter-archive</generator>
-    <lastBuildDate>Wed, 30 Apr 2025 08:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 14 May 2025 08:00:00 -0400</lastBuildDate>
+    <item>
+      <title>Data Is Plural — 2025.05.14 edition</title>
+      <link>http://www.data-is-plural.com/archive/2025-05-14-edition</link>
+      <description>Deportation records, European workforces, California ghost guns, US dams, and what the nose knows.</description>
+      <content:encoded><![CDATA[<p><em>Deportation records, European workforces, California ghost guns,
+US dams, and what the nose knows.</em></p>
+<p> </p>
+<p><em>👋 Job alert: <a
+href="https://job-boards.greenhouse.io/thenewyorktimes/jobs/4559705005">I’m
+hiring a database developer to join our data journalism team at The New
+York Times</a>. If you’re interested, please <a
+href="https://job-boards.greenhouse.io/thenewyorktimes/jobs/4559705005">apply</a>
+in the next two weeks for fullest consideration.</em></p>
+<p> </p>
+<p><strong>Deportation records.</strong> The <a
+href="https://deportationdata.org/">Deportation Data Project</a>, run by
+a <a href="https://deportationdata.org/team.html">team of academics and
+lawyers</a>, “collects and posts public, anonymized U.S. government
+immigration enforcement datasets.” These <a
+href="https://deportationdata.org/data.html">include data</a> from
+border apprehensions, deportations, <a
+href="https://en.wikipedia.org/wiki/Title_42_expulsion">Title 42
+expulsions</a>, ICE arrests and detentions, ICE-operated flights, and
+more. Some of the data files come directly from the government, while
+others were initially obtained from the government by other
+organizations, such as the <a href="https://github.com/UWCHR">University
+of Washington Center for Human Rights</a>. The project also <a
+href="https://deportationdata.org/foia.html">posts information about its
+Freedom of Information Act requests</a>. <strong>Read more</strong>: The
+project’s “<a href="https://deportationdata.org/guide.html">U.S.
+Immigration Enforcement Data: A Short Guide</a>.” <strong>As seen
+in</strong>: “<a
+href="https://www.bloomberg.com/graphics/2025-trump-ice-immigrant-move-costs-taxpayers/">The
+Rising Cost of ICE Flying Immigrants to Far-Flung Detention Centers</a>”
+(Bloomberg). [h/t <a href="https://www.albrightalex.com/">Alex
+Albright</a>]</p>
+<p> </p>
+<p><strong>European workforces.</strong> Each quarter, dozens of
+countries collectively conduct <a
+href="https://ec.europa.eu/eurostat/web/lfs/information-data">more than
+1.7 million interviews</a> for the <a
+href="https://ec.europa.eu/eurostat/web/lfs">European Union Labour Force
+Survey</a>. The survey, the continent’s largest, aims “to classify
+people into 3 groups that are mutually exclusive and cover the whole
+target population”: employed, unemployed, and outside the labor force.
+Eurostat publishes <a
+href="https://ec.europa.eu/eurostat/web/lfs/database">aggregate
+results</a>, with breakdowns by age, sex, country, nationality,
+citizenship status, education level, sector, and more. Detailed
+microdata are also <a
+href="https://ec.europa.eu/eurostat/web/microdata">available to approved
+researchers</a>. <strong>As seen in</strong>: <a
+href="https://www.bruegel.org/dataset/eu-labour-market-outlook-dashboard">Bruegel’s
+labor market dashboard</a>. [h/t <a
+href="https://www.bruegel.org/people/nina-ruer">Nina Ruer</a>]</p>
+<p> </p>
+<p><strong>California ghost guns.</strong> “Ghost guns have been a <a
+href="https://www.thetrace.org/2024/11/ghost-guns-decline-regulation-biden-atf/">uniquely
+Californian issue</a>,” with the state accounting for a majority of the
+untraceable firearms that are reported to the <a
+href="https://en.wikipedia.org/wiki/Bureau_of_Alcohol,_Tobacco,_Firearms_and_Explosives">ATF</a>,
+according to <a href="https://www.thetrace.org/">The Trace</a>. Earlier
+this year, on its <a href="https://datahub.thetrace.org/">Gun Violence
+Data Hub</a>, the publication <a
+href="https://datahub.thetrace.org/dataset/california-ghost-guns-stolen-guns-and-more/">posted
+datasets counting the ghost guns recovered</a> by California law
+enforcement agencies, as well as “firearm-level data on guns reported
+lost or stolen in the state.” [h/t <a
+href="https://bsky.app/profile/amendelson.bsky.social">Aaron
+Mendelson</a>]</p>
+<p> </p>
+<p><strong>US dams.</strong> The <a
+href="https://nid.sec.usace.army.mil/#/">National Inventory of Dams</a>
+“documents all known dams in the U.S. and its territories that meet
+certain criteria” <a
+href="https://nid.sec.usace.army.mil/#/about-the-nid/mission">related</a>
+to the dam’s height, reservoir size, and likely impacts of its “failure
+or mis-operation.” The inventory, maintained by the US Army Corps of
+Engineers since the 1970s, now includes 92,000+ structures. The data —
+available via a <a
+href="https://nid.sec.usace.army.mil/#/dams/search/&amp;viewType=map&amp;resultsType=dams&amp;advanced=false&amp;hideList=false&amp;eventSystem=false">searchable
+map</a>, <a href="https://nid.sec.usace.army.mil/#/downloads">bulk
+downloads</a>, and an <a
+href="https://nid.sec.usace.army.mil/api/developer">API</a> — indicate
+each dam’s name, location, year built, structural characteristics,
+purpose, operational status, and much more. <strong>Previously</strong>:
+<a href="https://www.globaldamwatch.org/database">Global Dam Watch’s
+datasets</a> (<a
+href="https://www.data-is-plural.com/archive/2020-01-29-edition/">DIP
+2020.01.29</a>) and the USGS’s <a
+href="https://www.usgs.gov/national-hydrography/national-hydrography-dataset">National
+Hydrography Dataset</a> (<a
+href="https://www.data-is-plural.com/archive/2022-10-12-edition/">DIP
+2022.10.12</a>).</p>
+<p> </p>
+<p><strong>What the nose knows.</strong> <a
+href="https://www.nature.com/articles/s41597-025-04644-2">Antonie Louise
+Bierling et al.</a> have <a
+href="https://zenodo.org/records/14727277">published a dataset</a> of
+“descriptions, evaluative ratings, and qualitative labels for 74
+chemically diverse mono-molecular odors, rated by a large sample of
+young adults.” <a
+href="https://www.nature.com/articles/s41597-025-04630-8">Another paper
+by Bierling et al.</a> “elicited body odor descriptions from 2,607
+participants across 17 countries and 13 languages” to assemble “<a
+href="https://osf.io/rpzjk/">a standardized lexicon of body odor
+words</a>.” <strong>Related</strong>: The <a
+href="https://pyrfume.org/">Pyrfume Project</a> provides “tools, models,
+and data for odorant-linked research.”</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send scented feedback to
+jsvine@gmail.com, or just reply to this email. // Looking for past
+datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. // Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions.</em></p>
+]]></content:encoded>
+      <guid isPermaLink="false">dip-2025-05-14</guid>
+      <pubDate>Wed, 14 May 2025 08:00:00 -0400</pubDate>
+    </item>
     <item>
       <title>Data Is Plural — 2025.04.30 edition</title>
       <link>http://www.data-is-plural.com/archive/2025-04-30-edition</link>
@@ -1014,124 +1135,6 @@ subscribe and to browse past editions.</em></p>
 ]]></content:encoded>
       <guid isPermaLink="false">dip-2024-10-09</guid>
       <pubDate>Wed, 09 Oct 2024 08:00:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Data Is Plural — 2024.09.25 edition</title>
-      <link>http://www.data-is-plural.com/archive/2024-09-25-edition</link>
-      <description>NYC evictions, open-source weather APIs, tree canopies, Canadian mines, and James Beard honorees.</description>
-      <content:encoded><![CDATA[<p><em>NYC evictions, open-source weather APIs, tree canopies, Canadian
-mines, and James Beard honorees.</em></p>
-<p> </p>
-<p><strong>NYC evictions.</strong> New York City’s government publishes
-a <a
-href="https://data.cityofnewyork.us/City-Government/Evictions/6z8x-wfk4/about_data">dataset
-listing evictions</a> “pending, scheduled and executed” since 2017,
-updated daily. The data are “compiled from the majority of New York City
-Marshals,” who are <a
-href="https://www.nyc.gov/site/doi/offices/nyc-marshals.page">mayor-appointed</a>
-officers <a
-href="https://en.wikipedia.org/wiki/New_York_City_Marshal">tasked with
-enforcing civil court cases</a>. Each of the 97,000+ rows indicates the
-eviction court case number, address, property type, eviction type,
-execution date, and marshal. <strong>Related</strong>: <a
-href="https://data.cityofnewyork.us/City-Government/City-Marshals-Revenue/7ewi-9cdf/about_data">The
-city also publishes data on marshals’ annual eviction revenues</a>.
-<strong>Also related</strong>: <a
-href="https://github.com/nycdb/nycdb">nycdb</a> points to, and helps
-download, a range of NYC housing–related datasets. <strong>As seen
-in</strong>: “<a
-href="https://citylimits.org/2024/08/26/spiking-evictions-renew-calls-to-reform-nyc-marshals-system/">Spiking
-Evictions Renew Calls to Reform NYC Marshals System</a>,” by <a
-href="https://patrickspauster.com/">Patrick Spauster</a> for City
-Limits.</p>
-<p> </p>
-<p><strong>Open-source weather APIs.</strong> <a
-href="https://open-meteo.com/">Open-Meteo</a>, an <a
-href="https://github.com/open-meteo/open-meteo">open-source</a> project
-<a href="https://open-meteo.com/en/about">built on data from national
-weather services</a>, offers a range of <a
-href="https://open-meteo.com/en/features#available-apis">weather and
-climate APIs</a> that are <a
-href="https://open-meteo.com/en/pricing">free for non-commercial
-use</a>. They include <a href="https://open-meteo.com/en/docs/">weather
-forecasts</a> (temperature, humidity, precipitation, wind speed, etc.),
-<a href="https://open-meteo.com/en/docs/historical-weather-api">daily
-historical weather since 1940</a>, <a
-href="https://open-meteo.com/en/docs/climate-api">climate change model
-outputs</a>, <a
-href="https://open-meteo.com/en/docs/marine-weather-api">marine wave
-forecasts</a>, <a
-href="https://open-meteo.com/en/docs/air-quality-api">air quality
-assessments</a>, and more. The project also provides <a
-href="https://github.com/open-meteo/open-data">bulk downloads of the
-underlying data</a> and <a
-href="https://github.com/open-meteo/open-meteo/blob/main/docs/getting-started.md">self-hosting
-instructions</a>. <strong>As seen in</strong>: <a
-href="https://yotka.org/">Jan Kühn</a>’s <a
-href="https://yotka.org/meteo-hist">Historical Meteo Graphs</a>. [h/t <a
-href="https://buttondown.email/puntofisso/archive/532-quantum-of-sollazzo/">Giuseppe
-Sollazzo</a>]</p>
-<p> </p>
-<p><strong>Tree canopies.</strong> The <a
-href="https://github.com/facebookresearch/HighResCanopyHeight">High
-Resolution Canopy Height Maps</a> dataset, <a
-href="https://sustainability.atmeta.com/blog/2024/04/22/using-artificial-intelligence-to-map-the-earths-forests/">released
-in April</a> by Meta and the <a href="https://www.wri.org/about">World
-Resources Institute</a>, estimates “tree canopy height at a 1-meter
-resolution, allowing the detection of single trees at a global scale.”
-It is available to <a
-href="https://meta-forest-monitoring-okw37.projects.earthengine.app/view/canopyheight">explore
-online</a> and <a
-href="https://registry.opendata.aws/dataforgood-fb-forests/">download</a>,
-and was <a
-href="https://www.sciencedirect.com/science/article/pii/S003442572300439X">constructed</a>
-by applying machine learning techniques to satellite imagery and <a
-href="https://en.wikipedia.org/wiki/Lidar">LiDAR</a> data. The estimates
-use satellite imagery mostly from 2018–2020, and “when newer imagery is
-available, the publicly shared model can be used to detect change in
-canopy heights.” [h/t <a
-href="https://www.linkedin.com/posts/benhur07b_bnhr-meta-data-ugcPost-7189501844841291777-7cGt">Ben
-Hur Pintor</a>]</p>
-<p> </p>
-<p><strong>Canadian mines.</strong> Economist <a
-href="https://sites.google.com/view/claradallaire-fortier/home">Clara
-Dallaire-Fortier</a> has <a
-href="https://www.nature.com/articles/s41597-024-03116-3">compiled</a> a
-<a
-href="https://figshare.com/articles/dataset/Principal_Productive_Mines_of_Canada/23740071">dataset</a>
-of “mine-level estimates for the Canadian mining industry with a
-persistent annual coverage between 1950 and 2022,” based partly on
-historical government maps. For each of the 947 mines identified, the
-dataset indicates its name, location, mining companies, dates
-open/closed, and commodities produced. <strong>Previously</strong>: <a
-href="https://research-repository.rmit.edu.au/articles/dataset/A_Comprehensive_Dataset_for_Australian_Mine_Production_1799_to_2021/22724081/2">Australian
-mine production, 1799–2021</a> (<a
-href="https://www.data-is-plural.com/archive/2023-07-12-edition/">DIP
-2023.07.12</a>).</p>
-<p> </p>
-<p><strong>James Beard honorees.</strong> <a
-href="https://codywinchester.com/">Cody Winchester</a> has <a
-href="https://github.com/cjwinchester/james-beard">constructed a
-dataset</a> of <a
-href="https://en.wikipedia.org/wiki/James_Beard_Foundation_Award">James
-Beard Foundation Award</a> semifinalists, nominees, and winners since
-1991, sourced from the <a
-href="https://www.jamesbeard.org/awards/search">foundation’s
-award-search page</a>. For each honoree, the dataset provides their
-name, year, category, subcategory, and award status, plus additional
-category-specific variables (such as publisher for the book awards, and
-location for restaurant and chef awards).</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send gourmet feedback to
-jsvine@gmail.com, or just reply to this email. // Looking for past
-datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. // Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and to browse past editions.</em></p>
-]]></content:encoded>
-      <guid isPermaLink="false">dip-2024-09-25</guid>
-      <pubDate>Wed, 25 Sep 2024 08:00:00 -0400</pubDate>
     </item>
   </channel>
 </rss>
