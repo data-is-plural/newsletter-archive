@@ -6,7 +6,124 @@
     <description>A weekly newsletter of useful/curious datasets.</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>https://github.com/data-is-plural/newsletter-archive</generator>
-    <lastBuildDate>Wed, 14 May 2025 08:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 21 May 2025 08:00:00 -0400</lastBuildDate>
+    <item>
+      <title>Data Is Plural — 2025.05.21 edition</title>
+      <link>http://www.data-is-plural.com/archive/2025-05-21-edition</link>
+      <description>Unemployment insurance, FiveThirtyEight’s public data, corporate contracts, positions of power in Italy, and state formation/dissolution.</description>
+      <content:encoded><![CDATA[<p><em>Unemployment insurance, FiveThirtyEight’s public data, corporate
+contracts, positions of power in Italy, and state
+formation/dissolution.</em></p>
+<p> </p>
+<p><em>👋 Job alert: <a
+href="https://job-boards.greenhouse.io/thenewyorktimes/jobs/4567241005">We’re
+looking to hire another data reporter</a> at The New York Times, with a
+focus on government and politics.</em></p>
+<p> </p>
+<p><strong>Unemployment insurance.</strong> The US Department of Labor’s
+<a href="https://oui.doleta.gov/unemploy/index.asp">Office of
+Unemployment Insurance</a> publishes <a
+href="https://oui.doleta.gov/unemploy/DataDownloads.asp">dozens of
+datasets</a> collected through its coordination of state-administered
+programs. These include quantifications — reported regularly by each
+state — of claimant demographics, denials of eligibility, appeal
+caseloads, overpayments, disaster unemployment assistance, and much
+more. For example: Data from ETA 9050 reports, available monthly and
+going back to the late 1990s, indicate how many of each state’s
+claimants received their first payments within one week, two weeks, et
+cetera. The office also provides a <a
+href="https://oui.doleta.gov/unemploy/chartbook.asp">chartbook</a> and
+various <a
+href="https://oui.doleta.gov/unemploy/DataDashboard.asp">report-generating
+tools</a>.</p>
+<p> </p>
+<p><strong>FiveThirtyEight’s public data.</strong> ABC News <a
+href="https://www.niemanlab.org/2025/03/fivethirtyeight-is-shutting-down-as-part-of-broader-cuts-at-abc-and-disney/">shut
+down</a> <a
+href="https://en.wikipedia.org/wiki/FiveThirtyEight">FiveThirtyEight</a>
+earlier this year. Datasets built and collected by the publication were
+featured often in this newsletter. (For part of 2022, FiveThirtyEight
+also <a href="https://fivethirtyeight.com/tag/data-is-plural/">paid to
+republish Data Is Plural</a>.) Its still-available <a
+href="https://github.com/fivethirtyeight/data">data repository</a>
+contains 160+ subdirectories, covering sports predictions, <a
+href="https://github.com/fivethirtyeight/data/tree/master/cabinet-turnover">presidential
+cabinet turnover</a>, <a
+href="https://github.com/fivethirtyeight/data/tree/master/puerto-rico-media">media
+mentions</a>, surveys on <a
+href="https://github.com/fivethirtyeight/data/tree/master/comma-survey">comma
+usage</a> and <a
+href="https://github.com/fivethirtyeight/data/tree/master/steak-survey">steak
+preferences</a>, the <a
+href="https://github.com/fivethirtyeight/data/tree/master/bechdel">Bechdel
+Test</a>, <a
+href="https://github.com/fivethirtyeight/data/tree/master/scrabble-games">competitive
+Scrabble</a>, and much more. [h/t <a
+href="https://tulpinteractive.com/">Jan Willem Tulp</a>]</p>
+<p> </p>
+<p><strong>Corporate contracts.</strong> <a
+href="https://arxiv.org/abs/2504.02864">Peter Adelson and Julian
+Nyarko</a>’s <a href="https://mcc.law.stanford.edu/">Material Contracts
+Corpus</a> contains “over one million contracts filed by public
+companies with the U.S. Securities and Exchange Commission (SEC) between
+2000 and 2023,” which the authors collected from the SEC’s <a
+href="https://www.sec.gov/search-filings/edgar-search-assistance/accessing-edgar-data">EDGAR
+filings database</a>. In addition to the text of the contracts, the
+dataset provides metadata — including party names and contract types —
+extracted from the documents using machine-learning techniques. The
+dataset is available to <a
+href="https://mcc.law.stanford.edu/download/contracts/">download in
+bulk</a> and <a href="https://mcc.law.stanford.edu/search/">search
+online</a>. [h/t <a
+href="https://www.linkedin.com/in/alice-kalinowski-61273484/">Alice
+Kalinowski</a>]</p>
+<p> </p>
+<p><strong>Who runs Italy?</strong> <a
+href="https://infonodes.org/sesso-%C3%A8-potere">Sesso è Potere</a>, an
+ongoing project from <a href="https://www.infonodes.org/">info.nodes</a>
+and <a href="https://www.ondata.it/">onData</a>, examines gender
+representation in positions of power in Italy. The <a
+href="https://drive.google.com/file/d/15NPjII-W5_yFpBVJLyEVYk1GUsK2v64e/view">2025
+report</a> draws on <a
+href="https://github.com/ondata/sesso-e-potere/tree/main/dati/2025">individual-level
+datasets of leaders</a> in politics (national lawmakers, ambassadors,
+regional legislators, mayors, city council members, etc.), business,
+media, higher education, and other fields. <strong>Read more</strong>:
+The project’s <a
+href="https://irp.cdn-website.com/6c73ff89/files/uploaded/MARLA%20sesso%20e%20potere%202023%2027%2011.pdf">2023</a>,
+<a href="https://www.infonodes.org/sessoepotere22">2022</a>, and <a
+href="https://www.infonodes.org/sessoepotere2021">2021</a> reports. [h/t
+<a
+href="https://datibenecomune.substack.com/p/sesso-e-potere">Liberiamoli
+Tutti</a>]</p>
+<p> </p>
+<p><strong>Long- and short-lived states.</strong> <a
+href="https://www.pnas.org/doi/10.1073/pnas.2218834120">Marten Scheffer
+et al.</a>’s Mortality of States Index “documents commonly agreed state
+formation and end dates for over 440 different states, covering
+approximately 5,000 years from 3100 BCE (Egyptian Dynasties I and II) to
+2021.” The <a
+href="https://www.pnas.org/doi/10.1073/pnas.2218834120#supplementary-materials">data</a>
+— built from sources including <a
+href="https://seshat-db.com/">Seshat</a>, the <a
+href="https://correlatesofwar.org/">Correlates of War Project</a>, and
+<a
+href="https://onlinelibrary.wiley.com/doi/book/10.1002/9781118455074">The
+Encyclopedia of Empire</a> — “cover a broad set of entities ranging from
+persistent empires to fleeting polities such as the Maukhari dynasty of
+Northern India or multiple Khaganates that lasted under a century.”</p>
+<p> </p>
+<p><em>Dataset suggestions? Criticism? Praise? Send fleeting feedback to
+jsvine@gmail.com, or just reply to this email. // Looking for past
+datasets? <a
+href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
+spreadsheet contains them all</a>. // Visit <a
+href="https://www.data-is-plural.com">data-is-plural.com</a> to
+subscribe and to browse past editions.</em></p>
+]]></content:encoded>
+      <guid isPermaLink="false">dip-2025-05-21</guid>
+      <pubDate>Wed, 21 May 2025 08:00:00 -0400</pubDate>
+    </item>
     <item>
       <title>Data Is Plural — 2025.05.14 edition</title>
       <link>http://www.data-is-plural.com/archive/2025-05-14-edition</link>
@@ -1022,119 +1139,6 @@ subscribe and to browse past editions.</em></p>
 ]]></content:encoded>
       <guid isPermaLink="false">dip-2024-10-23</guid>
       <pubDate>Wed, 23 Oct 2024 08:00:00 -0400</pubDate>
-    </item>
-    <item>
-      <title>Data Is Plural — 2024.10.09 edition</title>
-      <link>http://www.data-is-plural.com/archive/2024-10-09-edition</link>
-      <description>Disability claims processing, evapotranspiration, fuel forecasts, trash balloons, and Anglo-Saxons on record.</description>
-      <content:encoded><![CDATA[<p><em>Disability claims processing, evapotranspiration, fuel forecasts,
-trash balloons, and Anglo-Saxons on record.</em></p>
-<p> </p>
-<p><em>👋 Job alert: <a
-href="https://nytimes.wd5.myworkdayjobs.com/NYT/job/New-York-NY/Reporter--Data--Data-Journalism-Team_REQ-017278-1">I’m
-hiring three data reporters at The New York Times to collaborate across
-the newsroom</a>. Follow that link for details and feel free to email me
-with any questions.</em></p>
-<p> </p>
-<p><strong>Disability claims processing.</strong> The Social Security
-Administration publishes <a
-href="https://www.ssa.gov/disability/data/ssa-sa-mowl.htm">monthly</a>
-and <a
-href="https://www.ssa.gov/disability/data/ssa-sa-fywl.htm">annual</a>
-datasets tracking each state agency’s progress <a
-href="https://www.ssa.gov/disability/determination.htm">processing</a>
-disability claims. The datasets, which go back to October 2000, count
-the number of initial claims received, pending, determined, and approved
-by each agency during each period, as well as similar breakdowns for
-denial reconsiderations and <a
-href="https://www.ssa.gov/ssi/text-cdrs-ussi.htm">continuing disability
-reviews</a>. The administration’s <a
-href="https://www.ssa.gov/open/data/">extensive catalog of public
-datasets</a> also includes several that measure the waiting involved,
-such as <a
-href="https://www.ssa.gov/open/data/Combined-Disability-Processing-Time.html">monthly
-average initial claim processing times</a>, <a
-href="https://www.ssa.gov/open/data/disability_reconsideration_average_processing_time.html">average
-wait times for reconsiderations</a>, and <a
-href="https://www.ssa.gov/appeals/DataSets/01_NetStat_Report.html">wait
-times for administrative hearings</a>. <strong>As seen in</strong>: “<a
-href="https://usafacts.org/data-projects/disability-benefit-wait-time">Wait
-times for Social Security disability benefit decisions reach new
-high</a>” (USAFacts).</p>
-<p> </p>
-<p><strong>Evapotranspiration.</strong> With the goal of “filling the
-biggest data gap in water management,” the <a
-href="https://etdata.org/">OpenET</a> project <a
-href="https://etdata.org/methodologies/">uses satellite imagery</a>,
-weather data, and other sources to estimate the volume of <a
-href="https://etdata.org/faq/">evapotranspiration</a> — “the process by
-which water is transferred from the land to the atmosphere” — at a
-30-meter resolution across 17 states in the western US. The results are
-available to <a href="https://explore.etdata.org/">explore via an online
-map</a> of annual cumulative evapotranspiration (2019–2024), as <a
-href="https://openet.gitbook.io/docs/additional-resources/data-archives">monthly
-datasets via Earth Engine</a>, and <a
-href="https://openet.gitbook.io/docs">through an API</a>. [h/t <a
-href="https://schedules.ire.org/nicar-2024/index.html#1050">Mira
-Rojanasakul</a>]</p>
-<p> </p>
-<p><strong>Fuel forecasts.</strong> The US Energy Information
-Administration’s monthly <a
-href="https://www.eia.gov/outlooks/steo/">Short-Term Energy Outlook</a>
-provides forecasts and recent trends of energy supply, consumption,
-prices, and inventory. It covers a range of commodities and electricity
-sources, such as crude oil, coal, natural gas, gasoline, renewables, and
-nuclear. Starting with its September 2024 report, the outlooks have also
-<a href="https://www.eia.gov/todayinenergy/detail.php?id=63384">begun to
-include more detailed data on biofuels</a>, available in <a
-href="https://www.eia.gov/outlooks/steo/data/browser/#/?v=11">Table
-4d</a> of its <a
-href="https://www.eia.gov/outlooks/steo/data.php">structured
-datasets</a>.</p>
-<p> </p>
-<p><strong>Trash balloons.</strong> Since May of this year, North Korea
-has floated thousands of trash-carrying balloons into South Korea. A
-team from the <a href="https://www.csis.org/">Center for Strategic and
-International Studies</a>’ <a
-href="https://beyondparallel.csis.org/about/">Beyond Parallel</a>
-project has <a
-href="https://beyondparallel.csis.org/map-of-north-koreas-garbage-filled-balloons/">mapped
-160+ known balloon landing locations</a>, based on public sources. The
-map’s downloadable data indicates the each landing’s date, associated
-“wave,” coordinates, location name, and province. <strong>As seen
-in</strong>: <a
-href="https://www.reuters.com/graphics/NORTHKOREA-SOUTHKOREA/TRASH/klvynygmjpg/">Reuters’
-visually immersive article on the topic</a>. [h/t <a
-href="https://fairwarning.substack.com/p/vienna-where-worlds-collided">Soph
-Warnes</a>]</p>
-<p> </p>
-<p><strong>Anglo-Saxons on record.</strong> The <a
-href="https://pase.ac.uk/">Prosopography of Anglo-Saxon England</a>
-project “aims to provide structured information relating to all the
-recorded inhabitants of England from the late sixth to the late eleventh
-century.” Built over (relatively less) time by <a
-href="https://pase.ac.uk/about/introduction/">several teams</a> at UK
-universities, PASE is “based on a systematic examination of the
-available written sources for the period, including chronicles, saints’
-<em>Lives</em>, charters, <em>libri vitae</em>, inscriptions, Domesday
-Book and coins.” The <a
-href="https://en.wikipedia.org/wiki/Domesday_Book">Domesday</a>-focused
-<a href="https://pase.ac.uk/domesday/">portion of the project</a>
-features a downloadable table of 17,000+ landholders from that
-manuscript, listing their name (where known), gender, description, value
-of holdings, and linking to details about those holdings. [h/t <a
-href="http://knosof.co.uk/ESEUR/">Derek M. Jones</a>]</p>
-<p> </p>
-<p><em>Dataset suggestions? Criticism? Praise? Send prosopographical
-feedback to jsvine@gmail.com, or just reply to this email. // Looking
-for past datasets? <a
-href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">This
-spreadsheet contains them all</a>. // Visit <a
-href="https://www.data-is-plural.com">data-is-plural.com</a> to
-subscribe and to browse past editions.</em></p>
-]]></content:encoded>
-      <guid isPermaLink="false">dip-2024-10-09</guid>
-      <pubDate>Wed, 09 Oct 2024 08:00:00 -0400</pubDate>
     </item>
   </channel>
 </rss>
